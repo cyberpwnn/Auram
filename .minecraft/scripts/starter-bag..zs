@@ -1,3 +1,10 @@
+#modloaded initialinventory
+#modloaded usefulbackpacks
+#modloaded astralsorcery
+#modloaded yurtmod
+#modloaded tconstruct
+#modloaded quark
+
 mods.initialinventory.InvHandler.addStartingItem(<usefulbackpacks:backpack:1>.withTag({display: {color: 16351261, Name: "Travel Bag"}, Items: [
     {Slot: 0 as byte, ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "yurtmod:mallet", Count: 1 as byte, Damage: 0 as short}, 
     {Slot: 1 as byte, ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "yurtmod:tent", Count: 1 as byte, tag: {TentData: {TentColor: 0, TentType: 1 as byte, WidthCur: 2 as byte, DepthCur: 0 as byte, ID: -32768 as long}}, Damage: 0 as short}, 
