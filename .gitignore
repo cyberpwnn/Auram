@@ -1,0 +1,8 @@
+
+.minecraft/.mixin.out/
+
+.minecraft/asm/
+
+.minecraft/astralsorcery/
+
+*.errored
