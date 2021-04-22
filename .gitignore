@@ -30,3 +30,7 @@
 .minecraft/ExtraBotanyVars.dat
 
 .minecraft/logs/
+
+.minecraft/mods/memory_repo/
+
+.minecraft/mods/OpenTerrainGenerator/
