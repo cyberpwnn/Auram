@@ -6,3 +6,25 @@
 .minecraft/astralsorcery/
 
 *.errored
+
+.minecraft/journeymap/data/
+
+.minecraft/journeymap/server/
+
+*.log
+
+.minecraft/.ReAuth.cfg
+
+.minecraft/BotaniaVars.dat
+
+.minecraft/OpenComputersMod-1.7.5.192-lua52-native.64.dll
+
+.minecraft/OpenComputersMod-1.7.5.192-lua53-native.64.dll
+
+.minecraft/usercache.json
+
+.minecraft/usernamecache.json
+
+.minecraft/patchouli_data.json
+
+.minecraft/ExtraBotanyVars.dat
