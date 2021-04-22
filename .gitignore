@@ -34,3 +34,9 @@
 .minecraft/mods/memory_repo/
 
 .minecraft/mods/OpenTerrainGenerator/
+
+.minecraft/saves/
+
+.minecraft/config/BlockDrops/modVersions.txt
+
+.minecraft/config/AppliedEnergistics2/items.csv
