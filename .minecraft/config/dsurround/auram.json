@@ -1,21 +1,55 @@
 {
     "biomes": [
         {
-            "conditions": "biome.name == 'Deceitful Bog'",
-            "aurora": true,
-            "fog": true,
-            "fogDensity": 0.9,
-            "fogColor": "255,0,0",
-            "sounds": [
+            "conditions": "biome.name == 'deceitful_bog'",
+            "aurora": false,
+            "fog": false,
+            "precipitation": false,
+            "soundReset": true
+        },
+        {
+            "conditions": "biome.name == 'warped_fields'",
+            "aurora": false,
+            "fog": false,
+            "precipitation": false,
+            "soundReset": true
+        },
+        {
+            "conditions": "biome.name == 'crystal_spires'",
+            "aurora": false,
+            "fog": false,
+            "precipitation": false,
+            "soundReset": true
+        },
+        {
+            "spotSoundChance": 100,
+            "conditions": "biome.name == 'Sand Plains'",
+            "aurora": false,
+            "fog": false,
+            "precipitation": false,
+            "soundReset": true,
+            "sounds":[
                 {
-				"sound": "dsurround:crickets",
-				"conditions": "weather.isNotRaining && isNight"
-			}
+				"sound": "dsurround:insectcrawl",
+                "spot": true
+			},
+            {
+                "sound": "dsurround:desert.wind"
+            }
             ]
         }
     ],
     "blocks": [],
-    "dimensions": [],
+    "dimensions": [
+        {
+            "$comment": "The Midnight",
+            "dimId": -23,
+            "weather": false,
+            "haze": true,
+            "aurora": false,
+            "seaLevel": 70
+        }
+    ],
     "footsteps": {},
     "forgeMappings": []
 }
