@@ -50,7 +50,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<minecraft:redstone>, <botania:manaresource:1>, <minecraft:redstone>],
     [<minecraft:redstone>, <mekanism:controlcircuit>, <minecraft:redstone>],
-    [<mekanism:enrichedalloy>, <minecraft:redstone>, <mekanism:enrichedalloy>]])
+    [<mekanism:enrichedalloy>, <botania:manaresource:5>, <mekanism:enrichedalloy>]])
   .addTool(<ore:artisansSolderer>, 1)
   .addOutput(<mekanism:controlcircuit:1> * 4)
   .create();
