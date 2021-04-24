@@ -94,8 +94,6 @@ key_Toggle Freeze Effect:0
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:45
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -114,6 +112,8 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -150,6 +150,7 @@ key_Difficulty Meter - Show Always:49:SHIFT
 key_keys.servertabinfo.show:29
 key_keys.servertabinfo.show2:157
 key_key.toastcontrol.clear:36
+key_veinminer.key.enable:-96
 key_walljump.key.walljump:42
 key_key.open_wft.desc:0
 key_key.open_wit.desc:0
@@ -209,7 +210,6 @@ key_key.plustic_mots.desc:13:ALT
 key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_key.control:29
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
@@ -226,6 +226,7 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
+key_key.control:29
 key_Profile GUI:210
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
