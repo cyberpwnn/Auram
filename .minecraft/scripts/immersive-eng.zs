@@ -76,8 +76,9 @@ RecipeBuilder.get("engineer")
   .addOutput(<mekanism:controlcircuit:1> * 4)
   .create();
 
-//-----------------------ELITE-----------------------
-//Mekanism ELITE plate x4 (BOTANIA)
+
+  //-----------------------ELITE-----------------------
+  //Mekanism ELITE plate x4 (BOTANIA)
 RecipeBuilder.get("engineer")
   .setShaped([
     [<botania:manaresource>, <mekanism:ingot:1>, <botania:manaresource>],
@@ -88,7 +89,7 @@ RecipeBuilder.get("engineer")
   .addOutput(<mekanism:controlcircuit:2> * 4)
   .create();
 
-//Mekanism ELITE plate x4 (THAUM)
+  //Mekanism ELITE plate x4 (THAUM)
 RecipeBuilder.get("engineer")
   .setShaped([
     [<thaumcraft:mechanism_simple>, <mekanism:ingot:1>, <thaumcraft:mechanism_simple>],
@@ -99,7 +100,7 @@ RecipeBuilder.get("engineer")
   .addOutput(<mekanism:controlcircuit:2> * 4)
   .create();
 
-//Mekanism ELITE plate x4 (EMBERS)
+  //Mekanism ELITE plate x4 (EMBERS)
 RecipeBuilder.get("engineer")
   .setShaped([
     [<embers:glimmer_shard>.withTag({light: 800}), <mekanism:ingot:1>, <embers:glimmer_shard>.withTag({light: 800})],
@@ -111,8 +112,8 @@ RecipeBuilder.get("engineer")
   .create();
   
 
-//-----------------------ELITE-----------------------
-//Mekanism ULTIMATE plate x4 (BOTANIA)
+    //-----------------------ELITE-----------------------
+  //Mekanism ULTIMATE plate x4 (BOTANIA)
   RecipeBuilder.get("engineer")
   .setShaped([
     [<botania:manaresource:4>, <minecraft:redstone>, <botania:manaresource:4>],
@@ -123,7 +124,7 @@ RecipeBuilder.get("engineer")
   .addOutput(<mekanism:controlcircuit:3> * 4)
   .create();
 
-//Mekanism ULTIMATE plate x4 (THAUM)
+  //Mekanism ULTIMATE plate x4 (THAUM)
 RecipeBuilder.get("engineer")
   .setShaped([
     [<thaumcraft:ingot:1>, <thaumcraft:salis_mundus>, <thaumcraft:ingot:1>],
@@ -134,7 +135,7 @@ RecipeBuilder.get("engineer")
   .addOutput(<mekanism:controlcircuit:3> * 4)
   .create();
 
-//Mekanism ULTIMATE plate x4 (EMBERS)
+  //Mekanism ULTIMATE plate x4 (EMBERS)
   RecipeBuilder.get("engineer")
   .setShaped([
     [<embers:shifting_scales>, <embers:wildfire_core>, <embers:shifting_scales>],
