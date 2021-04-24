@@ -3,7 +3,9 @@
   "questDatabase:9": {
     "0:10": {
       "questID:3": 0,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -81,7 +83,9 @@
     },
     "1:10": {
       "questID:3": 1,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -284,7 +288,9 @@
     },
     "2:10": {
       "questID:3": 2,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -492,7 +498,9 @@
     },
     "3:10": {
       "questID:3": 3,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -819,7 +827,9 @@
     },
     "5:10": {
       "questID:3": 5,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1021,8 +1031,41 @@
       }
     },
     "6:10": {
-      "questID:3": 7,
+      "questID:3": 6,
       "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "divergentunderground:rock_sandstone",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "What is this place?",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {}
+    },
+    "7:10": {
+      "questID:3": 7,
+      "preRequisites:11": [
+        6
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1228,50 +1271,57 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 0,
+          "x:3": -36,
+          "y:3": 36,
           "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 60,
+          "x:3": -108,
+          "y:3": 84,
           "id:3": 1,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": 0,
-          "y:3": 36,
+          "x:3": -132,
+          "y:3": 84,
           "id:3": 2,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": 0,
+          "x:3": -84,
           "y:3": 84,
           "id:3": 3,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": 36,
-          "y:3": 0,
+          "x:3": 12,
+          "y:3": 36,
           "id:3": 4,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 72,
+          "x:3": -36,
+          "y:3": 84,
           "id:3": 5,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": 24,
-          "y:3": 48,
+          "x:3": -84,
+          "y:3": 36,
+          "id:3": 6,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -60,
+          "y:3": 84,
           "id:3": 7,
           "sizeY:3": 24
         }
@@ -1302,7 +1352,7 @@
       "home_anchor_y:5": 0.0,
       "livesmax:3": 10,
       "home_anchor_x:5": 0.5,
-      "editmode:1": 0,
+      "editmode:1": 1,
       "hardcore:1": 0,
       "home_image:8": "betterquesting:textures/gui/default_title.png",
       "party_enable:1": 1,

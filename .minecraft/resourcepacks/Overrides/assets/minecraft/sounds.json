@@ -1,0 +1,103 @@
+{
+  "block.ladder.break": {
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.wood.break": {
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.break"
+  },
+  "block.wood.fall": {
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ]
+  },
+  "block.wood.hit": {
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.hit"
+  },
+  "ui.toast.in": {
+    "sounds": [
+      {
+        "name": "ui/toast/in",
+        "volume": 0.8
+      }
+    ]
+  },
+  "ui.toast.out": {
+    "sounds": [
+      {
+        "name": "ui/toast/out",
+        "volume": 0.8
+      }
+    ]
+  },
+  "ui.toast.challenge_complete": {
+    "sounds": [
+      {
+        "name": "ui/toast/challenge_complete",
+        "volume": 0.8
+      }
+    ]
+  },
+  "entity.player.levelup": {
+    "sounds": [
+      {
+        "name": "random/levelup",
+        "volume": 1.9
+      }
+    ],
+    "subtitle": "subtitles.entity.player.levelup"
+  },
+  "block.wood.place": {
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.block.generic.place"
+  },
+  "block.wood.step": {
+    "sounds": [
+      "step/wood1",
+      "step/wood2",
+      "step/wood3",
+      "step/wood4",
+      "step/wood5",
+      "step/wood6"
+    ],
+    "subtitle": "subtitles.block.generic.footsteps"
+  },
+  "entity.armorstand.fall": {
+    "sounds": [
+      "dig/wood1",
+      "dig/wood2",
+      "dig/wood3",
+      "dig/wood4"
+    ],
+    "subtitle": "subtitles.entity.armorstand.fall"
+  }
+}
