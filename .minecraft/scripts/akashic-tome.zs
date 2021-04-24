@@ -83,6 +83,14 @@ var completeTome = <akashictome:tome>.withTag(
                 "akashictome:definedMod": "conarm"
             },
             Damage: 0 as short
+        },
+        opencomputers: {
+            id: "opencomputers:tool:4",
+            Count: 1 as byte,
+            tag: {
+                "akashictome:definedMod": "opencomputers"
+            },
+            Damage: 0 as short
         }
     }
 });
@@ -105,6 +113,7 @@ var addedBooks = [
     <embers:codex>, 
     <practicallogistics2:plguide>,
     <conarm:book>,
+    <opencomputers:tool:4>,
     ] as IItemStack[];
 
 for itemBook in addedBooks {
