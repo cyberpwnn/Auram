@@ -111,7 +111,6 @@ var addedBooks = [
     <guideapi:bloodmagic-guide>, 
     <wizardry:book>, 
     <embers:codex>, 
-    <practicallogistics2:plguide>,
     <conarm:book>,
     <opencomputers:tool:4>,
     ] as IItemStack[];
