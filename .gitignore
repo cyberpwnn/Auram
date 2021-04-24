@@ -42,3 +42,5 @@
 .minecraft/config/AppliedEnergistics2/items.csv
 
 natives/
+
+.minecraft/crash-reports/
