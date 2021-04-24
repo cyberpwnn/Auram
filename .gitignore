@@ -44,3 +44,7 @@
 natives/
 
 .minecraft/crash-reports/
+
+.minecraft/config/customloadingscreen_timings.nbt
+
+.minecraft/config/brandon3055/contributors.json
