@@ -1,4 +1,5 @@
 #modloaded tconstruct quark usefulbackpacks yurtmod astralsorcery initialinventory
+#disable_search_tree
 
 mods.initialinventory.InvHandler.addStartingItem(<usefulbackpacks:backpack:1>.withTag({display: {color: 16351261, Name: "Travel Bag"}, Items: [
     {Slot: 0 as byte, ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "yurtmod:super_mallet", Count: 1 as byte, Damage: 0 as short}, 

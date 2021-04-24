@@ -1,4 +1,5 @@
 #loader contenttweaker
+#disable_search_tree
 
 import mods.contenttweaker.Item;
 import crafttweaker.game.IGame;

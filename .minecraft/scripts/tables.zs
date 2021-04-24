@@ -1,4 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
+#disable_search_tree
 
 // Mechanical Toolbox
 RecipeBuilder.get("engineer")

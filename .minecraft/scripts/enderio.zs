@@ -1,4 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
+#disable_search_tree
 
 RecipeBuilder.get("mage")
   .setShaped([

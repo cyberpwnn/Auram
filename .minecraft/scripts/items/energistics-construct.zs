@@ -1,10 +1,8 @@
 #loader contenttweaker
+#disable_search_tree
 
 import mods.contenttweaker.Item;
 import crafttweaker.game.IGame;
-
-
-
 
 var ac = mods.contenttweaker.VanillaFactory.createItem("energisticsconstruct");
 ac.maxStackSize = 64;
