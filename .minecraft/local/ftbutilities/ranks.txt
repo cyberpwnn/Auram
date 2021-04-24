@@ -1,11 +1,28 @@
 // For more info visit https://faq.ftb.world/books/ftb-utilities/page/ranks
 
 [player]
+ftbutilities.chat.name_format: <&b&lTraveler {name}&r>
 default_player_rank: true
-power: 1
-example.permission: true
-example.other_permission: false
-example.permission_with_value: 0
+ftbutilities.back.cooldown: 0s
+ftbutilities.back.home: true
+ftbutilities.back.infinite: true
+ftbutilities.back.respawn: true
+ftbutilities.back.rtp: true
+ftbutilities.back.spawn: true
+ftbutilities.back.tpa: true
+ftbutilities.back.warmup: 0s
+ftbutilities.back.warp: true
+ftbutilities.back.back: true
+ftbutilities.homes.cooldown: 0s
+ftbutilities.homes.max: 1000
+ftbutilities.homes.warmup: 0s
+ftbutilities.rtp.warmup: 0s
+ftbutilities.spawn.cooldown: 0s
+ftbutilities.spawn.warmup: 0s
+ftbutilities.tpa.cooldown: 0s
+ftbutilities.tpa.warmup: 0s
+ftbutilities.warps.cooldown: 0s
+ftbutilities.warps.warmup: 0s
 
 [vip]
 power: 20
@@ -16,5 +33,26 @@ example.permission_with_value: 15
 [admin]
 default_op_rank: true
 power: 100
-ftbutilities.chat.name_format: <&2{name}&r>
+ftbutilities.chat.name_format: <&2{name}&r>ftbutilities.chat.name_format: <&b&lTraveler {name}&r>
+default_player_rank: true
+ftbutilities.back.cooldown: 0s
+ftbutilities.back.home: true
+ftbutilities.back.infinite: true
+ftbutilities.back.respawn: true
+ftbutilities.back.rtp: true
+ftbutilities.back.spawn: true
+ftbutilities.back.tpa: true
+ftbutilities.back.warmup: 0s
+ftbutilities.back.warp: true
+ftbutilities.back.back: true
+ftbutilities.homes.cooldown: 0s
+ftbutilities.homes.max: 1000
+ftbutilities.homes.warmup: 0s
+ftbutilities.rtp.warmup: 0s
+ftbutilities.spawn.cooldown: 0s
+ftbutilities.spawn.warmup: 0s
+ftbutilities.tpa.cooldown: 0s
+ftbutilities.tpa.warmup: 0s
+ftbutilities.warps.cooldown: 0s
+ftbutilities.warps.warmup: 0s
 example.permission_with_value: 100
