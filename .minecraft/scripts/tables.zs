@@ -100,3 +100,69 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:7>)
   .create();
+
+// Scribes Worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>],
+    [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
+    [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:worktable:8>)
+  .create();
+
+// Chemists Worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:glass_bottle>, <minecraft:paper>, <minecraft:glass_bottle>],
+    [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
+    [<minecraft:glass_bottle>, <minecraft:blaze_powder>, <minecraft:glass_bottle>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:worktable:9>)
+  .create();
+
+// Farmers Worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:fence>, <minecraft:paper>, <minecraft:fence>],
+    [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
+    [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:worktable:10>)
+  .create();
+
+// Chefs Worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:brick>, <minecraft:paper>, <minecraft:brick>],
+    [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
+    [<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:worktable:11>)
+  .create();
+
+// Potters Worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:brick>, <minecraft:paper>, <minecraft:brick>],
+    [<minecraft:brick>, <artisanworktables:worktable:5>, <minecraft:brick>],
+    [<minecraft:flower_pot>, <minecraft:flower_pot>, <minecraft:flower_pot>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:worktable:14>)
+  .create();
+
+// Tanners Worktable
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:leather>, <minecraft:paper>, <minecraft:leather>],
+    [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
+    [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:worktable:13>)
+  .create();
