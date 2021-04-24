@@ -1,0 +1,21 @@
+{
+    "biomes": [
+        {
+            "conditions": "biome.name == 'Deceitful Bog'",
+            "aurora": true,
+            "fog": true,
+            "fogDensity": 0.9,
+            "fogColor": "255,0,0",
+            "sounds": [
+                {
+				"sound": "dsurround:crickets",
+				"conditions": "weather.isNotRaining && isNight"
+			}
+            ]
+        }
+    ],
+    "blocks": [],
+    "dimensions": [],
+    "footsteps": {},
+    "forgeMappings": []
+}
