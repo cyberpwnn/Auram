@@ -1,5 +1,25 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
+// Mechanical Toolbox
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<minecraft:redstone>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:redstone>],
+    [<conarm:armor_plate>.withTag({Material: "wood"}), <artisanworktables:toolbox>, <conarm:armor_plate>.withTag({Material: "wood"})],
+    [<thermalfoundation:material:24>, <conarm:armor_plate>.withTag({Material: "wood"}), <thermalfoundation:material:24>]])
+  .addTool(<ore:artisansDriver>, 1)
+  .addOutput(<artisanworktables:mechanical_toolbox>)
+  .create();
+
+// Toolbox
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:fence>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:fence>],
+    [<conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:chest>, <conarm:armor_plate>.withTag({Material: "wood"})],
+    [<minecraft:fence>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:fence>]])
+  .addTool(<ore:artisansDriver>, 1)
+  .addOutput(<artisanworktables:toolbox>)
+  .create();
+
 // Basic Worktable
 recipes.addShaped(<artisanworktables:worktable:5>, [[null, <minecraft:paper>, null],[<minecraft:paper>, <minecraft:crafting_table>, <minecraft:paper>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
 
