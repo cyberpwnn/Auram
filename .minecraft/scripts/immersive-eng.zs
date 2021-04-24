@@ -3,145 +3,433 @@ import mods.artisanworktables.builder.RecipeBuilder;
 #modloaded botania mekanism thaumcraft embers
 
 //REMOVE BASES
-recipes.remove(<mekanism:controlcircuit>);
-recipes.remove(<mekanism:controlcircuit:1>);
-recipes.remove(<mekanism:controlcircuit:2>);
-recipes.remove(<mekanism:controlcircuit:3>);
+recipes.remove(<immersiveengineering:wirecoil>);
+recipes.remove(<immersiveengineering:wirecoil:1>);
+recipes.remove(<immersiveengineering:wirecoil:2>);
+recipes.remove(<immersiveengineering:wirecoil:5>);
+recipes.remove(<immersiveengineering:wirecoil:6>);
+recipes.remove(<immersiveengineering:wirecoil:7>);
+//bp
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "components"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}));
+recipes.remove(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}));
 
 
 
-//-------------------------BASIC-------------------------
-//Mekanism BASIC plate x4 (BOTANIA)
-RecipeBuilder.get("engineer")
+//------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------WIRES------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
+
+//-------------------------COPPER WIRES-------------------------
+//IE Wires x8 (Thaumcraft)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<botania:manaresource>, <minecraft:redstone>, <botania:manaresource>],
-    [<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>],
-    [<botania:manaresource>, <minecraft:redstone>, <botania:manaresource>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<mekanism:controlcircuit> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:20>, <minecraft:stick>],
+    [<immersiveengineering:material:20>, <thaumcraft:ingot:2>, <immersiveengineering:material:20>],
+    [<minecraft:stick>, <immersiveengineering:material:20>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil> * 8)
+  .create();
+
+//IE Wires x8 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <immersiveengineering:material:20>, <minecraft:stick>],
+    [<immersiveengineering:material:20>, <botania:manaresource>, <immersiveengineering:material:20>],
+    [<minecraft:stick>, <immersiveengineering:material:20>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil> * 8)
+  .create();
+
+//IE Wires x8 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <immersiveengineering:material:20>, <minecraft:stick>],
+    [<immersiveengineering:material:20>, <embers:crystal_ember>, <immersiveengineering:material:20>],
+    [<minecraft:stick>, <immersiveengineering:material:20>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil> * 8)
   .create();
 
 
-//Mekanism BASIC plate x4 (THAUM)
-  RecipeBuilder.get("engineer")
+//-----------------------ELECTRUM WIRES-----------------------
+//IE Wires x8 (Thaumcraft)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<thaumcraft:ingot:2>, <minecraft:redstone>, <thaumcraft:ingot:2>],
-    [<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>],
-    [<thaumcraft:ingot:2>, <minecraft:redstone>, <thaumcraft:ingot:2>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<mekanism:controlcircuit> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:21>, <minecraft:stick>],
+    [<immersiveengineering:material:21>, <thaumcraft:ingot:2>, <immersiveengineering:material:21>],
+    [<minecraft:stick>, <immersiveengineering:material:21>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:1> * 8)
+  .create();
+
+//IE Wires x8 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <immersiveengineering:material:21>, <minecraft:stick>],
+    [<immersiveengineering:material:21>, <botania:manaresource>, <immersiveengineering:material:21>],
+    [<minecraft:stick>, <immersiveengineering:material:21>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:1> * 8)
+  .create();
+
+//IE Wires x8 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <immersiveengineering:material:21>, <minecraft:stick>],
+    [<immersiveengineering:material:21>, <embers:crystal_ember>, <immersiveengineering:material:21>],
+    [<minecraft:stick>, <immersiveengineering:material:21>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:1> * 8)
   .create();
 
 
-//Mekanism BASIC plate x4 (EMBERS)
-  RecipeBuilder.get("engineer")
+//-----------------------HV WIRES-----------------------
+//IE Wires x8 (Thaumcraft)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<embers:shard_ember>, <minecraft:redstone>, <embers:shard_ember>],
-    [<minecraft:redstone>, <mekanism:ingot:1>, <minecraft:redstone>],
-    [<embers:shard_ember>, <minecraft:redstone>, <embers:shard_ember>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<mekanism:controlcircuit> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>],
+    [<immersiveengineering:material:23>, <thaumcraft:ingot:2>, <immersiveengineering:material:23>],
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:2> * 8)
   .create();
 
-
-//-----------------------ADVANCED-----------------------
-//Mekanism ADVANCED plate x4 (BOTANIA)
-  RecipeBuilder.get("engineer")
+//IE Wires x8 (Botania)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<minecraft:redstone>, <botania:manaresource:1>, <minecraft:redstone>],
-    [<minecraft:redstone>, <mekanism:controlcircuit>, <minecraft:redstone>],
-    [<mekanism:enrichedalloy>, <minecraft:redstone>, <mekanism:enrichedalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<mekanism:controlcircuit:1> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>],
+    [<immersiveengineering:material:23>, <thaumcraft:ingot:2>, <immersiveengineering:material:23>],
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:2> * 8)
   .create();
 
-
-//Mekanism ADVANCED plate x4 (THAUM)
-RecipeBuilder.get("engineer")
+//IE Wires x8 (Embers)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<mekanism:ingot:1>, <thaumcraft:vis_resonator>, <mekanism:ingot:1>],
-    [<minecraft:redstone>, <mekanism:controlcircuit>, <minecraft:redstone>],
-    [<mekanism:enrichedalloy>, <thaumcraft:mechanism_complex>, <mekanism:enrichedalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<mekanism:controlcircuit:1> * 4)
-  .create();
-
-//Mekanism ADVANCED plate x4 (EMBERS)
-  RecipeBuilder.get("engineer")
-  .setShaped([
-    [<mekanism:ingot:1>, <embers:winding_gears>, <mekanism:ingot:1>],
-    [<minecraft:redstone>, <mekanism:controlcircuit>, <minecraft:redstone>],
-    [<mekanism:enrichedalloy>, <embers:ember_cluster>, <mekanism:enrichedalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addOutput(<mekanism:controlcircuit:1> * 4)
-  .create();
-
-
-  //-----------------------ELITE-----------------------
-  //Mekanism ELITE plate x4 (BOTANIA)
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<botania:manaresource>, <mekanism:ingot:1>, <botania:manaresource>],
-    [<minecraft:redstone>, <mekanism:controlcircuit:1>, <minecraft:redstone>],
-    [<mekanism:reinforcedalloy>, <botania:manaresource:2>, <mekanism:reinforcedalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
-  .addOutput(<mekanism:controlcircuit:2> * 4)
-  .create();
-
-  //Mekanism ELITE plate x4 (THAUM)
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<thaumcraft:mechanism_simple>, <mekanism:ingot:1>, <thaumcraft:mechanism_simple>],
-    [<minecraft:redstone>, <mekanism:controlcircuit:1>, <minecraft:redstone>],
-    [<mekanism:reinforcedalloy>, <thaumcraft:mechanism_complex>, <mekanism:reinforcedalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
-  .addOutput(<mekanism:controlcircuit:2> * 4)
-  .create();
-
-  //Mekanism ELITE plate x4 (EMBERS)
-RecipeBuilder.get("engineer")
-  .setShaped([
-    [<embers:glimmer_shard>.withTag({light: 800}), <mekanism:ingot:1>, <embers:glimmer_shard>.withTag({light: 800})],
-    [<minecraft:redstone>, <mekanism:controlcircuit:1>, <minecraft:redstone>],
-    [<mekanism:reinforcedalloy>, <embers:wildfire_core>, <mekanism:reinforcedalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
-  .addOutput(<mekanism:controlcircuit:2> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>],
+    [<immersiveengineering:material:23>, <embers:crystal_ember>, <immersiveengineering:material:23>],
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:2> * 8)
   .create();
   
 
-    //-----------------------ELITE-----------------------
-  //Mekanism ULTIMATE plate x4 (BOTANIA)
-  RecipeBuilder.get("engineer")
+
+//-----------------------REDSTONE WIRES-----------------------
+//IE Wires x8 (Thaumcraft)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<botania:manaresource:4>, <minecraft:redstone>, <botania:manaresource:4>],
-    [<minecraft:redstone>, <mekanism:controlcircuit:2>, <minecraft:redstone>],
-    [<mekanism:atomicalloy>, <botania:manaresource:5>, <mekanism:atomicalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
-  .addOutput(<mekanism:controlcircuit:3> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>],
+    [<minecraft:redstone>, <thaumcraft:ingot:2>, <minecraft:redstone>],
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:5> * 8)
+  .create();
+    //       Semishaped
+  RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>],
+    [<immersiveengineering:material:22>, <thaumcraft:ingot:2>, <immersiveengineering:material:22>],
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:5> * 8)
   .create();
 
-  //Mekanism ULTIMATE plate x4 (THAUM)
-RecipeBuilder.get("engineer")
+//IE Wires x8 (Botania)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<thaumcraft:ingot:1>, <thaumcraft:salis_mundus>, <thaumcraft:ingot:1>],
-    [<minecraft:redstone>, <mekanism:controlcircuit:2>, <minecraft:redstone>],
-    [<mekanism:atomicalloy>, <thaumcraft:mechanism_complex>, <mekanism:atomicalloy>]])
-  .addTool(<ore:artisansSolderer>, 1)
-  .addTool(<ore:artisansCutters>, 1)
-  .addOutput(<mekanism:controlcircuit:3> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>],
+    [<minecraft:redstone>, <botania:manaresource>, <minecraft:redstone>],
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:5> * 8)
+  .create();
+    //       Semishaped
+  RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>],
+    [<immersiveengineering:material:22>, <botania:manaresource>, <immersiveengineering:material:22>],
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:5> * 8)
   .create();
 
-  //Mekanism ULTIMATE plate x4 (EMBERS)
-  RecipeBuilder.get("engineer")
+//IE Wires x8 (Embers)
+RecipeBuilder.get("mason")
   .setShaped([
-    [<embers:shifting_scales>, <embers:wildfire_core>, <embers:shifting_scales>],
-    [<minecraft:redstone>, <mekanism:controlcircuit:2>, <minecraft:redstone>],
-    [<mekanism:atomicalloy>, <embers:wildfire_core>, <mekanism:atomicalloy>]])
-  .addTool(<artisanworktables:artisans_solderer_wood>, 1)
-  .addTool(<artisanworktables:artisans_cutters_wood>, 1)
-  .addOutput(<mekanism:controlcircuit:3> * 4)
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>],
+    [<minecraft:redstone>, <embers:crystal_ember>, <minecraft:redstone>],
+    [<minecraft:stick>, <immersiveengineering:material:22>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:5> * 8)
+  .create();
+    //       Semishaped
+  RecipeBuilder.get("mason")
+  .setShaped([
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>],
+    [<immersiveengineering:material:22>, <embers:crystal_ember>, <immersiveengineering:material:22>],
+    [<minecraft:stick>, <minecraft:redstone>, <minecraft:stick>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:5> * 8)
+  .create();
+
+
+//-----------------------INSULATED LV WIRES-----------------------
+//IE Wires x4 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil>, <immersiveengineering:material:5>],
+    [<immersiveengineering:wirecoil>, <thaumcraft:ingot:2>, <immersiveengineering:wirecoil>],
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil>, <immersiveengineering:material:5>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:6> * 4)
+  .create();
+
+//IE Wires x4 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil>, <immersiveengineering:material:5>],
+    [<immersiveengineering:wirecoil>, <botania:manaresource>, <immersiveengineering:wirecoil>],
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil>, <immersiveengineering:material:5>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:6> * 4)
+  .create();
+
+//IE Wires x4 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil>, <immersiveengineering:material:5>],
+    [<immersiveengineering:wirecoil>, <embers:crystal_ember>, <immersiveengineering:wirecoil>],
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil>, <immersiveengineering:material:5>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:6> * 4)
+  .create();
+
+
+//-----------------------INSULATED MV WIRES-----------------------
+//IE Wires x8 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil:1>, <thaumcraft:ingot:2>],
+    [<immersiveengineering:wirecoil:1>, <ore:plankWood>, <immersiveengineering:wirecoil:1>],
+    [<thaumcraft:ingot:2>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:7> * 4)
+  .create();
+    //       Semishaped
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<thaumcraft:ingot:2>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>],
+    [<immersiveengineering:wirecoil:1>, <ore:plankWood>, <immersiveengineering:wirecoil:1>],
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil:1>, <thaumcraft:ingot:2>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:7> * 4)
+  .create();
+
+//IE Wires x8 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil:1>, <botania:manaresource>],
+    [<immersiveengineering:wirecoil:1>, <ore:plankWood>, <immersiveengineering:wirecoil:1>],
+    [<botania:manaresource>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:7> * 4)
+  .create();
+    //       Semishaped
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<botania:manaresource>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>],
+    [<immersiveengineering:wirecoil:1>, <ore:plankWood>, <immersiveengineering:wirecoil:1>],
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil:1>, <botania:manaresource>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:7> * 4)
+  .create();
+
+
+//IE Wires x8 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil:1>, <embers:crystal_ember>],
+    [<immersiveengineering:wirecoil:1>, <ore:plankWood>, <immersiveengineering:wirecoil:1>],
+    [<embers:crystal_ember>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:7> * 4)
+  .create();
+    //       Semishaped
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<embers:crystal_ember>, <immersiveengineering:wirecoil:1>, <immersiveengineering:material:5>],
+    [<immersiveengineering:wirecoil:1>, <ore:plankWood>, <immersiveengineering:wirecoil:1>],
+    [<immersiveengineering:material:5>, <immersiveengineering:wirecoil:1>, <embers:crystal_ember>]])
+  .addTool(<ore:artisansPliers>, 1)
+  .addOutput(<immersiveengineering:wirecoil:7> * 4)
+  .create();
+
+//------------------------------------------------------------------------------------------------------------
+//--------------------------------------------------BLUEPRINTS------------------------------------------------
+//------------------------------------------------------------------------------------------------------------
+
+//----------------------- ENGINEERING BLUEPRINT - COMPONENT -----------------------
+//IE Blueprint x1 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<thaumcraft:ingot:2>, <thermalfoundation:material:132>, <minecraft:iron_ingot>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
+  .create();
+
+//IE Blueprint x1 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<botania:manaresource>, <thermalfoundation:material:132>, <minecraft:iron_ingot>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
+  .create();
+
+//IE Blueprint x1 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<embers:ember_cluster>, <thermalfoundation:material:132>, <minecraft:iron_ingot>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "components"}))
+  .create();
+
+//----------------------- ENGINEERING BLUEPRINT - MOLDS -----------------------
+
+//IE Blueprint x1 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [null, <thaumcraft:ingot:2>, null],
+    [<quark:root_dye>, <thermalfoundation:material:352>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
+  .create();
+
+//IE Blueprint x1 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [null, <botania:manaresource>, null],
+    [<quark:root_dye>, <thermalfoundation:material:352>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
+  .create();
+
+//IE Blueprint x1 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [null, <embers:ember_cluster>, null],
+    [<quark:root_dye>, <thermalfoundation:material:352>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "molds"}))
+  .create();
+
+
+//----------------------- ENGINEERING BLUEPRINT - PROJECTILES -----------------------
+
+//IE Blueprint x1 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<thaumcraft:amber>, <thaumcraft:ingot:2>, <thaumcraft:amber>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}))
+  .create();
+
+//IE Blueprint x1 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<botania:manaresource>, <botania:manaresource:1>, <botania:manaresource>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}))
+  .create();
+
+//IE Blueprint x1 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<embers:crystal_ember>, <embers:ember_cluster>, <embers:crystal_ember>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "bullet"}))
+  .create();
+
+
+//----------------------- ENGINEERING BLUEPRINT - ADV PROJECTILES -----------------------
+
+//IE Blueprint x1 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<thaumcraft:amber>, <thaumcraft:ingot:1>, <thaumcraft:amber>],
+    [<quark:root_dye>, <thaumcraft:amber>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}))
+  .create();
+
+//IE Blueprint x1 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<botania:manaresource>, <botania:manaresource:1>, <botania:manaresource>],
+    [<quark:root_dye>, <botania:manaresource>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}))
+  .create();
+
+//IE Blueprint x1 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<embers:crystal_ember>, <embers:ancient_motive_core>, <embers:crystal_ember>],
+    [<quark:root_dye>, <embers:crystal_ember>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "specialBullet"}))
+  .create();
+
+  //----------------------- ENGINEERING BLUEPRINT - ARC FURNACE -----------------------
+
+//IE Blueprint x1 (Thaumcraft)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<thaumcraft:amber>, <minecraft:furnace>, <thaumcraft:amber>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}))
+  .create();
+
+//IE Blueprint x1 (Botania)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<botania:manaresource>, <minecraft:furnace>, <botania:manaresource>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}))
+  .create();
+
+//IE Blueprint x1 (Embers)
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<embers:ancient_motive_core>, <minecraft:furnace>, <embers:ancient_motive_core>],
+    [<quark:root_dye>, <quark:root_dye>, <quark:root_dye>],
+    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>]])
+  .addTool(<ore:artisansQuill>, 1)
+  .addOutput(<immersiveengineering:blueprint>.withTag({blueprint: "electrode"}))
   .create();
