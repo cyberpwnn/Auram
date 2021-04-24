@@ -103,7 +103,6 @@ key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.playerSort:0
 key_quark.keybind.lockBuilding:37
-key_quark.keybind.toggleAutojump:48
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +121,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
@@ -227,7 +227,6 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
-key_Profile GUI:210
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:34
