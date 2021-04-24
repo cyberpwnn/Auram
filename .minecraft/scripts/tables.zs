@@ -66,6 +66,17 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:1>)
   .create();
 
+// Carpenters Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<conarm:armor_trim>.withTag({Material: "leather"}), <conarm:armor_plate>.withTag({Material: "wood"}), <conarm:armor_trim>.withTag({Material: "leather"})],
+    [<conarm:armor_plate>.withTag({Material: "wood"}), <artisanworktables:worktable:1>, <conarm:armor_plate>.withTag({Material: "wood"})],
+    [<conarm:armor_trim>.withTag({Material: "leather"}), <conarm:armor_plate>.withTag({Material: "wood"}), <conarm:armor_trim>.withTag({Material: "leather"})]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:1>)
+  .create();
+
 // Masons Worktable
 RecipeBuilder.get("basic")
   .setShaped([
@@ -75,6 +86,17 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:2>)
+  .create();
+
+// Masons Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:brick>, <minecraft:netherbrick>, <minecraft:brick>],
+    [<minecraft:netherbrick>, <artisanworktables:worktable:2>, <minecraft:netherbrick>],
+    [<minecraft:brick>, <minecraft:netherbrick>, <minecraft:brick>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:2>)
   .create();
 
 // Blacksmith Worktable
@@ -88,6 +110,17 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:3>)
   .create();
 
+// Blacksmith Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:anvil>, <tconstruct:large_plate>.withTag({Material: "iron"}), <minecraft:anvil>],
+    [<tconstruct:large_plate>.withTag({Material: "iron"}), <artisanworktables:worktable:3>, <tconstruct:large_plate>.withTag({Material: "iron"})],
+    [<minecraft:anvil>, <tconstruct:large_plate>.withTag({Material: "iron"}), <minecraft:anvil>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:3>)
+  .create();
+
 // Jewlers Worktable
 RecipeBuilder.get("basic")
   .setShaped([
@@ -97,6 +130,17 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:4>)
+  .create();
+
+// Jewlers Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<conarm:armor_trim>.withTag({Material: "emerald"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald"})],
+    [<conarm:armor_plate>.withTag({Material: "gold"}), <artisanworktables:worktable:4>, <conarm:armor_plate>.withTag({Material: "gold"})],
+    [<conarm:armor_trim>.withTag({Material: "emerald"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald"})]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:4>)
   .create();
 
 // Engineers Worktable
@@ -110,6 +154,17 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:6>)
   .create();
 
+// Engineers Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<immersiveengineering:wirecoil>, <minecraft:redstone_block>, <immersiveengineering:wirecoil>],
+    [<minecraft:redstone_block>, <artisanworktables:worktable:6>, <minecraft:redstone_block>],
+    [<immersiveengineering:wirecoil>, <minecraft:redstone_block>, <immersiveengineering:wirecoil>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:6>)
+  .create();
+
 // Mages Worktable
 RecipeBuilder.get("basic")
   .setShaped([
@@ -119,6 +174,17 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:7>)
+  .create();
+
+// Mages Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<thaumcraft:nugget:6>, <botania:manaresource:18>, <thaumcraft:nugget:6>],
+    [<botania:manaresource:18>, <artisanworktables:worktable:7>, <botania:manaresource:18>],
+    [<thaumcraft:nugget:6>, <botania:manaresource:18>, <thaumcraft:nugget:6>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:7>)
   .create();
 
 // Scribes Worktable
@@ -132,6 +198,17 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:8>)
   .create();
 
+// Scribes Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>],
+    [<minecraft:paper>, <artisanworktables:worktable:8>, <minecraft:paper>],
+    [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:8>)
+  .create();
+
 // Chemists Worktable
 RecipeBuilder.get("basic")
   .setShaped([
@@ -141,6 +218,17 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:9>)
+  .create();
+
+// Chemists Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>],
+    [<minecraft:glass_bottle>, <artisanworktables:worktable:9>, <minecraft:glass_bottle>],
+    [<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:9>)
   .create();
 
 // Farmers Worktable
@@ -154,6 +242,17 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:10>)
   .create();
 
+// Farmers Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>],
+    [<minecraft:dirt>, <artisanworktables:worktable:10>, <minecraft:dirt>],
+    [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:10>)
+  .create();
+
 // Chefs Worktable
 RecipeBuilder.get("basic")
   .setShaped([
@@ -163,6 +262,17 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:11>)
+  .create();
+
+// Chefs Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+    [<minecraft:planks>, <artisanworktables:worktable:11>, <minecraft:planks>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:11>)
   .create();
 
 // Potters Worktable
@@ -176,6 +286,17 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:14>)
   .create();
 
+// Potters Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>],
+    [<minecraft:hardened_clay>, <artisanworktables:worktable:14>, <minecraft:hardened_clay>],
+    [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation:14>)
+  .create();
+
 // Tanners Worktable
 RecipeBuilder.get("basic")
   .setShaped([
@@ -185,4 +306,15 @@ RecipeBuilder.get("basic")
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:13>)
+  .create();
+
+// Tanners Workstation
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<conarm:armor_trim>.withTag({Material: "leather"}), <thaumcraft:fabric>, <conarm:armor_trim>.withTag({Material: "leather"})],
+    [<thaumcraft:fabric>, <artisanworktables:worktable>, <thaumcraft:fabric>],
+    [<conarm:armor_trim>.withTag({Material: "leather"}), <thaumcraft:fabric>, <conarm:armor_trim>.withTag({Material: "leather"})]])
+  .addTool(<ore:artisansFramingHammer>, 1)
+  .addTool(<ore:artisansHandsaw>, 1)
+  .addOutput(<artisanworktables:workstation>)
   .create();
