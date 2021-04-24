@@ -2,7 +2,7 @@ import crafttweaker.item.IIngredient;
 import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
-#modloaded akashictome
+#modloaded akashictome bqt tconstruct astralsorcery immersiveengineering botania guideapi wizardry embers conarm
 
 recipes.remove(<akashictome:tome>);
 <akashictome:tome>.displayName = "Tome of Knowledge";
@@ -81,14 +81,6 @@ var completeTome = <akashictome:tome>.withTag(
             Count: 1 as byte,
             tag: {
                 "akashictome:definedMod": "conarm"
-            },
-            Damage: 0 as short
-        },
-        practicallogistics2: {
-            id: "practicallogistics2:plguide",
-            Count: 1 as byte,
-            tag: {
-                "akashictome:definedMod": "practicallogistics2"
             },
             Damage: 0 as short
         }
