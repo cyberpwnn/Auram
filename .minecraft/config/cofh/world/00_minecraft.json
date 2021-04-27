@@ -126,11 +126,11 @@
 			"generator": {
 				"block": "coal_ore",
 				"material": "minecraft:stone",
-				"cluster-size": 4
+				"cluster-size": 6
 			},
-			"cluster-count": 6,
+			"cluster-count": 2,
 			"min-height": 0,
-			"max-height": 128,
+			"max-height": 228,
 			"retrogen": false,
 			"biome": "all",
 			"dimension": {
