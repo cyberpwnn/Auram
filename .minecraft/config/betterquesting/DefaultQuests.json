@@ -746,7 +746,8 @@
       "questID:3": 4,
       "preRequisites:11": [
         9,
-        10
+        10,
+        0
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -1530,9 +1531,7 @@
     },
     "9:10": {
       "questID:3": 9,
-      "preRequisites:11": [
-        0
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1596,9 +1595,7 @@
     },
     "10:10": {
       "questID:3": 10,
-      "preRequisites:11": [
-        0
-      ],
+      "preRequisites:11": [],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -1666,6 +1663,218 @@
           }
         }
       }
+    },
+    "11:10": {
+      "questID:3": 11,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "UNLOCKED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "astralsorcery:itemcraftingcomponent",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Discover Shrines",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "12:10": {
+      "questID:3": 12,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "yurtmod:tent",
+            "Count:3": 1,
+            "tag:10": {
+              "TentData:10": {
+                "TentColor:3": 0,
+                "TentType:1": 1,
+                "WidthCur:1": 2,
+                "DepthCur:1": 0,
+                "ID:4": 1
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Time to Move",
+          "desc:8": "Maybe the tent isn\u0027t in a great spot? To pick up a tent, simply use your Tent Mallet on the outside door of your tent!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "yurtmod:tent",
+              "Count:3": 1,
+              "tag:10": {
+                "TentData:10": {
+                  "TentColor:3": 0,
+                  "TentType:1": 1,
+                  "WidthCur:1": 2,
+                  "DepthCur:1": 0,
+                  "ID:4": 1
+                }
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
+    },
+    "13:10": {
+      "questID:3": 13,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "CHAIN",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "atum:fertile_soil",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "In search of Hope",
+          "desc:8": "Perhaps there\u0027s a place here with some fertile land... Somewhere water wont evaporate away too quickly. I should look for green areas.\n\n§lPerhaps I could make food, paper \u0026 more!§d \n\nBy crafting this strange sand into normal sand, I am now able to make §nsnad§n§r§d which can grow sugar canes even faster!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "atum:oasis",
+          "name:8": "Now to find some god damn fertile land!",
+          "dimension:3": 17,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "minecraft:reeds",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:chilipepperseeditem",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "harvestcraft:bellpepperseeditem",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -1694,28 +1903,28 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -168,
+          "x:3": -216,
           "y:3": 60,
           "id:3": 3,
           "sizeY:3": 24
         },
         "4:10": {
-          "sizeX:3": 24,
-          "x:3": -24,
-          "y:3": 36,
+          "sizeX:3": 48,
+          "x:3": -108,
+          "y:3": 84,
           "id:3": 4,
-          "sizeY:3": 24
+          "sizeY:3": 48
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -168,
+          "x:3": -216,
           "y:3": 12,
           "id:3": 5,
           "sizeY:3": 24
         },
         "6:10": {
           "sizeX:3": 24,
-          "x:3": -132,
+          "x:3": -144,
           "y:3": 36,
           "id:3": 6,
           "sizeY:3": 24
@@ -1736,16 +1945,30 @@
         },
         "9:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 24,
+          "x:3": -144,
+          "y:3": 84,
           "id:3": 9,
           "sizeY:3": 24
         },
         "10:10": {
           "sizeX:3": 24,
-          "x:3": -60,
-          "y:3": 48,
+          "x:3": -144,
+          "y:3": 108,
           "id:3": 10,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": 0,
+          "id:3": 12,
+          "sizeY:3": 24
+        },
+        "12:10": {
+          "sizeX:3": 24,
+          "x:3": -48,
+          "y:3": 36,
+          "id:3": 13,
           "sizeY:3": 24
         }
       },
@@ -1766,6 +1989,42 @@
         }
       },
       "order:3": 0
+    },
+    "1:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -60,
+          "id:3": 11,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 1,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "UNLOCKED",
+          "name:8": "Astral Curiosity",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "astralsorcery:itemshiftingstar",
+            "Count:3": 1,
+            "tag:10": {
+              "astralsorcery:10": {
+                "starAttunement:8": "astralsorcery.constellation.armara"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Explore the heights of Astral Sourcery"
+        }
+      },
+      "order:3": 1
     }
   },
   "questSettings:10": {
