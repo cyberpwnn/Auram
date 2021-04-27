@@ -19,9 +19,9 @@
 					}
 				],
 				"material": "minecraft:stone",
-				"cluster-size": 16
+				"cluster-size": 4
 			},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"chunk-chance": 12,
 			"min-height": 0,
 			"max-height": 20,
@@ -53,9 +53,9 @@
 					}
 				],
 				"material": "minecraft:netherrack",
-				"cluster-size": 20
+				"cluster-size": 6
 			},
-			"cluster-count": 2,
+			"cluster-count": 1,
 			"chunk-chance": 12,
 			"min-height": 10,
 			"max-height": 40,
@@ -84,7 +84,7 @@
 				"material": "minecraft:end_stone",
 				"cluster-size": 24
 			},
-			"cluster-count": 10,
+			"cluster-count": 2,
 			"chunk-chance": 4,
 			"min-height": 10,
 			"max-height": 80,
