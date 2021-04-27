@@ -1,27 +1,6 @@
 {
     "biomes": [
         {
-            "conditions": "biome.name == 'deceitful_bog'",
-            "aurora": false,
-            "fog": false,
-            "precipitation": false,
-            "soundReset": true
-        },
-        {
-            "conditions": "biome.name == 'warped_fields'",
-            "aurora": false,
-            "fog": false,
-            "precipitation": false,
-            "soundReset": true
-        },
-        {
-            "conditions": "biome.name == 'crystal_spires'",
-            "aurora": false,
-            "fog": false,
-            "precipitation": false,
-            "soundReset": true
-        },
-        {
             "spotSoundChance": 100,
             "conditions": "biome.name == 'Sand Plains'",
             "aurora": false,
@@ -35,6 +14,9 @@
 			},
             {
                 "sound": "dsurround:desert.wind"
+            },
+            {
+                "sound": "dsurround:dust"
             }
             ]
         }
