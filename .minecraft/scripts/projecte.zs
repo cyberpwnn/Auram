@@ -1,4 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
+#disable_search_tree
 
 recipes.remove(<projecte:item.pe_covalence_dust:2>);
 recipes.remove(<projecte:item.pe_covalence_dust:2> * 40);
