@@ -154,7 +154,7 @@ key_key.ebwizardry.spell_7:8:ALT
 key_key.ebwizardry.spell_8:9:ALT
 key_Toggle Magnetism Suppressor:49
 key_key.ftbutilities.nbt:49:ALT
-key_key.ftbutilities.trash:211
+key_key.ftbutilities.trash:0
 key_psimisc.keybind:0
 key_neat.keybind.toggle:0
 key_oreexcavation.key.excavate:41
@@ -170,6 +170,9 @@ key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
 key_key.pearl_swapping.desc:0
+key_Strip World:211:CONTROL
+key_Dress World:210
+key_Inspect Block:199
 key_key.dismount:42
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
