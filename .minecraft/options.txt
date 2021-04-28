@@ -94,7 +94,20 @@ key_Toggle Freeze Effect:0
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:45
+key_pe.key.armor_toggle:45
+key_pe.key.charge:47
+key_pe.key.extra_function:0
+key_pe.key.fire_projectile:19
+key_pe.key.mode:34
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -113,14 +126,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:37
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_key.toggle_shaders:0
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
@@ -136,8 +141,18 @@ key_key.next_item.desc:0
 key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
 key_key.togglehud.desc:0
-key_Toggle Magnetism Suppressor:49
 key_key.xu2.searchforitems:20
+key_key.ebwizardry.next_spell:49
+key_key.ebwizardry.previous_spell:48
+key_key.ebwizardry.spell_1:2:ALT
+key_key.ebwizardry.spell_2:3:ALT
+key_key.ebwizardry.spell_3:4:ALT
+key_key.ebwizardry.spell_4:5:ALT
+key_key.ebwizardry.spell_5:6:ALT
+key_key.ebwizardry.spell_6:7:ALT
+key_key.ebwizardry.spell_7:8:ALT
+key_key.ebwizardry.spell_8:9:ALT
+key_Toggle Magnetism Suppressor:49
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_psimisc.keybind:0
