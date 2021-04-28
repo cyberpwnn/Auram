@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -99,8 +99,6 @@ key_pe.key.charge:47
 key_pe.key.extra_function:0
 key_pe.key.fire_projectile:19
 key_pe.key.mode:34
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -126,7 +124,13 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
+key_key.next_item.desc:0
+key_key.previous_item.desc:0
+key_key.open_danknull.desc:0
+key_key.togglehud.desc:0
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -137,10 +141,6 @@ key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
 key_keybind.hammercorerenderstack:77
 key_key.death_history:22
-key_key.next_item.desc:0
-key_key.previous_item.desc:0
-key_key.open_danknull.desc:0
-key_key.togglehud.desc:0
 key_key.xu2.searchforitems:20
 key_key.ebwizardry.next_spell:49
 key_key.ebwizardry.previous_spell:48
@@ -172,7 +172,6 @@ key_key.open_wpt.desc:0
 key_key.pearl_swapping.desc:0
 key_key.dismount:42
 key_smoothfont.key.guiOpen:199
-key_key.toggle_focus.desc:15
 key_key.jei.toggleOverlay:24:CONTROL
 key_key.jei.focusSearch:33:CONTROL
 key_key.jei.toggleCheatMode:0
@@ -185,6 +184,9 @@ key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
 key_key.cofh.multimode:47
+key_key.toggleLiquids:38
+key_key.toggleVisible:0
+key_key.toggle_focus.desc:15
 key_nei.options.keys.gui.botania_corporea_request:0
 key_key.otghud.desc:24
 key_key.blockdropstweaker.saveblockdrops:34
@@ -192,8 +194,6 @@ key_key.blockdropstweaker.reloadblockdrops:35
 key_key.carry.desc:42
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
-key_key.toggleLiquids:38
-key_key.toggleVisible:0
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35

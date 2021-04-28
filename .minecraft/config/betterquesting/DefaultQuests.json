@@ -1671,24 +1671,21 @@
       },
       "tasks:9": {
         "0:10": {
-          "blocks:9": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
             "0:10": {
-              "blockID:8": "atum:deadwood_log",
-              "nbt:10": {},
-              "amount:3": 8,
-              "oreDict:8": "",
-              "meta:3": -1
-            },
-            "1:10": {
-              "blockID:8": "atum:deadwood_branch",
-              "nbt:10": {},
-              "amount:3": 16,
-              "oreDict:8": "",
-              "meta:3": -1
+              "id:8": "atum:deadwood_log",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           },
-          "index:3": 0,
-          "taskID:8": "bq_standard:block_break"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -2240,7 +2237,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 1,
           "name:8": "A Bigger Tent",
-          "desc:8": "More space is needed!\n\n§4§l§nMake sure to clear out your old tepee before unlocking this quest!\n\n§6§l§nYour old tepee will be consumed in exchange for a bigger tent!"
+          "desc:8": "More space is needed!"
         }
       },
       "tasks:9": {
@@ -2253,32 +2250,14 @@
           "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 1,
-                  "WidthCur:1": 2,
-                  "DepthCur:1": 0,
-                  "ID:4": -32768
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
               "id:8": "minecraft:dye",
-              "Count:3": 16,
+              "Count:3": 24,
               "Damage:2": 4,
               "OreDict:8": ""
             },
-            "2:10": {
+            "1:10": {
               "id:8": "minecraft:gold_nugget",
-              "Count:3": 4,
+              "Count:3": 24,
               "Damage:2": 0,
               "OreDict:8": ""
             }
