@@ -1,10 +1,10 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.1971831
-fov:0.5
+mouseSensitivity:0.2535211
+fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:14
+renderDistance:6
 guiScale:3
 particles:0
 bobView:true
@@ -17,7 +17,7 @@ ao:2
 renderClouds:false
 resourcePacks:["JSTR.zip","JSTR2.zip","AudioCraft-Base.zip","AudioCraft.zip","Overrides"]
 incompatibleResourcePacks:[]
-lastServer:
+lastServer:localhost
 lang:en_us
 chatVisibility:0
 chatColors:true
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:true
+advancedItemTooltips:false
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -46,7 +46,7 @@ useNativeTransport:true
 entityShadows:false
 mainHand:right
 attackIndicator:0
-showSubtitles:true
+showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
@@ -259,7 +259,7 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:0.24834438
+soundCategory_master:1.0
 soundCategory_music:0.45774648
 soundCategory_record:1.0
 soundCategory_weather:0.6056338
