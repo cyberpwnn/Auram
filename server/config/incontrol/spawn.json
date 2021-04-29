@@ -1,0 +1,30 @@
+[
+    {
+        "$comment": "Only allow up to 5 hostile [ATUM TYPE]s within the view distance per player",
+        "mod": "atum",
+        "mincount": {
+            "amount": 25,
+            "mod": "atum",
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "$comment": "Only allow up to 15 hostile [TYPE]s within the view distance per player",
+        "mincount": {
+            "amount": 25,
+            "hostile": true,
+            "perplayer": true
+        },
+        "result": "deny"
+    },
+    {
+        "$comment": "Only allow up to 15 passive/neutral [TYPE]s within the view distance per player",
+        "mincount": {
+            "amount": 35,
+            "perplayer": true
+        },
+        "result": "deny"
+    }
+]
