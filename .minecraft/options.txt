@@ -94,12 +94,6 @@ key_Toggle Freeze Effect:0
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:45
-key_pe.key.armor_toggle:45
-key_pe.key.charge:47
-key_pe.key.extra_function:0
-key_pe.key.fire_projectile:19
-key_pe.key.mode:34
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -107,7 +101,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -126,6 +120,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_key.next_item.desc:0
 key_key.previous_item.desc:0
