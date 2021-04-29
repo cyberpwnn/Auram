@@ -2,8 +2,8 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>console</headerType>
-  <jar>C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\launchkit\LaunchKit-2.0.1.jar</jar>
-  <outfile>C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\launchkit\Auram.exe</outfile>
+  <jar>C:\Users\cyberpwn\Documents\MultiMC\instances\Auram\LaunchKit-2.0.2.jar</jar>
+  <outfile>C:\Users\cyberpwn\Documents\MultiMC\instances\Auram\Auram.exe</outfile>
   <errTitle></errTitle>
   <cmdLine>repo=https://github.com/cyberpwnn/Auram.git</cmdLine>
   <chdir>.</chdir>
@@ -13,7 +13,7 @@
   <stayAlive>false</stayAlive>
   <restartOnCrash>false</restartOnCrash>
   <manifest></manifest>
-  <icon>C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\launchkit\auram.ico</icon>
+  <icon>C:\Users\cyberpwn\Documents\MultiMC\instances\Auram\auram.ico</icon>
   <jre>
     <path>C:\Program Files\Java\jre1.8.0_281</path>
     <bundledJre64Bit>true</bundledJre64Bit>
