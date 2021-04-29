@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "uuid": "8277693c-80cd-42bc-9bd1-14c89642c6ed",
+    "name": "Cyber",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "6a18d83f-7aba-48ad-bd96-fb5b01c2ada6",
+    "name": "cyberpwn",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
