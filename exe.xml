@@ -2,7 +2,7 @@
 <launch4jConfig>
   <dontWrapJar>false</dontWrapJar>
   <headerType>console</headerType>
-  <jar>C:\Users\cyberpwn\Documents\MultiMC\instances\Auram\LaunchKit-2.0.2.jar</jar>
+  <jar>C:\Users\cyberpwn\Documents\MultiMC\instances\Auram\LaunchKit-2.0.3.jar</jar>
   <outfile>C:\Users\cyberpwn\Documents\MultiMC\instances\Auram\Auram.exe</outfile>
   <errTitle></errTitle>
   <cmdLine>repo=https://github.com/cyberpwnn/Auram.git</cmdLine>
