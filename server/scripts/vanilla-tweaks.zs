@@ -11,7 +11,7 @@ var palm = <atum:palm_stick>;
 
 
 //Emerald 
-RecipeBuilder.get("mason")
+RecipeBuilder.get("jeweler")
   .setShapeless([<divergentunderground:gem_raw_emerald>])
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<minecraft:emerald>)
@@ -21,7 +21,7 @@ RecipeBuilder.get("mason")
   .create();
 
 // Diamond
-RecipeBuilder.get("mason")
+RecipeBuilder.get("jeweler")
   .setShapeless([<divergentunderground:gem_raw_diamond>])
   .addTool(<ore:artisansChisel>, 1)
   .addOutput(<minecraft:diamond>)
@@ -29,7 +29,6 @@ RecipeBuilder.get("mason")
   .setExtraOutputTwo(<thermalfoundation:material:16>, 0.2)
   .setExtraOutputThree(<thermalfoundation:material:16> * 3, 0.1)
   .create();
-
 
 // STICKS
 RecipeBuilder.get("carpenter")
