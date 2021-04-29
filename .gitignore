@@ -52,3 +52,11 @@ natives/
 .minecraft/screenshots/
 
 .minecraft/config/Aether/analytics.json.gz
+
+server/crash-reports/
+
+server/.mixin.out/
+
+server/asm/
+
+server/world/
