@@ -7,8 +7,8 @@ ftbutilities.back.cooldown: 0s
 ftbutilities.back.home: true
 ftbutilities.back.infinite: true
 ftbutilities.back.respawn: true
-ftbutilities.back.rtp: true
-ftbutilities.back.spawn: true
+ftbutilities.back.rtp: false
+ftbutilities.back.spawn: false
 ftbutilities.back.tpa: true
 ftbutilities.back.warmup: 0s
 ftbutilities.back.warp: true
