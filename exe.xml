@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>console</headerType>
+  <jar>C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\launchkit\LaunchKit-2.0.1.jar</jar>
+  <outfile>C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\launchkit\Auram.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine>repo=https://github.com/cyberpwnn/Auram.git</cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl>http://java.com/download</downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>C:\Users\cyberpwn\Documents\MultiMC\instances\Aura\launchkit\auram.ico</icon>
+  <jre>
+    <path>C:\Program Files\Java\jre1.8.0_281</path>
+    <bundledJre64Bit>true</bundledJre64Bit>
+    <bundledJreAsFallback>false</bundledJreAsFallback>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+    <jdkPreference>preferJre</jdkPreference>
+    <runtimeBits>64/32</runtimeBits>
+  </jre>
+</launch4jConfig>
