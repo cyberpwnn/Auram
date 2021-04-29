@@ -1,10 +1,10 @@
 version:1343
 invertYMouse:false
-mouseSensitivity:0.35915494
-fov:0.0
+mouseSensitivity:0.1971831
+fov:0.5
 gamma:1.0
 saturation:0.0
-renderDistance:6
+renderDistance:14
 guiScale:3
 particles:0
 bobView:true
@@ -46,7 +46,7 @@ useNativeTransport:true
 entityShadows:false
 mainHand:right
 attackIndicator:0
-showSubtitles:false
+showSubtitles:true
 realmsNotifications:true
 enableWeakAttacks:false
 autoJump:false
@@ -101,7 +101,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -121,6 +120,7 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_key.next_item.desc:0
 key_key.previous_item.desc:0
@@ -259,7 +259,7 @@ key_enderio.keybind.fovplus:0
 key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
-soundCategory_master:1.0
+soundCategory_master:0.24834438
 soundCategory_music:0.45774648
 soundCategory_record:1.0
 soundCategory_weather:0.6056338
