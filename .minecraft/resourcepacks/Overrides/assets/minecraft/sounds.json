@@ -1,4 +1,12 @@
 {
+  "record.11": {
+    "sounds": [
+      {
+        "name": "records/11",
+        "stream": true
+      }
+    ]
+  },
   "block.ladder.break": {
     "sounds": [
       "dig/wood1",
