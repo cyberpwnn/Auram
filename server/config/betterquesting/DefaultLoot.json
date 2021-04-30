@@ -2144,77 +2144,53 @@
       }
     },
     "17:10": {
-      "name:8": "Essence",
-      "weight:3": 1,
+      "name:8": "Hard Alloys",
+      "weight:3": 2,
       "ID:3": 17,
       "rewards:9": {
         "0:10": {
-          "weight:3": 10,
+          "weight:3": 1,
           "ID:3": 0,
           "items:9": {
             "0:10": {
-              "id:8": "mysticalagriculture:crafting",
-              "Count:3": 3,
+              "id:8": "taiga:osram_ore",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
           }
         },
         "1:10": {
-          "weight:3": 9,
+          "weight:3": 1,
           "ID:3": 1,
           "items:9": {
             "0:10": {
-              "id:8": "mysticalagriculture:crafting",
-              "Count:3": 3,
-              "Damage:2": 1,
+              "id:8": "taiga:aurorium_ore",
+              "Count:3": 4,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
         },
         "2:10": {
-          "weight:3": 5,
+          "weight:3": 1,
           "ID:3": 2,
           "items:9": {
             "0:10": {
-              "id:8": "mysticalagriculture:crafting",
-              "Count:3": 2,
-              "Damage:2": 2,
+              "id:8": "taiga:karmesine_ore",
+              "Count:3": 4,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
         },
         "3:10": {
-          "weight:3": 2,
+          "weight:3": 1,
           "ID:3": 3,
           "items:9": {
             "0:10": {
-              "id:8": "mysticalagriculture:crafting",
-              "Count:3": 1,
-              "Damage:2": 3,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "mysticalagriculture:crafting",
-              "Count:3": 1,
-              "Damage:2": 4,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "mysticalagriculture:fertilized_essence",
-              "Count:3": 1,
+              "id:8": "taiga:abyssum_ore",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -2582,6 +2558,111 @@
           "items:9": {
             "0:10": {
               "id:8": "futuremc:campfire",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "22:10": {
+      "name:8": "Harder Alloys",
+      "weight:3": 2,
+      "ID:3": 22,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:prometheum_ore",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:duranite_ore",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:palladium_ore",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "23:10": {
+      "name:8": "Extreme Alloys",
+      "weight:3": 1,
+      "ID:3": 23,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:valyrium_ore",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 1,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:uru_ore",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "24:10": {
+      "name:8": "Wakanda",
+      "weight:3": 1,
+      "ID:3": 24,
+      "rewards:9": {
+        "0:10": {
+          "weight:3": 1,
+          "ID:3": 0,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:vibranium_ore",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "weight:3": 10,
+          "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "taiga:vibranium_nugget",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
