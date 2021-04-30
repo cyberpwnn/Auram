@@ -40,7 +40,7 @@
             "action" : 
             {
                 "type" : "connectToServer",
-                "ip" : "aura.arcane.art:25700"
+                "ip" : "8.48.33.152:38664"
             }
         },	
 		"singleplayer":
