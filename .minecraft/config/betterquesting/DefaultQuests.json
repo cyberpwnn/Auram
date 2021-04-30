@@ -3506,7 +3506,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 15000000,
+          "rf:4": 650000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         },
@@ -3736,7 +3736,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 1000,
+          "rf:4": 1000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         },
@@ -4079,7 +4079,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 5000000,
+          "rf:4": 500000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4137,7 +4137,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 10000000,
+          "rf:4": 1000000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4198,7 +4198,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 1000000000,
+          "rf:4": 10000000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4256,7 +4256,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 100000000000,
+          "rf:4": 1000000000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4343,7 +4343,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 10000000,
+          "rf:4": 100000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4713,7 +4713,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 8000,
+          "rf:4": 800000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4794,7 +4794,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 2000,
+          "rf:4": 300000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -4880,7 +4880,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 1000000,
+          "rf:4": 10000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         }
@@ -5052,7 +5052,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 100000,
+          "rf:4": 42000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         },
@@ -5453,7 +5453,7 @@
           "hideBlockIcon:1": 1,
           "rewardID:8": "bq_standard:command",
           "asScript:1": 1,
-          "description:8": "Become an Engineer",
+          "description:8": "Become an Redsmith!",
           "viaPlayer:1": 0,
           "index:3": 0,
           "title:8": "Learn Skill",
@@ -5512,7 +5512,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 120000,
+          "rf:4": 420000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         },
@@ -5642,7 +5642,7 @@
       },
       "tasks:9": {
         "0:10": {
-          "rf:4": 100000000,
+          "rf:4": 200000000,
           "index:3": 0,
           "taskID:8": "bq_rf:rf_charge"
         },
@@ -5836,6 +5836,218 @@
               "id:8": "appliedenergistics2:quantum_ring",
               "Count:3": 3,
               "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "57:10": {
+      "questID:3": 57,
+      "preRequisites:11": [
+        51
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "mekanismgenerators:solarpanel",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Power Mechanic",
+          "desc:8": "Become a Mekanism Power Mechanic!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "rf:4": 28000000,
+          "index:3": 0,
+          "taskID:8": "bq_rf:rf_charge"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mekanism:dust",
+              "Count:3": 16,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "mekanism:enrichedalloy",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "mekanism:enrichediron",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Mechanic",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s power-mechanic\nsay @s is now an §3Power Mechanic!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 2,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "mekanismgenerators:solarpanel",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "58:10": {
+      "questID:3": 58,
+      "preRequisites:11": [
+        54
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "enderio:block_normal_wireless_charger",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wireless Enderoso",
+          "desc:8": "Become a Wireless Enderoso!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "rf:4": 420000000,
+          "index:3": 0,
+          "taskID:8": "bq_rf:rf_charge"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "enderio:block_enderman_skull",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Wireless Enderoso",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s wireless-enderoso\nsay @s is now a §W§9Wireless Enderoso!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 2,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "enderio:item_material",
+              "Count:3": 1,
+              "Damage:2": 14,
               "OreDict:8": ""
             }
           }
@@ -6279,6 +6491,20 @@
           "y:3": -132,
           "id:3": 56,
           "sizeY:3": 24
+        },
+        "23:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 12,
+          "id:3": 57,
+          "sizeY:3": 24
+        },
+        "24:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 12,
+          "id:3": 58,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -6300,7 +6526,7 @@
           },
           "bg_image:8": "",
           "bg_size:3": 256,
-          "desc:8": "The only path to tech. This tree unlocks the ability to use \n\n§c- Mekanism\n- Immersive Engineering\n- Applied Energistics\n- Draconic Evolution\n- Quarries\n- NuclearCraft\n- Extreme Reactors"
+          "desc:8": "The only path to tech. This tree unlocks the ability to use \n\n§c- Mekanism\n- Immersive Engineering\n- Applied Energistics\n- Draconic Evolution\n- Quarries\n- NuclearCraft\n- Extreme Reactors\n- Ender IO"
         }
       },
       "order:3": 2
