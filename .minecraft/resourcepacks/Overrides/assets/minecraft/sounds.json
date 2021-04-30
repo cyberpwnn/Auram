@@ -7,6 +7,14 @@
       }
     ]
   },
+  "record.blocks": {
+    "sounds": [
+      {
+        "name": "records/blocks",
+        "stream": true
+      }
+    ]
+  },
   "block.ladder.break": {
     "sounds": [
       "dig/wood1",
