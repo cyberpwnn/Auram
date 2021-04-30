@@ -1818,37 +1818,7 @@
           "desc:8": "Maybe the tent isn\u0027t in a great spot? To pick up a tent, simply use your Tent Mallet on the outside door of your tent!"
         }
       },
-      "tasks:9": {
-        "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 0,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 1,
-                  "WidthCur:1": 2,
-                  "DepthCur:1": 0,
-                  "ID:4": 1
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          },
-          "taskID:8": "bq_standard:retrieval"
-        }
-      },
+      "tasks:9": {},
       "rewards:9": {
         "0:10": {
           "amount:3": 100,
@@ -2024,14 +1994,14 @@
             },
             "4:10": {
               "id:8": "tconstruct:smeltery_io",
-              "Count:3": 1,
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "5:10": {
-              "id:8": "tcomplement:melter",
+              "id:8": "tconstruct:smeltery_controller",
               "Count:3": 1,
-              "Damage:2": 8,
+              "Damage:2": 0,
               "OreDict:8": ""
             },
             "6:10": {
