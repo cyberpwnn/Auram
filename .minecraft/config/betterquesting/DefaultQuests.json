@@ -7757,7 +7757,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:void_seed",
@@ -8116,7 +8116,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:crystal_essence",
@@ -8493,7 +8493,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:jar_void",
@@ -8567,7 +8567,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:infusion_matrix",
@@ -8641,7 +8641,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:dioptra",
@@ -8711,7 +8711,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:ingot",
@@ -8773,7 +8773,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:ingot",
@@ -8841,7 +8841,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:curio",
@@ -8912,7 +8912,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "ForgeCaps:10": {
@@ -8989,7 +8989,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "NORMAL",
+          "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:smelter_thaumium",
@@ -9047,6 +9047,965 @@
               "id:8": "thaumcraft:curio",
               "Count:3": 2,
               "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "105:10": {
+      "questID:3": 105,
+      "preRequisites:11": [],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "COMPLETED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "thaumicaugmentation:rift_seed",
+            "Count:3": 1,
+            "tag:10": {
+              "flux:3": 100
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Draft in the Shadows",
+          "desc:8": "It\u0027s probably me."
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 1,
+          "range:3": 10,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "RiftSize:3": 5,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stability:5": 0.0,
+            "UUIDLeast:4": -5593589629031999081,
+            "RelativeAABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 1.699999988079071,
+              "4:6": 2.0,
+              "5:6": 1.699999988079071
+            },
+            "Invulnerable:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 17,
+            "PortalCooldown:3": 0,
+            "Rotation:9": {
+              "0:5": 0.0,
+              "1:5": 0.0
+            },
+            "MaxSize:3": 0,
+            "UpdateBlocked:1": 0,
+            "RiftSeed:3": 0,
+            "FallDistance:5": 0.0,
+            "UUIDMost:4": 8343012379526516470,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {},
+              "aether:entityinfo:10": {
+                "hasSpawnArea:1": 0
+              },
+              "thaumicaugmentation:rift_energy_storage:10": {},
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              },
+              "heartdrops:drop_hearts:10": {
+                "dropHearts:1": 1,
+                "int:11": [
+                  1,
+                  3
+                ]
+              }
+            },
+            "id:8": "thaumcraft:fluxrift",
+            "SurgeAABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 1.699999988079071,
+              "4:6": 2.0,
+              "5:6": 1.699999988079071
+            },
+            "collapse:1": 0
+          },
+          "taskID:8": "bq_standard:meeting",
+          "target:8": "thaumcraft:fluxrift",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thaumcraft:loot_bag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thaumcraft:curio",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "106:10": {
+      "questID:3": 106,
+      "preRequisites:11": [
+        105
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "COMPLETED",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "thaumicaugmentation:rift_seed",
+            "Count:3": 1,
+            "tag:10": {
+              "flux:3": 1000,
+              "grown:1": 1
+            },
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "A Rough Draft",
+          "desc:8": "You have a serious problem"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "amount:3": 10,
+          "range:3": 10,
+          "ignoreNBT:1": 1,
+          "index:3": 0,
+          "targetNBT:10": {
+            "RiftSize:3": 5,
+            "Motion:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Stability:5": 0.0,
+            "UUIDLeast:4": -5593589629031999081,
+            "RelativeAABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 1.699999988079071,
+              "4:6": 2.0,
+              "5:6": 1.699999988079071
+            },
+            "Invulnerable:1": 0,
+            "Air:2": 300,
+            "OnGround:1": 0,
+            "Dimension:3": 17,
+            "PortalCooldown:3": 0,
+            "Rotation:9": {
+              "0:5": 0.0,
+              "1:5": 0.0
+            },
+            "MaxSize:3": 0,
+            "UpdateBlocked:1": 0,
+            "RiftSeed:3": 0,
+            "FallDistance:5": 0.0,
+            "UUIDMost:4": 8343012379526516470,
+            "Pos:9": {
+              "0:6": 0.0,
+              "1:6": 0.0,
+              "2:6": 0.0
+            },
+            "Fire:2": -1,
+            "ForgeCaps:10": {
+              "llibrary:extendedentitydatacapability:10": {},
+              "aether:entityinfo:10": {
+                "hasSpawnArea:1": 0
+              },
+              "thaumicaugmentation:rift_energy_storage:10": {},
+              "thaumicaugmentation:portal_state:10": {
+                "inPortal:1": 0
+              },
+              "heartdrops:drop_hearts:10": {
+                "dropHearts:1": 1,
+                "int:11": [
+                  1,
+                  3
+                ]
+              }
+            },
+            "id:8": "thaumcraft:fluxrift",
+            "SurgeAABB:9": {
+              "0:6": -0.30000001192092896,
+              "1:6": 0.0,
+              "2:6": -0.30000001192092896,
+              "3:6": 1.699999988079071,
+              "4:6": 2.0,
+              "5:6": 1.699999988079071
+            },
+            "collapse:1": 0
+          },
+          "taskID:8": "bq_standard:meeting",
+          "target:8": "thaumcraft:fluxrift",
+          "subtypes:1": 1
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "id:8": "thaumcraft:loot_bag",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thaumcraft:curio",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "107:10": {
+      "questID:3": 107,
+      "preRequisites:11": [
+        40
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "galacticraftcore:infinite_oxygen",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Astronaut",
+          "desc:8": "Become an Astronaut!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "rf:4": 740000000,
+          "index:3": 0,
+          "taskID:8": "bq_rf:rf_charge"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 16,
+              "Damage:2": 160,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "nuclearcraft:rtg_uranium",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:iron_block",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become an Astronaut",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s astronaut\nsay @s is now an §3Astronaut!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 3,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "108:10": {
+      "questID:3": 108,
+      "preRequisites:11": [
+        37
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "tconstruct:hammer",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 9.15,
+                "FreeModifiers:3": 3,
+                "Durability:3": 57,
+                "HarvestLevel:3": 2,
+                "Attack:5": 2.25
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 9.15,
+                "FreeModifiers:3": 3,
+                "Durability:3": 57,
+                "HarvestLevel:3": 2,
+                "Attack:5": 2.25
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "aoe",
+                  "1:8": "harvest",
+                  "2:8": "weapon",
+                  "3:8": "tool"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "red_aurum",
+                  "1:8": "red_aurum",
+                  "2:8": "red_aurum",
+                  "3:8": "red_aurum"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "sharp",
+                  "color:3": -12288,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "sharp",
+                "1:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Blacksmith",
+          "desc:8": "Unlock advanced Tools\n\n§2- Hammer\n- Excavator\n- Lumber Axe\n- Cleaver"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "rf:4": 1000000,
+          "index:3": 0,
+          "taskID:8": "bq_rf:rf_charge"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:pick_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "bronze"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:large_plate",
+              "Count:3": 2,
+              "tag:10": {
+                "Material:8": "manyullyn"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:tough_binding",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "xu_magical_wood"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "minecraft:netherbrick",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s blacksmith\nsay @c is now a §4Blacksmith!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 3,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:seared_tank",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:faucet",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:seared_furnace_controller",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "tcomplement:melter",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "109:10": {
+      "questID:3": 109,
+      "preRequisites:11": [
+        108
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "taiga:abyssum_ingot",
+            "Count:3": 2,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Hard Alloys",
+          "desc:8": "Unlocks Harder Alloys\n\n§2- Duranite\n- Palladium\n- Prometheum"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:pan_head",
+              "Count:3": 3,
+              "tag:10": {
+                "Material:8": "tiberium"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "taiga:osram_ingot",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "plustic:pipe_piece",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "red_aurum"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "taiga:abyssum_ingot",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "taiga:karmesine_ingot",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Hard Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s hard-blacksmith\nsay @c is now a §4Hard Blacksmith!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 3,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "taiga:duranite_nugget",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "110:10": {
+      "questID:3": 110,
+      "preRequisites:11": [
+        109
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "tconstruct:scythe",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 1.5,
+                "FreeModifiers:3": 3,
+                "Durability:3": 2413,
+                "HarvestLevel:3": 6,
+                "Attack:5": 5.4
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 1.5,
+                "FreeModifiers:3": 3,
+                "Durability:3": 2413,
+                "HarvestLevel:3": 6,
+                "Attack:5": 5.4
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "aoe",
+                  "1:8": "harvest",
+                  "2:8": "weapon",
+                  "3:8": "tool"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "uru",
+                  "1:8": "uru",
+                  "2:8": "uru",
+                  "3:8": "uru"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "diffuse",
+                  "color:3": -5636096,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "diffuse",
+                "1:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Extreme Alloys",
+          "desc:8": "Work with very extreme alloys!\n\n§2- Valyrium\n- Uru"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "rf:4": 5000000,
+          "index:3": 0,
+          "taskID:8": "bq_rf:rf_charge"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:binding",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "palladium"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:pan_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "duranite"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:tool_rod",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "prometheum"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become an Extreme Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s extreme-blacksmith\nsay @c is now a §4Extreme Blacksmith!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 3,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "taiga:uru_nugget",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "111:10": {
+      "questID:3": 111,
+      "preRequisites:11": [
+        110
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:large_plate",
+            "Count:3": 1,
+            "tag:10": {
+              "Material:8": "vibranium"
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wakanda",
+          "desc:8": "Work with §2§3§2Vibranium"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "rf:4": 50000000,
+          "index:3": 0,
+          "taskID:8": "bq_rf:rf_charge"
+        },
+        "1:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tool_rod",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "uru"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:pick_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "valyrium"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become Wakanda!",
+          "viaPlayer:1": 0,
+          "index:3": 0,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s vibranium-blacksmith\nsay @c is now §5Wakanda!"
+        },
+        "1:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 3,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 50,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "taiga:vibranium_nugget",
+              "Count:3": 8,
+              "Damage:2": 0,
               "OreDict:8": ""
             }
           }
@@ -9511,6 +10470,41 @@
           "y:3": 12,
           "id:3": 58,
           "sizeY:3": 24
+        },
+        "25:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": -24,
+          "id:3": 107,
+          "sizeY:3": 24
+        },
+        "26:10": {
+          "sizeX:3": 24,
+          "x:3": -72,
+          "y:3": -24,
+          "id:3": 108,
+          "sizeY:3": 24
+        },
+        "27:10": {
+          "sizeX:3": 24,
+          "x:3": -36,
+          "y:3": 12,
+          "id:3": 109,
+          "sizeY:3": 24
+        },
+        "28:10": {
+          "sizeX:3": 24,
+          "x:3": 0,
+          "y:3": 48,
+          "id:3": 110,
+          "sizeY:3": 24
+        },
+        "29:10": {
+          "sizeX:3": 24,
+          "x:3": 36,
+          "y:3": 84,
+          "id:3": 111,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 2,
@@ -9684,6 +10678,20 @@
           "y:3": 0,
           "id:3": 104,
           "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": 24,
+          "y:3": -48,
+          "id:3": 105,
+          "sizeY:3": 24
+        },
+        "11:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": -72,
+          "id:3": 106,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 4,
@@ -9708,42 +10716,6 @@
       "order:3": 4
     },
     "5:10": {
-      "quests:9": {
-        "0:10": {
-          "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -36,
-          "id:3": 62,
-          "sizeY:3": 24
-        }
-      },
-      "lineID:3": 5,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "NORMAL",
-          "name:8": "Astral Projections",
-          "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "astralsorcery:itemshiftingstar",
-            "Count:3": 1,
-            "tag:10": {
-              "astralsorcery:10": {
-                "starAttunement:8": "astralsorcery.constellation.vicio"
-              }
-            },
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Get rewarded for the things you do in Astral Sourcery!"
-        }
-      },
-      "order:3": 5
-    },
-    "6:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -9804,7 +10776,7 @@
           "desc:8": "Those who get it are cringing right about now"
         }
       },
-      "order:3": 6
+      "order:3": 5
     }
   },
   "questSettings:10": {
