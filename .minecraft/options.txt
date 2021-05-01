@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -29,7 +29,7 @@ fullscreen:false
 enableVsync:true
 useVbo:true
 hideServerAddress:false
-advancedItemTooltips:false
+advancedItemTooltips:true
 pauseOnLostFocus:true
 touchscreen:false
 overrideWidth:0
@@ -102,6 +102,7 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -120,7 +121,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
@@ -167,6 +167,9 @@ key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
 key_key.pearl_swapping.desc:0
+key_Strip World:211:CONTROL
+key_Dress World:210
+key_Inspect Block:199
 key_key.dismount:42
 key_smoothfont.key.guiOpen:199
 key_key.toggle_focus.desc:15
@@ -189,12 +192,6 @@ key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
-key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
-key_mekanism.key.feetMode:35
-key_mekanism.key.voice:22
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.placeItem:25
 key_key.toolConfig:0
 key_key.toolProfileChange:43
@@ -206,7 +203,13 @@ key_key.cycleAttackAOE:0
 key_key.toggleShields:0
 key_key.clipboardPaste:210
 key_FpsReducer.key.guiOpen:207
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:19
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
 key_key.modifier:13
 key_key.submode:0
 key_key.plustic_release_entity.desc:11
