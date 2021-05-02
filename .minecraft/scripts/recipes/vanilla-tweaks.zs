@@ -1,7 +1,7 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 #disable_search_tree
-#modloaded divergentunderground aether
 
+// Loot Box
 RecipeBuilder.get("tailor")
   .setShaped([
     [<minecraft:emerald>, <minecraft:ender_eye>, <minecraft:emerald>],

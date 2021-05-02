@@ -27,7 +27,7 @@ recipes.addShaped(<artisanworktables:worktable:5>, [[null, <minecraft:paper>, nu
 // Basic Workstation
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+    [null, null, null],
     [<tconstruct:tooltables>, <minecraft:stick>, <tconstruct:tooltables>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]])
   .addTool(<ore:artisansFramingHammer>, 1)
