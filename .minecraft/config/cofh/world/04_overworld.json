@@ -6,9 +6,10 @@
             "generator": {
                 "block": "coal_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 6
+                "cluster-size": 28
             },
-            "cluster-count": 2,
+            "cluster-count": 1,
+            "chunk-chance": 2,
             "min-height": 0,
             "max-height": 228,
             "retrogen": false,
@@ -25,13 +26,17 @@
             "distribution": "uniform",
             "generator": {
                 "block": {
-                    "name": "divergentunderground:ie_hard_copper_ore"
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "copper"
+                    }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 3
+                "cluster-size": 11
             },
-            "cluster-count": 3,
+            "cluster-count": 2,
             "min-height": 40,
+            "chunk-chance": 3,
             "max-height": 75,
             "retrogen": false,
             "biome": "all",
@@ -47,15 +52,16 @@
             "distribution": "uniform",
             "generator": {
                 "block": {
-                    "name": "projectred-exploration:ore",
-                    "properties": {
-                        "type": "tin_ore"
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "tin"
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 3
+                "cluster-size": 7
             },
             "cluster-count": 3,
+            "chunk-chance": 2,
             "min-height": 20,
             "max-height": 55,
             "retrogen": false,
@@ -72,12 +78,16 @@
             "distribution": "uniform",
             "generator": {
                 "block": {
-                    "name": "divergentunderground:ie_hard_silver_ore"
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "silver"
+                    }
                 },
                 "material": "minecraft:stone",
                 "cluster-size": 9
             },
             "cluster-count": 2,
+            "chunk-chance": 3,
             "min-height": 5,
             "max-height": 30,
             "retrogen": false,
@@ -94,12 +104,16 @@
             "distribution": "uniform",
             "generator": {
                 "block": {
-                    "name": "divergentunderground:ie_hard_lead_ore"
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "lead"
+                    }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 3
+                "cluster-size": 6
             },
             "cluster-count": 3,
+            "chunk-chance": 2,
             "min-height": 10,
             "max-height": 35,
             "retrogen": false,
@@ -116,12 +130,16 @@
             "distribution": "uniform",
             "generator": {
                 "block": {
-                    "name": "divergentunderground:ie_hard_nickel_ore"
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "nickel"
+                    }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 7
             },
-            "cluster-count": 2,
+            "cluster-count": 1,
+            "chunk-chance": 3,
             "min-height": 5,
             "max-height": 20,
             "retrogen": false,
@@ -144,7 +162,7 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 21
+                "cluster-size": 11
             },
             "chunk-chance": 12,
             "cluster-count": 1,
@@ -165,12 +183,16 @@
             "distribution": "uniform",
             "generator": {
                 "block": {
-                    "name": "divergentunderground:ie_hard_aluminum_ore"
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "aluminum"
+                    }
                 },
                 "material": "minecraft:stone",
                 "cluster-size": 5
             },
             "cluster-count": 3,
+            "chunk-chance": 2,
             "min-height": 40,
             "max-height": 75,
             "retrogen": false,
@@ -194,9 +216,10 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 5
+                "cluster-size": 8
             },
             "cluster-count": 1,
+            "chunk-chance": 15,
             "min-height": 5,
             "max-height": 25,
             "retrogen": false,
@@ -214,9 +237,10 @@
             "generator": {
                 "block": "iron_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 8
             },
-            "cluster-count": 7,
+            "cluster-count": 6,
+            "chunk-chance": 2,
             "min-height": 0,
             "max-height": 64,
             "retrogen": false,
@@ -234,9 +258,10 @@
             "generator": {
                 "block": "gold_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 3
+                "cluster-size": 8
             },
             "cluster-count": 1,
+            "chunk-chance": 3,
             "min-height": 0,
             "max-height": 32,
             "retrogen": false,
@@ -254,10 +279,11 @@
             "generator": {
                 "block": "redstone_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 8
             },
-            "cluster-count": 4,
+            "cluster-count": 2,
             "min-height": 0,
+            "chunk-chance": 3,
             "max-height": 16,
             "retrogen": false,
             "biome": "all",
@@ -274,9 +300,10 @@
             "generator": {
                 "block": "diamond_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 9
             },
-            "cluster-count": 2,
+            "cluster-count": 1,
+            "chunk-chance": 3,
             "min-height": 0,
             "max-height": 16,
             "retrogen": false,
