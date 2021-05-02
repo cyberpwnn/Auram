@@ -20,7 +20,6 @@ var completeTome = <akashictome:tome>.withTag({"akashictome:data":
         wizardry: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "wizardry:book", Count: 1 as byte, tag: {"akashictome:definedMod": "wizardry"}, Damage: 0 as short}, 
         gbook: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "gbook:guidebook", Count: 1 as byte, tag: {"akashictome:definedMod": "gbook", Book: "minecolonies:book/minecolonies.xml"}, Damage: 0 as short}, 
         embers: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "embers:codex", Count: 1 as byte, tag: {"akashictome:definedMod": "embers"}, Damage: 0 as short}, 
-        ebwizardry: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "ebwizardry:wizard_handbook", Count: 1 as byte, tag: {"akashictome:definedMod": "ebwizardry"}, Damage: 0 as short}, 
         botania: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "botania:lexicon", Count: 1 as byte, tag: {"akashictome:definedMod": "botania"}, Damage: 0 as short}, 
         draconicevolution: {id: "draconicevolution:info_tablet", Count: 1 as byte, tag: {"akashictome:definedMod": "draconicevolution"}, Damage: 0 as short}, 
         extrautils2: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "extrautils2:book", Count: 1 as byte, tag: {"akashictome:definedMod": "extrautils2"}, Damage: 0 as short}, 
@@ -56,8 +55,7 @@ var addedBooks = [
     <extrautils2:book>,
     <opencomputers:tool>,
     <gbook:guidebook>,
-    <guideapi:bloodarsenal-guide>,
-    <ebwizardry:wizard_handbook>
+    <guideapi:bloodarsenal-guide>
     ] as IItemStack[];
 
 for itemBook in addedBooks {
