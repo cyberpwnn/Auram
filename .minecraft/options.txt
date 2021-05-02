@@ -49,7 +49,7 @@ attackIndicator:0
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:false
+autoJump:true
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -94,14 +94,6 @@ key_Toggle Freeze Effect:0
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:45
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -121,6 +113,14 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
@@ -192,6 +192,12 @@ key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.toggleLiquids:38
 key_key.toggleVisible:0
+key_mekanism.key.mode:50
+key_mekanism.key.armorMode:34
+key_mekanism.key.feetMode:35
+key_mekanism.key.voice:22
+key_key.immersiveengineering.magnetEquip:31
+key_key.immersiveengineering.chemthrowerSwitch:0
 key_key.placeItem:25
 key_key.toolConfig:0
 key_key.toolProfileChange:43
@@ -203,13 +209,7 @@ key_key.cycleAttackAOE:0
 key_key.toggleShields:0
 key_key.clipboardPaste:210
 key_FpsReducer.key.guiOpen:207
-key_key.immersiveengineering.magnetEquip:31
-key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:19
-key_mekanism.key.mode:50
-key_mekanism.key.armorMode:34
-key_mekanism.key.feetMode:35
-key_mekanism.key.voice:22
 key_key.modifier:13
 key_key.submode:0
 key_key.plustic_release_entity.desc:11
