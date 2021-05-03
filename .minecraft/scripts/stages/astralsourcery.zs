@@ -2,6 +2,7 @@
 mods.ItemStages.stageModItems("astral-mage", "astralsorcery");
 
 // Hide astral ores
-mods.orestages.OreStages.addReplacementById("astral-mage", "astralsorcery:blockcustomsandore", "minecraft:stone");
-mods.orestages.OreStages.addReplacementById("astral-mage", "astralsorcery:blockcustomsandore:1", "minecraft:stone");
-mods.orestages.OreStages.addReplacementById("astral-mage", "astralsorcery:blockcustomore:1", "minecraft:stone");
+mods.orestages.OreStages.addReplacement("astral-mage", <astralsorcery:blockcustomore>);
+mods.orestages.OreStages.addReplacement("astral-mage", <ore:oreAstralStarmetal>);
+mods.orestages.OreStages.addReplacement("astral-mage", <ore:oreAquamarine>);
+

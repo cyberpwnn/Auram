@@ -642,6 +642,24 @@
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "betteranimalsplus:coyote",
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "betteranimalsplus:coyote",
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "betteranimalsplus:coyote",
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 6
 		}
 	],
 	"traits": [
