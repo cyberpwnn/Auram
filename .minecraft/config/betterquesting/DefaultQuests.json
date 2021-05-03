@@ -164,7 +164,7 @@
     "2:10": {
       "questID:3": 2,
       "preRequisites:11": [
-        0
+        19
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -176,10 +176,7 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "wizardry:magic_wand",
+            "id:8": "enderio:block_enderman_skull",
             "Count:3": 1,
             "Damage:2": 0,
             "OreDict:8": ""
@@ -190,14 +187,12 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "There\u0027s Magic in the Air",
-          "desc:8": "Maybe magic has a realistic solution?"
+          "name:8": "Path to the End",
+          "desc:8": "Slay Endermen"
         }
       },
       "tasks:9": {
         "0:10": {
-          "amount:3": 1,
-          "range:3": 4,
           "ignoreNBT:1": 1,
           "index:3": 0,
           "targetNBT:10": {
@@ -208,7 +203,7 @@
               "1:6": 0.0,
               "2:6": -0.30000001192092896,
               "3:6": 0.30000001192092896,
-              "4:6": 1.9500000476837158,
+              "4:6": 2.9000000953674316,
               "5:6": 0.30000001192092896
             },
             "Attributes:9": {
@@ -225,7 +220,7 @@
                 "Name:8": "generic.scales"
               },
               "3:10": {
-                "Base:6": 26.0,
+                "Base:6": 40.0,
                 "Name:8": "generic.maxHealth"
               },
               "4:10": {
@@ -233,7 +228,7 @@
                 "Name:8": "generic.knockbackResistance"
               },
               "5:10": {
-                "Base:6": 0.25,
+                "Base:6": 0.30000001192092896,
                 "Name:8": "generic.movementSpeed"
               },
               "6:10": {
@@ -249,11 +244,11 @@
                 "Name:8": "forge.swimSpeed"
               },
               "9:10": {
-                "Base:6": 16.0,
+                "Base:6": 64.0,
                 "Name:8": "generic.followRange"
               },
               "10:10": {
-                "Base:6": 2.0,
+                "Base:6": 7.0,
                 "Name:8": "generic.attackDamage"
               }
             },
@@ -274,7 +269,7 @@
                 "radXWoreOff:1": 0,
                 "radawayCooldown:6": 0.0,
                 "recentRadawayAddition:6": 0.0,
-                "maxRads:6": 1300.0,
+                "maxRads:6": 2000.0,
                 "radawayBufferSlow:6": 0.0,
                 "externalRadiationResistance:6": 0.0,
                 "totalRads:6": 0.0,
@@ -322,21 +317,21 @@
               "1:5": 0.085
             },
             "PersistenceRequired:1": 0,
-            "id:8": "minecraft:witch",
+            "id:8": "minecraft:enderman",
             "Motion:9": {
               "0:6": 0.0,
               "1:6": 0.0,
               "2:6": 0.0
             },
             "Leashed:1": 0,
-            "UUIDLeast:4": -6541163430085545267,
-            "Health:5": 26.0,
+            "UUIDLeast:4": -5168831019232144091,
+            "Health:5": 40.0,
             "LeftHanded:1": 0,
             "Air:2": 300,
             "OnGround:1": 0,
             "Dimension:3": 0,
             "Rotation:9": {
-              "0:5": 0.44250464,
+              "0:5": 6.1292715,
               "1:5": 0.0
             },
             "UpdateBlocked:1": 0,
@@ -350,7 +345,7 @@
               "2:5": 0.085,
               "3:5": 0.085
             },
-            "UUIDMost:4": -497737566240881708,
+            "UUIDMost:4": -523661796710006059,
             "Pos:9": {
               "0:6": 0.0,
               "1:6": 0.0,
@@ -370,12 +365,14 @@
               "1:6": 0.0,
               "2:6": -0.30000001192092896,
               "3:6": 0.30000001192092896,
-              "4:6": 1.9500000476837158,
+              "4:6": 2.9000000953674316,
               "5:6": 0.30000001192092896
             }
           },
-          "taskID:8": "bq_standard:meeting",
-          "target:8": "minecraft:witch",
+          "damageType:8": "",
+          "required:3": 1,
+          "taskID:8": "bq_standard:hunt",
+          "target:8": "minecraft:enderman",
           "subtypes:1": 1
         }
       },
@@ -395,6 +392,18 @@
               },
               "Damage:2": 101,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:ender_eye",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
             }
           }
         }
@@ -403,7 +412,7 @@
     "3:10": {
       "questID:3": 3,
       "preRequisites:11": [
-        0
+        21
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -415,9 +424,9 @@
           "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
-            "id:8": "opencomputers:material",
+            "id:8": "immersiveengineering:wirecoil",
             "Count:3": 1,
-            "Damage:2": 8,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -426,27 +435,39 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "We have... TECHNOLOGY",
+          "name:8": "Simple Engineering",
           "desc:8": "Perhaps tech can automate solutions?"
         }
       },
       "tasks:9": {
         "0:10": {
           "partialMatch:1": 1,
-          "allowSmelt:1": 0,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
           "ignoreNBT:1": 0,
           "index:3": 0,
-          "allowCraft:1": 1,
-          "allowAnvil:1": 0,
+          "consume:1": 1,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:hopper",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
+              "id:8": "thermalfoundation:material",
+              "Count:3": 8,
+              "Damage:2": 128,
+              "OreDict:8": "ingotCopper"
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 4,
+              "Damage:2": 24,
+              "OreDict:8": "gearIron"
+            },
+            "2:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 2,
+              "Damage:2": 324,
+              "OreDict:8": "plateAluminum"
             }
           },
-          "taskID:8": "bq_standard:crafting"
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -465,15 +486,43 @@
               },
               "Damage:2": 101,
               "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:hardened_clay",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:gold_ingot",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 4,
+              "Damage:2": 130,
+              "OreDict:8": ""
             }
           }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Unlocks new Items, Blocks \u0026 Abilities! You may even see the world in a new way!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn a new Skill",
+          "command:8": "gamestage add @s engineer\nsay §9@s§f is now an§a Engineer!"
         }
       }
     },
     "4:10": {
       "questID:3": 4,
       "preRequisites:11": [
-        2
+        18
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -482,7 +531,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "botania:flower",
@@ -497,7 +546,7 @@
           "repeat_relative:1": 1,
           "ismain:1": 0,
           "name:8": "Shimmering Foliage",
-          "desc:8": "What is this?"
+          "desc:8": "What is this?\n\nIf you\u0027re having trouble finding mystical flowers, perhaps they have always been in front of you! Look for any mushrooms out of place that shimmer a little bit. Look for tall grass that might shimmer a bit."
         }
       },
       "tasks:9": {
@@ -531,7 +580,7 @@
     "5:10": {
       "questID:3": 5,
       "preRequisites:11": [
-        2
+        19
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -540,7 +589,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
+          "visibility:8": "NORMAL",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "thaumcraft:crystal_vitium",
@@ -560,20 +609,33 @@
       },
       "tasks:9": {
         "0:10": {
-          "visible:1": 0,
-          "invert:1": 0,
-          "range:3": -1,
-          "index:3": 0,
-          "structure:8": "",
-          "hideInfo:1": 0,
-          "posX:3": 0,
-          "posY:3": 0,
-          "posZ:3": 0,
-          "biome:8": "thaumcraft:magical_forest",
-          "name:8": "Magical Forest",
-          "dimension:3": 0,
-          "taxiCabDist:1": 0,
-          "taskID:8": "bq_standard:location"
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 1,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:glowstone_dust",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 1,
+              "Damage:2": 105,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
         }
       },
       "rewards:9": {
@@ -600,7 +662,7 @@
     "6:10": {
       "questID:3": 6,
       "preRequisites:11": [
-        2
+        20
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -609,7 +671,7 @@
           "lockedprogress:1": 0,
           "tasklogic:8": "AND",
           "repeattime:3": -1,
-          "visibility:8": "COMPLETED",
+          "visibility:8": "ALWAYS",
           "simultaneous:1": 0,
           "icon:10": {
             "id:8": "astralsorcery:itemcraftingcomponent",
@@ -638,7 +700,7 @@
           "requiredItems:9": {
             "0:10": {
               "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 1,
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1652,6 +1714,543 @@
           }
         }
       }
+    },
+    "18:10": {
+      "questID:3": 18,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:nether_wart",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "What a Hell Hole",
+          "desc:8": "Visit the Nether"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "visible:1": 0,
+          "invert:1": 0,
+          "range:3": -1,
+          "index:3": 0,
+          "structure:8": "",
+          "hideInfo:1": 0,
+          "posX:3": 0,
+          "posY:3": 0,
+          "posZ:3": 0,
+          "biome:8": "",
+          "name:8": "The Nether",
+          "dimension:3": -1,
+          "taxiCabDist:1": 0,
+          "taskID:8": "bq_standard:location"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:gold_nugget",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:quartz",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "19:10": {
+      "questID:3": 19,
+      "preRequisites:11": [
+        18
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:netherbrick",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Evil Fortress",
+          "desc:8": "Visit a Nether Fortress"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "advancement_id:8": "minecraft:nether/find_fortress",
+          "index:3": 0,
+          "taskID:8": "bq_standard:advancement"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:blaze_rod",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:skull",
+              "Count:3": 6,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 5,
+              "Damage:2": 17,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "20:10": {
+      "questID:3": 20,
+      "preRequisites:11": [
+        2
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:monster_egg",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "The Beginning",
+          "desc:8": "Enter the End Portal"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "advancement_id:8": "minecraft:story/enter_the_end",
+          "index:3": 0,
+          "taskID:8": "bq_standard:advancement"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "taiga:palladium_ore",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "astralsorcery:blockcustomsandore",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "draconicevolution:draconium_dust",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "21:10": {
+      "questID:3": 21,
+      "preRequisites:11": [
+        0
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "tconstruct:pickaxe",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 9.75,
+                "FreeModifiers:3": 3,
+                "Durability:3": 39,
+                "HarvestLevel:3": 1,
+                "Attack:5": 0.75
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "MiningSpeed:5": 9.75,
+                "FreeModifiers:3": 3,
+                "Durability:3": 39,
+                "HarvestLevel:3": 1,
+                "Attack:5": 0.75
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "aoe",
+                  "1:8": "harvest",
+                  "2:8": "tool"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "gold",
+                  "1:8": "gold",
+                  "2:8": "gold"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "fancy",
+                  "color:3": -7413,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "fancy",
+                "1:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Mining Trip",
+          "desc:8": "Get down there and start mining!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "oreIron"
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "oreCopper"
+            },
+            "2:10": {
+              "id:8": "minecraft:gold_ore",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": "oreGold"
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 4,
+              "Damage:2": 2,
+              "OreDict:8": "oreSilver"
+            },
+            "4:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 2,
+              "Damage:2": 5,
+              "OreDict:8": "oreNickel"
+            },
+            "5:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 6,
+              "Damage:2": 3,
+              "OreDict:8": "oreLead"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 2,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 48,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 24,
+              "Damage:2": 105,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "22:10": {
+      "questID:3": 22,
+      "preRequisites:11": [
+        21
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:tooltables",
+            "Count:3": 1,
+            "Damage:2": 3,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Maybe there is a better way?",
+          "desc:8": "Perhaps I could make my own tools to do it better?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 3,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:log",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "tconstruct:tooltables",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "minecraft:planks",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 2,
+              "Damage:2": 7,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:diamond",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 48,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "projectred-core:resource_item",
+              "Count:3": 24,
+              "Damage:2": 105,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
     }
   },
   "questLines:9": {
@@ -1659,44 +2258,79 @@
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
-          "x:3": -108,
-          "y:3": -84,
+          "x:3": -168,
+          "y:3": -48,
           "id:3": 0,
           "sizeY:3": 24
         },
         "1:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -120,
+          "x:3": -60,
+          "y:3": -84,
           "id:3": 2,
           "sizeY:3": 24
         },
         "2:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -48,
+          "x:3": -132,
+          "y:3": 24,
           "id:3": 3,
           "sizeY:3": 24
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -36,
+          "x:3": -132,
           "y:3": -120,
           "id:3": 4,
           "sizeY:3": 24
         },
         "4:10": {
           "sizeX:3": 24,
-          "x:3": -36,
-          "y:3": -156,
+          "x:3": -96,
+          "y:3": -120,
           "id:3": 5,
           "sizeY:3": 24
         },
         "5:10": {
           "sizeX:3": 24,
-          "x:3": -72,
-          "y:3": -156,
+          "x:3": -24,
+          "y:3": -120,
           "id:3": 6,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -84,
+          "id:3": 18,
+          "sizeY:3": 24
+        },
+        "7:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -84,
+          "id:3": 19,
+          "sizeY:3": 24
+        },
+        "8:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -84,
+          "id:3": 20,
+          "sizeY:3": 24
+        },
+        "9:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -12,
+          "id:3": 21,
+          "sizeY:3": 24
+        },
+        "10:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -48,
+          "id:3": 22,
           "sizeY:3": 24
         }
       },

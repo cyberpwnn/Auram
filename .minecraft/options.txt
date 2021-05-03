@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:true
 hideServerAddress:false
 advancedItemTooltips:false
@@ -49,7 +49,7 @@ attackIndicator:0
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -89,8 +89,8 @@ key_of.key.zoom:46
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -117,7 +117,6 @@ key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
 key_key.toggle_shaders:0
-key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
@@ -138,7 +137,7 @@ key_key.xu2.searchforitems:20
 key_Toggle Magnetism Suppressor:49
 key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
-key_key.ftbutilities.trash:0
+key_key.ftbutilities.trash:211
 key_psimisc.keybind:0
 key_neat.keybind.toggle:0
 key_openblocks.keybind.vario_switch:47
@@ -155,7 +154,6 @@ key_walljump.key.walljump:42
 key_key.open_wft.desc:0
 key_key.open_wit.desc:0
 key_key.open_wpt.desc:0
-key_key.pearl_swapping.desc:0
 key_Strip World:211
 key_Dress World:210
 key_Inspect Block:199
@@ -242,7 +240,6 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
-key_Profile GUI:74:CONTROL
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:34
