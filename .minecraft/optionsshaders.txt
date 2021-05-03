@@ -1,5 +1,5 @@
-#Sun May 02 07:28:50 EDT 2021
-shaderPack=SEUS-Renewed-v1.0.1.zip
+#Mon May 03 03:26:52 EDT 2021
+shaderPack=ModifiedVanillaPlus
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

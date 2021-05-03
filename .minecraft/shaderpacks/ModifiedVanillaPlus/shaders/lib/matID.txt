@@ -1,0 +1,6 @@
+0 - none
+1-100 solids
+101-200 translucents
+
+2-no diffuse
+3-weather
