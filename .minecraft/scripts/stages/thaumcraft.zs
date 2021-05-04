@@ -1,3 +1,5 @@
+#disable_search_tree
+
 // Disable use of items in tc
 mods.ItemStages.stageModItems("thaumic-mage", "thaumcraft");
 mods.ItemStages.stageModItems("thaumic-mage", "thaumicbases");

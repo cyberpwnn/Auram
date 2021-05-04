@@ -1,3 +1,5 @@
+#disable_search_tree
+
 // Disable use of items in astral
 mods.ItemStages.stageModItems("astral-mage", "astralsorcery");
 

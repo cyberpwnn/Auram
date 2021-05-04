@@ -1,3 +1,5 @@
+#disable_search_tree
+
 // Disable use of items in mek
 mods.ItemStages.stageModItems("mechanic", "mekanism");
 
