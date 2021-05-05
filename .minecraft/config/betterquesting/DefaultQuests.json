@@ -525,7 +525,7 @@
     "4:10": {
       "questID:3": 4,
       "preRequisites:11": [
-        0
+        19
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -2925,7 +2925,8 @@
     "27:10": {
       "questID:3": 27,
       "preRequisites:11": [
-        25
+        25,
+        59
       ],
       "properties:10": {
         "betterquesting:10": {
@@ -5485,6 +5486,1170 @@
           }
         }
       }
+    },
+    "58:10": {
+      "questID:3": 58,
+      "preRequisites:11": [
+        3,
+        43
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "thaumcraft:causality_collapser",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "What cause?",
+          "desc:8": "No Description"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "thaumcraft:causality_collapser",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 1,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thaumcraft:alumentum",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "thaumcraft:curio",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "thaumcraft:bath_salts",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "59:10": {
+      "questID:3": 59,
+      "preRequisites:11": [
+        39,
+        60,
+        10
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "minecraft:gold_ore",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "OR",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wait... There\u0027s MORE ORES?",
+          "desc:8": "Perhaps I can find them easier with magic?"
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "You will now be able to see dense ores underground!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Get Good",
+          "command:8": "gamestage add @s dense-ore\nsay @s sees the world a little denser now!"
+        }
+      }
+    },
+    "60:10": {
+      "questID:3": 60,
+      "preRequisites:11": [
+        54
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "botania:spreader",
+            "Count:3": 1,
+            "Damage:2": 2,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Elves spread like butter",
+          "desc:8": "Construct an elven mana spreader"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 0,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "botania:spreader",
+              "Count:3": 1,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "botanicadds:elvenwood_log",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "61:10": {
+      "questID:3": 61,
+      "preRequisites:11": [
+        16,
+        34,
+        53,
+        20
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "spectrite:spectrite_orb",
+            "Count:3": 1,
+            "Damage:2": 127,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "What is Spectrite",
+          "desc:8": "*RGB INTENSIFIES*"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "spectrite:spectrite_blaze_rod",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "spectrite:spectrite_gem",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "spectrite:spectrite_bricks",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "blockSpectriteBricks"
+            },
+            "3:10": {
+              "id:8": "spectrite:spectrite_bone_block",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "spectrite:spectrite_chest",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "spectrite:spectrite_glass",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "spectrite:spectrite_gem",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Find the RGB you\u0027ve always been looking for packed in endstone!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Spectrite in the end!",
+          "command:8": "gamestage add @s spectrite\nsay if @s has it, it\u0027s probably RGB§f"
+        }
+      }
+    },
+    "62:10": {
+      "questID:3": 62,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "oeintegration:excavatemodifier",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Excavation Nation",
+          "desc:8": "Perhaps we can use extra durability out of these tools by modifying them to excavate more than one block at a time?"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:large_plate",
+              "Count:3": 2,
+              "tag:10": {
+                "Material:8": "manyullyn"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "artisanworktables:artisans_hammer_platinum",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "oeintegration:excavatemodifier",
+              "Count:3": 9,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Learn how to craft excavation modifiers",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s excavator\nsay @s is now an Excavator!"
+        }
+      }
+    },
+    "63:10": {
+      "questID:3": 63,
+      "preRequisites:11": [
+        22
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "tconstruct:mattock",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "HarvestLevelAxe:3": 0,
+                "MiningSpeed:5": 1.5,
+                "FreeModifiers:3": 3,
+                "HarvestLevelShovel:3": 0,
+                "Durability:3": 45,
+                "HarvestLevel:3": 0,
+                "Attack:5": 4.5
+              },
+              "Stats:10": {
+                "AttackSpeedMultiplier:5": 1.0,
+                "HarvestLevelAxe:3": 0,
+                "MiningSpeed:5": 1.5,
+                "FreeModifiers:3": 3,
+                "HarvestLevelShovel:3": 0,
+                "Durability:3": 45,
+                "HarvestLevel:3": 0,
+                "Attack:5": 4.5
+              },
+              "Special:10": {
+                "Categories:9": {
+                  "0:8": "tool",
+                  "1:8": "harvest",
+                  "2:8": "aoe"
+                }
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "treatedwood",
+                  "1:8": "treatedwood",
+                  "2:8": "treatedwood"
+                },
+                "Modifiers:9": {
+                  "0:8": "toolleveling"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "ecological",
+                  "color:3": -10144478,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "toolleveling",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "ecological",
+                "1:8": "toolleveling"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Tinkering",
+          "desc:8": ""
+        }
+      },
+      "tasks:9": {},
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:pattern",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:ingots",
+              "Count:3": 6,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "64:10": {
+      "questID:3": 64,
+      "preRequisites:11": [
+        63
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tconstruct:materials",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Blacksmithing",
+          "desc:8": "Harder alloys can be forged in a smeltery"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:soil",
+              "Count:3": 64,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 24,
+              "Damage:2": 32767,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 12,
+              "Damage:2": 0,
+              "OreDict:8": "ingotIron"
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 8,
+              "Damage:2": 128,
+              "OreDict:8": "ingotCopper"
+            },
+            "4:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 1,
+              "Damage:2": 132,
+              "OreDict:8": "ingotAluminum"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:materials",
+              "Count:3": 225,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:ingots",
+              "Count:3": 12,
+              "Damage:2": 5,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s blacksmith\nsay @s is now a Blacksmith!"
+        }
+      }
+    },
+    "65:10": {
+      "questID:3": 65,
+      "preRequisites:11": [
+        64,
+        34
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tcomplement:materials",
+            "Count:3": 1,
+            "Damage:2": 1,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "High Oven",
+          "desc:8": "It\u0027s getting hot in here"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:seared",
+              "Count:3": 12,
+              "Damage:2": 2,
+              "OreDict:8": "blockSeared"
+            },
+            "1:10": {
+              "id:8": "minecraft:clay_ball",
+              "Count:3": 100,
+              "Damage:2": 0,
+              "OreDict:8": "clay"
+            },
+            "2:10": {
+              "id:8": "tconstruct:large_plate",
+              "Count:3": 2,
+              "tag:10": {
+                "Material:8": "bronze"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tcomplement:materials",
+              "Count:3": 220,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 24,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s blacksmith\nsay @s is now a Blacksmith!"
+        }
+      }
+    },
+    "66:10": {
+      "questID:3": 66,
+      "preRequisites:11": [
+        64,
+        25
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "tinker_io:smart_output",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Smart Smeltery",
+          "desc:8": "Add some IO to the smeltery!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:seared",
+              "Count:3": 24,
+              "Damage:2": 2,
+              "OreDict:8": "blockSeared"
+            },
+            "1:10": {
+              "id:8": "tconstruct:large_plate",
+              "Count:3": 3,
+              "tag:10": {
+                "Material:8": "vibrant_alloy"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "enderio:item_basic_capacitor",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 4,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become an Advanced Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s advanced-blacksmith\nsay @s is now an Advanced Blacksmith!"
+        }
+      }
+    },
+    "67:10": {
+      "questID:3": 67,
+      "preRequisites:11": [
+        27,
+        60,
+        66,
+        65
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "id:8": "simplesmelteryaccelerator:smeltery_accelerator",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Acceleration",
+          "desc:8": "Vaporize Alloys!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:seared",
+              "Count:3": 48,
+              "Damage:2": 3,
+              "OreDict:8": "blockSeared"
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 4,
+              "Damage:2": 513,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 6,
+              "Damage:2": 30,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "botanicadds:elven_lapis",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tcomplement:materials",
+              "Count:3": 220,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:coal",
+              "Count:3": 24,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become a Blacksmith!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s blacksmith-acceleration\nsay @s is now an Accelerated Blacksmith!"
+        }
+      }
+    },
+    "68:10": {
+      "questID:3": 68,
+      "preRequisites:11": [
+        64,
+        61
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "conarm:chestplate",
+            "Count:3": 1,
+            "tag:10": {
+              "StatsOriginal:10": {
+                "Toughness:5": 0.0,
+                "FreeModifiers:3": 3,
+                "Durability:3": 16,
+                "Defense:5": 3.7125003
+              },
+              "Stats:10": {
+                "Toughness:5": 0.0,
+                "FreeModifiers:3": 3,
+                "Durability:3": 16,
+                "Defense:5": 4.4550004
+              },
+              "TinkerData:10": {
+                "Materials:9": {
+                  "0:8": "red_aurum",
+                  "1:8": "red_aurum",
+                  "2:8": "red_aurum"
+                },
+                "Modifiers:9": {
+                  "0:8": "leveling_armor"
+                }
+              },
+              "Modifiers:9": {
+                "0:10": {
+                  "identifier:8": "indomitable_armor",
+                  "color:3": -12288,
+                  "level:3": 1
+                },
+                "1:10": {
+                  "identifier:8": "leveling_armor",
+                  "color:3": 16777215,
+                  "level:3": 1
+                }
+              },
+              "Traits:9": {
+                "0:8": "indomitable_armor",
+                "1:8": "leveling_armor"
+              }
+            },
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Wear the Alloys",
+          "desc:8": "Construct Armory!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "tconstruct:seared",
+              "Count:3": 32,
+              "Damage:2": 2,
+              "OreDict:8": "blockSeared"
+            },
+            "1:10": {
+              "id:8": "spectrite:spectrite_rod",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "spectrite:spectrite_gem",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:cast",
+              "Count:3": 2,
+              "tag:10": {
+                "PartType:8": "conarm:armor_trim"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:cast",
+              "Count:3": 2,
+              "tag:10": {
+                "PartType:8": "conarm:armor_plate"
+              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "1:10": {
+          "hideBlockIcon:1": 1,
+          "rewardID:8": "bq_standard:command",
+          "asScript:1": 1,
+          "description:8": "Become an Alloy Tailor!",
+          "viaPlayer:1": 0,
+          "index:3": 1,
+          "title:8": "Learn Skill",
+          "command:8": "gamestage add @s alloy-tailor\nsay @s is now a Alloy Tailor!"
+        }
+      }
     }
   },
   "questLines:9": {
@@ -5513,8 +6678,8 @@
         },
         "3:10": {
           "sizeX:3": 24,
-          "x:3": -168,
-          "y:3": -48,
+          "x:3": -60,
+          "y:3": -84,
           "id:3": 4,
           "sizeY:3": 24
         },
@@ -5600,6 +6765,20 @@
           "x:3": 48,
           "y:3": 24,
           "id:3": 27,
+          "sizeY:3": 24
+        },
+        "16:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": 60,
+          "id:3": 59,
+          "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": 12,
+          "y:3": -48,
+          "id:3": 61,
           "sizeY:3": 24
         }
       },
@@ -5875,6 +7054,13 @@
           "y:3": -120,
           "id:3": 44,
           "sizeY:3": 24
+        },
+        "17:10": {
+          "sizeX:3": 24,
+          "x:3": -228,
+          "y:3": -84,
+          "id:3": 58,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 3,
@@ -5990,6 +7176,13 @@
           "y:3": -108,
           "id:3": 57,
           "sizeY:3": 24
+        },
+        "13:10": {
+          "sizeX:3": 24,
+          "x:3": 48,
+          "y:3": 0,
+          "id:3": 60,
+          "sizeY:3": 24
         }
       },
       "lineID:3": 4,
@@ -6034,7 +7227,57 @@
       "order:3": 5
     },
     "6:10": {
-      "quests:9": {},
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -96,
+          "y:3": -48,
+          "id:3": 62,
+          "sizeY:3": 24
+        },
+        "1:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -48,
+          "id:3": 63,
+          "sizeY:3": 24
+        },
+        "2:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -84,
+          "id:3": 64,
+          "sizeY:3": 24
+        },
+        "3:10": {
+          "sizeX:3": 24,
+          "x:3": -108,
+          "y:3": -120,
+          "id:3": 65,
+          "sizeY:3": 24
+        },
+        "4:10": {
+          "sizeX:3": 24,
+          "x:3": -156,
+          "y:3": -120,
+          "id:3": 66,
+          "sizeY:3": 24
+        },
+        "5:10": {
+          "sizeX:3": 24,
+          "x:3": -132,
+          "y:3": -156,
+          "id:3": 67,
+          "sizeY:3": 24
+        },
+        "6:10": {
+          "sizeX:3": 24,
+          "x:3": -168,
+          "y:3": -84,
+          "id:3": 68,
+          "sizeY:3": 24
+        }
+      },
       "lineID:3": 6,
       "properties:10": {
         "betterquesting:10": {
