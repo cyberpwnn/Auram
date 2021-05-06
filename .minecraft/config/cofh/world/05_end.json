@@ -23,6 +23,30 @@
                 ]
             }
         },
+        "draconium_end": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "draconicevolution:draconium_ore",
+                    "properties": {
+                        "type": "end"
+                    }
+                },
+                "material": "minecraft:end_stone",
+                "cluster-size": 3
+            },
+            "cluster-count": 12,
+            "min-height": 16,
+            "max-height": 70,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    0
+                ]
+            }
+        },
         "palladium_end": {
             "distribution": "uniform",
             "generator": {
@@ -40,7 +64,8 @@
             "dimension": {
                 "restriction": "blacklist",
                 "value": [
-                    0
+                    0,
+                    -1
                 ]
             }
         }

@@ -1,6 +1,50 @@
 {
     "priority": 100000,
     "populate": {
+        "infinity_block": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "enderio:block_infinity",
+                "material": "minecraft:bedrock",
+                "cluster-size": 1
+            },
+            "cluster-count": 3,
+            "min-height": 0,
+            "max-height": 3,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    1
+                ]
+            }
+        },
+        "draconium_overworld": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "draconicevolution:draconium_ore",
+                    "properties": {
+                        "type": "normal"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 7
+            },
+            "cluster-count": 1,
+            "min-height": 1,
+            "max-height": 40,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    0,
+                    1
+                ]
+            }
+        },
         "coal": {
             "distribution": "uniform",
             "generator": {
