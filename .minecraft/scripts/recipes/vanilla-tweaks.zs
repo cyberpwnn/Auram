@@ -13,3 +13,6 @@ RecipeBuilder.get("tailor")
   .setExtraOutputTwo(<bq_standard:loot_chest:101>.withTag({hideLootInfo: 1 as byte}), 0.05)
   .setExtraOutputThree(<bq_standard:loot_chest:101>.withTag({hideLootInfo: 1 as byte}), 0.05)
   .create();
+
+recipes.remove(<extrautils2:bagofholding>.withTag({Items: {}}));
+recipes.remove(<extrautils2:bagofholding>);
