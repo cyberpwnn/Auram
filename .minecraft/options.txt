@@ -49,7 +49,7 @@ attackIndicator:0
 showSubtitles:false
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:true
+autoJump:false
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -89,15 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:0
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -116,6 +108,14 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -145,6 +145,7 @@ key_oreexcavation.key.shape:47
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
+key_key.nextsong.desc:49
 key_Difficulty Meter - Show:49
 key_Difficulty Meter - Show Always:49:SHIFT
 key_keys.servertabinfo.show:29
@@ -264,7 +265,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
-soundCategory_music:0.6056338
+soundCategory_music:0.5492958
 soundCategory_record:1.0
 soundCategory_weather:0.6056338
 soundCategory_block:1.0
