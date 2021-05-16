@@ -1,0 +1,112 @@
+Depending on what the player is doing ingame, different triggers will activate and deactivate.
+Multiple triggers can be active at once. When triggers change, the queue of music changes.
+Below is a list of triggers that happen and their description.
+
+=== TAG CONDITIONS ===
+The json config contains all tags by default as separate conditions. If you assume the tag name is 'biome_plains'
+biome_plains  = Condition met if the tag is active
+!biome_plains = Condition is met if tag is INACTIVE
+biome_*       = If any tag active starts with biome_ (such as bione_plains) or (biome_desert)
+!biome_mesa*  = If any tag inactive starts with biome_mesa (such as bione_mesa) or (biome_mesa_rock)
+
+=== TAGS ===
+light_bright - High light...
+biome_taiga_cold_hills - When in the Cold Taiga Hills Biome
+biome_swampland - When in the Swampland Biome
+height_bedrock - Below 35
+biome_river - When in the River Biome
+lush_normal - Medium amounts of foliage, & greens
+lush_barren - Little to no foliage / greens
+biome_mutated_mesa_clear_rock - When in the Mesa Plateau M Biome
+time_day - Day time...
+biome_extreme_hills - When in the Extreme Hills Biome
+biome_sky - When in the The End Biome
+humid_dry - Dry biome
+temp_freezing - Frozen biome
+biome_mushroom_island_shore - When in the MushroomIslandShore Biome
+biome_mutated_swampland - When in the Swampland M Biome
+biome_plains - When in the Plains Biome
+biome_mesa_clear_rock - When in the Mesa Plateau Biome
+temp_chilly - Cold biome
+biome_mutated_plains - When in the Sunflower Plains Biome
+startup.init - Forge is starting up (mid)
+biome_cold_beach - When in the Cold Beach Biome
+fp_low - Food below 30%
+biome_taiga_hills - When in the TaigaHills Biome
+dead - Death screen
+biome_ice_flats - When in the Ice Plains Biome
+biome_roofed_forest - When in the Roofed Forest Biome
+biome_savanna - When in the Savanna Biome
+time_night - Night time...
+biome_mutated_birch_forest - When in the Birch Forest M Biome
+biome_frozen_river - When in the FrozenRiver Biome
+biome_frozen_ocean - When in the FrozenOcean Biome
+hp_low - HP Below 30%
+world - Anytime you are ingame (in any world)
+biome_mutated_redwood_taiga - When in the Mega Spruce Taiga Biome
+temp_hot - Hot biome
+biome_mutated_mesa_rock - When in the Mesa Plateau F M Biome
+biome_birch_forest - When in the Birch Forest Biome
+biome_mutated_jungle_edge - When in the JungleEdge M Biome
+temp_warm - Warm biome
+temp_superhot - Very hot biome
+storm - If it's raining in the world & the current biome supports rain
+biome_smaller_extreme_hills - When in the Extreme Hills Edge Biome
+biome_desert_hills - When in the DesertHills Biome
+menu - Game is in the main menu
+height_sohigh - At or above 200
+light_dark - Darkness
+biome_redwood_taiga_hills - When in the Mega Taiga Hills Biome
+biome_void - When in the The Void Biome
+dim144 - When in CompactMachines Dimension.
+biome_mutated_mesa - When in the Mesa (Bryce) Biome
+light_mid - Middle range light
+biome_mesa_rock - When in the Mesa Plateau F Biome
+biome_mushroom_island - When in the MushroomIsland Biome
+lush_dense - Lots of foliage, & greens
+dim2 - When in TENT Dimension.
+dim1 - When in the_end Dimension.
+biome_mutated_savanna - When in the Savanna M Biome
+dim0 - When in overworld Dimension.
+biome_birch_forest_hills - When in the Birch Forest Hills Biome
+thunder - If it's thundering in a biome where rain / snow can happen
+biome_deep_ocean - When in the Deep Ocean Biome
+biome_ice_mountains - When in the Ice Mountains Biome
+startup - Forge is starting up
+biome_forest_hills - When in the ForestHills Biome
+dim-1 - When in the_nether Dimension.
+biome_mutated_extreme_hills_with_trees - When in the Extreme Hills+ M Biome
+biome_extreme_hills_with_trees - When in the Extreme Hills+ Biome
+biome_jungle - When in the Jungle Biome
+biome_taiga - When in the Taiga Biome
+startup.preinit - Forge is starting up (pre)
+biome_mutated_jungle - When in the Jungle M Biome
+biome_mutated_ice_flats - When in the Ice Plains Spikes Biome
+biome_beaches - When in the Beach Biome
+height_sealevel - Below 94
+biome_mesa - When in the Mesa Biome
+biome_mutated_taiga_cold - When in the Cold Taiga M Biome
+biome_error_biome - When in the A mod doesn't support extended biome IDs -- report to JEID Biome
+humid_mild - Normal Humidity 
+height_high - Below 200
+biome_savanna_rock - When in the Savanna Plateau Biome
+biome_mutated_birch_forest_hills - When in the Birch Forest Hills M Biome
+biome_mutated_roofed_forest - When in the Roofed Forest M Biome
+biome_jungle_edge - When in the JungleEdge Biome
+biome_redwood_taiga - When in the Mega Taiga Biome
+biome_jungle_hills - When in the JungleHills Biome
+humid_wet - Wet biome
+biome_mutated_redwood_taiga_hills - When in the Redwood Taiga Hills M Biome
+biome_hell - When in the Hell Biome
+biome_mutated_taiga - When in the Taiga M Biome
+biome_mutated_savanna_rock - When in the Savanna Plateau M Biome
+biome_mutated_extreme_hills - When in the Extreme Hills M Biome
+biome_mutated_desert - When in the Desert M Biome
+height_low - Below 60
+biome_ocean - When in the Ocean Biome
+biome_stone_beach - When in the Stone Beach Biome
+biome_forest - When in the Forest Biome
+biome_taiga_cold - When in the Cold Taiga Biome
+startup.postinit - Forge is starting up (post)
+biome_desert - When in the Desert Biome
+biome_mutated_forest - When in the Flower Forest Biome
