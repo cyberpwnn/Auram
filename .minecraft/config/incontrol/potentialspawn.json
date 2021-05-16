@@ -1,0 +1,14 @@
+[
+    {
+        "$comment": "Spawn Blaze in Atum",
+        "dimension": 17,
+        "mobs": [
+            {
+                "mob": "minecraft:blaze",
+                "weight": 5,
+                "groupcountmin": 1,
+                "groupcountmax": 2
+            }
+        ]
+    }
+]

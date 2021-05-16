@@ -1,0 +1,211 @@
+{
+  "conditions": [
+    {
+      "when": [
+        "menu"
+      ],
+      "play": [
+        "FinalStand.mp3"
+      ]
+    },
+    {
+      "when": [
+        "startup",
+        "startup*"
+      ],
+      "mode": "OR",
+      "play": [
+        "Adventure.mp3",
+        "DarkMagic.mp3"
+      ]
+    },
+    {
+      "when": [
+        "world",
+        "!hp_low",
+        "!fp_low",
+        "dim0",
+        "time_night",
+        "!storm",
+        "height_sealevel"
+      ],
+      "mode": "AND",
+      "play":[
+        "Skyrim/SkyrimAtmospheres.mp3",
+        "Skyrim/AWintersTale.mp3",
+        "Skyrim/DeathintheDarkness.mp3",
+        "Skyrim/FromPasttoPresent.mp3",
+        "Skyrim/Frostfall.mp3",
+        "Skyrim/SilentFootsteps.mp3",
+        "Skyrim/Secunda.mp3",
+        "Skyrim/SkyAboveVoiceWithin.mp3",
+        "Skyrim/Tundra.mp3",
+        "Skyrim/Unbound.mp3",
+        "DOS2/QuirkyBones.mp3",
+        "DOS2/Reflections.mp3"
+      ]
+    },
+    {
+      "when": [
+        "storm",
+        "outside",
+        "height_sealevel"
+      ],
+      "mode": "AND",
+      "play":[
+        "Skyrim/BeforetheStorm.mp3",
+        "Skyrim/IntoDarkness.mp3",
+        "Skyrim/Masser.mp3",
+        "Skyrim/TheGatheringStorm.mp3"
+      ]
+    },
+    {
+      "when": [
+        "inside",
+        "light_bright"
+      ],
+      "mode": "AND",
+      "play":[
+        "Skyrim/ImperialThrone.mp3",
+        "Skyrim/TheBanneredMare.mp3"
+      ]
+    },
+    {
+      "when":[
+        "height_high"
+      ],
+      "play":[
+        "Skyrim/SevenThousandSteps.mp3",
+        "Skyrim/StandingStones.mp3",
+        "Skyrim/TheJerallMountains.mp3"
+      ]
+    },
+    {
+      "when": [
+        "world",
+        "!hp_low",
+        "!fp_low",
+        "dim0",
+        "!storm",
+        "time_day",
+        "height_sealevel"
+      ],
+      "mode": "AND",
+      "play":[
+        "Skyrim/Awake.mp3",
+        "Skyrim/Dawn.mp3",
+        "Skyrim/DistantHorizons.mp3",
+        "Skyrim/FarHorizons.mp3",
+        "Skyrim/Solitude.mp3",
+        "Skyrim/TheCityGates.mp3",
+        "Skyrim/TheStreetsofWhiterun.mp3",
+        "Skyrim/TheWhiteRiver.mp3",
+        "Skyrim/UnbrokenRoad.mp3",
+        "Skyrim/UnderanAncientSun.mp3",
+        "Skyrim/WindGuideYou.mp3",
+        "DOS2/ASingleDropOfMagic.mp3",
+        "DOS2/Godwoken.mp3",
+        "DOS2/Rivellon.mp3"
+      ]
+    },
+    {
+      "when":[
+        "biome_birch*",
+        "biome_forest*",
+        "biome_mutated_forest",
+        "biome_roofed_forest",
+        "dim0",
+        "!storm",
+        "height_sealevel",
+        "lush_normal",
+        "lush_dense"
+      ],
+      "mode": "OR",
+      "play":[
+        "Skyrim/AChanceMeeting.mp3",
+        "Skyrim/AncientStones.mp3",
+        "Skyrim/OutoftheCold.mp3",
+        "DOS2/Meadgoldblood.mp3"
+      ]
+    },
+    {
+      "when":[
+        "temp_chilly",
+        "height_high",
+        "height_sohigh"
+      ],
+      "mode": "OR",
+      "play":[
+        "Skyrim/Aurora.mp3",
+        "Skyrim/Dawn.mp3",
+        "Skyrim/Dragonsreach.mp3"
+      ]
+    },
+    {
+      "when":[
+        "temp_chilly|temp_freezing",
+        "time_night"
+      ],
+      "mode": "AND",
+      "play":[
+        "Skyrim/Aurora.mp3"
+      ]
+    },
+    {
+      "priority": 10,
+      "when":[
+        "hp_low",
+        "fp_low",
+        "dead"
+      ],
+      "mode": "OR",
+      "play":[
+        "DOS2/Fane.mp3",
+        "Skyrim/KynesPeace.mp3",
+        "Skyrim/JourneysEnd.mp3",
+        "Skyrim/ShatteredShields.mp3",
+        "Skyrim/SilenceUnbroken.mp3"
+      ]
+    },
+    {
+      "when":[
+          "height_bedrock",
+          "height_low",
+          "dim-1"
+      ],
+      "mode": "OR",
+      "play":[
+        "DOS2/ATearInTheVeil.mp3",
+        "DOS2/EmbraceoftheDeathfog.mp3",
+        "Skyrim/BeneaththeIce.mp3",
+        "Skyrim/DeathintheDarkness.mp3",
+        "Skyrim/IntoDarkness.mp3",
+        "Skyrim/NightWithoutStars.mp3",
+        "Skyrim/ShadowsandEchoes.mp3",
+        "Skyrim/TowersandShadows.mp3"
+      ]
+    },
+    {
+      "priority": 100,
+      "sudden": true,
+      "when":[
+          "boss",
+          "combat"
+      ],
+      "mode": "OR",
+      "play":[
+        "DOS2/DancingWithTheSource.mp3",
+        "Skyrim/BloodandSteel.mp3",
+        "Skyrim/CaughtOffGuard.mp3",
+        "Skyrim/DeathorSovngarde.mp3",
+        "Skyrim/Dragonborn.mp3",
+        "Skyrim/OneTheyFear.mp3",
+        "Skyrim/Sovngarde.mp3",
+        "Skyrim/SteelonSteel.mp3",
+        "Skyrim/ToothandClaw.mp3",
+        "Skyrim/WatchtheSkies.mp3",
+        "DOS2/SymphonyoftheVoid.mp3"
+      ]
+    }
+  ]
+}
