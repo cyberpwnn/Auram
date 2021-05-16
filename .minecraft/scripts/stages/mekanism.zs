@@ -1,4 +1,7 @@
 #disable_search_tree
 
+// Disable use of items in mek
 mods.ItemStages.stageModItems("mechanic", "mekanism");
-mods.ItemStages.stageModItems("power-mechanic", "mekanismgenerators");
+
+// Hide osmium ore
+mods.orestages.OreStages.addReplacement("mechanic", <ore:oreOsmium>);

@@ -1,1193 +1,30 @@
 {
   "groups:9": {
     "0:10": {
-      "name:8": "Atum",
-      "weight:3": 7,
+      "name:8": "Loot",
+      "weight:3": 1,
       "ID:3": 0,
       "rewards:9": {
         "0:10": {
-          "weight:3": 4,
+          "weight:3": 1,
           "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:gold_nugget",
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:dye",
-              "Count:3": 2,
-              "Damage:2": 4,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 2,
-              "Damage:2": 17,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 2,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "atum:limestone_pickaxe",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:torch",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 3,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "atum:deadwood_crate",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "atum:deadwood_log",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 2,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "harvestcraft:chilipepperseeditem",
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "1:10": {
-      "name:8": "Thaumcraft",
-      "weight:3": 2,
-      "ID:3": 1,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 10,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "thaumcraft:loot_bag",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 8,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "thaumcraft:loot_bag",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thaumcraft:salis_mundus",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 5,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "thaumcraft:loot_bag",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 4,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "thaumcraft:loot_bag",
-              "Count:3": 2,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thaumcraft:crystal_essence",
-              "Count:3": 4,
-              "tag:10": {
-                "Aspects:9": {
-                  "0:10": {
-                    "amount:3": 1,
-                    "key:8": "sonus"
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 2,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "thaumcraft:loot_bag",
-              "Count:3": 1,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "thaumcraft:loot_bag",
-              "Count:3": 2,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thaumcraft:curio",
-              "Count:3": 3,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "2:10": {
-      "name:8": "Astral Sourcery",
-      "weight:3": 2,
-      "ID:3": 2,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 7,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {}
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.discidia"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.armara"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.vicio"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.aevitas"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 1,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.evorsio"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "7:10": {
-          "weight:3": 1,
-          "ID:3": 7,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.lucerna"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "8:10": {
-          "weight:3": 1,
-          "ID:3": 8,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.mineralis"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "9:10": {
-          "weight:3": 1,
-          "ID:3": 9,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.horologium"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "10:10": {
-          "weight:3": 1,
-          "ID:3": 10,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.octans"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "11:10": {
-          "weight:3": 1,
-          "ID:3": 11,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "astralsorcery:itemconstellationpaper",
-              "Count:3": 1,
-              "tag:10": {
-                "astralsorcery:10": {
-                  "constellationName:8": "astralsorcery.constellation.alcara"
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "12:10": {
-          "weight:3": 4,
-          "ID:3": 12,
-          "items:9": {
-            "0:10": {
-              "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 2,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "astralsorcery:itemcraftingcomponent",
-              "Count:3": 3,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "3:10": {
-      "name:8": "Botania",
-      "weight:3": 2,
-      "ID:3": 3,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 10,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:livingwood",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "botania:livingwood",
-              "Count:3": 6,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 8,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:livingrock",
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 6,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:specialflower",
-              "Count:3": 1,
-              "tag:10": {
-                "type:8": "puredaisy"
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 5,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 1,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 5,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 3,
-              "Damage:2": 18,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 3,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:manaresource",
-              "Count:3": 2,
-              "Damage:2": 8,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 1,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:rune",
-              "Count:3": 1,
-              "Damage:2": 11,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "7:10": {
-          "weight:3": 1,
-          "ID:3": 7,
-          "items:9": {
-            "0:10": {
-              "id:8": "botania:rune",
-              "Count:3": 1,
-              "Damage:2": 8,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "4:10": {
-      "name:8": "Metals",
-      "weight:3": 2,
-      "ID:3": 4,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 19,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:iron_ingot",
-              "Count:3": 6,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 17,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:iron_ingot",
-              "Count:3": 11,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 15,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 8,
-              "Damage:2": 128,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 13,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 6,
-              "Damage:2": 132,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 12,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 9,
-              "Damage:2": 129,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 11,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 4,
-              "Damage:2": 133,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 10,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 5,
-              "Damage:2": 131,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "7:10": {
-          "weight:3": 7,
-          "ID:3": 7,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 2,
-              "Damage:2": 130,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "8:10": {
-          "weight:3": 6,
-          "ID:3": 8,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:gold_ingot",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "9:10": {
-          "weight:3": 5,
-          "ID:3": 9,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 6,
-              "Damage:2": 198,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "10:10": {
-          "weight:3": 4,
-          "ID:3": 10,
-          "items:9": {
-            "0:10": {
-              "id:8": "mekanism:ingot",
-              "Count:3": 7,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "11:10": {
-          "weight:3": 3,
-          "ID:3": 11,
-          "items:9": {
-            "0:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 2,
-              "Damage:2": 134,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "thermalfoundation:material",
-              "Count:3": 1,
-              "Damage:2": 135,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "12:10": {
-          "weight:3": 2,
-          "ID:3": 12,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:duranite_ingot",
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "13:10": {
-          "weight:3": 1,
-          "ID:3": 13,
-          "items:9": {
-            "0:10": {
-              "id:8": "plustic:alumiteingot",
-              "Count:3": 6,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "14:10": {
-          "weight:3": 1,
-          "ID:3": 14,
-          "items:9": {
-            "0:10": {
-              "id:8": "draconicevolution:draconium_ingot",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "15:10": {
-          "weight:3": 1,
-          "ID:3": 15,
-          "items:9": {
-            "0:10": {
-              "id:8": "draconicevolution:nugget",
-              "Count:3": 2,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "5:10": {
-      "name:8": "Ender",
-      "weight:3": 2,
-      "ID:3": 5,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 10,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:ender_pearl",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 8,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "extrautils2:enderlilly",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "enderio:block_enderman_skull",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "6:10": {
-      "name:8": "Gems",
-      "weight:3": 1,
-      "ID:3": 6,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 10,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "projectred-core:resource_item",
-              "Count:3": 1,
-              "Damage:2": 201,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 5,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "projectred-core:resource_item",
-              "Count:3": 1,
-              "Damage:2": 202,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 5,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "projectred-core:resource_item",
-              "Count:3": 1,
-              "Damage:2": 200,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:emerald",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
           "items:9": {
             "0:10": {
               "id:8": "minecraft:diamond",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "7:10": {
-      "name:8": "Lootception",
-      "weight:3": 2,
-      "ID:3": 7,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 1,
-              "tag:10": {
-                "hideLootInfo:1": 1
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 2,
-              "tag:10": {
-                "hideLootInfo:1": 1
-              },
-              "Damage:2": 25,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 1,
-              "tag:10": {
-                "hideLootInfo:1": 1
-              },
-              "Damage:2": 50,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 1,
-              "tag:10": {
-                "hideLootInfo:1": 1
-              },
-              "Damage:2": 75,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 1,
-              "tag:10": {
-                "hideLootInfo:1": 1
-              },
-              "Damage:2": 100,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "bq_standard:loot_chest",
-              "Count:3": 1,
-              "tag:10": {
-                "hideLootInfo:1": 1
-              },
-              "Damage:2": 101,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "8:10": {
-      "name:8": "Nether",
-      "weight:3": 2,
-      "ID:3": 8,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 4,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:netherbrick",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:netherrack",
-              "Count:3": 9,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 3,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:magma",
+              "id:8": "minecraft:gold_ingot",
               "Count:3": 4,
               "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 2,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:ore",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tconstruct:nuggets",
-              "Count:3": 7,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:magma_cream",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:ghast_tear",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "9:10": {
-      "name:8": "Slimey",
-      "weight:3": 2,
-      "ID:3": 9,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 5,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:slime_ball",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 4,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 4,
-              "Damage:2": 1,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 3,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 6,
-              "Damage:2": 3,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 2,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 4,
-              "Damage:2": 5,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 2,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 4,
-              "Damage:2": 4,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 2,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 4,
-              "Damage:2": 2,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 1,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:materials",
-              "Count:3": 1,
-              "Damage:2": 9,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tconstruct:materials",
-              "Count:3": 1,
-              "Damage:2": 10,
               "OreDict:8": ""
             },
             "2:10": {
-              "id:8": "tconstruct:materials",
-              "Count:3": 1,
-              "Damage:2": 11,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "10:10": {
-      "name:8": "Tool Parts",
-      "weight:3": 3,
-      "ID:3": 10,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 3,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:binding",
-              "Count:3": 1,
-              "tag:10": {
-                "Material:8": "xu_magical_wood"
-              },
-              "Damage:2": 0,
+              "id:8": "thermalfoundation:material",
+              "Count:3": 3,
+              "Damage:2": 198,
               "OreDict:8": ""
             }
           }
@@ -1195,59 +32,98 @@
         "1:10": {
           "weight:3": 1,
           "ID:3": 1,
+          "items:9": {
+            "0:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 4,
+              "Damage:2": 130,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 2,
+              "Damage:2": 134,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 3,
+              "Damage:2": 199,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "2:10": {
+          "weight:3": 1,
+          "ID:3": 2,
+          "items:9": {
+            "0:10": {
+              "id:8": "minecraft:redstone",
+              "Count:3": 18,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:glowstone_dust",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:blaze_powder",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "3:10": {
+          "weight:3": 1,
+          "ID:3": 3,
           "items:9": {
             "0:10": {
               "id:8": "tconstruct:tough_binding",
               "Count:3": 1,
               "tag:10": {
-                "Material:8": "electrum"
+                "Material:8": "pulsating_iron"
               },
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 6,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:large_plate",
-              "Count:3": 1,
-              "tag:10": {
-                "Material:8": "cobalt"
-              },
+            },
+            "1:10": {
+              "id:8": "taiga:palladium_dust",
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:sword_blade",
-              "Count:3": 1,
-              "tag:10": {
-                "Material:8": "alumite"
-              },
+            },
+            "2:10": {
+              "id:8": "taiga:abyssum_nugget",
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
             }
           }
         },
         "4:10": {
-          "weight:3": 2,
+          "weight:3": 1,
           "ID:3": 4,
           "items:9": {
             "0:10": {
-              "id:8": "tconstruct:pick_head",
+              "id:8": "thaumcraft:loot_bag",
+              "Count:3": 2,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thaumcraft:loot_bag",
               "Count:3": 1,
-              "tag:10": {
-                "Material:8": "electrumflux"
-              },
-              "Damage:2": 0,
+              "Damage:2": 2,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "thaumcraft:curio",
+              "Count:3": 5,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           }
@@ -1257,26 +133,59 @@
           "ID:3": 5,
           "items:9": {
             "0:10": {
-              "id:8": "tconstruct:tough_tool_rod",
+              "id:8": "minecraft:emerald",
+              "Count:3": 3,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "tconstruct:pan_head",
               "Count:3": 1,
               "tag:10": {
-                "Material:8": "xu_magical_wood"
+                "Material:8": "osmium"
               },
               "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "thermalfoundation:material",
+              "Count:3": 8,
+              "Damage:2": 133,
               "OreDict:8": ""
             }
           }
         },
         "6:10": {
-          "weight:3": 4,
+          "weight:3": 1,
           "ID:3": 6,
           "items:9": {
             "0:10": {
-              "id:8": "tconstruct:excavator_head",
+              "id:8": "taiga:emberium_nugget",
               "Count:3": 1,
-              "tag:10": {
-                "Material:8": "platinum"
-              },
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "taiga:psychonium_nugget",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "taiga:pure_nugget",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "taiga:skylerite_nugget",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "taiga:cyberium_nugget",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1287,464 +196,21 @@
           "ID:3": 7,
           "items:9": {
             "0:10": {
-              "id:8": "conarm:armor_trim",
-              "Count:3": 3,
-              "tag:10": {
-                "Material:8": "red_aurum"
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "8:10": {
-          "weight:3": 1,
-          "ID:3": 8,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:knife_blade",
+              "id:8": "enderio:item_basic_capacitor",
               "Count:3": 1,
-              "tag:10": {
-                "Material:8": "vibranium"
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "11:10": {
-      "name:8": "Spectrite",
-      "weight:3": 1,
-      "ID:3": 11,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 2,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "spectrite:spectrite_brick",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "spectrite:spectrite_gem",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "12:10": {
-      "name:8": "Tool Shop",
-      "weight:3": 1,
-      "ID:3": 12,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 5,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "artisanworktables:artisans_handsaw_platinum",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 5,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "artisanworktables:artisans_trowel_platinum",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 5,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "artisanworktables:artisans_framing_hammer_platinum",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 5,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "artisanworktables:artisans_punch_platinum",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "artisanworktables:toolbox",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "13:10": {
-      "name:8": "Utilities",
-      "weight:3": 5,
-      "ID:3": 13,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:paper",
-              "Count:3": 7,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:dye",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:planks",
-              "Count:3": 7,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:torch",
-              "Count:3": 9,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "14:10": {
-      "name:8": "Tents",
-      "weight:3": 1,
-      "ID:3": 14,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 0,
-                  "WidthCur:1": 5,
-                  "DepthCur:1": 0,
-                  "ID:4": -32768
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 1,
-                  "WidthCur:1": 5,
-                  "DepthCur:1": 0,
-                  "ID:4": -32768
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 2,
-                  "WidthCur:1": 5,
-                  "DepthCur:1": 0,
-                  "ID:4": -32768
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 3,
-                  "WidthCur:1": 5,
-                  "DepthCur:1": 0,
-                  "ID:4": -32768
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "yurtmod:tent",
-              "Count:3": 1,
-              "tag:10": {
-                "TentData:10": {
-                  "TentColor:3": 0,
-                  "TentType:1": 4,
-                  "WidthCur:1": 5,
-                  "DepthCur:1": 0,
-                  "ID:4": -32768
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "15:10": {
-      "name:8": "Food",
-      "weight:3": 10,
-      "ID:3": 15,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 3,
-              "Damage:2": 10,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 1,
-              "Damage:2": 11,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 3,
-              "Damage:2": 12,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 1,
-              "Damage:2": 13,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 3,
-              "Damage:2": 14,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 1,
-              "Damage:2": 15,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:bread",
-              "Count:3": 5,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:fish",
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:cooked_fish",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:fish",
-              "Count:3": 2,
               "Damage:2": 2,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "minecraft:fish",
-              "Count:3": 1,
-              "Damage:2": 3,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 1,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 3,
-              "Damage:2": 20,
+              "id:8": "enderio:item_power_conduit",
+              "Count:3": 8,
+              "Damage:2": 2,
               "OreDict:8": ""
             },
-            "1:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 1,
-              "Damage:2": 21,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "7:10": {
-          "weight:3": 1,
-          "ID:3": 7,
-          "items:9": {
-            "0:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 3,
-              "Damage:2": 22,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "tconstruct:edible",
-              "Count:3": 1,
-              "Damage:2": 23,
+            "2:10": {
+              "id:8": "enderio:item_alloy_nugget",
+              "Count:3": 7,
+              "Damage:2": 2,
               "OreDict:8": ""
             }
           }
@@ -1754,14 +220,23 @@
           "ID:3": 8,
           "items:9": {
             "0:10": {
-              "id:8": "minecraft:beetroot_soup",
-              "Count:3": 1,
+              "id:8": "mekanism:enrichedalloy",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:pumpkinsoupitem",
-              "Count:3": 1,
+              "id:8": "mekanism:reinforcedalloy",
+              "Count:3": 2,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "tconstruct:large_plate",
+              "Count:3": 2,
+              "tag:10": {
+                "Material:8": "osmium"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1772,14 +247,19 @@
           "ID:3": 9,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:carrotsoupitem",
-              "Count:3": 1,
+              "id:8": "minecraft:ender_pearl",
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:lettuceitem",
-              "Count:3": 1,
+              "id:8": "minecraft:spawn_egg",
+              "Count:3": 3,
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "minecraft:enderman"
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1790,13 +270,19 @@
           "ID:3": 10,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:toastitem",
-              "Count:3": 1,
+              "id:8": "spectrite:spectrite_gem",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:eggsaladitem",
+              "id:8": "spectrite:spectrite_rod",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "spectrite:spectrite_chest",
               "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
@@ -1808,15 +294,15 @@
           "ID:3": 11,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:asparagussoupitem",
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bloodmagic:soul_gem",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "harvestcraft:stuffedchilipeppersitem",
-              "Count:3": 1,
-              "Damage:2": 0,
+              "tag:10": {
+                "souls:6": 256.0
+              },
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           }
@@ -1826,14 +312,23 @@
           "ID:3": 12,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:peaandhamsoupitem",
-              "Count:3": 1,
+              "id:8": "scalinghealth:heartcontainer",
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:asparagusitem",
-              "Count:3": 1,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "heartdrops:golden_heart",
+              "Count:3": 6,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "scalinghealth:crystalshard",
+              "Count:3": 24,
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1844,15 +339,24 @@
           "ID:3": 13,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:cookedtofaconitem",
-              "Count:3": 3,
+              "id:8": "tconstruct:pan_head",
+              "Count:3": 1,
+              "tag:10": {
+                "Material:8": "terrasteel"
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:porklomeinitem",
-              "Count:3": 1,
-              "Damage:2": 0,
+              "id:8": "botania:manaresource",
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "botania:manaresource",
+              "Count:3": 3,
+              "Damage:2": 8,
               "OreDict:8": ""
             }
           }
@@ -1862,14 +366,48 @@
           "ID:3": 14,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:shrimpokrahushpuppiesitem",
-              "Count:3": 1,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "astralsorcery:itemrockcrystalsimple",
+              "Count:3": 5,
+              "tag:10": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 400,
+                    "fract:3": 0,
+                    "purity:3": 100,
+                    "sizeOverride:3": -1
+                  }
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:porkrindsitem",
+              "id:8": "astralsorcery:itemcraftingcomponent",
+              "Count:3": 4,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "astralsorcery:itemcelestialcrystal",
               "Count:3": 3,
+              "tag:10": {
+                "astralsorcery:10": {
+                  "crystalProperties:10": {
+                    "collectiveCapability:3": 100,
+                    "size:3": 900,
+                    "fract:3": 0,
+                    "purity:3": 100,
+                    "sizeOverride:3": -1
+                  }
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }
@@ -1880,790 +418,196 @@
           "ID:3": 15,
           "items:9": {
             "0:10": {
-              "id:8": "harvestcraft:gourmetporkpattyitem",
-              "Count:3": 3,
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 28,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "appliedenergistics2:material",
+              "Count:3": 8,
+              "Damage:2": 12,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "appliedenergistics2:part",
+              "Count:3": 4,
+              "Damage:2": 56,
+              "OreDict:8": ""
+            }
+          }
+        },
+        "16:10": {
+          "weight:3": 1,
+          "ID:3": 16,
+          "items:9": {
+            "0:10": {
+              "id:8": "thaumadditions:jar_mithrillium",
+              "Count:3": 1,
               "Damage:2": 0,
               "OreDict:8": ""
             },
             "1:10": {
-              "id:8": "harvestcraft:bbqjackfruititem",
-              "Count:3": 1,
+              "id:8": "thaumcraft:curio",
+              "Count:3": 3,
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "16:10": {
-      "name:8": "Rare Tools",
-      "weight:3": 1,
-      "ID:3": 16,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_chestplate",
-              "Count:3": 1,
-              "tag:10": {
-                "enderio.darksteel.upgrade.thaumaturge_robes_chest:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.energyUpgrade:10": {
-                  "level:3": 3,
-                  "energy:3": 1000000
-                },
-                "enderio.darksteel.upgrade.inv:10": {
-                  "level:3": 2
-                },
-                "enderio.darksteel.upgrade.glide:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.anvil:10": {
-                  "level:3": 2
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_helmet",
-              "Count:3": 1,
-              "tag:10": {
-                "enderio.darksteel.upgrade.soundDetector:10": {
-                  "level:3": 0
-                },
-                "theoneprobe:3": 1,
-                "enderio.darksteel.upgrade.energyUpgrade:10": {
-                  "level:3": 3,
-                  "energy:3": 1000000
-                },
-                "enderio.darksteel.upgrade.inv:10": {
-                  "level:3": 2
-                },
-                "enderio.darksteel.upgrade.nightVision:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.padding:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.solar:10": {
-                  "level:3": 3
-                },
-                "enderio.darksteel.upgrade.top:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.gogglesOfRevealing:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.anvil:10": {
-                  "level:3": 2
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_leggings",
-              "Count:3": 1,
-              "tag:10": {
-                "enderio.darksteel.upgrade.energyUpgrade:10": {
-                  "level:3": 3,
-                  "energy:3": 1000000
-                },
-                "enderio.darksteel.upgrade.inv:10": {
-                  "level:3": 2
-                },
-                "enderio.darksteel.upgrade.thaumaturge_robes_legs:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.speedBoost:10": {
-                  "level:3": 3
-                },
-                "enderio.darksteel.upgrade.anvil:10": {
-                  "level:3": 2
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_boots",
-              "Count:3": 1,
-              "tag:10": {
-                "enderio.darksteel.upgrade.jumpBoost:10": {
-                  "level:3": 3
-                },
-                "enderio.darksteel.upgrade.swim:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.energyUpgrade:10": {
-                  "level:3": 3,
-                  "energy:3": 1000000
-                },
-                "enderio.darksteel.upgrade.inv:10": {
-                  "level:3": 2
-                },
-                "enderio.darksteel.upgrade.anvil:10": {
-                  "level:3": 2
-                },
-                "enderio.darksteel.upgrade.step_assist:10": {
-                  "level:3": 0
-                },
-                "enderio.darksteel.upgrade.thaumaturge_robes_feet:10": {
-                  "level:3": 0
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 10,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_boots",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 10,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_leggings",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 10,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_chestplate",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "7:10": {
-          "weight:3": 10,
-          "ID:3": 7,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "enderio:item_dark_steel_helmet",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "8:10": {
-          "weight:3": 3,
-          "ID:3": 8,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "thaumcraft:goggles",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "9:10": {
-          "weight:3": 6,
-          "ID:3": 9,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "supersoundmuffler:sound_muffler_bauble",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "17:10": {
-      "name:8": "Hard Alloys",
-      "weight:3": 2,
-      "ID:3": 17,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:osram_ore",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:aurorium_ore",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:karmesine_ore",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:abyssum_ore",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "18:10": {
-      "name:8": "Oddities",
-      "weight:3": 6,
-      "ID:3": 18,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:birch_boat",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "minecraft:fishing_rod",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:redstone_torch",
-              "Count:3": 4,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:lead",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "quark:chain",
-              "Count:3": 7,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "minecraft:carrot_on_a_stick",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "6:10": {
-          "weight:3": 1,
-          "ID:3": 6,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:saddle",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "7:10": {
-          "weight:3": 1,
-          "ID:3": 7,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:compass",
-              "Count:3": 1,
-              "tag:10": {
-                "quark:compass_calculated:1": 1,
-                "quark:compass_in_nether:1": 0
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "8:10": {
-          "weight:3": 1,
-          "ID:3": 8,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:clock",
-              "Count:3": 1,
-              "tag:10": {
-                "quark:clock_calculated:1": 1
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "9:10": {
-          "weight:3": 1,
-          "ID:3": 9,
-          "items:9": {
-            "0:10": {
-              "ForgeCaps:10": {
-                "astralsorcery:cap_item_amulet_holder:10": {}
-              },
-              "id:8": "minecraft:shears",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "10:10": {
-          "weight:3": 1,
-          "ID:3": 10,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:name_tag",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "19:10": {
-      "name:8": "Enchantments",
-      "weight:3": 4,
-      "ID:3": 19,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:enchanted_book",
-              "Count:3": 1,
-              "tag:10": {
-                "StoredEnchantments:9": {
-                  "0:10": {
-                    "lvl:2": 3,
-                    "id:3": 35
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:enchanted_book",
-              "Count:3": 1,
-              "tag:10": {
-                "StoredEnchantments:9": {
-                  "0:10": {
-                    "lvl:2": 3,
-                    "id:3": 34
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:enchanted_book",
-              "Count:3": 1,
-              "tag:10": {
-                "StoredEnchantments:9": {
-                  "0:10": {
-                    "lvl:2": 1,
-                    "id:3": 70
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "3:10": {
-          "weight:3": 1,
-          "ID:3": 3,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:enchanted_book",
-              "Count:3": 1,
-              "tag:10": {
-                "StoredEnchantments:9": {
-                  "0:10": {
-                    "lvl:2": 1,
-                    "id:3": 60
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:enchanted_book",
-              "Count:3": 1,
-              "tag:10": {
-                "StoredEnchantments:9": {
-                  "0:10": {
-                    "lvl:2": 5,
-                    "id:3": 32
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "5:10": {
-          "weight:3": 1,
-          "ID:3": 5,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:enchanted_book",
-              "Count:3": 1,
-              "tag:10": {
-                "StoredEnchantments:9": {
-                  "0:10": {
-                    "lvl:2": 1,
-                    "id:3": 33
-                  }
-                }
-              },
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "20:10": {
-      "name:8": "Heads",
-      "weight:3": 3,
-      "ID:3": 20,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 10,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:skull",
-              "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 3,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:skull",
-              "Count:3": 1,
+            },
+            "2:10": {
+              "id:8": "thaumcraft:curio",
+              "Count:3": 6,
               "Damage:2": 1,
               "OreDict:8": ""
             }
           }
         },
-        "2:10": {
-          "weight:3": 7,
-          "ID:3": 2,
+        "17:10": {
+          "weight:3": 1,
+          "ID:3": 17,
           "items:9": {
             "0:10": {
-              "id:8": "minecraft:skull",
-              "Count:3": 1,
-              "Damage:2": 2,
+              "id:8": "minecraft:dye",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "minecraft:leather",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:paper",
+              "Count:3": 24,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "extrautils2:decorativesolidwood",
+              "Count:3": 8,
+              "Damage:2": 1,
               "OreDict:8": ""
             }
           }
         },
-        "3:10": {
-          "weight:3": 5,
-          "ID:3": 3,
+        "18:10": {
+          "weight:3": 1,
+          "ID:3": 18,
           "items:9": {
             "0:10": {
-              "id:8": "minecraft:skull",
-              "Count:3": 1,
+              "id:8": "minecraft:iron_ore",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 16,
+              "Damage:2": 1,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 12,
               "Damage:2": 4,
               "OreDict:8": ""
-            }
-          }
-        },
-        "4:10": {
-          "weight:3": 1,
-          "ID:3": 4,
-          "items:9": {
-            "0:10": {
-              "id:8": "minecraft:skull",
-              "Count:3": 1,
+            },
+            "4:10": {
+              "id:8": "thermalfoundation:ore",
+              "Count:3": 12,
               "Damage:2": 5,
               "OreDict:8": ""
             }
           }
-        }
-      }
-    },
-    "21:10": {
-      "name:8": "Basic Utilities",
-      "weight:3": 12,
-      "ID:3": 21,
-      "rewards:9": {
-        "0:10": {
+        },
+        "19:10": {
           "weight:3": 1,
-          "ID:3": 0,
+          "ID:3": 19,
           "items:9": {
             "0:10": {
-              "id:8": "futuremc:campfire",
-              "Count:3": 1,
+              "id:8": "tconstruct:edible",
+              "Count:3": 24,
+              "Damage:2": 13,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "id:8": "harvestcraft:epicbaconitem",
+              "Count:3": 8,
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "22:10": {
-      "name:8": "Harder Alloys",
-      "weight:3": 2,
-      "ID:3": 22,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:prometheum_ore",
-              "Count:3": 3,
+            },
+            "2:10": {
+              "id:8": "harvestcraft:baconandeggsitem",
+              "Count:3": 4,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "3:10": {
+              "id:8": "harvestcraft:baconpancakesitem",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "4:10": {
+              "id:8": "harvestcraft:baconmushroomburgeritem",
+              "Count:3": 4,
               "Damage:2": 0,
               "OreDict:8": ""
             }
           }
         },
-        "1:10": {
+        "20:10": {
           "weight:3": 1,
-          "ID:3": 1,
+          "ID:3": 20,
           "items:9": {
             "0:10": {
-              "id:8": "taiga:duranite_ore",
-              "Count:3": 3,
+              "id:8": "minecraft:spawn_egg",
+              "Count:3": 4,
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "minecraft:villager"
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        },
-        "2:10": {
-          "weight:3": 1,
-          "ID:3": 2,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:palladium_ore",
-              "Count:3": 3,
+            },
+            "1:10": {
+              "id:8": "minecraft:spawn_egg",
+              "Count:3": 8,
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "minecraft:slime"
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "23:10": {
-      "name:8": "Extreme Alloys",
-      "weight:3": 1,
-      "ID:3": 23,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:valyrium_ore",
+            },
+            "2:10": {
+              "id:8": "minecraft:spawn_egg",
               "Count:3": 2,
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "thaumcraft:brainyzombie"
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 1,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:uru_ore",
-              "Count:3": 2,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        }
-      }
-    },
-    "24:10": {
-      "name:8": "Wakanda",
-      "weight:3": 1,
-      "ID:3": 24,
-      "rewards:9": {
-        "0:10": {
-          "weight:3": 1,
-          "ID:3": 0,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:vibranium_ore",
+            },
+            "3:10": {
+              "id:8": "minecraft:spawn_egg",
               "Count:3": 1,
-              "Damage:2": 0,
-              "OreDict:8": ""
-            }
-          }
-        },
-        "1:10": {
-          "weight:3": 10,
-          "ID:3": 1,
-          "items:9": {
-            "0:10": {
-              "id:8": "taiga:vibranium_nugget",
-              "Count:3": 1,
+              "tag:10": {
+                "EntityTag:10": {
+                  "id:8": "spectrite:spectriteenderman"
+                }
+              },
               "Damage:2": 0,
               "OreDict:8": ""
             }

@@ -27,7 +27,7 @@ recipes.addShaped(<artisanworktables:worktable:5>, [[null, <minecraft:paper>, nu
 // Basic Workstation
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:paper>, <minecraft:paper>, <minecraft:paper>],
+    [null, null, null],
     [<tconstruct:tooltables>, <minecraft:stick>, <tconstruct:tooltables>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]])
   .addTool(<ore:artisansFramingHammer>, 1)
@@ -81,9 +81,9 @@ RecipeBuilder.get("basic")
 // Masons Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<atum:limestone_gravel>, <minecraft:stick>, <atum:limestone_gravel>],
+    [<minecraft:gravel>, <minecraft:stick>, <minecraft:gravel>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
-    [<atum:limestone_gravel>, <minecraft:stick>, <atum:limestone_gravel>]])
+    [<minecraft:gravel>, <minecraft:stick>, <minecraft:gravel>]])
   .addTool(<ore:artisansFramingHammer>, 1)
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:2>)

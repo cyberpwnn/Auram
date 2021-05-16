@@ -1,4 +1,5 @@
-#disable_search_tree
-
+// Disable use of items in ie
 mods.ItemStages.stageModItems("engineer", "immersiveengineering");
-mods.ItemStages.addItemStage("cloche", <immersiveengineering:metal_device1:13>);
+mods.ItemStages.stageModItems("engineer", "immersivecables");
+mods.ItemStages.stageModItems("american-engineer", "immersivepetroleum");
+
