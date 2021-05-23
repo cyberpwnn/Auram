@@ -4467,7 +4467,9 @@
     },
     "45:10": {
       "questID:3": 45,
-      "preRequisites:11": [],
+      "preRequisites:11": [
+        4
+      ],
       "properties:10": {
         "betterquesting:10": {
           "issilent:1": 0,
@@ -8677,6 +8679,164 @@
           }
         }
       }
+    },
+    "94:10": {
+      "questID:3": 94,
+      "preRequisites:11": [
+        2,
+        78
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "galacticraftcore:parachute",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Astronaut",
+          "desc:8": "Find new worlds!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:stone",
+              "Count:3": 32,
+              "Damage:2": 0,
+              "OreDict:8": "materialStoneTool"
+            },
+            "1:10": {
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 8,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "id:8": "minecraft:iron_block",
+              "Count:3": 4,
+              "Damage:2": 32767,
+              "OreDict:8": "blockIron"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {
+        "0:10": {
+          "rewardID:8": "bq_standard:item",
+          "index:3": 0,
+          "rewards:9": {
+            "0:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bq_standard:loot_chest",
+              "Count:3": 1,
+              "tag:10": {
+                "hideLootInfo:1": 1
+              },
+              "Damage:2": 101,
+              "OreDict:8": ""
+            },
+            "1:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "galacticraftcore:oxygen_tank_med_full",
+              "Count:3": 1,
+              "Damage:2": 1800,
+              "OreDict:8": ""
+            },
+            "2:10": {
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "galacticraftplanets:titanium_chestplate",
+              "Count:3": 1,
+              "Damage:2": 0,
+              "OreDict:8": ""
+            }
+          }
+        }
+      }
+    },
+    "95:10": {
+      "questID:3": 95,
+      "preRequisites:11": [
+        94
+      ],
+      "properties:10": {
+        "betterquesting:10": {
+          "issilent:1": 0,
+          "snd_complete:8": "minecraft:entity.player.levelup",
+          "lockedprogress:1": 0,
+          "tasklogic:8": "AND",
+          "repeattime:3": -1,
+          "visibility:8": "NORMAL",
+          "simultaneous:1": 0,
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "galacticraftcore:oxygen_tank_light_full",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "globalshare:1": 0,
+          "questlogic:8": "AND",
+          "snd_update:8": "minecraft:entity.player.levelup",
+          "autoclaim:1": 0,
+          "repeat_relative:1": 1,
+          "ismain:1": 0,
+          "name:8": "Galactic Exploration",
+          "desc:8": "Become an astronaut!"
+        }
+      },
+      "tasks:9": {
+        "0:10": {
+          "partialMatch:1": 1,
+          "autoConsume:1": 0,
+          "groupDetect:1": 0,
+          "ignoreNBT:1": 0,
+          "index:3": 0,
+          "consume:1": 1,
+          "requiredItems:9": {
+            "0:10": {
+              "id:8": "minecraft:iron_ingot",
+              "Count:3": 16,
+              "Damage:2": 0,
+              "OreDict:8": "ingotIron"
+            }
+          },
+          "taskID:8": "bq_standard:retrieval"
+        }
+      },
+      "rewards:9": {}
     }
   },
   "questLines:9": {
@@ -8813,6 +8973,13 @@
           "x:3": 84,
           "y:3": 24,
           "id:3": 87,
+          "sizeY:3": 24
+        },
+        "19:10": {
+          "sizeX:3": 24,
+          "x:3": -24,
+          "y:3": -48,
+          "id:3": 94,
           "sizeY:3": 24
         }
       },
@@ -9567,7 +9734,7 @@
           "desc:8": "Grid Power!"
         }
       },
-      "order:3": 9
+      "order:3": 10
     },
     "10:10": {
       "quests:9": {},
@@ -9594,7 +9761,7 @@
           "desc:8": "Much Power! Much Wow!"
         }
       },
-      "order:3": 10
+      "order:3": 11
     },
     "11:10": {
       "quests:9": {},
@@ -9614,7 +9781,38 @@
           "desc:8": ""
         }
       },
-      "order:3": 11
+      "order:3": 12
+    },
+    "12:10": {
+      "quests:9": {
+        "0:10": {
+          "sizeX:3": 24,
+          "x:3": -84,
+          "y:3": -48,
+          "id:3": 95,
+          "sizeY:3": 24
+        }
+      },
+      "lineID:3": 12,
+      "properties:10": {
+        "betterquesting:10": {
+          "visibility:8": "NORMAL",
+          "name:8": "Astronaut",
+          "icon:10": {
+            "ForgeCaps:10": {
+              "astralsorcery:cap_item_amulet_holder:10": {}
+            },
+            "id:8": "galacticraftcore:infinite_oxygen",
+            "Count:3": 1,
+            "Damage:2": 0,
+            "OreDict:8": ""
+          },
+          "bg_image:8": "",
+          "bg_size:3": 256,
+          "desc:8": "Explore new worlds!"
+        }
+      },
+      "order:3": 9
     }
   },
   "questSettings:10": {
