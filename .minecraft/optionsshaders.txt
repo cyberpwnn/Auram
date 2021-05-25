@@ -1,5 +1,5 @@
-#Sun May 23 10:28:49 EDT 2021
-shaderPack=Auram
+#Sun May 23 22:30:43 EDT 2021
+shaderPack=SEUS Renewed.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

@@ -2,6 +2,7 @@
 
 // Disable use of items in gc
 mods.ItemStages.stageModItems("astronaut", "galacticraftcore");
+mods.ItemStages.stageModItems("astronaut", "galacticraftplanets");
 
 // Hide gc ores
 mods.orestages.OreStages.addReplacement("astronaut", <ore:oreSilicon>);
