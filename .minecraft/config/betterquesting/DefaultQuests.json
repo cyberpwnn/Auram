@@ -12668,64 +12668,9 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "immersiveengineering:wirecoil",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
-            "Damage:2": 0,
+            "Damage:2": 5,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -12734,8 +12679,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Pretty Wiring",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -12748,10 +12693,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "id:8": "immersiveengineering:wirecoil",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12797,63 +12742,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "bigreactors:blockludicrite",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -12863,8 +12753,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Nuclear Insanity",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -12877,10 +12767,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "bigreactors:blockludicrite",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -12926,61 +12816,13 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "tconstruct:toolforge",
             "Count:3": 1,
             "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
+              "textureBlock:10": {
+                "id:8": "spectrite:spectrite_block",
+                "Count:1": 1,
+                "Damage:2": 0
               }
             },
             "Damage:2": 0,
@@ -12992,8 +12834,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Rainbow Forge",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -13006,10 +12848,17 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "tconstruct:toolforge",
+              "Count:3": 1,
+              "tag:10": {
+                "textureBlock:10": {
+                  "id:8": "spectrite:spectrite_block",
+                  "Count:1": 1,
+                  "Damage:2": 0
+                }
+              },
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13055,63 +12904,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:purpur_block",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13121,8 +12915,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Purpur!",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -13135,10 +12929,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "id:8": "minecraft:purpur_block",
+              "Count:3": 1,
+              "Damage:2": 32767,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13261,59 +13055,10 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "bloodmagic:blood_orb",
             "Count:3": 1,
             "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
+              "orb:8": "bloodmagic:magician"
             },
             "Damage:2": 0,
             "OreDict:8": ""
@@ -13324,8 +13069,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Evil Magician Man",
+          "desc:8": "Magician Blood orb"
         }
       },
       "tasks:9": {
@@ -13338,10 +13083,16 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "bloodmagic:blood_orb",
+              "Count:3": 1,
+              "tag:10": {
+                "orb:8": "bloodmagic:magician"
+              },
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13387,63 +13138,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "embers:dawnstone_anvil",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13453,8 +13149,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "There is only one reason to make this",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -13467,10 +13163,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "embers:dawnstone_anvil",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13516,63 +13212,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "oreberries:essence_oreberry",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13582,8 +13223,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Tastes like creeper",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -13596,10 +13237,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "oreberries:essence_oreberry",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13645,63 +13286,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "opensecurity:security_terminal",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13711,8 +13297,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Do not pass",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -13725,10 +13311,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "opensecurity:security_terminal",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13777,60 +13363,8 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:diamond_pickaxe",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -13840,8 +13374,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Excavation",
+          "desc:8": "Mine 64 Cobblestone"
         }
       },
       "tasks:9": {
@@ -13854,10 +13388,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
+              "id:8": "minecraft:stone",
               "Count:3": 64,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": "stone"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -13906,59 +13440,10 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "botania:terrapick",
             "Count:3": 1,
             "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
+              "mana:3": 9999
             },
             "Damage:2": 0,
             "OreDict:8": ""
@@ -13969,27 +13454,23 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Chunk By Chunk",
+          "desc:8": "Mine 64,535 Cobble (An entire chunk worth)"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 1,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
+          "blocks:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "blockID:8": "minecraft:stone",
+              "nbt:10": {},
+              "amount:3": 65535,
+              "oreDict:8": "",
+              "meta:3": -1
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "index:3": 1,
+          "taskID:8": "bq_standard:block_break"
         }
       },
       "rewards:9": {
@@ -14035,60 +13516,8 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:diamond_shovel",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14098,8 +13527,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Dirty",
+          "desc:8": "Excavate 64 Dirt"
         }
       },
       "tasks:9": {
@@ -14112,10 +13541,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
+              "id:8": "minecraft:dirt",
               "Count:3": 64,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": "dirt"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14161,63 +13590,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:gravel",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14227,27 +13601,23 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Flint Stone",
+          "desc:8": "Mine 64 Gravel"
         }
       },
       "tasks:9": {
         "0:10": {
-          "partialMatch:1": 1,
-          "autoConsume:1": 0,
-          "groupDetect:1": 1,
-          "ignoreNBT:1": 0,
-          "index:3": 0,
-          "consume:1": 0,
-          "requiredItems:9": {
+          "blocks:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "blockID:8": "minecraft:gravel",
+              "nbt:10": {},
+              "amount:3": 64,
+              "oreDict:8": "",
+              "meta:3": -1
             }
           },
-          "taskID:8": "bq_standard:retrieval"
+          "index:3": 0,
+          "taskID:8": "bq_standard:block_break"
         }
       },
       "rewards:9": {
@@ -14290,65 +13660,10 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:dye",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
-            "Damage:2": 0,
-            "OreDict:8": ""
+            "Damage:2": 5,
+            "OreDict:8": "dyePurple"
           },
           "globalshare:1": 0,
           "questlogic:8": "AND",
@@ -14356,8 +13671,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Auram Dye",
+          "desc:8": "Make purple dye"
         }
       },
       "tasks:9": {
@@ -14370,10 +13685,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "id:8": "minecraft:dye",
+              "Count:3": 1,
+              "Damage:2": 5,
+              "OreDict:8": "dyePurple"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14419,63 +13734,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:diamond_block",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14485,8 +13745,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Diamond Block!",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -14499,10 +13759,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "minecraft:diamond_block",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": "blockDiamond"
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14524,12 +13784,6 @@
               },
               "Damage:2": 101,
               "OreDict:8": ""
-            },
-            "1:10": {
-              "id:8": "minecraft:experience_bottle",
-              "Count:3": 3,
-              "Damage:2": 0,
-              "OreDict:8": ""
             }
           }
         }
@@ -14548,63 +13802,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:golden_apple",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14614,8 +13813,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Super Apple",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -14628,10 +13827,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14677,64 +13876,9 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:golden_apple",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
-            "Damage:2": 0,
+            "Damage:2": 1,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -14743,8 +13887,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Super Duper Apple",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -14757,10 +13901,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "id:8": "minecraft:golden_apple",
+              "Count:3": 1,
+              "Damage:2": 1,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14809,60 +13953,8 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:fishing_rod",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -14872,8 +13964,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Fish Fish",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -14886,10 +13978,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:fishing_rod",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -14938,60 +14033,8 @@
             "ForgeCaps:10": {
               "astralsorcery:cap_item_amulet_holder:10": {}
             },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "minecraft:milk_bucket",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -15001,8 +14044,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Milk Milk",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -15015,10 +14058,13 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "ForgeCaps:10": {
+                "astralsorcery:cap_item_amulet_holder:10": {}
+              },
+              "id:8": "minecraft:milk_bucket",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -15064,63 +14110,8 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "botania_tweaks:compressed_tiny_potato_8",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
             "Damage:2": 0,
             "OreDict:8": ""
           },
@@ -15130,8 +14121,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "HOLY POTATO",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -15144,10 +14135,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
+              "id:8": "botania_tweaks:compressed_tiny_potato_8",
+              "Count:3": 1,
               "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -15193,64 +14184,9 @@
           "visibility:8": "COMPLETED",
           "simultaneous:1": 0,
           "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "tconstruct:lumberaxe",
+            "id:8": "extrautils2:decorativesolid",
             "Count:3": 1,
-            "tag:10": {
-              "StatsOriginal:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Stats:10": {
-                "AttackSpeedMultiplier:5": 1.0,
-                "MiningSpeed:5": 7.59,
-                "FreeModifiers:3": 3,
-                "Durability:3": 904,
-                "HarvestLevel:3": 3,
-                "Attack:5": 7.13
-              },
-              "Special:10": {
-                "Categories:9": {
-                  "0:8": "harvest",
-                  "1:8": "tool",
-                  "2:8": "aoe"
-                }
-              },
-              "TinkerData:10": {
-                "Materials:9": {
-                  "0:8": "peridot",
-                  "1:8": "peridot",
-                  "2:8": "peridot",
-                  "3:8": "peridot"
-                },
-                "Modifiers:9": {
-                  "0:8": "toolleveling"
-                }
-              },
-              "Modifiers:9": {
-                "0:10": {
-                  "identifier:8": "shock",
-                  "color:3": -15341515,
-                  "level:3": 1
-                },
-                "1:10": {
-                  "identifier:8": "toolleveling",
-                  "color:3": 16777215,
-                  "level:3": 1
-                }
-              },
-              "Traits:9": {
-                "0:8": "shock",
-                "1:8": "toolleveling"
-              }
-            },
-            "Damage:2": 0,
+            "Damage:2": 8,
             "OreDict:8": ""
           },
           "globalshare:1": 0,
@@ -15259,8 +14195,8 @@
           "autoclaim:1": 0,
           "repeat_relative:1": 1,
           "ismain:1": 0,
-          "name:8": "Deforestation",
-          "desc:8": "You have enough wood"
+          "name:8": "Rainbow Stone",
+          "desc:8": ""
         }
       },
       "tasks:9": {
@@ -15273,10 +14209,10 @@
           "consume:1": 0,
           "requiredItems:9": {
             "0:10": {
-              "id:8": "minecraft:log",
-              "Count:3": 64,
-              "Damage:2": 0,
-              "OreDict:8": "logWood"
+              "id:8": "extrautils2:decorativesolid",
+              "Count:3": 1,
+              "Damage:2": 8,
+              "OreDict:8": ""
             }
           },
           "taskID:8": "bq_standard:retrieval"
@@ -16883,73 +15819,6 @@
       "order:3": 10
     },
     "9:10": {
-      "quests:9": {},
-      "lineID:3": 9,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "UNLOCKED",
-          "name:8": "Electrician",
-          "icon:10": {
-            "id:8": "thermalfoundation:material",
-            "Count:3": 1,
-            "Damage:2": 514,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Grid Power!"
-        }
-      },
-      "order:3": 12
-    },
-    "10:10": {
-      "quests:9": {},
-      "lineID:3": 10,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "UNLOCKED",
-          "name:8": "Enderneer",
-          "icon:10": {
-            "ForgeCaps:10": {
-              "astralsorcery:cap_item_amulet_holder:10": {}
-            },
-            "id:8": "enderio:item_dark_steel_upgrade",
-            "Count:3": 1,
-            "tag:10": {
-              "enderio:dsu:8": "enderio:energyupgrade4",
-              "enderio:enabled:1": 1
-            },
-            "Damage:2": 1,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Much Power! Much Wow!"
-        }
-      },
-      "order:3": 13
-    },
-    "11:10": {
-      "quests:9": {},
-      "lineID:3": 11,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "UNLOCKED",
-          "name:8": "Network Administrator",
-          "icon:10": {
-            "id:8": "appliedenergistics2:material",
-            "Count:3": 1,
-            "Damage:2": 7,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": ""
-        }
-      },
-      "order:3": 14
-    },
-    "12:10": {
       "quests:9": {
         "0:10": {
           "sizeX:3": 24,
@@ -16979,46 +15848,6 @@
         }
       },
       "order:3": 11
-    },
-    "13:10": {
-      "quests:9": {},
-      "lineID:3": 13,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "UNLOCKED",
-          "name:8": "Ember Mage",
-          "icon:10": {
-            "id:8": "embers:crystal_ember",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Embers..."
-        }
-      },
-      "order:3": 6
-    },
-    "14:10": {
-      "quests:9": {},
-      "lineID:3": 14,
-      "properties:10": {
-        "betterquesting:10": {
-          "visibility:8": "UNLOCKED",
-          "name:8": "Blood Mage",
-          "icon:10": {
-            "id:8": "bloodmagic:blood_shard",
-            "Count:3": 1,
-            "Damage:2": 0,
-            "OreDict:8": ""
-          },
-          "bg_image:8": "",
-          "bg_size:3": 256,
-          "desc:8": "Blood Magic!"
-        }
-      },
-      "order:3": 5
     }
   },
   "questSettings:10": {

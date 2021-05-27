@@ -1,0 +1,30 @@
+{
+    "priority": 100000,
+    "populate": {
+        "draconium_nether": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "draconicevolution:draconium_ore",
+                    "properties": {
+                        "type": "nether"
+                    }
+                },
+                "material": "minecraft:netherrack",
+                "cluster-size": 12
+            },
+            "cluster-count": 9,
+            "min-height": 26,
+            "max-height": 170,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    0,
+                    1
+                ]
+            }
+        }
+    }
+}

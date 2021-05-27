@@ -1,0 +1,37 @@
+{
+    "biomes": [
+        {
+            "spotSoundChance": 100,
+            "conditions": "biome.name == 'Sand Plains'",
+            "aurora": false,
+            "fog": false,
+            "precipitation": false,
+            "soundReset": true,
+            "sounds":[
+                {
+				"sound": "dsurround:insectcrawl",
+                "spot": true
+			},
+            {
+                "sound": "dsurround:desert.wind"
+            },
+            {
+                "sound": "dsurround:dust"
+            }
+            ]
+        }
+    ],
+    "blocks": [],
+    "dimensions": [
+        {
+            "$comment": "The Midnight",
+            "dimId": -23,
+            "weather": false,
+            "haze": true,
+            "aurora": false,
+            "seaLevel": 70
+        }
+    ],
+    "footsteps": {},
+    "forgeMappings": []
+}
