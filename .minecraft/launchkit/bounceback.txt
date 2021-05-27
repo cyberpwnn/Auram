@@ -1,3 +1,5 @@
 options.txt
 optionsof.txt
 optionsshaders.txt
+SEUS Renewed.zip.txt
+Auram.zip.txt
