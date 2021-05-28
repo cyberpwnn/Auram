@@ -8,7 +8,7 @@
     "color": "#FFCC33",
     "tooltip": "Pure Luster",
     "smeltingResult": "minecraft:gold_nugget",
-    "rarity": 9,
+    "rarity": 11,
     "maxHeight": 32,
     "sizeChance": 6
   },
@@ -18,8 +18,8 @@
     "smeltingResult": {
       "color": "#FF6600"
     },
-    "rarity": 4,
-    "density": 2,
+    "rarity": 5,
+    "density": 1,
     "minHeight": 20,
     "maxHeight": 60
   },
@@ -29,8 +29,8 @@
     "smeltingResult": {
       "color": "#FFBA80"
     },
-    "rarity": 4,
-    "density": 2,
+    "rarity": 5,
+    "density": 1,
     "maxHeight": 40
   },
   "Aluminum": {
@@ -46,8 +46,8 @@
         "ingotAluminium"
       ]
     },
-    "rarity": 3,
-    "density": 2,
+    "rarity": 5,
+    "density": 1,
     "maxHeight": 60,
     "sizeChance": 14
   },
@@ -62,6 +62,6 @@
     "tradeable": false,
     "preferredHeight": 48,
     "maxHeight": 32,
-    "sizeChance": 8
+    "sizeChance": 1
   }
 }
