@@ -89,6 +89,7 @@ key_of.key.zoom:46
 key_Change Caster Focus:33
 key_Misc Caster Toggle:34
 key_keybind.baublesinventory:48
+key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
@@ -115,7 +116,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.lockBuilding:37
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.betterquesting.quests:41
@@ -199,7 +199,6 @@ key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
 key_nei.options.keys.gui.botania_corporea_request:0
-key_key.otghud.desc:24
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_waila.keybind.wailaconfig:82
