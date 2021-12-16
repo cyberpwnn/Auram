@@ -275,7 +275,7 @@
 	},
 	"minecraft:diamond_pickaxe":
 	{
-		"mining": 40
+		"mining": 45
 	},
 	"minecraft:diamond_shovel":
 	{
@@ -307,7 +307,7 @@
 	},
 	"minecraft:iron_pickaxe":
 	{
-		"mining": 20
+		"mining": 25
 	},
 	"minecraft:iron_shovel":
 	{
@@ -339,7 +339,7 @@
 	},
 	"minecraft:stone_pickaxe":
 	{
-		"mining": 10
+		"mining": 5
 	},
 	"minecraft:stone_shovel":
 	{

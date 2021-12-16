@@ -5,7 +5,7 @@
 	},
 	"#forge:ores/coal":
 	{
-		"mining": 2
+		"mining": 3.5
 	},
 	"#forge:ores/copper":
 	{
@@ -939,7 +939,7 @@
 	},
 	"minecraft:stone":
 	{
-		"mining": 0.1
+		"mining": 4
 	},
 	"minecraft:stone_bricks":
 	{
@@ -1856,7 +1856,7 @@
 	},
 	"undergarden:coal_ore":
 	{
-		"mining": 4
+		"mining": 6
 	},
 	"undergarden:diamond_ore":
 	{
