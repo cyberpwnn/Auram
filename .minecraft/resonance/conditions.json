@@ -140,7 +140,7 @@
     {
       "when":[
         "temp_chilly",
-        "height_high",
+        "height_high", 
         "height_sohigh"
       ],
       "mode": "OR",
@@ -148,7 +148,7 @@
         "Skyrim/Aurora.mp3",
         "Skyrim/Dawn.mp3",
         "Skyrim/Dragonsreach.mp3",
-        "Celtic/CliffsOfMoher",
+        "Celtic/CliffsOfMoher.mp3",
         "BG3/Dream.mp3"
       ]
     },
