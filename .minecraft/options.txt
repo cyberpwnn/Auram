@@ -94,6 +94,7 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_keybind.baublesinventory:48
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -120,7 +121,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.betterquesting.quests:41
@@ -249,6 +249,15 @@ key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
 key_key.control:29
+key_key.showgui:15
+key_key.pmmo.showBar:15
+key_key.pmmo.showList:56
+key_key.pmmo.toggleTooltip:64
+key_key.pmmo.vein:41
+key_key.pmmo.openMenu:25
+key_key.pmmo.openSettings:0
+key_key.pmmo.openSkills:0
+key_key.pmmo.openGlossary:0
 key_enderio.keybind.inventory:23
 key_enderio.keybind.dsu:0
 key_enderio.keybind.glidertoggle:34
