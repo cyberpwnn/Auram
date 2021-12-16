@@ -4,4 +4,4 @@
 mods.ItemStages.stageModItems("mechanic", "mekanism");
 
 // Hide osmium ore
-mods.orestages.OreStages.addReplacement("mechanic", <ore:oreOsmium>);
+mods.orestages.OreStages.addNonDefaultingReplacement("mechanic", <ore:oreOsmium>);

@@ -7,5 +7,5 @@ mods.ItemStages.stageModItems("botanical-mage", "botanicadds");
 mods.ItemStages.stageModItems("botanical-mage", "extrabotany");
 
 // Hide bot flowers & shrooms
-mods.orestages.OreStages.addReplacementById("botanical-mage", "botania:mushroom:*", "minecraft:red_mushroom");
-mods.orestages.OreStages.addReplacementById("botanical-mage", "botania:flower:*", "minecraft:tallgrass");
+mods.orestages.OreStages.addNonDefaultingReplacement("botanical-mage", "botania:mushroom:*", "minecraft:red_mushroom");
+mods.orestages.OreStages.addNonDefaultingReplacement("botanical-mage", "botania:flower:*", "minecraft:tallgrass");

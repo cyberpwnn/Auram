@@ -11,12 +11,12 @@ mods.ItemStages.stageModItems("thaumic-mage", "thaumicperiphery");
 mods.ItemStages.stageModItems("thaumic-mage", "thaumicwonders");
 
 // Hide tc ores
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCinnabar>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreAmber>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalAir>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalFire>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalWater>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalEarth>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalOrder>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalEntropy>);
-mods.orestages.OreStages.addReplacement("thaumic-mage", <ore:oreCrystalTaint>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCinnabar>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreAmber>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalAir>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalFire>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalWater>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalEarth>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalOrder>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalEntropy>);
+mods.orestages.OreStages.addNonDefaultingReplacement("thaumic-mage", <ore:oreCrystalTaint>);

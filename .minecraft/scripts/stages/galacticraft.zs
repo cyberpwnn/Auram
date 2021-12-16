@@ -5,4 +5,4 @@ mods.ItemStages.stageModItems("astronaut", "galacticraftcore");
 mods.ItemStages.stageModItems("astronaut", "galacticraftplanets");
 
 // Hide gc ores
-mods.orestages.OreStages.addReplacement("astronaut", <ore:oreSilicon>);
+mods.orestages.OreStages.addNonDefaultingReplacement("astronaut", <ore:oreSilicon>);

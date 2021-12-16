@@ -17,8 +17,8 @@
       ],
       "mode": "OR",
       "play": [
-        "Adventure.mp3",
-        "DarkMagic.mp3"
+        "Ren.mp3",
+        ""
       ],
       "priority": 100
     },
@@ -35,6 +35,8 @@
       "mode": "AND",
       "play":[
         "Skyrim/SkyrimAtmospheres.mp3",
+        "DarkMagic.mp3",
+        "Whispers.mp3",
         "Skyrim/AWintersTale.mp3",
         "Skyrim/DeathintheDarkness.mp3",
         "Skyrim/FromPasttoPresent.mp3",
@@ -97,6 +99,7 @@
       "play":[
         "Skyrim/Awake.mp3",
         "Skyrim/Dawn.mp3",
+        "Summertide.mp3",
         "Skyrim/DistantHorizons.mp3",
         "Skyrim/FarHorizons.mp3",
         "Skyrim/Solitude.mp3",
