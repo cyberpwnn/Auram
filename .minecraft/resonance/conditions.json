@@ -5,7 +5,8 @@
         "menu"
       ],
       "play": [
-        "FinalStand.mp3"
+        "FinalStand.mp3",
+        "Rise.mp3"
       ],
       "priority": 200,
       "sudden": true
@@ -18,7 +19,7 @@
       "mode": "OR",
       "play": [
         "Ren.mp3",
-        ""
+        "DOS2/QuirkyBones.mp3"
       ],
       "priority": 100
     },

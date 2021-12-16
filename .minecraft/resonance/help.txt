@@ -71,8 +71,12 @@ dim0 - When in overworld Dimension.
 biome_birch_forest_hills - When in the Birch Forest Hills Biome
 thunder - If it's thundering in a biome where rain / snow can happen
 biome_deep_ocean - When in the Deep Ocean Biome
+dim50 - When in The Abyssal Wasteland Dimension.
 biome_ice_mountains - When in the Ice Mountains Biome
+dim53 - When in The Dark Realm Dimension.
 startup - Forge is starting up
+dim51 - When in The Dreadlands Dimension.
+dim52 - When in Omothol Dimension.
 biome_forest_hills - When in the ForestHills Biome
 dim-1 - When in the_nether Dimension.
 biome_mutated_extreme_hills_with_trees - When in the Extreme Hills+ M Biome
