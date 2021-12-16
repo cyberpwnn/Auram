@@ -28,7 +28,6 @@
         "world",
         "!hp_low",
         "!fp_low",
-        "dim7",
         "time_night",
         "!storm",
         "height_sealevel"
@@ -91,7 +90,6 @@
         "world",
         "!hp_low",
         "!fp_low",
-        "dim7",
         "!storm",
         "time_day",
         "height_sealevel"
@@ -112,7 +110,8 @@
         "Skyrim/WindGuideYou.mp3",
         "DOS2/ASingleDropOfMagic.mp3",
         "DOS2/Godwoken.mp3",
-        "DOS2/Rivellon.mp3"
+        "DOS2/Rivellon.mp3",
+        "BG3/Dream.mp3"
       ]
     },
     {
@@ -121,7 +120,6 @@
         "biome_forest*",
         "biome_mutated_forest",
         "biome_roofed_forest",
-        "dim7",
         "!storm",
         "height_sealevel",
         "lush_normal",
@@ -132,7 +130,8 @@
         "Skyrim/AChanceMeeting.mp3",
         "Skyrim/AncientStones.mp3",
         "Skyrim/OutoftheCold.mp3",
-        "DOS2/Meadgoldblood.mp3"
+        "DOS2/Meadgoldblood.mp3",
+        "BG3/Dream.mp3"
       ]
     },
     {
@@ -145,7 +144,8 @@
       "play":[
         "Skyrim/Aurora.mp3",
         "Skyrim/Dawn.mp3",
-        "Skyrim/Dragonsreach.mp3"
+        "Skyrim/Dragonsreach.mp3",
+        "BG3/Dream.mp3"
       ]
     },
     {
@@ -211,7 +211,10 @@
         "Skyrim/SteelonSteel.mp3",
         "Skyrim/ToothandClaw.mp3",
         "Skyrim/WatchtheSkies.mp3",
-        "DOS2/SymphonyoftheVoid.mp3"
+        "DOS2/SymphonyoftheVoid.mp3",
+        "BG3/Battle.mp3",
+        "BG3/Down.mp3",
+        "BG3/Slavov.mp3"
       ]
     }
   ]
