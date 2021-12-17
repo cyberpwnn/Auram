@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:6
+renderDistance:10
 guiScale:3
 particles:0
 bobView:true
@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Faithful.zip","Unity.zip","JSTR.zip","JSTR2.zip","AudioCraft-Base.zip","AudioCraft.zip","Overrides"]
+resourcePacks:["Faithful.zip","Unity.zip","JSTR.zip","JSTR2.zip","AudioCraft-Base.zip","AudioCraft.zip","Overrides","Lum.zip"]
 incompatibleResourcePacks:[]
 lastServer:localhost
 lang:en_us
@@ -94,13 +94,8 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_keybind.baublesinventory:48
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -119,8 +114,13 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:0
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.betterquesting.quests:41
@@ -223,8 +223,6 @@ key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
 key_mekanism.key.feetMode:35
 key_mekanism.key.voice:22
-key_key.modifier:13
-key_key.submode:0
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
@@ -232,6 +230,8 @@ key_key.plustic_brown_magic.desc:24
 key_key.plustic_toggle_tool.desc:51:ALT
 key_key.plustic_fruit_salad.desc:12:ALT
 key_key.plustic_mots.desc:13:ALT
+key_key.modifier:13
+key_key.submode:0
 key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31

@@ -66,6 +66,12 @@
 			"spawnWeight": 60,
 			"minimumGroupCount": 4,
 			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "betternether:firefly",
+			"spawnWeight": 100,
+			"minimumGroupCount": 5,
+			"maximumGroupCount": 10
 		}
 	],
 	"traits": [
