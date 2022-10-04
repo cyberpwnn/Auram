@@ -14,4 +14,12 @@ mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotAstralStarmetal>, 60000);
 
+mods.botania.ElvenTrade.removeRecipe(<botania:storage:2>);
+mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:7>);
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<ore:ingotManasteel>,<ore:dustAstralStarmetal>]);
 
+mods.botania.PureDaisy.removeRecipe(<botania:livingrock>);
+mods.botania.PureDaisy.addRecipe(<aether_legacy:holystone>,<botania:livingrock>, 275);
+
+mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
+mods.botania.PureDaisy.addRecipe(<aether_legacy:aether_log>,<botania:livingwood>, 275);
