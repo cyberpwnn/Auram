@@ -1,5 +1,5 @@
-#Mon Mar 21 22:45:56 EDT 2022
-shaderPack=SEUS Renewed.zip
+#Tue Oct 04 00:46:20 EDT 2022
+shaderPack=ComplementaryReimagined_r1.2.2.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

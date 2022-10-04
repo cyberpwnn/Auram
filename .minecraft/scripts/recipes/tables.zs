@@ -58,6 +58,20 @@ RecipeBuilder.get("basic")
   .addOutput(<artisanworktables:worktable:1>)
   .create();
 
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>],
+    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
+    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>]])
+  .addOutput(<artisanworktables:worktable:1>)
+  .create();
+
+// Designer Worktable
+RecipeBuilder.get("basic")
+  .setShapeless([<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>, <minecraft:redstone>, <artisanworktables:worktable:5>, <minecraft:redstone>, <minecraft:paper>, <minecraft:redstone_block>, <minecraft:paper>])
+  .addOutput(<artisanworktables:worktable:12>)
+  .create();
+
 // Carpenters Workstation
 RecipeBuilder.get("basic")
   .setShaped([
