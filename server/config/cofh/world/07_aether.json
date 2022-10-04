@@ -1,0 +1,496 @@
+{
+    "priority": 1111,
+    "populate": {
+        "aetherflowercluster": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": [
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "white",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "orange",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "magenta",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "light_blue",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "yellow",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "lime",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "pink",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "gray",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "silver",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "cyan",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "purple",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "blue",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "brown",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "green",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "red",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "black",
+                            "type": "poppy"
+                        }
+                    }
+                ],
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 22
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 16,
+            "chunk-chance": 16,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "whitelist",
+				"value": [
+					3
+				]
+			}
+		},
+        "aetherflowerspread": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": [
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "white",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "orange",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "magenta",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "light_blue",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "yellow",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "lime",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "pink",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "gray",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "silver",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "cyan",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "purple",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "blue",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "brown",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "green",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "red",
+                            "type": "poppy"
+                        }
+                    },
+                    {
+                        "name": "botania:flower",
+                        "properties": {
+                            "color": "black",
+                            "type": "poppy"
+                        }
+                    }
+                ],
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 12,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": {
+                    "name": "botania:tinypotato"
+                },
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 4,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato1": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_1",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 8,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato2": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_2",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 16,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato3": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_3",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 32,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato4": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_4",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 64,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato5": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_5",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 128,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato6": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_6",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 256,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato7": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_7",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 512,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		},
+        "aetherpotato8": {
+            "distribution": "surface",
+			"generator": {
+                "type": "decoration",
+				"block": "botania_tweaks:compressed_tiny_potato_8",
+                "material": "air",
+                "surface": "aether_legacy:aether_grass",
+				"cluster-size": 1
+			},
+            "material": [
+                "aether_legacy:aether_grass"
+            ],
+            "cluster-count": 1,
+            "chunk-chance": 1024,
+            "follow-terrain": true,
+			"retrogen": false,
+			"biome": "all",
+			"dimension": {
+				"restriction": "blacklist",
+				"value": [
+					0,1,-1
+				]
+			}
+		}
+    }
+}

@@ -1,0 +1,72 @@
+[
+    {
+        "key": "TEST_1",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_1.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TEST_2",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_2.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TEST_3",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_3.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TEST_4",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_4.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TEST_5",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_5.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TEST_6",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_6.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    },
+    {
+        "key": "TEST_7",
+        "requirement": "FIRSTSTEPS",
+        "aspects": {
+            "aqua": 10
+        },
+        "icon": "minecraft:textures/items/apple.png",
+        "background": "thaumcraft:textures/gui/gui_research_back_7.jpg",
+        "backgroundOverlay": "thaumcraft:textures/gui/gui_research_back_over.png"
+    }
+]

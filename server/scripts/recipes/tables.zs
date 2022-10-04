@@ -7,7 +7,6 @@ RecipeBuilder.get("engineer")
     [<minecraft:redstone>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:redstone>],
     [<conarm:armor_plate>.withTag({Material: "wood"}), <artisanworktables:toolbox>, <conarm:armor_plate>.withTag({Material: "wood"})],
     [<thermalfoundation:material:24>, <conarm:armor_plate>.withTag({Material: "wood"}), <thermalfoundation:material:24>]])
-  .addTool(<ore:artisansDriver>, 1)
   .addOutput(<artisanworktables:mechanical_toolbox>)
   .create();
 
@@ -17,7 +16,6 @@ RecipeBuilder.get("carpenter")
     [<minecraft:fence>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:fence>],
     [<conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:chest>, <conarm:armor_plate>.withTag({Material: "wood"})],
     [<minecraft:fence>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:fence>]])
-  .addTool(<ore:artisansDriver>, 1)
   .addOutput(<artisanworktables:toolbox>)
   .create();
 
@@ -30,7 +28,6 @@ RecipeBuilder.get("basic")
     [null, null, null],
     [<tconstruct:tooltables>, <minecraft:stick>, <tconstruct:tooltables>],
     [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
   .addOutput(<artisanworktables:workstation:5>)
   .create();
 
@@ -40,8 +37,6 @@ RecipeBuilder.get("basic")
     [<minecraft:stick>, <tconstruct:tooltables>, <minecraft:stick>],
     [<tconstruct:tooltables>, <artisanworktables:workstation:5>, <tconstruct:tooltables>],
     [<minecraft:paper>, <tconstruct:tooltables>, <minecraft:paper>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workshop:5>)
   .create();
 
@@ -51,8 +46,6 @@ RecipeBuilder.get("basic")
     [<immersiveengineering:material:5>, <minecraft:stick>, <immersiveengineering:material:5>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<immersiveengineering:material:5>, <minecraft:stick>, <immersiveengineering:material:5>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable>)
   .create();
 
@@ -62,9 +55,21 @@ RecipeBuilder.get("basic")
     [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:1>)
+  .create();
+
+RecipeBuilder.get("basic")
+  .setShaped([
+    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>],
+    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
+    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>]])
+  .addOutput(<artisanworktables:worktable:1>)
+  .create();
+
+// Designer Worktable
+RecipeBuilder.get("basic")
+  .setShapeless([<minecraft:paper>, <minecraft:redstone>, <minecraft:paper>, <minecraft:redstone>, <artisanworktables:worktable:5>, <minecraft:redstone>, <minecraft:paper>, <minecraft:redstone_block>, <minecraft:paper>])
+  .addOutput(<artisanworktables:worktable:12>)
   .create();
 
 // Carpenters Workstation
@@ -73,8 +78,6 @@ RecipeBuilder.get("basic")
     [<conarm:armor_trim>.withTag({Material: "leather"}), <conarm:armor_plate>.withTag({Material: "wood"}), <conarm:armor_trim>.withTag({Material: "leather"})],
     [<conarm:armor_plate>.withTag({Material: "wood"}), <artisanworktables:worktable:1>, <conarm:armor_plate>.withTag({Material: "wood"})],
     [<conarm:armor_trim>.withTag({Material: "leather"}), <conarm:armor_plate>.withTag({Material: "wood"}), <conarm:armor_trim>.withTag({Material: "leather"})]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:1>)
   .create();
 
@@ -84,8 +87,6 @@ RecipeBuilder.get("basic")
     [<minecraft:gravel>, <minecraft:stick>, <minecraft:gravel>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<minecraft:gravel>, <minecraft:stick>, <minecraft:gravel>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:2>)
   .create();
 
@@ -95,8 +96,6 @@ RecipeBuilder.get("basic")
     [<minecraft:brick>, <minecraft:netherbrick>, <minecraft:brick>],
     [<minecraft:netherbrick>, <artisanworktables:worktable:2>, <minecraft:netherbrick>],
     [<minecraft:brick>, <minecraft:netherbrick>, <minecraft:brick>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:2>)
   .create();
 
@@ -106,8 +105,6 @@ RecipeBuilder.get("basic")
     [<minecraft:iron_bars>, <minecraft:stick>, <minecraft:iron_bars>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<minecraft:iron_bars>, <minecraft:iron_block>, <minecraft:iron_bars>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:3>)
   .create();
 
@@ -117,8 +114,6 @@ RecipeBuilder.get("basic")
     [<minecraft:anvil>, <tconstruct:large_plate>.withTag({Material: "iron"}), <minecraft:anvil>],
     [<tconstruct:large_plate>.withTag({Material: "iron"}), <artisanworktables:worktable:3>, <tconstruct:large_plate>.withTag({Material: "iron"})],
     [<minecraft:anvil>, <tconstruct:large_plate>.withTag({Material: "iron"}), <minecraft:anvil>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:3>)
   .create();
 
@@ -128,8 +123,6 @@ RecipeBuilder.get("basic")
     [<minecraft:gold_ingot>, <minecraft:stick>, <minecraft:gold_ingot>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<minecraft:gold_ingot>, <minecraft:paper>, <minecraft:gold_ingot>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:4>)
   .create();
 
@@ -139,8 +132,6 @@ RecipeBuilder.get("basic")
     [<conarm:armor_trim>.withTag({Material: "emerald"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald"})],
     [<conarm:armor_plate>.withTag({Material: "gold"}), <artisanworktables:worktable:4>, <conarm:armor_plate>.withTag({Material: "gold"})],
     [<conarm:armor_trim>.withTag({Material: "emerald"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald"})]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:4>)
   .create();
 
@@ -150,8 +141,6 @@ RecipeBuilder.get("basic")
     [<embers:plate_copper>, <minecraft:stick>, <embers:plate_copper>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<embers:plate_copper>, <minecraft:redstone_block>, <embers:plate_copper>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:6>)
   .create();
 
@@ -161,8 +150,6 @@ RecipeBuilder.get("basic")
     [<immersiveengineering:wirecoil>, <minecraft:redstone_block>, <immersiveengineering:wirecoil>],
     [<minecraft:redstone_block>, <artisanworktables:worktable:6>, <minecraft:redstone_block>],
     [<immersiveengineering:wirecoil>, <minecraft:redstone_block>, <immersiveengineering:wirecoil>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:6>)
   .create();
 
@@ -172,8 +159,6 @@ RecipeBuilder.get("basic")
     [<thaumcraft:salis_mundus>, <minecraft:stick>, <thaumcraft:salis_mundus>],
     [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
     [<thaumcraft:salis_mundus>, <thaumcraft:plank_silverwood>, <thaumcraft:salis_mundus>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:7>)
   .create();
 
@@ -183,8 +168,6 @@ RecipeBuilder.get("basic")
     [<thaumcraft:nugget:6>, <botania:manaresource:18>, <thaumcraft:nugget:6>],
     [<botania:manaresource:18>, <artisanworktables:worktable:7>, <botania:manaresource:18>],
     [<thaumcraft:nugget:6>, <botania:manaresource:18>, <thaumcraft:nugget:6>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:7>)
   .create();
 
@@ -194,8 +177,6 @@ RecipeBuilder.get("basic")
     [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>],
     [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
     [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:8>)
   .create();
 
@@ -205,8 +186,6 @@ RecipeBuilder.get("basic")
     [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>],
     [<minecraft:paper>, <artisanworktables:worktable:8>, <minecraft:paper>],
     [<minecraft:dye>, <minecraft:paper>, <minecraft:dye>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:8>)
   .create();
 
@@ -216,8 +195,6 @@ RecipeBuilder.get("basic")
     [<minecraft:glass_bottle>, <minecraft:paper>, <minecraft:glass_bottle>],
     [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
     [<minecraft:glass_bottle>, <minecraft:blaze_powder>, <minecraft:glass_bottle>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:9>)
   .create();
 
@@ -227,8 +204,6 @@ RecipeBuilder.get("basic")
     [<minecraft:glass_bottle>, <minecraft:glass_bottle>, <minecraft:glass_bottle>],
     [<minecraft:glass_bottle>, <artisanworktables:worktable:9>, <minecraft:glass_bottle>],
     [<minecraft:blaze_powder>, <minecraft:blaze_powder>, <minecraft:blaze_powder>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:9>)
   .create();
 
@@ -238,8 +213,6 @@ RecipeBuilder.get("basic")
     [<minecraft:fence>, <minecraft:paper>, <minecraft:fence>],
     [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
     [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:10>)
   .create();
 
@@ -249,8 +222,6 @@ RecipeBuilder.get("basic")
     [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>],
     [<minecraft:dirt>, <artisanworktables:worktable:10>, <minecraft:dirt>],
     [<minecraft:dirt>, <minecraft:dirt>, <minecraft:dirt>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:10>)
   .create();
 
@@ -260,8 +231,6 @@ RecipeBuilder.get("basic")
     [<minecraft:brick>, <minecraft:paper>, <minecraft:brick>],
     [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
     [<minecraft:stone_slab:3>, <minecraft:stone_slab:3>, <minecraft:stone_slab:3>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:11>)
   .create();
 
@@ -271,8 +240,6 @@ RecipeBuilder.get("basic")
     [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
     [<minecraft:planks>, <artisanworktables:worktable:11>, <minecraft:planks>],
     [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:11>)
   .create();
 
@@ -282,8 +249,6 @@ RecipeBuilder.get("basic")
     [<minecraft:brick>, <minecraft:paper>, <minecraft:brick>],
     [<minecraft:brick>, <artisanworktables:worktable:5>, <minecraft:brick>],
     [<minecraft:flower_pot>, <minecraft:flower_pot>, <minecraft:flower_pot>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:14>)
   .create();
 
@@ -293,8 +258,6 @@ RecipeBuilder.get("basic")
     [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>],
     [<minecraft:hardened_clay>, <artisanworktables:worktable:14>, <minecraft:hardened_clay>],
     [<minecraft:hardened_clay>, <minecraft:hardened_clay>, <minecraft:hardened_clay>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation:14>)
   .create();
 
@@ -304,8 +267,6 @@ RecipeBuilder.get("basic")
     [<minecraft:leather>, <minecraft:paper>, <minecraft:leather>],
     [<minecraft:paper>, <artisanworktables:worktable:5>, <minecraft:paper>],
     [<minecraft:leather>, <minecraft:leather>, <minecraft:leather>]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:worktable:13>)
   .create();
 
@@ -315,7 +276,5 @@ RecipeBuilder.get("basic")
     [<conarm:armor_trim>.withTag({Material: "leather"}), <thaumcraft:fabric>, <conarm:armor_trim>.withTag({Material: "leather"})],
     [<thaumcraft:fabric>, <artisanworktables:worktable>, <thaumcraft:fabric>],
     [<conarm:armor_trim>.withTag({Material: "leather"}), <thaumcraft:fabric>, <conarm:armor_trim>.withTag({Material: "leather"})]])
-  .addTool(<ore:artisansFramingHammer>, 1)
-  .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<artisanworktables:workstation>)
   .create();
