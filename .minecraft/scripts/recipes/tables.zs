@@ -20,21 +20,21 @@ RecipeBuilder.get("carpenter")
   .create();
 
 // Basic Worktable
-recipes.addShaped(<artisanworktables:worktable:5>, [[null, <minecraft:paper>, null],[<minecraft:paper>, <minecraft:crafting_table>, <minecraft:paper>], [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]]);
+recipes.addShaped(<artisanworktables:worktable:5>, [[null, <minecraft:paper>, null],[<minecraft:paper>, <minecraft:crafting_table>, <minecraft:paper>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 // Basic Workstation
 RecipeBuilder.get("basic")
   .setShaped([
     [null, null, null],
-    [<tconstruct:tooltables>, <minecraft:stick>, <tconstruct:tooltables>],
-    [<minecraft:stick>, <minecraft:stick>, <minecraft:stick>]])
+    [<tconstruct:tooltables>, <ore:stickWood>, <tconstruct:tooltables>],
+    [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]])
   .addOutput(<artisanworktables:workstation:5>)
   .create();
 
 // Basic Workshop
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:stick>, <tconstruct:tooltables>, <minecraft:stick>],
+    [<ore:stickWood>, <tconstruct:tooltables>, <ore:stickWood>],
     [<tconstruct:tooltables>, <artisanworktables:workstation:5>, <tconstruct:tooltables>],
     [<minecraft:paper>, <tconstruct:tooltables>, <minecraft:paper>]])
   .addOutput(<artisanworktables:workshop:5>)
@@ -43,26 +43,26 @@ RecipeBuilder.get("basic")
 // Tailors Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<immersiveengineering:material:5>, <minecraft:stick>, <immersiveengineering:material:5>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
-    [<immersiveengineering:material:5>, <minecraft:stick>, <immersiveengineering:material:5>]])
+    [<immersiveengineering:material:5>, <ore:stickWood>, <immersiveengineering:material:5>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
+    [<immersiveengineering:material:5>, <ore:stickWood>, <immersiveengineering:material:5>]])
   .addOutput(<artisanworktables:worktable>)
   .create();
 
 // Carpenters Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
-    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>]])
+    [<minecraft:fence>, <ore:plankWood>, <minecraft:fence>],
+    [<ore:plankWood>, <artisanworktables:worktable:5>, <ore:plankWood>],
+    [<minecraft:fence>, <ore:plankWood>, <minecraft:fence>]])
   .addOutput(<artisanworktables:worktable:1>)
   .create();
 
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
-    [<minecraft:fence>, <minecraft:stick>, <minecraft:fence>]])
+    [<minecraft:fence>, <ore:stickWood>, <minecraft:fence>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
+    [<minecraft:fence>, <ore:stickWood>, <minecraft:fence>]])
   .addOutput(<artisanworktables:worktable:1>)
   .create();
 
@@ -84,9 +84,9 @@ RecipeBuilder.get("basic")
 // Masons Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:gravel>, <minecraft:stick>, <minecraft:gravel>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
-    [<minecraft:gravel>, <minecraft:stick>, <minecraft:gravel>]])
+    [<minecraft:gravel>, <ore:stickWood>, <minecraft:gravel>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
+    [<minecraft:gravel>, <ore:stickWood>, <minecraft:gravel>]])
   .addOutput(<artisanworktables:worktable:2>)
   .create();
 
@@ -102,8 +102,8 @@ RecipeBuilder.get("basic")
 // Blacksmith Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:iron_bars>, <minecraft:stick>, <minecraft:iron_bars>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
+    [<minecraft:iron_bars>, <ore:stickWood>, <minecraft:iron_bars>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
     [<minecraft:iron_bars>, <minecraft:iron_block>, <minecraft:iron_bars>]])
   .addOutput(<artisanworktables:worktable:3>)
   .create();
@@ -120,8 +120,8 @@ RecipeBuilder.get("basic")
 // Jewlers Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:gold_ingot>, <minecraft:stick>, <minecraft:gold_ingot>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
+    [<minecraft:gold_ingot>, <ore:stickWood>, <minecraft:gold_ingot>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
     [<minecraft:gold_ingot>, <minecraft:paper>, <minecraft:gold_ingot>]])
   .addOutput(<artisanworktables:worktable:4>)
   .create();
@@ -138,8 +138,8 @@ RecipeBuilder.get("basic")
 // Engineers Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<embers:plate_copper>, <minecraft:stick>, <embers:plate_copper>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
+    [<embers:plate_copper>, <ore:stickWood>, <embers:plate_copper>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
     [<embers:plate_copper>, <minecraft:redstone_block>, <embers:plate_copper>]])
   .addOutput(<artisanworktables:worktable:6>)
   .create();
@@ -156,8 +156,8 @@ RecipeBuilder.get("basic")
 // Mages Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<thaumcraft:salis_mundus>, <minecraft:stick>, <thaumcraft:salis_mundus>],
-    [<minecraft:stick>, <artisanworktables:worktable:5>, <minecraft:stick>],
+    [<thaumcraft:salis_mundus>, <ore:stickWood>, <thaumcraft:salis_mundus>],
+    [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
     [<thaumcraft:salis_mundus>, <thaumcraft:plank_silverwood>, <thaumcraft:salis_mundus>]])
   .addOutput(<artisanworktables:worktable:7>)
   .create();

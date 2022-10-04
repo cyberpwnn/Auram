@@ -1,0 +1,268 @@
+{
+    "rules": [
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:tallgrass:*"
+                    ]
+                }
+            },
+            "replaceStrategy": "ADD",
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 50
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "thaumicbases:tobaccoseed:0"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:dirt:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 30
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 69
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:dirt_clump"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:flint"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:sand:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 20
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 80
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:sand_pile"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:stone:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 20
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 80
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:rock"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:grass:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 30
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 69
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:dirt_clump"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:flint"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:leaves:*"
+                    ]
+                }
+            },
+            "replaceStrategy": "ADD",
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 85
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 15
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:stick"
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "dynamictrees:oakbranch:*",
+                        "dynamictrees:oakbranchx:*",
+                        "dynamictreestc:greatwoodbranch:*",
+                        "dynamictreestc:greatwoodbranchx:*",
+                        "dynamictrees:sprucebranchx:*",
+                        "dynamictrees:junglebranchx:*",
+                        "dynamictrees:darkoakbranchx:*",
+                        "dynamictreestc:silverwoodbranchx:*",
+                        "dynamictrees:sprucebranch:*",
+                        "dynamictrees:junglebranch:*",
+                        "dynamictrees:darkoakbranch:*",
+                        "dynamictreestc:silverwoodbranch:*"
+                    ]
+                }
+            },
+            "replaceStrategy": "ADD",
+            "drops": [
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 75
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 25
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:stick"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

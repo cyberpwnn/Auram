@@ -14,4 +14,6 @@ mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 mods.botania.ManaInfusion.removeRecipe(<botania:manaresource>);
 mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotAstralStarmetal>, 60000);
 
-
+mods.botania.ElvenTrade.removeRecipe(<botania:storage:2>);
+mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:7>);
+mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<ore:ingotManasteel>,<ore:dustAstralStarmetal>]);

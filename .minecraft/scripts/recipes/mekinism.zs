@@ -16,7 +16,7 @@ RecipeBuilder.get("engineer")
     [null, <midnight:dewshroom_powder>, null],
     [<mekanism:reinforcedalloy>, <mekanism:controlcircuit:1>, <mekanism:reinforcedalloy>],
     [null, <astralsorcery:itemcraftingcomponent:2>, null]])
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansSolderer>, 3)
   .addOutput(<mekanism:controlcircuit:2>)
   .create();
 
@@ -26,6 +26,6 @@ RecipeBuilder.get("engineer")
     [null, <tconstruct:binding>.withTag({Material: "terrasteel"}), null],
     [<mekanism:atomicalloy>, <mekanism:controlcircuit:2>, <mekanism:atomicalloy>],
     [null, <thaumcraft:nugget:7>, null]])
-  .addTool(<ore:artisansSolderer>, 1)
+  .addTool(<ore:artisansSolderer>, 5)
   .addOutput(<mekanism:controlcircuit:3>)
   .create();
