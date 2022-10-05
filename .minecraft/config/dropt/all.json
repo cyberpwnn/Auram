@@ -263,6 +263,446 @@
                     }
                 }
             ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:iron_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_iron_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:gold_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_gold_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_copper_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:2"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_silver_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:5"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_nickel_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:6"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_platinum_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:1"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_tin_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:4"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_aluminum_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:3"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_lead_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 15
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "tconstruct:ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:cobalt_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "tconstruct:ore:1"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:ardite_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
         }
     ]
 }
