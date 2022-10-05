@@ -16,3 +16,7 @@ itemSandPile.register();
 var itemDirtClump = VanillaFactory.createItem("dirt_clump");
 itemDirtClump.maxStackSize = 32;
 itemDirtClump.register();
+
+var itemFlightKey = VanillaFactory.createItem("flight_key");
+itemFlightKey.maxStackSize = 1;
+itemFlightKey.register();

@@ -278,3 +278,15 @@ RecipeBuilder.get("basic")
     [<conarm:armor_trim>.withTag({Material: "leather"}), <thaumcraft:fabric>, <conarm:armor_trim>.withTag({Material: "leather"})]])
   .addOutput(<artisanworktables:workstation>)
   .create();
+
+
+// Mage Workshop
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<botania:manaresource:5>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), <botania:manaresource:5>],
+    [<thaumcraft:ingot:1>, <artisanworktables:workstation:7>, <thaumcraft:ingot:1>],
+    [<draconicevolution:awakened_core>, <bloodarsenal:blood_diamond:2>, <draconicevolution:awakened_core>]])
+  .addTool(<ore:artisansGrimoire>, 42)
+  .addTool(<ore:artisansQuill>, 69)
+  .addOutput(<artisanworktables:workshop:7>)
+  .create();
