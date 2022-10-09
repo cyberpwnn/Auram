@@ -145,6 +145,10 @@
 	{
 		"farming": 10
 	},
+	"thermalfoundation:tool.pickaxe_copper":
+	{
+		"mining": 12
+	},
 	"iceandfire:copper_pickaxe":
 	{
 		"mining": 10

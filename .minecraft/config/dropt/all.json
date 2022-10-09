@@ -37,7 +37,16 @@
                     "blocks": [
                         "minecraft:dirt:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }             
             },
             "drops": [
                 {
@@ -83,7 +92,16 @@
                     "blocks": [
                         "minecraft:sand:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -117,7 +135,16 @@
                     "blocks": [
                         "minecraft:stone:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -151,7 +178,16 @@
                     "blocks": [
                         "minecraft:grass:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -270,7 +306,16 @@
                     "blocks": [
                         "minecraft:iron_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -292,7 +337,16 @@
                     "blocks": [
                         "densemetals:dense_iron_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -314,7 +368,16 @@
                     "blocks": [
                         "minecraft:gold_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -336,7 +399,16 @@
                     "blocks": [
                         "densemetals:dense_gold_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -358,7 +430,16 @@
                     "blocks": [
                         "thermalfoundation:ore:0"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -380,7 +461,16 @@
                     "blocks": [
                         "densemetals:dense_copper_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -402,7 +492,16 @@
                     "blocks": [
                         "thermalfoundation:ore:2"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -424,7 +523,16 @@
                     "blocks": [
                         "densemetals:dense_silver_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -446,7 +554,16 @@
                     "blocks": [
                         "thermalfoundation:ore:5"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -468,7 +585,16 @@
                     "blocks": [
                         "densemetals:dense_nickel_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -490,7 +616,16 @@
                     "blocks": [
                         "thermalfoundation:ore:6"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -512,7 +647,16 @@
                     "blocks": [
                         "densemetals:dense_platinum_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -534,7 +678,16 @@
                     "blocks": [
                         "thermalfoundation:ore:1"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -556,7 +709,16 @@
                     "blocks": [
                         "densemetals:dense_tin_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -578,7 +740,16 @@
                     "blocks": [
                         "thermalfoundation:ore:4"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -600,7 +771,16 @@
                     "blocks": [
                         "densemetals:dense_aluminum_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -622,7 +802,16 @@
                     "blocks": [
                         "thermalfoundation:ore:3"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -644,7 +833,16 @@
                     "blocks": [
                         "densemetals:dense_lead_ore:*"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -666,7 +864,16 @@
                     "blocks": [
                         "tconstruct:ore:0"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
@@ -688,7 +895,16 @@
                     "blocks": [
                         "tconstruct:ore:1"
                     ]
-                }
+                },
+                "harvester": {
+                    "gamestages": {
+                      "type": "BLACKLIST",
+                      "require": "ALL",
+                      "stages": [
+                        "resourceful"
+                      ]
+                    }
+                  }  
             },
             "drops": [
                 {
