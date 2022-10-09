@@ -14,8 +14,7 @@ mods.ItemStages.setUnfamiliarName("Nugget of Ferrum", <ore:nuggetIron>);
 mods.ItemStages.setUnfamiliarName("Ingot of Ferrum", <ore:ingotIron>);
 mods.ItemStages.setUnfamiliarName("Chunk of Ferrum", <contenttweaker:iron_chunk>);
 
-// Nether
-mods.DimensionStages.addDimensionStage("copper", -1);
+
 // Aether
 mods.DimensionStages.addDimensionStage("copper", 4);
 

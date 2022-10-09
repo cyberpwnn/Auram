@@ -9,7 +9,8 @@ mods.ItemStages.setUnfamiliarName("Dust of Cyprus", <ore:dustCopper>);
 mods.ItemStages.setUnfamiliarName("Nugget of Cyprus", <ore:nuggetCopper>);
 mods.ItemStages.setUnfamiliarName("Ingot of Cyprus", <ore:ingotCopper>);
 mods.ItemStages.setUnfamiliarName("Chunk of Cyprus", <contenttweaker:copper_chunk>);
-
+// Nether
+mods.DimensionStages.addDimensionStage("stone", -1);
 // No custom zombies in this stage
 mods.MobStages.addStage("stone", "abyssalcraft:abyssalzombie");
 mods.MobStages.addStage("stone", "abyssalcraft:antiabyssalzombie");

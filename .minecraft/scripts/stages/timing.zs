@@ -1,3 +1,4 @@
+// Base Timing
 mods.TimeStages.addTimer("tid1", "" ,"Playtime: 5m" ,5 ,"minutes");
 mods.TimeStages.addTimer("tid2", "Playtime: 5m" ,"Playtime: 10m" ,5 ,"minutes");
 mods.TimeStages.addTimer("tid3", "Playtime: 10m" ,"Playtime: 20m" ,10 ,"minutes");
@@ -28,3 +29,22 @@ mods.TimeStages.addTimer("tid27", "Playtime: 20h" ,"Playtime: 21h" ,60 ,"minutes
 mods.TimeStages.addTimer("tid28", "Playtime: 21h" ,"Playtime: 22h" ,60 ,"minutes");
 mods.TimeStages.addTimer("tid29", "Playtime: 22h" ,"Playtime: 23h" ,60 ,"minutes");
 mods.TimeStages.addTimer("tid30", "Playtime: 23h" ,"Playtime: 1d" ,60 ,"minutes");
+
+// Timed Unlocks
+mods.TimeStages.addTimer("tidjm", "Playtime: 30m" ,"map" ,1 ,"minutes");
+mods.TimeStages.addTimer("tidtherm", "stone" ,"thermal" ,1 ,"minutes");
+mods.TimeStages.addTimer("tiddraconic", "astral-mage" ,"draconic" ,5 ,"minutes");
+mods.TimeStages.addTimer("tidengi", "iron" ,"engineer" ,1 ,"minutes");
+mods.TimeStages.addTimer("tidores", "resourceful" ,"dense-ore" ,30 ,"minutes");
+mods.TimeStages.addTimer("tidores1", "resourceful" ,"osmium-dense-ore" ,45 ,"minutes");
+mods.TimeStages.addTimer("tidores2", "resourceful" ,"dense-ore-reactor" ,60 ,"minutes");
+mods.TimeStages.addTimer("tidelec", "diamond" ,"electrician" ,30 ,"minutes");
+mods.TimeStages.addTimer("tidelec", "draconic" ,"astronaut" ,60 ,"minutes");
+mods.TimeStages.addTimer("tidcopper", "copper" ,"tinkerer" ,45 ,"minutes");
+mods.TimeStages.addTimer("tidatin", "diamond" ,"alloy-tailor" ,21 ,"minutes");
+mods.TimeStages.addTimer("tidbks", "blood-mage" ,"blacksmith" ,6 ,"minutes");
+mods.TimeStages.addTimer("tidlmhiobks", "logistical-mage" ,"blacksmith-high-oven" ,14 ,"minutes");
+mods.TimeStages.addTimer("tnuke", "electrician" ,"nuclear-technician" ,30 ,"minutes");
+mods.TimeStages.addTimer("tnuke", "mage" ,"mechanic" ,21 ,"minutes");
+mods.TimeStages.addTimer("tnuke", "spectrite" ,"enderneer" ,37 ,"minutes");
+mods.TimeStages.addTimer("tnuke", "draconic" ,"network-administrator" ,41 ,"minutes");
