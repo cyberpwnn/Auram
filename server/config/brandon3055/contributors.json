@@ -39,6 +39,9 @@
   "name": "LX_Gaming", "ign": "LX_Gaming", "contribution": "Lolnet Staff", "details": "[UNLISTED]", "website": "",
   "contributionLevel": 3
 }, {
+  "name": "MJW87", "ign": "MJW87", "contribution": "Lolnet Staff", "details": "[UNLISTED]", "website": "",
+  "contributionLevel": 3
+}, {
   "name": "Direwolf20", "ign": "direwolf20", "contribution": "Awesome Person",
   "details": "Direwolf20's videos are the reason i first started playing modded minecraft soo long ago. This of course eventually lead to me creating Draconic Evolution and all my other mods. So in a way he is responsible for the existance my mods. Thanks Dire!",
   "website": "https://www.youtube.com/user/direwolf20", "contributionLevel": 3
@@ -49,7 +52,13 @@
 }, {
   "name": "Trinity4261", "ign": "Trinity4261", "contribution": "My Brother",
   "details": "[UNLISTED] He wanted wings so why not? He is my brother after all.", "website": "", "contributionLevel": 3
-}, {
+},
+{
+  "name": "FoxMcloud5655", "ign": "FoxMcloud5655", "contribution": "Much Help",
+  "details": "Fox is doing great work helping to keep my discord and issue tracker moving smoothly!", "website": "",
+  "contributionLevel": 3
+},
+{
   "name": "texcubsf", "ign": "texcubsf", "contribution": "Patreon",
   "details": "robertwsf is currently supporting me via Patreon for which i am very grateful!", "website": "",
   "contributionLevel": 1
@@ -327,10 +336,71 @@
   "details": "Stunnahh is currently supporting me via Patreon for which i am very grateful!", "website": "",
   "contributionLevel": 1
  },
- 
- 
- 
- 
+           {
+  "name": "Deltora101", "ign": "DELTORA101", "contribution": "Patreon",
+  "details": "Deltora101 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+             {
+  "name": "Dayrim", "ign": "Dayrim", "contribution": "Patreon",
+  "details": "Dayrim is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 0
+ },
+ {
+  "name": "slaider221", "ign": "slaider221", "contribution": "Patreon",
+  "details": "slaider221 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+             {
+  "name": "DreamyPaw", "ign": "DreamyPaw", "contribution": "Patreon",
+  "details": "DreamyPaw is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+              {
+  "name": "sharkck", "ign": "sharkck", "contribution": "Patreon",
+  "details": "sharkck is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+              {
+  "name": "Zorlander", "ign": "Zorlander", "contribution": "Patreon",
+  "details": "Zorlander is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+               {
+  "name": "Link19658", "ign": "Link19658", "contribution": "Patreon",
+  "details": "Link19658 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+                {
+  "name": "Tetsu502", "ign": "ShuckleGuardian", "contribution": "Patreon",
+  "details": "Tetsu502 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+                 {
+  "name": "TyrantLink", "ign": "TyrantLink", "contribution": "Patreon",
+  "details": "TyrantLink is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+                 {
+  "name": "Ochiniwa", "ign": "Ochiniwa", "contribution": "Patreon",
+  "details": "Ochiniwa is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+                  {
+  "name": "Water_Moon", "ign": "Water_Moon", "contribution": "Patreon",
+  "details": "Water Moon is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },                  {
+  "name": "_ShiroNekolein_", "ign": "_ShiroNekolein_", "contribution": "Patreon",
+  "details": "_ShiroNekolein_ is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },                  {
+  "name": "TeyTey428", "ign": "TeyTey428", "contribution": "Patreon",
+  "details": "TeyTey428 is currently supporting me via Patreon for which i am very grateful!", "website": "",
+  "contributionLevel": 1
+ },
+
+
  {
   "name": "OneEyeMaker", "ign": "OneEyeMaker", "contribution": "Code Contributor",
   "details": "OneEyeMaker is responsible for the config overhall in 1.0.2f", "website": "", "contributionLevel": 1

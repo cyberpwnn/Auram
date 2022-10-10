@@ -932,7 +932,7 @@
           "viaPlayer:1": 0,
           "index:3": 0,
           "title:8": "bq_standard.reward.command",
-          "command:8": "gamestage add @s logistical-mage"
+          "command:8": "gamestage add @s logistical-mage\ngamestage add @s map"
         },
         "1:10": {
           "amount:3": 75,
