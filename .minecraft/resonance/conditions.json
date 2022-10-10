@@ -5,6 +5,7 @@
         "menu"
       ],
       "play": [
+        "Dark/Bane.mp3",
         "FinalStand.mp3",
         "Rise.mp3",
         "Celtic/ACelticTale.mp3"
@@ -19,11 +20,10 @@
       ],
       "mode": "OR",
       "play": [
-        "Ren.mp3",
-        "DOS2/QuirkyBones.mp3",
-        "Celtic/ACelticLore.mp3"
+        "Dark/Fate.mp3",
+        "Dark/Bloodline.mp3"
       ],
-      "priority": 100
+      "priority": 201
     },
     {
       "when": [
@@ -36,6 +36,10 @@
       ],
       "mode": "AND",
       "play":[
+        "Dark/Bloodline.mp3",
+        "Dark/Destiny.mp3",
+        "Dark/Hierarchy.mp3",
+        "Dark/NotMyKing.mp3",
         "Skyrim/SkyrimAtmospheres.mp3",
         "DarkMagic.mp3",
         "Whispers.mp3",
@@ -187,6 +191,10 @@
       ],
       "mode": "OR",
       "play":[
+        "Dark/PowerFromPain.mp3",
+        "Dark/Prison.mp3",
+        "Dark/SummonOfTheFallens.mp3",
+        "Dark/TheBeastWithin.mp3",
         "DOS2/ATearInTheVeil.mp3",
         "DOS2/EmbraceoftheDeathfog.mp3",
         "Skyrim/BeneaththeIce.mp3",
