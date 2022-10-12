@@ -187,7 +187,7 @@
       "when":[
           "height_bedrock",
           "height_low",
-          "dim-1"
+          "dim0"
       ],
       "mode": "OR",
       "play":[
@@ -206,6 +206,22 @@
         "Yggdrasil/Chasms.mp3",
         "Yggdrasil/Drakhuvud.mp3",
         "Yggdrasil/Vida.mp3"
+      ]
+    },
+    {
+      "when":[
+          "dim-23"
+      ],
+      "mode": "OR",
+      "play":[
+        "Dark/PowerFromPain.mp3",
+        "Dark/Prison.mp3",
+        "Dark/SummonOfTheFallens.mp3",
+        "Dark/TheBeastWithin.mp3",
+        "Dark/Bloodline.mp3",
+        "Dark/Destiny.mp3",
+        "Dark/Hierarchy.mp3",
+        "Dark/NotMyKing.mp3"
       ]
     },
     {

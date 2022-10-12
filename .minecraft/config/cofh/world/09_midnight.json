@@ -1,7 +1,7 @@
 {
     "priority": 100000,
     "populate": {
-        "draconium_overworld": {
+        "draconium_overworld_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -25,7 +25,7 @@
                 ]
             }
         },
-        "coal": {
+        "coal_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "coal_ore",
@@ -44,7 +44,7 @@
                 ]
             }
         },
-        "auram_copper": {
+        "auram_copper_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -68,7 +68,7 @@
                 ]
             }
         },
-        "auram_tin": {
+        "auram_tin_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -92,7 +92,7 @@
                 ]
             }
         },
-        "auram_silver": {
+        "auram_silver_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -116,7 +116,7 @@
                 ]
             }
         },
-        "auram_lead": {
+        "auram_lead_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -140,7 +140,7 @@
                 ]
             }
         },
-        "auram_nickel": {
+        "auram_nickel_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -164,7 +164,7 @@
                 ]
             }
         },
-        "auram_platinum": {
+        "auram_platinum_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -188,7 +188,7 @@
                 ]
             }
         },
-        "auram_aluminum": {
+        "auram_aluminum_mn": {
             "enabled": "false",
             "distribution": "uniform",
             "generator": {
@@ -213,7 +213,7 @@
                 ]
             }
         },
-        "auram_iridium": {
+        "auram_iridium_mn": {
             "enabled": "false",
             "distribution": "uniform",
             "generator": {
@@ -238,7 +238,7 @@
                 ]
             }
         },
-        "iron": {
+        "iron_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "iron_ore",
@@ -257,7 +257,7 @@
                 ]
             }
         },
-        "gold": {
+        "gold_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "gold_ore",
@@ -276,7 +276,7 @@
                 ]
             }
         },
-        "redstone": {
+        "redstone_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "redstone_ore",
@@ -295,7 +295,7 @@
                 ]
             }
         },
-        "diamond": {
+        "diamond_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "diamond_ore",
@@ -314,7 +314,7 @@
                 ]
             }
         },
-        "mesa_gold": {
+        "mesa_gold_mn": {
             "enabled": true,
             "distribution": "uniform",
             "generator": {
@@ -351,7 +351,7 @@
                 ]
             }
         },
-        "emerald": {
+        "emerald_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -389,7 +389,7 @@
                 ]
             }
         },
-        "quartz": {
+        "quartz_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "quartz_ore",
@@ -411,7 +411,7 @@
             },
             "dimension": "all"
         },
-        "auram_peridot": {
+        "auram_peridot_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -435,7 +435,7 @@
                 ]
             }
         },
-        "auram_sapphire": {
+        "auram_sapphire_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -459,7 +459,7 @@
                 ]
             }
         },
-        "auram_ruby": {
+        "auram_ruby_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -483,7 +483,7 @@
                 ]
             }
         },
-        "spectrite": {
+        "spectrite_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": {
@@ -507,7 +507,7 @@
                 ]
             }
         },
-        "dense_iron": {
+        "dense_iron_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_iron_ore",
@@ -526,7 +526,7 @@
                 ]
             }
         },
-        "dense_coal": {
+        "dense_coal_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_coal_ore",
@@ -545,7 +545,7 @@
                 ]
             }
         },
-        "dense_gold": {
+        "dense_gold_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_gold_ore",
@@ -564,7 +564,7 @@
                 ]
             }
         },
-        "dense_diamond": {
+        "dense_diamond_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_diamond_ore",
@@ -583,7 +583,7 @@
                 ]
             }
         },
-        "dense_emerald": {
+        "dense_emerald_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_emerald_ore",
@@ -602,7 +602,7 @@
                 ]
             }
         },
-        "dense_lapis": {
+        "dense_lapis_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_lapis_ore",
@@ -621,7 +621,7 @@
                 ]
             }
         },
-        "dense_redstone": {
+        "dense_redstone_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_redstone_ore",
@@ -640,7 +640,7 @@
                 ]
             }
         },
-        "dense_tin": {
+        "dense_tin_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_tin_ore",
@@ -659,7 +659,7 @@
                 ]
             }
         },
-        "dense_silver": {
+        "dense_silver_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_silver_ore",
@@ -678,7 +678,7 @@
                 ]
             }
         },
-        "dense_platinum": {
+        "dense_platinum_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_platinum_ore",
@@ -697,7 +697,7 @@
                 ]
             }
         },
-        "dense_iridium": {
+        "dense_iridium_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_iridium_ore",
@@ -716,7 +716,7 @@
                 ]
             }
         },
-        "dense_nickel": {
+        "dense_nickel_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_nickel_ore",
@@ -735,7 +735,7 @@
                 ]
             }
         },
-        "dense_aluminum": {
+        "dense_aluminum_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_aluminum_ore",
@@ -754,7 +754,7 @@
                 ]
             }
         },
-        "dense_copper": {
+        "dense_copper_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_aluminum_ore",
@@ -773,7 +773,7 @@
                 ]
             }
         },
-        "dense_lead": {
+        "dense_lead_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_lead_ore",
@@ -792,7 +792,7 @@
                 ]
             }
         },
-        "dense_boron": {
+        "dense_boron_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_boron_ore",
@@ -811,7 +811,7 @@
                 ]
             }
         },
-        "dense_thorium": {
+        "dense_thorium_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_thorium_ore",
@@ -830,7 +830,7 @@
                 ]
             }
         },
-        "dense_magnesium": {
+        "dense_magnesium_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_magnesium_ore",
@@ -849,7 +849,7 @@
                 ]
             }
         },
-        "dense_osmium": {
+        "dense_osmium_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_osmium_ore",
@@ -868,7 +868,7 @@
                 ]
             }
         },
-        "dense_uranium": {
+        "dense_uranium_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_uranium_ore",
@@ -887,7 +887,7 @@
                 ]
             }
         },
-        "dense_mithril": {
+        "dense_mithril_mn": {
             "distribution": "uniform",
             "generator": {
                 "block": "densemetals:dense_mithril_ore",
