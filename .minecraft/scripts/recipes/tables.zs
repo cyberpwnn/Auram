@@ -102,9 +102,9 @@ RecipeBuilder.get("basic")
 // Blacksmith Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:iron_bars>, <ore:stickWood>, <minecraft:iron_bars>],
+    [<minecraft:cobblestone>, <ore:stickWood>, <minecraft:cobblestone>],
     [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
-    [<minecraft:iron_bars>, <minecraft:iron_block>, <minecraft:iron_bars>]])
+    [<minecraft:cobblestone>, <minecraft:iron_block>, <minecraft:cobblestone>]])
   .addOutput(<artisanworktables:worktable:3>)
   .create();
 
