@@ -421,3 +421,93 @@ RecipeBuilder.get("jeweler")
   .addTool(<ore:artisansPliers>, 12)
   .addOutput(<extraalchemy:empty_ring>)
   .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
+    [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
+    [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log:1> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
+    [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
+    [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log:2> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
+    [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
+    [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log:3> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
+    [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
+    [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log2> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
+    [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
+    [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log2:1> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<atum:deadwood_planks>, <atum:deadwood_planks>, <atum:deadwood_planks>],
+    [<atum:deadwood_planks>, <atum:deadwood_planks>, <atum:deadwood_planks>],
+    [<atum:deadwood_planks>, <atum:deadwood_planks>, <atum:deadwood_planks>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<atum:deadwood_log> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<atum:palm_planks>, <atum:palm_planks>, <atum:palm_planks>],
+    [<atum:palm_planks>, <atum:palm_planks>, <atum:palm_planks>],
+    [<atum:palm_planks>, <atum:palm_planks>, <atum:palm_planks>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<atum:palm_log> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>],
+    [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>],
+    [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<thaumcraft:log_greatwood> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<thaumcraft:log_silverwood> * 2)
+  .create();

@@ -1,0 +1,378 @@
+{
+	"biome": "biomesoplenty:undergarden",
+	"generationWeight": 4,
+	"useDefaultDecorations": true,
+	"isSubBiome": false,
+	"isEnabled": true,
+	"blocks": {},
+	"entities": [
+		{
+			"entity": "minecraft:ghast",
+			"spawnWeight": 50,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:zombie_pigman",
+			"spawnWeight": 100,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:magma_cube",
+			"spawnWeight": 2,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "minecraft:enderman",
+			"spawnWeight": 1,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 4
+		}, 
+		{
+			"entity": "abyssalcraft:demonpig",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demoncow",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demonchicken",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "abyssalcraft:demonsheep",
+			"spawnWeight": 15,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 3
+		}, 
+		{
+			"entity": "minecraft:blaze",
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:foxhound",
+			"spawnWeight": 10,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 2
+		}, 
+		{
+			"entity": "quark:wraith",
+			"spawnWeight": 60,
+			"minimumGroupCount": 4,
+			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "aoa3:ghost",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:void_walker",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:ghostly_night_reaper",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:death_hunter",
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:demon_reaper",
+			"spawnWeight": 1,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:vertebron",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:bomb_carrier",
+			"spawnWeight": 1,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:bloodmist",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:scrubby",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:anemia",
+			"spawnWeight": 35,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:linger",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:dicer",
+			"spawnWeight": 35,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:mother_void_walker",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:dark_beast",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:skellox",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:ghostly_charger",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:reaper_twins",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:host",
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:clown",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:modulo",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:irkling",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:walker",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:everbeast",
+			"spawnWeight": 5,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:trickster",
+			"spawnWeight": 40,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:void_charger",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:night_reaper",
+			"spawnWeight": 35,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:faceless_runner",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:night_watcher",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:shadow",
+			"spawnWeight": 65,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:ghostly_bugeye",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:ghostly_sasquatch",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:bugeye",
+			"spawnWeight": 70,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:headless_destroyer",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:ghostly_cyclops",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:ghostly_goblin",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:roloscope",
+			"spawnWeight": 100,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:wood_giant",
+			"spawnWeight": 50,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:terrestrial",
+			"spawnWeight": 2,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:triclops",
+			"spawnWeight": 60,
+			"minimumGroupCount": 1,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:infernal",
+			"spawnWeight": 10,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:hellcat",
+			"spawnWeight": 50,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:little_bam",
+			"spawnWeight": 35,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:skeletal_cowman",
+			"spawnWeight": 45,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:fake_pigman",
+			"spawnWeight": 80,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:wither_wizard",
+			"spawnWeight": 55,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:flamewalker",
+			"spawnWeight": 60,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:embrake",
+			"spawnWeight": 60,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:hellspot",
+			"spawnWeight": 60,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:undead_herald",
+			"spawnWeight": 1,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}, 
+		{
+			"entity": "aoa3:withering_lottoman",
+			"spawnWeight": 1,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 1
+		}
+	],
+	"traits": [],
+	"subBiomes": []
+}
