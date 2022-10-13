@@ -10,69 +10,93 @@ biome_*       = If any tag active starts with biome_ (such as bione_plains) or (
 !biome_mesa*  = If any tag inactive starts with biome_mesa (such as bione_mesa) or (biome_mesa_rock)
 
 === TAGS ===
+light_bright - High light...
+biome_taiga_cold_hills - When in the Cold Taiga Hills Biome
+biome_wasteland - When in the Wasteland Biome
 biome_origin_island - When in the Origin Island Biome
+biome_swampland - When in the Swampland Biome
+height_bedrock - Below 35
 biome_river - When in the River Biome
+lush_normal - Medium amounts of foliage, & greens
+lush_barren - Little to no foliage / greens
 biome_dead_swamp - When in the Dead Swamp Biome
 biome_snowy_coniferous_forest - When in the Snowy Coniferous Forest Biome
 biome_mutated_mesa_clear_rock - When in the Mesa Plateau M Biome
 biome_mystic_grove - When in the Mystic Grove Biome
+time_day - Day time...
+biome_extreme_hills - When in the Extreme Hills Biome
 biome_sky - When in the The End Biome
+humid_dry - Dry biome
 biome_oasis - When in the Oasis Biome
+biome_snowy_forest - When in the Snowy Forest Biome
 temp_freezing - Frozen biome
 biome_mushroom_island_shore - When in the MushroomIslandShore Biome
 biome_mutated_swampland - When in the Swampland M Biome
 biome_chaparral - When in the Chaparral Biome
 biome_mangrove - When in the Mangrove Biome
-dim808 - When in dustopia Dimension.
-dim809 - When in gardencia Dimension.
-dim806 - When in crystevia Dimension.
-dim807 - When in deeplands Dimension.
-dim804 - When in celeve Dimension.
+biome_plains - When in the Plains Biome
 biome_mesa_clear_rock - When in the Mesa Plateau Biome
-dim805 - When in creeponia Dimension.
 temp_chilly - Cold biome
-dim802 - When in barathos Dimension.
-dim803 - When in candyland Dimension.
-dim800 - When in abyss Dimension.
+biome_ominous_woods - When in the Ominous Woods Biome
 biome_mutated_plains - When in the Sunflower Plains Biome
-dim801 - When in ancient_cavern Dimension.
+biome_orchard - When in the Orchard Biome
 biome_kelp_forest - When in the Kelp Forest Biome
 startup.init - Forge is starting up (mid)
+biome_dead_forest - When in the Dead Forest Biome
+biome_cold_beach - When in the Cold Beach Biome
+biome_alps - When in the Alps Biome
 fp_low - Food below 30%
+biome_phantasmagoric_inferno - When in the Phantasmagoric Inferno Biome
+biome_grove - When in the Grove Biome
 biome_tundra - When in the Tundra Biome
+biome_taiga_hills - When in the TaigaHills Biome
 biome_mountain - When in the Mountain Biome
 biome_wetland - When in the Wetland Biome
 biome_temperate_rainforest - When in the Temperate Rainforest Biome
-dim819 - When in runandor Dimension.
 biome_xeric_shrubland - When in the Xeric Shrubland Biome
-dim817 - When in mysterium Dimension.
-dim818 - When in precasia Dimension.
 dead - Death screen
-dim815 - When in lelyetia Dimension.
+biome_lavender_fields - When in the Lavender Fields Biome
+biome_ice_flats - When in the Ice Plains Biome
 biome_roofed_forest - When in the Roofed Forest Biome
 biome_savanna - When in the Savanna Biome
 biome_prairie - When in the Prairie Biome
-dim816 - When in lunalus Dimension.
-dim813 - When in iromine Dimension.
-dim814 - When in lborean Dimension.
-dim811 - When in haven Dimension.
-dim812 - When in immortallis Dimension.
+time_night - Night time...
+biome_mutated_birch_forest - When in the Birch Forest M Biome
+biome_highland - When in the Highland Biome
+biome_eucalyptus_forest - When in the Eucalyptus Forest Biome
+biome_frozen_river - When in the FrozenRiver Biome
 biome_frozen_ocean - When in the FrozenOcean Biome
-dim810 - When in greckon Dimension.
 hp_low - HP Below 30%
+world - Anytime you are ingame (in any world)
+biome_mutated_redwood_taiga - When in the Mega Spruce Taiga Biome
 temp_hot - Hot biome
 biome_mutated_mesa_rock - When in the Mesa Plateau F M Biome
 biome_fungi_forest - When in the Fungi Forest Biome
 biome_birch_forest - When in the Birch Forest Biome
 biome_mutated_jungle_edge - When in the JungleEdge M Biome
+temp_warm - Warm biome
 biome_white_beach - When in the White Beach Biome
+biome_cherry_blossom_grove - When in the Cherry Blossom Grove Biome
+temp_superhot - Very hot biome
 storm - If it's raining in the world & the current biome supports rain
+biome_smaller_extreme_hills - When in the Extreme Hills Edge Biome
+biome_glacier - When in the Glacier Biome
 biome_volcanic_island - When in the Volcanic Island Biome
+biome_undergarden - When in the Undergarden Biome
+biome_desert_hills - When in the DesertHills Biome
+menu - Game is in the main menu
+height_sohigh - At or above 200
 biome_fen - When in the Fen Biome
-dim820 - When in shyrelands Dimension.
-dim821 - When in vox_ponds Dimension.
+biome_coral_reef - When in the Coral Reef Biome
+light_dark - Darkness
+biome_redwood_taiga_hills - When in the Mega Taiga Hills Biome
+biome_grassland - When in the Grassland Biome
+biome_redwood_forest_edge - When in the RedwoodForestEdge Biome
+biome_void - When in the The Void Biome
 dim144 - When in CompactMachines Dimension.
 biome_mutated_mesa - When in the Mesa (Bryce) Biome
+light_mid - Middle range light
+biome_mesa_rock - When in the Mesa Plateau F Biome
 biome_mushroom_island - When in the MushroomIsland Biome
 biome_boreal_forest - When in the Boreal Forest Biome
 lush_dense - Lots of foliage, & greens
@@ -80,6 +104,7 @@ biome_marsh - When in the Marsh Biome
 biome_seasonal_forest - When in the Seasonal Forest Biome
 dim2 - When in TENT Dimension.
 biome_bog - When in the Bog Biome
+biome_brushland - When in the Brushland Biome
 dim1 - When in the_end Dimension.
 biome_mutated_savanna - When in the Savanna M Biome
 biome_mountain_foothills - When in the MountainFoothills Biome
@@ -87,18 +112,29 @@ dim0 - When in overworld Dimension.
 biome_birch_forest_hills - When in the Birch Forest Hills Biome
 thunder - If it's thundering in a biome where rain / snow can happen
 biome_deep_ocean - When in the Deep Ocean Biome
+biome_crag - When in the Crag Biome
 dim50 - When in The Abyssal Wasteland Dimension.
+biome_alps_foothills - When in the AlpsFoothills Biome
+biome_ice_mountains - When in the Ice Mountains Biome
 dim53 - When in The Dark Realm Dimension.
 startup - Forge is starting up
 dim51 - When in The Dreadlands Dimension.
 biome_flower_island - When in the Flower Island Biome
 dim52 - When in Omothol Dimension.
 biome_outback - When in the Outback Biome
+biome_forest_hills - When in the ForestHills Biome
 biome_origin_beach - When in the Origin Beach Biome
+biome_bayou - When in the Bayou Biome
+dim-1 - When in Nether Dimension.
+biome_mutated_extreme_hills_with_trees - When in the Extreme Hills+ M Biome
 biome_lush_desert - When in the Lush Desert Biome
+biome_overgrown_cliffs - When in the Overgrown Cliffs Biome
 biome_sacred_springs - When in the Sacred Springs Biome
 biome_steppe - When in the Steppe Biome
+biome_corrupted_sands - When in the Corrupted Sands Biome
 biome_extreme_hills_with_trees - When in the Extreme Hills+ Biome
+biome_lush_swamp - When in the Lush Swamp Biome
+biome_coniferous_forest - When in the Coniferous Forest Biome
 biome_jungle - When in the Jungle Biome
 biome_tropical_rainforest - When in the Tropical Rainforest Biome
 biome_taiga - When in the Taiga Biome
@@ -106,106 +142,48 @@ biome_bamboo_forest - When in the Bamboo Forest Biome
 startup.preinit - Forge is starting up (pre)
 biome_meadow - When in the Meadow Biome
 biome_mutated_jungle - When in the Jungle M Biome
+biome_cold_desert - When in the Cold Desert Biome
 biome_mutated_ice_flats - When in the Ice Plains Spikes Biome
 biome_quagmire - When in the Quagmire Biome
 biome_beaches - When in the Beach Biome
 height_sealevel - Below 94
 biome_rainforest - When in the Rainforest Biome
+biome_pasture - When in the Pasture Biome
 biome_mesa - When in the Mesa Biome
 biome_maple_woods - When in the Maple Woods Biome
 biome_mutated_taiga_cold - When in the Cold Taiga M Biome
+biome_visceral_heap - When in the Visceral Heap Biome
 biome_gravel_beach - When in the Gravel Beach Biome
 biome_error_biome - When in the A mod doesn't support extended biome IDs -- report to JEID Biome
-biome_savanna_rock - When in the Savanna Plateau Biome
-biome_mutated_roofed_forest - When in the Roofed Forest M Biome
-biome_jungle_edge - When in the JungleEdge Biome
-biome_mutated_redwood_taiga_hills - When in the Redwood Taiga Hills M Biome
-biome_mutated_extreme_hills - When in the Extreme Hills M Biome
-biome_mutated_desert - When in the Desert M Biome
-height_low - Below 60
-biome_stone_beach - When in the Stone Beach Biome
-biome_redwood_forest - When in the RedwoodForest Biome
-biome_forest - When in the Forest Biome
-biome_taiga_cold - When in the Cold Taiga Biome
-biome_desert - When in the Desert Biome
-biome_shrubland - When in the Shrubland Biome
-biome_mutated_forest - When in the Flower Forest Biome
-biome_tropical_island - When in the Tropical Island Biome
-light_bright - High light...
-biome_taiga_cold_hills - When in the Cold Taiga Hills Biome
-biome_wasteland - When in the Wasteland Biome
-biome_swampland - When in the Swampland Biome
-height_bedrock - Below 35
-lush_normal - Medium amounts of foliage, & greens
-lush_barren - Little to no foliage / greens
-time_day - Day time...
-biome_extreme_hills - When in the Extreme Hills Biome
-humid_dry - Dry biome
-biome_snowy_forest - When in the Snowy Forest Biome
-biome_plains - When in the Plains Biome
-biome_ominous_woods - When in the Ominous Woods Biome
-biome_orchard - When in the Orchard Biome
-biome_dead_forest - When in the Dead Forest Biome
-biome_cold_beach - When in the Cold Beach Biome
-biome_alps - When in the Alps Biome
-biome_phantasmagoric_inferno - When in the Phantasmagoric Inferno Biome
-biome_grove - When in the Grove Biome
-biome_taiga_hills - When in the TaigaHills Biome
-biome_lavender_fields - When in the Lavender Fields Biome
-biome_ice_flats - When in the Ice Plains Biome
-time_night - Night time...
-biome_mutated_birch_forest - When in the Birch Forest M Biome
-biome_highland - When in the Highland Biome
-biome_eucalyptus_forest - When in the Eucalyptus Forest Biome
-biome_frozen_river - When in the FrozenRiver Biome
-world - Anytime you are ingame (in any world)
-biome_mutated_redwood_taiga - When in the Mega Spruce Taiga Biome
-temp_warm - Warm biome
-biome_cherry_blossom_grove - When in the Cherry Blossom Grove Biome
-temp_superhot - Very hot biome
-biome_smaller_extreme_hills - When in the Extreme Hills Edge Biome
-biome_glacier - When in the Glacier Biome
-biome_undergarden - When in the Undergarden Biome
-biome_desert_hills - When in the DesertHills Biome
-menu - Game is in the main menu
-height_sohigh - At or above 200
-biome_coral_reef - When in the Coral Reef Biome
-light_dark - Darkness
-biome_redwood_taiga_hills - When in the Mega Taiga Hills Biome
-biome_grassland - When in the Grassland Biome
-biome_redwood_forest_edge - When in the RedwoodForestEdge Biome
-biome_void - When in the The Void Biome
-light_mid - Middle range light
-biome_mesa_rock - When in the Mesa Plateau F Biome
-biome_brushland - When in the Brushland Biome
-biome_crag - When in the Crag Biome
-biome_alps_foothills - When in the AlpsFoothills Biome
-biome_ice_mountains - When in the Ice Mountains Biome
-biome_forest_hills - When in the ForestHills Biome
-biome_bayou - When in the Bayou Biome
-dim-1 - When in Nether Dimension.
-biome_mutated_extreme_hills_with_trees - When in the Extreme Hills+ M Biome
-biome_overgrown_cliffs - When in the Overgrown Cliffs Biome
-biome_corrupted_sands - When in the Corrupted Sands Biome
-biome_lush_swamp - When in the Lush Swamp Biome
-biome_coniferous_forest - When in the Coniferous Forest Biome
-biome_cold_desert - When in the Cold Desert Biome
-biome_pasture - When in the Pasture Biome
-biome_visceral_heap - When in the Visceral Heap Biome
 humid_mild - Normal Humidity 
 height_high - Below 200
+biome_savanna_rock - When in the Savanna Plateau Biome
 biome_mutated_birch_forest_hills - When in the Birch Forest Hills M Biome
+biome_mutated_roofed_forest - When in the Roofed Forest M Biome
 biome_shield - When in the Shield Biome
 biome_woodland - When in the Woodland Biome
 biome_snowy_tundra - When in the SnowyTundra Biome
+biome_jungle_edge - When in the JungleEdge Biome
 biome_redwood_taiga - When in the Mega Taiga Biome
 biome_flower_field - When in the Flower Field Biome
 biome_jungle_hills - When in the JungleHills Biome
 humid_wet - Wet biome
 biome_moor - When in the Moor Biome
+biome_mutated_redwood_taiga_hills - When in the Redwood Taiga Hills M Biome
 biome_hell - When in the Hell Biome
 biome_mutated_taiga - When in the Taiga M Biome
 biome_mutated_savanna_rock - When in the Savanna Plateau M Biome
+biome_mutated_extreme_hills - When in the Extreme Hills M Biome
+biome_mutated_desert - When in the Desert M Biome
+height_low - Below 60
 biome_land_of_lakes - When in the Land of Lakes Biome
 biome_ocean - When in the Ocean Biome
+biome_stone_beach - When in the Stone Beach Biome
+biome_redwood_forest - When in the RedwoodForest Biome
+biome_forest - When in the Forest Biome
+biome_taiga_cold - When in the Cold Taiga Biome
 startup.postinit - Forge is starting up (post)
+biome_desert - When in the Desert Biome
+biome_shrubland - When in the Shrubland Biome
+biome_mutated_forest - When in the Flower Forest Biome
+biome_tropical_island - When in the Tropical Island Biome

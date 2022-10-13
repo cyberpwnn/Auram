@@ -42,12 +42,6 @@
 			"spawnWeight": 50,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 4
-		}, 
-		{
-			"entity": "aoa3:elkanyne",
-			"spawnWeight": 20,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 1
 		}
 	],
 	"traits": [

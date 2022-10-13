@@ -48,42 +48,6 @@
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
 			"maximumGroupCount": 1
-		}, 
-		{
-			"entity": "aoa3:glistening_pixon",
-			"spawnWeight": 30,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
-		}, 
-		{
-			"entity": "aoa3:assassin",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
-		}, 
-		{
-			"entity": "aoa3:realmshifter",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
-		}, 
-		{
-			"entity": "aoa3:lottoman",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
-		}, 
-		{
-			"entity": "aoa3:naturalist",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
-		}, 
-		{
-			"entity": "aoa3:undead_herald",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
 		}
 	],
 	"traits": [

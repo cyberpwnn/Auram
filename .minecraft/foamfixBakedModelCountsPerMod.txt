@@ -1,5 +1,4 @@
 nuclearcraft: 39705
-aoa3: 9461
 quark: 5543
 atum: 4953
 thaumcraft: 3884
@@ -30,7 +29,6 @@ futuremc: 774
 ferdinandsflowers: 746
 thaumicaugmentation: 731
 appliedenergistics2: 720
-caves_and_cliffs: 634
 extrautils2: 621
 openblocks: 604
 thermalfoundation: 584
@@ -91,8 +89,8 @@ notenoughwands: 15
 thaumicperiphery: 15
 oreberries: 13
 hammercore: 13
-projectred-illumination: 12
 hardcore_battle_towers_av_av: 12
+projectred-illumination: 12
 scalinghealth: 9
 ta_special: 8
 trashcans: 8

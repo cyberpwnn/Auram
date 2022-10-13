@@ -68,18 +68,6 @@
 			"maximumGroupCount": 6
 		}, 
 		{
-			"entity": "aoa3:undead_herald",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
-		}, 
-		{
-			"entity": "aoa3:withering_lottoman",
-			"spawnWeight": 1,
-			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
-		}, 
-		{
 			"entity": "betternether:firefly",
 			"spawnWeight": 100,
 			"minimumGroupCount": 5,
