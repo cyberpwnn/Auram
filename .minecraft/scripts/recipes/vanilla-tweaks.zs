@@ -1,5 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
-#disable_search_tree
+
 
 // Loot Box
 RecipeBuilder.get("tailor")

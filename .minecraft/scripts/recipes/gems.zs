@@ -1,5 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
-#disable_search_tree
+
 
 // Zircon to diamond 
 RecipeBuilder.get("jeweler")

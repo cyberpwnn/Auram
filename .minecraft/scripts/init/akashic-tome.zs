@@ -3,7 +3,7 @@ import crafttweaker.item.IItemStack;
 import crafttweaker.oredict.IOreDict;
 import crafttweaker.oredict.IOreDictEntry;
 #modloaded akashictome bqt tconstruct astralsorcery immersiveengineering botania guideapi wizardry embers conarm
-#disable_search_tree
+
 
 recipes.remove(<akashictome:tome>);
 <akashictome:tome>.displayName = "Tome of Knowledge";

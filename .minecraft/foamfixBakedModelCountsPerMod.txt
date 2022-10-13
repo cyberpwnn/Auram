@@ -1,5 +1,5 @@
 nuclearcraft: 39705
-galacticraftcore: 8774
+galacticraftcore: 8781
 quark: 5543
 atum: 4953
 thaumcraft: 3884
@@ -19,6 +19,7 @@ netherex: 1353
 tcomplement: 1127
 embers: 1064
 forbidden_arcanus: 1048
+rustic: 966
 betternether: 958
 aether_legacy: 917
 mekanism: 835
@@ -113,15 +114,12 @@ mcmultipart: 2
 wft: 2
 projectred-transmission: 2
 ichunutil: 2
-bq_rf: 2
 wpt: 2
 minicoal: 2
 base: 1
-bq_standard: 1
 tweakergui: 1
 gbook_snapshot: 1
 simplesmelteryaccelerator: 1
-bqt: 1
 aenetvistool: 1
 baubles: 1
 zerocore: 1

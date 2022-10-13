@@ -1,5 +1,5 @@
 #modloaded tconstruct quark usefulbackpacks yurtmod astralsorcery initialinventory
-#disable_search_tree
+
 
 mods.initialinventory.InvHandler.addStartingItem(<minecraft:wooden_sword:32>.withTag({Quality: {}}));
 
