@@ -211,3 +211,107 @@ RecipeBuilder.get("blacksmith")
   .setExtraOutputTwo(<taiga:dyonite_dust>, 0.04)
   .setExtraOutputThree(<thermalfoundation:material:99>, 0.1)
   .create();
+
+// Diamond Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:diamond_cluster>, null],
+    [<contenttweaker:diamond_cluster>, <contenttweaker:diamond_cluster>, <contenttweaker:diamond_cluster>],
+    [null, <contenttweaker:diamond_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 8)
+  .addOutput(<minecraft:diamond>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Quartz Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:quartz_cluster>, null],
+    [<contenttweaker:quartz_cluster>, <contenttweaker:quartz_cluster>, <contenttweaker:quartz_cluster>],
+    [null, <contenttweaker:quartz_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 2)
+  .addOutput(<minecraft:quartz>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Charged Certus Quartz Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:charged_certus_cluster>, null],
+    [<contenttweaker:charged_certus_cluster>, <contenttweaker:charged_certus_cluster>, <contenttweaker:charged_certus_cluster>],
+    [null, <contenttweaker:charged_certus_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 2)
+  .addOutput(<appliedenergistics2:material:1>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Certus Quartz Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:certus_cluster>, null],
+    [<contenttweaker:certus_cluster>, <contenttweaker:certus_cluster>, <contenttweaker:certus_cluster>],
+    [null, <contenttweaker:certus_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 2)
+  .addOutput(<appliedenergistics2:material>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Emerald Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:emerald_cluster>, null],
+    [<contenttweaker:emerald_cluster>, <contenttweaker:emerald_cluster>, <contenttweaker:emerald_cluster>],
+    [null, <contenttweaker:emerald_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<minecraft:emerald>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Sapphire Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:sapphire_cluster>, null],
+    [<contenttweaker:sapphire_cluster>, <contenttweaker:sapphire_cluster>, <contenttweaker:sapphire_cluster>],
+    [null, <contenttweaker:sapphire_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<projectred-core:resource_item:201>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Ruby Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:ruby_cluster>, null],
+    [<contenttweaker:ruby_cluster>, <contenttweaker:ruby_cluster>, <contenttweaker:ruby_cluster>],
+    [null, <contenttweaker:ruby_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<projectred-core:resource_item:200>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Peridot Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:peridot_cluster>, null],
+    [<contenttweaker:peridot_cluster>, <contenttweaker:peridot_cluster>, <contenttweaker:peridot_cluster>],
+    [null, <contenttweaker:peridot_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<projectred-core:resource_item:202>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();

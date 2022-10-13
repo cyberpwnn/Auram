@@ -37,13 +37,7 @@
                     "blocks": [
                         "minecraft:dirt:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }             
+                }           
             },
             "drops": [
                 {
@@ -89,13 +83,7 @@
                     "blocks": [
                         "minecraft:sand:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -129,13 +117,7 @@
                     "blocks": [
                         "minecraft:stone:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -169,13 +151,7 @@
                     "blocks": [
                         "minecraft:grass:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -294,13 +270,7 @@
                     "blocks": [
                         "minecraft:iron_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -322,13 +292,7 @@
                     "blocks": [
                         "densemetals:dense_iron_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                } 
             },
             "drops": [
                 {
@@ -350,13 +314,7 @@
                     "blocks": [
                         "minecraft:gold_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                } 
             },
             "drops": [
                 {
@@ -378,13 +336,7 @@
                     "blocks": [
                         "densemetals:dense_gold_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -406,13 +358,7 @@
                     "blocks": [
                         "thermalfoundation:ore:0"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -434,13 +380,7 @@
                     "blocks": [
                         "densemetals:dense_copper_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -462,13 +402,7 @@
                     "blocks": [
                         "thermalfoundation:ore:2"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -490,13 +424,7 @@
                     "blocks": [
                         "densemetals:dense_silver_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -518,13 +446,7 @@
                     "blocks": [
                         "thermalfoundation:ore:5"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -546,13 +468,7 @@
                     "blocks": [
                         "densemetals:dense_nickel_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -574,13 +490,7 @@
                     "blocks": [
                         "thermalfoundation:ore:6"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -602,13 +512,7 @@
                     "blocks": [
                         "densemetals:dense_platinum_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -630,13 +534,7 @@
                     "blocks": [
                         "thermalfoundation:ore:1"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -658,13 +556,7 @@
                     "blocks": [
                         "densemetals:dense_tin_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -686,13 +578,7 @@
                     "blocks": [
                         "thermalfoundation:ore:4"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                } 
             },
             "drops": [
                 {
@@ -714,13 +600,7 @@
                     "blocks": [
                         "densemetals:dense_aluminum_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -742,13 +622,7 @@
                     "blocks": [
                         "thermalfoundation:ore:3"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -770,13 +644,7 @@
                     "blocks": [
                         "densemetals:dense_lead_ore:*"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -798,13 +666,7 @@
                     "blocks": [
                         "tconstruct:ore:0"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -826,13 +688,7 @@
                     "blocks": [
                         "tconstruct:ore:1"
                     ]
-                },
-                "harvester": {
-                    "gamestages": {
-                      "type": "BLACKLIST",
-                      "require": "ALL"
-                    }
-                  }  
+                }
             },
             "drops": [
                 {
@@ -843,6 +699,272 @@
                         "quantity": {
                             "min": 2,
                             "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:diamond_ore:0",
+                        "abyssalcraft:abydiaore:0",
+                        "netherendingores:ore_nether_vanilla:1",
+                        "netherendingores:ore_end_vanilla:1"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_diamond_ore:0",
+                        "densemetals:dense_nether_diamond_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 4,
+                            "max": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:quartz_ore:0",
+                        "embers:ore_quartz:0",
+                        "galacticraftplanets:venus:9",
+                        "netherendingores:ore_other_1:1",
+                        "thaumcraft:ore_quartz:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_quartz_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "appliedenergistics2:quartz_ore:0",
+                        "netherendingores:ore_end_modded_1:9",
+                        "netherendingores:ore_nether_modded_1:9"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 3,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "appliedenergistics2:charged_quartz_ore:0",
+                        "netherendingores:ore_end_modded_1:10",
+                        "netherendingores:ore_nether_modded_1:10"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:charged_certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 3,
+                            "max": 5
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "minecraft:emerald_ore:0",
+                        "netherendingores:ore_end_vanilla:2",
+                        "atum:emerald_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_emerald_ore:0",
+                        "densemetals:dense_nether_emerald_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 9
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "paragongems:block_sapphire_ore:0",
+                        "netherendingores:ore_end_modded_2:2",
+                        "netherendingores:ore_nether_modded_2:2",
+                        "projectred-exploration:ore:1",
+                        "galacticraftcore:basic_block_moon:6"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:sapphire_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "netherendingores:ore_end_modded_2:1",
+                        "projectred-exploration:ore:0",
+                        "netherendingores:ore_nether_modded_2:1",
+                        "paragongems:block_ruby_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:ruby_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "netherendingores:ore_end_modded_2:3",
+                        "netherendingores:ore_nether_modded_2:3",
+                        "projectred-exploration:ore:2"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:peridot_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }

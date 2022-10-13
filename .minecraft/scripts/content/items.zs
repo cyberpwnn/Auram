@@ -64,3 +64,35 @@ itemChunkGold.register();
 var itemChunkAluminum = VanillaFactory.createItem("aluminum_chunk");
 itemChunkAluminum.maxStackSize = 64;
 itemChunkAluminum.register();
+
+var itemQuartzCluster = VanillaFactory.createItem("quartz_cluster");
+itemQuartzCluster.maxStackSize = 64;
+itemQuartzCluster.register();
+
+var itemChargedCertusCluster = VanillaFactory.createItem("charged_certus_cluster");
+itemChargedCertusCluster.maxStackSize = 64;
+itemChargedCertusCluster.register();
+
+var itemCertusCluster = VanillaFactory.createItem("certus_cluster");
+itemCertusCluster.maxStackSize = 64;
+itemCertusCluster.register();
+
+var itemEmeraldCluster = VanillaFactory.createItem("emerald_cluster");
+itemEmeraldCluster.maxStackSize = 16;
+itemEmeraldCluster.register();
+
+var itemSapphireCluster = VanillaFactory.createItem("sapphire_cluster");
+itemSapphireCluster.maxStackSize = 32;
+itemSapphireCluster.register();
+
+var itemRubyCluster = VanillaFactory.createItem("ruby_cluster");
+itemRubyCluster.maxStackSize = 32;
+itemRubyCluster.register();
+
+var itemPeridotCluster = VanillaFactory.createItem("peridot_cluster");
+itemPeridotCluster.maxStackSize = 32;
+itemPeridotCluster.register();
+
+var itemDiamondCluster = VanillaFactory.createItem("diamond_cluster");
+itemDiamondCluster.maxStackSize = 16;
+itemDiamondCluster.register();

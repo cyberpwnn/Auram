@@ -1,12 +1,4 @@
-#modloaded bq_standard contenttweaker
-<bq_standard:loot_chest:25>.displayName = "Loot Box";
-<bq_standard:loot_chest:50>.displayName = "Loot Box";
-<bq_standard:loot_chest:75>.displayName = "Loot Box";
-<bq_standard:loot_chest:100>.displayName = "Loot Box";
-<bq_standard:loot_chest:101>.displayName = "Loot Box";
-<bq_standard:loot_chest:103>.displayName = "Loot Box";
-<bq_standard:loot_chest>.displayName = "Loot Box";
-
+#modloaded contenttweaker
 <contenttweaker:rock>.displayName = "Rock";
 <contenttweaker:sand_pile>.displayName = "Sand Pile";
 <contenttweaker:dirt_clump>.displayName = "Dirt Clump";
@@ -22,3 +14,11 @@
 <contenttweaker:silver_chunk>.displayName = "Silver Chunk";
 <contenttweaker:platinum_chunk>.displayName = "Platinum Chunk";
 <contenttweaker:aluminum_chunk>.displayName = "Aluminum Chunk";
+<contenttweaker:quartz_cluster>.displayName = "Quartz Cluster";
+<contenttweaker:charged_certus_cluster>.displayName = "Charged Certus Quartz Cluster";
+<contenttweaker:certus_cluster>.displayName = "Certus Quartz Cluster";
+<contenttweaker:emerald_cluster>.displayName = "Emerald Cluster";
+<contenttweaker:sapphire_cluster>.displayName = "Sapphire Cluster";
+<contenttweaker:ruby_cluster>.displayName = "Ruby Cluster";
+<contenttweaker:peridot_cluster>.displayName = "Peridot Cluster";
+<contenttweaker:diamond_cluster>.displayName = "Diamond Cluster";
