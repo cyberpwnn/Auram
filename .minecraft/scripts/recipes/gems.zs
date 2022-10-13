@@ -1,6 +1,5 @@
 import mods.artisanworktables.builder.RecipeBuilder;
 
-
 // Zircon to diamond 
 RecipeBuilder.get("jeweler")
   .setShapeless([<paragongems:block_zircon>])

@@ -13,19 +13,31 @@
                 {
                     "selector": {
                         "weight": {
-                            "value": 50
+                            "value": 100
                         }
                     }
                 },
                 {
                     "selector": {
                         "weight": {
-                            "value": 1
+                            "value": 5
                         }
                     },
                     "item": {
                         "items": [
                             "thaumicbases:tobaccoseed:0"
+                        ]
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 15
+                        }
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:stick"
                         ]
                     }
                 }

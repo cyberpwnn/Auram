@@ -1,0 +1,1 @@
+mods.tconstruct.Melting.addRecipe(<liquid:stone> * 12,<contenttweaker:rock>);

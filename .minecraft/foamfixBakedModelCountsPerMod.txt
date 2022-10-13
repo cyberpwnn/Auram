@@ -78,13 +78,13 @@ dynamictreesextrautils2: 30
 mca: 26
 materialis: 25
 bqmie: 25
+contenttweaker: 23
 dynamictreesquark: 22
 thaumicenergistics: 20
 wrcbe: 16
 danknull: 15
 notenoughwands: 15
 thaumicperiphery: 15
-contenttweaker: 15
 oreberries: 13
 hammercore: 13
 projectred-illumination: 12

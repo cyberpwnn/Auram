@@ -315,3 +315,109 @@ RecipeBuilder.get("jeweler")
   .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
   .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
   .create();
+
+// Coarse Dirt
+RecipeBuilder.get("potter")
+  .setShaped([
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:dirt_clump>],
+    [<contenttweaker:rock>, <contenttweaker:dirt_clump>, <contenttweaker:rock>],
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:dirt_clump>]])
+  .addTool(<ore:artisansTSquare>, 1)
+  .addOutput(<minecraft:dirt:1>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.15)
+  .setExtraOutputTwo(<contenttweaker:dirt_clump>, 0.2)
+  .create();
+
+// Gravel
+RecipeBuilder.get("potter")
+  .setShaped([
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:dirt_clump>],
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>],
+    [<contenttweaker:dirt_clump>, <contenttweaker:dirt_clump>, <contenttweaker:dirt_clump>]])
+  .addTool(<ore:artisansTSquare>, 1)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.15)
+  .setExtraOutputTwo(<contenttweaker:dirt_clump>, 0.15)
+  .addOutput(<minecraft:gravel>)
+  .create();
+
+// Cobble Slab
+RecipeBuilder.get("mason")
+  .setShapeless([<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone_slab:3>)
+  .create();
+
+// Cobble Stairs
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:rock>, null, null],
+    [<contenttweaker:rock>, <contenttweaker:rock>, null],
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:rock>]])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone_stairs>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.2)
+  .create();
+
+
+// Iron Bucket
+recipes.remove(<minecraft:bucket>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, <minecraft:iron_nugget>, null],
+    [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
+    [null, <minecraft:iron_ingot>, null]])
+  .addTool(<ore:artisansHammer>, 7)
+  .addOutput(<minecraft:bucket>)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitium"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:5> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "terra"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:1> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "herba"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:3> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:4> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ordo"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:2> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praecantatio"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<thaumcraft:sapling_silverwood> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<thaumcraft:sapling_greatwood> * 4)
+  .create();
+
+recipes.remove(<extraalchemy:empty_ring>);
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [<minecraft:gold_nugget>, <minecraft:glass_bottle>, <minecraft:gold_nugget>],
+    [<minecraft:gold_nugget>, null, <minecraft:gold_nugget>],
+    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]])
+  .addTool(<ore:artisansPliers>, 12)
+  .addOutput(<extraalchemy:empty_ring>)
+  .create();
