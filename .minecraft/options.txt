@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:12
+renderDistance:8
 guiScale:3
 particles:0
 bobView:true
@@ -15,8 +15,8 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Faithful.zip","Unity.zip","JSTR.zip","JSTR2.zip","AudioCraft-Base.zip","AudioCraft.zip","Overrides","Lum.zip"]
-incompatibleResourcePacks:[]
+resourcePacks:["Faithful.zip","Unity.zip","JSTR.zip","JSTR2.zip","AudioCraft-Base.zip","AudioCraft.zip","Overrides","Leviosa.zip"]
+incompatibleResourcePacks:["Leviosa.zip"]
 lastServer:8.48.33.248:13264
 lang:en_us
 chatVisibility:0
@@ -94,7 +94,11 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_keybind.baublesinventory:48
-key_quark.keybind.lockBuilding:0
+key_Open Menu:25
+key_Toggle Freeze Effect:19
+key_Enable/Disable:0
+key_Kill Particles:0
+key_Blacklist Block:45
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -121,8 +125,10 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:0
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
+key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
@@ -281,7 +287,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
-soundCategory_music:0.20422535
+soundCategory_music:0.1971831
 soundCategory_record:1.0
 soundCategory_weather:0.5492958
 soundCategory_block:1.0

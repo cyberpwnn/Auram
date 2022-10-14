@@ -8,6 +8,7 @@ minecraft: 3503
 botania: 3331
 tconstruct: 2973
 twilightforest: 2895
+absentbydesign: 2644
 biomesoplenty: 2640
 enderio: 2564
 spectrite: 2310
@@ -29,10 +30,10 @@ futuremc: 774
 ferdinandsflowers: 746
 thaumicaugmentation: 731
 appliedenergistics2: 720
-extrautils2: 621
 openblocks: 604
 thermalfoundation: 584
 projectred: 529
+extrautils2: 519
 dynamictreesphc: 492
 bigreactors: 448
 bloodarsenal: 433
@@ -92,6 +93,7 @@ hammercore: 13
 hardcore_battle_towers_av_av: 12
 projectred-illumination: 12
 scalinghealth: 9
+lumen: 9
 ta_special: 8
 trashcans: 8
 extraalchemy: 7
@@ -105,8 +107,8 @@ supersoundmuffler: 4
 enderiomachines: 4
 snad: 4
 qualitytools: 4
-enderstorage: 4
 heartdrops: 4
+enderstorage: 4
 bloodtinker: 4
 usefulbackpacks: 3
 ae2wtlib: 3
@@ -114,11 +116,11 @@ loreexpansion: 3
 mcjtylib_ng: 2
 wit: 2
 mcmultipart: 2
+minicoal: 2
 wft: 2
 projectred-transmission: 2
 ichunutil: 2
 wpt: 2
-minicoal: 2
 base: 1
 tweakergui: 1
 gbook_snapshot: 1
@@ -133,8 +135,8 @@ guideapi: 1
 minerva: 1
 oeintegration: 1
 manavisualizer: 1
-patchouli: 1
 gbook: 1
 forge: 1
+patchouli: 1
 solcarrot: 1
 projectred-integration: 1

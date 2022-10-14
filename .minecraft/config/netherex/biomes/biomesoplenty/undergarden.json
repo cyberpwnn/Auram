@@ -71,6 +71,12 @@
 			"spawnWeight": 60,
 			"minimumGroupCount": 4,
 			"maximumGroupCount": 6
+		}, 
+		{
+			"entity": "lumen:ember",
+			"spawnWeight": 50,
+			"minimumGroupCount": 0,
+			"maximumGroupCount": 5
 		}
 	],
 	"traits": [],

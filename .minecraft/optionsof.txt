@@ -1,5 +1,5 @@
-ofFogType:3
-ofFogStart:0.8
+ofFogType:2
+ofFogStart:0.2
 ofMipmapType:3
 ofOcclusionFancy:false
 ofSmoothFps:true
@@ -7,8 +7,8 @@ ofSmoothWorld:true
 ofAoLevel:1.0
 ofClouds:3
 ofCloudsHeight:0.0
-ofTrees:4
-ofDroppedItems:0
+ofTrees:1
+ofDroppedItems:2
 ofRain:2
 ofAnimatedWater:0
 ofAnimatedLava:0
@@ -68,5 +68,5 @@ ofShowGlErrors:false
 ofFullscreenMode:Default
 ofFastMath:true
 ofFastRender:false
-ofTranslucentBlocks:0
+ofTranslucentBlocks:1
 key_of.key.zoom:46
