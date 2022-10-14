@@ -211,3 +211,303 @@ RecipeBuilder.get("blacksmith")
   .setExtraOutputTwo(<taiga:dyonite_dust>, 0.04)
   .setExtraOutputThree(<thermalfoundation:material:99>, 0.1)
   .create();
+
+// Diamond Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:diamond_cluster>, null],
+    [<contenttweaker:diamond_cluster>, <contenttweaker:diamond_cluster>, <contenttweaker:diamond_cluster>],
+    [null, <contenttweaker:diamond_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 8)
+  .addOutput(<minecraft:diamond>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Quartz Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:quartz_cluster>, null],
+    [<contenttweaker:quartz_cluster>, <contenttweaker:quartz_cluster>, <contenttweaker:quartz_cluster>],
+    [null, <contenttweaker:quartz_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 2)
+  .addOutput(<minecraft:quartz>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Charged Certus Quartz Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:charged_certus_cluster>, null],
+    [<contenttweaker:charged_certus_cluster>, <contenttweaker:charged_certus_cluster>, <contenttweaker:charged_certus_cluster>],
+    [null, <contenttweaker:charged_certus_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 2)
+  .addOutput(<appliedenergistics2:material:1>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Certus Quartz Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:certus_cluster>, null],
+    [<contenttweaker:certus_cluster>, <contenttweaker:certus_cluster>, <contenttweaker:certus_cluster>],
+    [null, <contenttweaker:certus_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 2)
+  .addOutput(<appliedenergistics2:material>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Emerald Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:emerald_cluster>, null],
+    [<contenttweaker:emerald_cluster>, <contenttweaker:emerald_cluster>, <contenttweaker:emerald_cluster>],
+    [null, <contenttweaker:emerald_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<minecraft:emerald>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Sapphire Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:sapphire_cluster>, null],
+    [<contenttweaker:sapphire_cluster>, <contenttweaker:sapphire_cluster>, <contenttweaker:sapphire_cluster>],
+    [null, <contenttweaker:sapphire_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<projectred-core:resource_item:201>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Ruby Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:ruby_cluster>, null],
+    [<contenttweaker:ruby_cluster>, <contenttweaker:ruby_cluster>, <contenttweaker:ruby_cluster>],
+    [null, <contenttweaker:ruby_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<projectred-core:resource_item:200>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Peridot Cut
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [null, <contenttweaker:peridot_cluster>, null],
+    [<contenttweaker:peridot_cluster>, <contenttweaker:peridot_cluster>, <contenttweaker:peridot_cluster>],
+    [null, <contenttweaker:peridot_cluster>, null]])
+  .addTool(<ore:artisansGemCutter>, 6)
+  .addOutput(<projectred-core:resource_item:202>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.75)
+  .setExtraOutputTwo(<contenttweaker:rock> * 2, 0.25)
+  .setExtraOutputThree(<contenttweaker:rock> * 3, 0.05)
+  .create();
+
+// Coarse Dirt
+RecipeBuilder.get("potter")
+  .setShaped([
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:dirt_clump>],
+    [<contenttweaker:rock>, <contenttweaker:dirt_clump>, <contenttweaker:rock>],
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:dirt_clump>]])
+  .addTool(<ore:artisansTSquare>, 1)
+  .addOutput(<minecraft:dirt:1>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.15)
+  .setExtraOutputTwo(<contenttweaker:dirt_clump>, 0.2)
+  .create();
+
+// Gravel
+RecipeBuilder.get("potter")
+  .setShaped([
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:dirt_clump>],
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>],
+    [<contenttweaker:dirt_clump>, <contenttweaker:dirt_clump>, <contenttweaker:dirt_clump>]])
+  .addTool(<ore:artisansTSquare>, 1)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.15)
+  .setExtraOutputTwo(<contenttweaker:dirt_clump>, 0.15)
+  .addOutput(<minecraft:gravel>)
+  .create();
+
+// Cobble Slab
+RecipeBuilder.get("mason")
+  .setShapeless([<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone_slab:3>)
+  .create();
+
+// Cobble Stairs
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:rock>, null, null],
+    [<contenttweaker:rock>, <contenttweaker:rock>, null],
+    [<contenttweaker:dirt_clump>, <contenttweaker:rock>, <contenttweaker:rock>]])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone_stairs>)
+  .setExtraOutputOne(<contenttweaker:rock>, 0.2)
+  .create();
+
+
+// Iron Bucket
+recipes.remove(<minecraft:bucket>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [null, <minecraft:iron_nugget>, null],
+    [<minecraft:iron_ingot>, null, <minecraft:iron_ingot>],
+    [null, <minecraft:iron_ingot>, null]])
+  .addTool(<ore:artisansHammer>, 7)
+  .addOutput(<minecraft:bucket>)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "vitium"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:5> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "terra"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:1> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "herba"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:3> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "aer"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:4> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "ordo"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<minecraft:sapling:2> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "praecantatio"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<thaumcraft:sapling_silverwood> * 4)
+  .create();
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<minecraft:sapling>, <thaumcraft:phial:1>.withTag({Aspects: [{amount: 10, key: "victus"}]})])
+  .addTool(<ore:artisansNeedle>, 24)
+  .addOutput(<thaumcraft:sapling_greatwood> * 4)
+  .create();
+
+recipes.remove(<extraalchemy:empty_ring>);
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [<minecraft:gold_nugget>, <minecraft:glass_bottle>, <minecraft:gold_nugget>],
+    [<minecraft:gold_nugget>, null, <minecraft:gold_nugget>],
+    [<minecraft:gold_nugget>, <minecraft:gold_nugget>, <minecraft:gold_nugget>]])
+  .addTool(<ore:artisansPliers>, 12)
+  .addOutput(<extraalchemy:empty_ring>)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>],
+    [<minecraft:planks>, <minecraft:planks>, <minecraft:planks>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
+    [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>],
+    [<minecraft:planks:1>, <minecraft:planks:1>, <minecraft:planks:1>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log:1> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
+    [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>],
+    [<minecraft:planks:2>, <minecraft:planks:2>, <minecraft:planks:2>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log:2> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
+    [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>],
+    [<minecraft:planks:3>, <minecraft:planks:3>, <minecraft:planks:3>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log:3> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
+    [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>],
+    [<minecraft:planks:4>, <minecraft:planks:4>, <minecraft:planks:4>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log2> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
+    [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>],
+    [<minecraft:planks:5>, <minecraft:planks:5>, <minecraft:planks:5>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<minecraft:log2:1> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<atum:deadwood_planks>, <atum:deadwood_planks>, <atum:deadwood_planks>],
+    [<atum:deadwood_planks>, <atum:deadwood_planks>, <atum:deadwood_planks>],
+    [<atum:deadwood_planks>, <atum:deadwood_planks>, <atum:deadwood_planks>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<atum:deadwood_log> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<atum:palm_planks>, <atum:palm_planks>, <atum:palm_planks>],
+    [<atum:palm_planks>, <atum:palm_planks>, <atum:palm_planks>],
+    [<atum:palm_planks>, <atum:palm_planks>, <atum:palm_planks>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<atum:palm_log> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>],
+    [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>],
+    [<thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>, <thaumcraft:plank_greatwood>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<thaumcraft:log_greatwood> * 2)
+  .create();
+
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>],
+    [<thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>, <thaumcraft:plank_silverwood>]])
+  .addTool(<ore:artisansHatchet>, 4)
+  .addOutput(<thaumcraft:log_silverwood> * 2)
+  .create();

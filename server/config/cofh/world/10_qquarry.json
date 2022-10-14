@@ -1,0 +1,549 @@
+{
+    "priority": 100000,
+    "populate": {
+        "draconium_overworld_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "draconicevolution:draconium_ore",
+                    "properties": {
+                        "type": "normal"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "coal_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "coal_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 32,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_copper_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "copper"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 24,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_tin_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "tin"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 24,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_silver_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "silver"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 12,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_lead_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "lead"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 12,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_nickel_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "nickel"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 12,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_platinum_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "platinum"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 6,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_aluminum_qq": {
+            "enabled": "false",
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties":{
+                        "type": "aluminum"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 24,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_iridium_qq": {
+            "enabled": "false",
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thermalfoundation:ore",
+                    "properties": {
+                        "type": "iridium"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 6,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "iron_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "iron_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 16,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "gold_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "gold_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "redstone_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "redstone_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 16,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "diamond_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "diamond_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "emerald_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "emerald_ore"
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 16,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_peridot_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "projectred-exploration:ore",
+                    "properties": {
+                        "type": "peridot_ore"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_sapphire_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "projectred-exploration:ore",
+                    "properties": {
+                        "type": "sapphire_ore"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "auram_ruby_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "projectred-exploration:ore",
+                    "properties": {
+                        "type": "ruby_ore"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 8,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "spectrite_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "spectrite:spectrite_ore",
+                    "properties": {
+                        "type": "0"
+                    }
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "dense_boron_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "densemetals:dense_boron_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "dense_thorium_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "densemetals:dense_thorium_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "dense_magnesium_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "densemetals:dense_magnesium_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "dense_osmium_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "densemetals:dense_osmium_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "dense_uranium_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "densemetals:dense_uranium_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        },
+        "dense_mithril_qq": {
+            "distribution": "uniform",
+            "generator": {
+                "block": "densemetals:dense_mithril_ore",
+                "material": "minecraft:stone",
+                "cluster-size": 1
+            },
+            "cluster-count": 4,
+            "min-height": 1,
+            "max-height": 60,
+            "retrogen": false,
+            "biome": "all",
+            "dimension": {
+                "restriction": "whitelist",
+                "value": [
+                    -9999
+                ]
+            }
+        }
+    }
+}

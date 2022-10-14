@@ -34,7 +34,7 @@
             },
             "cluster-count": 3,
             "min-height": 1,
-            "max-height": 40,
+            "max-height": 80,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -54,7 +54,7 @@
             },
             "cluster-count": 3,
             "min-height": 32,
-            "max-height": 70,
+            "max-height": 180,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -75,11 +75,11 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 9
+                "cluster-size": 16
             },
             "cluster-count": 4,
             "min-height": 40,
-            "max-height": 75,
+            "max-height": 135,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -100,11 +100,11 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 6
+                "cluster-size": 9
             },
             "cluster-count": 4,
             "min-height": 20,
-            "max-height": 55,
+            "max-height": 115,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -125,12 +125,12 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 9
+                "cluster-size": 11
             },
             "cluster-count": 2,
             "chunk-chance": 3,
             "min-height": 5,
-            "max-height": 30,
+            "max-height": 60,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -156,7 +156,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 10,
-            "max-height": 35,
+            "max-height": 65,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -177,12 +177,12 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 7
+                "cluster-size": 9
             },
             "cluster-count": 1,
             "chunk-chance": 3,
             "min-height": 5,
-            "max-height": 20,
+            "max-height": 50,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -203,12 +203,12 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 11
+                "cluster-size": 14
             },
             "chunk-chance": 12,
             "cluster-count": 1,
             "min-height": 0,
-            "max-height": 36,
+            "max-height": 56,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -230,12 +230,12 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 5
+                "cluster-size": 9
             },
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 40,
-            "max-height": 75,
+            "max-height": 135,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -257,12 +257,12 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 8
+                "cluster-size": 15
             },
             "cluster-count": 1,
             "chunk-chance": 15,
             "min-height": 5,
-            "max-height": 25,
+            "max-height": 45,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -278,11 +278,11 @@
             "generator": {
                 "block": "iron_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 13
+                "cluster-size": 14
             },
             "cluster-count": 2,
-            "min-height": 48,
-            "max-height": 64,
+            "min-height": 38,
+            "max-height": 174,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -298,12 +298,12 @@
             "generator": {
                 "block": "gold_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 8
+                "cluster-size": 11
             },
             "cluster-count": 1,
             "chunk-chance": 3,
             "min-height": 0,
-            "max-height": 32,
+            "max-height": 62,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -319,12 +319,12 @@
             "generator": {
                 "block": "redstone_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 8
+                "cluster-size": 11
             },
             "cluster-count": 2,
             "min-height": 0,
             "chunk-chance": 3,
-            "max-height": 16,
+            "max-height": 46,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -345,7 +345,7 @@
             "cluster-count": 1,
             "chunk-chance": 3,
             "min-height": 0,
-            "max-height": 16,
+            "max-height": 26,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -368,7 +368,7 @@
             },
             "cluster-count": 15,
             "min-height": 32,
-            "max-height": 80,
+            "max-height": 110,
             "retrogen": false,
             "biome": {
                 "restriction": "whitelist",
@@ -401,14 +401,14 @@
                     "name": "emerald_ore"
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 1
+                "cluster-size": 3
             },
             "cluster-count": {
                 "min": 2,
                 "max": 3
             },
             "min-height": 4,
-            "max-height": 28,
+            "max-height": 38,
             "retrogen": false,
             "biome": {
                 "restriction": "whitelist",
@@ -470,7 +470,7 @@
             "cluster-count": 1,
             "chunk-chance": 6,
             "min-height": 42,
-            "max-height": 82,
+            "max-height": 122,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -522,7 +522,7 @@
             "cluster-count": 1,
             "min-height": 0,
             "chunk-chance": 6,
-            "max-height": 16,
+            "max-height": 114,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -543,12 +543,12 @@
                     }
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 7
             },
-            "cluster-count": 3,
+            "cluster-count": 1,
             "min-height": 0,
-            "chunk-chance": 12,
-            "max-height": 16,
+            "chunk-chance": 50,
+            "max-height": 77,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -569,7 +569,7 @@
             "cluster-count": 6,
             "min-height": 0,
             "chunk-chance": 2,
-            "max-height": 64,
+            "max-height": 120,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -611,7 +611,7 @@
             "cluster-count": 3,
             "min-height": 0,
             "chunk-chance": 3,
-            "max-height": 48,
+            "max-height": 77,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -632,7 +632,7 @@
             "cluster-count": 2,
             "chunk-chance": 3,
             "min-height": 0,
-            "max-height": 21,
+            "max-height": 33,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -653,7 +653,7 @@
             "cluster-count": 2,
             "chunk-chance": 4,
             "min-height": 0,
-            "max-height": 21,
+            "max-height": 33,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -674,7 +674,7 @@
             "cluster-count": 3,
             "chunk-chance": 3,
             "min-height": 0,
-            "max-height": 51,
+            "max-height": 88,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -695,7 +695,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 0,
-            "max-height": 21,
+            "max-height": 33,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -716,7 +716,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 32,
-            "max-height": 82,
+            "max-height": 133,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -737,7 +737,7 @@
             "cluster-count": 2,
             "chunk-chance": 3,
             "min-height": 1,
-            "max-height": 42,
+            "max-height": 111,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -758,7 +758,7 @@
             "cluster-count": 2,
             "chunk-chance": 5,
             "min-height": 1,
-            "max-height": 36,
+            "max-height": 55,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -779,7 +779,7 @@
             "cluster-count": 2,
             "chunk-chance": 5,
             "min-height": 1,
-            "max-height": 36,
+            "max-height": 39,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -800,7 +800,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 1,
-            "max-height": 47,
+            "max-height": 85,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -821,7 +821,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 24,
-            "max-height": 62,
+            "max-height": 120,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -835,14 +835,14 @@
         "dense_copper": {
             "distribution": "uniform",
             "generator": {
-                "block": "densemetals:dense_aluminum_ore",
+                "block": "densemetals:dense_copper_ore",
                 "material": "minecraft:stone",
                 "cluster-size": 5
             },
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 39,
-            "max-height": 92,
+            "max-height": 120,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -863,7 +863,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 1,
-            "max-height": 37,
+            "max-height": 57,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -884,7 +884,7 @@
             "cluster-count": 3,
             "chunk-chance": 3,
             "min-height": 1,
-            "max-height": 37,
+            "max-height": 47,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -905,7 +905,7 @@
             "cluster-count": 3,
             "chunk-chance": 4,
             "min-height": 1,
-            "max-height": 37,
+            "max-height": 47,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -926,7 +926,7 @@
             "cluster-count": 3,
             "chunk-chance": 4,
             "min-height": 1,
-            "max-height": 67,
+            "max-height": 47,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -947,7 +947,7 @@
             "cluster-count": 3,
             "chunk-chance": 2,
             "min-height": 1,
-            "max-height": 47,
+            "max-height": 67,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -968,7 +968,7 @@
             "cluster-count": 4,
             "chunk-chance": 6,
             "min-height": 9,
-            "max-height": 77,
+            "max-height": 87,
             "retrogen": false,
             "biome": "all",
             "dimension": {
@@ -989,7 +989,7 @@
             "cluster-count": 2,
             "chunk-chance": 4,
             "min-height": 1,
-            "max-height": 36,
+            "max-height": 56,
             "retrogen": false,
             "biome": "all",
             "dimension": {

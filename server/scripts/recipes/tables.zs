@@ -1,5 +1,12 @@
 import mods.artisanworktables.builder.RecipeBuilder;
-#disable_search_tree
+
+recipes.remove(<minecraft:crafting_table>);
+recipes.addShaped("owctable", <artisanworktables:worktable:5>, [
+    [<ore:plankWood>, <ore:plankWood>],
+    [<ore:plankWood>, <ore:plankWood>]
+]);
+
+recipes.addShapeless("owctableconv", <minecraft:crafting_table>, [<artisanworktables:worktable:5>]);
 
 // Mechanical Toolbox
 RecipeBuilder.get("engineer")
@@ -18,9 +25,6 @@ RecipeBuilder.get("carpenter")
     [<minecraft:fence>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:fence>]])
   .addOutput(<artisanworktables:toolbox>)
   .create();
-
-// Basic Worktable
-recipes.addShaped(<artisanworktables:worktable:5>, [[null, <minecraft:paper>, null],[<minecraft:paper>, <minecraft:crafting_table>, <minecraft:paper>], [<ore:stickWood>, <ore:stickWood>, <ore:stickWood>]]);
 
 // Basic Workstation
 RecipeBuilder.get("basic")
@@ -102,9 +106,9 @@ RecipeBuilder.get("basic")
 // Blacksmith Worktable
 RecipeBuilder.get("basic")
   .setShaped([
-    [<minecraft:iron_bars>, <ore:stickWood>, <minecraft:iron_bars>],
+    [<minecraft:cobblestone>, <ore:stickWood>, <minecraft:cobblestone>],
     [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
-    [<minecraft:iron_bars>, <minecraft:iron_block>, <minecraft:iron_bars>]])
+    [<minecraft:cobblestone>, <minecraft:iron_block>, <minecraft:cobblestone>]])
   .addOutput(<artisanworktables:worktable:3>)
   .create();
 
