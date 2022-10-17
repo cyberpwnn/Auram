@@ -511,3 +511,25 @@ RecipeBuilder.get("carpenter")
   .addTool(<ore:artisansHatchet>, 4)
   .addOutput(<thaumcraft:log_silverwood> * 2)
   .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<contenttweaker:rock>, <contenttweaker:rock>, null],
+    [<contenttweaker:rock>, <minecraft:stick>, null],
+    [null, null, <minecraft:stick>]])
+  .addTool(<ore:artisansHammer>, 4)
+  .addOutput(<paragongems:chisel_stone>)
+  .create();
+
+RecipeBuilder.get("engineer")
+  .setShaped([
+    [<minecraft:iron_nugget>, <minecraft:iron_ingot>, null],
+    [<minecraft:iron_ingot>, <minecraft:stick>, null],
+    [null, null, <minecraft:stick>]])
+  .addTool(<ore:artisansHammer>, 4)
+  .addOutput(<paragongems:chisel_iron>)
+  .create();
+
+recipes.addShapeless("chiopal", <paragongems:chisel_opal>, [<paragongems:chisel_iron>, <paragongems:item_opal>]);
+recipes.addShapeless("chispinel", <paragongems:chisel_spinel>, [<paragongems:chisel_iron>, <paragongems:item_spinel>]);
+recipes.addShapeless("chiruby", <paragongems:chisel_ruby>, [<paragongems:chisel_iron>, <paragongems:item_ruby>]);

@@ -9,6 +9,11 @@ RecipeBuilder.get("jeweler")
 
 // Ruby to ruby....
 RecipeBuilder.get("jeweler")
+  .setShapeless([<projectred-core:resource_item:200>])
+  .addTool(<ore:artisansGemCutter>, 1)
+  .addOutput(<paragongems:item_ruby>)
+  .create();
+RecipeBuilder.get("jeweler")
   .setShapeless([<paragongems:item_ruby>])
   .addTool(<ore:artisansGemCutter>, 1)
   .addOutput(<projectred-core:resource_item:200>)

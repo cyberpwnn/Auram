@@ -834,6 +834,7 @@ dungeons2:cornice_cobblestone_mossy: 31
 dungeons2:quarter_facade_stone: 31
 dungeons2:quarter_facade_cobblestone: 31
 twilightforest:miniature_structure: 30
+extrautils2:passivegenerator: 28
 projectred:world/tools: 27
 immersiveengineering:metal_device1_core_drill: 25
 thaumicaugmentation:stability_field_generator: 25
@@ -845,6 +846,7 @@ enderio:block_dialing_device: 25
 bloodmagic:soul_gem: 25
 immersiveengineering:metal_device1_charging_station: 25
 immersiveengineering:metal_device1_pipe: 25
+extrautils2:enderlilly: 25
 bloodarsenal:soul_pendant: 25
 immersiveengineering:metal_device1_belljar: 25
 quark:colored_flowerpot_orange: 24
@@ -875,6 +877,7 @@ bigreactors:reactorcontroller: 22
 enderio:block_machine_base: 22
 enderio:fluids: 22
 bigreactors:turbinecontroller: 22
+extrautils2:playerchest: 21
 enderio:block_tank: 21
 storagedrawers:customdrawers: 21
 tconstruct:edible: 21
@@ -883,7 +886,9 @@ twilightforest:twilight_plant: 20
 bloodmagic:sentient_armour: 20
 botania:opencrate: 20
 thermalfoundation:coin: 19
+extrautils2:miner: 19
 twilightforest:experiment_115: 19
+extrautils2:user: 19
 appliedenergistics2:controller: 19
 absentbydesign:fence_red_netherbrick: 18
 projectred:world/items: 18
@@ -1302,6 +1307,7 @@ tconstruct:fancy_frame: 14
 thaumcraft:activator_rail: 13
 arcanearchives:gemcutters_table: 13
 openblocks:block_placer: 13
+extrautils2:screen: 13
 midnight:dewshroom_button: 13
 openblocks:big_button_wood: 13
 quark:jungle_button: 13
@@ -1336,6 +1342,7 @@ appliedenergistics2:light_detector: 13
 minecraft:activator_rail: 13
 futuremc:bamboo: 13
 openblocks:builder_guide: 13
+extrautils2:indexer: 13
 thaumcraft:celestial_notes: 13
 thaumicaugmentation:button_greatwood: 13
 opencomputers:screen1: 13
@@ -1392,6 +1399,7 @@ twilightforest:twilight_oak_button: 13
 quark:iron_button: 13
 midnight:nightstone_button: 13
 enderio:block_detector_block_silent: 13
+extrautils2:chunkloader: 13
 openblocks:guide: 13
 embers:fluid_transfer: 13
 thaumcraft:vis_generator: 13
@@ -1527,7 +1535,6 @@ futuremc:composter: 10
 embers:archaic_mech_edge: 10
 enderio:item_alloy_nugget: 10
 netherendingores:ore_end_modded_2: 10
-extrautils2:passivegenerator: 10
 enderio:item_alloy_ingot: 10
 bloodmagic:inversion_pillar: 10
 enderio:item_alloy_ball: 10
@@ -1619,7 +1626,6 @@ thaumadditions:mithrillium_smelter: 9
 opencomputers:case3: 9
 opencomputers:case2: 9
 opencomputers:case1: 9
-extrautils2:enderlilly: 9
 mekanism:bin_ultimate: 9
 extrautils2:ironwood_log: 9
 mekanism:bin_advanced: 9
@@ -1816,7 +1822,6 @@ dungeons2:grate: 7
 dungeons2:sill_smooth_sandstone: 7
 dungeons2:half_pillar_base_smooth_sandstone: 7
 thaumcraft:mirror_essentia: 7
-extrautils2:miner: 7
 dungeons2:flute_thin_pillar_sandstone: 7
 tconstruct:tooltables: 7
 bloodmagic:inscription_tool: 7
@@ -1913,7 +1918,6 @@ dungeons2:sill_cobblestone: 7
 compactmachines3:tunnel: 7
 dungeons2:coffer_stonebrick: 7
 dungeons2:wall_sconce_sandstone: 7
-extrautils2:user: 7
 betternether:wart_seed: 7
 embers:ember_injector: 7
 dungeons2:tee_pillar_obsidianbrick: 7
@@ -2150,7 +2154,6 @@ thaumadditions:vis_crop/cognitio: 5
 nuclearcraft:extractor_idle: 5
 midnight:dark_willow_log: 5
 thaumicaugmentation:arcane_terraformer: 5
-extrautils2:screen: 5
 opensecurity:nanofog_terminal: 5
 tconstruct:stone_ladder: 5
 opensecurity:keypad: 5
@@ -2194,7 +2197,6 @@ midnight:nightshroom_ladder: 5
 mekanismgenerators:bio_generator: 5
 yurtmod:bed_wall: 5
 openblocks:xp_drain: 5
-extrautils2:playerchest: 5
 netherhexedkingdommod:human_skeleton_bottom: 5
 minecraft:nether_wart: 5
 extrautils2:ironwood_sapling: 5
@@ -2276,7 +2278,6 @@ thaumicwonders:meaty_orb: 5
 midnight:dead_wood_ladder: 5
 nuclearcraft:pressurizer_idle: 5
 nuclearcraft:turbine_rotor_shaft: 5
-extrautils2:indexer: 5
 minecraft:white_glazed_terracotta: 5
 openblocks:rope_ladder: 5
 thaumicbases:enderlogs: 5
@@ -2499,7 +2500,6 @@ thaumadditions:vis_crop/ordo: 5
 minecraft:red_glazed_terracotta: 5
 thaumicwonders:catalyzation_chamber: 5
 thaumadditions:vis_crop/praemunio: 5
-extrautils2:chunkloader: 5
 quark:custom_bookshelf: 5
 thaumadditions:vis_crop/permutatio: 5
 minecraft:structure_block: 5
@@ -2562,6 +2562,7 @@ futuremc:acacia_wood: 4
 harvestcraft:pamcurryleafcrop: 4
 futuremc:stripped_jungle_wood: 4
 biomesoplenty:leaves_0: 4
+extrautils2:resonator: 4
 dynamictreesphc:fruitvanillabean: 4
 draconicevolution:particle_generator: 4
 twilightforest:z_spiral_bricks: 4
@@ -2988,6 +2989,7 @@ quark:stone_granite_slab: 3
 quark:stained_planks_brown_slab: 3
 quark:soul_sandstone: 3
 embers:ashen_brick_slab_double: 3
+extrautils2:transferholder: 3
 abyssalcraft:darkbrickslab1: 3
 thaumcraft:grass_ambient: 3
 extrautils2:compressedsand: 3
@@ -3508,7 +3510,6 @@ futuremc:soul_soil: 2
 thaumcraft:nitor_lime: 2
 midnight:dark_water: 2
 botania:biomestonea2slab: 2
-extrautils2:resonator: 2
 minecraft:dandelion: 2
 atum:linen_carpet_blue: 2
 atum:crystal_yellow_stained_glass: 2
@@ -7099,7 +7100,6 @@ minecraft:ender_chest: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_06: 1
 harvestcraft:grainbaititem: 1
 aether_legacy:neptune_gloves: 1
-extrautils2:transferholder: 1
 immersiveengineering:material/waterwheel_segment: 1
 embers:aspectus_copper: 1
 immersiveengineering:mold/rod: 1
