@@ -90,7 +90,6 @@ notenoughwands: 15
 thaumicperiphery: 15
 oreberries: 13
 hammercore: 13
-hardcore_battle_towers_av_av: 12
 projectred-illumination: 12
 scalinghealth: 9
 lumen: 9
