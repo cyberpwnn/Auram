@@ -4,63 +4,70 @@
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.01
+        "random": 0.03
     },
     {
         "mob": "minecraft:skeleton",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.03
+        "random": 0.07
+    },
+    {
+        "mob": "minecraft:skeleton",
+        "player": true,
+        "item": "thaumcraft:loot_bag",
+        "itemcount": "1-1/1-1/1-1",
+        "random": 0.15
     },
     {
         "mob": "minecraft:spider",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.02
+        "random": 0.05
     },
     {
         "mob": "minecraft:cow",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.002
+        "random": 0.01
     },
     {
         "mob": "minecraft:chicken",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.002
+        "random": 0.01
     },
     {
         "mob": "minecraft:sheep",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.002
+        "random": 0.01
     },
     {
         "mob": "minecraft:pig",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.002
+        "random": 0.01
     },
     {
         "mob": "minecraft:blaze",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.01
+        "random": 0.07
     },
     {
         "mob": "minecraft:enderman",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.01
+        "random": 0.03
     },
     {
         "mob": "twilightforest:firefly",
@@ -88,7 +95,7 @@
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
-        "random": 0.15
+        "random": 0.33
     },
     {
         "mob": "mekanism:babyskeleton",
