@@ -26,7 +26,6 @@ betternether: 958
 aether_legacy: 917
 mekanism: 835
 theaurorian: 800
-futuremc: 774
 ferdinandsflowers: 746
 thaumicaugmentation: 731
 appliedenergistics2: 720

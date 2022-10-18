@@ -614,7 +614,6 @@ immersiveengineering:metal_multiblock_bucket_wheel: 33
 twilightforest:sort_door: 33
 enderio:block_painted_wooden_door: 33
 biomesoplenty:willow_vine: 33
-futuremc:stone_brick_wall: 33
 atum:limestone_brick_large_door: 33
 netherex:icy_nether_brick_wall: 33
 quark:roots_black_flower: 33
@@ -623,7 +622,6 @@ atum:limestone_wall: 33
 immersiveengineering:metal_multiblock_refinery: 33
 rustic:cabinet: 33
 midnight:nightstone_brick_wall: 33
-futuremc:end_stone_brick_wall: 33
 atum:ceramic_wall_yellow: 33
 rustic:ironwood_door: 33
 abyssalcraft:fire: 33
@@ -638,7 +636,6 @@ atum:ceramic_wall_black: 33
 twilightforest:canopy_door: 33
 betternether:stalagnate_planks_gate: 33
 atum:ceramic_wall_red: 33
-futuremc:diorite_wall: 33
 atum:kiln: 33
 betternether:bone_wall: 33
 betternether:reeds_gate: 33
@@ -653,7 +650,7 @@ tconstruct:slime_vine_mid: 33
 midnight:dead_wood_door: 33
 immersiveengineering:metal_multiblock_crusher: 33
 abyssalcraft:dscwall: 33
-futuremc:brick_wall: 33
+atum:ceramic_wall_white: 33
 atum:alabaster_polished_wall: 33
 atum:alabaster_carved_wall: 33
 midnight:viridshroom_door: 33
@@ -679,7 +676,6 @@ tconstruct:slime_vine_end: 33
 enderio:block_dark_steel_door: 33
 twilightforest:mine_door: 33
 atum:ceramic_wall_brown: 33
-atum:ceramic_wall_white: 33
 sonarcore:reinforcedstonebrickgate: 33
 midnight:tenebrum_door: 33
 atum:ceramic_wall_pink: 33
@@ -690,7 +686,6 @@ thaumicaugmentation:arcane_door_thaumium: 33
 abyssalcraft:dreadstonecobblestonewall: 33
 aether_legacy:hellfire_wall: 33
 atum:palm_door: 33
-futuremc:red_sandstone_wall: 33
 atum:ceramic_wall_blue: 33
 atum:ceramic_wall_gray: 33
 betternether:nether_brick_wall: 33
@@ -708,13 +703,10 @@ immersiveengineering:metal_multiblock_bottling_machine: 33
 rustic:olive_door: 33
 quark:roots: 33
 aether_legacy:aerogel_wall: 33
-futuremc:sandstone_wall: 33
 opensecurity:mag_secure_door: 33
 netherex:fiery_nether_brick_wall: 33
-futuremc:prismarine_wall: 33
 atum:porphyry_polished_wall: 33
 atum:limestone_brick_cracked_brick_door: 33
-futuremc:mossy_stone_brick_wall: 33
 biomesoplenty:ivy: 33
 abyssalcraft:coraliumcobblestonewall: 33
 quark:roots_blue_flower: 33
@@ -729,17 +721,14 @@ atum:ceramic_wall_lime: 33
 midnight:rockshroom_bricks_wall: 33
 atum:ceramic_wall_purple: 33
 aether_legacy:holystone_brick_wall: 33
-futuremc:nether_brick_wall: 33
 minecraft:cobblestone_wall: 33
 midnight:trenchstone_brick_wall: 33
 enderio:block_enhanced_wireless_charger: 33
 netherex:basalt_pillar_wall: 33
 minecraft:mossy_cobblestone_wall: 33
-futuremc:red_nether_brick_wall: 33
 atum:ceramic_wall_green: 33
 twilightforest:twilight_oak_door: 33
 atum:ceramic_wall_silver: 33
-futuremc:granite_wall: 33
 immersiveengineering:metal_multiblock_excavator: 33
 thaumicaugmentation:arcane_door_greatwood: 33
 atum:porphyry_carved_wall: 33
@@ -754,7 +743,6 @@ betternether:cincinnasite_wall: 33
 bloodmagic:component: 33
 immersiveengineering:metal_multiblock_metal_press: 33
 quark:roots_white_flower: 33
-futuremc:andesite_wall: 33
 midnight:nightstone_wall: 33
 atum:cracked_brick_wall: 33
 biomesoplenty:eucalyptus_door_block: 32
@@ -959,10 +947,8 @@ theaurorian:aurorianglasspane: 17
 netherex:quartz_fence_gate: 17
 netherex:basalt_fence_gate: 17
 abyssalcraft:abyfence: 17
-futuremc:bell: 17
 atum:thin_crystal_black_stained_glass: 17
 atum:thin_crystal_brown_stained_glass: 17
-futuremc:acacia_trapdoor: 17
 minecraft:silver_stained_glass_pane: 17
 rustic:table_ironwood: 17
 minecraft:birch_fence: 17
@@ -971,7 +957,6 @@ biomesoplenty:cherry_fence_gate: 17
 netherex:basalt_pillar_fence: 17
 nuclearcraft:reactor_trapdoor: 17
 openblocks:canvas: 17
-futuremc:spruce_trapdoor: 17
 atum:deadwood_hatch: 17
 thaumcraft:pedestal_arcane: 17
 forbidden_arcanus:edelwood_trapdoor: 17
@@ -999,14 +984,12 @@ midnight:tenebrum_pressure_plate: 17
 rustic:fence_olive: 17
 minecraft:spruce_fence: 17
 atum:thin_framed_green_stained_glass: 17
-futuremc:birch_trapdoor: 17
 twilightforest:canopy_fence: 17
 netherex:lively_nether_brick_fence: 17
 betternether:stalagnate_planks_fence: 17
 biomesoplenty:redwood_fence_gate: 17
 netherex:lively_nether_brick_fence_gate: 17
 rustic:table_jungle: 17
-futuremc:dark_oak_trapdoor: 17
 biomesoplenty:cherry_fence: 17
 thaumicaugmentation:bars_ancient: 17
 midnight:shadowroot_fence: 17
@@ -1022,7 +1005,6 @@ netherex:red_nether_brick_fence_gate: 17
 midnight:midnight_lever: 17
 rustic:table_acacia: 17
 atum:radiant_beacon_framed: 17
-futuremc:jungle_trapdoor: 17
 sonarcore:reinforceddirtbrickfence: 17
 netherex:icy_nether_brick_fence_gate: 17
 bloodarsenal:blood_infused_wooden_fence: 17
@@ -1051,7 +1033,6 @@ aether_legacy:skyroot_fence_gate: 17
 atum:thin_framed_lime_stained_glass: 17
 minecraft:light_weighted_pressure_plate: 17
 atum:thin_framed_black_stained_glass: 17
-atum:thin_framed_purple_stained_glass: 17
 enderio:block_end_iron_bars: 17
 biomesoplenty:mahogany_fence_gate: 17
 midnight:tenebrum_trapdoor: 17
@@ -1148,6 +1129,7 @@ midnight:dewshroom_trapdoor: 17
 biomesoplenty:redwood_fence: 17
 biomesoplenty:ebony_fence_gate: 17
 netherex:gloomy_nether_brick_fence: 17
+atum:thin_framed_purple_stained_glass: 17
 twilightforest:dark_fence: 17
 minecraft:dark_oak_fence: 17
 theaurorian:moontemplebars: 17
@@ -1164,7 +1146,6 @@ atum:thin_framed_silver_stained_glass: 17
 rustic:table_birch: 17
 atum:thin_framed_yellow_stained_glass: 17
 midnight:viridshroom_fence_gate: 17
-futuremc:campfire: 17
 enderio:block_painted_dark_steel_trapdoor: 17
 atum:thin_framed_glass: 17
 midnight:dewshroom_fence: 17
@@ -1320,7 +1301,6 @@ minecraft:observer: 13
 opencomputers:keyboard: 13
 compactmachines3:redstonetunnel: 13
 thaumicaugmentation:rift_feeder: 13
-futuremc:barrel: 13
 opencomputers:screen2: 13
 embers:item_transfer: 13
 quark:iron_rod: 13
@@ -1334,13 +1314,11 @@ opencomputers:screen3: 13
 twilightforest:sort_button: 13
 minecraft:golden_rail: 13
 thaumicaugmentation:warded_button_greatwood: 13
-futuremc:grindstone: 13
 twilightforest:dark_button: 13
 atum:smoke_trap: 13
 thaumicwonders:dimensional_ripper: 13
 appliedenergistics2:light_detector: 13
 minecraft:activator_rail: 13
-futuremc:bamboo: 13
 openblocks:builder_guide: 13
 extrautils2:indexer: 13
 thaumcraft:celestial_notes: 13
@@ -1531,7 +1509,6 @@ astralsorcery:blockaltar: 10
 embers:mech_edge: 10
 bloodmagic:inversion_pillar_end: 10
 tconstruct:slime_grass: 10
-futuremc:composter: 10
 embers:archaic_mech_edge: 10
 enderio:item_alloy_nugget: 10
 netherendingores:ore_end_modded_2: 10
@@ -1542,7 +1519,6 @@ netherendingores:ore_nether_modded_2: 10
 enderio:block_alloy: 10
 bloodarsenal:base_item: 10
 botania:altar: 10
-futuremc:beehive: 9
 betternether:netherrack_furnace: 9
 astralsorcery:blockinfusedwood: 9
 thaumadditions:adaminite_smelter: 9
@@ -1600,8 +1576,6 @@ aether_legacy:skyroot_bed: 9
 thaumicwonders:eldritch_cluster: 9
 mekanism:chemical_dissolution_chamber: 9
 betternether:cincinnasite_forge: 9
-futuremc:blast_furnace: 9
-futuremc:smoker: 9
 thermalfoundation:ore: 9
 twilightforest:fire_jet: 9
 theaurorian:silkberrycrop: 9
@@ -1616,7 +1590,6 @@ thaumicbases:metalleat: 9
 dynamictreesextrautils2:ferrousjuniperbranchburnt: 9
 thermalfoundation:fluid: 9
 thaumcraft:pattern_crafter: 9
-futuremc:bee_nest: 9
 extrautils2:compressedcobblestone: 9
 abyssalcraft:shoggothblock: 9
 thaumcraft:smelter_basic: 9
@@ -1651,7 +1624,6 @@ yurtmod:frame_bed_roof: 8
 twilightforest:tower_translucent: 8
 ironchest:iron_shulker_box_black: 8
 bigreactors:reactorcontrolrod: 8
-yurtmod:frame_bed_wall: 8
 mekanism:electrolytic_separator: 8
 twilightforest:maze_stone: 8
 mekanism:elite_factory_sawing: 8
@@ -1697,6 +1669,7 @@ ironchest:iron_shulker_box_blue: 8
 ironchest:iron_shulker_box_orange: 8
 ironchest:iron_shulker_box_gray: 8
 mekanism:advanced_factory_enriching: 8
+yurtmod:frame_bed_wall: 8
 mekanism:elite_factory_compressing: 8
 mekanism:chemical_injection_chamber: 8
 harvestcraft:chocolatesprinklecake: 8
@@ -1850,7 +1823,6 @@ extrautils2:quarryproxy: 7
 embers:fluid_gauge: 7
 dungeons2:seven_eights_pillar_stonebrick: 7
 abyssalcraft:jzaharstatue: 7
-thaumadditions:flux_concentrator: 7
 thaumicaugmentation:impetus_relay: 7
 dungeons2:half_pillar_base_obsidianbrick: 7
 dungeons2:coffer_middle_smooth_sandstone: 7
@@ -1863,6 +1835,7 @@ extrautils2:decorativeglass: 7
 dungeons2:seven_eights_pillar_cobblestone_mossy: 7
 abyssalcraft:awenergyrelay: 7
 dungeons2:double_sill_smooth_sandstone: 7
+thaumadditions:flux_concentrator: 7
 dungeons2:tee_pillar_cobblestone_mossy: 7
 mekanism:quantum_entangloporter: 7
 extrautils2:spotlight: 7
@@ -1873,7 +1846,6 @@ spectrite:spectrite_bone_block: 7
 embers:clockwork_attenuator: 7
 dungeons2:coffer_stone: 7
 dungeons2:double_sill_cobblestone: 7
-dungeons2:wall_sconce_smooth_sandstone: 7
 bountifulbaubles:reforger: 7
 rustic:golden_lantern: 7
 dungeons2:flute_pillar_stonebrick_mossy: 7
@@ -1916,6 +1888,7 @@ extrautils2:spike_iron: 7
 minecraft:dispenser: 7
 dungeons2:sill_cobblestone: 7
 compactmachines3:tunnel: 7
+dungeons2:wall_sconce_smooth_sandstone: 7
 dungeons2:coffer_stonebrick: 7
 dungeons2:wall_sconce_sandstone: 7
 betternether:wart_seed: 7
@@ -2017,7 +1990,6 @@ storagedrawers:trim: 6
 absentbydesign:slab_concrete_white: 6
 enderio:block_wireless_charger_extension: 6
 spectrite:spectrite_chest_trapped: 6
-futuremc:soul_fire_torch: 6
 aether_legacy:dungeon_block: 6
 atum:limestone_torch: 6
 absentbydesign:slab_stone: 6
@@ -2180,7 +2152,6 @@ rustic:beehive: 5
 thaumadditions:thaumic_lectern: 5
 embers:geo_separator: 5
 rustic:chair_ironwood: 5
-futuremc:stripped_dark_oak_log: 5
 embers:beam_splitter: 5
 abyssalcraft:transmutator: 5
 immersiveengineering:metal_decoration0_ctm: 5
@@ -2202,8 +2173,6 @@ minecraft:nether_wart: 5
 extrautils2:ironwood_sapling: 5
 extrautils2:trashcanfluid: 5
 thaumcraft:research_table: 5
-futuremc:stripped_acacia_log: 5
-futuremc:fletching_table: 5
 minecraft:orange_glazed_terracotta: 5
 tinker_io:ore_crusher: 5
 bloodmagic:sentient_pickaxe: 5
@@ -2218,7 +2187,6 @@ opensecurity:rfid_reader: 5
 minecraft:oak_log: 5
 rustic:chair_jungle: 5
 rustic:blood_orchid: 5
-futuremc:stripped_spruce_log: 5
 thaumicwonders:primordial_accelerator_tunnel: 5
 forbidden_arcanus:arcane_base_block_pillar: 5
 thaumadditions:vis_crop/victus: 5
@@ -2285,7 +2253,6 @@ nuclearcraft:infuser_active: 5
 minecraft:pumpkin: 5
 forbidden_arcanus:mysterywood: 5
 theaurorian:aurorianfurnacelit: 5
-futuremc:smithing_table: 5
 nuclearcraft:rock_crusher_active: 5
 nuclearcraft:fuel_reprocessor_active: 5
 nuclearcraft:melter_active: 5
@@ -2318,7 +2285,6 @@ bloodmagic:sentient_sword: 5
 thaumadditions:vis_crop/terra: 5
 thaumadditions:vis_crop/visum: 5
 nuclearcraft:decay_hastener_idle: 5
-futuremc:cartography_table: 5
 nuclearcraft:dissolver_idle: 5
 abyssalcraft:crystallizer_on: 5
 theaurorian:silentwoodlog: 5
@@ -2362,13 +2328,12 @@ embers:seed: 5
 rustic:grape_stem: 5
 midnight:stinger_egg: 5
 extrautils2:creativechest: 5
-futuremc:stripped_birch_log: 5
+bloodmagic:demon_brick_1: 5
 mekanismgenerators:advanced_solar_generator: 5
 botania_tweaks:compressed_tiny_potato_4: 5
 nuclearcraft:rock_crusher_idle: 5
 thaumicaugmentation:impetus_drainer: 5
 thaumcraft:leaves_silverwood: 5
-futuremc:stripped_oak_log: 5
 nuclearcraft:turbine_rotor_stator: 5
 minecraft:birch_log: 5
 thaumadditions:vis_crop/alkimia: 5
@@ -2429,7 +2394,6 @@ openblocks:sky: 5
 thaumicbases:goldenleaves: 5
 opensecurity:security_terminal: 5
 nuclearcraft:ingot_former_active: 5
-futuremc:stonecutter: 5
 nuclearcraft:supercooler_idle: 5
 thaumicwonders:meteorb: 5
 rustic:retort_advanced: 5
@@ -2457,12 +2421,10 @@ midnight:shadowroot_log: 5
 botania:quartztypered: 5
 harvestcraft:groundtrap: 5
 thaumcraft:thaumatorium: 5
-futuremc:loom: 5
 storagedrawers:controller: 5
 biomesoplenty:coral: 5
 botania:quartztypelavender: 5
 quark:color_slime: 5
-futuremc:stripped_jungle_log: 5
 thaumadditions:vis_crop/vitreus: 5
 mekanismgenerators:wind_generator: 5
 thaumadditions:vis_crop/alienis: 5
@@ -2523,7 +2485,6 @@ opensecurity:entity_detector: 5
 forbidden_arcanus:cherrywood_leaves: 5
 thaumadditions:vis_crop/metallum: 5
 aether_legacy:chest_mimic: 5
-bloodmagic:demon_brick_1: 5
 nuclearcraft:supercooler_active: 5
 openblocks:drawing_table: 5
 minecraft:lit_pumpkin: 5
@@ -2541,7 +2502,7 @@ quark:jasper_speleothem: 4
 absentbydesign:slab_granite_smooth_double: 4
 dynamictreesphc:fruitolive: 4
 harvestcraft:pamwaterchestnutcrop: 4
-futuremc:birch_wood: 4
+atum:porphyry_carved_slab: 4
 harvestcraft:pamseaweedcrop: 4
 harvestcraft:pamcauliflowercrop: 4
 harvestcraft:pamapple: 4
@@ -2558,9 +2519,7 @@ rustic:slate_pillar: 4
 aether_legacy:aercloud: 4
 atum:porphyry_pillar_slab: 4
 atum:limestone_small_slab: 4
-futuremc:acacia_wood: 4
 harvestcraft:pamcurryleafcrop: 4
-futuremc:stripped_jungle_wood: 4
 biomesoplenty:leaves_0: 4
 extrautils2:resonator: 4
 dynamictreesphc:fruitvanillabean: 4
@@ -2568,7 +2527,6 @@ draconicevolution:particle_generator: 4
 twilightforest:z_spiral_bricks: 4
 harvestcraft:pamstarfruit: 4
 absentbydesign:slab_prismarine_double: 4
-futuremc:oak_wood: 4
 biomesoplenty:white_sandstone: 4
 dynamictreesphc:fruitrambutan: 4
 absentbydesign:slab_diorite_double: 4
@@ -2577,11 +2535,9 @@ absentbydesign:slab_prismarine_bricks_double: 4
 absentbydesign:slab_andesite_double: 4
 absentbydesign:slab_concrete_orange_double: 4
 thaumcraft:log_silverwood: 4
-futuremc:stripped_birch_wood: 4
 twilightforest:terrorcotta_circle: 4
 harvestcraft:pamolive: 4
 quark:limestone_speleothem: 4
-atum:porphyry_carved_slab: 4
 dynamictreesphc:fruitpersimmon: 4
 harvestcraft:pamradishcrop: 4
 absentbydesign:slab_coarse_dirt_double: 4
@@ -2653,7 +2609,6 @@ harvestcraft:pampear: 4
 harvestcraft:pamchickpeacrop: 4
 minecraft:lit_furnace: 4
 harvestcraft:pamdate: 4
-futuremc:spruce_wood: 4
 dynamictreesphc:fruitpistachio: 4
 atum:ceramic_slab_purple: 4
 harvestcraft:pamtealeafcrop: 4
@@ -2672,7 +2627,6 @@ thaumicaugmentation:capstone: 4
 mekanism:rotary_condensentrator: 4
 atum:limestone_large_slab: 4
 botania:prism: 4
-futuremc:stripped_acacia_wood: 4
 harvestcraft:pampistachio: 4
 quark:slate_speleothem: 4
 botania:pool: 4
@@ -2709,18 +2663,15 @@ dynamictreesphc:fruitnutmeg: 4
 harvestcraft:pamchilipeppercrop: 4
 rustic:andesite_pillar: 4
 harvestcraft:pamlettucecrop: 4
-futuremc:dark_oak_wood: 4
 quark:diorite_speleothem: 4
 absentbydesign:slab_cobble_moss_double: 4
 harvestcraft:pampomegranate: 4
 dynamictreesthaumicbases:fruitender: 4
-futuremc:stripped_oak_wood: 4
 harvestcraft:pamkenafcrop: 4
 abyssalcraft:ethaxiumpillar: 4
 harvestcraft:pamcelerycrop: 4
 twilightforest:magic_leaves: 4
 atum:alabaster_polished_slab: 4
-futuremc:sweet_berry_bush: 4
 thaumcraft:log_greatwood: 4
 atum:ceramic_slab_cyan: 4
 harvestcraft:pampineapplecrop: 4
@@ -2747,7 +2698,6 @@ harvestcraft:pampassionfruit: 4
 harvestcraft:pamturnipcrop: 4
 dynamictreesphc:fruitpawpaw: 4
 atum:ceramic_slab_lime: 4
-futuremc:jungle_wood: 4
 extrautils2:rainbowgenerator: 4
 harvestcraft:pamnutmeg: 4
 mekanism:electric_pump: 4
@@ -2756,7 +2706,6 @@ harvestcraft:pamvanillabean: 4
 harvestcraft:pamokracrop: 4
 botania:platform: 4
 dynamictreesphc:fruitguava: 4
-futuremc:stripped_spruce_wood: 4
 harvestcraft:pamcranberrycrop: 4
 harvestcraft:pamwintersquashcrop: 4
 absentbydesign:slab_end_stone_double: 4
@@ -2769,7 +2718,6 @@ tconstruct:slime_dirt: 4
 dynamictreesphc:fruitpeppercorn: 4
 harvestcraft:pambeancrop: 4
 rustic:diorite_pillar: 4
-futuremc:stripped_dark_oak_wood: 4
 enderiomachines:item_dark_steel_upgrade: 4
 harvestcraft:pamapricot: 4
 harvestcraft:pamtomatillocrop: 4
@@ -2928,7 +2876,6 @@ midnight:double_viridshroom: 3
 astralsorcery:blockmarbleslab: 3
 thermalfoundation:bait: 3
 thaumcraft:sapling_silverwood: 3
-futuremc:soul_fire_lantern: 3
 netherex:smooth_basalt_slab: 3
 quark:stained_planks_black_slab: 3
 quark:stained_planks_purple_slab: 3
@@ -2939,7 +2886,6 @@ quark:bark_birch_slab: 3
 bloodmagic:ritual_controller: 3
 forbidden_arcanus:arcane_gold_pressure_plate: 3
 quark:polished_netherrack_bricks_slab: 3
-futuremc:lantern: 3
 bloodmagic:activation_crystal: 3
 abyssalcraft:abydreadbrick: 3
 theaurorian:aurorianportal: 3
@@ -2950,6 +2896,7 @@ yurtmod:shamiana_brown: 3
 theaurorian:silentwoodsapling: 3
 quark:stained_planks_orange_slab: 3
 thaumcraft:condenser: 3
+quark:stained_planks_silver_slab: 3
 quark:red_sandstone_bricks_slab: 3
 embers:ashen_tile_slab: 3
 quark:fire_stone_brick_slab: 3
@@ -2975,7 +2922,6 @@ forbidden_arcanus:mysterywood_slab: 3
 yurtmod:shamiana_light_blue: 3
 quark:stone_basalt_bricks_slab: 3
 appliedenergistics2:wireless_access_point: 3
-quark:stained_planks_silver_slab: 3
 abyssalcraft:darkstoneslab2: 3
 abyssalcraft:darkstoneslab1: 3
 aether_legacy:angelic_double_slab: 3
@@ -3433,7 +3379,6 @@ appliedenergistics2:quartz_slab: 2
 thaumcraft:nitor_white: 2
 thaumcraft:effect_sap: 2
 yurtmod:tepee_wall_hope: 2
-futuremc:cornflower: 2
 minecraft:red_sandstone: 2
 embers:ore_lead: 2
 forbidden_arcanus:runic_tenebris_frame: 2
@@ -3454,7 +3399,6 @@ atum:crystal_pink_stained_glass: 2
 rustic:iron_lattice: 2
 thaumcraft:hole: 2
 thaumicbases:crystalblockearth: 2
-botania:livingrock0slab: 2
 quark:basalt_wall: 2
 abyssalcraft:abyore: 2
 mowziesmobs:painted_acacia: 2
@@ -3469,7 +3413,6 @@ quark:limestone_wall: 2
 thaumcraft:crystal_ordo: 2
 plustic:osgloglasblock: 2
 taiga:fractum_block: 2
-midnight:deceitful_mud: 2
 minecraft:nether_brick_double_slab: 2
 theaurorian:runestonelamp: 2
 extrautils2:interactionproxy: 2
@@ -3506,7 +3449,7 @@ reccomplex:spawn_script: 2
 harvestcraft:honeycomb: 2
 betternether:cincinnasite_frame: 2
 minecraft:apple: 2
-futuremc:soul_soil: 2
+appliedenergistics2:crafting_storage_16k: 2
 thaumcraft:nitor_lime: 2
 midnight:dark_water: 2
 botania:biomestonea2slab: 2
@@ -3528,6 +3471,7 @@ nuclearcraft:cell_block: 2
 taiga:pure_ore: 2
 theaurorian:auroriantallgrass: 2
 minecraft:green_wool: 2
+atum:ceramic_gray: 2
 thaumcraft:arcane_workbench: 2
 yurtmod:cos_shamiana_silver: 2
 harvestcraft:gooseberry_sapling: 2
@@ -3731,10 +3675,8 @@ nuclearcraft:block_depleted_californium: 2
 harvestcraft:well: 2
 minecraft:orange_stained_glass: 2
 atum:framed_red_stained_glass: 2
-appliedenergistics2:crafting_storage_16k: 2
 thaumcraft:nitor_gray: 2
 opencomputers:printer: 2
-thaumcraft:crystal_terra: 2
 bloodarsenal:stasis_sword: 2
 forbidden_arcanus:dark_stone_bricks: 2
 botania:biomestonea5slab: 2
@@ -3757,6 +3699,7 @@ nuclearcraft:salt_fission_frame: 2
 minecraft:black_stained_hardened_clay: 2
 midnight:archaic_ore: 2
 theaurorian:crystal: 2
+thaumcraft:crystal_terra: 2
 thaumcraft:stone_ancient_doorway: 2
 abyssalcraft:dreadore: 2
 abyssalcraft:corblock: 2
@@ -3770,7 +3713,6 @@ thaumcraft:ore_cinnabar: 2
 minecraft:cyan_stained_glass: 2
 abyssalcraft:phead: 2
 quark:end_bricks_wall: 2
-futuremc:smooth_red_sandstone: 2
 signpost:blockbigpostbirch: 2
 yurtmod:cos_shamiana_gray: 2
 rustic:painted_wood_pink: 2
@@ -3830,7 +3772,6 @@ bloodmagic:sentient_armour_gem: 2
 atum:ceramic_yellow: 2
 thaumcraft:wand_workbench: 2
 mekanismgenerators:reactor_frame: 2
-futuremc:chain: 2
 abyssalcraft:luminousthistle: 2
 rustic:painted_wood_light_blue: 2
 quark:bark_spruce_wall: 2
@@ -3885,8 +3826,6 @@ thaumicaugmentation:ancient_bricks: 2
 minecraft:black_concrete: 2
 harvestcraft:vanillabean_sapling: 2
 theaurorian:moonstoneblock: 2
-futuremc:blue_ice: 2
-futuremc:smooth_quartz: 2
 mekanism:cardboardbox: 2
 forbidden_arcanus:arcane_crystal_block: 2
 quark:crystal_yellow_pane: 2
@@ -3895,7 +3834,6 @@ nuclearcraft:buffer: 2
 midnight:bloomcrystal: 2
 atum:porphyry_brick_polished: 2
 bloodmagic:sigil_frost: 2
-futuremc:smooth_stone: 2
 aether_legacy:mossy_holystone: 2
 taiga:psychonium_block: 2
 minecraft:silver_carpet: 2
@@ -4017,7 +3955,6 @@ appliedenergistics2:molecular_assembler: 2
 rustic:slate_chiseled: 2
 embers:glow: 2
 rustic:painted_wood_brown: 2
-futuremc:honeycomb_block: 2
 betternether:bone_block: 2
 minecraft:white_concrete_powder: 2
 quark:stonebrick_mossy_wall: 2
@@ -4183,6 +4120,7 @@ atum:framed_gray_stained_glass: 2
 botania:biomestoneb1slab: 2
 nuclearcraft:turbine_glass: 2
 betternether:cincinnasite_tile_small: 2
+midnight:deceitful_mud: 2
 theaurorian:tamoltenauroriansteel: 2
 yurtmod:tepee_wall_triforce: 2
 atum:linen_magenta: 2
@@ -4392,7 +4330,6 @@ yurtmod:super_dirt: 2
 embers:alchemy_tablet: 2
 minecraft:houstonia: 2
 yurtmod:cos_shamiana_magenta: 2
-futuremc:netherite_block: 2
 appliedenergistics2:quantum_ring: 2
 minecraft:quartz_block: 2
 abyssalcraft:abydreadstone: 2
@@ -4406,6 +4343,7 @@ abyssalcraft:abydiaore: 2
 hammercore:diamond_bordered_cobblestone: 2
 embers:creative_ember_source: 2
 atum:ceramic_blue: 2
+botania:livingrock0slab: 2
 twilightforest:huge_waterlily: 2
 betternether:nether_brick_tile_large: 2
 taiga:dyonite_block: 2
@@ -4413,7 +4351,6 @@ bloodmagic:icarus_scroll: 2
 thaumcraft:taint_soil: 2
 materialis:drulloy_block: 2
 midnight:nightshroom_stem: 2
-atum:ceramic_gray: 2
 minecraft:waterlily: 2
 appliedenergistics2:crafting_storage_1k: 2
 thaumcraft:flesh_block: 2
@@ -4746,7 +4683,6 @@ thaumcraft:metal_void: 2
 atum:ceramic_tile_yellow: 2
 minecraft:dark_oak_leaves: 2
 embers:block_tank: 2
-futuremc:smooth_sandstone: 2
 quark:turf: 2
 abyssalcraft:ethaxium: 2
 harvestcraft:peppercorn_sapling: 2
@@ -4866,7 +4802,6 @@ rustic:barrel: 2
 atum:heart_of_ra: 2
 theaurorian:moontemplebrickssmooth: 2
 minecraft:prismarine_bricks: 2
-futuremc:wither_rose: 2
 signpost:blockpostoak: 2
 nuclearcraft:turbine_computer_port: 2
 nuclearcraft:electromagnet_supercooler_idle: 2
@@ -4943,7 +4878,6 @@ minecraft:dark_oak_planks: 2
 minecraft:dark_prismarine: 2
 thaumcraft:jar_brain: 2
 forbidden_arcanus:bottle_block: 2
-futuremc:lily_of_the_valley: 2
 harvestcraft:pecan_sapling: 2
 theaurorian:aurorianportalframebricks: 2
 thaumcraft:slab_eldritch: 2
@@ -4985,7 +4919,6 @@ quark:limestone: 2
 minecraft:redstone_ore: 2
 rustic:clay_wall: 2
 opencomputers:powerdistributor: 2
-futuremc:honey_block: 2
 betternether:cincinnasite_lantern: 2
 quark:snow_bricks: 2
 enderio:block_industrial_insulation: 2
@@ -5126,7 +5059,6 @@ thaumcraft:metal_alchemical_advanced: 2
 thaumadditions:aspect_combiner: 2
 theaurorian:moontemplegate: 2
 materialis:pokefennium_block: 2
-futuremc:ancient_debris: 2
 quark:variant_leaves: 2
 embers:pump: 2
 minecraft:acacia_planks: 2
@@ -5210,7 +5142,6 @@ abyssalcraft:dreadiumboots: 1
 zerocore:debugtool: 1
 mowziesmobs:barakoa_mask_fury: 1
 harvestcraft:padthaiitem: 1
-spectrite:item/spectrite_bone/spectrite_bone_06: 1
 botanicadds:mana_lapis: 1
 mowziesmobs:naga_fang_dagger: 1
 harvestcraft:catfishrawitem: 1
@@ -5273,11 +5204,9 @@ botania:itemblock/corporea_index: 1
 botania:item/tornadorod_flying: 1
 harvestcraft:potatoandleeksoupitem: 1
 tconstruct:parts/bow_limb.tmat: 1
-futuremc:dyeblue: 1
 harvestcraft:potstickersitem: 1
 nuclearcraft:ingot_lithium: 1
 spectrite:item/spectrite_star/spectrite_star_15: 1
-spectrite:item/spectrite_star/spectrite_star_19: 1
 dynamictreesphc:pawpawseed: 1
 nuclearcraft:legs_boron_nitride: 1
 spectrite:item/spectrite_star/spectrite_star_21: 1
@@ -5383,6 +5312,7 @@ nuclearcraft:compound_calcium_sulfate: 1
 thaumicbases:herobrinesscythe: 1
 watercan:watercan_gold: 1
 forbidden_arcanus:obsidian_knee_pads: 1
+nuclearcraft:ingot_oxide_manganese: 1
 ferdinandsflowers:block_cff_flowersc_borage: 1
 extrautils2:flattransfernode: 1
 openblocks:map_controller: 1
@@ -5399,7 +5329,6 @@ extrabotany:boat_manasteel: 1
 harvestcraft:fortunecookieitem: 1
 appliedenergistics2:part/cable_dense_smart_light_gray: 1
 abyssalcraft:dreadiumsamuraiplate: 1
-futuremc:banner_pattern: 1
 artifacts:shiny_red_balloon: 1
 harvestcraft:clamrawitem: 1
 gbook_snapshot:guidebook: 1
@@ -5411,6 +5340,7 @@ thaumcraft:block/jar_normal: 1
 nuclearcraft:boots_tough: 1
 theaurorian:runestonekey: 1
 artisanworktables:artisans_groover: 1
+botania:corporeaspark0: 1
 ferdinandsflowers:block_cff_flowersb_wolfsbane: 1
 minecraft:bowl: 1
 extrabotany:item/achilleshield_blocking: 1
@@ -5451,6 +5381,7 @@ minecraft:wooden_hoe: 1
 artisanworktables:artisans_lens_highlighted: 1
 quark:root_black_flower: 1
 harvestcraft:coffeeconlecheitem: 1
+harvestcraft:gooseberryjellysandwichitem: 1
 scalinghealth:heartcontainer: 1
 thermalexpansion:tank: 1
 minecraft:book: 1
@@ -5588,6 +5519,7 @@ harvestcraft:cranberryjellysandwichitem: 1
 bloodarsenal:blood_infused_iron_sword: 1
 atum:loot_emerald_idol: 1
 harvestcraft:jicamaseeditem: 1
+minecraft:poisonous_potato: 1
 extrautils2:sickle_stone: 1
 enderio:item_redstone_toggle_filter: 1
 spectrite:item/spectrite_pickaxe_special/spectrite_pickaxe_special_03: 1
@@ -5622,7 +5554,6 @@ nuclearcraft:depleted_fuel_curium_hec_245: 1
 harvestcraft:apricotitem: 1
 nuclearcraft:depleted_fuel_curium_hec_243: 1
 appliedenergistics2:part/cable_smart_pink: 1
-spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_25: 1
 harvestcraft:cranberryyogurtitem: 1
 botania:itemblock/mushroom_cyan: 1
 thaumcraft:crimson_plate_helm: 1
@@ -5715,7 +5646,6 @@ harvestcraft:phoitem: 1
 biomesoplenty:terrarium_dead: 1
 atum:stoneguard_khopesh: 1
 abyssalcraft:engraving_hastur: 1
-futuremc:record_pigstep: 1
 immersiveengineering:metal/dust_aluminum: 1
 malisisdoors:carriage_door: 1
 nuclearcraft:uranium_235_oxide_tiny: 1
@@ -5789,7 +5719,6 @@ spectrite:item/spectrite_blaze_powder/spectrite_blaze_powder_08: 1
 opencomputers:floppy_dyewhite: 1
 harvestcraft:lemonjellyitem: 1
 atum:ras_fury: 1
-futuremc:netherite_sword: 1
 artisanworktables:artisans_mortar: 1
 botania:flask: 1
 harvestcraft:strawberrysouffleitem: 1
@@ -5859,7 +5788,6 @@ malisisdoors:medieval_door: 1
 ferdinandsflowers:brick_blocks/block_dye_brickb_blue_bell: 1
 forbidden_arcanus:skull: 1
 quark:biotite_slab_double: 1
-futuremc:nautilus_shell: 1
 atum:desert_legs_gold: 1
 malisisdoors:curtain_light_blue: 1
 botania:manasteelshears: 1
@@ -5913,7 +5841,7 @@ ferdinandsflowers:dye_glass_pane/block_dye_glass_pane_yellow_orange: 1
 spectrite:spectrite_sword_2: 1
 thaumcraft:void_axe: 1
 nuclearcraft:depleted_fuel_curium_lec_247: 1
-nuclearcraft:depleted_fuel_curium_lec_245: 1
+thaumicenergistics:material/essentia_component_64k: 1
 nuclearcraft:depleted_fuel_curium_lec_243: 1
 harvestcraft:rawtofuttonitem: 1
 harvestcraft:caramelappleitem: 1
@@ -6044,7 +5972,6 @@ rustic:tomato_seeds: 1
 yurtmod:item/shamiana_small: 1
 harvestcraft:saucepanitem: 1
 embers:axe_clockwork: 1
-futuremc:pufferfish_bucket: 1
 thaumcraft:curiosity_band: 1
 immersiveengineering:tool/wirecutter: 1
 mekanism:copperingot: 1
@@ -6161,7 +6088,7 @@ enderio:item_end_steel_sword: 1
 spectrite:item/spectrite_chestplate: 1
 ferdinandsflowers:brick_slabs/block_dye_brick_half_red: 1
 ae2wtlib:wut_creative: 1
-spectrite:item/spectrite_wither_torso_invulnerable/spectrite_wither_torso_invulnerable_12: 1
+spectrite:item/spectrite_wither_torso_invulnerable/spectrite_wither_torso_invulnerable_23: 1
 opencomputers:drone: 1
 psi:spell_bullet_loop_active: 1
 appliedenergistics2:material_purified_fluix_crystal: 1
@@ -6213,7 +6140,7 @@ tcomplement:block/tank/alloy_tank: 1
 atum:item/anubiss_wrath_tier_3: 1
 atum:item/anubiss_wrath_tier_2: 1
 atum:item/anubiss_wrath_tier_1: 1
-atum:item/anubiss_wrath_tier_0: 1
+botania:shimmerwoodplanks: 1
 ferdinandsflowers:block_cff_doublesp_dark_magenta: 1
 harvestcraft:pizzasoupitem: 1
 aether_legacy:swet_cape: 1
@@ -6472,9 +6399,7 @@ extrautils2:ingredients_upgrade_speed: 1
 harvestcraft:maplesausageitem: 1
 harvestcraft:mulberryseeditem: 1
 botania:manamirror: 1
-spectrite:item/spectrite_shovel/spectrite_shovel_30: 1
 embers:ember_cluster: 1
-futuremc:netherite_shovel: 1
 nuclearcraft:ingot_graphite: 1
 biomesoplenty:goldenrod: 1
 extrabotany:question: 1
@@ -6764,6 +6689,7 @@ artisanworktables:artisans_carver_highlighted: 1
 ferdinandsflowers:dye_glass/block_dye_glass_blue: 1
 spectrite:item/spectrite_dust/spectrite_dust_10: 1
 minecraft:wooden_sword: 1
+twilightforest:knightmetal_helmet: 1
 harvestcraft:artichokeitem: 1
 botania:itemblock/double_flower_pink: 1
 minecraft:smooth_andesite: 1
@@ -6924,7 +6850,6 @@ harvestcraft:shrimpokrahushpuppiesitem: 1
 thaumicbases:mixedingot: 1
 appliedenergistics2:part/cable_glass_pink: 1
 harvestcraft:coleslawburgeritem: 1
-bibliocraft:plate: 1
 minecraft:jungle_door-malisis: 1
 contenttweaker:emerald_cluster: 1
 immersivepetroleum:auto_lube: 1
@@ -6936,7 +6861,7 @@ danknull:dank_null_panel_1: 1
 danknull:dank_null_panel_0: 1
 ferdinandsflowers:dye_glass_pane/block_dye_glass_pane_lime: 1
 tconstruct:cast_laser_medium: 1
-spectrite:item/spectrite_bow_special/pulling_0/spectrite_bow_special_pulling_0_16: 1
+spectrite:item/spectrite_bow_special/pulling_0/spectrite_bow_special_pulling_0_22: 1
 botania:astrolabe: 1
 aether_legacy:enchanted_blueberry: 1
 extrabotany:wallrunning: 1
@@ -7186,6 +7111,7 @@ harvestcraft:chickensandwichitem: 1
 astralsorcery:itemhandtelescope: 1
 abyssalcraft:engraving_shubniggurath: 1
 harvestcraft:cheesyshrimpquinoaitem: 1
+embers:brick_caminite: 1
 abyssalcraft:depthslegs: 1
 extrabotany:cocktail: 1
 astralsorcery:itemusabledust_illumination: 1
@@ -7599,6 +7525,7 @@ harvestcraft:persimmonjellyitem: 1
 extrautils2:luxsaber_4: 1
 appliedenergistics2:part/cable_dense_covered_orange: 1
 nuclearcraft:salt_fission_controller_off: 1
+reccomplex:generic_space_14: 1
 botania:conjurationcatalyst: 1
 thaumicbases:briar_seedbag: 1
 thaumicbases:thauminiteboots: 1
@@ -7738,6 +7665,7 @@ spectrite:item/spectrite_shield/spectrite_shield_01: 1
 immersiveengineering:metal/dust_gold: 1
 harvestcraft:chocolatedonutitem: 1
 ferdinandsflowers:brick_blocks/block_dye_brick_cyan: 1
+botania:manabottle5: 1
 thermalfoundation:tool/fishing_rod_constantan: 1
 opencomputers:hdd3: 1
 opencomputers:hdd2: 1
@@ -7858,6 +7786,7 @@ appliedenergistics2:cable_bus: 1
 draconicevolution:dislocator_advanced: 1
 atum:idol_of_labor: 1
 arcanearchives:debugorb: 1
+harvestcraft:kohlrabiitem: 1
 abyssalcraft:coralium: 1
 conarm:resist_mat_fire: 1
 botania:grassseeds8: 1
@@ -7940,7 +7869,7 @@ biomesoplenty:willow_wood_slab: 1
 nuclearcraft:turbine_dynamo_coil_beryllium: 1
 appliedenergistics2:material_invalid_type: 1
 opencomputers:cardcontainer3: 1
-opencomputers:cardcontainer2: 1
+atum:nuits_ire: 1
 opencomputers:cardcontainer1: 1
 minecraft:lava_bucket: 1
 harvestcraft:cornedbeefhashitem: 1
@@ -8029,7 +7958,6 @@ spectrite:item/spectrite_shovel/spectrite_shovel_33: 1
 nuclearcraft:depleted_fuel_neptunium_len_236_oxide: 1
 extrautils2:grocket_5: 1
 atum:camel_gold_armor: 1
-reccomplex:generic_space_14: 1
 conarm:travel_potion: 1
 ferdinandsflowers:flower_dyes/flower_dye_cyan: 1
 harvestcraft:raisinsitem: 1
@@ -8101,7 +8029,7 @@ minecraft:item/clock_08: 1
 theaurorian:moonstoneingot: 1
 heartdrops:half_heart: 1
 biomesoplenty:ebony_log: 1
-atum:nuits_ire: 1
+bountifulbaubles:shieldobsidian: 1
 spectrite:item/spectrite_blaze_rod/spectrite_blaze_rod_12: 1
 minecraft:command_block_minecart: 1
 harvestcraft:tomatilloseeditem: 1
@@ -8124,6 +8052,7 @@ twilightforest:armor_shard: 1
 aether_legacy:swetty_ball: 1
 tconstruct:pattern_pick_head: 1
 nuclearcraft:fission_controller_new_fixed_off: 1
+atum:item/anubiss_wrath_tier_0: 1
 quark:thatch_slab_double: 1
 abyssalcraft:powerstonetracker: 1
 astralsorcery:itemchargedcrystalshovel: 1
@@ -8265,7 +8194,6 @@ botania:itemblock/flower_green: 1
 spectrite:item/spectrite_crystal: 1
 thaumcraft:pech_wand: 1
 forbidden_arcanus:orb_of_temporary_flight: 1
-futuremc:netherite_pickaxe: 1
 rustic:fluid_bottle: 1
 botania:recordgaia2: 1
 botania:recordgaia1: 1
@@ -8499,7 +8427,7 @@ spectrite:item/spectrite_sword_2/spectrite_sword_2_13: 1
 spectrite:item/spectrite_sword_2/spectrite_sword_2_12: 1
 spectrite:item/spectrite_sword_2/spectrite_sword_2_11: 1
 spectrite:item/spectrite_sword_2/spectrite_sword_2_10: 1
-spectrite:item/spectrite_star/spectrite_star_01: 1
+spectrite:item/spectrite_star/spectrite_star_19: 1
 betternether:stalagnate_bowl_apple: 1
 harvestcraft:gourmetporkburgeritem: 1
 harvestcraft:deluxecheeseburgeritem: 1
@@ -8559,7 +8487,6 @@ lumen:rat_hammock: 1
 harvestcraft:musselrawitem: 1
 extrabotany:ingotorichalcos: 1
 astralsorcery:blockinfusedwood_column: 1
-futuremc:dyeblack: 1
 biomesoplenty:shortgrass: 1
 harvestcraft:spidereyesoupitem: 1
 appliedenergistics2:color_applicator_uncolored: 1
@@ -8575,7 +8502,7 @@ harvestcraft:cobblestonecobbleritem: 1
 thaumicenergistics:part/essentia_export_bus: 1
 twilightforest:phantom_chestplate: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_35: 1
-spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_34: 1
+embers:axe_copper: 1
 atum:palm_stick: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_32: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_31: 1
@@ -8610,6 +8537,7 @@ botania:sparkupgrade2: 1
 arcanearchives:gems/asscher/yellow: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_09: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_08: 1
+artifacts:fire_gauntlet: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_06: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_05: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_04: 1
@@ -8656,7 +8584,7 @@ guideapi:itemguidebook: 1
 extrautils2:itemcreativedestructionwand: 1
 harvestcraft:beansontoastitem: 1
 netherex:withered_amedian_hammer: 1
-theaurorian:webbing: 1
+bibliocraft:plate: 1
 yurtmod:item/shamiana_huge: 1
 enderio:item_dark_steel_axe: 1
 bibliocraft:lanterniron: 1
@@ -8664,7 +8592,6 @@ extrabotany:walljumping: 1
 aether_legacy:aether_portal_frame: 1
 biomesoplenty:amethyst_ore: 1
 netherex:lively_netherrack: 1
-futuremc:netherite_axe: 1
 appliedenergistics2:cell_workbench: 1
 harvestcraft:mangojellysandwichitem: 1
 aether_legacy:light_angelic_stone: 1
@@ -8718,25 +8645,26 @@ openblocks:block/tank_fluid_13: 1
 openblocks:block/tank_fluid_11: 1
 openblocks:block/tank_fluid_10: 1
 nuclearcraft:neptunium_236_oxide_tiny: 1
-harvestcraft:kohlrabiitem: 1
+mekanism:portableteleporter: 1
 thaumcraft:crimson_plate_legs: 1
 abyssalcraft:cpearl: 1
 openblocks:item/crayon_stairs: 1
 opensecurity:energy_upgrade: 1
 compactmachines3:tunneltool: 1
 botania:openbucket: 1
+immersiveengineering:faraday_suit_chest: 1
 thaumadditions:mithminite_hood: 1
 betternether:stalagnate_bowl_mushroom: 1
 baubles:ring: 1
 plustic:osgloglasingot: 1
 enderio:item_owl_egg: 1
 taiga:fractum_ingot: 1
-futuremc:honeycomb: 1
 astralsorcery:itemcraftingcomponent_reso_gem: 1
 taiga:seismum_nugget: 1
 botania:gravityrod: 1
 thaumcraft:banner_lime: 1
 extrabotany:lensmana: 1
+biomesoplenty:mahogany_wood_slab: 1
 ferdinandsflowers:block_cff_doublesd_indigo: 1
 mekanism:pressure_disperser: 1
 openblocks:item/pencil_inverted_stairs: 1
@@ -8757,6 +8685,7 @@ appliedenergistics2:part/cable_glass_brown: 1
 appliedenergistics2:crystal_seed_nether3: 1
 bibliocraft:plumbline: 1
 harvestcraft:appleyogurtitem: 1
+harvestcraft:kiwiitem: 1
 abyssalcraft:abyingot: 1
 spectrite:item/spectrite_bow/standby/spectrite_bow_standby_35: 1
 spectrite:item/spectrite_bow/standby/spectrite_bow_standby_34: 1
@@ -9190,7 +9119,6 @@ ferdinandsflowers:block_cff_flowerse_clover: 1
 twilightforest:ironwood_pickaxe: 1
 dynamictreesphc:grapefruitseed: 1
 harvestcraft:southernstylebreakfastitem: 1
-nuclearcraft:ingot_oxide_manganese: 1
 harvestcraft:lentilseeditem: 1
 harvestcraft:mochicakeitem: 1
 abyssalcraft:dreadcloth: 1
@@ -9207,7 +9135,6 @@ projectred-illumination:inverted_lantern: 1
 harvestcraft:oystercookeditem: 1
 draconicevolution:draconic_staff_of_power: 1
 psi:cad_iron: 1
-immersiveengineering:faraday_suit_chest: 1
 mekanism:energyupgrade: 1
 atum:loot_gold_necklace: 1
 immersiveengineering:coresample: 1
@@ -9352,7 +9279,6 @@ harvestcraft:blueberryseeditem: 1
 harvestcraft:eggtartitem: 1
 botania:specialflower: 1
 minecraft:gold_nugget: 1
-astralsorcery:itemshiftingstar_armara: 1
 abyssalcraft:crystalbag_medium: 1
 nuclearcraft:curium_243_oxide_tiny: 1
 nuclearcraft:depleted_fuel_thorium_tbu: 1
@@ -9486,7 +9412,6 @@ botania:biomestoneb3slabfull: 1
 nuclearcraft:plutonium_239_oxide_tiny: 1
 draconicevolution:dislocator_pedestal: 1
 opencomputers:tablet_on: 1
-artifacts:fire_gauntlet: 1
 atum:ptahs_undoing: 1
 minecraft:lead: 1
 midnight:hunter_wing: 1
@@ -9626,7 +9551,6 @@ extrabotany:rewardbag3: 1
 extrabotany:rewardbag2: 1
 extrabotany:rewardbag1: 1
 harvestcraft:misosoupitem: 1
-embers:axe_copper: 1
 minecraft:bottle_drinkable: 1
 materialis:molten_pokefennium: 1
 nuclearcraft:fuel_californium_hec_251_oxide: 1
@@ -9655,7 +9579,7 @@ biomesoplenty:dead_sapling: 1
 harvestcraft:turnipsoupitem: 1
 midnight:viridshroom_powder: 1
 botania:corporeaspark1: 1
-botania:corporeaspark0: 1
+netherex:blazed_amedian_shovel: 1
 minecraft:carrot_on_a_stick: 1
 minecraft:dark_oak_double_slab: 1
 theaurorian:auroriansteelaxe: 1
@@ -9686,7 +9610,6 @@ nuclearcraft:californium_249_tiny: 1
 harvestcraft:imitationcrabsticksitem: 1
 spectrite:item/spectrite_wither_rod_normal/spectrite_wither_rod_normal_34: 1
 thermalfoundation:tool/fishing_rod_nickel: 1
-nuclearcraft:fuel_uranium_heu_233_oxide: 1
 openblocks:slimalyzer: 1
 harvestcraft:crabcookeditem: 1
 immersiveengineering:mold/unpacking: 1
@@ -9782,7 +9705,7 @@ midnight:ebonys_sword: 1
 botania:itemblock/double_flower_magenta: 1
 mekanism:itemproxy: 1
 mekanism:glow_panel: 1
-futuremc:dyewhite: 1
+astralsorcery:itemshiftingstar_armara: 1
 tconstruct:pattern_arrow_shaft: 1
 botania:twigwand: 1
 thermalfoundation:tool/bow_copper: 1
@@ -9827,15 +9750,14 @@ spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulner
 astralsorcery:blockblackmarble_runed: 1
 twilightforest:moon_dial: 1
 nuclearcraft:fuel_americium_hea_242: 1
-botania:shimmerwoodplanks: 1
 ferdinandsflowers:block_cff_flowers_cosmos: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_28: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_27: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_26: 1
-patchouli:book_brown: 1
+spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_25: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_24: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_23: 1
-abyssalcraft:dreadiumsamurailegs: 1
+spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_22: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_21: 1
 spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_20: 1
 psi:psimetal_shovel: 1
@@ -9919,7 +9841,6 @@ spectrite:item/spectrite_brick/spectrite_brick_02: 1
 spectrite:item/spectrite_brick/spectrite_brick_01: 1
 arcanearchives:gems/powder/cyan: 1
 harvestcraft:limejuiceitem: 1
-bountifulbaubles:shieldobsidian: 1
 thermalfoundation:item/tool/shield_diamond_blocking: 1
 tconstruct:pattern_sword_blade: 1
 nuclearcraft:boron_11: 1
@@ -9940,7 +9861,6 @@ yurtmod:depth_upgrade_stone: 1
 twilightforest:ironwood_raw: 1
 harvestcraft:tunasaladitem: 1
 extrautils2:ingredients_evil_infused_ingot: 1
-futuremc:netherite_chestplate: 1
 atum:scepter_isis: 1
 minecraft:name_tag: 1
 taiga:nihilite_dust: 1
@@ -10083,7 +10003,6 @@ botania:itemblock/double_flower_lime: 1
 bloodmagic:item/bow/itemsentientbow_pulling_0: 1
 supersoundmuffler:sound_muffler_bauble: 1
 theaurorian:auroriancoalnugget: 1
-twilightforest:torchberries: 1
 wpt:wpt: 1
 artisanworktables:artisans_framing_hammer_highlighted: 1
 abyssalcraft:staff: 1
@@ -10115,7 +10034,6 @@ tconstruct:clay_cast_axe_head: 1
 harvestcraft:donutitem: 1
 malisisdoors:trapdoor_dark_oak: 1
 ferdinandsflowers:flower_dyes/flower_dyeb_dark_pink: 1
-harvestcraft:kiwiitem: 1
 immersiveengineering:material/dust_hop_graphite: 1
 thermalfoundation:item/tool/shield_platinum_blocking: 1
 astralsorcery:blockmarble_arch: 1
@@ -10146,7 +10064,6 @@ spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_07: 1
 mekanism:walkietalkie_ch6: 1
 thaumcraft:seal_lumber: 1
 immersiveengineering:mold/gear: 1
-netherex:blazed_amedian_shovel: 1
 psi:ebony_psimetal: 1
 botania:managun: 1
 forbidden_arcanus:dark_rune_bag: 1
@@ -10310,6 +10227,7 @@ taiga:palladium_ingot: 1
 harvestcraft:cabbageitem: 1
 harvestcraft:asparagussoupitem: 1
 harvestcraft:braisedonionsitem: 1
+spectrite:item/spectrite_bone/spectrite_bone_06: 1
 spectrite:item/spectrite_bow_special/pulling_2/spectrite_bow_special_pulling_2_33: 1
 appliedenergistics2:part/cable_dense_covered_brown: 1
 harvestcraft:chiliitem: 1
@@ -10449,7 +10367,6 @@ dynamictreesphc:avocadoseed: 1
 spectrite:item/spectrite_bow/pulling_0/spectrite_bow_pulling_0_35: 1
 spectrite:item/spectrite_bow/pulling_0/spectrite_bow_pulling_0_34: 1
 spectrite:item/spectrite_bow/pulling_0/spectrite_bow_pulling_0_33: 1
-spectrite:item/spectrite_bow/pulling_0/spectrite_bow_pulling_0_32: 1
 spectrite:item/spectrite_bow/pulling_0/spectrite_bow_pulling_0_31: 1
 astralsorcery:blockmachine_telescope: 1
 nuclearcraft:dust_tin: 1
@@ -10684,7 +10601,7 @@ aether_legacy:angelic_stone: 1
 paragongems:item_turquoise: 1
 nuclearcraft:boots_hazmat: 1
 nuclearcraft:curium_243_oxide: 1
-minecraft:poisonous_potato: 1
+quark:biotite: 1
 embers:nugget_copper: 1
 nuclearcraft:americium_241_tiny: 1
 ferdinandsflowers:brick_slabs/block_dye_brick_half_green: 1
@@ -10727,6 +10644,7 @@ astralsorcery:blockblackmarble_chiseled: 1
 minecraft:baked_potato: 1
 harvestcraft:rawtofeakitem: 1
 midnight:unstable_fruit_lime: 1
+spectrite:item/spectrite_wither_torso_invulnerable/spectrite_wither_torso_invulnerable_12: 1
 extrabotany:cosmeticmaidboots: 1
 aether_legacy:gravitite_leggings: 1
 ferdinandsflowers:cobble_lights/block_cobble_light_mossy: 1
@@ -10737,7 +10655,6 @@ astralsorcery:itemskyresonator_upgraded_starlight: 1
 harvestcraft:grilledmushroomitem: 1
 extrabotany:item/shadowwarriorhelm_slayer: 1
 aether_legacy:candy_cane_sword: 1
-spectrite:item/spectrite_wither_torso_invulnerable/spectrite_wither_torso_invulnerable_23: 1
 aether_legacy:phoenix_gloves: 1
 spectrite:item/spectrite_wither_torso_invulnerable/spectrite_wither_torso_invulnerable_28: 1
 spectrite:item/spectrite_wither_torso_invulnerable/spectrite_wither_torso_invulnerable_29: 1
@@ -10762,6 +10679,7 @@ biomesoplenty:blue_milk_cap: 1
 botania:itemblock/flower_light_blue: 1
 spectrite:item/spectrite_arrow_special/spectrite_arrow_special_09: 1
 netherex:frosted_amedian_sword: 1
+patchouli:book_brown: 1
 mekanism:energytablet: 1
 spectrite:item/spectrite_arrow_special/spectrite_arrow_special_12: 1
 tcomplement:manyullyn_boots: 1
@@ -10805,6 +10723,7 @@ abyssalcraft:nyarlathotepcharm: 1
 spectrite:item/spectrite_compass/spectrite_compass_21: 1
 spectrite:item/spectrite_compass/spectrite_compass_20: 1
 ferdinandsflowers:block_cff_doublesb_gladiola_red: 1
+spectrite:spectrite_wither_tail_normal: 1
 opencomputers:generatorupgrade: 1
 spectrite:item/spectrite_compass/spectrite_compass_18: 1
 spectrite:item/spectrite_compass/spectrite_compass_17: 1
@@ -10832,7 +10751,6 @@ spectrite:item/spectrite_shield: 1
 extrabotany:item/shadowwarriorboots_slayer: 1
 netherex:frostburn_ice: 1
 biomesoplenty:jacaranda_log: 1
-futuremc:netherite_boots: 1
 densemetals:dense_starsteel_ore: 1
 mekanism:dirtytindust: 1
 contenttweaker:certus_cluster: 1
@@ -10846,7 +10764,7 @@ thermalfoundation:item/tool/bow_steel_2: 1
 thermalfoundation:item/tool/bow_steel_1: 1
 thermalfoundation:item/tool/bow_steel_0: 1
 biomesoplenty:magic_planks: 1
-botania:manabottle5: 1
+twilightforest:torchberries: 1
 botania:manabottle4: 1
 botania:manabottle3: 1
 botania:manabottle2: 1
@@ -11043,7 +10961,6 @@ quark:sandy_bricks_slab_double: 1
 spectrite:item/spectrite_gem/spectrite_gem_12: 1
 spectrite:item/spectrite_gem/spectrite_gem_11: 1
 spectrite:item/spectrite_gem/spectrite_gem_10: 1
-futuremc:netherite_helmet: 1
 opencomputers:upgradecontainer2: 1
 ferdinandsflowers:flower_dyes/flower_dye_cloud_blue: 1
 minecraft:lit_redstone_lamp: 1
@@ -11113,7 +11030,6 @@ reccomplex:inspector: 1
 botania:virus1: 1
 botania:virus0: 1
 harvestcraft:friesitem: 1
-embers:brick_caminite: 1
 thaumcraft:void_seed: 1
 nuclearcraft:californium_250_oxide_tiny: 1
 quark:stained_clay_tiles_silver_slab_double: 1
@@ -11197,7 +11113,6 @@ botania:itemblock/double_flower_brown: 1
 bibliocraft:tape: 1
 ferdinandsflowers:flower_dyes/flower_dye_aqua: 1
 psi:cad_creative: 1
-thaumicenergistics:material/essentia_component_64k: 1
 harvestcraft:spicygreensitem: 1
 harvestcraft:plumjellyitem: 1
 thaumicaugmentation:key_iron: 1
@@ -11259,9 +11174,9 @@ thaumcraft:block/jar_normal_75: 1
 minecraft:clownfish: 1
 appliedenergistics2:part/pattern_terminal: 1
 harvestcraft:omeletitem: 1
+theaurorian:webbing: 1
 astralsorcery:itemshiftingstar_evorsio: 1
 biomesoplenty:pine_door: 1
-futuremc:dyebrown: 1
 mekanism:copperdust: 1
 harvestcraft:strawberryitem: 1
 theaurorian:umbrasword: 1
@@ -11290,7 +11205,6 @@ extrabotany:bottledflame: 1
 thaumcraft:bottle_taint: 1
 opencomputers:wlancard1: 1
 harvestcraft:pastaitem: 1
-futuremc:netherite_scrap: 1
 botania:waterrod: 1
 harvestcraft:gooseberrymilkshakeitem: 1
 harvestcraft:coconutsmoothieitem: 1
@@ -11333,6 +11247,7 @@ spectrite:item/spectrite_shovel/spectrite_shovel_34: 1
 abyssalcraft:dreadiumlegs: 1
 spectrite:item/spectrite_shovel/spectrite_shovel_32: 1
 spectrite:item/spectrite_shovel/spectrite_shovel_31: 1
+spectrite:item/spectrite_shovel/spectrite_shovel_30: 1
 appliedenergistics2:storage_cell_4k: 1
 ferdinandsflowers:flower_dyes/flower_dyeb_pink: 1
 contenttweaker:peridot_cluster: 1
@@ -11428,7 +11343,6 @@ harvestcraft:cookedtofeakitem: 1
 harvestcraft:pistachioitem: 1
 ferdinandsflowers:dirt_lights/block_dirt_light_dirt: 1
 appliedenergistics2:part/cable_dense_smart_blue: 1
-biomesoplenty:mahogany_wood_slab: 1
 openblocks:wrench: 1
 abyssalcraft:necronomicon_cor: 1
 spectrite:item/spectrite_shield_special/spectrite_shield_special_35: 1
@@ -11699,7 +11613,6 @@ spectrite:item/spectrite_bow_special/pulling_2/spectrite_bow_special_pulling_2_0
 spectrite:item/spectrite_bow_special/pulling_2/spectrite_bow_special_pulling_2_02: 1
 spectrite:item/spectrite_bow_special/pulling_2/spectrite_bow_special_pulling_2_01: 1
 nuclearcraft:spaxelhoe_boron_nitride: 1
-futuremc:salmon_bucket: 1
 botanicadds:rune_energy: 1
 biomesoplenty:clover: 1
 densemetals:dense_nether_lapis_ore: 1
@@ -11814,7 +11727,6 @@ astralsorcery:itemperkgem_night: 1
 embers:sword_silver: 1
 botania:quartzslablavenderfull: 1
 taiga:ovium_dust: 1
-futuremc:cod_bucket: 1
 quark:stained_clay_tiles_lime_slab_double: 1
 appliedenergistics2:part/cable_covered_transparent: 1
 reccomplex:generic_space_8: 1
@@ -11947,6 +11859,7 @@ harvestcraft:pearitem: 1
 botania:manaweavehelm: 1
 twilightforest:ore_map_empty: 1
 botania:itemblock/glimmering_flower_black: 1
+abyssalcraft:dreadiumsamurailegs: 1
 opensecurity:cooldown_upgrade: 1
 nuclearcraft:cooler_helium: 1
 appliedenergistics2:network_tool: 1
@@ -12084,6 +11997,7 @@ spectrite:item/spectrite_star/spectrite_star_05: 1
 spectrite:item/spectrite_star/spectrite_star_04: 1
 spectrite:item/spectrite_star/spectrite_star_03: 1
 spectrite:item/spectrite_star/spectrite_star_02: 1
+spectrite:item/spectrite_star/spectrite_star_01: 1
 projectred-illumination:fixture_light: 1
 embers:axe_bronze: 1
 harvestcraft:cranberryjuiceitem: 1
@@ -12356,6 +12270,7 @@ extrautils2:unstableingots_0: 1
 harvestcraft:redvelvetcupcakeitem: 1
 bloodtinker:blood_bronze_ingot: 1
 spectrite:item/spectrite_boots/spectrite_boots_19: 1
+spectrite:item/spectrite_boots/spectrite_boots_18: 1
 spectrite:item/spectrite_boots/spectrite_boots_17: 1
 spectrite:item/spectrite_boots/spectrite_boots_16: 1
 spectrite:item/spectrite_boots/spectrite_boots_15: 1
@@ -12485,7 +12400,6 @@ bloodmagic:item/bow/itemsentientbow_corrosive_pulling_2: 1
 bloodmagic:item/bow/itemsentientbow_corrosive_pulling_1: 1
 bloodmagic:item/bow/itemsentientbow_corrosive_pulling_0: 1
 biomesoplenty:loamy_grass_block: 1
-mekanism:portableteleporter: 1
 theaurorian:ceruleanhelmet: 1
 storagedrawers:trim_jungle: 1
 botania:manavoid: 1
@@ -12593,7 +12507,7 @@ thermalfoundation:item/tool/shield_iron_blocking: 1
 dynamictreesphc:chestnutseed: 1
 ferdinandsflowers:block_cff_flowersc_petticoat: 1
 harvestcraft:blueberryjellysandwichitem: 1
-futuremc:suspicious_stew: 1
+nuclearcraft:fuel_uranium_heu_233_oxide: 1
 yurtmod:item/yurt_huge: 1
 nuclearcraft:gem_boron_nitride: 1
 taiga:yrdeen_dust: 1
@@ -12611,7 +12525,7 @@ opencomputers:leashupgrade: 1
 harvestcraft:pineappleseeditem: 1
 embers:axe_aluminum: 1
 harvestcraft:strawberrypieitem: 1
-spectrite:item/spectrite_boots/spectrite_boots_18: 1
+spectrite:item/spectrite_boots/spectrite_boots_14: 1
 embers:tinker_hammer: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_02: 1
 minecraft:chainmail_leggings: 1
@@ -12629,7 +12543,6 @@ ferdinandsflowers:block_cff_flowers_crocuspurp: 1
 minecraft:spruce_double_slab: 1
 thermalfoundation:tool/fishing_rod_aluminum: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_23: 1
-spectrite:item/spectrite_helmet/spectrite_helmet_26: 1
 botanicadds:ring_aura_gaia: 1
 harvestcraft:cranberrysauceitem: 1
 ferdinandsflowers:block_cff_flowerse_cowslip: 1
@@ -12651,7 +12564,6 @@ enderio:item_redstone_xnor_filter: 1
 extrabotany:fluid_mana: 1
 arcanearchives:item/gems/accessibility/asscher/red: 1
 twilightforest:knightmetal_shield: 1
-futuremc:netherite_hoe: 1
 artisanworktables:artisans_mortar_highlighted: 1
 taiga:obsidiorite_nugget: 1
 abyssalcraft:ethaxiumshovel: 1
@@ -12855,7 +12767,7 @@ biomesoplenty:mahogany_planks: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_29: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_28: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_27: 1
-futuremc:trident: 1
+spectrite:item/spectrite_helmet/spectrite_helmet_26: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_25: 1
 spectrite:item/spectrite_helmet/spectrite_helmet_24: 1
 mekanism:dirtysilverdust: 1
@@ -12923,7 +12835,6 @@ forbidden_arcanus:red_feather: 1
 theaurorian:auroriansteelleggings: 1
 harvestcraft:porksausageitem: 1
 theaurorian:runestonelootkey: 1
-quark:biotite: 1
 mekanism:dirtyosmiumdust: 1
 minecraft:stick: 1
 bibliocraft:book: 1
@@ -12943,7 +12854,6 @@ twilightforest:maze_map_focus: 1
 extrabotany:friedchicken: 1
 mowziesmobs:barakoa_mask_misery: 1
 spectrite:item/spectrite_boots/spectrite_boots_13: 1
-spectrite:item/spectrite_boots/spectrite_boots_14: 1
 tconstruct:moms_spaghetti.tcon: 1
 spectrite:spectrite_anvil_undamaged: 1
 opencomputers:dronecase2: 1
@@ -13015,7 +12925,7 @@ notenoughwands:swapping_wand: 1
 thermalfoundation:item/tool/bow_silver_2: 1
 thermalfoundation:item/tool/bow_silver_1: 1
 thermalfoundation:item/tool/bow_silver_0: 1
-harvestcraft:gooseberryjellysandwichitem: 1
+harvestcraft:chocolatestrawberryitem: 1
 embers:sword_tin: 1
 nuclearcraft:ingot_thorium: 1
 minecraft:prismarine_shard: 1
@@ -13078,7 +12988,6 @@ opensecurity:damage_upgrade: 1
 netherex:basalt_pillar: 1
 minecraft:compass: 1
 forbidden_arcanus:golden_dragon_scale: 1
-futuremc:honey_bottle: 1
 paragongems:item_beryl: 1
 harvestcraft:slimegummiesitem: 1
 psi:cad_colorizer_magenta: 1
@@ -13127,6 +13036,7 @@ harvestcraft:charrrawitem: 1
 arcanearchives:gems/powder/green: 1
 botania:pavement4slabfull: 1
 spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_33: 1
+spectrite:item/spectrite_bow/pulling_1/spectrite_bow_pulling_1_34: 1
 thaumcraft:seal_blank: 1
 thaumcraft:thaumium_shovel: 1
 thaumcraft:mechanism_complex: 1
@@ -13225,10 +13135,10 @@ ferdinandsflowers:brick_slabs/block_dye_brick_half_aqua: 1
 malisisdoors:curtain_blue: 1
 bibliocraft:compass: 1
 spectrite:item/spectrite_bow_special/pulling_0/spectrite_bow_special_pulling_0_10: 1
+spectrite:item/spectrite_bow_special/pulling_0/spectrite_bow_special_pulling_0_16: 1
 thermalfoundation:item/tool/fishing_rod_aluminum_cast: 1
 embers:ember_ring: 1
 dynamictreesphc:paperbarkseed: 1
-spectrite:item/spectrite_bow_special/pulling_0/spectrite_bow_special_pulling_0_22: 1
 paragongems:item_opal: 1
 harvestcraft:honeysandwichitem: 1
 openblocks:height_map: 1
@@ -13281,7 +13191,6 @@ contenttweaker:lead_chunk: 1
 tconstruct:clay_cast_hammer_head: 1
 atum:anputs_fingers_spores: 1
 extrabotany:manasteelshield: 1
-harvestcraft:chocolatestrawberryitem: 1
 botania:itemblock/plains_cobble_wall: 1
 rustic:sapling_olive: 1
 astralsorcery:blockmarble_chiseled: 1
@@ -13654,8 +13563,6 @@ midnight:dewshroom_double_slab: 1
 forbidden_arcanus:cherry_peach: 1
 thaumcraft:seal_attack_advanced: 1
 midnight:nightshroom_double_slab: 1
-futuremc:tropical_fish_bucket: 1
-spectrite:item/spectrite_wither_tail_invulnerable/spectrite_wither_tail_invulnerable_22: 1
 minecraft:granite_smooth: 1
 immersivepetroleum:upgrades/paddles: 1
 embers:ingot_aluminum: 1
@@ -13946,7 +13853,6 @@ artisanworktables:artisans_driver: 1
 ferdinandsflowers:block_cff_dark_venus: 1
 appliedenergistics2:material_logic_processor_press: 1
 thaumcraft:seal_attack: 1
-spectrite:spectrite_wither_tail_normal: 1
 harvestcraft:fruitbaititem: 1
 twilightforest:fiery_blood: 1
 forbidden_arcanus:cloth: 1
@@ -14240,6 +14146,7 @@ harvestcraft:eggsaladitem: 1
 scalinghealth:medkit: 1
 ferdinandsflowers:brick_blocks/block_dye_brickb_medium_blue: 1
 atum:loot_sapphire_scepter: 1
+nuclearcraft:depleted_fuel_curium_lec_245: 1
 astralsorcery:itemwand_aevitas: 1
 spectrite:spectrite_sword: 1
 nuclearcraft:fuel_americium_lea_242_oxide: 1
@@ -14249,6 +14156,7 @@ appliedenergistics2:material_quantum_entangled_singularity: 1
 spectrite:item/spectrite_wither_rod_invulnerable: 1
 ferdinandsflowers:dye_glass/block_dye_glass_red: 1
 biomesoplenty:silty_grass_block: 1
+opencomputers:cardcontainer2: 1
 quark:bark_spruce_slab_double: 1
 harvestcraft:taffyitem: 1
 biomesoplenty:biome_finder: 1
@@ -14731,7 +14639,6 @@ harvestcraft:tomatoitem: 1
 nuclearcraft:depleted_fuel_plutonium_lep_241_oxide: 1
 artifacts:everlasting_chicken: 1
 forbidden_arcanus:arcane_golden_pickaxe: 1
-twilightforest:knightmetal_helmet: 1
 openblocks:pencil_glasses: 1
 botania:biomestonea6slabfull: 1
 biomesoplenty:redwood_door: 1
@@ -14786,7 +14693,6 @@ tconstruct:tools/excavator.tcon: 1
 aether_legacy:zanite_gemstone: 1
 abyssalcraft:yogsothothcoin: 1
 harvestcraft:tamarinditem: 1
-futuremc:sweet_berries: 1
 biomesoplenty:earth: 1
 netherex:orange_salamander_hide: 1
 abyssalcraft:engraving_elder: 1
@@ -14812,7 +14718,6 @@ storagedrawers:basicdrawers_half2_birch: 1
 abyssalcraft:friedegg: 1
 thaumcraft:golem: 1
 nuclearcraft:americium_243_oxide: 1
-futuremc:netherite_ingot: 1
 nuclearcraft:fuel_mixed_oxide_mox_241: 1
 bibliocraft:lock: 1
 netherex:withered_amedian_hoe: 1
@@ -14941,6 +14846,7 @@ appliedenergistics2:part/cable_dense_covered_lime: 1
 atum:wanderer_chest: 1
 harvestcraft:oldworldveggiesoupitem: 1
 harvestcraft:honeybunitem: 1
+spectrite:item/spectrite_bow/pulling_0/spectrite_bow_pulling_0_32: 1
 arcanearchives:item/gems/accessibility/asscher/dun: 1
 astralsorcery:itemgrapplewand: 1
 nuclearcraft:depleted_fuel_neptunium_hen_236: 1
@@ -14951,7 +14857,6 @@ enderio:item_big_advanced_item_filter: 1
 quark:stained_planks_light_blue_slab_double: 1
 embers:pickaxe_silver: 1
 artisanworktables:artisans_knife: 1
-futuremc:netherite_leggings: 1
 harvestcraft:etonmessitem: 1
 harvestcraft:maplesyruppancakesitem: 1
 nuclearcraft:radiation_badge: 1
