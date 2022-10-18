@@ -45,10 +45,4 @@ mods.thaumcraft.LootBag.addLoot(<thaumcraft:loot_bag>%20, [0,1,2]);
 mods.thaumcraft.LootBag.addLoot(<thaumcraft:loot_bag:1>%15, [0,1,2]);
 mods.thaumcraft.LootBag.addLoot(<thaumcraft:loot_bag:2>%10, [0,1,2]);
 mods.thaumcraft.LootBag.addLoot(<minecraft:obsidian>%2000, [0,1,2]);
-mods.thaumcraft.LootBag.addLoot(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aer"}]})%500, [0]);
-mods.thaumcraft.LootBag.addLoot(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "terra"}]})%500, [0]);
-mods.thaumcraft.LootBag.addLoot(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ignis"}]})%500, [0]);
-mods.thaumcraft.LootBag.addLoot(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "aqua"}]})%500, [0]);
-mods.thaumcraft.LootBag.addLoot(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "ordo"}]})%500, [0]);
-mods.thaumcraft.LootBag.addLoot(<thaumcraft:crystal_essence>.withTag({Aspects: [{amount: 1, key: "perditio"}]})%500, [0]);
 

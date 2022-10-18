@@ -2,9 +2,9 @@ nuclearcraft: 39705
 quark: 5543
 atum: 4953
 thaumcraft: 3884
+minecraft: 3855
 immersiveengineering: 3760
 sonarcore: 3622
-minecraft: 3503
 botania: 3331
 tconstruct: 2973
 twilightforest: 2895
@@ -30,7 +30,7 @@ ferdinandsflowers: 746
 thaumicaugmentation: 731
 appliedenergistics2: 720
 extrautils2: 621
-openblocks: 604
+openblocks: 595
 thermalfoundation: 584
 projectred: 529
 dynamictreesphc: 492
@@ -65,7 +65,6 @@ immersivecables: 59
 bountifulbaubles: 58
 densemetals: 54
 dynamictrees: 51
-malisisdoors: 49
 botania_tweaks: 45
 dynamictreestconstruct: 42
 compactmachines3: 41
@@ -94,8 +93,8 @@ scalinghealth: 9
 lumen: 9
 ta_special: 8
 trashcans: 8
-extraalchemy: 7
 uppers: 7
+extraalchemy: 7
 betterquesting: 7
 bountiful: 6
 watercan: 5

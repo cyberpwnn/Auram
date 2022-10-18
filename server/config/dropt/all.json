@@ -71,7 +71,7 @@
                         ],
                         "quantity": {
                             "min": 1,
-                            "max": 5
+                            "max": 3
                         }
                     }
                 },
@@ -117,7 +117,7 @@
                         ],
                         "quantity": {
                             "min": 1,
-                            "max": 5
+                            "max": 3
                         }
                     }
                 }
@@ -151,7 +151,7 @@
                         ],
                         "quantity": {
                             "min": 1,
-                            "max": 5
+                            "max": 2
                         }
                     }
                 }
@@ -223,7 +223,7 @@
                 {
                     "selector": {
                         "weight": {
-                            "value": 15
+                            "value": 10
                         }
                     },
                     "item": {
@@ -265,7 +265,7 @@
                 {
                     "selector": {
                         "weight": {
-                            "value": 25
+                            "value": 10
                         }
                     },
                     "item": {
@@ -291,8 +291,8 @@
                             "contenttweaker:iron_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -313,8 +313,8 @@
                             "contenttweaker:iron_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -335,8 +335,8 @@
                             "contenttweaker:gold_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -357,8 +357,8 @@
                             "contenttweaker:gold_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -379,8 +379,8 @@
                             "contenttweaker:copper_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -401,8 +401,8 @@
                             "contenttweaker:copper_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -423,8 +423,8 @@
                             "contenttweaker:silver_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -445,8 +445,8 @@
                             "contenttweaker:silver_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -467,8 +467,8 @@
                             "contenttweaker:nickel_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -489,8 +489,8 @@
                             "contenttweaker:nickel_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -511,8 +511,8 @@
                             "contenttweaker:platinum_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -533,8 +533,8 @@
                             "contenttweaker:platinum_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -555,8 +555,8 @@
                             "contenttweaker:tin_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -577,8 +577,8 @@
                             "contenttweaker:tin_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -599,8 +599,8 @@
                             "contenttweaker:aluminum_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -621,8 +621,8 @@
                             "contenttweaker:aluminum_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -643,8 +643,8 @@
                             "contenttweaker:lead_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -665,8 +665,8 @@
                             "contenttweaker:lead_chunk"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 15
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -687,8 +687,8 @@
                             "contenttweaker:cobalt_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -709,8 +709,8 @@
                             "contenttweaker:ardite_chunk"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -734,8 +734,8 @@
                             "contenttweaker:diamond_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -757,8 +757,8 @@
                             "contenttweaker:diamond_cluster"
                         ],
                         "quantity": {
-                            "min": 4,
-                            "max": 9
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -783,8 +783,8 @@
                             "contenttweaker:quartz_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -805,8 +805,8 @@
                             "contenttweaker:quartz_cluster"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 9
+                            "min": 2,
+                            "max": 4
                         }
                     }
                 }
@@ -829,8 +829,8 @@
                             "contenttweaker:certus_cluster"
                         ],
                         "quantity": {
-                            "min": 3,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -853,8 +853,8 @@
                             "contenttweaker:charged_certus_cluster"
                         ],
                         "quantity": {
-                            "min": 3,
-                            "max": 5
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -877,8 +877,8 @@
                             "contenttweaker:emerald_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -900,8 +900,8 @@
                             "contenttweaker:emerald_cluster"
                         ],
                         "quantity": {
-                            "min": 5,
-                            "max": 9
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -926,8 +926,8 @@
                             "contenttweaker:sapphire_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -951,8 +951,8 @@
                             "contenttweaker:ruby_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
@@ -975,8 +975,8 @@
                             "contenttweaker:peridot_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 1,
+                            "max": 2
                         }
                     }
                 }
