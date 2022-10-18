@@ -342,8 +342,7 @@
                 "material": "minecraft:stone",
                 "cluster-size": 12
             },
-            "cluster-count": 1,
-            "chunk-chance": 3,
+            "cluster-count": 4,
             "min-height": 0,
             "max-height": 26,
             "retrogen": false,
@@ -401,37 +400,17 @@
                     "name": "emerald_ore"
                 },
                 "material": "minecraft:stone",
-                "cluster-size": 3
+                "cluster-size": 8
             },
             "cluster-count": {
-                "min": 2,
-                "max": 3
+                "min": 4,
+                "max": 7
             },
             "min-height": 4,
             "max-height": 38,
             "retrogen": false,
-            "biome": {
-                "restriction": "whitelist",
-                "value": [
-                    {
-                        "type": "id",
-                        "entry": [
-                            "extreme_hills",
-                            "smaller_extreme_hills",
-                            "extreme_hills_with_trees",
-                            "mutated_extreme_hills",
-                            "mutated_extreme_hills_with_trees"
-                        ]
-                    }
-                ]
-            },
-            "dimension": {
-                "restriction": "blacklist",
-                "value": [
-                    -1,
-                    1
-                ]
-            }
+            "biome": "all",
+            "dimension": "all"
         },
         "quartz": {
             "distribution": "uniform",
@@ -627,10 +606,10 @@
             "generator": {
                 "block": "densemetals:dense_diamond_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 6
             },
             "cluster-count": 2,
-            "chunk-chance": 3,
+            "chunk-chance": 1,
             "min-height": 0,
             "max-height": 33,
             "retrogen": false,
@@ -648,10 +627,10 @@
             "generator": {
                 "block": "densemetals:dense_emerald_ore",
                 "material": "minecraft:stone",
-                "cluster-size": 4
+                "cluster-size": 8
             },
             "cluster-count": 2,
-            "chunk-chance": 4,
+            "chunk-chance": 1,
             "min-height": 0,
             "max-height": 33,
             "retrogen": false,
