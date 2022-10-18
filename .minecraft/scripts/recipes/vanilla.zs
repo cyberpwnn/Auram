@@ -84,6 +84,32 @@ RecipeBuilder.get("blacksmith")
   .setExtraOutputThree(<thermalfoundation:material:67>, 0.05)
   .create();
 
+// Uranium
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<contenttweaker:uranium_chunk>, <contenttweaker:uranium_chunk>, <contenttweaker:uranium_chunk>],
+    [<contenttweaker:uranium_chunk>, <contenttweaker:uranium_chunk>, <contenttweaker:uranium_chunk>],
+    [<contenttweaker:uranium_chunk>, <contenttweaker:uranium_chunk>, <contenttweaker:uranium_chunk>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<immersiveengineering:metal:14> * 2)
+  .setExtraOutputOne(<contenttweaker:uranium_chunk>, 0.08)
+  .setExtraOutputTwo(<immersiveengineering:metal:14>, 0.05)
+  .setExtraOutputThree(<taiga:cyberium_dust>, 0.03)
+  .create();
+
+// Osmium
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<contenttweaker:osmium_chunk>, <contenttweaker:osmium_chunk>, <contenttweaker:osmium_chunk>],
+    [<contenttweaker:osmium_chunk>, <contenttweaker:osmium_chunk>, <contenttweaker:osmium_chunk>],
+    [<contenttweaker:osmium_chunk>, <contenttweaker:osmium_chunk>, <contenttweaker:osmium_chunk>]])
+  .addTool(<ore:artisansHammer>, 5)
+  .addOutput(<mekanism:dust:2> * 2)
+  .setExtraOutputOne(<contenttweaker:osmium_chunk>, 0.08)
+  .setExtraOutputTwo(<mekanism:dust:2>, 0.05)
+  .setExtraOutputThree(<taiga:vibranium_dust>, 0.03)
+  .create();
+
 // Ardite
 RecipeBuilder.get("blacksmith")
   .setShaped([
@@ -91,7 +117,7 @@ RecipeBuilder.get("blacksmith")
     [<contenttweaker:ardite_chunk>, <contenttweaker:ardite_chunk>, <contenttweaker:ardite_chunk>],
     [<contenttweaker:ardite_chunk>, <contenttweaker:ardite_chunk>, <contenttweaker:ardite_chunk>]])
   .addTool(<ore:artisansHammer>, 5)
-  .addOutput(<enderio:item_material:30> * 3)
+  .addOutput(<enderio:item_material:30> * 2)
   .setExtraOutputOne(<contenttweaker:ardite_chunk>, 0.08)
   .setExtraOutputTwo(<taiga:vatuunium_dust>, 0.03)
   .setExtraOutputThree(<enderio:item_material:30>, 0.05)
@@ -368,6 +394,48 @@ RecipeBuilder.get("blacksmith")
     [null, <minecraft:iron_ingot>, null]])
   .addTool(<ore:artisansHammer>, 7)
   .addOutput(<minecraft:bucket>)
+  .create();
+
+// Sandstone
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:sand_pile>, <contenttweaker:rock>, <contenttweaker:sand_pile>],
+    [<contenttweaker:rock>, <contenttweaker:sand_pile>, <contenttweaker:rock>],
+    [<contenttweaker:sand_pile>, <contenttweaker:rock>, <contenttweaker:sand_pile>]])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:sandstone> * 2)
+  .setExtraOutputOne(<contenttweaker:sand_pile>, 0.1)
+  .setExtraOutputTwo(<contenttweaker:rock>, 0.15)
+  .create();
+
+// Diorite
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>],
+    [<contenttweaker:rock>, <contenttweaker:quartz_cluster>, <contenttweaker:rock>],
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>]])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone:3> * 2)
+  .create();
+
+// Andesite
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>],
+    [<contenttweaker:rock>, <contenttweaker:certus_cluster>, <contenttweaker:rock>],
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>]])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone:5> * 2)
+  .create();
+
+// Granite
+RecipeBuilder.get("mason")
+  .setShaped([
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>],
+    [<contenttweaker:rock>, <minecraft:flint>, <contenttweaker:rock>],
+    [<contenttweaker:rock>, <contenttweaker:rock>, <contenttweaker:rock>]])
+  .addTool(<ore:artisansTrowel>, 1)
+  .addOutput(<minecraft:stone:1> * 2)
   .create();
 
 RecipeBuilder.get("chemist")

@@ -49,7 +49,7 @@
                     "blocks": [
                         "minecraft:dirt:*"
                     ]
-                }           
+                }
             },
             "drops": [
                 {
@@ -304,7 +304,7 @@
                     "blocks": [
                         "densemetals:dense_iron_ore:*"
                     ]
-                } 
+                }
             },
             "drops": [
                 {
@@ -326,7 +326,7 @@
                     "blocks": [
                         "minecraft:gold_ore:*"
                     ]
-                } 
+                }
             },
             "drops": [
                 {
@@ -590,7 +590,7 @@
                     "blocks": [
                         "thermalfoundation:ore:4"
                     ]
-                } 
+                }
             },
             "drops": [
                 {
@@ -698,6 +698,98 @@
             "match": {
                 "blocks": {
                     "blocks": [
+                        "mekanism:oreblock:0",
+                        "netherendingores:ore_end_modded_1:11",
+                        "netherendingores:ore_nether_modded_1:11"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 2
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "immersiveengineering:ore:5",
+                        "netherendingores:ore_nether_modded_1:12",
+                        "netherendingores:ore_end_modded_1:12"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 2
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_osmium_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_uranium_ore:0"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 4
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
                         "tconstruct:ore:1"
                     ]
                 }
@@ -770,7 +862,6 @@
                     "blocks": [
                         "minecraft:quartz_ore:0",
                         "embers:ore_quartz:0",
-                        "galacticraftplanets:venus:9",
                         "netherendingores:ore_other_1:1",
                         "thaumcraft:ore_quartz:0"
                     ]
@@ -914,8 +1005,7 @@
                         "paragongems:block_sapphire_ore:0",
                         "netherendingores:ore_end_modded_2:2",
                         "netherendingores:ore_nether_modded_2:2",
-                        "projectred-exploration:ore:1",
-                        "galacticraftcore:basic_block_moon:6"
+                        "projectred-exploration:ore:1"
                     ]
                 }
             },

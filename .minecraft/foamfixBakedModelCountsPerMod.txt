@@ -79,7 +79,7 @@ tinker_io: 31
 dynamictreesextrautils2: 30
 materialis: 25
 bqmie: 25
-contenttweaker: 23
+contenttweaker: 25
 dynamictreesquark: 22
 thaumicenergistics: 20
 wrcbe: 16

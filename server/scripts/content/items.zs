@@ -33,6 +33,14 @@ var itemChunkCopper = VanillaFactory.createItem("copper_chunk");
 itemChunkCopper.maxStackSize = 32;
 itemChunkCopper.register();
 
+var itemChunkUranium = VanillaFactory.createItem("uranium_chunk");
+itemChunkUranium.maxStackSize = 8;
+itemChunkUranium.register();
+
+var itemChunkOsmium = VanillaFactory.createItem("osmium_chunk");
+itemChunkOsmium.maxStackSize = 16;
+itemChunkOsmium.register();
+
 var itemChunkIron = VanillaFactory.createItem("iron_chunk");
 itemChunkIron.maxStackSize = 16;
 itemChunkIron.register();

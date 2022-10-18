@@ -10316,6 +10316,7 @@ spectrite:item/spectrite_compass/spectrite_compass_22: 1
 harvestcraft:limesmoothieitem: 1
 harvestcraft:peppercornitem: 1
 bloodarsenal:blood_infused_wooden_sickle: 1
+contenttweaker:uranium_chunk: 1
 minecraft:bed: 1
 compactmachines3:psd: 1
 forbidden_arcanus:arcane_gold_helmet: 1
@@ -13032,6 +13033,7 @@ spectrite:item/spectrite_shield_special/blocking/spectrite_shield_special_blocki
 spectrite:item/spectrite_shield_special/blocking/spectrite_shield_special_blocking_32: 1
 spectrite:item/spectrite_shield_special/blocking/spectrite_shield_special_blocking_31: 1
 spectrite:item/spectrite_shield_special/blocking/spectrite_shield_special_blocking_30: 1
+contenttweaker:osmium_chunk: 1
 tconstruct:cast_hand_guard: 1
 abyssalcraft:coraxe: 1
 quark:ancient_tome: 1
