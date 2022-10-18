@@ -108,7 +108,7 @@ RecipeBuilder.get("basic")
   .setShaped([
     [<minecraft:cobblestone>, <ore:stickWood>, <minecraft:cobblestone>],
     [<ore:stickWood>, <artisanworktables:worktable:5>, <ore:stickWood>],
-    [<minecraft:cobblestone>, <minecraft:iron_block>, <minecraft:cobblestone>]])
+    [<minecraft:cobblestone>, <contenttweaker:iron_chunk>, <minecraft:cobblestone>]])
   .addOutput(<artisanworktables:worktable:3>)
   .create();
 
