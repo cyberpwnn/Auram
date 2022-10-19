@@ -124,8 +124,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:0
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.betterfoliage.gui:66
@@ -221,6 +221,13 @@ key_key.clipboardPaste:210
 key_FpsReducer.key.guiOpen:207
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
+key_key.integrateddynamics.logic_programmer_focus_search:33:ALT
+key_key.integrateddynamics.logic_programmer_open_rename:19:ALT
+key_key.integratedterminals.terminal.tab.next:15
+key_key.integratedterminals.terminal.tab.previous:15:SHIFT
+key_key.integratedterminals.terminal.craftinggrid.clearplayer:0
+key_key.integratedterminals.terminal.craftinggrid.clearstorage:0:SHIFT
+key_key.integratedterminals.terminal.craftinggrid.balance:48
 key_invtweaks.key.sort:19
 key_mekanism.key.mode:50
 key_mekanism.key.armorMode:34
@@ -286,7 +293,7 @@ key_enderio.keybind.fovminus:0
 key_enderio.keybind.fovplusfast:0
 key_enderio.keybind.fovminusfast:0
 soundCategory_master:1.0
-soundCategory_music:0.1971831
+soundCategory_music:0.16901408
 soundCategory_record:1.0
 soundCategory_weather:0.5492958
 soundCategory_block:1.0

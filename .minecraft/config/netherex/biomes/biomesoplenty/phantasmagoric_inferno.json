@@ -7,94 +7,94 @@
 	"blocks": {},
 	"entities": [
 		{
-			"entity": "minecraft:ghast",
 			"spawnWeight": 50,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:ghast"
 		}, 
 		{
-			"entity": "minecraft:zombie_pigman",
 			"spawnWeight": 100,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:zombie_pigman"
 		}, 
 		{
-			"entity": "minecraft:magma_cube",
 			"spawnWeight": 2,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:magma_cube"
 		}, 
 		{
-			"entity": "minecraft:enderman",
 			"spawnWeight": 1,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 4
+			"maximumGroupCount": 4,
+			"entity": "minecraft:enderman"
 		}, 
 		{
-			"entity": "abyssalcraft:demonpig",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demonpig"
 		}, 
 		{
-			"entity": "abyssalcraft:demoncow",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demoncow"
 		}, 
 		{
-			"entity": "abyssalcraft:demonchicken",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demonchicken"
 		}, 
 		{
-			"entity": "abyssalcraft:demonsheep",
 			"spawnWeight": 15,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
+			"maximumGroupCount": 3,
+			"entity": "abyssalcraft:demonsheep"
 		}, 
 		{
-			"entity": "minecraft:blaze",
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 2
+			"maximumGroupCount": 2,
+			"entity": "minecraft:blaze"
 		}, 
 		{
-			"entity": "quark:foxhound",
 			"spawnWeight": 10,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 2
+			"maximumGroupCount": 2,
+			"entity": "quark:foxhound"
 		}, 
 		{
-			"entity": "quark:wraith",
 			"spawnWeight": 60,
 			"minimumGroupCount": 4,
-			"maximumGroupCount": 6
+			"maximumGroupCount": 6,
+			"entity": "quark:wraith"
 		}, 
 		{
-			"entity": "lumen:psi_firefly",
 			"spawnWeight": 50,
 			"minimumGroupCount": 0,
-			"maximumGroupCount": 1
+			"maximumGroupCount": 1,
+			"entity": "lumen:psi_firefly"
 		}, 
 		{
-			"entity": "lumen:will_o_wisp",
 			"spawnWeight": 50,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 5
+			"maximumGroupCount": 5,
+			"entity": "lumen:will_o_wisp"
 		}, 
 		{
-			"entity": "lumen:faerie",
 			"spawnWeight": 50,
 			"minimumGroupCount": 1,
-			"maximumGroupCount": 5
+			"maximumGroupCount": 5,
+			"entity": "lumen:faerie"
 		}, 
 		{
-			"entity": "lumen:ember",
 			"spawnWeight": 50,
 			"minimumGroupCount": 0,
-			"maximumGroupCount": 5
+			"maximumGroupCount": 5,
+			"entity": "lumen:ember"
 		}
 	],
 	"traits": [],

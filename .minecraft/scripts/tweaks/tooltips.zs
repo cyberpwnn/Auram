@@ -23,3 +23,5 @@
 <contenttweaker:silver_chunk>.addTooltip("Refine this metal chunk in a Blacksmith's Table");
 <contenttweaker:platinum_chunk>.addTooltip("Refine this metal chunk in a Blacksmith's Table");
 <contenttweaker:aluminum_chunk>.addTooltip("Refine this metal chunk in a Blacksmith's Table");
+<contenttweaker:uranium_chunk>.addTooltip("Refine this metal chunk in a Blacksmith's Table");
+<contenttweaker:osmium_chunk>.addTooltip("Refine this metal chunk in a Blacksmith's Table");
