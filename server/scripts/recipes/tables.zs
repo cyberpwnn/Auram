@@ -133,9 +133,9 @@ RecipeBuilder.get("basic")
 // Jewlers Workstation
 RecipeBuilder.get("basic")
   .setShaped([
-    [<conarm:armor_trim>.withTag({Material: "emerald"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald"})],
+    [<conarm:armor_trim>.withTag({Material: "emerald_plustic"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald_plustic"})],
     [<conarm:armor_plate>.withTag({Material: "gold"}), <artisanworktables:worktable:4>, <conarm:armor_plate>.withTag({Material: "gold"})],
-    [<conarm:armor_trim>.withTag({Material: "emerald"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald"})]])
+    [<conarm:armor_trim>.withTag({Material: "emerald_plustic"}), <conarm:armor_plate>.withTag({Material: "gold"}), <conarm:armor_trim>.withTag({Material: "emerald_plustic"})]])
   .addOutput(<artisanworktables:workstation:4>)
   .create();
 
