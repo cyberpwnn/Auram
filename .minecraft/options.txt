@@ -11,7 +11,7 @@ bobView:true
 anaglyph3d:false
 maxFps:260
 fboEnable:true
-difficulty:2
+difficulty:1
 fancyGraphics:true
 ao:2
 renderClouds:false
@@ -49,7 +49,7 @@ attackIndicator:0
 showSubtitles:true
 realmsNotifications:true
 enableWeakAttacks:false
-autoJump:false
+autoJump:true
 narrator:0
 tutorialStep:none
 key_key.attack:-100
@@ -124,8 +124,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:0
+key_quark.keybind.toggleAutojump:48
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.betterfoliage.gui:66
