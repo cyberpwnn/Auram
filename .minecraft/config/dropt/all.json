@@ -308,6 +308,9 @@
             },
             "drops": [
                 {
+                    "selector": {
+                        "silktouch": "EXCLUDED"
+                    },
                     "item": {
                         "items": [
                             "contenttweaker:iron_chunk"
@@ -315,6 +318,20 @@
                         "quantity": {
                             "min": 2,
                             "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "silktouch": "REQUIRED"
+                    },
+                    "item": {
+                        "items": [
+                            "minecraft:iron_ore"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 1
                         }
                     }
                 }

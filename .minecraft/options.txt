@@ -124,8 +124,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:0
 key_key.toggle_shaders:0
 key_arcanearchives.gui.keybinds.manifest:0
 key_key.betterfoliage.gui:66
