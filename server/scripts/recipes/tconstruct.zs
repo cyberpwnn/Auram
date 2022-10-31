@@ -18,3 +18,4 @@ mods.tconstruct.Melting.addRecipe(<liquid:aluminum> * 32,<contenttweaker:aluminu
 mods.tconstruct.Melting.addRecipe(<liquid:lead> * 32,<contenttweaker:lead_chunk>);
 mods.tconstruct.Melting.addRecipe(<liquid:iron> * 32,<contenttweaker:iron_chunk>);
 mods.tconstruct.Melting.addRecipe(<liquid:nickel> * 32,<contenttweaker:nickel_chunk>);
+mods.tconstruct.Melting.addRecipe(<liquid:iridium> * 32,<contenttweaker:iridium_chunk>);
