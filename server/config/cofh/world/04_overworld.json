@@ -90,6 +90,28 @@
                 ]
             }
         },
+        "auram_cbar": {
+            "distribution": "uniform",
+            "generator": {
+                "block": {
+                    "name": "thaumcraft:ore_cinnabar"
+                },
+                "material": "minecraft:stone",
+                "cluster-size": 8
+            },
+            "cluster-count": 3,
+            "min-height": 60,
+            "max-height": 135,
+            "retrogen": true,
+            "biome": "all",
+            "dimension": {
+                "restriction": "blacklist",
+                "value": [
+                    -1,
+                    1
+                ]
+            }
+        },
         "auram_tin": {
             "distribution": "uniform",
             "generator": {

@@ -308,30 +308,13 @@
             },
             "drops": [
                 {
-                    "selector": {
-                        "silktouch": "EXCLUDED"
-                    },
                     "item": {
                         "items": [
                             "contenttweaker:iron_chunk"
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
-                        }
-                    }
-                },
-                {
-                    "selector": {
-                        "silktouch": "REQUIRED"
-                    },
-                    "item": {
-                        "items": [
-                            "minecraft:iron_ore"
-                        ],
-                        "quantity": {
-                            "min": 1,
-                            "max": 1
+                            "max": 8
                         }
                     }
                 }
@@ -375,7 +358,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -419,7 +402,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -463,7 +446,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -507,7 +490,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -551,7 +534,54 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "thermalfoundation:ore:7",
+                        "netherendingores:ore_nether_modded_1:2",
+                        "netherendingores:ore_end_modded_1:2"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 2
+                        }
+                    }
+                }
+            ]
+        },
+        {
+            "match": {
+                "blocks": {
+                    "blocks": [
+                        "densemetals:dense_iridium_ore:*",
+                        "densemetals:dense_nether_iridium_ore:*"
+                    ]
+                }
+            },
+            "drops": [
+                {
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 8
                         }
                     }
                 }
@@ -595,7 +625,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -639,7 +669,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -683,7 +713,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -775,7 +805,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -797,7 +827,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -867,7 +897,7 @@
                         ],
                         "quantity": {
                             "min": 2,
-                            "max": 4
+                            "max": 8
                         }
                     }
                 }
@@ -891,8 +921,8 @@
                             "contenttweaker:quartz_cluster"
                         ],
                         "quantity": {
-                            "min": 1,
-                            "max": 2
+                            "min": 3,
+                            "max": 6
                         }
                     }
                 }
@@ -913,8 +943,8 @@
                             "contenttweaker:quartz_cluster"
                         ],
                         "quantity": {
-                            "min": 2,
-                            "max": 4
+                            "min": 8,
+                            "max": 16
                         }
                     }
                 }

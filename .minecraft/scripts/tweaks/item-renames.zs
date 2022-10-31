@@ -11,6 +11,7 @@
 <contenttweaker:nickel_chunk>.displayName = "Nickel Chunk";
 <contenttweaker:ardite_chunk>.displayName = "Ardite Chunk";
 <contenttweaker:cobalt_chunk>.displayName = "Cobalt Chunk";
+<contenttweaker:iridium_chunk>.displayName = "Iridium Chunk";
 <contenttweaker:silver_chunk>.displayName = "Silver Chunk";
 <contenttweaker:uranium_chunk>.displayName = "Uranium Chunk";
 <contenttweaker:osmium_chunk>.displayName = "Osmium Chunk";
