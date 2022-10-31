@@ -88,10 +88,10 @@ botanicadds: 32
 tinker_io: 31
 dynamictreesextrautils2: 30
 thermaldynamics: 27
+contenttweaker: 26
 buildcraftsilicon: 25
 materialis: 25
 bqmie: 25
-contenttweaker: 25
 buildcrafttransport: 23
 dynamictreesquark: 22
 thaumicenergistics: 20

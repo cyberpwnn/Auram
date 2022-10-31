@@ -295,6 +295,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -315,6 +366,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iron_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -339,6 +441,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -359,6 +512,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:gold_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -383,6 +587,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -403,6 +658,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:copper_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -427,6 +733,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -447,6 +804,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:silver_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -471,6 +879,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -491,6 +950,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:nickel_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -515,6 +1025,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -535,6 +1096,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:platinum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -561,6 +1173,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -577,11 +1240,62 @@
                 {
                     "item": {
                         "items": [
-                            "contenttweaker:platinum_chunk"
+                            "contenttweaker:iridium_chunk"
                         ],
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:iridium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -606,6 +1320,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -626,6 +1391,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:tin_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -650,6 +1466,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -670,6 +1537,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:aluminum_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -694,6 +1612,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -716,6 +1685,57 @@
                             "max": 8
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:lead_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
+                        }
+                    }
                 }
             ]
         },
@@ -736,6 +1756,57 @@
                         "quantity": {
                             "min": 1,
                             "max": 2
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:cobalt_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:cobalt_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:cobalt_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }
@@ -762,6 +1833,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -786,6 +1908,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -806,6 +1979,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:osmium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -830,6 +2054,57 @@
                             "max": 8
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:uranium_chunk"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
+                        }
+                    }
                 }
             ]
         },
@@ -850,6 +2125,57 @@
                         "quantity": {
                             "min": 1,
                             "max": 2
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:ardite_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:ardite_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:ardite_chunk"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }
@@ -877,6 +2203,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -898,6 +2275,57 @@
                         "quantity": {
                             "min": 2,
                             "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:diamond_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -925,6 +2353,57 @@
                             "max": 6
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 3,
+                            "max": 8
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 4,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 5,
+                            "max": 12
+                        }
+                    }
                 }
             ]
         },
@@ -945,6 +2424,57 @@
                         "quantity": {
                             "min": 8,
                             "max": 16
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 8,
+                            "max": 20
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 8,
+                            "max": 24
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:quartz_cluster"
+                        ],
+                        "quantity": {
+                            "min": 8,
+                            "max": 28
                         }
                     }
                 }
@@ -971,6 +2501,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -993,6 +2574,57 @@
                         "quantity": {
                             "min": 1,
                             "max": 2
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:charged_certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:charged_certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:charged_certus_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }
@@ -1019,6 +2651,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -1040,6 +2723,57 @@
                         "quantity": {
                             "min": 1,
                             "max": 2
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 10
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 12
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:emerald_cluster"
+                        ],
+                        "quantity": {
+                            "min": 2,
+                            "max": 14
                         }
                     }
                 }
@@ -1067,6 +2801,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:sapphire_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:sapphire_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:sapphire_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -1092,6 +2877,57 @@
                             "max": 2
                         }
                     }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:ruby_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:ruby_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:ruby_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
+                        }
+                    }
                 }
             ]
         },
@@ -1114,6 +2950,57 @@
                         "quantity": {
                             "min": 1,
                             "max": 2
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 10
+                        },
+                        "fortuneLevelRequired": 1
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:peridot_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 3
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 100
+                        },
+                        "fortuneLevelRequired": 2
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:peridot_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 4
+                        }
+                    }
+                },
+                {
+                    "selector": {
+                        "weight": {
+                            "value": 1000
+                        },
+                        "fortuneLevelRequired": 3
+                    },
+                    "item": {
+                        "items": [
+                            "contenttweaker:peridot_cluster"
+                        ],
+                        "quantity": {
+                            "min": 1,
+                            "max": 5
                         }
                     }
                 }

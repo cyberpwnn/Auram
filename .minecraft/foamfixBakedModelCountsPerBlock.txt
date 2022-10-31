@@ -6942,6 +6942,7 @@ minecraft:end_crystal: 1
 quark:soul_powder: 1
 thaumicbases:tobacco_fighting: 1
 botania:lensphantom: 1
+contenttweaker:iridium_chunk: 1
 harvestcraft:paneeritem: 1
 harvestcraft:rouxitem: 1
 abyssalcraft:abychunk: 1
