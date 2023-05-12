@@ -17,3 +17,5 @@ mods.botania.ManaInfusion.addInfusion(<botania:manaresource>, <ore:ingotAstralSt
 mods.botania.ElvenTrade.removeRecipe(<botania:storage:2>);
 mods.botania.ElvenTrade.removeRecipe(<botania:manaresource:7>);
 mods.botania.ElvenTrade.addRecipe([<botania:manaresource:7>], [<ore:ingotManasteel>,<ore:dustAstralStarmetal>]);
+
+mods.botania.ManaInfusion.addInfusion(<thaumcraft:salis_mundus>, <midnight:bloomcrystal>, 30000);

@@ -33,3 +33,4 @@ RecipeBuilder.get("engineer")
   .setExtraOutputTwo(<thaumcraft:focus_2>, 0.15)
   .setExtraOutputThree(<tconstruct:shard>.withTag({Material: "vibrant_alloy"}) * 3, 0.3)
   .create();
+

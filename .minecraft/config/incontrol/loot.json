@@ -61,13 +61,20 @@
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
         "random": 0.07
-    },
+    }, 
     {
         "mob": "minecraft:enderman",
         "player": true,
         "item": "thaumcraft:loot_bag",
         "itemcount": "1-1/1-1/1-1",
         "random": 0.03
+    },
+    {
+        "mob": "minecraft:enderman",
+        "player": true,
+        "item": "enderio:block_enderman_skull",
+        "itemcount": "1-1/1-1/1-1",
+        "random": 0.05
     },
     {
         "mob": "twilightforest:firefly",

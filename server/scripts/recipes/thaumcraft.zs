@@ -2,7 +2,7 @@ import mods.inworldcrafting.FireCrafting;
 import mods.thaumcraft.SalisMundus;
 
 recipes.remove(<thaumcraft:salis_mundus>);
-FireCrafting.addRecipe(<thaumcraft:salis_mundus>, <midnight:bloomcrystal>, 60);
+FireCrafting.addRecipe(<thaumcraft:salis_mundus>, <midnight:bloomcrystal>, 120);
 mods.jei.JEI.addDescription(<thaumcraft:salis_mundus>,"Toss a Bloom Crystal into fire and wait a couple seconds. Bloom Crystals can be obtained in the Midnight dimension.");
 
 recipes.remove(<thaumcraft:stone_arcane>);
@@ -29,7 +29,7 @@ mods.thaumcraft.Infusion.registerRecipe("auriron", "", <minecraft:iron_ore>, 20,
     [<contenttweaker:iron_chunk>,<contenttweaker:iron_chunk>,<contenttweaker:iron_chunk>,<contenttweaker:iron_chunk>]);
 mods.thaumcraft.Infusion.registerRecipe("aurlead", "", <thermalfoundation:ore:3>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:lead_chunk>, <contenttweaker:lead_chunk>,<contenttweaker:lead_chunk>,<contenttweaker:lead_chunk>]);
-mods.thaumcraft.Infusion.registerRecipe("aurardite", "", <netherendingores:ore_other_1:2>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("aurardite", "", <tconstruct:ore:1>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:netherrack>, 
     [<contenttweaker:ardite_chunk>,<contenttweaker:ardite_chunk>,<contenttweaker:ardite_chunk>,<contenttweaker:ardite_chunk>]);
 mods.thaumcraft.Infusion.registerRecipe("aurtin", "", <thermalfoundation:ore:1>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:tin_chunk>,<contenttweaker:tin_chunk>,<contenttweaker:tin_chunk>,<contenttweaker:tin_chunk>]);
@@ -41,7 +41,7 @@ mods.thaumcraft.Infusion.registerRecipe("aurcopper", "", <thermalfoundation:ore>
     [<contenttweaker:copper_chunk>,<contenttweaker:copper_chunk>,<contenttweaker:copper_chunk>,<contenttweaker:copper_chunk>]);
 mods.thaumcraft.Infusion.registerRecipe("aurnickel", "", <thermalfoundation:ore:5>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:nickel_chunk>,<contenttweaker:nickel_chunk>,<contenttweaker:nickel_chunk>,<contenttweaker:nickel_chunk>]);
-mods.thaumcraft.Infusion.registerRecipe("aurcobalt", "", <netherendingores:ore_other_1:4>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("aurcobalt", "", <tconstruct:ore>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:netherrack>, 
     [<contenttweaker:cobalt_chunk>,<contenttweaker:cobalt_chunk>,<contenttweaker:cobalt_chunk>,<contenttweaker:cobalt_chunk>]);
 mods.thaumcraft.Infusion.registerRecipe("aururanium", "", <immersiveengineering:ore:5>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:uranium_chunk>,<contenttweaker:uranium_chunk>,<contenttweaker:uranium_chunk>,<contenttweaker:uranium_chunk>]);
@@ -49,21 +49,21 @@ mods.thaumcraft.Infusion.registerRecipe("aursilver", "", <thermalfoundation:ore:
     [<contenttweaker:silver_chunk>,<contenttweaker:silver_chunk>,<contenttweaker:silver_chunk>,<contenttweaker:silver_chunk>]);
 mods.thaumcraft.Infusion.registerRecipe("aurgold", "", <minecraft:gold_ore>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:gold_chunk>,<contenttweaker:gold_chunk>,<contenttweaker:gold_chunk>,<contenttweaker:gold_chunk>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <thermalfoundation:ore:7>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridiumfff", "", <thermalfoundation:ore:7>, 20, [<aspect:metallum> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:iridium_chunk>,<contenttweaker:iridium_chunk>,<contenttweaker:iridium_chunk>,<contenttweaker:iridium_chunk>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <minecraft:diamond_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridiumxx", "", <minecraft:diamond_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:diamond_cluster>,<contenttweaker:diamond_cluster>,<contenttweaker:diamond_cluster>,<contenttweaker:diamond_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <minecraft:emerald_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridiumx", "", <minecraft:emerald_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:emerald_cluster>,<contenttweaker:emerald_cluster>,<contenttweaker:emerald_cluster>,<contenttweaker:emerald_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <biomesoplenty:gem_ore:2>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridiumsdf", "", <biomesoplenty:gem_ore:2>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:peridot_cluster>,<contenttweaker:peridot_cluster>,<contenttweaker:peridot_cluster>,<contenttweaker:peridot_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <appliedenergistics2:quartz_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridiumdsdd", "", <appliedenergistics2:quartz_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:certus_cluster>,<contenttweaker:certus_cluster>,<contenttweaker:certus_cluster>,<contenttweaker:certus_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <appliedenergistics2:charged_quartz_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridiumgggghh", "", <appliedenergistics2:charged_quartz_ore>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:charged_certus_cluster>,<contenttweaker:charged_certus_cluster>,<contenttweaker:charged_certus_cluster>,<contenttweaker:charged_certus_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <biomesoplenty:gem_ore:6>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridium4rthg", "", <biomesoplenty:gem_ore:6>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:sapphire_cluster>,<contenttweaker:sapphire_cluster>,<contenttweaker:sapphire_cluster>,<contenttweaker:sapphire_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <biomesoplenty:gem_ore:1>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridium656", "", <biomesoplenty:gem_ore:1>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:ruby_cluster>,<contenttweaker:ruby_cluster>,<contenttweaker:ruby_cluster>,<contenttweaker:ruby_cluster>]);
-mods.thaumcraft.Infusion.registerRecipe("auriridium", "", <embers:ore_quartz>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
+mods.thaumcraft.Infusion.registerRecipe("auriridium33", "", <embers:ore_quartz>, 20, [<aspect:vitreus> * 8, <aspect:terra> * 5], <minecraft:cobblestone>, 
     [<contenttweaker:quartz_cluster>,<contenttweaker:quartz_cluster>,<contenttweaker:quartz_cluster>,<contenttweaker:quartz_cluster>]);
