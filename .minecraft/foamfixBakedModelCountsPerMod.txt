@@ -32,10 +32,10 @@ ferdinandsflowers: 746
 thaumicaugmentation: 731
 appliedenergistics2: 720
 integrateddynamics: 638
-extrautils2: 621
 openblocks: 595
 thermalfoundation: 584
 projectred: 529
+extrautils2: 519
 dynamictreesphc: 492
 bigreactors: 448
 buildcraftfactory: 447

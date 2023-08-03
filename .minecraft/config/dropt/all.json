@@ -47,120 +47,6 @@
             "match": {
                 "blocks": {
                     "blocks": [
-                        "minecraft:dirt:*"
-                    ]
-                }
-            },
-            "drops": [
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 30
-                        }
-                    }
-                },
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 69
-                        }
-                    },
-                    "item": {
-                        "items": [
-                            "contenttweaker:dirt_clump"
-                        ],
-                        "quantity": {
-                            "min": 1,
-                            "max": 3
-                        }
-                    }
-                },
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 1
-                        }
-                    },
-                    "item": {
-                        "items": [
-                            "minecraft:flint"
-                        ]
-                    }
-                }
-            ]
-        },
-        {
-            "match": {
-                "blocks": {
-                    "blocks": [
-                        "minecraft:sand:*"
-                    ]
-                }
-            },
-            "drops": [
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 20
-                        }
-                    }
-                },
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 80
-                        }
-                    },
-                    "item": {
-                        "items": [
-                            "contenttweaker:sand_pile"
-                        ],
-                        "quantity": {
-                            "min": 1,
-                            "max": 3
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "match": {
-                "blocks": {
-                    "blocks": [
-                        "minecraft:stone:*"
-                    ]
-                }
-            },
-            "drops": [
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 20
-                        }
-                    }
-                },
-                {
-                    "selector": {
-                        "weight": {
-                            "value": 80
-                        }
-                    },
-                    "item": {
-                        "items": [
-                            "contenttweaker:rock"
-                        ],
-                        "quantity": {
-                            "min": 1,
-                            "max": 2
-                        }
-                    }
-                }
-            ]
-        },
-        {
-            "match": {
-                "blocks": {
-                    "blocks": [
                         "minecraft:grass:*"
                     ]
                 }
@@ -176,7 +62,7 @@
                 {
                     "selector": {
                         "weight": {
-                            "value": 69
+                            "value": 30
                         }
                     },
                     "item": {
@@ -185,7 +71,7 @@
                         ],
                         "quantity": {
                             "min": 1,
-                            "max": 5
+                            "max": 3
                         }
                     }
                 },
