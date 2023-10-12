@@ -50,30 +50,6 @@
 			"maximumGroupCount": 4
 		}, 
 		{
-			"entity": "abyssalcraft:demonpig",
-			"spawnWeight": 15,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
-		}, 
-		{
-			"entity": "abyssalcraft:demoncow",
-			"spawnWeight": 15,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
-		}, 
-		{
-			"entity": "abyssalcraft:demonchicken",
-			"spawnWeight": 15,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
-		}, 
-		{
-			"entity": "abyssalcraft:demonsheep",
-			"spawnWeight": 15,
-			"minimumGroupCount": 1,
-			"maximumGroupCount": 3
-		}, 
-		{
 			"entity": "minecraft:blaze",
 			"spawnWeight": 5,
 			"minimumGroupCount": 1,

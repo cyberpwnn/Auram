@@ -102,7 +102,6 @@ biome_boreal_forest - When in the Boreal Forest Biome
 lush_dense - Lots of foliage, & greens
 biome_marsh - When in the Marsh Biome
 biome_seasonal_forest - When in the Seasonal Forest Biome
-dim2 - When in TENT Dimension.
 biome_bog - When in the Bog Biome
 biome_brushland - When in the Brushland Biome
 dim1 - When in the_end Dimension.

@@ -42,7 +42,6 @@ buildcraftfactory: 447
 bloodarsenal: 433
 thaumadditions: 428
 hopperducts: 391
-yurtmod: 385
 buildcraftbuilders: 366
 betteranimalsplus: 361
 thaumicwonders: 318
@@ -60,7 +59,6 @@ ironchest: 155
 arcanearchives: 149
 artisanworktables: 119
 psi: 105
-paragongems: 100
 reccomplex: 96
 netherendingores: 83
 buildcraftcore: 76
@@ -106,8 +104,8 @@ hammercore: 13
 projectred-illumination: 12
 scalinghealth: 9
 lumen: 9
-trashcans: 8
 ta_special: 8
+trashcans: 8
 extraalchemy: 7
 uppers: 7
 betterquesting: 7
@@ -143,9 +141,9 @@ aenetvistool: 1
 baubles: 1
 zerocore: 1
 akashictome: 1
-guideapi: 1
 progressivebosses: 1
 forgemultipartcbe: 1
+guideapi: 1
 minerva: 1
 oeintegration: 1
 simplesmelteryaccelerator: 1
