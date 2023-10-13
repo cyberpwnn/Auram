@@ -93,7 +93,6 @@ biome_redwood_taiga_hills - When in the Mega Taiga Hills Biome
 biome_grassland - When in the Grassland Biome
 biome_redwood_forest_edge - When in the RedwoodForestEdge Biome
 biome_void - When in the The Void Biome
-dim144 - When in CompactMachines Dimension.
 biome_mutated_mesa - When in the Mesa (Bryce) Biome
 light_mid - Middle range light
 biome_mesa_rock - When in the Mesa Plateau F Biome
