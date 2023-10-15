@@ -27,8 +27,8 @@ thaumicaugmentation: 731
 openblocks: 595
 projectred: 529
 dynamictreesphc: 492
+thaumadditions: 473
 bloodarsenal: 433
-thaumadditions: 428
 hopperducts: 391
 buildcraftbuilders: 366
 betteranimalsplus: 361
@@ -46,8 +46,10 @@ reccomplex: 96
 netherendingores: 83
 buildcraftcore: 76
 netherhexedkingdommod: 70
+isorropia: 69
 colossalchests: 67
 bibliocraft: 66
+thaumic_arcana: 63
 signpost: 62
 bountifulbaubles: 58
 densemetals: 54
@@ -61,6 +63,7 @@ conarm: 39
 mowziesmobs: 38
 botanicadds: 32
 tinker_io: 31
+thaumicwands: 28
 contenttweaker: 26
 materialis: 25
 bqmie: 25

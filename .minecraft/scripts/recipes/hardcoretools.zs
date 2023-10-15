@@ -18,13 +18,6 @@ dur(<minecraft:stone_sword>, 0.75);
 dur(<minecraft:stone_hoe>, 0.75);
 dur(<minecraft:stone_shovel>, 0.75);
 
-dur(<thermalfoundation:tool.axe_copper>, 0.6);
-dur(<thermalfoundation:tool.sword_copper>, 0.6);
-dur(<thermalfoundation:tool.hoe_copper>, 0.6);
-dur(<thermalfoundation:tool.shovel_copper>, 0.6);
-dur(<thermalfoundation:tool.pickaxe_copper>, 0.6);
-dur(<thermalfoundation:tool.bow_copper>, 0.6);
-
 dur(<embers:pickaxe_copper>, 0.6);
 dur(<embers:axe_copper>, 0.6);
 dur(<embers:shovel_copper>, 0.6);
@@ -45,11 +38,6 @@ durarmgood(<minecraft:golden_helmet>, 2.55);
 durarmgood(<minecraft:golden_chestplate>, 2.55);
 durarmgood(<minecraft:golden_leggings>, 2.55);
 durarmgood(<minecraft:golden_boots>, 2.55);
-
-durarm(<thermalfoundation:armor.helmet_copper>, 0.6);
-durarm(<thermalfoundation:armor.plate_copper>, 0.6);
-durarm(<thermalfoundation:armor.legs_copper>, 0.6);
-durarm(<thermalfoundation:armor.boots_copper>, 0.6);
 
 durnot(<minecraft:flint_and_steel>, 0.45);
 durnot(<minecraft:shears>, 0.35);

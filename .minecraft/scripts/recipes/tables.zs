@@ -13,7 +13,7 @@ RecipeBuilder.get("engineer")
   .setShaped([
     [<minecraft:redstone>, <conarm:armor_plate>.withTag({Material: "wood"}), <minecraft:redstone>],
     [<conarm:armor_plate>.withTag({Material: "wood"}), <artisanworktables:toolbox>, <conarm:armor_plate>.withTag({Material: "wood"})],
-    [<thermalfoundation:material:24>, <conarm:armor_plate>.withTag({Material: "wood"}), <thermalfoundation:material:24>]])
+    [<ore:plateIron>, <conarm:armor_plate>.withTag({Material: "wood"}), <ore:plateIron>]])
   .addOutput(<artisanworktables:mechanical_toolbox>)
   .create();
 
@@ -289,7 +289,7 @@ RecipeBuilder.get("mage")
   .setShaped([
     [<botania:manaresource:5>, <astralsorcery:itemshiftingstar>.withTag({astralsorcery: {}}), <botania:manaresource:5>],
     [<thaumcraft:ingot:1>, <artisanworktables:workstation:7>, <thaumcraft:ingot:1>],
-    [<draconicevolution:awakened_core>, <bloodarsenal:blood_diamond:2>, <draconicevolution:awakened_core>]])
+    [<thaumcraft:ingot:1>, <bloodarsenal:blood_diamond:2>, <thaumcraft:ingot:1>]])
   .addTool(<ore:artisansGrimoire>, 42)
   .addTool(<ore:artisansQuill>, 69)
   .addOutput(<artisanworktables:workshop:7>)

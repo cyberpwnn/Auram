@@ -1,0 +1,41 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "cyberpwn",
+      "uniqueId": "6a18d83f-7aba-48ad-bd96-fb5b01c2ada6"
+    },
+    "time": 1697323091290,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/Sdhy5x1CVi"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "cyberpwn",
+      "uniqueId": "6a18d83f-7aba-48ad-bd96-fb5b01c2ada6"
+    },
+    "time": 1697322897967,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/auh66qfUSu"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "cyberpwn",
+      "uniqueId": "6a18d83f-7aba-48ad-bd96-fb5b01c2ada6"
+    },
+    "time": 1697322692350,
+    "type": "Heap dump summary",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/wLWbff0hDH"
+    }
+  }
+]
