@@ -1,7 +1,7 @@
 forceFeedback:true
 autoSelect:true
 renderMiniPlayer:false
-virtualMouse:true
+virtualMouse:false
 consoleHotbar:false
 cursorType:light
 controllerType:playstation

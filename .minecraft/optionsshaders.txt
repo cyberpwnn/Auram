@@ -1,5 +1,5 @@
-#Fri May 12 00:14:37 EDT 2023
-shaderPack=Sildur's+Vibrant+Shaders+v1.50+High-MB.zip
+#Thu Oct 19 02:10:45 EDT 2023
+shaderPack=Sildur's+Vibrant+Shaders+v1.51+Lite.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
