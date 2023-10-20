@@ -1,10 +1,10 @@
-#Thu Oct 19 06:44:07 EDT 2023
+#Fri Oct 20 03:27:42 EDT 2023
 shaderPack=BSL_v8.2.03.13d.zip
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
 renderResMul=1.0
-shadowResMul=1.0
+shadowResMul=0.6666667
 handDepthMul=0.125
 cloudShadow=false
 oldHandLight=default

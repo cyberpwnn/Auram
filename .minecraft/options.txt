@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:10
+renderDistance:6
 guiScale:3
 particles:0
 bobView:true
@@ -248,7 +248,7 @@ key_key.pmmo.openSettings:0
 key_key.pmmo.openSkills:0
 key_key.pmmo.openGlossary:0
 soundCategory_master:1.0
-soundCategory_music:0.5070422
+soundCategory_music:0.20422535
 soundCategory_record:1.0
 soundCategory_weather:0.2535211
 soundCategory_block:1.0

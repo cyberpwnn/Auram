@@ -60,7 +60,7 @@ ofRenderRegions:false
 ofSmartAnimations:true
 ofDynamicFov:true
 ofAlternateBlocks:false
-ofDynamicLights:2
+ofDynamicLights:3
 ofScreenshotSize:2
 ofCustomEntityModels:true
 ofCustomGuis:true

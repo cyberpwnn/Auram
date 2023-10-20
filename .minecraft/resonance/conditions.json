@@ -8,7 +8,8 @@
         "Dark/Bane.mp3",
         "FinalStand.mp3",
         "Rise.mp3",
-        "Celtic/ACelticTale.mp3"
+        "Celtic/ACelticTale.mp3",
+        "Frostpunk/Damned Souls.mp3"
       ],
       "priority": 200,
       "sudden": true
@@ -21,7 +22,10 @@
       "mode": "OR",
       "play": [
         "Dark/Fate.mp3",
-        "Dark/Bloodline.mp3"
+        "Frostpunk/Frostpunk Theme.mp3",
+        "Frostpunk/Into The Storm.mp3",
+        "Dark/Bloodline.mp3",
+        "Frostpunk/Cold New Dawn.mp3"
       ],
       "priority": 201
     },
@@ -36,11 +40,14 @@
       ],
       "mode": "AND",
       "play":[
+        "Frostpunk/Cold Nights.mp3",
+        "Frostpunk/Cold World.mp3",
         "Dark/Bloodline.mp3",
         "Dark/Destiny.mp3",
         "Dark/Hierarchy.mp3",
         "Dark/NotMyKing.mp3",
         "Skyrim/SkyrimAtmospheres.mp3",
+        "Frostpunk/New London Ultimatum.mp3",
         "DarkMagic.mp3",
         "Whispers.mp3",
         "Skyrim/AWintersTale.mp3",
@@ -64,10 +71,13 @@
       ],
       "mode": "AND",
       "play":[
+        "Frostpunk/Construction Site.mp3",
         "Skyrim/BeforetheStorm.mp3",
         "Skyrim/IntoDarkness.mp3",
         "Skyrim/Masser.mp3",
-        "Skyrim/TheGatheringStorm.mp3"
+        "Skyrim/TheGatheringStorm.mp3",
+        "Frostpunk/Final Push.mp3",
+        "Frostpunk/First Shipment.mp3"
       ]
     },
     {
@@ -78,7 +88,8 @@
       "mode": "AND",
       "play":[
         "Skyrim/ImperialThrone.mp3",
-        "Skyrim/TheBanneredMare.mp3"
+        "Skyrim/TheBanneredMare.mp3",
+        "Frostpunk/Reaching the Shores.mp3"
       ]
     },
     {
@@ -88,7 +99,9 @@
       "play":[
         "Skyrim/SevenThousandSteps.mp3",
         "Skyrim/StandingStones.mp3",
-        "Skyrim/TheJerallMountains.mp3"
+        "Skyrim/TheJerallMountains.mp3",
+        "Frostpunk/On the Edge Theme.mp3",
+        "Frostpunk/On our Own.mp3"
       ]
     },
     {
@@ -138,7 +151,8 @@
         "Skyrim/OutoftheCold.mp3",
         "DOS2/Meadgoldblood.mp3",
         "Celtic/BreathForest.mp3",
-        "BG3/Dream.mp3"
+        "BG3/Dream.mp3",
+        "Frostpunk/Arrival.mp3"
       ]
     },
     {
@@ -153,7 +167,9 @@
         "Skyrim/Dawn.mp3",
         "Skyrim/Dragonsreach.mp3",
         "Celtic/CliffsOfMoher.mp3",
-        "BG3/Dream.mp3"
+        "Frostpunk/The Shepherd.mp3",
+        "BG3/Dream.mp3",
+        "Frostpunk/Piotr Musial.mp3"
       ]
     },
     {
@@ -164,7 +180,9 @@
       "mode": "AND",
       "play":[
         "Skyrim/Aurora.mp3",
-        "Celtic/KingdomBards.mp3"
+        "Celtic/KingdomBards.mp3",
+        "Frostpunk/Are We Alone.mp3",
+        "Frostpunk/Brave New World.mp3"
       ]
     },
     {
@@ -180,7 +198,8 @@
         "Skyrim/KynesPeace.mp3",
         "Skyrim/JourneysEnd.mp3",
         "Skyrim/ShatteredShields.mp3",
-        "Skyrim/SilenceUnbroken.mp3"
+        "Skyrim/SilenceUnbroken.mp3",
+        "Frostpunk/Streets Of New London.mp3"
       ]
     },
     {
@@ -192,9 +211,12 @@
       "mode": "OR",
       "play":[
         "Dark/PowerFromPain.mp3",
+        "Frostpunk/The Darkest Of Days.mp3",
+        "Frostpunk/Streets Of New London.mp3",
         "Dark/Prison.mp3",
         "Dark/SummonOfTheFallens.mp3",
         "Dark/TheBeastWithin.mp3",
+        "Frostpunk/The Last Flame.mp3",
         "DOS2/ATearInTheVeil.mp3",
         "DOS2/EmbraceoftheDeathfog.mp3",
         "Skyrim/BeneaththeIce.mp3",
@@ -219,9 +241,11 @@
         "Dark/SummonOfTheFallens.mp3",
         "Dark/TheBeastWithin.mp3",
         "Dark/Bloodline.mp3",
+        "Frostpunk/The Last Autumn Theme.mp3",
         "Dark/Destiny.mp3",
         "Dark/Hierarchy.mp3",
-        "Dark/NotMyKing.mp3"
+        "Dark/NotMyKing.mp3",
+        "Frostpunk/Price of Progress.mp3"
       ]
     },
     {
@@ -234,6 +258,8 @@
       "mode": "OR",
       "play":[
         "DOS2/DancingWithTheSource.mp3",
+        "Frostpunk/The City Must Survive.mp3",
+        "Frostpunk/The Inevitable.mp3",
         "Skyrim/BloodandSteel.mp3",
         "Skyrim/CaughtOffGuard.mp3",
         "Skyrim/DeathorSovngarde.mp3",
