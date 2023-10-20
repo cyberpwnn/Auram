@@ -64,7 +64,6 @@ mowziesmobs: 38
 botanicadds: 32
 tinker_io: 31
 thaumicwands: 28
-contenttweaker: 26
 materialis: 25
 bqmie: 25
 plustic: 23
