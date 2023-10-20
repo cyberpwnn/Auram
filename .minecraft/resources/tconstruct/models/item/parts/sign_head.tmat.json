@@ -1,9 +1,0 @@
-{
-    "textures": {
-        "layer0": "tconstruct:items/parts/sign_head"
-    },
-    "offset": {
-        "x": 0,
-        "y": 0
-    }
-}
