@@ -1,10 +1,10 @@
-#Fri Oct 20 05:19:49 EDT 2023
+#Fri Oct 27 14:29:47 EDT 2023
 shaderPack=Auram
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
 renderResMul=1.0
-shadowResMul=0.6666667
+shadowResMul=1.0
 handDepthMul=0.125
 cloudShadow=false
 oldHandLight=default

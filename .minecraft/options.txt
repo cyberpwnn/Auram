@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:[]
+resourcePacks:["Auram"]
 incompatibleResourcePacks:[]
 lastServer:8.48.33.248:13264
 lang:en_us
@@ -95,14 +95,6 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_arcanearchives.gui.keybinds.manifest:0
-key_quark.keybind.lockBuilding:37
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +114,14 @@ key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -131,7 +131,7 @@ key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
 key_keybind.hammercorerenderstack:77
-key_Open Menu:25
+key_Open Menu:181
 key_Toggle Freeze Effect:19
 key_Enable/Disable:0
 key_Kill Particles:0
@@ -248,7 +248,7 @@ key_key.pmmo.openSettings:0
 key_key.pmmo.openSkills:0
 key_key.pmmo.openGlossary:0
 soundCategory_master:0.7
-soundCategory_music:0.20422535
+soundCategory_music:0.4084507
 soundCategory_record:1.0
 soundCategory_weather:0.2535211
 soundCategory_block:1.0
