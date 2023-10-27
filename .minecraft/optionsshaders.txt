@@ -1,5 +1,5 @@
 #Fri Oct 20 05:19:49 EDT 2023
-shaderPack=BSL_v8.2.03.13d.zip
+shaderPack=Auram
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true
