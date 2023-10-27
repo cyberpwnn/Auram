@@ -1,5 +1,11 @@
 import mods.inworldcrafting.FluidToItem;
+import mods.inworldcrafting.FireCrafting;
+import mods.inworldcrafting.ExplosionCrafting;
 import mods.thaumcraft.SalisMundus;
+
+// Make Charcoal
+FireCrafting.addRecipe(<minecraft:coal:1>, <ore:logWood>, 20);
+FireCrafting.addRecipe(<minecraft:glass>, <ore:sand>, 40);
 
 // Sand from sandstone
 FluidToItem.transform(<minecraft:sand> * 3, <liquid:water>, [<ore:sandstone>], false);
@@ -7,74 +13,81 @@ FluidToItem.transform(<minecraft:sand> * 3, <liquid:water>, [<ore:sandstone>], f
 // Paper from sawdust
 FluidToItem.transform(<minecraft:paper> * 5, <liquid:water>, [<ore:dustWood>], false);
 
+// Marble creation
+FluidToItem.transform(<astralsorcery:blockmarble> * 2, <liquid:stone>, [<ore:stoneAndesite>, <ore:stoneDiorite>], false);
+
+// Seared
+FluidToItem.transform(<tconstruct:seared:1>, <liquid:lava>, [<ore:cobblestone>], false);
+FluidToItem.transform(<tconstruct:seared>, <liquid:lava>, [<ore:stone>], false);
+
 // Boom Steel
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 35);
+ExplosionCrafting.explodeItemRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 50);
 
 // Boom Bloom
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<midnight:bloomcrystal> * 3, <midnight:bloomcrystal_rock>, 75);
+ExplosionCrafting.explodeItemRecipe(<midnight:bloomcrystal> * 3, <midnight:bloomcrystal_rock>, 75);
 
 // Coal to silicon
-mods.inworldcrafting.ExplosionCrafting.explodeItemRecipe(<ore:itemSilicon>.firstItem, <ore:itemCoal>, 45);
+ExplosionCrafting.explodeItemRecipe(<ore:itemSilicon>.firstItem, <ore:itemCoal>, 45);
 
 // Tailors Upgrade
-SalisMundus.addSingleConversion(<artisanworktables:worktable>, <artisanworktables:workstation>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation>, <artisanworktables:workshop>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable>, <artisanworktables:workstation>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation>, <artisanworktables:workshop>, 1000);
 
 // Carpenter Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:1>, <artisanworktables:workstation:1>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:1>, <artisanworktables:workshop:1>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:1>, <artisanworktables:workstation:1>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:1>, <artisanworktables:workshop:1>, 1000);
 
 // Mason Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:2>, <artisanworktables:workstation:2>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:2>, <artisanworktables:workshop:2>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:2>, <artisanworktables:workstation:2>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:2>, <artisanworktables:workshop:2>, 1000);
 
 // Blacksmith Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:3>, <artisanworktables:workstation:3>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:3>, <artisanworktables:workshop:3>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:3>, <artisanworktables:workstation:3>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:3>, <artisanworktables:workshop:3>, 1000);
 
 // Jewlers Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:4>, <artisanworktables:workstation:4>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:4>, <artisanworktables:workshop:4>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:4>, <artisanworktables:workstation:4>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:4>, <artisanworktables:workshop:4>, 1000);
 
 // Worktable Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:5>, <artisanworktables:workstation:5>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:5>, <artisanworktables:workshop:5>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:5>, <artisanworktables:workstation:5>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:5>, <artisanworktables:workshop:5>, 1000);
 
 // Engineers Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:6>, <artisanworktables:workstation:6>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:6>, <artisanworktables:workshop:6>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:6>, <artisanworktables:workstation:6>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:6>, <artisanworktables:workshop:6>, 1000);
 
 // Mages Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:7>, <artisanworktables:workstation:7>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:7>, <artisanworktables:workshop:7>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:7>, <artisanworktables:workstation:7>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:7>, <artisanworktables:workshop:7>, 1000);
 
 // Scribe Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:8>, <artisanworktables:workstation:8>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:8>, <artisanworktables:workshop:8>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:8>, <artisanworktables:workstation:8>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:8>, <artisanworktables:workshop:8>, 1000);
 
 // Chemists Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:9>, <artisanworktables:workstation:9>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:9>, <artisanworktables:workshop:9>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:9>, <artisanworktables:workstation:9>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:9>, <artisanworktables:workshop:9>, 1000);
 
 // Farmers Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:10>, <artisanworktables:workstation:10>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:10>, <artisanworktables:workshop:10>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:10>, <artisanworktables:workstation:10>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:10>, <artisanworktables:workshop:10>, 1000);
 
 // Chefs Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:11>, <artisanworktables:workstation:11>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:11>, <artisanworktables:workshop:11>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:11>, <artisanworktables:workstation:11>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:11>, <artisanworktables:workshop:11>, 1000);
 
 // Designers Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:12>, <artisanworktables:workstation:12>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:12>, <artisanworktables:workshop:12>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:12>, <artisanworktables:workstation:12>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:12>, <artisanworktables:workshop:12>, 1000);
 
 // Tanners Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:13>, <artisanworktables:workstation:13>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:13>, <artisanworktables:workshop:13>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:13>, <artisanworktables:workstation:13>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:13>, <artisanworktables:workshop:13>, 1000);
 
 // Potters Upgrades
-SalisMundus.addSingleConversion(<artisanworktables:worktable:14>, <artisanworktables:workstation:14>);
-SalisMundus.addSingleConversion(<artisanworktables:workstation:14>, <artisanworktables:workshop:14>);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:worktable:14>, <artisanworktables:workstation:14>, 1000);
+mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation:14>, <artisanworktables:workshop:14>, 1000);
 
 // Catalyst Swapping
 SalisMundus.addSingleConversion(<botania:alchemycatalyst>, <botania:conjurationcatalyst>);
@@ -83,28 +96,28 @@ SalisMundus.addSingleConversion(<botanicadds:terra_catalyst>, <extrabotany:dimen
 SalisMundus.addSingleConversion(<extrabotany:dimensioncatalyst>, <botania:alchemycatalyst>);
 
 // Plank Swapping
-SalisMundus.addSingleConversion(<minecraft:planks>, <minecraft:planks:1>);
-SalisMundus.addSingleConversion(<minecraft:planks:1>, <minecraft:planks:2>);
-SalisMundus.addSingleConversion(<minecraft:planks:2>, <minecraft:planks:3>);
-SalisMundus.addSingleConversion(<minecraft:planks:3>, <minecraft:planks:4>);
-SalisMundus.addSingleConversion(<minecraft:planks:4>, <minecraft:planks:5>);
-SalisMundus.addSingleConversion(<minecraft:planks:5>, <minecraft:planks>);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:planks>, <minecraft:planks:1>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:planks:1>, <minecraft:planks:2>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:planks:2>, <minecraft:planks:3>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:planks:3>, <minecraft:planks:4>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:planks:4>, <minecraft:planks:5>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:planks:5>, <minecraft:planks>, 250);
 
 // Slab Swapping
-SalisMundus.addSingleConversion(<minecraft:wooden_slab>, <minecraft:wooden_slab:1>);
-SalisMundus.addSingleConversion(<minecraft:wooden_slab:1>, <minecraft:wooden_slab:2>);
-SalisMundus.addSingleConversion(<minecraft:wooden_slab:2>, <minecraft:wooden_slab:3>);
-SalisMundus.addSingleConversion(<minecraft:wooden_slab:3>, <minecraft:wooden_slab:4>);
-SalisMundus.addSingleConversion(<minecraft:wooden_slab:4>, <minecraft:wooden_slab:5>);
-SalisMundus.addSingleConversion(<minecraft:wooden_slab:5>, <minecraft:wooden_slab>);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:wooden_slab>, <minecraft:wooden_slab:1>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:wooden_slab:1>, <minecraft:wooden_slab:2>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:wooden_slab:2>, <minecraft:wooden_slab:3>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:wooden_slab:3>, <minecraft:wooden_slab:4>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:wooden_slab:4>, <minecraft:wooden_slab:5>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:wooden_slab:5>, <minecraft:wooden_slab>, 250);
 
 // Log Swapping
-SalisMundus.addSingleConversion(<minecraft:log>, <minecraft:log:1>);
-SalisMundus.addSingleConversion(<minecraft:log:1>, <minecraft:log:2>);
-SalisMundus.addSingleConversion(<minecraft:log:2>, <minecraft:log:3>);
-SalisMundus.addSingleConversion(<minecraft:log:3>, <minecraft:log2>);
-SalisMundus.addSingleConversion(<minecraft:log2>, <minecraft:log2:1>);
-SalisMundus.addSingleConversion(<minecraft:log2:1>, <minecraft:log>);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log>, <minecraft:log:1>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log:1>, <minecraft:log:2>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log:2>, <minecraft:log:3>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log:3>, <minecraft:log2>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log2>, <minecraft:log2:1>, 250);
+mods.botania.ManaInfusion.addAlchemy(<minecraft:log2:1>, <minecraft:log>, 250);
 
 // Stair Swapping
 SalisMundus.addSingleConversion(<minecraft:oak_stairs>, <minecraft:spruce_stairs>);
@@ -130,13 +143,15 @@ SalisMundus.addSingleConversion(<minecraft:jungle_fence_gate>, <minecraft:acacia
 SalisMundus.addSingleConversion(<minecraft:acacia_fence_gate>, <minecraft:dark_oak_fence_gate>);
 SalisMundus.addSingleConversion(<minecraft:dark_oak_fence_gate>, <minecraft:fence_gate>);
 
+// Nature stuff
 SalisMundus.addSingleConversion(<ore:grass>, <minecraft:mycelium>);
 SalisMundus.addSingleConversion(<ore:dirt>, <biomesoplenty:dirt>);
 SalisMundus.addSingleConversion(<minecraft:melon_block>, <minecraft:pumpkin>);
 SalisMundus.addSingleConversion(<minecraft:pumpkin>, <minecraft:lit_pumpkin>);
 
+// Quartz to radiant
 SalisMundus.addSingleConversion(<ore:blockQuartz>, <arcanearchives:storage_raw_quartz>);
-
+SalisMundus.addSingleConversion(<arcanearchives:storage_raw_quartz>, <minecraft:quartz_block>);
 
 
 // Enven Trades
