@@ -4,12 +4,12 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:6
+renderDistance:16
 guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:260
+maxFps:60
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -26,7 +26,7 @@ chatLinksPrompt:true
 chatOpacity:1.0
 snooperEnabled:true
 fullscreen:false
-enableVsync:true
+enableVsync:false
 useVbo:false
 hideServerAddress:false
 advancedItemTooltips:true
@@ -95,7 +95,6 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_arcanearchives.gui.keybinds.manifest:0
-key_quark.keybind.toggleAutojump:48
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -103,6 +102,7 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
 key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
@@ -202,6 +202,13 @@ key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
 key_waila.keybind.recipe:81
 key_waila.keybind.usage:75
+key_key.effortlessbuilding.hud.desc:78
+key_key.effortlessbuilding.replace.desc:0
+key_key.effortlessbuilding.creative.desc:0
+key_key.effortlessbuilding.mode.desc:56
+key_key.effortlessbuilding.undo.desc:0
+key_key.effortlessbuilding.redo.desc:0
+key_key.effortlessbuilding.altplacement.desc:29
 key_FpsReducer.key.guiOpen:207
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0

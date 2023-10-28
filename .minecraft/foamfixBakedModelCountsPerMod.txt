@@ -9,6 +9,7 @@ tconstruct: 2971
 twilightforest: 2895
 absentbydesign: 2644
 biomesoplenty: 2640
+artisanworkstumps: 2568
 midnight: 2039
 harvestcraft: 2020
 dungeons2: 1944
@@ -21,8 +22,8 @@ forbidden_arcanus: 1048
 rustic: 966
 betternether: 958
 aether_legacy: 917
+futuremc: 891
 theaurorian: 800
-ferdinandsflowers: 746
 thaumicaugmentation: 731
 openblocks: 595
 projectred: 529
@@ -38,6 +39,7 @@ thaumicbases: 295
 astralsorcery: 288
 immersivepetroleum: 176
 extrabotany: 175
+artisanautomation: 171
 ironchest: 155
 arcanearchives: 149
 artisanworktables: 119
@@ -89,6 +91,7 @@ tinkersaddons: 5
 microblockcbe: 5
 supersoundmuffler: 4
 snad: 4
+effortlessbuilding: 4
 qualitytools: 4
 heartdrops: 4
 bloodtinker: 4
