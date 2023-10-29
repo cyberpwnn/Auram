@@ -250,7 +250,7 @@ key_key.pmmo.openSettings:0
 key_key.pmmo.openSkills:0
 key_key.pmmo.openGlossary:0
 soundCategory_master:0.7
-soundCategory_music:0.5
+soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:0.2535211
 soundCategory_block:1.0

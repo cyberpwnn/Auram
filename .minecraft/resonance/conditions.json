@@ -21,6 +21,7 @@
       ],
       "mode": "OR",
       "play": [
+        "RPG/Awaken.mp3",
         "Dark/Fate.mp3",
         "Frostpunk/Frostpunk Theme.mp3",
         "Frostpunk/Into The Storm.mp3",
@@ -88,6 +89,8 @@
       ],
       "mode": "AND",
       "play":[
+        "RPG/Thoght.mp3",
+        "RPG/Den.mp3",
         "Skyrim/ImperialThrone.mp3",
         "Skyrim/TheBanneredMare.mp3",
         "Frostpunk/Reaching the Shores.mp3"
@@ -102,7 +105,8 @@
         "Skyrim/StandingStones.mp3",
         "Skyrim/TheJerallMountains.mp3",
         "Frostpunk/On the Edge Theme.mp3",
-        "Frostpunk/On our Own.mp3"
+        "Frostpunk/On our Own.mp3",
+        ""
       ]
     },
     {
@@ -116,6 +120,7 @@
       ],
       "mode": "AND",
       "play":[
+        "RPG/Rest.mp3",
         "Skyrim/Awake.mp3",
         "Skyrim/Dawn.mp3",
         "Summertide.mp3",
@@ -164,6 +169,7 @@
       ],
       "mode": "OR",
       "play":[
+        "RPG/Watchtower.mp3",
         "Skyrim/Aurora.mp3",
         "Skyrim/Dawn.mp3",
         "Skyrim/Dragonsreach.mp3",
@@ -183,6 +189,8 @@
         "Skyrim/Aurora.mp3",
         "Celtic/KingdomBards.mp3",
         "Frostpunk/Are We Alone.mp3",
+        "RPG/Rise.mp3",
+        "RPG/Angels.mp3",
         "Frostpunk/Brave New World.mp3"
       ]
     },
@@ -211,12 +219,14 @@
       ],
       "mode": "OR",
       "play":[
+        "RPG/Banshee.mp3",
         "Dark/PowerFromPain.mp3",
         "Frostpunk/The Darkest Of Days.mp3",
         "Frostpunk/Streets Of New London.mp3",
         "Dark/Prison.mp3",
         "Dark/SummonOfTheFallens.mp3",
         "Dark/TheBeastWithin.mp3",
+        "RPG/Descent.mp3",
         "Frostpunk/The Last Flame.mp3",
         "DOS2/ATearInTheVeil.mp3",
         "DOS2/EmbraceoftheDeathfog.mp3",
@@ -228,12 +238,23 @@
         "Skyrim/TowersandShadows.mp3",
         "Yggdrasil/Chasms.mp3",
         "Yggdrasil/Drakhuvud.mp3",
-        "Yggdrasil/Vida.mp3"
+        "Yggdrasil/Vida.mp3",
+        "RPG/Terraforming.mp3"
       ]
     },
     {
       "when":[
-          "dim-23"
+          "biome_ocean"
+      ],
+      "priority": 50,
+      "mode": "OR",
+      "play":[
+        "RPG/Voyage.mp3"
+      ]
+    },
+    {
+      "when":[
+          "dim-1"
       ],
       "mode": "OR",
       "play":[
@@ -244,9 +265,34 @@
         "Dark/Bloodline.mp3",
         "Frostpunk/The Last Autumn Theme.mp3",
         "Dark/Destiny.mp3",
+        "RPG/Infernal.mp3",
         "Dark/Hierarchy.mp3",
         "Dark/NotMyKing.mp3",
         "Frostpunk/Price of Progress.mp3"
+      ]
+    },
+    {
+      "priority": 150,
+      "sudden": true,
+      "when":[
+          "combat",
+          "height_high|height_sohigh"
+      ],
+      "mode": "AND",
+      "play":[
+        "RPG/Lift.mp3"
+      ]
+    },
+    {
+      "priority": 150,
+      "sudden": true,
+      "when":[
+          "combat",
+          "height_bedrock|height_low"
+      ],
+      "mode": "AND",
+      "play":[
+        "RPG/Whirlpool.mp3"
       ]
     },
     {
