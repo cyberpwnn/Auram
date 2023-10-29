@@ -15,7 +15,7 @@ difficulty:2
 fancyGraphics:true
 ao:2
 renderClouds:false
-resourcePacks:["Auram"]
+resourcePacks:[]
 incompatibleResourcePacks:[]
 lastServer:8.48.33.248:13264
 lang:en_us
@@ -95,15 +95,6 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_arcanearchives.gui.keybinds.manifest:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -122,6 +113,15 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.toggleAutojump:48
 key_key.betterfoliage.gui:66
 key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
@@ -160,9 +160,6 @@ key_keys.servertabinfo.show:29
 key_keys.servertabinfo.show2:157
 key_key.toastcontrol.clear:36
 key_walljump.key.walljump:42
-key_Strip World:211
-key_Dress World:210
-key_Inspect Block:199
 key_key.dismount:42
 key_smoothfont.key.guiOpen:199
 key_key.jei.toggleOverlay:24:CONTROL
@@ -176,7 +173,6 @@ key_key.jei.previousPage:201
 key_key.jei.nextPage:209
 key_key.jei.bookmark:30
 key_key.jei.toggleBookmarkOverlay:0
-key_key.aether.accessory_menu:23
 key_key.craftingtweaks.rotate:0
 key_key.craftingtweaks.rotate_counter_clockwise:0
 key_key.craftingtweaks.balance:0
@@ -254,7 +250,7 @@ key_key.pmmo.openSettings:0
 key_key.pmmo.openSkills:0
 key_key.pmmo.openGlossary:0
 soundCategory_master:0.7
-soundCategory_music:0.4084507
+soundCategory_music:0.5
 soundCategory_record:1.0
 soundCategory_weather:0.2535211
 soundCategory_block:1.0

@@ -1,0 +1,15 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "cyberpwn",
+      "uniqueId": "6a18d83f-7aba-48ad-bd96-fb5b01c2ada6"
+    },
+    "time": 1698509280838,
+    "type": "Profiler",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/G0yB7AbU3u"
+    }
+  }
+]
