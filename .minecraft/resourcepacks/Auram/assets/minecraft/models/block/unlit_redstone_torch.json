@@ -1,8 +1,0 @@
-{
-    "__comment": "Lesdmark - 2019",
-    "parent": "block/redstone_torch",
-    "textures": {
-        "redstone_torch": "blocks/redstone_torch",
-        "particle": "blocks/redstone_torch_particle"
-    }
-}
