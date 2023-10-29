@@ -41,6 +41,7 @@
       "mode": "AND",
       "play":[
         "Frostpunk/Cold Nights.mp3",
+        "RPG/Attic.mp3",
         "Frostpunk/Cold World.mp3",
         "Dark/Bloodline.mp3",
         "Dark/Destiny.mp3",
@@ -257,6 +258,7 @@
       ],
       "mode": "OR",
       "play":[
+        "RPG/Infiltration.mp3",
         "DOS2/DancingWithTheSource.mp3",
         "Frostpunk/The City Must Survive.mp3",
         "Frostpunk/The Inevitable.mp3",
