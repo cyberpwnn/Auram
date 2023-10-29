@@ -7,6 +7,9 @@ import mods.thaumcraft.SalisMundus;
 FireCrafting.addRecipe(<minecraft:coal:1>, <ore:logWood>, 20);
 FireCrafting.addRecipe(<minecraft:glass>, <ore:sand>, 40);
 
+// Common Smelting
+FireCrafting.addRecipe(<minecraft:stone>, <minecraft:cobblestone>, 40);
+
 // Sand from sandstone
 FluidToItem.transform(<minecraft:sand> * 3, <liquid:water>, [<ore:sandstone>], false);
 
@@ -22,9 +25,6 @@ FluidToItem.transform(<tconstruct:seared>, <liquid:lava>, [<ore:stone>], false);
 
 // Boom Steel
 ExplosionCrafting.explodeItemRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 50);
-
-// Boom Bloom
-ExplosionCrafting.explodeItemRecipe(<midnight:bloomcrystal> * 3, <midnight:bloomcrystal_rock>, 75);
 
 // Coal to silicon
 ExplosionCrafting.explodeItemRecipe(<ore:itemSilicon>.firstItem, <ore:itemCoal>, 45);
@@ -165,7 +165,6 @@ mods.botania.ElvenTrade.addRecipe([<botania:brewvial>.withTag({brewKey: "onefora
 mods.botania.ElvenTrade.addRecipe([<minecraft:melon_block>], [<minecraft:pumpkin>]);
 mods.botania.ElvenTrade.addRecipe([<minecraft:pumpkin>], [<minecraft:lit_pumpkin>]);
 mods.botania.ElvenTrade.addRecipe([<minecraft:speckled_melon>], [<minecraft:melon>]);
-mods.botania.ElvenTrade.addRecipe([<thaumcraft:charm_undying>], [<atum:scarab>]);
 
 // Mana Powder into Salis Mundus
 mods.botania.ManaInfusion.addConjuration(<thaumcraft:salis_mundus>, <ore:powderMana>, 5000);
@@ -192,8 +191,8 @@ mods.botania.ManaInfusion.addConjuration(<tconstruct:clear_stained_glass:15>, <m
 mods.botania.ManaInfusion.addConjuration(<arcanearchives:raw_quartz>, <ore:gemQuartz>, 2500);
 
 // Steak Tree
-mods.botania.ManaInfusion.addAlchemy(<twilightforest:cooked_venison>, <minecraft:cooked_beef>,               10);
-mods.botania.ManaInfusion.addAlchemy(<thaumic_arcana:slime_meat_cooked>, <twilightforest:cooked_venison>,    100);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:cornedbeefitem>, <minecraft:cooked_beef>,                 10);
+mods.botania.ManaInfusion.addAlchemy(<thaumic_arcana:slime_meat_cooked>, <harvestcraft:cornedbeefitem>,      100);
 mods.botania.ManaInfusion.addAlchemy(<harvestcraft:cheesesteakitem>, <thaumic_arcana:slime_meat_cooked>,     1000);
 mods.botania.ManaInfusion.addAlchemy(<harvestcraft:steakfajitaitem>, <harvestcraft:cheesesteakitem>,         10000);
 mods.botania.ManaInfusion.addAlchemy(<harvestcraft:salisburysteakitem>, <harvestcraft:steakfajitaitem>,      100000);
