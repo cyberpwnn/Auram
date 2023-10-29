@@ -88,13 +88,14 @@
         "inside",
         "light_bright"
       ],
+      "priority": 25,
       "mode": "AND",
       "play":[
         "RPG/Thoght.mp3",
         "RPG/Den.mp3",
         "Skyrim/ImperialThrone.mp3",
         "Skyrim/TheBanneredMare.mp3",
-        "Frostpunk/Reaching the Shores.mp3"
+        "Frostpunk/Reaching the Shores.mp3" 
       ]
     },
     {
@@ -124,6 +125,7 @@
         "RPG/Rest.mp3",
         "Skyrim/Awake.mp3",
         "Skyrim/Dawn.mp3",
+        "RPG/Elf.mp3",
         "Summertide.mp3",
         "Skyrim/DistantHorizons.mp3",
         "Skyrim/FarHorizons.mp3",
@@ -160,6 +162,7 @@
         "DOS2/Meadgoldblood.mp3",
         "Celtic/BreathForest.mp3",
         "BG3/Dream.mp3",
+        "RPG/Begin.mp3",
         "Frostpunk/Arrival.mp3"
       ]
     },
