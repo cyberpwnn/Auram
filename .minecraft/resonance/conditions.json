@@ -154,6 +154,7 @@
       "play":[
         "Skyrim/AChanceMeeting.mp3",
         "Skyrim/AncientStones.mp3",
+        "RPG/Bridge.mp3",
         "Skyrim/OutoftheCold.mp3",
         "DOS2/Meadgoldblood.mp3",
         "Celtic/BreathForest.mp3",
@@ -190,6 +191,7 @@
         "Celtic/KingdomBards.mp3",
         "Frostpunk/Are We Alone.mp3",
         "RPG/Rise.mp3",
+        "RPG/Troll.mp3",
         "RPG/Angels.mp3",
         "Frostpunk/Brave New World.mp3"
       ]
@@ -292,7 +294,8 @@
       ],
       "mode": "AND",
       "play":[
-        "RPG/Whirlpool.mp3"
+        "RPG/Whirlpool.mp3",
+        "RPG/Troll.mp3"
       ]
     },
     {
