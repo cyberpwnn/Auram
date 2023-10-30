@@ -9069,13 +9069,6 @@ betternether:wart_seed#facing=south
 betternether:wart_seed#facing=up
 betternether:wart_seed#facing=west
 betternether:wart_seed#inventory
-betterquesting:guide_book#inventory
-betterquesting:heart_full#inventory
-betterquesting:heart_half#inventory
-betterquesting:heart_quarter#inventory
-betterquesting:placeholder#inventory
-betterquesting:submit_station#inventory
-betterquesting:submit_station#normal
 bibliocraft:armorstand#normal
 bibliocraft:atlasbook#normal
 bibliocraft:bell#normal

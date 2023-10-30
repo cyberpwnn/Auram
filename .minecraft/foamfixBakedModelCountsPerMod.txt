@@ -80,7 +80,6 @@ ta_special: 8
 trashcans: 8
 extraalchemy: 7
 uppers: 7
-betterquesting: 7
 playerhopper: 6
 bountiful: 6
 watercan: 5
@@ -111,10 +110,10 @@ akashictome: 1
 progressivebosses: 1
 forgemultipartcbe: 1
 guideapi: 1
-minerva: 1
 oeintegration: 1
 manavisualizer: 1
 gbook: 1
+minerva: 1
 forge: 1
 solcarrot: 1
 projectred-integration: 1

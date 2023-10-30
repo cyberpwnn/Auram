@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:16
+renderDistance:6
 guiScale:3
 particles:0
 bobView:true
@@ -95,8 +95,15 @@ key_key.configurator_mode.desc:47
 key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_arcanearchives.gui.keybinds.manifest:0
-key_quark.keybind.lockBuilding:37
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:44
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -115,15 +122,7 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.dropoff:0
-key_quark.keybind.changeHotbar:44
-key_quark.keybind.chestSort:0
-key_quark.keybind.chestDropoff:0
-key_quark.keybind.chestMerge:0
-key_quark.keybind.chestRestock:0
-key_quark.keybind.chestExtract:0
 key_key.betterfoliage.gui:66
-key_key.betterquesting.quests:41
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
 key_bloodmagic.keybind.cycle_holding_neg:12:SHIFT
@@ -189,7 +188,6 @@ key_key.craftingtweaks.decompressAll:0
 key_key.craftingtweaks.refill_last:15
 key_key.craftingtweaks.refill_last_stack:15
 key_nei.options.keys.gui.botania_corporea_request:0
-key_bqtweaker.key.pageback:14
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
 key_key.cofh.multimode:47
@@ -209,6 +207,7 @@ key_FpsReducer.key.guiOpen:207
 key_key.immersiveengineering.magnetEquip:31
 key_key.immersiveengineering.chemthrowerSwitch:0
 key_invtweaks.key.sort:19
+key_key.turntable.description.endturn:207
 key_key.plustic_release_entity.desc:11
 key_key.plustic_toggle_gui.desc:23
 key_key.plustic_set_portal.desc:49
@@ -221,7 +220,6 @@ key_key.submode:0
 key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
-key_key.turntable.description.endturn:78
 key_wi-zoom.zoom:47
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12

@@ -1176,12 +1176,12 @@ harvestcraft:pumpkincheesecake: 8
 quark:leaf_carpet: 8
 ironchest:iron_shulker_box_cyan: 8
 quark:world_stone_pavement: 8
-biomesoplenty:gem_block: 8
 ironchest:iron_shulker_box_brown: 8
 abyssalcraft:ritualaltar: 8
 harvestcraft:cheesecake: 8
 harvestcraft:cherrycheesecake: 8
 harvestcraft:carrotcake: 8
+biomesoplenty:gem_block: 8
 minecraft:cake: 8
 tconstruct:brownstone_slab2: 8
 netherex:possessed_soul_sand: 8
@@ -3170,7 +3170,6 @@ minecraft:reeds: 2
 minecraft:red_tulip: 2
 thaumadditions:mithrillium_block: 2
 abyssalcraft:dghead: 2
-betterquesting:submit_station: 2
 embers:seed_dawnstone: 2
 minecraft:noteblock: 2
 taiga:dilithium_ore: 2
@@ -5623,7 +5622,6 @@ netherex:lively_netherrack: 1
 bibliocraft:lampgold: 1
 harvestcraft:potatochipsitem: 1
 minecraft:dye_red: 1
-betterquesting:placeholder: 1
 abyssalcraft:dreadiumsamurailegs: 1
 immersiveengineering:drillhead/iron: 1
 artisanworktables:artisans_hatchet: 1
@@ -6796,7 +6794,6 @@ harvestcraft:persimmonjellyitem: 1
 taiga:ovium_nugget: 1
 biomesoplenty:ethereal_leaves: 1
 thaumcraft:block/jar_void_25: 1
-betterquesting:heart_quarter: 1
 quark:soul_powder: 1
 harvestcraft:southernstylebreakfastitem: 1
 netherex:black_salamander_hide_leggings: 1
@@ -6810,7 +6807,6 @@ thaumcraft:seal_empty_advanced: 1
 harvestcraft:sweetpotatopieitem: 1
 harvestcraft:meatfeastpizzaitem: 1
 bountifulbaubles:ringflywheel: 1
-betterquesting:heart_half: 1
 harvestcraft:tomatosoupitem: 1
 thaumadditions:vis_pod: 1
 harvestcraft:gourmetporkburgeritem: 1
@@ -7364,6 +7360,7 @@ harvestcraft:nachoesitem: 1
 botania:itemblock/mushroom_silver: 1
 biomesoplenty:hellbark_wood_slab: 1
 abyssalcraft:item/scroll_moderate_inscribed: 1
+forbidden_arcanus:draco_arcanus_pickaxe: 1
 harvestcraft:durianmilkshakeitem: 1
 thaumicwonders:item/flying_carpet_yellow: 1
 artisanworktables:artisans_compass: 1
@@ -8433,7 +8430,6 @@ psi:exosuit_sensor_stress: 1
 embers:shovel_bronze: 1
 botania:fakeair: 1
 thaumadditions:seal_symbol: 1
-betterquesting:guide_book: 1
 embers:ember_cluster: 1
 thaumicaugmentation:impulse_cannon_railgun: 1
 harvestcraft:pavlovaitem: 1
@@ -8477,7 +8473,6 @@ quark:witch_hat: 1
 harvestcraft:surfandturfitem: 1
 biomesoplenty:chiseled_white_sandstone: 1
 botania:holycloak: 1
-betterquesting:heart_full: 1
 taiga:meteorite_ingot: 1
 taiga:abyssum_ingot: 1
 harvestcraft:cottonseeditem: 1
@@ -9378,7 +9373,6 @@ loreexpansion:lore_scrap: 1
 forbidden_arcanus:pixi: 1
 biomesoplenty:amethyst_ore: 1
 harvestcraft:kiwijellyitem: 1
-forbidden_arcanus:draco_arcanus_pickaxe: 1
 botania:thornchakram0: 1
 minecraft:leather: 1
 extrabotany:shadowium: 1

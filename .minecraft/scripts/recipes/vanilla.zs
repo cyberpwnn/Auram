@@ -55,3 +55,77 @@ RecipeBuilder.get("mason")
   .addTool(<ore:artisansHammer>, 4)
   .addOutput(<futuremc:smoker>)
   .create();
+
+recipes.remove(<botania:pool>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<botania:livingrock>, null, <botania:livingrock>],
+    [<botania:livingrock>, <botania:livingrock>, <botania:livingrock>]])
+  .addTool(<ore:artisansChisel>, 4)
+  .addOutput(<botania:pool>)
+  .create();
+
+recipes.remove(<botania:pool:2>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<botania:livingrock0slab>, null, <botania:livingrock0slab>],
+    [<botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>]])
+  .addTool(<ore:artisansChisel>, 4)
+  .addOutput(<botania:pool:2>)
+  .create();
+
+recipes.remove(<botania:pool:3>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<botania:shimmerrock>, null, null, null, <botania:shimmerrock>],
+    [<botania:shimmerrock>, <botania:livingrock0slab>, <botania:livingrock0slab>, <botania:livingrock0slab>, <botania:shimmerrock>],
+    [<botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>, <botania:shimmerrock>]])
+  .setFluid(<liquid:fairy> * 1000)
+  .addTool(<ore:artisansChisel>, 16)
+  .addTool(<ore:artisansGrimoire>, 16)
+  .addTool(<ore:artisansTSquare>, 16)
+  .addOutput(<botania:pool:3>)
+  .create();
+
+
+recipes.remove(<botania:pylon>);
+mods.thaumcraft.Infusion.registerRecipe("manapylon", "", <botania:pylon>, 20, [<aspect:instrumentum> * 8, <aspect:praecantatio> * 4], <botania:manaresource:2>, [<forbidden_arcanus:arcane_gold_nugget>, <botania:manaresource>, <forbidden_arcanus:arcane_gold_nugget>, <botania:manaresource>]);
+recipes.remove(<botania:pylon:1>);
+mods.thaumcraft.Infusion.registerRecipe("manapylongreen", "", <botania:pylon:1>, 40, [<aspect:instrumentum> * 16, <aspect:praecantatio> * 16], <botania:pylon>, [<botania:manaresource:4>, <tconstruct:binding>.withTag({Material: "red_aurum"}), <botania:manaresource:4>, <tconstruct:binding>.withTag({Material: "red_aurum"})]);
+recipes.remove(<botania:pylon:2>);
+mods.thaumcraft.Infusion.registerRecipe("manapylonpink", "", <botania:pylon:2>, 60, [<aspect:instrumentum> * 32, <aspect:praecantatio> * 64], <botania:pylon:1>, [<botania:manaresource:8>, <tconstruct:binding>.withTag({Material: "thaumium"}), <botania:manaresource:8>, <tconstruct:binding>.withTag({Material: "thaumium"})]);
+
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:infusion_matrix>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<thaumcraft:stone_arcane>, <thaumcraft:salis_mundus>, <thaumcraft:stone_arcane>],
+    [<minecraft:glowstone_dust>, <astralsorcery:itemcraftingcomponent:2>, <minecraft:glowstone_dust>],
+    [<thaumcraft:stone_arcane>, <thaumcraft:salis_mundus>, <thaumcraft:stone_arcane>]])
+  .addTool(<ore:artisansHammer>, 16)
+  .addTool(<ore:artisansGrimoire>, 32)
+  .addOutput(<thaumcraft:infusion_matrix>)
+  .create();
+
+mods.thaumcraft.ArcaneWorkbench.removeRecipe(<thaumcraft:morphic_resonator>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<forbidden_arcanus:arcane_gold_nugget>, <minecraft:glass_pane>, <forbidden_arcanus:arcane_gold_nugget>],
+    [<minecraft:glass_pane>, <astralsorcery:itemcraftingcomponent:2>, <minecraft:glass_pane>],
+    [<forbidden_arcanus:arcane_gold_nugget>, <minecraft:glass_pane>, <forbidden_arcanus:arcane_gold_nugget>]])
+  .addTool(<ore:artisansGrimoire>, 32)
+  .addTool(<ore:artisansSolderer>, 16)
+  .addOutput(<thaumcraft:morphic_resonator>)
+  .create();
+
+recipes.remove(<botania:terrapick>);
+RecipeBuilder.get("mage")
+  .setShaped([
+    [<forbidden_arcanus:arcane_gold_ingot>, <tconstruct:large_plate>.withTag({Material: "terrasteel"}), <tconstruct:large_plate>.withTag({Material: "terrasteel"}), <tconstruct:large_plate>.withTag({Material: "terrasteel"}), <forbidden_arcanus:arcane_gold_ingot>],
+    [null, <thaumcraft:ingot:1>, <botania:manasteelpick>, <thaumcraft:ingot:1>, null],
+    [null, null, <embers:aspectus_dawnstone>, null, null],
+    [null, null, <tconstruct:tough_tool_rod>.withTag({Material: "starmetal"}), null, null],
+    [null, null, <tconstruct:tough_tool_rod>.withTag({Material: "auroriansteel"}), null, null]])
+  .addOutput(<botania:terrapick>)
+  .create();
+
+recipes.remove(<botania:flighttiara>);
