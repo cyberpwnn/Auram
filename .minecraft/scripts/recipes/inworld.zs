@@ -12,9 +12,18 @@ FireCrafting.addRecipe(<minecraft:stone>, <minecraft:cobblestone>, 40);
 
 // Sand from sandstone
 FluidToItem.transform(<minecraft:sand> * 3, <liquid:water>, [<ore:sandstone>], false);
+FluidToItem.transform(<astralsorcery:itemcraftingcomponent>, <liquid:water>, [<botanicadds:mana_lapis>], false);
+
+// Netherize
+FireCrafting.addRecipe(<minecraft:netherbrick>, <minecraft:brick>, 40);
+FireCrafting.addRecipe(<minecraft:nether_brick>, <minecraft:brick_block>, 60);
+FireCrafting.addRecipe(<minecraft:netherrack>, <ore:hardenedClay>, 50);
+
+// Charcoal
+FireCrafting.addRecipe(<minecraft:coal:1>, <ore:logWood>, 20);
 
 // Paper from sawdust
-FluidToItem.transform(<minecraft:paper> * 5, <liquid:water>, [<ore:dustWood>], false);
+FluidToItem.transform(<minecraft:paper> * 2, <liquid:water>, [<ore:fiberHemp>], false);
 
 // Marble creation
 FluidToItem.transform(<astralsorcery:blockmarble> * 2, <liquid:stone>, [<ore:stoneAndesite>, <ore:stoneDiorite>], false);
@@ -25,9 +34,25 @@ FluidToItem.transform(<tconstruct:seared>, <liquid:lava>, [<ore:stone>], false);
 
 // Boom Steel
 ExplosionCrafting.explodeItemRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 50);
+ExplosionCrafting.explodeItemRecipe(<ore:ingotSteel>.firstItem * 9, <ore:blockIron>, 75);
+
+// Gunpowder
+ExplosionCrafting.explodeItemRecipe(<minecraft:gunpowder>, <ore:minicharcoal>, 15);
+
+// Nature Boom
+ExplosionCrafting.explodeItemRecipe(<minecraft:flint>, <ore:gravel>, 25);
+
+// Boom Ores
+ExplosionCrafting.explodeItemRecipe(<ore:dustIron>.firstItem * 2, <ore:oreIron>, 75);
+ExplosionCrafting.explodeItemRecipe(<ore:dustCopper>.firstItem * 2, <ore:oreCopper>, 75);
+ExplosionCrafting.explodeItemRecipe(<ore:dustAluminum>.firstItem * 2, <ore:oreAluminum>, 75);
+ExplosionCrafting.explodeItemRecipe(<ore:dustSilver>.firstItem * 2, <ore:oreSilver>, 75);
+ExplosionCrafting.explodeItemRecipe(<ore:dustGold>.firstItem * 2, <ore:oreGold>, 75);
+ExplosionCrafting.explodeItemRecipe(<ore:dustNickel>.firstItem * 2, <ore:oreNickel>, 75);
+ExplosionCrafting.explodeItemRecipe(<tconstruct:shard>.withTag({Material: "diamond"}) * 2, <ore:oreDiamond>, 75);
 
 // Coal to silicon
-ExplosionCrafting.explodeItemRecipe(<ore:itemSilicon>.firstItem, <ore:itemCoal>, 45);
+ExplosionCrafting.explodeItemRecipe(<projectred-core:resource_item:301>, <ore:itemCoal>, 25);
 
 // Tailors Upgrade
 mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation>, <artisanworktables:worktable>, 1000);

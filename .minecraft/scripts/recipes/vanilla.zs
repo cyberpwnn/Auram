@@ -124,8 +124,33 @@ RecipeBuilder.get("mage")
     [null, <thaumcraft:ingot:1>, <botania:manasteelpick>, <thaumcraft:ingot:1>, null],
     [null, null, <embers:aspectus_dawnstone>, null, null],
     [null, null, <tconstruct:tough_tool_rod>.withTag({Material: "starmetal"}), null, null],
-    [null, null, <tconstruct:tough_tool_rod>.withTag({Material: "auroriansteel"}), null, null]])
+    [null, null, <tconstruct:tough_tool_rod>.withTag({Material: "starmetal"}), null, null]])
   .addOutput(<botania:terrapick>)
   .create();
 
 recipes.remove(<botania:flighttiara>);
+
+RecipeBuilder.get("chemist")
+  .setShapeless([<botania:manaresource:2>, <scalinghealth:heartdust>, <botania:overgrowthseed>])
+  .addTool(<ore:artisansMortar>, 4)
+  .addOutput(<quark:diamond_heart>)
+  .create();
+
+recipes.remove(<botania:flighttiara>);
+
+RecipeBuilder.get("jeweler")
+  .setShapeless([<minecraft:nether_wart>, <arcanearchives:shaped_quartz>, <minecraft:netherbrick>, <minecraft:glowstone_dust>])
+  .addOutput(<minecraft:ghast_tear>)
+  .create();
+
+recipes.remove(<minecraft:arrow>);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [null, null, <minecraft:flint>],
+    [<immersiveengineering:material:4>, <minecraft:stick>, null],
+    [null, <immersiveengineering:material:4>, null]])
+  .addTool(<ore:artisansRazor>, 2)
+  .addOutput(<minecraft:arrow> * 4)
+  .setExtraOutputOne(<minecraft:arrow>, 0.25)
+  .setExtraOutputOne(<immersiveengineering:material:4>, 0.5)
+  .create();
