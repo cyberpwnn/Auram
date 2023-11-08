@@ -87,7 +87,6 @@ RecipeBuilder.get("mage")
   .addOutput(<botania:pool:3>)
   .create();
 
-
 recipes.remove(<botania:pylon>);
 mods.thaumcraft.Infusion.registerRecipe("manapylon", "", <botania:pylon>, 20, [<aspect:instrumentum> * 8, <aspect:praecantatio> * 4], <botania:manaresource:2>, [<forbidden_arcanus:arcane_gold_nugget>, <botania:manaresource>, <forbidden_arcanus:arcane_gold_nugget>, <botania:manaresource>]);
 recipes.remove(<botania:pylon:1>);

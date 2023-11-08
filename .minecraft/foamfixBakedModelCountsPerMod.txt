@@ -19,7 +19,6 @@ forbidden_arcanus: 1048
 rustic: 966
 betternether: 958
 futuremc: 891
-theaurorian: 800
 thaumicaugmentation: 731
 openblocks: 595
 projectred: 529

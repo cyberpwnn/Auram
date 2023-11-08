@@ -25,12 +25,20 @@ FireCrafting.addRecipe(<minecraft:coal:1>, <ore:logWood>, 20);
 // Paper from sawdust
 FluidToItem.transform(<minecraft:paper> * 2, <liquid:water>, [<ore:fiberHemp>], false);
 
+FluidToItem.transform(<minecraft:paper> * 2, <liquid:water>, [<ore:fiberHemp>], false);
+FluidToItem.transform(<tconstruct:edible:1>, <liquid:water>, [<minecraft:slime_ball>], false);
+FluidToItem.transform(<minecraft:paper> * 2, <liquid:water>, [<ore:fiberHemp>], false);
+FluidToItem.transform(<minecraft:paper> * 2, <liquid:water>, [<ore:fiberHemp>], false);
+
 // Marble creation
 FluidToItem.transform(<astralsorcery:blockmarble> * 2, <liquid:stone>, [<ore:stoneAndesite>, <ore:stoneDiorite>], false);
+
+FluidToItem.transform(<astralsorcery:itemcraftingcomponent:2>, <liquid:cobalt>, [<taiga:pure_dust>], false);
 
 // Seared
 FluidToItem.transform(<tconstruct:seared:1>, <liquid:lava>, [<ore:cobblestone>], false);
 FluidToItem.transform(<tconstruct:seared>, <liquid:lava>, [<ore:stone>], false);
+FluidToItem.transform(<quark:magma_bricks>, <liquid:lava>, [<minecraft:stonebrick>], false);
 
 // Boom Steel
 ExplosionCrafting.explodeItemRecipe(<ore:ingotSteel>.firstItem, <ore:ingotIron>, 50);
@@ -51,8 +59,13 @@ ExplosionCrafting.explodeItemRecipe(<ore:dustGold>.firstItem * 2, <ore:oreGold>,
 ExplosionCrafting.explodeItemRecipe(<ore:dustNickel>.firstItem * 2, <ore:oreNickel>, 75);
 ExplosionCrafting.explodeItemRecipe(<tconstruct:shard>.withTag({Material: "diamond"}) * 2, <ore:oreDiamond>, 75);
 
+ExplosionCrafting.explodeItemRecipe(<psi:material>, <thaumcraft:salis_mundus>, 75);
+
+// Other
+ExplosionCrafting.explodeItemRecipe(<minecraft:stonebrick:2>, <minecraft:stonebrick>, 25);
+
 // Coal to silicon
-ExplosionCrafting.explodeItemRecipe(<projectred-core:resource_item:301>, <ore:itemCoal>, 25);
+ExplosionCrafting.explodeItemRecipe(<projectred-core:resource_item:301>, <minicoal:minicoal>, 15);
 
 // Tailors Upgrade
 mods.botania.ManaInfusion.addConjuration(<artisanworktables:workstation>, <artisanworktables:worktable>, 1000);
