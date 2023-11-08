@@ -128,7 +128,6 @@ sonarcore:stablestone_pink: 65
 botania:livingwood0wall: 64
 botania:dreamwood0wall: 64
 botania:livingrock0wall: 64
-tconstruct:fluid_block: 55
 projectred:base/items: 53
 immersiveengineering:connector_transformer: 49
 immersiveengineering:connector_redstone_breaker: 49
@@ -150,6 +149,7 @@ absentbydesign:stairs_concrete_silver: 42
 absentbydesign:stairs_andesite_smooth: 42
 absentbydesign:stairs_concrete_black: 42
 absentbydesign:stairs_concrete_purple: 42
+tconstruct:fluid_block: 42
 absentbydesign:stairs_stone: 42
 absentbydesign:stairs_netherbrick_red: 42
 absentbydesign:stairs_end_bricks: 42
@@ -1084,6 +1084,7 @@ buildcraftbuilders:architect: 9
 futuremc:smoker: 9
 thaumadditions:adaminite_smelter: 9
 futuremc:bee_nest: 9
+plustic:fluid_block: 9
 thaumicwonders:primordial_accelerator: 9
 thaumicbases:metalleat: 9
 thaumicwonders:eldritch_cluster: 9
@@ -1150,7 +1151,6 @@ thaumicaugmentation:eldritch_lock_impetus: 8
 biomesoplenty:gem_ore: 8
 harvestcraft:pavlovacake: 8
 thaumicwands:items/item_wand_rod: 8
-plustic:fluid_block: 8
 ironchest:iron_shulker_box_blue: 8
 biomesoplenty:double_wood_slab_1: 8
 ironchest:iron_shulker_box_green: 8
