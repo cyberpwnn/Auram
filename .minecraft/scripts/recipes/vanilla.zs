@@ -148,8 +148,8 @@ RecipeBuilder.get("carpenter")
     [null, null, <minecraft:flint>],
     [<immersiveengineering:material:4>, <minecraft:stick>, null],
     [null, <immersiveengineering:material:4>, null]])
-  .addTool(<ore:artisansRazor>, 2)
-  .addOutput(<minecraft:arrow> * 4)
+  .addTool(<ore:artisansRazor>, 12)
+  .addOutput(<minecraft:arrow> * 6)
   .setExtraOutputOne(<minecraft:arrow>, 0.25)
-  .setExtraOutputOne(<immersiveengineering:material:4>, 0.5)
+  .setExtraOutputTwo(<immersiveengineering:material:4>, 0.5)
   .create();
