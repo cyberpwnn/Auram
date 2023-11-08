@@ -14,8 +14,7 @@ static tome as IItemStack = <akashictome:tome>.withTag({RepairCost: 0, "akashict
     aether_legacy: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "aether_legacy:lore_book", Count: 1 as byte, tag: {"akashictome:definedMod": "aether_legacy"}, Damage: 0 as short}, 
     buildcraftlib1: {id: "buildcraftlib:guide", Count: 1 as byte, tag: {"akashictome:definedMod": "buildcraftlib1"}, Damage: 0 as short}, 
     botania: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {AS_Amulet_HolderLeast: -4785361185744441946 as long, AS_Amulet_HolderMost: 7645098134614984877 as long}}, id: "botania:lexicon", Count: 1 as byte, tag: {"akashictome:displayName": "Lexica Botania", "akashictome:definedMod": "botania", "akashictome:is_morphing": 1 as byte, display: {Name: "§rAkashic Tome (§aLexica Botania§r)"}}, Damage: 0 as short}, 
-    dynamictrees: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "dynamictrees", "patchouli:book": "dynamictrees:guide"}, Damage: 0 as short}, 
-    theaurorian: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "theaurorian", "patchouli:book": "theaurorian:the_aurorian_guide"}, Damage: 0 as short}
+    dynamictrees: {ForgeCaps: {"astralsorcery:cap_item_amulet_holder": {}}, id: "patchouli:guide_book", Count: 1 as byte, tag: {"akashictome:definedMod": "dynamictrees", "patchouli:book": "dynamictrees:guide"}, Damage: 0 as short}
 }});
 
 InvHandler.addStartingItem(tome);
