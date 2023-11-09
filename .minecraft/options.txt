@@ -4,12 +4,12 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:6
+renderDistance:8
 guiScale:3
 particles:0
 bobView:true
 anaglyph3d:false
-maxFps:60
+maxFps:260
 fboEnable:true
 difficulty:2
 fancyGraphics:true
@@ -96,6 +96,7 @@ key_key.configurator_filter.desc:48
 key_key.configurator_path.desc:34
 key_arcanearchives.gui.keybinds.manifest:0
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -121,7 +122,6 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_key.betterfoliage.gui:66
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
@@ -130,11 +130,6 @@ key_key.conarm.toggle_helm.desc:34
 key_key.conarm.toggle_chest.desc:35
 key_key.conarm.toggle_leg.desc:36
 key_keybind.hammercorerenderstack:77
-key_Open Menu:181
-key_Toggle Freeze Effect:19
-key_Enable/Disable:0
-key_Kill Particles:0
-key_Blacklist Block:45
 key_cos.key.opencosarmorinventory:0
 key_key.toggle_shaders:0
 key_key.next_item.desc:0
@@ -142,6 +137,11 @@ key_key.previous_item.desc:0
 key_key.open_danknull.desc:0
 key_key.togglehud.desc:0
 key_Toggle Magnetism Suppressor:49
+key_Open Menu:181
+key_Toggle Freeze Effect:19
+key_Enable/Disable:0
+key_Kill Particles:0
+key_Blacklist Block:45
 key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211

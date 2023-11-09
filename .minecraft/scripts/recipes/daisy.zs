@@ -48,11 +48,13 @@ mods.botania.PureDaisy.addRecipe(<minecraft:iron_block>, <densemetals:dense_iron
 mods.botania.PureDaisy.addRecipe(<densemetals:dense_iron_ore>, <minecraft:iron_ore>, 25);
 mods.botania.PureDaisy.addRecipe(<minecraft:iron_ore>, <minecraft:cobblestone>, 12);
 
-mods.botania.PureDaisy.addRecipe(<minecraft:log>, <minecraft:log:1>, 25);
-mods.botania.PureDaisy.addRecipe(<minecraft:log:1>, <minecraft:log:2>, 25);
-mods.botania.PureDaisy.addRecipe(<minecraft:log:2>, <minecraft:log:3>, 25);
-mods.botania.PureDaisy.addRecipe(<minecraft:log:3>, <minecraft:log2>, 25);
-mods.botania.PureDaisy.addRecipe(<minecraft:log2>, <minecraft:log2:1>, 25);
+mods.botania.PureDaisy.removeRecipe(<botania:livingwood>);
+
+mods.botania.PureDaisy.addRecipe(<minecraft:log>, <minecraft:log:1>, 5);
+mods.botania.PureDaisy.addRecipe(<minecraft:log:1>, <minecraft:log:2>, 5);
+mods.botania.PureDaisy.addRecipe(<minecraft:log:2>, <minecraft:log:3>, 5);
+mods.botania.PureDaisy.addRecipe(<minecraft:log:3>, <minecraft:log2>, 5);
+mods.botania.PureDaisy.addRecipe(<minecraft:log2>, <minecraft:log2:1>, 5);
 mods.botania.PureDaisy.addRecipe(<minecraft:log2:1>, <botania:livingwood>, 25);
 
 mods.botania.PureDaisy.addRecipe(<ore:blockMarble>, <minecraft:quartz_block>, 100);
