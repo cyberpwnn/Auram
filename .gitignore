@@ -104,9 +104,3 @@ server/Biome Bundle/
 server/mods/OpenTerrainGenerator/
 
 .minecraft/journeymap/
-
-.minecraft/foamfixBakedModelCountsPerBlock.txt
-
-.minecraft/foamfixBakedModelCountsPerMod.txt
-
-.minecraft/foamfixBakedModelNames.txt
