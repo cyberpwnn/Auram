@@ -1,0 +1,477 @@
+{
+  "goal_items": [
+    {
+      "item": "minecraft:clay_ball"
+    },
+    {
+      "item": "minecraft:clay"
+    },
+    {
+      "item": "minecraft:command_block"
+    },
+    {
+      "item": "minecraft:obsidian",
+      "tier": 2
+    },
+    {
+      "item": "botania:lexicon",
+      "tier": 1
+    },
+    {
+      "item": "botania:twigwand",
+      "data": 0,
+      "tier": 1
+    },
+    {
+      "item": "botania:spreader",
+      "data": 0,
+      "tier": 1
+    },
+    {
+      "item": "botania:pool",
+      "data": 0,
+      "tier": 1
+    },
+    {
+      "item": "botania:alchemycatalyst",
+      "tier": 2
+    },
+    {
+      "item": "botania:runealtar",
+      "tier": 2
+    },
+    {
+      "item": "botania:fertilizer",
+      "tier": 2
+    },
+    {
+      "item": "botania:livingrock",
+      "data": 0,
+      "tier": 2
+    },
+    {
+      "item": "botania:livingwood",
+      "data": 0,
+      "tier": 3
+    },
+    {
+      "item": "botania:livingwood",
+      "data": 5,
+      "tier": 3
+    },
+    {
+      "item": "botania:alfheimportal",
+      "tier": 3
+    },
+    {
+      "item": "botania:pylon",
+      "data": 1,
+      "tier": 3
+    },
+    {
+      "item": "botania:pylon",
+      "data": 2,
+      "tier": 3
+    },
+    {
+      "item": "botania:terraplate",
+      "tier": 3
+    },
+    {
+      "item": "botania:spark",
+      "tier": 3
+    },
+    {
+      "item": "minecraft:lapis_block",
+      "tier": 3
+    },
+    {
+      "item": "minecraft:beacon",
+      "tier": 3
+    },
+    {
+      "item": "minecraft:iron_block",
+      "tier": 3
+    }
+  ],
+  "top_difficulty": 6,
+  "banned_items": [
+    {
+      "item": "minecraft:bedrock",
+      "tier": 3
+    },
+    {
+      "item": "minecraft:command_block"
+    },
+    {
+      "item": "minecraft:chain_command_block"
+    },
+    {
+      "item": "minecraft:repeating_command_block"
+    },
+    {
+      "item": "minecraft:barrier"
+    },
+    {
+      "item": "minecraft:structure_block"
+    },
+    {
+      "item": "minecraft:structure_void"
+    },
+    {
+      "item": "minecraft:end_portal_frame"
+    },
+    {
+      "item": "minecraft:mob_spawner"
+    },
+    {
+      "item": "minecraft:farmland"
+    },
+    {
+      "item": "minecraft:grass_path"
+    },
+    {
+      "item": "minecraft:monster_egg",
+      "data": 0
+    },
+    {
+      "item": "minecraft:monster_egg",
+      "data": 1
+    },
+    {
+      "item": "minecraft:monster_egg",
+      "data": 2
+    },
+    {
+      "item": "minecraft:monster_egg",
+      "data": 3
+    },
+    {
+      "item": "minecraft:monster_egg",
+      "data": 4
+    },
+    {
+      "item": "minecraft:monster_egg",
+      "data": 5
+    },
+    {
+      "item": "minecraft:command_block_minecart"
+    },
+    {
+      "item": "minecraft:spawn_egg"
+    },
+    {
+      "item": "minecraft:knowledge_book"
+    }
+  ],
+  "base_items": [
+    {
+      "item": "minecraft:coal",
+      "data": 0
+    },
+    {
+      "item": "minecraft:dye",
+      "data": 4
+    },
+    {
+      "item": "minecraft:redstone"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:gold_ingot"
+    },
+    {
+      "item": "minecraft:diamond"
+    },
+    {
+      "item": "minecraft:log",
+      "data": 0
+    },
+    {
+      "item": "minecraft:log",
+      "data": 1
+    },
+    {
+      "item": "minecraft:log",
+      "data": 2
+    },
+    {
+      "item": "minecraft:log",
+      "data": 3
+    },
+    {
+      "item": "minecraft:cobblestone"
+    },
+    {
+      "item": "minecraft:dirt",
+      "data": 0
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 0
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 1
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 2
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 3
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 4
+    },
+    {
+      "item": "minecraft:sapling",
+      "data": 5
+    },
+    {
+      "item": "minecraft:sand",
+      "data": 0
+    },
+    {
+      "item": "minecraft:gravel"
+    },
+    {
+      "item": "minecraft:beetroot_seeds"
+    },
+    {
+      "item": "minecraft:melon_seeds"
+    },
+    {
+      "item": "minecraft:pumpkin_seeds"
+    },
+    {
+      "item": "minecraft:wheat_seeds"
+    },
+    {
+      "item": "minecraft:wheat"
+    },
+    {
+      "item": "minecraft:melon"
+    },
+    {
+      "item": "minecraft:beetroot"
+    },
+    {
+      "item": "minecraft:pumpkin"
+    },
+    {
+      "item": "minecraft:bucket"
+    },
+    {
+      "item": "minecraft:planks",
+      "data": 0
+    },
+    {
+      "item": "minecraft:planks",
+      "data": 1
+    },
+    {
+      "item": "minecraft:planks",
+      "data": 2
+    },
+    {
+      "item": "minecraft:planks",
+      "data": 3
+    },
+    {
+      "item": "minecraft:planks",
+      "data": 4
+    },
+    {
+      "item": "minecraft:planks",
+      "data": 5
+    },
+    {
+      "item": "minecraft:stick"
+    },
+    {
+      "item": "minecraft:torch"
+    },
+    {
+      "item": "minecraft:lapis_block"
+    },
+    {
+      "item": "minecraft:redstone_block"
+    },
+    {
+      "item": "minecraft:wooden_pickaxe"
+    },
+    {
+      "item": "minecraft:stone_pickaxe"
+    },
+    {
+      "item": "minecraft:iron_pickaxe"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:furnace"
+    },
+    {
+      "item": "minecraft:crafting_table"
+    },
+    {
+      "item": "minecraft:stone_slab",
+      "data": 3
+    },
+    {
+      "item": "botania:altar",
+      "data": 0
+    },
+    {
+      "item": "botania:petal",
+      "data": 0
+    },
+    {
+      "item": "botania:petal",
+      "data": 1
+    },
+    {
+      "item": "botania:petal",
+      "data": 2
+    },
+    {
+      "item": "botania:petal",
+      "data": 3
+    },
+    {
+      "item": "botania:petal",
+      "data": 4
+    },
+    {
+      "item": "botania:petal",
+      "data": 5
+    },
+    {
+      "item": "botania:petal",
+      "data": 6
+    },
+    {
+      "item": "botania:petal",
+      "data": 7
+    },
+    {
+      "item": "botania:petal",
+      "data": 8
+    },
+    {
+      "item": "botania:petal",
+      "data": 9
+    },
+    {
+      "item": "botania:petal",
+      "data": 10
+    },
+    {
+      "item": "botania:petal",
+      "data": 11
+    },
+    {
+      "item": "botania:petal",
+      "data": 12
+    },
+    {
+      "item": "botania:petal",
+      "data": 13
+    },
+    {
+      "item": "botania:petal",
+      "data": 14
+    },
+    {
+      "item": "botania:petal",
+      "data": 15
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 4,
+      "tier": 4
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 5,
+      "tier": 5
+    },
+    {
+      "item": "botania:manaresource",
+      "data": 14,
+      "tier": 5
+    }
+  ],
+  "heck_methods": [
+    {
+      "method": "shapeless_2x2",
+      "min_level": 1,
+      "max_level": 3
+    },
+    {
+      "method": "square_shaped_3x3",
+      "min_level": 2,
+      "max_level": 4
+    },
+    {
+      "method": "butterfly_shaped_3x3",
+      "min_level": 2,
+      "max_level": 4
+    },
+    {
+      "method": "random_shaped_3x3",
+      "min_level": 5,
+      "max_level": 6
+    },
+    {
+      "method": "furnace",
+      "min_level": 1,
+      "max_level": 4
+    },
+    {
+      "method": "petal_apothecary",
+      "min_level": 1,
+      "max_level": 3
+    },
+    {
+      "method": "mana_infusion",
+      "min_level": 2,
+      "max_level": 4
+    },
+    {
+      "method": "mana_alchemy",
+      "min_level": 3,
+      "max_level": 4
+    },
+    {
+      "method": "runic_altar",
+      "min_level": 3,
+      "max_level": 6
+    },
+    {
+      "method": "elven_trade",
+      "min_level": 4,
+      "max_level": 6
+    },
+    {
+      "method": "basic_agglomeration",
+      "min_level": 4,
+      "max_level": 5
+    },
+    {
+      "method": "advanced_agglomeration",
+      "min_level": 5,
+      "max_level": 6
+    },
+    {
+      "min_level": 1,
+      "max_level": 3
+    }
+  ]
+}

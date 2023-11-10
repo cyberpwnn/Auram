@@ -1,0 +1,24 @@
+name: launcher
+description: Launcher
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.1.2 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  window_manager: ^0.3.7
+  http: ^1.1.0
+  path: ^1.8.3
+  envied: ^0.3.0+3
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  envied_generator: ^0.3.0+3
+  build_runner: ^2.4.6
+flutter:
+  uses-material-design: true
+scripts:
+  build_runner: flutter pub run build_runner build --delete-conflicting-outputs
