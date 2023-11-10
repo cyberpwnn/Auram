@@ -2,7 +2,7 @@ import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.remove(<minecraft:stick>);
 RecipeBuilder.get("carpenter")
-  .setShapeless([<minecraft:planks>, <minecraft:planks>])
+  .setShapeless([<ore:plankWood>, <ore:plankWood>])
   .addTool(<ore:artisansHandsaw>, 1)
   .addOutput(<minecraft:stick> * 4)
   .setExtraOutputOne(<minecraft:stick>, 0.15)

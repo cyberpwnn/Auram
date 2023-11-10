@@ -34,8 +34,6 @@ mods.thaumcraft.LootBag.addLoot(<thaumcraft:loot_bag:1>%15, [0,1,2]);
 mods.thaumcraft.LootBag.addLoot(<thaumcraft:loot_bag:2>%10, [0,1,2]);
 mods.thaumcraft.LootBag.addLoot(<minecraft:obsidian>%2000, [0,1,2]);
 
-
-
 mods.thaumcraft.LootBag.addLoot(<minecraft:beetroot>%1000, [0]);
 mods.thaumcraft.LootBag.addLoot(<minecraft:spider_eye>%1000, [0]);
 mods.thaumcraft.LootBag.addLoot(<quark:cooked_frog_leg>%1000, [0]);
