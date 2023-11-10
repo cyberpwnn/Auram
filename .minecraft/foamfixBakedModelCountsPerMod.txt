@@ -30,6 +30,7 @@ buildcraftbuilders: 366
 betteranimalsplus: 361
 thaumicwonders: 318
 taiga: 316
+dimdoors: 301
 thaumicbases: 295
 astralsorcery: 288
 immersivepetroleum: 176
@@ -82,8 +83,8 @@ uppers: 7
 playerhopper: 6
 bountiful: 6
 watercan: 5
-microblockcbe: 5
 tinkersaddons: 5
+microblockcbe: 5
 supersoundmuffler: 4
 snad: 4
 effortlessbuilding: 4
@@ -103,16 +104,16 @@ base: 1
 zerocore: 1
 tweakergui: 1
 gbook_snapshot: 1
-simplesmelteryaccelerator: 1
 baubles: 1
-akashictome: 1
 progressivebosses: 1
 forgemultipartcbe: 1
 guideapi: 1
+minerva: 1
+simplesmelteryaccelerator: 1
 oeintegration: 1
 manavisualizer: 1
 gbook: 1
-minerva: 1
+akashictome: 1
 forge: 1
 solcarrot: 1
 projectred-integration: 1

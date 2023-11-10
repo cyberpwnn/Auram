@@ -140,9 +140,13 @@ biome_bamboo_forest - When in the Bamboo Forest Biome
 startup.preinit - Forge is starting up (pre)
 biome_meadow - When in the Meadow Biome
 biome_mutated_jungle - When in the Jungle M Biome
+dim686 - When in public_pockets Dimension.
 biome_cold_desert - When in the Cold Desert Biome
+dim687 - When in dungeon_pockets Dimension.
+dim684 - When in limbo Dimension.
 biome_mutated_ice_flats - When in the Ice Plains Spikes Biome
 biome_quagmire - When in the Quagmire Biome
+dim685 - When in private_pockets Dimension.
 biome_beaches - When in the Beach Biome
 height_sealevel - Below 94
 biome_rainforest - When in the Rainforest Biome

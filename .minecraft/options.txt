@@ -4,7 +4,7 @@ mouseSensitivity:0.2535211
 fov:0.0
 gamma:1.0
 saturation:0.0
-renderDistance:4
+renderDistance:8
 guiScale:3
 particles:0
 bobView:true
@@ -113,8 +113,6 @@ key_quark.emote.dab:0
 key_quark.emote.jet:0
 key_quark.emote.exorcist:0
 key_quark.emote.zombie:0
-key_quark.keybind.toggleAutojump:48
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.dropoff:0
 key_quark.keybind.changeHotbar:44
 key_quark.keybind.chestSort:0
@@ -122,6 +120,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
+key_quark.keybind.lockBuilding:37
+key_quark.keybind.toggleAutojump:48
 key_key.betterfoliage.gui:66
 key_bloodmagic.keybind.open_holding:35
 key_bloodmagic.keybind.cycle_holding_pos:13:SHIFT
