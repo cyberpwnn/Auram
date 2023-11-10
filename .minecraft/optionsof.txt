@@ -37,7 +37,7 @@ ofSky:true
 ofStars:true
 ofSunMoon:true
 ofVignette:1
-ofChunkUpdates:1
+ofChunkUpdates:5
 ofChunkUpdatesDynamic:true
 ofTime:0
 ofClearWater:true

@@ -111,14 +111,10 @@ biome_birch_forest_hills - When in the Birch Forest Hills Biome
 thunder - If it's thundering in a biome where rain / snow can happen
 biome_deep_ocean - When in the Deep Ocean Biome
 biome_crag - When in the Crag Biome
-dim50 - When in The Abyssal Wasteland Dimension.
 biome_alps_foothills - When in the AlpsFoothills Biome
 biome_ice_mountains - When in the Ice Mountains Biome
-dim53 - When in The Dark Realm Dimension.
 startup - Forge is starting up
-dim51 - When in The Dreadlands Dimension.
 biome_flower_island - When in the Flower Island Biome
-dim52 - When in Omothol Dimension.
 biome_outback - When in the Outback Biome
 biome_forest_hills - When in the ForestHills Biome
 biome_origin_beach - When in the Origin Beach Biome
