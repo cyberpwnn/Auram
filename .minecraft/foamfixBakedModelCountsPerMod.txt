@@ -2,7 +2,7 @@ quark: 5545
 thaumcraft: 3884
 immersiveengineering: 3760
 sonarcore: 3622
-minecraft: 3342
+minecraft: 3341
 botania: 3331
 tconstruct: 2958
 absentbydesign: 2644
@@ -55,12 +55,10 @@ artifacts: 41
 dynamictreesthaumicbases: 40
 dynamictreestc: 40
 conarm: 39
-mowziesmobs: 38
 botanicadds: 32
 tinker_io: 31
 thaumicwands: 28
 materialis: 25
-bqmie: 25
 plustic: 24
 dynamictreesquark: 22
 wrcbe: 16
@@ -107,7 +105,6 @@ akashictome: 1
 progressivebosses: 1
 forgemultipartcbe: 1
 guideapi: 1
-oeintegration: 1
 manavisualizer: 1
 gbook: 1
 minerva: 1

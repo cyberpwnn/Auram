@@ -97,8 +97,8 @@ key_quark.keybind.chestDropoff:0
 key_quark.keybind.chestMerge:0
 key_quark.keybind.chestRestock:0
 key_quark.keybind.chestExtract:0
-key_quark.keybind.lockBuilding:37
 key_quark.keybind.toggleAutojump:48
+key_quark.keybind.lockBuilding:37
 key_quark.emote.no:0
 key_quark.emote.yes:0
 key_quark.emote.wave:0
@@ -137,13 +137,10 @@ key_Toggle Freeze Effect:0
 key_Enable/Disable:0
 key_Kill Particles:0
 key_Blacklist Block:48
-key_key.findme.search:21
 key_key.ftbutilities.nbt:49:ALT
 key_key.ftbutilities.trash:211
 key_key.loreexpansion.openJournal:38
 key_psimisc.keybind:0
-key_oreexcavation.key.excavate:41
-key_oreexcavation.key.shape:47
 key_openblocks.keybind.vario_switch:47
 key_openblocks.keybind.vario_vol_up:0
 key_openblocks.keybind.vario_vol_down:0
@@ -185,7 +182,6 @@ key_key.craftingtweaks.refill_last_stack:15
 key_nei.options.keys.gui.botania_corporea_request:0
 key_key.clienttweaks.disable_step_assist:0
 key_key.clienttweaks.hide_offhand_item:0
-key_key.cofh.multimode:47
 key_waila.keybind.wailaconfig:82
 key_waila.keybind.wailadisplay:79
 key_waila.keybind.liquid:80
@@ -215,6 +211,8 @@ key_key.taiga.alt_action:29
 key_key.carpet_forward:17
 key_key.carpet_backward:31
 key_wi-zoom.zoom:47
+key_key.control:29
+key_Change Goggles Lens:47
 key_key.journeymap.zoom_in:13
 key_key.journeymap.zoom_out:12
 key_key.journeymap.minimap_type:26
@@ -230,8 +228,6 @@ key_key.journeymap.fullscreen.north:200
 key_key.journeymap.fullscreen.south:208
 key_key.journeymap.fullscreen.east:205
 key_key.journeymap.fullscreen.west:203
-key_key.control:29
-key_Change Goggles Lens:47
 key_key.showgui:15
 key_key.pmmo.showBar:15
 key_key.pmmo.showList:56
