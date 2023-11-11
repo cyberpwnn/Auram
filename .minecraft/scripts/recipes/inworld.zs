@@ -240,8 +240,7 @@ mods.botania.ManaInfusion.addAlchemy(<artifacts:everlasting_cooked_beef>, <harve
 mods.botania.ManaInfusion.addAlchemy(<harvestcraft:bbqpulledporkitem>, <minecraft:cooked_porkchop>,                 10);
 mods.botania.ManaInfusion.addAlchemy(<harvestcraft:shrimpokrahushpuppiesitem>, <harvestcraft:bbqpulledporkitem>,    100);
 mods.botania.ManaInfusion.addAlchemy(<harvestcraft:porklomeinitem>, <harvestcraft:shrimpokrahushpuppiesitem>,       1000);
-mods.botania.ManaInfusion.addAlchemy(<abyssalcraft:porkp>, <harvestcraft:porklomeinitem>,                           10000);
-mods.botania.ManaInfusion.addAlchemy(<harvestcraft:gourmetporkburgeritem>, <abyssalcraft:porkp>,                    100000);
+mods.botania.ManaInfusion.addAlchemy(<harvestcraft:gourmetporkburgeritem>, <harvestcraft:porklomeinitem>,           10000);
 mods.botania.ManaInfusion.addAlchemy(<artifacts:everlasting_cooked_porkchop>, <harvestcraft:gourmetporkburgeritem>, 1000000);
 
 // Chicken Tree

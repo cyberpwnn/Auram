@@ -39,8 +39,8 @@ RecipeBuilder.get("mason")
 recipes.remove(<futuremc:blast_furnace>);
 RecipeBuilder.get("mason")
   .setShaped([
-    [<abyssalcraft:darkstone_brick>, <abyssalcraft:darkbrickslab1>, <abyssalcraft:darkstone_brick>],
-    [<abyssalcraft:darkstone_brick>, <minecraft:iron_bars>, <abyssalcraft:darkstone_brick>],
+    [<ore:ingotBrickNether>, <minecraft:stone_slab:6>, <ore:ingotBrickNether>],
+    [<ore:ingotBrickNether>, <minecraft:iron_bars>, <ore:ingotBrickNether>],
     [<minecraft:stone>, <minecraft:stone>, <minecraft:stone>]])
   .addTool(<ore:artisansHammer>, 4)
   .addOutput(<futuremc:blast_furnace>)
