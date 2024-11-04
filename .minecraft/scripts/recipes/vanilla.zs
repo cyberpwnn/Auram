@@ -179,7 +179,7 @@ RecipeBuilder.get("jeweler")
   .setShaped([
     [<botania:manaresource:2>, <botania:manaresource:2>, <botania:manaresource:2>],
     [<ironchest:iron_chest:1>, null, <ironchest:iron_chest:1>],
-    [<conarm:armor_trim>.withTag({Material: "steel"}), <tinkersaddons:modifier_item:3>, <conarm:armor_trim>.withTag({Material: "steel"})]])
+    [<conarm:armor_trim>.withTag({Material: "steel"}), <botania:manaresource:2>, <conarm:armor_trim>.withTag({Material: "steel"})]])
   .addTool(<ore:artisansDriver>, 32)
   .addOutput(<ironchest:iron_chest:2>)
   .create();

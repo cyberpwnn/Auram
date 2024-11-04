@@ -99,15 +99,15 @@ base: 1
 zerocore: 1
 tweakergui: 1
 gbook_snapshot: 1
-simplesmelteryaccelerator: 1
 baubles: 1
 akashictome: 1
 progressivebosses: 1
 forgemultipartcbe: 1
 guideapi: 1
+minerva: 1
+simplesmelteryaccelerator: 1
 manavisualizer: 1
 gbook: 1
-minerva: 1
 forge: 1
 solcarrot: 1
 projectred-integration: 1

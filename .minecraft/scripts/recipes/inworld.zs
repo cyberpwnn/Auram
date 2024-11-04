@@ -190,9 +190,6 @@ SalisMundus.addSingleConversion(<ore:blockQuartz>, <arcanearchives:storage_raw_q
 SalisMundus.addSingleConversion(<arcanearchives:storage_raw_quartz>, <minecraft:quartz_block>);
 
 // Crystal Chest
-SalisMundus.addSingleConversion(<ironchest:iron_chest:2>, <ironchest:iron_chest:5>);
-
-// Crystal Chest Alt Elv Trade
 mods.botania.ElvenTrade.addRecipe([<ironchest:iron_chest:5>], [<ironchest:iron_chest:2>]);
 
 // Chest upgrades
