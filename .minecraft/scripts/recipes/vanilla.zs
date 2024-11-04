@@ -153,3 +153,33 @@ RecipeBuilder.get("carpenter")
   .setExtraOutputOne(<minecraft:arrow>, 0.25)
   .setExtraOutputTwo(<immersiveengineering:material:4>, 0.5)
   .create();
+
+recipes.remove(<ironchest:iron_chest>);
+RecipeBuilder.get("carpenter")
+  .setShaped([
+    [<minecraft:iron_bars>, <minecraft:iron_trapdoor>, <minecraft:iron_bars>],
+    [<minecraft:chest>, null, <minecraft:chest>],
+    [<minecraft:iron_bars>, <minecraft:iron_bars>, <minecraft:iron_bars>]])
+  .addTool(<ore:artisansDriver>, 16)
+  .addOutput(<ironchest:iron_chest>)
+  .create();
+
+recipes.remove(<ironchest:iron_chest:1>);
+RecipeBuilder.get("blacksmith")
+  .setShaped([
+    [<rustic:chain_gold>, <conarm:armor_plate>.withTag({Material: "gold"}), <rustic:chain_gold>],
+    [<ironchest:iron_chest>, null, <ironchest:iron_chest>],
+    [<rustic:chain_gold>, <conarm:armor_plate>.withTag({Material: "gold"}), <rustic:chain_gold>]])
+  .addTool(<ore:artisansDriver>, 24)
+  .addOutput(<ironchest:iron_chest:1>)
+  .create();
+
+recipes.remove(<ironchest:iron_chest:2>);
+RecipeBuilder.get("jeweler")
+  .setShaped([
+    [<botania:manaresource:2>, <botania:manaresource:2>, <botania:manaresource:2>],
+    [<ironchest:iron_chest:1>, null, <ironchest:iron_chest:1>],
+    [<conarm:armor_trim>.withTag({Material: "steel"}), <tinkersaddons:modifier_item:3>, <conarm:armor_trim>.withTag({Material: "steel"})]])
+  .addTool(<ore:artisansDriver>, 32)
+  .addOutput(<ironchest:iron_chest:2>)
+  .create();

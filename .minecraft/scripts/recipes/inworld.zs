@@ -189,6 +189,22 @@ SalisMundus.addSingleConversion(<minecraft:pumpkin>, <minecraft:lit_pumpkin>);
 SalisMundus.addSingleConversion(<ore:blockQuartz>, <arcanearchives:storage_raw_quartz>);
 SalisMundus.addSingleConversion(<arcanearchives:storage_raw_quartz>, <minecraft:quartz_block>);
 
+// Crystal Chest
+SalisMundus.addSingleConversion(<ironchest:iron_chest:2>, <ironchest:iron_chest:5>);
+
+// Crystal Chest Alt Elv Trade
+mods.botania.ElvenTrade.addRecipe([<ironchest:iron_chest:5>], [<ironchest:iron_chest:2>]);
+
+// Chest upgrades
+recipes.remove(<ironchest:wood_iron_chest_upgrade>);
+mods.botania.ManaInfusion.addConjuration(<ironchest:wood_iron_chest_upgrade>, <ironchest:iron_chest>, 1000);
+recipes.remove(<ironchest:iron_gold_chest_upgrade>);
+mods.botania.ManaInfusion.addConjuration(<ironchest:iron_gold_chest_upgrade>, <ironchest:iron_chest:1>, 2000);
+recipes.remove(<ironchest:gold_diamond_chest_upgrade>);
+mods.botania.ManaInfusion.addConjuration(<ironchest:gold_diamond_chest_upgrade>, <ironchest:iron_chest:2>, 4000);
+recipes.remove(<ironchest:diamond_crystal_chest_upgrade>);
+mods.botania.ManaInfusion.addConjuration(<ironchest:diamond_crystal_chest_upgrade>, <ironchest:iron_chest:5>, 8000);
+
 // Enven Trades
 mods.botania.ElvenTrade.addRecipe([<minecraft:bread>], [<minecraft:wheat>]);
 mods.botania.ElvenTrade.addRecipe([<minecraft:grass>], [<minecraft:dirt>]);
