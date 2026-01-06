@@ -104,3 +104,5 @@ server/Biome Bundle/
 server/mods/OpenTerrainGenerator/
 
 .minecraft/journeymap/
+
+.DS_Store
