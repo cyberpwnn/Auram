@@ -1,3 +1,5 @@
+#priority 100
+
 import mods.inworldcrafting.FluidToItem;
 import mods.inworldcrafting.FireCrafting;
 import mods.inworldcrafting.ExplosionCrafting;

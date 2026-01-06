@@ -1,4 +1,4 @@
-
+#priority 100
 
 mods.botania.PureDaisy.addRecipe(<thaumcraft:log_greatwood>,<thaumcraft:log_silverwood>, 400);
 mods.botania.PureDaisy.addRecipe(<thaumcraft:stone_arcane>,<astralsorcery:blockmarble>, 100);

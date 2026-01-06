@@ -1,28 +1,30 @@
+#priority 100
+
 import crafttweaker.item.IItemStack;
 
-dur(<minecraft:diamond_pickaxe>, 0.35);
-dur(<minecraft:diamond_axe>, 0.35);
-dur(<minecraft:diamond_sword>, 0.35);
-dur(<minecraft:diamond_hoe>, 0.35);
-dur(<minecraft:diamond_shovel>, 0.35);
+dur(<minecraft:diamond_pickaxe>, 0.135);
+dur(<minecraft:diamond_axe>, 0.135);
+dur(<minecraft:diamond_sword>, 0.135);
+dur(<minecraft:diamond_hoe>, 0.135);
+dur(<minecraft:diamond_shovel>, 0.135);
 
-dur(<minecraft:iron_pickaxe>, 0.55);
-dur(<minecraft:iron_axe>, 0.55);
-dur(<minecraft:iron_sword>, 0.55);
-dur(<minecraft:iron_hoe>, 0.55);
-dur(<minecraft:iron_shovel>, 0.55);
+dur(<minecraft:iron_pickaxe>, 0.155);
+dur(<minecraft:iron_axe>, 0.155);
+dur(<minecraft:iron_sword>, 0.155);
+dur(<minecraft:iron_hoe>, 0.155);
+dur(<minecraft:iron_shovel>, 0.155);
 
-dur(<minecraft:stone_pickaxe>, 0.75);
-dur(<minecraft:stone_axe>, 0.75);
-dur(<minecraft:stone_sword>, 0.75);
-dur(<minecraft:stone_hoe>, 0.75);
-dur(<minecraft:stone_shovel>, 0.75);
+dur(<minecraft:stone_pickaxe>, 0.275);
+dur(<minecraft:stone_axe>, 0.275);
+dur(<minecraft:stone_sword>, 0.275);
+dur(<minecraft:stone_hoe>, 0.275);
+dur(<minecraft:stone_shovel>, 0.275);
 
-dur(<embers:pickaxe_copper>, 0.6);
-dur(<embers:axe_copper>, 0.6);
-dur(<embers:shovel_copper>, 0.6);
-dur(<embers:hoe_copper>, 0.6);
-dur(<embers:sword_copper>, 0.6);
+dur(<embers:pickaxe_copper>, 0.46);
+dur(<embers:axe_copper>, 0.46);
+dur(<embers:shovel_copper>, 0.46);
+dur(<embers:hoe_copper>, 0.46);
+dur(<embers:sword_copper>, 0.46);
 
 durarm(<minecraft:diamond_helmet>, 0.35);
 durarm(<minecraft:diamond_chestplate>, 0.35);

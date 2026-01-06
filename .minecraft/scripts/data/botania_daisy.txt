@@ -1,0 +1,6 @@
+mods.botania.PureDaisy.addRecipe(<ore:stone>, <botania:livingrock>);
+mods.botania.PureDaisy.addRecipe(<ore:logWood>, <botania:livingwood>);
+mods.botania.PureDaisy.addRecipe(<ore:netherrack>, <minecraft:cobblestone>);
+mods.botania.PureDaisy.addRecipe(<ore:soulSand>, <minecraft:sand>);
+mods.botania.PureDaisy.addRecipe(<ore:ice>, <minecraft:packed_ice>);
+mods.botania.PureDaisy.addRecipe(<ore:blockBlaze>, <minecraft:obsidian>);

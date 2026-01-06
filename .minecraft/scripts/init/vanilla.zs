@@ -1,3 +1,5 @@
+#priority 100
+
 import mods.artisanworktables.builder.RecipeBuilder;
 
 recipes.remove(<minecraft:stick>);

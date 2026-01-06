@@ -1,4 +1,3 @@
-Liquids:
 <liquid:abyssum_fluid>
 - Name: abyssum_fluid
 - Display Name: Abyssum Fluid
@@ -13,14 +12,6 @@ Liquids:
 - Luminosity:10
 - Density: 2000
 - Temperature: 1650
-- Viscosity: 10000
-- Gaseous: false
-<liquid:advancedalloy>
-- Name: advancedalloy
-- Display Name: Molten Advanced Alloy
-- Luminosity:10
-- Density: 2000
-- Temperature: 1500
 - Viscosity: 10000
 - Gaseous: false
 <liquid:alchemical_redstone>
@@ -127,14 +118,6 @@ Liquids:
 - Temperature: 550
 - Viscosity: 6000
 - Gaseous: false
-<liquid:betterquesting.placeholder>
-- Name: betterquesting.placeholder
-- Display Name: Placeholder
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
-- Gaseous: false
 <liquid:biodiesel>
 - Name: biodiesel
 - Display Name: Biodiesel
@@ -198,14 +181,6 @@ Liquids:
 - Density: 1000
 - Temperature: 500
 - Viscosity: 1000
-- Gaseous: false
-<liquid:chrome>
-- Name: chrome
-- Display Name: Molten Chrome
-- Luminosity:10
-- Density: 2000
-- Temperature: 1600
-- Viscosity: 10000
 - Gaseous: false
 <liquid:cider>
 - Name: cider
@@ -271,14 +246,6 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
-<liquid:cyanite>
-- Name: cyanite
-- Display Name: Molten Cyanite
-- Luminosity:10
-- Density: 2000
-- Temperature: 1400
-- Viscosity: 10000
-- Gaseous: false
 <liquid:cyberium_fluid>
 - Name: cyberium_fluid
 - Display Name: Cyberium Fluid
@@ -293,14 +260,6 @@ Liquids:
 - Luminosity:0
 - Density: 1000
 - Temperature: 450
-- Viscosity: 1000
-- Gaseous: false
-<liquid:dark_water>
-- Name: dark_water
-- Display Name: Dark Water
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
 - Viscosity: 1000
 - Gaseous: false
 <liquid:dawnstone>
@@ -383,14 +342,6 @@ Liquids:
 - Temperature: 500
 - Viscosity: 10000
 - Gaseous: false
-<liquid:electrumflux>
-- Name: electrumflux
-- Display Name: Molten Fluxed Electrum
-- Luminosity:10
-- Density: 2000
-- Temperature: 1800
-- Viscosity: 10000
-- Gaseous: false
 <liquid:elementium>
 - Name: elementium
 - Display Name: Molten Elementium
@@ -423,14 +374,6 @@ Liquids:
 - Temperature: 999
 - Viscosity: 10000
 - Gaseous: false
-<liquid:enderium>
-- Name: enderium
-- Display Name: Molten Enderium
-- Luminosity:10
-- Density: 2000
-- Temperature: 1200
-- Viscosity: 10000
-- Gaseous: false
 <liquid:ethanol>
 - Name: ethanol
 - Display Name: Ethanol
@@ -446,22 +389,6 @@ Liquids:
 - Density: 2000
 - Temperature: 900
 - Viscosity: 10000
-- Gaseous: false
-<liquid:fiery_essence>
-- Name: fiery_essence
-- Display Name: Fiery Essence
-- Luminosity:0
-- Density: 1000
-- Temperature: 1000
-- Viscosity: 1000
-- Gaseous: false
-<liquid:fierymetal>
-- Name: fierymetal
-- Display Name: Molten Fiery
-- Luminosity:15
-- Density: 1000
-- Temperature: 1000
-- Viscosity: 1000
 - Gaseous: false
 <liquid:fluid_quicksilver>
 - Name: fluid_quicksilver
@@ -508,7 +435,7 @@ Liquids:
 - Display Name: Gasoline
 - Luminosity:0
 - Density: 789
-- Temperature: 300
+- Temperature: 5000
 - Viscosity: 1200
 - Gaseous: false
 <liquid:glass>
@@ -588,7 +515,7 @@ Liquids:
 - Display Name: Molten Iridium
 - Luminosity:10
 - Density: 2000
-- Temperature: 1500
+- Temperature: 810
 - Viscosity: 10000
 - Gaseous: false
 <liquid:iron>
@@ -639,14 +566,6 @@ Liquids:
 - Temperature: 750
 - Viscosity: 9000
 - Gaseous: false
-<liquid:knightmetal>
-- Name: knightmetal
-- Display Name: Molten Knightmetal
-- Luminosity:15
-- Density: 1000
-- Temperature: 1000
-- Viscosity: 1000
-- Gaseous: false
 <liquid:knightslime>
 - Name: knightslime
 - Display Name: Molten Knightslime
@@ -687,22 +606,6 @@ Liquids:
 - Temperature: 300
 - Viscosity: 1500
 - Gaseous: false
-<liquid:liquidantimatter>
-- Name: liquidantimatter
-- Display Name: Liquid Antimatter
-- Luminosity:0
-- Density: 4000
-- Temperature: 100
-- Viscosity: 1500
-- Gaseous: false
-<liquid:liquidcoralium>
-- Name: liquidcoralium
-- Display Name: Liquid Coralium
-- Luminosity:0
-- Density: 3000
-- Temperature: 350
-- Viscosity: 1000
-- Gaseous: false
 <liquid:lubricant>
 - Name: lubricant
 - Display Name: Lubricant
@@ -710,22 +613,6 @@ Liquids:
 - Density: 925
 - Temperature: 300
 - Viscosity: 1000
-- Gaseous: false
-<liquid:ludicrite>
-- Name: ludicrite
-- Display Name: Molten Ludicrite
-- Luminosity:10
-- Density: 2000
-- Temperature: 1700
-- Viscosity: 10000
-- Gaseous: false
-<liquid:lumium>
-- Name: lumium
-- Display Name: Molten Lumium
-- Luminosity:10
-- Density: 2000
-- Temperature: 1000
-- Viscosity: 10000
 - Gaseous: false
 <liquid:lumix_fluid>
 - Name: lumix_fluid
@@ -774,14 +661,6 @@ Liquids:
 - Density: 2000
 - Temperature: 950
 - Viscosity: 7000
-- Gaseous: false
-<liquid:miasma>
-- Name: miasma
-- Display Name: Miasma
-- Luminosity:15
-- Density: 3000
-- Temperature: 400
-- Viscosity: 3000
 - Gaseous: false
 <liquid:milk>
 - Name: milk
@@ -951,14 +830,6 @@ Liquids:
 - Temperature: 300
 - Viscosity: 2000
 - Gaseous: false
-<liquid:platinum>
-- Name: platinum
-- Display Name: Molten Platinum
-- Luminosity:10
-- Density: 2000
-- Temperature: 900
-- Viscosity: 10000
-- Gaseous: false
 <liquid:poison>
 - Name: poison
 - Display Name: Poison
@@ -1119,14 +990,6 @@ Liquids:
 - Temperature: 720
 - Viscosity: 10000
 - Gaseous: false
-<liquid:signalum>
-- Name: signalum
-- Display Name: Molten Signalum
-- Luminosity:10
-- Density: 2000
-- Temperature: 950
-- Viscosity: 10000
-- Gaseous: false
 <liquid:silver>
 - Name: silver
 - Display Name: Molten Silver
@@ -1183,38 +1046,6 @@ Liquids:
 - Temperature: 800
 - Viscosity: 10000
 - Gaseous: false
-<liquid:tamoltenauroriansteel>
-- Name: tamoltenauroriansteel
-- Display Name: Molten Aurorian Steel
-- Luminosity:10
-- Density: 2000
-- Temperature: 800
-- Viscosity: 10000
-- Gaseous: false
-<liquid:tamoltencerulean>
-- Name: tamoltencerulean
-- Display Name: Molten Cerulean
-- Luminosity:10
-- Density: 2000
-- Temperature: 800
-- Viscosity: 10000
-- Gaseous: false
-<liquid:tamoltenmoonstone>
-- Name: tamoltenmoonstone
-- Display Name: Molten Moonstone
-- Luminosity:10
-- Density: 2000
-- Temperature: 800
-- Viscosity: 10000
-- Gaseous: false
-<liquid:tamoonwater>
-- Name: tamoonwater
-- Display Name: Moonwater
-- Luminosity:0
-- Density: 1000
-- Temperature: 300
-- Viscosity: 1000
-- Gaseous: false
 <liquid:terrasteel>
 - Name: terrasteel
 - Display Name: Molten Terrasteel
@@ -1255,14 +1086,6 @@ Liquids:
 - Temperature: 350
 - Viscosity: 10000
 - Gaseous: false
-<liquid:titanium>
-- Name: titanium
-- Display Name: Molten Titanium
-- Luminosity:10
-- Density: 2000
-- Temperature: 1400
-- Viscosity: 10000
-- Gaseous: false
 <liquid:triberium_fluid>
 - Name: triberium_fluid
 - Display Name: Triberium Fluid
@@ -1277,14 +1100,6 @@ Liquids:
 - Luminosity:10
 - Density: 2000
 - Temperature: 550
-- Viscosity: 10000
-- Gaseous: false
-<liquid:tungsten>
-- Name: tungsten
-- Display Name: Molten Tungsten
-- Luminosity:10
-- Density: 2000
-- Temperature: 1800
 - Viscosity: 10000
 - Gaseous: false
 <liquid:uranium>
@@ -1374,14 +1189,6 @@ Liquids:
 - Density: 800
 - Temperature: 300
 - Viscosity: 1500
-- Gaseous: false
-<liquid:yellorium>
-- Name: yellorium
-- Display Name: Molten Yellorium
-- Luminosity:10
-- Density: 2000
-- Temperature: 1400
-- Viscosity: 10000
 - Gaseous: false
 <liquid:yrdeen_fluid>
 - Name: yrdeen_fluid
