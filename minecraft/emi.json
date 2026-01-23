@@ -1,0 +1,47 @@
+{
+  "favorites": [],
+  "lookup_history": [
+    "item:botania:mana_pylon",
+    "item:minecraft:gold_ingot",
+    "item:botania:manasteel_ingot",
+    "item:botania:green_shiny_flower",
+    "item:botania:yellow_shiny_flower",
+    "item:botania:purple_floating_flower",
+    "item:botania:green_petal_block",
+    "item:botania:black_mushroom",
+    "item:botania:green_double_flower",
+    "item:botania:orange_double_flower",
+    "item:botania:magenta_petal_block",
+    "item:botania:purple_petal_block",
+    "item:botania:light_blue_petal_block",
+    "item:botania:gray_mushroom",
+    "item:botania:red_floating_flower",
+    "item:botania:brown_floating_flower",
+    "item:botania:light_blue_double_flower",
+    "item:botania:yellow_double_flower",
+    "item:botania:gray_petal_block",
+    "item:botania:orange_floating_flower",
+    "item:botania:cyan_shiny_flower",
+    "item:thermal:enderium_ingot",
+    "item:ae2:cell_component_16k",
+    "item:ae2:cell_component_64k",
+    "item:megacells:accumulation_processor",
+    "item:megacells:cell_component_16m",
+    "item:megacells:cell_component_64m",
+    "item:megacells:cell_component_256m",
+    "item:megacells:fluid_storage_cell_256m",
+    "item:thermal:machine_pulverizer",
+    "item:minecraft:mangrove_fence_gate",
+    "item:minecraft:cake"
+  ],
+  "craft_history": [
+    "recipestages:botania_mana_pylon"
+  ],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}

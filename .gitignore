@@ -4,3 +4,7 @@ minecraft/backups/
 minecraft/cache/
 
 minecraft/.mixin.out/
+
+minecraft/crash-reports/
+
+minecraft/.DS_Store
