@@ -1,0 +1,40 @@
+{
+	icon: {
+		Count: 1
+		id: "thermal:gold_coin"
+		tag: { }
+	}
+	id: "4794BBA14A3BE0C1"
+	loot_crate: {
+		color: 11640360
+		drops: {
+			boss: 1
+			monster: 100
+			passive: 0
+		}
+		item_name: "Cash Crate"
+		string_id: "coins"
+	}
+	loot_size: 4
+	order_index: 2
+	rewards: [
+		{ item: "thermal:iron_coin", weight: 10.0f }
+		{ item: "thermal:gold_coin", weight: 8.0f }
+		{ item: "thermal:copper_coin", weight: 15.0f }
+		{ item: "thermal:netherite_coin" }
+		{ item: "thermal:tin_coin", weight: 20.0f }
+		{ item: "thermal:lead_coin", weight: 12.25f }
+		{ item: "thermal:silver_coin", weight: 7.0f }
+		{ item: "thermal:nickel_coin", weight: 11.2f }
+		{ item: "thermal:steel_coin", weight: 4.0f }
+		{ item: "thermal:rose_gold_coin", weight: 6.5f }
+		{ item: "thermal:bronze_coin", weight: 12.5f }
+		{ item: "thermal:electrum_coin", weight: 4.1f }
+		{ item: "thermal:invar_coin", weight: 5.25f }
+		{ item: "thermal:constantan_coin", weight: 6.23f }
+		{ item: "thermal:signalum_coin", weight: 0.7f }
+		{ item: "thermal:lumium_coin", weight: 0.6f }
+		{ item: "thermal:enderium_coin", weight: 0.5f }
+	]
+	title: "Coins"
+}

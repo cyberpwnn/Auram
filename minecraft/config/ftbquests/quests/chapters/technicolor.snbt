@@ -1,0 +1,344 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "technicolor"
+	group: "006AB6CF7219546D"
+	icon: "twilightforest:rainbow_oak_sapling"
+	id: "278FE63CEAAFEC78"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Lapis tastes like shit. Now i gotta eat a bunch of fucking dyes."
+				""
+				"* &lred&r"
+				"* &lorange&r"
+				"* &lbrown&r"
+				"* &lyellow&r"
+				"* &lgreen&r"
+				"* &llime&r"
+				"* &lcyan&r"
+				"* &llight_blue&r"
+				"* &lmagenta&r"
+				"* &lpurple&r"
+				"* &lpink&r"
+			]
+			id: "6FF5E3DF57A7252F"
+			invisible: true
+			rewards: [
+				{
+					id: "71D014171709DA4E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "20C81ED23B7B935D"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+				{
+					auto: "invisible"
+					id: "7EB1E8965ADBD8B3"
+					ignore_reward_blocking: true
+					stage: "minecraft"
+					title: "Minecraft!"
+					type: "gamestage"
+				}
+			]
+			secret: true
+			size: 2.0d
+			subtitle: "God dammit"
+			tasks: [{
+				disable_toast: true
+				icon: "minecraft:lapis_lazuli"
+				id: "6B0016E83D565636"
+				secret: true
+				title: "Why so blue?"
+				type: "custom"
+			}]
+			x: 4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "3C63FCD342BE19D8"
+			rewards: [
+				{
+					id: "6D0B6EBF122527E6"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "15EB67A19A17DF4F"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:red_dye"
+				id: "00664DDF8C5CC781"
+				title: "Rosy Red"
+				type: "custom"
+			}]
+			x: 8.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "30B4DC99B0B72F22"
+			rewards: [
+				{
+					id: "1B319EFC6679C625"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1C363AEC08C3956F"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:orange_dye"
+				id: "2991E1C716E4B863"
+				title: "Ol' Orange"
+				type: "custom"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "44130634F17F7E77"
+			rewards: [
+				{
+					id: "467509930E90CC29"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5797973F10D2727A"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:brown_dye"
+				id: "3F4DE9BAC2FEF8BA"
+				title: "Brown Town"
+				type: "custom"
+			}]
+			x: 7.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "394268BE15FAC88B"
+			rewards: [
+				{
+					id: "1CC146F21B5CE851"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0A582D9301A3C29A"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:yellow_dye"
+				id: "362D8CF209890CBE"
+				title: "Mellow Yellow"
+				type: "custom"
+			}]
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "1E01849FADB14A38"
+			rewards: [
+				{
+					id: "3AA0A360A14933E0"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5631C6F9F7041868"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:green_dye"
+				id: "1AAF40633B53E483"
+				title: "Geen Team"
+				type: "custom"
+			}]
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "344CBBCBD027D425"
+			rewards: [
+				{
+					id: "2748FF69BCF23928"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "681090226FCBB727"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:lime_dye"
+				id: "7C303654A44233DD"
+				title: "Lime Time"
+				type: "custom"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "56F21D9BA4A5F0A9"
+			rewards: [
+				{
+					id: "6422F2F531A764A3"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7020965979A234F0"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:cyan_dye"
+				id: "4A3DB306F75BEB82"
+				title: "Cyan Plan"
+				type: "custom"
+			}]
+			x: 0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "2A838AEE088B16D1"
+			rewards: [
+				{
+					id: "5BE5A9DE25AF8B0F"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "318DF2A404F0CEA7"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:light_blue_dye"
+				id: "2BFB96848ABCE67A"
+				title: "Light Blue Dude"
+				type: "custom"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "229032A4D0EB87F6"
+			rewards: [
+				{
+					id: "7184C27CB988EE76"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "1E0CE3449C4016F9"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:magenta_dye"
+				id: "500CC692B4393650"
+				title: "Magenta Stuff"
+				type: "custom"
+			}]
+			x: 5.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"6B0016E83D565636"
+				"6FF5E3DF57A7252F"
+			]
+			id: "6DAF4954BAB8D5E2"
+			rewards: [
+				{
+					id: "6571000059C699CC"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "25064690B8B66092"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:purple_dye"
+				id: "7133B36742BFA01A"
+				title: "Derpin' Purple"
+				type: "custom"
+			}]
+			x: 4.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6FF5E3DF57A7252F"]
+			id: "3940C2D24C84E056"
+			rewards: [
+				{
+					id: "72B6B2CC98845791"
+					type: "xp"
+					xp: 15
+				}
+				{
+					exclude_from_claim_all: true
+					id: "6B75CB5D0F49D9CD"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				icon: "minecraft:pink_dye"
+				id: "51399BD5D55B3978"
+				title: "Pink Stink"
+				type: "custom"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+	]
+	title: "Color"
+}

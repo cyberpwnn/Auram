@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "hellscape"
+	group: "2F8E61EEF63E278E"
+	icon: "minecraft:lava_bucket"
+	id: "7951C1258C9B283B"
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		icon: "minecraft:lava_bucket"
+		id: "2AD2085B1BFEF7D3"
+		invisible: true
+		rewards: [{
+			id: "41207C869C66F8D7"
+			type: "xp"
+			xp: 120
+		}]
+		shape: "hexagon"
+		size: 3.0d
+		tasks: [{
+			dimension: "minecraft:the_nether"
+			icon: "minecraft:obsidian"
+			id: "44E27D7C118134E4"
+			title: "Visit The Nether"
+			type: "dimension"
+		}]
+		x: 0.0d
+		y: -1.0d
+	}]
+	title: "Nether"
+}

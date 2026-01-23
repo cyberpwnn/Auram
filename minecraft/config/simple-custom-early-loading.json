@@ -1,0 +1,44 @@
+// Check documentation for more information with examples
+// https://github.com/lukaskabc/SimpleCustomEarlyLoading#configuration
+{
+  // texture elements to render
+  "elements": [
+    // note that order matters - elements are rendered from top to bottom
+    // lower elements will be rendered over the higher ones
+    {
+      // example background
+      "image": "auram.png",
+      "position": {
+        // define which point in the image should be aligned at x, y position on the window
+        // Possible values: TOP_LEFT, TOP_RIGHT, BOTTOM_LEFT, BOTTOM_RIGHT, CENTER, TOP_CENTER, BOTTOM_CENTER, LEFT_CENTER, RIGHT_CENTER
+        "position_anchor": "CENTER",
+        // The unit for x, y position PIXELS or PERCENTAGE (percentage of the window values: 0-100)
+        // the position unit can also be defined for each coordinate separately position_unit_x, position_unit_y
+        "position_unit": "PIXELS",
+        // The position of the anchor on the screen in position_unit
+        "x": 0,
+        "y": 0,
+        // The unit for width, height - PIXELS or PERCENTAGE (again, percantage of the window) - can't be defined separately
+        "size_unit": "PERCENTAGE",
+        // The width and height of the image in size_unit
+        // if you specify both values, the aspect ratio is not preserved
+        // if you specify only one value, the other is calculated to preserve the aspect ratio
+        "width": 100,
+        "height": 100
+      }
+    }
+  ],
+  "performance_bar": false,
+  "anvil": false,
+  "log_messages": false,
+  "forge_version": false
+  // I dont think it would be nice to remove the mojang logo and change the branding, so I am not allowing it here
+
+  // When specified, the window resolution will be fixed
+  // if omited, the window resolution will match the window size in fml.toml
+  // also note that this resolution is for the frame buffer, some height of the window is taken by the window header
+  // so if you set the height of the monitor, you will get black bars on sides
+  // since the frame buffer will be actually higher than the space in the window
+  // "resolution_width": 854,
+  // "resolution_height": 480
+}

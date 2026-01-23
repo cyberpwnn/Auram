@@ -1,0 +1,44 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "something"
+	group: "2F8E61EEF63E278E"
+	icon: "butchery:ender_dragon_carcass"
+	id: "75907E3A18691CE0"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			icon: "butchery:ender_dragon_carcass"
+			id: "1EF5E981AD1932C6"
+			invisible: true
+			shape: "hexagon"
+			size: 3.0d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				id: "3E5BFE63911D251A"
+				title: "The End"
+				type: "dimension"
+			}]
+			title: "Enderland"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1EF5E981AD1932C6"]
+			hide_until_deps_complete: true
+			id: "2A87C7EF2EB107F5"
+			tasks: [{
+				entity: "minecraft:ender_dragon"
+				icon: "ftb_ph:ender_dragon"
+				id: "572F3B1E39834603"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Beat Vanilla"
+			x: 0.0d
+			y: 3.0d
+		}
+	]
+	title: "End"
+}

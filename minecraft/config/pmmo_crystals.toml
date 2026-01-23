@@ -1,0 +1,4 @@
+levels_xp = [100, 200, 300, 400, 500, 600, 700, 800, 900]
+requesting_minimum = false
+use_all_stack = false
+

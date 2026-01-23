@@ -1,0 +1,142 @@
+{
+	icon: {
+		Count: 1
+		id: "botania:brew_vial"
+		tag: {
+			brewKey: "botania:night_vision"
+		}
+	}
+	id: "546CC1FC3D2CC7E7"
+	loot_crate: {
+		color: 16738810
+		drops: {
+			boss: 1
+			monster: 0
+			passive: 0
+		}
+		item_name: "Vial Crate"
+		string_id: "potion_vials"
+	}
+	loot_size: 1
+	order_index: 0
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:speed"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:strength"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:haste"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:healing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:jump_boost"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:regen"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:regen_weak"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:resistance"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:water_breathing"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:night_vision"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:absorption"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:overload"
+				}
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "botania:brew_vial"
+				tag: {
+					brewKey: "botania:feather_feet"
+				}
+			}
+		}
+	]
+	title: "Potion Vials"
+}

@@ -1,0 +1,30 @@
+{
+	icon: "minecraft:diamond"
+	id: "5B2DB7FCDE3999A7"
+	loot_crate: {
+		color: 11184810
+		drops: {
+			boss: 1
+			monster: 0
+			passive: 0
+		}
+		item_name: "Basic Resources Crate"
+		string_id: "basic_resources"
+	}
+	loot_size: 3
+	order_index: 1
+	rewards: [
+		{ item: "minecraft:diamond", random_bonus: 3, weight: 4.0f }
+		{ count: 5, item: "minecraft:iron_ingot", random_bonus: 12, weight: 10.0f }
+		{ count: 2, item: "minecraft:gold_ingot", random_bonus: 12, weight: 5.0f }
+		{ count: 3, item: "minecraft:copper_ingot", random_bonus: 12, weight: 15.0f }
+		{ count: 4, item: "minecraft:redstone", random_bonus: 15, weight: 6.0f }
+		{ count: 4, item: "minecraft:lapis_lazuli", random_bonus: 12, weight: 4.0f }
+		{ item: "minecraft:ender_pearl", random_bonus: 2, weight: 1.5f }
+		{ item: "thermal:netherite_nugget", weight: 0.2f }
+		{ item: "botania:manasteel_ingot" }
+		{ item: "botania:terrasteel_nugget", weight: 0.5f }
+		{ item: "botania:elementium_ingot" }
+	]
+	title: "Basic Resources"
+}

@@ -1,0 +1,9 @@
+# Use Cloth Config mod for the descriptions.
+---
+rules:
+  minecraft:the_nether:
+    doMobLoot: 'false'
+  twilightforest:twilight_forest:
+    doSeasonCycle: 'false'
+    tfEnforcedProgression: 'false'
+    doInsomnia: 'false'

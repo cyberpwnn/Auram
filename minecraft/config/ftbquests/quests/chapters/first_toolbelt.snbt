@@ -1,0 +1,937 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "first_toolbelt"
+	group: "006AB6CF7219546D"
+	icon: {
+		Count: 1
+		id: "minecraft:diamond_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "6921F112D11F1677"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "461510F3F77E0CF1"
+			invisible: true
+			rewards: [{
+				id: "0A7F59805118E2A6"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "5CE08C8AE38D30BA"
+				item: {
+					Count: 1
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["461510F3F77E0CF1"]
+			id: "52AA3601CC1F0253"
+			invisible: true
+			rewards: [{
+				id: "7853908728DC0EA7"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "0D098A8F4912761B"
+				item: {
+					Count: 1
+					id: "minecraft:stone_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["52AA3601CC1F0253"]
+			id: "6EFA132A01CCDB40"
+			invisible: true
+			rewards: [{
+				id: "3EB94592230E4764"
+				type: "xp"
+				xp: 20
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [{
+				id: "1ED8BE9E67C812F7"
+				item: {
+					Count: 1
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			id: "1018DF2A203E5692"
+			invisible: true
+			rewards: [{
+				id: "3EFE3A0204124278"
+				type: "xp"
+				xp: 40
+			}]
+			tasks: [{
+				id: "718F4272DFE2931A"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			hide_until_deps_complete: false
+			id: "2CC85D829F26B5C0"
+			rewards: [
+				{
+					id: "77C8F69E617B36CC"
+					type: "xp"
+					xp: 40
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7757574393F29091"
+					table_id: 3796886041508017044L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				id: "0CAEC4AC01B55049"
+				item: {
+					Count: 1
+					id: "minecraft:golden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1018DF2A203E5692"]
+			hide_until_deps_visible: true
+			id: "5CF846186108B6BA"
+			invisible: true
+			rewards: [{
+				id: "273CE7933D93FA21"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				count: 8L
+				id: "52959FAFFFEB19C1"
+				item: { Count: 8, id: "minecraft:obsidian" }
+				type: "item"
+			}]
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["229F027CB09A7481"]
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "tconstruct:tinkers_anvil"
+				tag: {
+					texture: "thermal:bronze_block"
+				}
+			}
+			id: "3204F12914DF8332"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "110C3BA7E27622BD"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+				{
+					id: "2F9B882C9A4BCFD1"
+					type: "xp"
+					xp: 40
+				}
+				{
+					auto: "enabled"
+					id: "6BE1AD6801FFA033"
+					ignore_reward_blocking: true
+					stage: "tconstruct"
+					title: "Tinkers Construct"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "3F2CB4B27694A8DB"
+					ignore_reward_blocking: true
+					stage: "tinkers_shovels"
+					title: "Tinkers Shovels"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "175269684AC25D60"
+					ignore_reward_blocking: true
+					stage: "tinkers_hoes"
+					title: "Tinkers Hoes"
+					type: "gamestage"
+				}
+				{
+					id: "44DA1FE5B060E3E7"
+					item: "tconstruct:materials_and_you"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [
+				{
+					count: 32L
+					id: "6C5CB7F9D3916185"
+					item: { Count: 32, id: "minecraft:clay_ball" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "521F96691865121C"
+					item: { Count: 32, id: "minecraft:gravel" }
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "2B099177C80CEBA8"
+					item: { Count: 8, id: "minecraft:sand" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "7EBDA714BF8E9A4A"
+					item: "thermal:gold_coin"
+					type: "item"
+				}
+			]
+			title: "The Tinkerer"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			hide_until_deps_visible: true
+			id: "229F027CB09A7481"
+			rewards: [
+				{
+					id: "6FB4ADC8135DB3C2"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7D44E3DF7CAB5D3F"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					block: "minecraft:iron_ore"
+					block_type: 0
+					checkItem: false
+					id: "1B4F6D6E7FC08726"
+					title: "Mine Iron"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "minecraft:copper_ore"
+					block_type: 0
+					checkItem: false
+					id: "766CC7A48C12197F"
+					title: "Mine Copper"
+					type: "questsadditions:break"
+					value: 16L
+				}
+				{
+					block: "minecraft:gold_ore"
+					block_type: 0
+					checkItem: false
+					id: "6824ACCF3A97FE5C"
+					title: "Mine Gold"
+					type: "questsadditions:break"
+					value: 4L
+				}
+			]
+			title: "Mining Run"
+			x: 0.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			hide_until_deps_visible: true
+			id: "724A7AA43ED261F0"
+			rewards: [{
+				id: "42D34669EB6BE9B9"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "501DA309D1A05C19"
+				item: {
+					Count: 1
+					id: "minecraft:iron_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["724A7AA43ED261F0"]
+			hide_until_deps_complete: true
+			id: "17A3FFDC7F14D0D6"
+			rewards: [
+				{
+					id: "18C78C904DD5D128"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "05ECA60BDE2748BB"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [{
+				id: "4F5FB58AB90B86F2"
+				item: {
+					Count: 1
+					id: "minecraft:diamond_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 5.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["52AA3601CC1F0253"]
+			hide_until_deps_visible: true
+			id: "125FFB6D6B1CA5F8"
+			rewards: [{
+				id: "240648096595AE69"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6A19F4591E65A59F"
+				item: {
+					Count: 1
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.0d
+		}
+		{
+			dependencies: ["52AA3601CC1F0253"]
+			hide_until_deps_complete: true
+			id: "644DA7B2B04BACC1"
+			rewards: [{
+				id: "46ECAA9078BFDAE1"
+				type: "xp"
+				xp: 5
+			}]
+			tasks: [{
+				id: "6EA602DB40A25725"
+				item: {
+					Count: 1
+					id: "minecraft:flint_and_steel"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.0d
+		}
+		{
+			id: "0AF8355E47BB4125"
+			invisible: true
+			rewards: [{
+				id: "6EF0AF18B59C15FB"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "40C06125CFFFB753"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["68667B19BFF14F62"]
+			hide_until_deps_complete: true
+			id: "1DF500396F1F05E6"
+			rewards: [
+				{
+					id: "07D0CE26158A02EE"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "048B77F66EEA0E86"
+					item: "ironchest:wood_to_copper_chest_upgrade"
+					type: "item"
+				}
+			]
+			shape: "square"
+			tasks: [{
+				id: "3D18BF51DA248340"
+				item: "ironchest:copper_chest"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["1DF500396F1F05E6"]
+			hide_until_deps_complete: true
+			id: "2A166E9EA439DFC7"
+			rewards: [
+				{
+					id: "67FCE4DD9D47E9CB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					count: 2
+					id: "22B79EDF18E12673"
+					item: "ironchest:copper_to_iron_chest_upgrade"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "721655A4ABE73A30"
+				item: "ironchest:iron_chest"
+				type: "item"
+			}]
+			x: -8.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["6DC22896B61AC0A7"]
+			hide_until_deps_complete: true
+			id: "26519648B81D56D6"
+			rewards: [
+				{
+					id: "332507D718B7F956"
+					type: "xp"
+					xp: 50
+				}
+				{
+					exclude_from_claim_all: true
+					id: "43435409032CADCB"
+					table_id: 3796886041508017044L
+					type: "loot"
+				}
+				{
+					count: 4
+					id: "591DB1943EBB9B19"
+					item: "ironchest:diamond_to_crystal_chest_upgrade"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 4.0d
+			tasks: [{
+				id: "464EF9DB8165C011"
+				item: "ironchest:diamond_chest"
+				type: "item"
+			}]
+			x: -16.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0AF8355E47BB4125"]
+			hide_until_deps_complete: true
+			icon: "ironchest:wood_to_iron_chest_upgrade"
+			id: "68667B19BFF14F62"
+			rewards: [
+				{
+					id: "30C7994539D5E66E"
+					type: "xp"
+					xp: 20
+				}
+				{
+					auto: "invisible"
+					id: "0EC9FEE696EB6C87"
+					ignore_reward_blocking: true
+					stage: "ironchest"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "7EA40F35A0F93F7A"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "77F6508A0B49C584"
+					item: "minecraft:chest"
+					title: "Material Chester"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "59D26B912BD0D37D"
+					item: "minecraft:diamond"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "73275C382C3F8EA1"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "704265FDFC8DCCB3"
+					item: "minecraft:gold_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "0D721EDFF68C90FF"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "507FC2B659C221EF"
+					item: { Count: 4, id: "thermal:tin_coin" }
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A166E9EA439DFC7"]
+			hide_until_deps_complete: true
+			id: "6DC22896B61AC0A7"
+			rewards: [
+				{
+					id: "7DE4DC043CF5A997"
+					type: "xp"
+					xp: 20
+				}
+				{
+					count: 3
+					id: "50E286A5ABC3B1E1"
+					item: "ironchest:iron_to_gold_chest_upgrade"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 3.0d
+			tasks: [{
+				id: "278783939675EAD3"
+				item: "ironchest:gold_chest"
+				type: "item"
+			}]
+			x: -11.5d
+			y: 2.0d
+		}
+		{
+			dependencies: [
+				"26519648B81D56D6"
+				"2A87C7EF2EB107F5"
+			]
+			hide_details_until_startable: true
+			hide_until_deps_complete: true
+			icon: "colossalchests:chest_wall_wood"
+			id: "37D75002FDC3DD3B"
+			rewards: [
+				{
+					auto: "enabled"
+					id: "1E212622CFAFBEA5"
+					ignore_reward_blocking: true
+					stage: "colossalchests"
+					title: "Unlocks Colossal Chests"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "0C022E9C55E6B20E"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			shape: "gear"
+			size: 8.0d
+			tasks: [
+				{
+					id: "5E2C42E978B54C23"
+					points: false
+					type: "xp"
+					value: 25L
+				}
+				{
+					entity: "iceandfire:cyclops"
+					icon: {
+						Count: 1
+						id: "iceandfire:cyclops_eye"
+						tag: {
+							Damage: 0
+						}
+					}
+					id: "5499D6D59639BB1C"
+					title: "Kill Cyclops"
+					type: "kill"
+					value: 4L
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "2F605EF98C67A5E3"
+					item: "ironchest:iron_chest"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "01DB0C895057A486"
+					item: { Count: 8, id: "thermal:signalum_coin" }
+					type: "item"
+				}
+			]
+			title: "Colossally Colossal Chests"
+			x: -24.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2A166E9EA439DFC7"]
+			hide_until_deps_visible: true
+			icon: "toms_storage:ts.storage_terminal"
+			id: "6BB82F508589AEC6"
+			rewards: [{
+				auto: "enabled"
+				id: "18554138B0D39909"
+				ignore_reward_blocking: true
+				stage: "toms_storage"
+				title: "Unlocks Tom's Simple Storage"
+				type: "gamestage"
+			}]
+			shape: "gear"
+			size: 4.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "3A252D64A3776387"
+					item: "thermal:enderium_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7B0C21F5463DEC65"
+					item: { Count: 2, id: "ironchest:diamond_chest" }
+					type: "item"
+				}
+			]
+			title: "Simple Storage"
+			x: -8.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["0AF8355E47BB4125"]
+			hide_until_deps_complete: true
+			id: "2FBD074F4077BA78"
+			rewards: [{
+				id: "6D9B01ACDD87E978"
+				type: "xp"
+				xp: 20
+			}]
+			tasks: [{
+				id: "161AF8EFA8142889"
+				item: "minecraft:hopper"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["41A97D576024F30E"]
+			hide_until_deps_complete: true
+			id: "4F372C046A99B4E2"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "764DBF5B06622A54"
+					table_id: 5157953774655627457L
+					type: "random"
+				}
+				{
+					id: "6BC1D226CB6E9F3D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			tasks: [{
+				id: "2B707A86378ACA76"
+				item: "tconstruct:coin_cast"
+				type: "item"
+			}]
+			title: "Coin Crafting"
+			x: -3.0d
+			y: 8.5d
+		}
+		{
+			dependencies: ["3204F12914DF8332"]
+			hide_until_deps_complete: true
+			id: "41A97D576024F30E"
+			rewards: [
+				{
+					id: "3E7ADE93A471D49A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2B87D16ED7ABFFE3"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					count: 18L
+					id: "4BC59B61E5F310D7"
+					item: "tconstruct:seared_bricks"
+					type: "item"
+				}
+				{
+					id: "1F64831DBA936D6B"
+					item: "tconstruct:smeltery_controller"
+					type: "item"
+				}
+				{
+					id: "7B5F501BFB5076AF"
+					item: "tconstruct:seared_faucet"
+					type: "item"
+				}
+				{
+					id: "46FDEE22F6267ED8"
+					item: "tconstruct:seared_drain"
+					type: "item"
+				}
+				{
+					id: "1D3FEB27F13CD651"
+					item: "tconstruct:seared_table"
+					type: "item"
+				}
+				{
+					id: "5DC39058AE0E481D"
+					item: "tconstruct:seared_fuel_tank"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: 8.5d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			hide_until_deps_visible: true
+			icon: "nomadictents:large_indlu"
+			id: "7E3BBA5900CEB510"
+			rewards: [
+				{
+					id: "41B0C3539FAB57C5"
+					item: {
+						Count: 1
+						id: "nomadictents:golden_mallet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "no_toast"
+					id: "4D397D5815AE160D"
+					ignore_reward_blocking: true
+					stage: "nomadictents"
+					title: "Unlocks Nomadic Tents"
+					type: "gamestage"
+				}
+				{
+					id: "6FB908643E07FEFE"
+					type: "xp"
+					xp: 20
+				}
+				{
+					exclude_from_claim_all: true
+					id: "79FAF2075BD80817"
+					table_id: 4925923000727228142L
+					type: "choice"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "6DA3577B2A34DFAA"
+					item: { Count: 8, id: "minecraft:paper" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 16L
+					id: "26C920F29F1DE478"
+					item: { Count: 16, id: "auram:bundledsticks" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					id: "74896D58273EF9E1"
+					item: { Count: 4, id: "thermal:rose_gold_coin" }
+					type: "item"
+				}
+			]
+			title: "Nomadic Tents"
+			x: 2.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			description: ["You can craft an Ender Jade. While it is in your inventory, it shows you what you are looking at."]
+			hide_until_deps_complete: true
+			icon: "auram:enderjade"
+			id: "7036A8F655EF657D"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "1573BFFD84B04D9A"
+					table_id: 5157953774655627457L
+					type: "random"
+				}
+				{
+					id: "7BBA1763091F11EE"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "5B728B7DC349FEB6"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					id: "5995EBB1BA45D799"
+					item: "thermal:enderium_coin"
+					type: "item"
+				}
+			]
+			title: "Ender Jade"
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6EFA132A01CCDB40"]
+			description: ["While holding a jorney map, it shows journeymap!"]
+			hide_until_deps_complete: true
+			icon: "auram:journeymap"
+			id: "2CE7EC701FD4AB47"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "6D4531336CFBDB1D"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+				{
+					id: "4BD81AEA00556495"
+					type: "xp"
+					xp: 100
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					id: "3D517A9AFF3486C2"
+					item: "minecraft:map"
+					type: "item"
+				}
+				{
+					id: "739539AF296C367A"
+					item: "thermal:enderium_coin"
+					type: "item"
+				}
+			]
+			title: "Journey Map"
+			x: 5.0d
+			y: 2.0d
+		}
+	]
+	title: "Base"
+}

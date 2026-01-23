@@ -1,0 +1,33 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "twilight"
+	group: "2F8E61EEF63E278E"
+	icon: "twilightforest:magic_map_focus"
+	id: "29FDB9159BD517EA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [{
+		icon: "twilightforest:magic_map_focus"
+		id: "55C2003336642C22"
+		invisible: true
+		rewards: [{
+			id: "392BC7EA89F79B86"
+			type: "xp"
+			xp: 120
+		}]
+		shape: "hexagon"
+		size: 3.0d
+		tasks: [{
+			dimension: "twilightforest:twilight_forest"
+			icon: "twilightforest:twilight_portal_miniature_structure"
+			id: "724284578AB07B58"
+			title: "Visit The Twilight Forest"
+			type: "dimension"
+		}]
+		title: "Dusk Jungle"
+		x: 1.0d
+		y: -0.5d
+	}]
+	title: "Twilight"
+}

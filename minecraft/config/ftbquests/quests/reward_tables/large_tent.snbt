@@ -1,0 +1,43 @@
+{
+	id: "445C64DED945CEEE"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{
+			item: {
+				Count: 1
+				id: "nomadictents:large_bedouin"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "nomadictents:large_indlu"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "nomadictents:large_shamiyana"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "nomadictents:large_tepee"
+				tag: { }
+			}
+		}
+		{
+			item: {
+				Count: 1
+				id: "nomadictents:large_yurt"
+				tag: { }
+			}
+		}
+	]
+	title: "Large Tent"
+}
