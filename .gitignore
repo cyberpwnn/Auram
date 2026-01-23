@@ -24,3 +24,11 @@ minecraft/mod_data/
 minecraft/modernfix/
 
 *.log
+
+minecraft/saves/
+
+minecraft/screenshots/
+
+minecraft/usercache.json
+
+minecraft/usernamecache.json
