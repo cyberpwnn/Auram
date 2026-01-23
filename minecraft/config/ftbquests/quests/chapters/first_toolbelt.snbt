@@ -366,8 +366,8 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: 1.0d
+			x: -1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["52AA3601CC1F0253"]
@@ -389,7 +389,7 @@
 				}
 				type: "item"
 			}]
-			x: 0.5d
+			x: -0.5d
 			y: 1.0d
 		}
 		{
@@ -667,14 +667,22 @@
 			hide_until_deps_visible: true
 			icon: "toms_storage:ts.storage_terminal"
 			id: "6BB82F508589AEC6"
-			rewards: [{
-				auto: "enabled"
-				id: "18554138B0D39909"
-				ignore_reward_blocking: true
-				stage: "toms_storage"
-				title: "Unlocks Tom's Simple Storage"
-				type: "gamestage"
-			}]
+			rewards: [
+				{
+					auto: "enabled"
+					id: "18554138B0D39909"
+					ignore_reward_blocking: true
+					stage: "toms_storage"
+					title: "Unlocks Tom's Simple Storage"
+					type: "gamestage"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "181A939CF6ECDD1A"
+					table_id: 3796886041508017044L
+					type: "random"
+				}
+			]
 			shape: "gear"
 			size: 4.0d
 			tasks: [
@@ -931,6 +939,135 @@
 			title: "Journey Map"
 			x: 5.0d
 			y: 2.0d
+		}
+		{
+			id: "2F23D8344AA4FA48"
+			invisible: true
+			rewards: [{
+				id: "43AF4F7E93C2C582"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "070560DDEBC48F28"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "A Tough Material"
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			id: "6D13D20A15C5E1ED"
+			invisible: true
+			rewards: [{
+				id: "10326F90CEC7319B"
+				type: "xp"
+				xp: 10
+			}]
+			tasks: [{
+				id: "11B182391C95F747"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			title: "A Binding Material"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"6D13D20A15C5E1ED"
+				"2F23D8344AA4FA48"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				Count: 1
+				ForgeCaps: {
+					Parent: {
+						Items: [ ]
+						Size: 77
+					}
+				}
+				id: "rpgbackpacks:netherite_backpack"
+				tag: {
+					Inventory: {
+						Items: [ ]
+						Size: 77
+					}
+				}
+			}
+			id: "5FC3033B4D7D1312"
+			rewards: [
+				{
+					auto: "invisible"
+					id: "5918C4496663C75C"
+					ignore_reward_blocking: true
+					stage: "projectred_exploration"
+					type: "gamestage"
+				}
+				{
+					id: "0B9E94AF357B8A56"
+					item: {
+						Count: 1
+						ForgeCaps: {
+							Parent: {
+								Items: [ ]
+								Size: 77
+							}
+						}
+						id: "rpgbackpacks:netherite_backpack"
+						tag: {
+							Inventory: {
+								Items: [ ]
+								Size: 77
+							}
+						}
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					id: "5962132FAC4538EE"
+					ignore_reward_blocking: true
+					stage: "rpgbackpacks"
+					type: "gamestage"
+				}
+			]
+			shape: "gear"
+			size: 2.0d
+			tasks: [
+				{
+					consume_items: true
+					count: 8L
+					id: "565FBC93938611E6"
+					item: { Count: 6, id: "minecraft:string" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "571C5637B9CC30F9"
+					item: { Count: 8, id: "minecraft:leather" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 4L
+					id: "7DDA93741B250051"
+					item: { Count: 4, id: "minecraft:white_wool" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 12L
+					id: "6024DA484E0FB7A9"
+					item: { Count: 12, id: "thermal:silver_coin" }
+					type: "item"
+				}
+			]
+			title: "Backpacks!"
+			x: -0.5d
+			y: -3.0d
 		}
 	]
 	title: "Base"

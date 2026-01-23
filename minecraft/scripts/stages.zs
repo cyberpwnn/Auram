@@ -67,12 +67,16 @@ stageModFilter("thermal", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Thermal St
     <item:thermal:lumium_coin>,
     <item:thermal:enderium_coin>
 ] as IIngredient[]);
+stageMod("projectred_exploration", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
+stageMod("regions_unexplored", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Exploration Junk");
+stageMod("waystones", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Waystone...?");
+stageMod("immersive_weathering", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Immersive Stuff");
 
+stageMod("rpgbackpacks", "<glitch f=3 j=0.02 b=0.01 s=0.1>Backpack?");
 
 // TBC
 stageMod("botania", "<grad from=#16a124 to=#5e3e30 hue><wiggle a=2 f=0.1>Living Botanical Thingy");
 stageMod("industrialforegoing", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Industrial Stuff");
-stageMod("rpgbackpacks", "<glitch f=3 j=0.02 b=0.01 s=0.1>Backpack?");
 stageMod("draconicevolution", "<grad from=#dd05f5 to=#a821d1 hue><glitch f=3 j=0.02 b=0.01 s=0.1>Balanced Effort");
 stageMod("iceandfire", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Icy Hot Stuff");
 stageMod("twilightforest", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Enchanted Object");
@@ -89,7 +93,6 @@ stageMod("disenchanting_table", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Dise
 stageMod("elevatorid", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Ender Wool?");
 stageMod("projectred_core", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
 stageMod("projectred_expansion", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
-stageMod("projectred_exploration", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
 stageMod("projectred_integration", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
 stageMod("projectred_transmission", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
 stageMod("projectred_fabrication", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Red Stuff");
@@ -115,7 +118,6 @@ stageMod("mowziesmobs", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Smelly Objec
 stageMod("pipez", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Pipe Stuff");
 stageMod("projecte", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Alchemical Stuff");
 stageMod("rftoolsbase", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Flux Junk");
-stageMod("regions_unexplored", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Exploration Junk");
 stageMod("aquaculture", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Fishing Gear?");
 stageMod("appbot", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Automated Flowers?");
 stageMod("arseng", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Engineering Stuff");
@@ -129,10 +131,8 @@ stageMod("tf_dnv", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Twilight Village 
 stageMod("tinycoalmod", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Tiny Carbon?");
 stageMod("tomeofblood", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Ars Blood?");
 stageMod("wands", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Magic Wand?");
-stageMod("waystones", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Waystone...?");
 stageMod("xnet", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>X Stuff");
 stageMod("atmospheric", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Atmospheric Stuff");
-stageMod("immersive_weathering", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Immersive Stuff");
 stageMod("immersiveengineering", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Immersive Stuff");
 stageMod("aether_redux", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
 stageMod("deep_aether", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");

@@ -18,7 +18,7 @@
 					type: "coins"
 				}
 			}
-			weight: 4.0f
+			weight: 5.0f
 		}
 		{
 			item: {
@@ -35,6 +35,16 @@
 				id: "ftbquests:lootcrate"
 				tag: {
 					type: "basic_resources"
+				}
+			}
+			weight: 3.0f
+		}
+		{
+			item: {
+				Count: 1
+				id: "ftbquests:lootcrate"
+				tag: {
+					type: "organics"
 				}
 			}
 			weight: 2.0f

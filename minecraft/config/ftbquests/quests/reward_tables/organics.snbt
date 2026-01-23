@@ -1,0 +1,36 @@
+{
+	id: "5D71F0E52D384C83"
+	loot_crate: {
+		color: 5766989
+		drops: {
+			boss: 0
+			monster: 0
+			passive: 0
+		}
+		item_name: "Organics Crate"
+		string_id: "organics"
+	}
+	loot_size: 3
+	order_index: 5
+	rewards: [
+		{ item: "minecraft:white_wool", weight: 3.0f }
+		{ item: "minecraft:ender_pearl", weight: 0.1f }
+		{ item: "minecraft:ghast_tear", weight: 0.037f }
+		{ item: "minecraft:rotten_flesh", weight: 3.0f }
+		{ item: "minecraft:leather", weight: 5.0f }
+		{ item: "minecraft:beetroot_seeds" }
+		{ item: "minecraft:melon_seeds" }
+		{ item: "minecraft:pumpkin_seeds" }
+		{ item: "minecraft:apple" }
+		{ item: "minecraft:oak_log", weight: 5.0f }
+		{ item: "minecraft:cactus", weight: 2.0f }
+		{ item: "minecraft:sugar_cane", weight: 2.0f }
+		{ item: "minecraft:bone_meal", weight: 4.0f }
+		{ item: "auram:bundledsticks", weight: 2.0f }
+		{ item: "minecraft:string", weight: 10.0f }
+		{ item: "minecraft:clay_ball", weight: 3.0f }
+		{ item: "minecraft:grass_block" }
+		{ item: "minecraft:wheat_seeds" }
+	]
+	title: "Organics"
+}

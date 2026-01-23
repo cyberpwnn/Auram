@@ -46,6 +46,27 @@
 					title: "Minecraft!"
 					type: "gamestage"
 				}
+				{
+					auto: "invisible"
+					id: "045FA4313EDFDFDC"
+					ignore_reward_blocking: true
+					stage: "regions_unexplored"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "389D5B5DE3F4DA70"
+					ignore_reward_blocking: true
+					stage: "waystones"
+					type: "gamestage"
+				}
+				{
+					auto: "invisible"
+					id: "34B0FA6AD10E5FFE"
+					ignore_reward_blocking: true
+					stage: "immersive_weathering"
+					type: "gamestage"
+				}
 			]
 			secret: true
 			size: 2.0d
