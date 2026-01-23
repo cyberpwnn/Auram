@@ -8,3 +8,19 @@ minecraft/.mixin.out/
 minecraft/crash-reports/
 
 minecraft/.DS_Store
+
+minecraft/journeymap/data/
+
+minecraft/journeymap/journeymap.log
+
+minecraft/kubejs/.DS_Store
+
+minecraft/local/ftbchunks/data/
+
+minecraft/logs/
+
+minecraft/mod_data/
+
+minecraft/modernfix/
+
+*.log
