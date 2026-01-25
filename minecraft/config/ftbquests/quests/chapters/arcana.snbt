@@ -3,9 +3,527 @@
 	default_quest_shape: ""
 	filename: "arcana"
 	group: "006AB6CF7219546D"
-	id: "0B6F25727B5A29AC"
+	id: "0B99DF196529C489"
 	order_index: 3
 	quest_links: [ ]
-	quests: [ ]
-	title: "Arcana"
+	quests: [
+		{
+			id: "2834D6D7BC206BAC"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "141414EB02D2D371"
+					item: "botania:lexicon"
+					type: "item"
+				}
+				{
+					id: "3FA3F3A03D1B9518"
+					type: "xp"
+					xp: 25
+				}
+			]
+			tasks: [
+				{
+					id: "66B4DA7A8023E7BC"
+					item: "botania:white_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7E385D55E41FF947"
+					item: "botania:white_double_flower"
+					type: "item"
+				}
+			]
+			title: "Sky of Beginning"
+			x: 3.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "7FB74D55DC9C659F"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "750E57333951A044"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5E2C4A089B5ED825"
+					item: "botania:orange_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "30B8A8396BE41765"
+					item: "botania:orange_double_flower"
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "02A6B4436E342261"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "459692BD9C1CEA2D"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "2EA39C85FFFE1A4D"
+					item: "botania:red_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7A93C4DA207AE46F"
+					item: "botania:red_double_flower"
+					type: "item"
+				}
+			]
+			x: 4.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "3BCFF949591370AC"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56CF5101F38E4D9D"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "490BC6C889BE8021"
+					item: "botania:black_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "41274D192AA65A83"
+					item: "botania:black_double_flower"
+					type: "item"
+				}
+			]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "30E5BB10EE9057A5"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B54D2B5D736FBD1"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "75C710079F512425"
+					item: "botania:gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7DDF3DFF8F93E98D"
+					item: "botania:gray_double_flower"
+					type: "item"
+				}
+			]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "3CD52FFAF49B815A"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56FD05A6A0DA1DEF"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4649F185FF33C824"
+					item: "botania:pink_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "1F6B505A59E25805"
+					item: "botania:pink_double_flower"
+					type: "item"
+				}
+			]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "7D054AAB6DB017FA"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0AA35EA79BFF3B7E"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "28A55700900E2015"
+					item: "botania:magenta_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7BD909DE4AF6CC0D"
+					item: "botania:magenta_double_flower"
+					type: "item"
+				}
+			]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "76DF84AE1BAD8572"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2FB9B5EE60D26D1A"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "375E1CDEE7AFC7E4"
+					item: "botania:light_blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "66619D99E038EC69"
+					item: "botania:light_blue_double_flower"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -5.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "3D3F1A42E726FFF9"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "7B96F51E7F73452C"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3406D18E4448BA69"
+					item: "botania:cyan_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "0D2702BB06C65C29"
+					item: "botania:cyan_double_flower"
+					type: "item"
+				}
+			]
+			x: 2.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "6BC10C076D95F465"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "56556732DC68C6BD"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "4540E22D48D7FEE6"
+					item: "botania:purple_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "7AAE55A877AD68AF"
+					item: "botania:purple_double_flower"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "3B0B20556E5CCB10"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "524D8444FD4979A2"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "75BCF00C7D9024D0"
+					item: "botania:blue_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "247CB4C145AB2BCC"
+					item: "botania:blue_double_flower"
+					type: "item"
+				}
+			]
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "2FC21F16B97265E0"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "524B73E297DFCB43"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "3495737F80598A1C"
+					item: "botania:brown_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "4F4069098052E6F8"
+					item: "botania:brown_double_flower"
+					type: "item"
+				}
+			]
+			x: 9.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "54D7A8327DE9E94A"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "12B1272C18DCDFFC"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "5B189F3F1747C9C3"
+					item: "botania:light_gray_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "4698012C8AB509F2"
+					item: "botania:light_gray_double_flower"
+					type: "item"
+				}
+			]
+			x: -2.5d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "1D1A65F84591968E"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "75984A4FD7010450"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "1EFA46BAC9364DA0"
+					item: "botania:green_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "46A942CFC819EE6F"
+					item: "botania:green_double_flower"
+					type: "item"
+				}
+			]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "2E82322D8A668ECE"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "0700BE9D305051C4"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "0D88C0D9C4F100EC"
+					item: "botania:lime_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "6732A02C6E6BABE3"
+					item: "botania:lime_double_flower"
+					type: "item"
+				}
+			]
+			x: -3.5d
+			y: -2.0d
+		}
+		{
+			dependencies: [
+				"2834D6D7BC206BAC"
+				"5ADB99ABCD0C9105"
+			]
+			id: "0116FA9DF8649EF7"
+			invisible: true
+			min_required_tasks: 1
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "4EBC6F93883AFEDA"
+				table_id: 3796886041508017044L
+				type: "random"
+			}]
+			tasks: [
+				{
+					id: "61C24DD879915375"
+					item: "botania:yellow_mystical_flower"
+					type: "item"
+				}
+				{
+					id: "04592E0FD967F2DA"
+					item: "botania:yellow_double_flower"
+					type: "item"
+				}
+			]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			hide_until_deps_complete: true
+			icon: {
+				Count: 1
+				id: "botania:lexicon"
+				tag: {
+					"botania:elven_unlock": 1b
+				}
+			}
+			id: "5ADB99ABCD0C9105"
+			rewards: [
+				{
+					id: "440BBF2A436B3010"
+					type: "xp"
+					xp: 25
+				}
+				{
+					auto: "no_toast"
+					id: "4A338164DB1BD074"
+					ignore_reward_blocking: true
+					stage: "botania"
+					title: "Unlocks Botania"
+					type: "gamestage"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					count: 4L
+					id: "5BFB1A1CE14880F1"
+					item: "thermal:electrum_coin"
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 8L
+					id: "728682B60FB390D0"
+					item: { Count: 8, id: "aether:cold_aercloud" }
+					type: "item"
+				}
+				{
+					id: "4241449DD8112009"
+					points: false
+					type: "xp"
+					value: 10L
+				}
+			]
+			title: "Botania"
+			x: 3.5d
+			y: -8.5d
+		}
+	]
+	title: "Magic"
 }

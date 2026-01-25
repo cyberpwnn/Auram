@@ -4,7 +4,8 @@
   "bookData": {
     "botania:lexicon": {
       "viewedEntries": [
-        "botania:basics/lexicon"
+        "botania:basics/lexicon",
+        "botania:basics/pure_daisy"
       ],
       "bookmarks": [],
       "completedManualQuests": []

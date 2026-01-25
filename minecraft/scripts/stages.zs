@@ -71,11 +71,14 @@ stageMod("projectred_exploration", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>R
 stageMod("regions_unexplored", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Exploration Junk");
 stageMod("waystones", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Waystone...?");
 stageMod("immersive_weathering", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Immersive Stuff");
-
 stageMod("rpgbackpacks", "<glitch f=3 j=0.02 b=0.01 s=0.1>Backpack?");
+stageMod("botania", "<grad from=#16a124 to=#5e3e30 hue><wiggle a=2 f=0.1>Living Botanical Thingy");
+stageMod("aether_redux", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
+stageMod("deep_aether", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
+stageMod("lost_aether_content", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
+stageMod("aether", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
 
 // TBC
-stageMod("botania", "<grad from=#16a124 to=#5e3e30 hue><wiggle a=2 f=0.1>Living Botanical Thingy");
 stageMod("industrialforegoing", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Industrial Stuff");
 stageMod("draconicevolution", "<grad from=#dd05f5 to=#a821d1 hue><glitch f=3 j=0.02 b=0.01 s=0.1>Balanced Effort");
 stageMod("iceandfire", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Icy Hot Stuff");
@@ -134,7 +137,3 @@ stageMod("wands", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Magic Wand?");
 stageMod("xnet", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>X Stuff");
 stageMod("atmospheric", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Atmospheric Stuff");
 stageMod("immersiveengineering", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Immersive Stuff");
-stageMod("aether_redux", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
-stageMod("deep_aether", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
-stageMod("lost_aether_content", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
-stageMod("aether", "<fade a=0.6 f=1.5 w=0.5><turb a=0.25 f=0.5>Aether Stuff");
