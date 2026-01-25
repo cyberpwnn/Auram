@@ -1,0 +1,17 @@
+
+["Lightning Conversion Config"]
+	# Whether lightning conversion will attract lightning
+	lightning_conversion_attracts_lightning = true
+
+["General Output Item Config"]
+	# Whether output items will glow
+	output_item_glow_enabled = true
+	# Whether output items will display names
+	output_item_name_display_enabled = true
+	# Whether output items will spawn with jump
+	output_item_spawn_jump_enabled = true
+
+["Fluid Fusion Config"]
+	# Whether input items in fluid fusion are invulnerable
+	fluid_fusion_input_items_invulnerable = true
+

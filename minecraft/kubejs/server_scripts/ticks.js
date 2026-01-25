@@ -7,25 +7,51 @@ ServerEvents.tick(event => {
   });
 });
 
-function applyJadeEffect(player){
-    const it = player.inventory.contains(Item.of('auram:enderjade'));
-    const s = player.stages.has("jade");
+function applyJadeEffect(player) {
+  const targetItem = 'auram:enderjade';
+  const hasIt = checkInventoryIncludingBackpacks(player, targetItem);
+  const s = player.stages.has("jade");
 
-    if(!s && it) {
-        player.stages.add("jade");
-    }
-    else if(s && !it) {
-        player.stages.remove("jade");
-    }
+  if (!s && hasIt) {
+    player.stages.add("jade");
+  } else if (s && !hasIt) {
+    player.stages.remove("jade");
+  }
 }
 
-function applyMapEffect(player){
-    const it = player.inventory.contains(Item.of('auram:journeymap'));
-    const s = player.stages.has("map");
+function applyMapEffect(player) {
+  const targetItem = 'auram:journeymap';
+  const hasIt = checkInventoryIncludingBackpacks(player, targetItem);
+  const s = player.stages.has("map");
 
-    if(!s && it) {
-        player.stages.add("map");
-    } else if(s && !it) {
-        player.stages.remove("map");
+  if (!s && hasIt) {
+    player.stages.add("map");
+  } else if (s && !hasIt) {
+    player.stages.remove("map");
+  }
+}
+
+function checkInventoryIncludingBackpacks(player, targetId) {
+  if (player.inventory.contains(targetId)) return true;
+  let allItems = player.inventory.allItems;
+  
+  for (let i = 0; i < allItems.length; i++) {
+    let stack = allItems[i];
+    if (!stack.nbt) continue;
+    if (stack.nbt.Inventory && stack.nbt.Inventory.Items) {
+      let list = stack.nbt.Inventory.Items;
+      for (let j = 0; j < list.length; j++) {
+        if (list[j].id == targetId) return true;
+      }
     }
+
+    else if (stack.nbt.backpack_inventory && stack.nbt.backpack_inventory.items) {
+      let list = stack.nbt.backpack_inventory.items;
+      for (let j = 0; j < list.length; j++) {
+        if (list[j].id == targetId) return true;
+      }
+    }
+  }
+
+  return false;
 }
