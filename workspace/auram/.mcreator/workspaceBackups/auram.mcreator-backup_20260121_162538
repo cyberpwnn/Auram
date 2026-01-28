@@ -1,0 +1,225 @@
+{
+  "mod_elements": [
+    {
+      "name": "BUNDLEDSTICKS",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bundledsticks",
+      "metadata": {
+        "files": [
+          "src/main/java/art/arcane/auram/item/BUNDLEDSTICKSItem.java",
+          "src/main/resources/assets/auram/models/item/bundledsticks.json"
+        ]
+      }
+    },
+    {
+      "name": "RBUNDLEDSTICKS",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rbundledsticks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auram/recipes/rbundledsticks.json"
+        ]
+      }
+    },
+    {
+      "name": "Auram",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "auram",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "ROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rock",
+      "metadata": {
+        "files": [
+          "src/main/java/art/arcane/auram/item/ROCKItem.java",
+          "src/main/resources/assets/auram/models/item/rock.json"
+        ]
+      }
+    },
+    {
+      "name": "IRONROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auram/models/item/ironrock.json",
+          "src/main/java/art/arcane/auram/item/IRONROCKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "GOLDROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auram/models/item/goldrock.json",
+          "src/main/java/art/arcane/auram/item/GOLDROCKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "COPPERROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auram/models/item/copperrock.json",
+          "src/main/java/art/arcane/auram/item/COPPERROCKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "LEADROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "leadrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auram/models/item/leadrock.json",
+          "src/main/java/art/arcane/auram/item/LEADROCKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TINROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tinrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auram/models/item/tinrock.json",
+          "src/main/java/art/arcane/auram/item/TINROCKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "SILVERROCK",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silverrock",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/auram/models/item/silverrock.json",
+          "src/main/java/art/arcane/auram/item/SILVERROCKItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Rockcobblestone",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rockcobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auram/recipes/rockcobblestone.json",
+          "src/main/resources/data/auram/advancements/recipes/rockcobblestone.json"
+        ]
+      }
+    },
+    {
+      "name": "Ironrockclump",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironrockclump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auram/recipes/ironrockclump.json"
+        ]
+      }
+    },
+    {
+      "name": "Goldrockclump",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldrockclump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auram/recipes/goldrockclump.json"
+        ]
+      }
+    },
+    {
+      "name": "Copperrockclump",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "copperrockclump",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/auram/recipes/copperrockclump.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.auram.bundledsticks": "Bundle of Sticks",
+      "item_group.auram.auram": "Auram",
+      "item.auram.rock": "Rock",
+      "item.auram.ironrock": "Iron Rock",
+      "item.auram.goldrock": "Gold Rock",
+      "item.auram.copperrock": "Copper Rock",
+      "item.auram.leadrock": "Lead Rock",
+      "item.auram.tinrock": "Tin Rock",
+      "item.auram.silverrock": "Silver Rock"
+    }
+  },
+  "metadata": {
+    "files": [
+      "src/main/java/art/arcane/auram/init/AuramModItems.java",
+      "src/main/java/art/arcane/auram/AuramMod.java",
+      "src/main/resources/pack.mcmeta",
+      "src/main/java/art/arcane/auram/init/AuramModTabs.java",
+      "src/main/resources/META-INF/mods.toml"
+    ]
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "auram",
+    "modName": "Auram",
+    "version": "1.0.0",
+    "author": "MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "art.arcane.auram"
+  },
+  "mcreatorVersion": 202500345720
+}

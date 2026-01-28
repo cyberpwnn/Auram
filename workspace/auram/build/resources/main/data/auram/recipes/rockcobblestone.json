@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "auram:rock"
+    },
+    {
+      "item": "auram:rock"
+    },
+    {
+      "item": "auram:rock"
+    },
+    {
+      "item": "auram:rock"
+    }
+  ],
+  "result": {
+    "item": "minecraft:cobblestone",
+    "count": 1
+  }
+}

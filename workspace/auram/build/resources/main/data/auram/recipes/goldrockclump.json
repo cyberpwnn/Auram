@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "auram:goldrock"
+    },
+    {
+      "item": "auram:goldrock"
+    },
+    {
+      "item": "auram:goldrock"
+    },
+    {
+      "item": "auram:goldrock"
+    }
+  ],
+  "result": {
+    "item": "minecraft:raw_gold",
+    "count": 1
+  }
+}

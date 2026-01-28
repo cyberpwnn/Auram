@@ -1,0 +1,11 @@
+{
+  "_fv": 79,
+  "_type": "tab",
+  "definition": {
+    "name": "Auram",
+    "icon": {
+      "value": "CUSTOM:BUNDLEDSTICKS"
+    },
+    "showSearch": false
+  }
+}
