@@ -1,0 +1,44 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "igleelib:blaze_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:blazum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:blazum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:derium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:derium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:iglium_upgrade_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:lavium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:lavium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:modium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "igleelib:modium_ingot"
+		}
+	]
+}

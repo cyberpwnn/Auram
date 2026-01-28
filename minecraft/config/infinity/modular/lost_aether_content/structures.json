@@ -1,0 +1,55 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "lost_aether_content:platinum_dungeon",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"ambient": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"misc": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"water_ambient": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"axolotls": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"underground_water_creature": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"creature": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					},
+					"water_creature": {
+						"bounding_box": "full",
+						"spawns": [
+						]
+					}
+				},
+				"id": "lost_aether_content:platinum_dungeon"
+			}
+		}
+	]
+}

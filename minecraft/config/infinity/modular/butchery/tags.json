@@ -1,0 +1,88 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_grate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:carcass_no_states"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cleaver_only_hint"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:corpses"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:eyeless_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hammer_hint"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:heads"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ice_skull"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:metal_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rope"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skullless_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skulls"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:small_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:unbreakable_heads"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_skull"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wooden_butchers_table"
+		}
+	]
+}

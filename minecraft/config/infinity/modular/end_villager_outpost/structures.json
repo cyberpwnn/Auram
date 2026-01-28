@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "end_villager_outpost:end_villager_outpost",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "end_villager_outpost:end_villager_outpost"
+			}
+		}
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:blank_photomask"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:etched_silicon_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:fabricated_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:ic_blueprint"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:ic_workbench"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:invalid_die"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:lithography_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:packaging_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:photomask_set"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:plotting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:rough_silicon_wafer"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_fabrication:valid_die"
+		}
+	]
+}

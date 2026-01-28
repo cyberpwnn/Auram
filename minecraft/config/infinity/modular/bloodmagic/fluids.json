@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:doubt_block",
+			"data": {
+				"fluidName": "bloodmagic:doubt_fluid"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:life_essence_block",
+			"data": {
+				"fluidName": "bloodmagic:life_essence_fluid"
+			}
+		}
+	]
+}

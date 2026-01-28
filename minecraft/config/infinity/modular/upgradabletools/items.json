@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:chainupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:diamondupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:fieryupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:goldupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:ironupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:leatherupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:stoneupgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "upgradabletools:woodupgrade"
+		}
+	]
+}

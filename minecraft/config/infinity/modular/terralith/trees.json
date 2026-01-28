@@ -1,0 +1,1320 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "terralith:birch/cloud_tree_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:birch/trees_forest",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:birch/trees_forest_negative",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:canyon/red_sandstone/palm_1",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:canyon/red_sandstone/palm_medium",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:canyon/red_sandstone/palm_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:canyon/sandstone/palm_1",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:canyon/sandstone/palm_medium",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:canyon/sandstone/palm_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal/mushroom/brown_large",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal/mushroom/brown_medium",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal/mushroom/brown_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal/mushroom/red_large",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal/mushroom/red_medium",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal/mushroom/red_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/azalea_bush",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/cherry_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/tree_1",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/tree_lollipop",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/tree_pompom",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/tree_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/jungle/tree_very_large",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cherry/azalea_bush",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cliffs/white/birch_alt",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:coastal/bending_acacia",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:coastal/big_hawaii",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:coastal/fancy_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:coastal/jungle_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/birch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/brown_mushroom",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/brown_mushroom_2",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/red_mushroom",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/red_mushroom_2",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:dark/twilight_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:enchanted/big_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:enchanted/enchanted_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:enchanted/jungle_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/blue/birch_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/blue/blue_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/blue/main_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/lavender/flower",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/lavender/main_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/white/birch_bending",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/white/cloud_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/white/cloud_tree_bending",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:flower/white/twilight_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/cloud_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/mid/birch_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/mid/oak_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/mid/oak_mid_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/small/birch_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/small/oak_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/flower/small/oak_small_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/vanilla/fancy_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forest/vanilla/oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/alpine/pine",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/alpine/spruce_pine",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/arid/bush_medium",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/arid/bush_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/arid/tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/forest/mid/pine_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/forest/mid/spruce_mid_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/forest/tree_maple_cold",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/forest/trees_maple",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/steppe/bush_medium",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/steppe/bush_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/cloud_trees",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/mid/pine_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/mid/spruce_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/mid/spruce_mid_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/small/pine_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/small/spruce_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/small/spruce_small_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/tall/pine_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/tall/spruce_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/tall/spruce_tall_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/tiny/pine_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/tiny/spruce_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/tiny/spruce_tiny_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/trees_neg",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/trees_orange",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands/temperate/trees_pos",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/acacia_azalea",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/bending_acacia",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/big_hawaii",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/small_azalea",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/tree_2x2",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/tree_2x2_azalea",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/amethyst/tree_2x2_azalea_flowering",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/mega/giant_tree/branch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/mega/giant_tree/branch_2",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/mega/giant_tree/top",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/mega/giant_tree/trunk",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/vanilla/bending_jungle_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/vanilla/fancy_oak_bend",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle/vanilla/fence_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/mid/pine_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/mid/spruce_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/mid/spruce_mid_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/small/pine_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/small/spruce_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/small/spruce_small_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/tall/pine_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/tall/spruce_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/tall/spruce_tall_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/tiny/pine_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/tiny/spruce_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/emerald/trees/tiny/spruce_tiny_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/misty/trees_base",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/misty/trees_birch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/misty/trees_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountains/misty/trees_top",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mushroom/brown_mushroom",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mushroom/brown_mushroom_2",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mushroom/brown_mushroom_small",
+			"data": {
+				"Type": "huge_brown_mushroom"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mushroom/red_mushroom",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mushroom/red_mushroom_2",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mushroom/red_mushroom_small",
+			"data": {
+				"Type": "huge_red_mushroom"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/bush",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/tree_huge_cherry",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/tree_huge_dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/tree_medium_cherry",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/tree_medium_dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/tree_roof_cherry",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura/tree_roof_dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna/shattered/acacia",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna/shattered/med/acacia_med",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna/shattered/med/oak_med",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna/shattered/oak_mutated",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna/shattered/small/trees_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna/shattered/tiny/oak_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shield/birch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shield/dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shield/spruce_big",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/bushes",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/cold/bushes",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/cold/small_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/cold/tiny_trees",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/hot/bushes",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/hot/small_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/hot/tiny_trees",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland/small_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/big_cone_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/cloud_tree_birch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/mega_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/mid_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/summer/bending_acacia",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/winter/big_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/winter/mega_spruce",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands/winter/oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy/max_spruce",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy/mega_spruce",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy/spruce",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy/spruce_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/ice/small/swamp_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/ice/small/swamp_special_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/ice/tiny/swamp_special_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/ice/tiny/swamp_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/orchid/small/swamp_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/orchid/tiny/swamp_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:swamp/vanilla/tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/birch/birch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/birch/birch_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/birch/cloud_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/birch/oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/mid/pine_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/mid/spruce_mid",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/mid/spruce_mid_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/siberian/tall_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/siberian/tall_tree_orange",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/small/pine_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/small/spruce_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/small/spruce_small_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/tall/pine_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/tall/spruce_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/tall/spruce_tall_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/tiny/pine_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/tiny/spruce_tiny",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:taiga/tiny/spruce_tiny_m",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yellowstone/birch",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yellowstone/birch_alt",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yellowstone/spruce_big",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yellowstone/spruce_big_alt",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yosemite/oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yosemite/oak_mega",
+			"data": {
+				"Type": "tree"
+			}
+		}
+	]
+}

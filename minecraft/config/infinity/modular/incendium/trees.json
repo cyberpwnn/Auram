@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "incendium:ash_barrens/tree_bend",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:feature_pool/warped_fungus",
+			"data": {
+				"Type": "huge_fungus"
+			}
+		}
+	]
+}

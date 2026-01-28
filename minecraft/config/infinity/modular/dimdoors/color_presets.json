@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dimdoors:$_ancient_fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "dimdoors:$_fabric"
+		}
+	]
+}

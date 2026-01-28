@@ -1,0 +1,139 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "cofh_core:chilled",
+			"data": {
+				"Instant": false,
+				"Color": 8826621,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:clarity",
+			"data": {
+				"Instant": false,
+				"Color": 7405312,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:cold_resistance",
+			"data": {
+				"Instant": false,
+				"Color": 7910885,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:enderference",
+			"data": {
+				"Instant": false,
+				"Color": 603989,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:explosion_resistance",
+			"data": {
+				"Instant": false,
+				"Color": 985624,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:lightning_resistance",
+			"data": {
+				"Instant": false,
+				"Color": 10526880,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:love",
+			"data": {
+				"Instant": true,
+				"Color": 16740505,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:magic_resistance",
+			"data": {
+				"Instant": false,
+				"Color": 5767256,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:panacea",
+			"data": {
+				"Instant": false,
+				"Color": 7773399,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:shocked",
+			"data": {
+				"Instant": false,
+				"Color": 16774309,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:slimed",
+			"data": {
+				"Instant": false,
+				"Color": 9230210,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:sundered",
+			"data": {
+				"Instant": false,
+				"Color": 9202268,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:supercharge",
+			"data": {
+				"Instant": false,
+				"Color": 13377535,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:true_invisibility",
+			"data": {
+				"Instant": false,
+				"Color": 8356754,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "cofh_core:wrenched",
+			"data": {
+				"Instant": false,
+				"Color": 16748554,
+				"Category": "harmful"
+			}
+		}
+	]
+}

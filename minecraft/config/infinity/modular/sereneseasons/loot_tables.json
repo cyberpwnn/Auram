@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blocks/season_sensor",
+			"data": {
+				"Type": "block"
+			}
+		}
+	]
+}

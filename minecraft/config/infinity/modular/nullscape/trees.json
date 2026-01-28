@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "nullscape:tar/glass_column",
+			"data": {
+				"Type": "tree"
+			}
+		}
+	]
+}

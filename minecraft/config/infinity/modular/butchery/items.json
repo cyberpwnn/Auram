@@ -1,0 +1,3124 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:acacia_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:acacia_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:acacia_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:all_black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:all_black_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:all_black_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:all_black_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:animal_fat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:axolotl_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:basin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_wing"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bee_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bee_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bee_wings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:birch_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:birch_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:birch_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_grate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_puddle"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_splatter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bloody_butchers_apron_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blue_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blue_axolotl_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blue_axolotl_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bone_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bone_cleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bone_hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bone_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bone_skinning_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bottle_of_blood"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bottle_of_infected_blood"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bottle_of_sulfuric_acid"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brain"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:british_shorthair_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:broken_wishbone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_axolotl_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_axolotl_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_llama_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_llama_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_llama_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_mooshroom_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_mooshroom_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_mooshroom_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:butcher_statue"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:butchers_apron_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:butchers_papers"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:calamari"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:calico_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:calico_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:calico_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:calico_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_black"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_green"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_red"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:canopy_yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cash_register"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cash_register_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cat_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cave_spider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cave_spider_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cave_spider_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chestnut_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chestnut_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chestnut_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_foot"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cling_film"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cod_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cod_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_bat_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_bee_back_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_beef_mince"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_blood_sausage"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_blood_sausages"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_blue_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_brown_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_camel_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_cat_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_cave_spider_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_chicken_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_chicken_wing"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_chuck_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_cod_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_creeper_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_creeper_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_cyan_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_dolphin_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_donkey_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_dragon_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_elder_guardian_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_enderman_intestines"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_enderman_kidney"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_enderman_liver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_enderman_lungs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_enderman_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_enderman_stomach"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_endermite_chunks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_evoker_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_fox_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_gold_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_gray_frog_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_green_frog_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_guardian_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_ham"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_hoglin_chunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_horse_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_intestines"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_kidney"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_lamb_loin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_lamb_mince"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_lamb_rib"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_lamb_shoulder"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_lamb_sirloin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_leg_of_lamb"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_liver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_llama_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_lungs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_mule_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_ocelot_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_orange_frog_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_panda_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pillager_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pink_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_polar_bear_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pork_belly"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pork_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pork_loin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pork_shoulder"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_pufferfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_ribeye_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_rump_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_salmon"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_sausage"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_sausages"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_shulker_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_silverfish_chunks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_sirloin_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_sniffer_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_spider_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_stomach"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_strider_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_tbone_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_turtle_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_villager_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_vindicator_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_warden_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_witch_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cooked_wolf_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cookedhumanmeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:copper_cleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:copper_hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:copper_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:copper_skinning_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crackling"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_llama_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_llama_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_llama_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creeper_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creeper_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creeper_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creeper_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crimson_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crimson_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crimson_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cyan_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cyan_axolotl_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cyan_axolotl_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_brown_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_brown_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_brown_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_oak_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_oak_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_oak_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:deep_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:deepslate_sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diamond_cleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diamond_hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diamond_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diamond_skinning_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diorite_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diorite_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diorite_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:diorite_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale_armor_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale_armor_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale_armor_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale_armor_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_scale_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dragon_smithing_template"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_all_black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_bat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_blue_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_british_shorthair_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_brown_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_brown_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_brown_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_calico_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_camel_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_chicken_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_cow_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_creamy_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_creeper_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_cyan_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_dolphin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_donkey_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_drowned_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_evoker_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_fox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_goat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_gold_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_gray_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_gray_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_gray_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_green_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_guardian_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_hoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_husk_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_jellie_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_mule_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_ocelot_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_orange_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_panda_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_persian_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_phantom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_pig_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_piglin_brute_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_pillager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_pink_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_polar_bear_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_rabbit_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_ragdoll_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_red_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_red_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_black_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_chestnut_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_creamy_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_dark_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_sheep_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_siamese_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_sniffer_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_sniffer_carcass_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_snowfox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_strider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_tabby_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_turtle_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_vindicator_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_white_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_white_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_white_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_witch_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_wolf_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombie_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombie_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombie_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombified_piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drainedplayercorpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drowned_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drowned_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drowned_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:elder_guardian_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:elder_guardian_eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:elder_guardian_spike"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:empty_dragon_trimmed_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:empty_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:empty_turtle_shell"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:empty_warden_trimmed_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ender_dragon_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ender_dragon_carcass_headless"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ender_dragon_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_10"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_11"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_12"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_13"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_14"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_5"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_6"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_7"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_8"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_9"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_intestines"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_kidney"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_liver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_lungs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_stomach"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:endermite_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:endermite_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:endermite_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_robes_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_robes_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_robes_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_robes_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:eye"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fish_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:flesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:floorstanding_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:freezer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:frog_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fur_suit_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fur_suit_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fur_suit_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fur_suit_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:glow_squid_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:glow_squid_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_rug"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_axolotl_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_axolotl_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_cleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gold_skinning_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_frog_balloon"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_llama_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_llama_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_llama_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:green_frog_balloon"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:green_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:guardian_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:guardian_spike"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hanging_drained_enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hanging_enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:honey_stomach"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoof"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:husk_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:husk_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:husk_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:icey_bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:icey_bone_meal"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:infected_blood_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:intestines"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_cleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_arms"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_body"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_skinning_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jellie_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jellie_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jellie_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jellie_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jungle_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jungle_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jungle_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:kidney"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:large_empty_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:liver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:llama_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:lungs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:magic_wishbone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:magma_chunks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:magma_cube_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mangrove_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:meat_grinder"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:meat_scraps"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:medium_magma_cube_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:medium_slime_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:metal_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:metal_tray"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mooshroom_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:netherite_cleaver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:netherite_hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:netherite_hammer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:netherite_skinning_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:oak_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:oak_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:oak_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:orange_frog_balloon"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:orange_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_rug"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:persian_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:persian_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:persian_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:persian_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pestle_and_mortar"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:phantom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:phantom_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:phantom_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:phantom_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:photos"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_brute_armor_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_brute_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_brute_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_brute_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_armor_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_armor_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_armor_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_armor_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pink_axolotl_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pink_axolotl_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pink_axolotl_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:plastic_sheet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:plastic_sheet_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:playercorpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:poison_sac"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polar_bear_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polar_bear_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polar_bear_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polarbear_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polarbear_rug"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polarbear_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pufferfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pufferfish_spike"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rabbit_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rabbit_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rabbit_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rag"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ragdoll_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ragdoll_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ragdoll_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ragdoll_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_bat_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_bee_back_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_beef_mince"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_blood_sausage"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_blood_sausages"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_blue_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_brown_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_camel_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_cat_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_cave_spider_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_chicken_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_chicken_wing"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_chuck_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_cod_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_creeper_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_creeper_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_cyan_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_dolphin_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_donkey_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_dragon_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_elder_guardian_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_enderman_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_endermite_chunks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_evoker_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_fox_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_gold_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_gray_frog_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_green_frog_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_guardian_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_ham"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_hoglin_chunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_horse_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_lamb_loin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_lamb_mince"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_lamb_rib"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_lamb_shoulder"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_lamb_sirloin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_leg_of_lamb"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_llama_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_mule_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_ocelot_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_orange_frog_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_panda_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pillager_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pink_axolotl_fillet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_polar_bear_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pork_belly"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pork_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pork_loin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pork_shoulder"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_pufferfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_ribeye_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_rump_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_salmon"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_sausage"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_sausages"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_shulker_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_silverfish_chunks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_sirloin_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_sniffer_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_spider_leg"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_strider_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_tbone_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_turtle_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_villager_steak"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_vindicator_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_warden_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_witch_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:raw_wolf_meat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rawhumanmeat"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_mooshroom_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_mooshroom_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_mooshroom_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_black_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_chestnut_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_creamy_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_dark_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_gray_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_white_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_arms"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_body"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_irongolem"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rope"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rotten_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rotten_intestines"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rotten_kidney"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rotten_liver"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rotten_lungs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rotten_stomach"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salmon_barrel"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salmon_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salt"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salt_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salt_formation_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salt_formation_frustum"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salt_formation_middle"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:salt_formation_tip"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sausage_attachment"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sculk_bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sculkbonemeal"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:shorthair_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:shorthair_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:shorthair_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:shulker_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:siamese_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:siamese_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:siamese_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:siamese_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:silverfish_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:silverfish_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:silverfish_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skin_rack"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:slime_chunks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:small_empty_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:small_slime_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sniffer_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sniffer_carcass_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sniffer_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sniffer_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:snow_fox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:snow_fox_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:snow_fox_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:snowy_fox_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spider_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spider_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spike_trap"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spiked_dragon_bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sponge"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spruce_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spruce_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spruce_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:squid_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:squid_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:stomach"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:stray_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:stray_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:stray_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:stray_necklace_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:strider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sulfur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sulfur_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:tabby_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:tabby_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:tabby_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:tabby_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:taxidermy_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:tentacles"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:trimmed_ender_dragon_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:trimmed_warden_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_shell_armor_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_shell_armor_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_shell_armor_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_shell_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:villager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:villager_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:villager_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicator_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicator_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicator_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicatorarmor_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicatorarmor_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicatorarmor_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicatorarmor_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warden_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warden_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warden_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warped_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warped_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warped_counter"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_cat_fur"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_cat_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_cat_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_horse_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_llama_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_llama_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_llama_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wishbone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witch_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witch_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witch_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witches_clothes_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witches_clothes_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_bone"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_bone_meal"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_skeleton_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_skeleton_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:withered_heart"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_pelt"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wooden_spit_rotisserie"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zoglin_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zoglin_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zoglin_skin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_horse_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_villager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_villager_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_villager_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombified_piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombified_piglin_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombified_piglin_head_mount"
+		}
+	]
+}

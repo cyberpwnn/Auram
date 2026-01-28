@@ -1,0 +1,64 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "itemfilters:always_false"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:always_true"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:and"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:block"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:custom"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:id_regex"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:max_count"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:mod"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:not"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:or"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:strong_nbt"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:tag"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:weak_nbt"
+		},
+		{
+			"weight": 1.0,
+			"key": "itemfilters:xor"
+		}
+	]
+}

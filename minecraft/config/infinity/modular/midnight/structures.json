@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:forgotten_library",
+			"data": {
+				"step": "underground_structures",
+				"terrain_adaptation": "bury",
+				"spawn_overrides": {
+					"creature": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					},
+					"monster": {
+						"bounding_box": "piece",
+						"spawns": [
+						]
+					}
+				},
+				"id": "midnight:forgotten_library"
+			}
+		}
+	]
+}

@@ -15,13 +15,13 @@ craftingTable.addShapeless("bglimmering_livingwood", <item:botania:glimmering_li
 
 // Glimmering Dreamwood
 craftingTable.remove(<item:botania:glimmering_dreamwood_log>);
-CombinationCrafting.addRecipe("9cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_dreamwood_log>, 100000, [<item:botania:dreamwood_log>, <item:midnight:viridshroom_powder>, <item:midnight:nightshroom_powder>, <item:midnight:dewshroom_powder>, <item:midnight:bogshroom_powder>]);
+CombinationCrafting.addRecipe("9cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_dreamwood_log>, 100000, [<item:botania:dreamwood_log>, <item:botania:pixie_dust>, <item:projectred_core:electrotine_dust>, <item:thermal:signalum_dust>]);
 craftingTable.removeByName("botania:glimmering_dreamwood");
-CombinationCrafting.addRecipe("8cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_dreamwood>, 100000, [<item:botania:dreamwood_log>, <item:midnight:viridshroom_powder>, <item:midnight:nightshroom_powder>, <item:midnight:dewshroom_powder>, <item:midnight:bogshroom_powder>]);
+CombinationCrafting.addRecipe("8cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_dreamwood>, 100000, [<item:botania:dreamwood_log>, <item:botania:pixie_dust>, <item:projectred_core:electrotine_dust>, <item:thermal:signalum_dust>]);
 craftingTable.removeByName("botania:glimmering_stripped_dreamwood");
-CombinationCrafting.addRecipe("7cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_stripped_dreamwood>, 100000, [<item:botania:dreamwood_log>, <item:midnight:viridshroom_powder>, <item:midnight:nightshroom_powder>, <item:midnight:dewshroom_powder>, <item:midnight:bogshroom_powder>]);
+CombinationCrafting.addRecipe("7cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_stripped_dreamwood>, 100000, [<item:botania:dreamwood_log>, <item:botania:pixie_dust>, <item:projectred_core:electrotine_dust>, <item:thermal:signalum_dust>]);
 craftingTable.remove(<item:botania:glimmering_stripped_dreamwood_log>);
-CombinationCrafting.addRecipe("6cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_stripped_dreamwood_log>, 100000, [<item:botania:dreamwood_log>, <item:midnight:viridshroom_powder>, <item:midnight:nightshroom_powder>, <item:midnight:dewshroom_powder>, <item:midnight:bogshroom_powder>]);
+CombinationCrafting.addRecipe("6cdd3a06-8346-453b-bb2d-0c71d90143b3", <item:botania:glimmering_stripped_dreamwood_log>, 100000, [<item:botania:dreamwood_log>, <item:botania:pixie_dust>, <item:projectred_core:electrotine_dust>, <item:thermal:signalum_dust>]);
 
 // Mana Pool
 craftingTable.remove(<item:botania:mana_pool>);
@@ -29,7 +29,7 @@ mods.extendedcrafting.TableCrafting.addShaped("8363266f-b777-4e85-9e91-3092f92f0
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>, <item:minecraft:air>], 
 	[<item:botania:livingrock>, <item:aether:ambrosium_shard>, <item:botania:diluted_pool>, <item:aether:ambrosium_shard>, <item:botania:livingrock>], 
-	[<item:botania:livingrock>, <item:aether_redux:gilded_holystone_slab>, <item:aether_redux:gilded_holystone_slab>, <item:aether_redux:gilded_holystone_slab>, <item:botania:livingrock>], 
+	[<item:botania:livingrock>, <item:aether:cold_aercloud>, <item:aether:cold_aercloud>, <item:aether:cold_aercloud>, <item:botania:livingrock>], 
 	[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]
 ]);
 
@@ -66,4 +66,9 @@ mods.extendedcrafting.TableCrafting.addShaped("e1687393-0e93-4dd1-b97f-ead74ea6e
 // Automatable Terra Steel
 mods.extendedcrafting.CombinationCrafting.addRecipe("166967e5-1345-442f-9c24-cc8a00b8d950", <item:botania:terrasteel_ingot>, 500000, [
 	<item:botania:manasteel_ingot>, <item:botania:mana_diamond>, <item:botania:mana_pearl>
+]);
+
+// Black Lotus 
+mods.extendedcrafting.CombinationCrafting.addRecipe("3245feb5-0f18-4d2f-b32b-22e13db21789", <item:botania:blacker_lotus>, 100000, [
+	<item:botania:black_mystical_flower>, <item:immersiveengineering:ingot_uranium>, <item:immersiveengineering:ingot_uranium>, <item:immersiveengineering:ingot_uranium>, <item:immersiveengineering:ingot_uranium>
 ]);

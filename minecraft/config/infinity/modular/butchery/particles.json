@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_particle"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:feathers"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:freezersmoke"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sandparticle"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sparks"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:withersmoke"
+		}
+	]
+}

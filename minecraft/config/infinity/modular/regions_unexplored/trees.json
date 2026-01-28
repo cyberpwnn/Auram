@@ -1,0 +1,249 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:acacia_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:alpha_oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:apple_oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_apple_oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_blue_magnolia_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_dead_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_flowering_oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_jungle_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_magnolia_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_maple_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_mauve_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_orange_maple_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_pink_magnolia_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_red_maple_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_white_magnolia_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:big_willow_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:blackwood_bioshrooms",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:blackwood_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:cherry_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:dead_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:flowering_oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:giant_brown_mushroom",
+			"data": {
+				"Type": "huge_brown_mushroom"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:giant_red_mushroom",
+			"data": {
+				"Type": "huge_red_mushroom"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:jungle_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:mauve_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:mauve_oak_bee",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:oak_bush",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:oak_bush_with_flowers",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:oak_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:oak_tree_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:spruce_tree_tall",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:tall_dark_oak",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:willow_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:willow_tree_vines",
+			"data": {
+				"Type": "tree"
+			}
+		}
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:great_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:great_blade_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:great_blade_red_sand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:great_blade_sand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:greatsword"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:lance"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:pike"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:spear_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:spear_head_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:spear_head_red_sand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersweaponry:spear_head_sand_cast"
+		}
+	]
+}

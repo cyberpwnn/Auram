@@ -1,0 +1,175 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "malum:aethers_charm",
+			"data": {
+				"Instant": false,
+				"Color": -11799590,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:anglers_lure",
+			"data": {
+				"Instant": false,
+				"Color": -14850840,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ascension",
+			"data": {
+				"Instant": false,
+				"Color": -11799590,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cancerous_growth",
+			"data": {
+				"Instant": false,
+				"Color": -8513185,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:earthen_might",
+			"data": {
+				"Instant": false,
+				"Color": -11997671,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:echoing_arcana",
+			"data": {
+				"Instant": false,
+				"Color": -45078,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gaias_bulwark",
+			"data": {
+				"Instant": false,
+				"Color": -11997671,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gluttony",
+			"data": {
+				"Instant": false,
+				"Color": -10987972,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:grim_certainty",
+			"data": {
+				"Instant": false,
+				"Color": -1323015,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ifrits_embrace",
+			"data": {
+				"Instant": false,
+				"Color": -353761,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:imminent_deliverance",
+			"data": {
+				"Instant": false,
+				"Color": -1323015,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:miners_rage",
+			"data": {
+				"Instant": false,
+				"Color": -353761,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:poseidons_grasp",
+			"data": {
+				"Instant": false,
+				"Color": -14850840,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:reactive_shielding",
+			"data": {
+				"Instant": false,
+				"Color": -11997671,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rejected",
+			"data": {
+				"Instant": false,
+				"Color": -15462890,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:sacrificial_empowerment",
+			"data": {
+				"Instant": false,
+				"Color": -8835860,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:silenced",
+			"data": {
+				"Instant": false,
+				"Color": -15462890,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:wicked_intent",
+			"data": {
+				"Instant": false,
+				"Color": -10987972,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:zephyrs_courage",
+			"data": {
+				"Instant": false,
+				"Color": -11799590,
+				"Category": "beneficial"
+			}
+		}
+	]
+}

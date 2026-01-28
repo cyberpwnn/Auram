@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_cut"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_sweep"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_slam"
+		}
+	]
+}

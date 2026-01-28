@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "nomadictents:tent/shamiyana_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "nomadictents:tent/tent_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "nomadictents:tent/tent_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "nomadictents:tent/tepee_wall"
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blocks/fluix_mana_pool",
+			"data": {
+				"Type": "block"
+			}
+		}
+	]
+}

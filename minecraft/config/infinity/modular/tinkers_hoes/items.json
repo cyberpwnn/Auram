@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tinkers_hoes:hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkers_hoes:slender_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkers_hoes:slender_blade_gold_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkers_hoes:slender_blade_red_sand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkers_hoes:slender_blade_sand_cast"
+		}
+	]
+}

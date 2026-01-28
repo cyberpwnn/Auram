@@ -1,0 +1,81 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:holy_shrine",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:holy_shrine"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:holystone_circle",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:holystone_circle"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:moa_nest",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:moa_nest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:sky_lake",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:sky_lake"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:small_hellfire_dungeon",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:small_hellfire_dungeon"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:valkyrie_library",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:valkyrie_library"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "explore_ruins_aether:valkyrie_ship",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "explore_ruins_aether:valkyrie_ship"
+			}
+		}
+	]
+}

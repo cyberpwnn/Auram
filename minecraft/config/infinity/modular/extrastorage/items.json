@@ -1,0 +1,132 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "extrastorage:advanced_exporter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:advanced_importer"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_1024k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_1048576k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_16384k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_16384k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_262144k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_4096k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:block_65536k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:diamond_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_1024k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_1048576k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_16384k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_16384k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_262144k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_4096k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:disk_65536k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:gold_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:iron_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:netherite_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:neural_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:raw_neural_processor"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_1024k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_1048576k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_16384k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_16384k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_262144k_fluid"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_4096k"
+		},
+		{
+			"weight": 1.0,
+			"key": "extrastorage:storagepart_65536k_fluid"
+		}
+	]
+}

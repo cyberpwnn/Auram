@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:turtleshellboat",
+			"data": {
+				"Category": "monster"
+			}
+		}
+	]
+}

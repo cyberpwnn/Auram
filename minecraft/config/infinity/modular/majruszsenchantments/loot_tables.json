@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "chests/ancient_city_sixth_sense",
+			"data": {
+				"Type": "chest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/fishing_fanatic_extra",
+			"data": {
+				"Type": "fishing"
+			}
+		}
+	]
+}

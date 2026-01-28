@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "auram:bundledsticks"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:coalrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:copperrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:deepslaterock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:diamondrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:emeraldrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:enderjade"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:goldrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:ironrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:journeymap"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:lapisrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:leadrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:redstonerock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:silverrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "auram:tinrock"
+		}
+	]
+}

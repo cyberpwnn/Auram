@@ -1,0 +1,345 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "terralith:desert_outpost",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "full",
+						"spawns": [
+							{
+								"type": "minecraft:pillager",
+								"weight": 1,
+								"minCount": 1,
+								"maxCount": 1
+							}
+						]
+					}
+				},
+				"id": "terralith:desert_outpost"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:fortified_desert_village",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:fortified_desert_village"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:fortified_village",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:fortified_village"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:glacial_hut",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:glacial_hut"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:igloo",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:igloo"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mage_complex",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:mage_complex"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mage_tower",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:mage_tower"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mage_tower_autumn",
+			"data": {
+				"step": "fluid_springs",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:mage_tower_autumn"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mage_tower_spring",
+			"data": {
+				"step": "fluid_springs",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:mage_tower_spring"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mage_tower_summer",
+			"data": {
+				"step": "fluid_springs",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:mage_tower_summer"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mage_tower_winter",
+			"data": {
+				"step": "fluid_springs",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:mage_tower_winter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rubble_desert",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:rubble_desert"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rubble_forest",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:rubble_forest"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rubble_jungle",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:rubble_jungle"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rubble_mesa",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:rubble_mesa"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rubble_mountain",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:rubble_mountain"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rubble_taiga",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:rubble_taiga"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:spire",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "terralith:spire"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/frosted_dungeon",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/frosted_dungeon"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/giant_bee_hive",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "bury",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/giant_bee_hive"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/mining_outpost",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/mining_outpost"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/oak_cabin",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/oak_cabin"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/old_refinery",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/old_refinery"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/sunken_tower",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/sunken_tower"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground/witch_hut",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground/witch_hut"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:underground_cabin",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "terralith:underground_cabin"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:valley_lodge",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "terralith:valley_lodge"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:witch_hut",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+					"creature": {
+						"bounding_box": "piece",
+						"spawns": [
+							{
+								"type": "minecraft:cat",
+								"weight": 1,
+								"minCount": 1,
+								"maxCount": 1
+							}
+						]
+					},
+					"monster": {
+						"bounding_box": "piece",
+						"spawns": [
+							{
+								"type": "minecraft:witch",
+								"weight": 1,
+								"minCount": 1,
+								"maxCount": 2
+							}
+						]
+					}
+				},
+				"id": "terralith:witch_hut"
+			}
+		}
+	]
+}

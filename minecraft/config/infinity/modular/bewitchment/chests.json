@@ -1,0 +1,36 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bewitchment:cypress_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:dragons_blood_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:elder_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:juniper_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:trapped_cypress_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:trapped_dragons_blood_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:trapped_elder_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:trapped_juniper_chest"
+		}
+	]
+}

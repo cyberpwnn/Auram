@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tinkerslevellingaddon:tool_level_up_chime"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkerslevellingaddon:tool_level_up_snare_drum"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkerslevellingaddon:tool_level_up_yay"
+		}
+	]
+}

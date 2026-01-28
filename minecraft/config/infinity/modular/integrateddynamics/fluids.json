@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "integrateddynamics:block_liquid_chorus",
+			"data": {
+				"fluidName": "integrateddynamics:liquid_chorus"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "integrateddynamics:block_menril_resin",
+			"data": {
+				"fluidName": "integrateddynamics:menril_resin"
+			}
+		}
+	]
+}

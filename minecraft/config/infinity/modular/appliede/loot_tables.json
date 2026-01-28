@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blocks/emc_interface",
+			"data": {
+				"Type": "block"
+			}
+		}
+	]
+}

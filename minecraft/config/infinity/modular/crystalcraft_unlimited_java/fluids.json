@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "crystalcraft_unlimited_java:quicksilver_fluid",
+			"data": {
+				"fluidName": "crystalcraft_unlimited_java:quicksilver_fluid"
+			}
+		}
+	]
+}

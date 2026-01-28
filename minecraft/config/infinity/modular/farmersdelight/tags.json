@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "farmersdelight:compost_activators"
+		},
+		{
+			"weight": 1.0,
+			"key": "farmersdelight:heat_sources"
+		},
+		{
+			"weight": 1.0,
+			"key": "farmersdelight:tray_heat_sources"
+		}
+	]
+}

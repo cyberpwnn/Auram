@@ -1,0 +1,48 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "compactmachines:chunkloader_upgrade"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:machine_giant"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:machine_large"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:machine_maximum"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:machine_normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:machine_small"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:machine_tiny"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:personal_shrinking_device"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:solid_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:tunnel"
+		},
+		{
+			"weight": 1.0,
+			"key": "compactmachines:wall"
+		}
+	]
+}

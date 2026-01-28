@@ -1,0 +1,37 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "iceandfire:gorgon_temple",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "iceandfire:gorgon_temple"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:graveyard",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "iceandfire:graveyard"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "iceandfire:mausoleum",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "iceandfire:mausoleum"
+			}
+		}
+	]
+}

@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "wands:creative_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:diamond_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:iron_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:magic_bag_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:magic_bag_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:magic_bag_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:netherite_wand"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:palette"
+		},
+		{
+			"weight": 1.0,
+			"key": "wands:stone_wand"
+		}
+	]
+}

@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:depressurize"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:pressurize"
+		}
+	]
+}

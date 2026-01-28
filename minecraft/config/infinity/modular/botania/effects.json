@@ -1,0 +1,58 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "botania:allure",
+			"data": {
+				"Instant": false,
+				"Color": 13540,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "botania:bloodthirst",
+			"data": {
+				"Instant": false,
+				"Color": 12779520,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "botania:clear",
+			"data": {
+				"Instant": true,
+				"Color": 16777215,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "botania:emptiness",
+			"data": {
+				"Instant": false,
+				"Color": 16437247,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "botania:feather_feet",
+			"data": {
+				"Instant": false,
+				"Color": 2534911,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "botania:soul_cross",
+			"data": {
+				"Instant": false,
+				"Color": 4670781,
+				"Category": "beneficial"
+			}
+		}
+	]
+}

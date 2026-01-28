@@ -1,0 +1,1980 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "malum:accelerating_inlay"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ace_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aerial_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aerial_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:agender_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:alchemical_calx"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:alchemical_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aluminum_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aluminum_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ancient_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:anomalous_design"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aqueous_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aqueous_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_charcoal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_charcoal_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aro_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aroace_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:astral_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:auric_embers"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:azure_runewood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:azure_runewood_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:belt_of_the_limitless"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:belt_of_the_magebane"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:belt_of_the_prospector"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:belt_of_the_starved"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:bi_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_diode"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blighted_earth"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blighted_gunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blighted_soil"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blighted_soulwood"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_alchemical_calx"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_arcane_charcoal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_astral_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_auric_embers"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_blazing_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_brilliance"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_cthonic_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_grim_talc"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_hallowed_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_hex_ash"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_living_flesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_malignant_lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_malignant_pewter"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_mnemonic_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_null_slate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_raw_soulstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_rotting_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_soul_stained_steel"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_soulstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:block_of_void_salts"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliant_deepslate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliant_obelisk"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliant_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:budding_soulwood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:calcified_blight"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:catalyst_lobber"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:charcoal_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:checkered_tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:checkered_twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:chiseled_tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:chiseled_twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:chunk_of_brilliance"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cluster_of_brilliance"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:coal_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cobalt_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cobalt_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:complete_design"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:concentrated_gluttony"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:copper_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:copper_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:copper_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cornered_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_alchemical_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_aluminum_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_cobalt_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_copper_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_gold_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_iron_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_lead_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_nickel_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_osmium_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_silver_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_tin_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_uranium_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cracked_zinc_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:creative_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:crude_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:crushed_brilliance"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:crushed_soulstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cthonic_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cthonic_gold_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cthonic_gold_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cursed_sap"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cursed_sap_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cursed_sapball"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cut_runewood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cut_soulwood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cut_tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cut_twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:deepslate_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:deepslate_soulstone_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:demiboy_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:demigirl_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:dreaded_weave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:earthen_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:earthen_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:edge_of_deliverance"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:elaborate_brooch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:eldritch_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:eldritch_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:enby_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:encyclopedia_arcana"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:encyclopedia_esoterica"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:erosion_scepter"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:esoteric_spool"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ether"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ether_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:exposed_runewood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:exposed_soulwood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:fused_consciousness"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gay_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:genderfluid_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:genderqueer_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gilded_belt"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gilded_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:glass_brooch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gluttonous_brooch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gold_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gold_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:grim_talc"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hallowed_gold_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hallowed_gold_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hanging_azure_runewood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hanging_runewood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hanging_soulwood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hex_ash"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:impurity_stabilizer"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:infernal_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:infernal_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:intersex_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:intricate_assembly"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:iridescent_ether"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:iridescent_ether_torch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:iron_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:iron_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:lamplighters_tongs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:lead_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:lead_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:lesbian_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:living_flesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_lead"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_pewter_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_pewter_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_pewter_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_stronghold_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_stronghold_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_stronghold_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_stronghold_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:mass_of_blighted_gunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:mechanical_weave_v1"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:mechanical_weave_v2"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:mending_diffuser"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:mnemonic_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:mnemonic_hex_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:music_disc_aesthetica"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:music_disc_arcane_elegy"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:natural_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:natural_quartz_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:necklace_of_blissful_harmony"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:necklace_of_the_hidden_blade"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:necklace_of_the_mystic_mirror"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:necklace_of_the_narrow_edge"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:necklace_of_the_watcher"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:necklace_of_tidal_affinity"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:nickel_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:nickel_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:null_slate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ornate_necklace"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ornate_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:osmium_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:osmium_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:pan_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:plural_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_tainted_rock_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_tainted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_tainted_rock_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_twisted_rock_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_twisted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:polished_twisted_rock_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:poly_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:poppet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:pride_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:primordial_soup"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:prismatic_focus_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:processed_soulstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:raw_soulstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:repair_pylon"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:revealed_runewood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:revealed_soulwood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_alchemical_mastery"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_arcane_prowess"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_curative_talent"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_desperate_voracity"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_echoing_arcana"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_esoteric_spoils"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_growing_flesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_gruesome_concentration"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_manaweaving"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_the_demolitionist"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_the_endless_well"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ring_of_the_hoarder"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_plinth"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rotting_essence"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_aliment_cleansing"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_bolstering"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_culling"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_dexterity"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_fervor"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_haste"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_idle_restoration"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_igneous_solace"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_loyalty"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_motion"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_reactive_shielding"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_reinforcement"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_sacrificial_empowerment"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_spell_mastery"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_the_aether"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_the_arena"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_the_hells"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_the_heretic"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_the_seas"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_toughness"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_twinned_duration"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_unnatural_stamina"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_volatile_distortion"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_of_warding"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_boards"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_boards_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_boards_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_boards_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_item_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_item_stand"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_obelisk"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_totem_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_brooch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_sap"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_sap_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_sapball"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_tainted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_tainted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_tainted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_tainted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_twisted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_twisted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_twisted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_small_twisted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_tainted_rock_tiles_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_twisted_rock_tiles_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_workbench"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_runewood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_runewood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_runewood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_runewood_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_runewood_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_runewood_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_soulwood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_soulwood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_soulwood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_soulwood_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_soulwood_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rustic_soulwood_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:sacred_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:sacred_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:shielding_apparatus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:silver_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:silver_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_tainted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_tainted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_tainted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_tainted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_twisted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_twisted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_twisted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:small_twisted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_tainted_rock_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_tainted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_tainted_rock_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_twisted_rock_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_twisted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:smooth_twisted_rock_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:solid_runewood_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:solid_soulwood_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_hunter_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_hunter_cloak"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_hunter_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_hunter_robe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_of_a_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_plating"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_scythe"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulstone_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_beam"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_boards"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_boards_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_boards_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_boards_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_growth"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_item_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_item_stand"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_panel"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_totem_base"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spectral_lens"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spectral_optic"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_altar"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_catalyzer"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_crucible"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_fabric"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_jar"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_pouch"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:splash_of_gluttony"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_of_the_auric_flame"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:stellar_mechanism"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:stripped_runewood"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:stripped_runewood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:stripped_soulwood"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:stripped_soulwood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_ether_brazier"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_iridescent_ether_brazier"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_column"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_column_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_item_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_item_stand"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_tiles_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:the_device"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:the_vessel"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tin_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tin_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:token_of_gratitude"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tophat"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:totemic_staff"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:trans_prideweave"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tuning_fork"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_ether_brazier"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_iridescent_ether_brazier"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_bricks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_bricks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_bricks_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_column"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_column_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_item_pedestal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_item_stand"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_tiles_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_tiles_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_tiles_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tyrving"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:umbral_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:uranium_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:uranium_node"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_runewood_boards"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_runewood_boards_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_runewood_boards_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_runewood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_runewood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_runewood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_rustic_runewood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_rustic_runewood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_rustic_runewood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_rustic_soulwood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_rustic_soulwood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_rustic_soulwood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_soulwood_boards"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_soulwood_boards_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_soulwood_boards_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_soulwood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_soulwood_planks_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:vertical_soulwood_planks_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_conduit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_depot"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_salts"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:warp_flux"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:warping_engine"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weavers_workbench"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_central_encasement"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_central_encasement_support"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_central_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_encasement"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_encasement_corner"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_encasement_mirrored"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weeping_well_side_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weight_of_worlds"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:wicked_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:wicked_spirited_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:zinc_impetus"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:zinc_node"
+		}
+	]
+}

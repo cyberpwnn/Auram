@@ -1,0 +1,20 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:$_painted_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:$_painted_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:$_painted_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "regions_unexplored:potted_$_snowbelle"
+		}
+	]
+}

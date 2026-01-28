@@ -1,0 +1,11 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blocks/tesseract",
+			"data": {
+				"Type": "block"
+			}
+		}
+	]
+}

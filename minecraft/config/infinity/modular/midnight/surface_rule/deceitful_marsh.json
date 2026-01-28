@@ -1,0 +1,1006 @@
+{
+	"biomes": [
+		"midnight:deceitful_marsh"
+	],
+	"rule": {
+		"type": "minecraft:sequence",
+		"sequence": [
+			{
+				"type": "minecraft:sequence",
+				"sequence": [
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 0,
+							"offset": 0,
+							"surface_type": "floor",
+							"add_surface_depth": false
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -1.0,
+										"noise": "midnight:surface_2",
+										"max_threshold": -0.1
+									},
+									"then_run": {
+										"type": "minecraft:sequence",
+										"sequence": [
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": false
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_grass_block"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											},
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": true
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_dirt"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											}
+										]
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -0.1,
+										"noise": "midnight:surface_2",
+										"max_threshold": 0.4
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_mud"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.4,
+										"noise": "midnight:surface_2",
+										"max_threshold": 1.0
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_peat"
+										}
+									},
+									"type": "minecraft:condition"
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					},
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 0,
+							"offset": 0,
+							"surface_type": "floor",
+							"add_surface_depth": true
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -1.0,
+										"noise": "midnight:surface_2",
+										"max_threshold": -0.1
+									},
+									"then_run": {
+										"type": "minecraft:sequence",
+										"sequence": [
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": false
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_grass_block"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											},
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": true
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_dirt"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											}
+										]
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -0.1,
+										"noise": "midnight:surface_2",
+										"max_threshold": 0.4
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_mud"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.4,
+										"noise": "midnight:surface_2",
+										"max_threshold": 1.0
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_peat"
+										}
+									},
+									"type": "minecraft:condition"
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					}
+				]
+			},
+			{
+				"if_true": {
+					"type": "minecraft:vertical_gradient",
+					"random_name": "minecraft:bedrock_floor",
+					"true_at_and_below": {
+						"above_bottom": 0
+					},
+					"false_at_and_above": {
+						"above_bottom": 5
+					}
+				},
+				"then_run": {
+					"type": "minecraft:block",
+					"result_state": {
+						"Name": "midnight:night_bedrock"
+					}
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": false
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:water",
+						"offset": -1,
+						"add_stone_depth": false,
+						"surface_depth_multiplier": 0
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:night_grass_block"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": false
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:noise_threshold",
+						"min_threshold": -1.0,
+						"noise": "midnight:surface",
+						"max_threshold": -0.4
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:strange_sand"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": false
+				},
+				"then_run": {
+					"type": "minecraft:block",
+					"result_state": {
+						"Name": "midnight:night_dirt"
+					}
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": true
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:water",
+						"offset": -1,
+						"add_stone_depth": false,
+						"surface_depth_multiplier": 0
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:night_dirt"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": true
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:noise_threshold",
+						"min_threshold": -1.0,
+						"noise": "midnight:surface",
+						"max_threshold": -0.4
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:strange_sand"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": true
+				},
+				"then_run": {
+					"type": "minecraft:block",
+					"result_state": {
+						"Name": "midnight:night_dirt"
+					}
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"type": "minecraft:sequence",
+				"sequence": [
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 0,
+							"offset": 0,
+							"surface_type": "floor",
+							"add_surface_depth": false
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -1.0,
+										"noise": "midnight:surface_2",
+										"max_threshold": -0.1
+									},
+									"then_run": {
+										"type": "minecraft:sequence",
+										"sequence": [
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": false
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_grass_block"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											},
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": true
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_dirt"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											}
+										]
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -0.1,
+										"noise": "midnight:surface_2",
+										"max_threshold": 0.4
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_mud"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.4,
+										"noise": "midnight:surface_2",
+										"max_threshold": 1.0
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_peat"
+										}
+									},
+									"type": "minecraft:condition"
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					},
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 0,
+							"offset": 0,
+							"surface_type": "floor",
+							"add_surface_depth": true
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -1.0,
+										"noise": "midnight:surface_2",
+										"max_threshold": -0.1
+									},
+									"then_run": {
+										"type": "minecraft:sequence",
+										"sequence": [
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": false
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_grass_block"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											},
+											{
+												"if_true": {
+													"type": "minecraft:stone_depth",
+													"secondary_depth_range": 0,
+													"offset": 0,
+													"surface_type": "floor",
+													"add_surface_depth": true
+												},
+												"then_run": {
+													"type": "minecraft:sequence",
+													"sequence": [
+														{
+															"if_true": {
+																"type": "minecraft:water",
+																"offset": -1,
+																"add_stone_depth": false,
+																"surface_depth_multiplier": 0
+															},
+															"then_run": {
+																"type": "minecraft:block",
+																"result_state": {
+																	"Name": "midnight:night_dirt"
+																}
+															},
+															"type": "minecraft:condition"
+														},
+														{
+															"type": "minecraft:sequence",
+															"sequence": [
+																{
+																	"if_true": {
+																		"type": "minecraft:noise_threshold",
+																		"min_threshold": -1.0,
+																		"noise": "midnight:surface",
+																		"max_threshold": -0.4
+																	},
+																	"then_run": {
+																		"type": "minecraft:block",
+																		"result_state": {
+																			"Name": "midnight:strange_sand"
+																		}
+																	},
+																	"type": "minecraft:condition"
+																},
+																{
+																	"type": "minecraft:block",
+																	"result_state": {
+																		"Name": "midnight:night_dirt"
+																	}
+																}
+															]
+														}
+													]
+												},
+												"type": "minecraft:condition"
+											}
+										]
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": -0.1,
+										"noise": "midnight:surface_2",
+										"max_threshold": 0.4
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_mud"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.4,
+										"noise": "midnight:surface_2",
+										"max_threshold": 1.0
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "midnight:deceitful_peat"
+										}
+									},
+									"type": "minecraft:condition"
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					}
+				]
+			},
+			{
+				"if_true": {
+					"type": "minecraft:vertical_gradient",
+					"random_name": "minecraft:bedrock_floor",
+					"true_at_and_below": {
+						"above_bottom": 0
+					},
+					"false_at_and_above": {
+						"above_bottom": 5
+					}
+				},
+				"then_run": {
+					"type": "minecraft:block",
+					"result_state": {
+						"Name": "midnight:night_bedrock"
+					}
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": false
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:water",
+						"offset": -1,
+						"add_stone_depth": false,
+						"surface_depth_multiplier": 0
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:night_grass_block"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": false
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:noise_threshold",
+						"min_threshold": -1.0,
+						"noise": "midnight:surface",
+						"max_threshold": -0.4
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:strange_sand"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": false
+				},
+				"then_run": {
+					"type": "minecraft:block",
+					"result_state": {
+						"Name": "midnight:night_dirt"
+					}
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": true
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:water",
+						"offset": -1,
+						"add_stone_depth": false,
+						"surface_depth_multiplier": 0
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:night_dirt"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": true
+				},
+				"then_run": {
+					"if_true": {
+						"type": "minecraft:noise_threshold",
+						"min_threshold": -1.0,
+						"noise": "midnight:surface",
+						"max_threshold": -0.4
+					},
+					"then_run": {
+						"type": "minecraft:block",
+						"result_state": {
+							"Name": "midnight:strange_sand"
+						}
+					},
+					"type": "minecraft:condition"
+				},
+				"type": "minecraft:condition"
+			},
+			{
+				"if_true": {
+					"type": "minecraft:stone_depth",
+					"secondary_depth_range": 0,
+					"offset": 0,
+					"surface_type": "floor",
+					"add_surface_depth": true
+				},
+				"then_run": {
+					"type": "minecraft:block",
+					"result_state": {
+						"Name": "midnight:night_dirt"
+					}
+				},
+				"type": "minecraft:condition"
+			}
+		]
+	}
+}

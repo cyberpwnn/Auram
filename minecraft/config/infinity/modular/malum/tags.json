@@ -1,0 +1,76 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "malum:blighted_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blighted_plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:endless_flame"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:greater_aerial_whitelist"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rite_immune"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tainted_rock_walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:twisted_rock_walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:unchained_rite_catalyst"
+		}
+	]
+}

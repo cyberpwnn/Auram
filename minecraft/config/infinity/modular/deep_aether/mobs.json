@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deep_aether:aerglow_fish",
+			"data": {
+				"Category": "water_creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:baby_zephyr",
+			"data": {
+				"Category": "aether_sky_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:eots_controller",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:eots_segment",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:gentle_wind",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:quail",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:venomite",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:windfly",
+			"data": {
+				"Category": "creature"
+			}
+		}
+	]
+}

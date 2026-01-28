@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:needs_better_gold_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:needs_plaslitherite_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:needs_refined_redstone_tool"
+		}
+	]
+}

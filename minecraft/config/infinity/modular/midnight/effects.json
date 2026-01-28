@@ -1,0 +1,58 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:dragon_guard",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:pollinated",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shade_screech",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stunned",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tormented",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:unstable_fall",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "beneficial"
+			}
+		}
+	]
+}

@@ -1,0 +1,100 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:chest_wall_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:colossal_chest_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_obsidian"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:interface_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:uncolossal_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:upgrade_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "colossalchests:upgrade_tool_reverse"
+		}
+	]
+}

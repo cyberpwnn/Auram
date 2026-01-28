@@ -1,0 +1,68 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:auto_crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:battery_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:block_breaker"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:charging_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:deployer"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:electric_screwdriver"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:empty_battery"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:fire_starter"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:frame"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:frame_actuator"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:frame_motor"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:pneumatic_tube"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:project_bench"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:recipe_plan"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_expansion:transposer"
+		}
+	]
+}

@@ -1,0 +1,44 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_stem_cache"
+		}
+	]
+}

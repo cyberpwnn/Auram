@@ -1,0 +1,496 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "aquaculture:acacia_fish_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:algae"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:arapaima"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:arapaima_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:arrau_turtle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:arrau_turtle_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_cod"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_cod_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_halibut"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_halibut_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_herring"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_herring_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bayad"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bayad_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:birch_fish_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:blackfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:blackfish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bluegill"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bluegill_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bobber"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:boulti"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:boulti_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:box"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:box_turtle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:box_turtle_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:brown_shrooma"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:brown_shrooma_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:brown_trout"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:brown_trout_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:capitaine"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:capitaine_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:carp"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:carp_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:catfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:catfish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:dark_oak_fish_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:diamond_fillet_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:diamond_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:diamond_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:double_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:driftwood"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:farmland"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_bones"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_fillet_cooked"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_fillet_raw"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fishing_line"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:gar"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:gar_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:gold_fillet_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:gold_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:gold_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:goldfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:heavy_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:iron_fillet_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:iron_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:iron_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:jellyfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:jellyfish_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:jungle_fish_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:leech"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:light_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:lockbox"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:message_in_a_bottle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:minnow"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:minnow_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:muskellunge"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:muskellunge_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunes_bounty"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_fillet_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_fishing_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:neptunium_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:nether_star_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:note_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:oak_fish_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pacific_halibut"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pacific_halibut_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:perch"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:perch_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pink_salmon"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pink_salmon_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:piranha"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:piranha_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pollock"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pollock_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:rainbow_trout"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:rainbow_trout_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:red_grouper"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:red_grouper_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:red_shrooma"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:red_shrooma_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:redstone_hook"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:smallmouth_bass"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:smallmouth_bass_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:spruce_fish_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:starshell_turtle"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:starshell_turtle_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:stone_fillet_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:sushi"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:synodontis"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:synodontis_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tackle_box"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tambaqui"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tambaqui_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tin_can"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:treasure_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tuna"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tuna_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:turtle_soup"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:wooden_fillet_knife"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:worm"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:worm_farm"
+		}
+	]
+}

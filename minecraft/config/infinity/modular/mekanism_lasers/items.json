@@ -1,0 +1,56 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:advanced_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:advanced_toggleable_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:basic_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:basic_toggleable_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:creative_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:creative_toggleable_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:elite_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:elite_toggleable_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:laser_stopper"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:ore_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:remote_control"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:ultimate_laser"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanism_lasers:ultimate_toggleable_laser"
+		}
+	]
+}

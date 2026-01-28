@@ -1,0 +1,536 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "c:axolotl"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:barrels"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:barrels/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:bat"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:bookshelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:budding_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:buds"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:calorite_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:calorite_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:camel"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:cat"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:chains"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:chests/wooden"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:chicken"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:clusters"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:cobblestones"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:concrete"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:concretes"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:cow"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:creeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:desh_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:desh_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dolphin"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:donkey"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:drained_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:drowned"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/black"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/brown"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/cyan"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/green"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/light_blue"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/light_gray"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/lime"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/magenta"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/orange"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/pink"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/purple"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/red"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/white"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:dyed/yellow"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:fish"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:fox"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_blocks/cheap"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_blocks/colorless"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_blocks/tinted"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_panes"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glass_panes/colorless"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glazed_terracotta"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:glazed_terracottas"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:goat"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:hidden_from_recipe_viewers"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:hoglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:husk"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ice_shard_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:llama"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:mooshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:mule"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ocelot"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ores/netherite_scrap"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ores/quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ostrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ostrum_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:panda"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:phantom"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:pig"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:piglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:player"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:player_workstations/crafting_tables"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:player_workstations/furnaces"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:polarbear"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:quartz_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_calorite_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_desh_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_ostrum_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:raw_silver_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:red_sandstone_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:red_sandstone_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:red_sandstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:relocation_not_supported"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:ropes"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:salt_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:salt_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/red_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/red_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/red_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/uncolored_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/uncolored_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone/uncolored_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sandstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:sheep"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:shulker_boxes"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:silver_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:silver_ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:skulls"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:steel_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:stones"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/bone_meal"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/coal"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/diamond"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/dried_kelp"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/emerald"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/lapis"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/netherite"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/raw_copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/raw_gold"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/raw_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/redstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/slime"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:storage_blocks/wheat"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:uncolored_sandstone_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:uncolored_sandstone_slabs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:uncolored_sandstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:villager_job_sites"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:wooden_barrels"
+		},
+		{
+			"weight": 1.0,
+			"key": "c:zombie"
+		}
+	]
+}

@@ -1,0 +1,112 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafter"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafter_manager"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafting_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:crafting_monitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:creative_controller"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:detector"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:disk_manipulator"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:fluid_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:network_receiver"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:network_transmitter"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:pattern_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:relay"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:security_manager"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/fluids"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/fluids/1048576k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/fluids/16384k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/fluids/262144k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/fluids/65536k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/items"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/items/1024k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/items/16384k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/items/256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:storage_blocks/items/4096k"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorage:wireless_transmitter"
+		}
+	]
+}

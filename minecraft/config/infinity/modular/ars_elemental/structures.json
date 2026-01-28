@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ars_elemental:starbuncle_shrine",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "ars_elemental:starbuncle_shrine"
+			}
+		}
+	]
+}

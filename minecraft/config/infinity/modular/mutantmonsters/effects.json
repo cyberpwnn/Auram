@@ -1,0 +1,13 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mutantmonsters:chemical_x",
+			"data": {
+				"Instant": true,
+				"Color": 0,
+				"Category": "harmful"
+			}
+		}
+	]
+}

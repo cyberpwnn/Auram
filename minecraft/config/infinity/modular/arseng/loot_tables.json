@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blocks/me_source_jar",
+			"data": {
+				"Type": "block"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "blocks/source_acceptor",
+			"data": {
+				"Type": "block"
+			}
+		}
+	]
+}

@@ -9,6 +9,13 @@
       ],
       "bookmarks": [],
       "completedManualQuests": []
+    },
+    "bewitchment:book_of_shadows": {
+      "viewedEntries": [
+        "bewitchment:introduction/cypress_trees"
+      ],
+      "bookmarks": [],
+      "completedManualQuests": []
     }
   }
 }

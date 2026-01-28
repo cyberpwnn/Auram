@@ -1,0 +1,67 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:concrete_feet",
+			"data": {
+				"Instant": false,
+				"Color": 6441624,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:conductive",
+			"data": {
+				"Instant": false,
+				"Color": 6881280,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:flammable",
+			"data": {
+				"Instant": false,
+				"Color": 9387807,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:flashed",
+			"data": {
+				"Instant": false,
+				"Color": 6441624,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:slippery",
+			"data": {
+				"Instant": false,
+				"Color": 1511427,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:sticky",
+			"data": {
+				"Instant": false,
+				"Color": 10250240,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "immersiveengineering:stunned",
+			"data": {
+				"Instant": false,
+				"Color": 6441624,
+				"Category": "harmful"
+			}
+		}
+	]
+}

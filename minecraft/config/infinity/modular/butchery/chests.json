@@ -1,0 +1,920 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:acacia_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:acacia_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:all_black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:basin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:bat_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:birch_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:birch_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_grate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:blood_puddle"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brain"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:british_shorthair_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:brown_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:calico_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:camel_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cash_register_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cat_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cave_spider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:chicken_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cow_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creamy_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creeper_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:creeper_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crimson_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crimson_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_oak_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dark_oak_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:dolphin_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:donkey_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_all_black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_bat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_black_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_british_shorthair_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_brown_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_brown_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_calico_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_camel_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_chicken_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_cow_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_creamy_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_creeper_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_dolphin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_donkey_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_drowned_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_evoker_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_fox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_goat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_gray_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_gray_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_guardian_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_hoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_husk_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_jellie_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_mule_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_ocelot_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_panda_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_persian_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_phantom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_pig_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_piglin_brute_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_pillager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_polar_bear_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_rabbit_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_ragdoll_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_red_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_red_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_black_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_chestnut_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_creamy_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_regular_dark_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_sheep_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_siamese_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_sniffer_carcass_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_snowfox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_strider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_tabby_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_turtle_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_vindicator_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_white_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_white_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_white_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_witch_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_wolf_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombie_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombie_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombie_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drained_zombified_piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drainedplayercorpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drowned_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:elder_guardian_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ender_dragon_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ender_dragon_carcass_headless"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_1"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_10"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_11"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_12"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_13"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_14"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_2"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_3"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_4"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_5"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_6"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_7"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_8"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderdragoncut_9"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:evoker_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:fox_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:freezer"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:glow_squid_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:goat_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:gray_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:green_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:guardian_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hanging_drained_enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hanging_enderman_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hoglin_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:husk_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_arms"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_body"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:iron_golem_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jellie_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jungle_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:jungle_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:llama_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:magma_cube_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mangrove_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:meat_grinder"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:medium_magma_cube_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:metal_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:metal_tray"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mooshroom_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:mule_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:oak_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:oak_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ocelot_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:orange_frog_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:panda_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:persian_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pestle_and_mortar"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:phantom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:phantom_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pig_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_brute_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:piglin_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:pillager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:playercorpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polar_bear_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:polarbear_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rabbit_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:ragdoll_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:red_mooshroom_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_black_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_chestnut_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_creamy_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_dark_brown_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_gray_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:regular_white_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_arms"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_body"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_head"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_iron_golem_legs"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:repaired_irongolem"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sheep_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:siamese_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skeleton_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:skin_rack"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:sniffer_carcass_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:snow_fox_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spruce_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:spruce_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:squid_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:stray_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:strider_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:tabby_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:taxidermy_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:turtle_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:villager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:vindicator_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warden_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warped_butcher_display"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:warped_butchers_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_cat_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:white_llama_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witch_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wither_skeleton_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wolf_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wooden_spit_rotisserie"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zoglin_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_horse_carcass"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_horse_head_mount"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombie_villager_corpse"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:zombified_piglin_corpse"
+		}
+	]
+}

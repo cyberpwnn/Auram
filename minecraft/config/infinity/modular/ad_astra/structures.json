@@ -1,0 +1,92 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ad_astra:lunar_tower",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:lunar_tower"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:lunarian_village",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:lunarian_village"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:mars_temple",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:mars_temple"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:moon_dungeon",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:moon_dungeon"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:oil_well",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:oil_well"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:pygro_tower",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_box",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:pygro_tower"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:pygro_village",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:pygro_village"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ad_astra:venus_bullet",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "ad_astra:venus_bullet"
+			}
+		}
+	]
+}

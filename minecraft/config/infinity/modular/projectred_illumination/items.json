@@ -1,0 +1,648 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:black_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:blue_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:brown_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:cyan_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:gray_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:green_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:illumar_smart_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_blue_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:light_gray_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:lime_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:magenta_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:orange_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:pink_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:purple_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:red_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:white_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_inverted_cage_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_inverted_fallout_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_inverted_fixture_light"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_inverted_illumar_lamp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_inverted_lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_illumination:yellow_lantern"
+		}
+	]
+}

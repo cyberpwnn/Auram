@@ -1,0 +1,113 @@
+{
+	"gameRules": {
+		"maxDimensionScale": 1000,
+		"longArithmeticEnabled": true,
+		"pawnsCanDropIllegalItems": false,
+		"maxBiomeCount": 10,
+		"forceSolidSurface": true,
+		"enforceModLoadedChecks": true,
+		"randomizeAllNetherPortals": false,
+		"maxStructureCount": 8,
+		"consumePortalKey": true,
+		"resetChargeCooldown": 6000,
+		"safeMode": true,
+		"iridescencePotionLevel": 4,
+		"useSoundSyncPackets": true,
+		"chaosMobsEnabled": false,
+		"iridescenceContactLevel": 0,
+		"iridSafeMode": false,
+		"forceLowercase": false,
+		"avgDimensionHeight": 64
+	},
+	"salt": "",
+	"rootChances": {
+		"features_rules": {
+			"flood_geodes": 0.25,
+			"colourful_shapes": 0.5,
+			"rotate_blocks": 0.75,
+			"use_vanilla_trees": 0.25,
+			"scatter_end_spikes": 0.67,
+			"banded_shapes": 0.5,
+			"scatter_ores": 0.2,
+			"generate_vanilla_features": 0.5,
+			"ores_spawn_everywhere": 0.02,
+			"cage_crystals": 0.2,
+			"gateways_random_block": 0.5,
+			"huge_trees": 0.0
+		},
+		"dimension_type": {
+			"piglin_safe": 1.0,
+			"bed_works": 0.5,
+			"natural": 0.5,
+			"fixed_time": 0.25,
+			"give_effect": 0.1,
+			"use_mavity": 0.25,
+			"has_raids": 0.5,
+			"use_shaders": 0.15,
+			"pitch_shift": 0.25,
+			"ultrawarm": 0.5,
+			"respawn_anchor_works": 1.0,
+			"has_skylight": 0.75
+		},
+		"biome": {
+			"use_random_canyon": 0.2,
+			"temperature_modifier_frozen": 0.25,
+			"use_sparse_vegetation": 0.5,
+			"music": 1.0,
+			"ambient_sound": 0.0625,
+			"has_precipitation": 0.5,
+			"additions_sound": 0.125,
+			"use_random_biome": 0.8,
+			"use_particles": 0.5,
+			"use_random_cave": 0.2,
+			"mood_sound": 0.125
+		},
+		"structures": {
+			"full_box": 0.5,
+			"triangular_spread": 0.1,
+			"text": 0.2,
+			"spawn_override": 0.0
+		},
+		"noise_settings": {
+			"randomise_blocks": 0.75,
+			"randomise_biome_blocks": 0.75,
+			"solid_lakes": 0.05,
+			"rift_world_chance": 0.01,
+			"solid_oceans": 0.02
+		},
+		"features_chances": {
+			"blobs": 0.33,
+			"end_island": 0.2,
+			"bonus_chest": 0.2,
+			"shape": 0.5,
+			"springs": 0.5,
+			"surface_patch": 0.5,
+			"columns": 0.2,
+			"ceiling_blobs": 0.5,
+			"water_plants": 0.75,
+			"delta": 0.2,
+			"geode": 0.5,
+			"vegetation": 1.0,
+			"fossil": 0.2,
+			"floating_patch": 0.1,
+			"dungeon": 1.0,
+			"end_spikes": 0.2,
+			"end_gateway": 0.05,
+			"rock": 0.33,
+			"iceberg": 0.33,
+			"well": 0.2,
+			"lake": 0.5
+		}
+	},
+	"portalKey": "",
+	"disabledDimensions": [
+		"ant",
+		"bash",
+		"checkerboard",
+		"missing",
+		"notes",
+		"perfection",
+		"terminal"
+	],
+	"infinity_version": 2005000
+}

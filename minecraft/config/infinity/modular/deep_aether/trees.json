@@ -1,0 +1,88 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deep_aether:blue_roseroot_tree_large",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:blue_roseroot_tree_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:conberry_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:cruderoot_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:huge_lightcap_mushroom",
+			"data": {
+				"Type": "huge_red_mushroom"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:luminescent_large_skyroot_forest_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:luminescent_small_skyroot_forest_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:roseroot_tree_large",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:roseroot_tree_small",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:skyroot_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:sunroot_tree",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:yagroot_tree",
+			"data": {
+				"Type": "tree"
+			}
+		}
+	]
+}

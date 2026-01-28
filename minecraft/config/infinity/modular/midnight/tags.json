@@ -1,0 +1,304 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_growable"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bookshelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:can_break_geodes"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ceiling_hanging_signs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:crystal_bug_can_rest_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:fence_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_stems"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ladders"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:malignant_soils"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:metal_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:metal_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:metal_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:midnight_carver_replaceables"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:must_never_break_geodes"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:natural_stone"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:needs_ebonite_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:needs_nagrilite_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:needs_nightstone_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:needs_shadowroot_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:needs_tenebrum_tool"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_reed_growable_without_water"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ores"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_growable"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_caps"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_fence_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_growable"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_ladders"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_shelves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_stems"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shrooms"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:small_plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:small_shrooms"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:soils"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:standing_signs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stone_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:storage_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_shrooms"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trapdoors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:umbraflame_burnable"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:virilux_cave_cannot_replace"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:virilux_cave_invalid_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wall_hanging_signs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wall_signs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:walls"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wet_soils"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_buttons"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_chests"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_doors"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_fence_gates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_fences"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_ladders"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_pressure_plates"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:wooden_trapdoors"
+		}
+	]
+}

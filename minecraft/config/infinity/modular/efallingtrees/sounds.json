@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "efallingtrees:bamboo_fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "efallingtrees:bamboo_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "efallingtrees:cactus_fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "efallingtrees:cactus_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "efallingtrees:tree_fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "efallingtrees:tree_impact"
+		}
+	]
+}

@@ -1,0 +1,375 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "blocks/farmland",
+			"data": {
+				"Type": "block"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "blocks/neptunes_bounty",
+			"data": {
+				"Type": "block"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "blocks/neptunium_block",
+			"data": {
+				"Type": "block"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "blocks/tackle_box",
+			"data": {
+				"Type": "block"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "blocks/worm_farm",
+			"data": {
+				"Type": "block"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "box/box",
+			"data": {
+				"Type": "generic"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "box/lockbox",
+			"data": {
+				"Type": "generic"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "box/neptunes_bounty",
+			"data": {
+				"Type": "generic"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "box/neptunes_bounty_junk",
+			"data": {
+				"Type": "generic"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "box/treasure_chest",
+			"data": {
+				"Type": "generic"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/arapaima",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/arrau_turtle",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/atlantic_cod",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/atlantic_halibut",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/atlantic_herring",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/bayad",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/blackfish",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/bluegill",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/boulti",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/box_turtle",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/brown_shrooma",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/brown_trout",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/capitaine",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/carp",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/catfish",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/gar",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/jellyfish",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/minnow",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/muskellunge",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/pacific_halibut",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/perch",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/pink_salmon",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/piranha",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/pollock",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/rainbow_trout",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/red_grouper",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/red_shrooma",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/smallmouth_bass",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/starshell_turtle",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/synodontis",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/tambaqui",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "entities/tuna",
+			"data": {
+				"Type": "entity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/fish",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/junk",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/lava/fish",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/lava/fishing",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/lava/junk",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/lava/treasure",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/neptunium",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/nether/fish",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/nether/fishing",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/nether/junk",
+			"data": {
+				"Type": "fishing"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "gameplay/fishing/nether/treasure",
+			"data": {
+				"Type": "fishing"
+			}
+		}
+	]
+}

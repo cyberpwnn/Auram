@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "cb_microblock:diamond_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "cb_microblock:iron_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "cb_microblock:microblock"
+		},
+		{
+			"weight": 1.0,
+			"key": "cb_microblock:stone_rod"
+		},
+		{
+			"weight": 1.0,
+			"key": "cb_microblock:stone_saw"
+		}
+	]
+}

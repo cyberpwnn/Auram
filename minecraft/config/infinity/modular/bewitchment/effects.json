@@ -1,0 +1,247 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bewitchment:climbing",
+			"data": {
+				"Instant": false,
+				"Color": 6313032,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:corrosion",
+			"data": {
+				"Instant": false,
+				"Color": 7324982,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:corruption",
+			"data": {
+				"Instant": true,
+				"Color": 6291456,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:deafened",
+			"data": {
+				"Instant": false,
+				"Color": 6777975,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:deflection",
+			"data": {
+				"Instant": false,
+				"Color": 9868950,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:disjunction",
+			"data": {
+				"Instant": true,
+				"Color": 11621545,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:enchanted",
+			"data": {
+				"Instant": false,
+				"Color": 16109196,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:ethereal",
+			"data": {
+				"Instant": false,
+				"Color": 10133183,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:gills",
+			"data": {
+				"Instant": false,
+				"Color": 3104379,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:hardening",
+			"data": {
+				"Instant": false,
+				"Color": 4170818,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:ignition",
+			"data": {
+				"Instant": false,
+				"Color": 14060044,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:inhibited",
+			"data": {
+				"Instant": false,
+				"Color": 3684929,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:invigorating",
+			"data": {
+				"Instant": true,
+				"Color": 11166899,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:leeching",
+			"data": {
+				"Instant": false,
+				"Color": 4849664,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:magic_sponge",
+			"data": {
+				"Instant": false,
+				"Color": 10642602,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:mortal_coil",
+			"data": {
+				"Instant": false,
+				"Color": 2960685,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:nourishing",
+			"data": {
+				"Instant": false,
+				"Color": 7453816,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:pact",
+			"data": {
+				"Instant": false,
+				"Color": 8192000,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:polymorph",
+			"data": {
+				"Instant": false,
+				"Color": 11621545,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:purity",
+			"data": {
+				"Instant": false,
+				"Color": 14603221,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:sinking",
+			"data": {
+				"Instant": false,
+				"Color": 7105644,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:synchronized",
+			"data": {
+				"Instant": false,
+				"Color": 10028036,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:theft",
+			"data": {
+				"Instant": false,
+				"Color": 7814025,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:thorns",
+			"data": {
+				"Instant": false,
+				"Color": 5405990,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:volatility",
+			"data": {
+				"Instant": false,
+				"Color": 12020480,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:webbed",
+			"data": {
+				"Instant": true,
+				"Color": 2961711,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bewitchment:wednesday",
+			"data": {
+				"Instant": false,
+				"Color": 65280,
+				"Category": "beneficial"
+			}
+		}
+	]
+}

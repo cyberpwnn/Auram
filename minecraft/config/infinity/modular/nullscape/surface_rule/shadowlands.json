@@ -1,0 +1,296 @@
+{
+	"biomes": [
+		"nullscape:shadowlands"
+	],
+	"rule": {
+		"type": "minecraft:sequence",
+		"sequence": [
+			{
+				"type": "minecraft:sequence",
+				"sequence": [
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 6,
+							"offset": 7,
+							"surface_type": "ceiling",
+							"add_surface_depth": true
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.2,
+										"noise": "nullscape:shadowlands/fire",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_fire_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.15,
+										"noise": "nullscape:shadowlands/bubble",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_bubble_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.1,
+										"noise": "nullscape:shadowlands/horn",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_horn_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"type": "minecraft:block",
+									"result_state": {
+										"Name": "minecraft:dead_tube_coral_block"
+									}
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					},
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 6,
+							"offset": 7,
+							"surface_type": "floor",
+							"add_surface_depth": true
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.2,
+										"noise": "nullscape:shadowlands/fire",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_fire_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.15,
+										"noise": "nullscape:shadowlands/bubble",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_bubble_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.1,
+										"noise": "nullscape:shadowlands/horn",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_horn_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"type": "minecraft:block",
+									"result_state": {
+										"Name": "minecraft:dead_tube_coral_block"
+									}
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					}
+				]
+			},
+			{
+				"type": "minecraft:block",
+				"result_state": {
+					"Name": "minecraft:end_stone"
+				}
+			},
+			{
+				"type": "minecraft:sequence",
+				"sequence": [
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 6,
+							"offset": 7,
+							"surface_type": "ceiling",
+							"add_surface_depth": true
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.2,
+										"noise": "nullscape:shadowlands/fire",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_fire_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.15,
+										"noise": "nullscape:shadowlands/bubble",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_bubble_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.1,
+										"noise": "nullscape:shadowlands/horn",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_horn_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"type": "minecraft:block",
+									"result_state": {
+										"Name": "minecraft:dead_tube_coral_block"
+									}
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					},
+					{
+						"if_true": {
+							"type": "minecraft:stone_depth",
+							"secondary_depth_range": 6,
+							"offset": 7,
+							"surface_type": "floor",
+							"add_surface_depth": true
+						},
+						"then_run": {
+							"type": "minecraft:sequence",
+							"sequence": [
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.2,
+										"noise": "nullscape:shadowlands/fire",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_fire_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.15,
+										"noise": "nullscape:shadowlands/bubble",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_bubble_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"if_true": {
+										"type": "minecraft:noise_threshold",
+										"min_threshold": 0.1,
+										"noise": "nullscape:shadowlands/horn",
+										"max_threshold": 3.0E7
+									},
+									"then_run": {
+										"type": "minecraft:block",
+										"result_state": {
+											"Name": "minecraft:dead_horn_coral_block"
+										}
+									},
+									"type": "minecraft:condition"
+								},
+								{
+									"type": "minecraft:block",
+									"result_state": {
+										"Name": "minecraft:dead_tube_coral_block"
+									}
+								}
+							]
+						},
+						"type": "minecraft:condition"
+					}
+				]
+			},
+			{
+				"type": "minecraft:block",
+				"result_state": {
+					"Name": "minecraft:end_stone"
+				}
+			}
+		]
+	}
+}

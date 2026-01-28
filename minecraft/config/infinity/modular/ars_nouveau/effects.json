@@ -1,0 +1,166 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:blasting",
+			"data": {
+				"Instant": false,
+				"Color": 16384000,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:bounce",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:flight",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:freezing",
+			"data": {
+				"Instant": false,
+				"Color": 250,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:glide",
+			"data": {
+				"Instant": false,
+				"Color": 8080895,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:gravity",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:hex",
+			"data": {
+				"Instant": false,
+				"Color": 8080895,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:immolate",
+			"data": {
+				"Instant": false,
+				"Color": 16384000,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:magic_find",
+			"data": {
+				"Instant": false,
+				"Color": 2017480,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:mana_regen",
+			"data": {
+				"Instant": false,
+				"Color": 8080895,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:recovery",
+			"data": {
+				"Instant": false,
+				"Color": 51240,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:scrying",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:shielding",
+			"data": {
+				"Instant": false,
+				"Color": 9830550,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:shocked",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:snared",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:soaked",
+			"data": {
+				"Instant": false,
+				"Color": 255,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:spell_damage",
+			"data": {
+				"Instant": false,
+				"Color": 2017480,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_nouveau:summoning_sickness",
+			"data": {
+				"Instant": false,
+				"Color": 2039587,
+				"Category": "harmful"
+			}
+		}
+	]
+}

@@ -1,0 +1,776 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:abyssologer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:adherent"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:alpha_yeti"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:archivist"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:ascend"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:baby_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:baby_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:barakoa"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:barrel_zombie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:basher"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:bighorn_sheep"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:blaze"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:blockand_chain_goblin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:bloody_gadfly"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:bone_imp"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:bone_serpent"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:bonescaller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:brute_ug"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:carminite_broodling"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:carminite_ghastguard"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:carminite_ghastling"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:carminite_golem"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:cave_centipede"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:cave_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:corpsefish"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:corpsefly"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:creeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:crimson_mosquito"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:crystal_zombie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:dark_vortex"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:death_tome"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:decaying_zombie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:decrepit_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:diamond_thermite"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:direhound_leader"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:door_knight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:dread_hound"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:dropbear"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:drowned"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:dweller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:elder_guardian"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:ender_dragon"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:enderman"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:endermite"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:evoker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:exp"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:fallen_chaos_knight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:farseer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:ferrous_wroughtnaut"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:fire_beetle"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:firelight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:foliaath"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:forgotten_guardian"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:frostmaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:ghast"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:gloomper"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:glow_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:gluttonfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:goblin_knight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:green_anaconda"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:grottol"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:guardian"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:guster"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:gwibling"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:hammerhead_shark"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:harbringer_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:hedge_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:helmet_crab"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:hoglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:hostile_wolf"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:husk"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:hydra"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:iceologer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:illusioner"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:illusioner_fand_f"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:inquisitor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:invoker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:king_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:knight_phantom"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:kobold"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:komodo_dragon"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:krampus"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:lantern"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:lava_squid"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:life_stealer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:lord_of_pumpkin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:maggot"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:magma_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:masticator"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mauler"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:maze_slime"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mimicube"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:minoshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:minotaur"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:missioner"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mist_wolf"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mog"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mosquito_swarm"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mother_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mr_pumpkin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:mrs_pumpkin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:muncher"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:murmur"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:naga_mowzie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:naga_twilight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:nargoyle"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:necromancer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:nightmare_stalker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:overgrown_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:phantom"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:phantom_creeper"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:piglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:piglin_brute"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:pillager"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:pinch_beetle"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:provoker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:pumpkin_bruiser"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:questing_ram"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:ravager"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:redcap_goblin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:redcap_sapper"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:restless_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:rocky_roller"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:rotbeast"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:rotling"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:rotwalker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:roving_cube"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:savager"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:scarlet_persecutor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:scintling"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:shulker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:siamese_skeletons"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:silverfish"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:skeleton_druid"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:skeleton_horse"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:skeleton_thrasher"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:skelewag"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:skreecher"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:slime"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:slime_beetle"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:snow_guardian"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:snow_queen"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:sorcerer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:spectre_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:spiked_froststalker"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:spirit_guide"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:spirit_guide_assistant"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:spirit_of_chaos"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:sploogie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:stable_ice_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:stoneborn"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:straddler"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:stray"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:swamp_zombie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:swarm_spider"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:swarmer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:talent"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:thornshell"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:tiger"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:towerwood_borer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:troll_twilight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:tusklin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:twilight_lich"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:twilight_wraith"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:umvuthana"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:umvuthanaraptor"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:umvuthithesunbird"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:unstable_ice_core"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:ur_ghast"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:vex"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:vindicator"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:void_worm"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:warden"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:warped_mosco"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:wildfire"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:winter_wolf"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:witch"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:wither"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:wither_skeleton"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:wolf"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:yetitwilight"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zoglin"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie_bruiser"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie_clown"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie_fisherman"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie_horse"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie_lumberjack"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombie_villager"
+		},
+		{
+			"weight": 1.0,
+			"key": "ftb_ph:zombified_piglin"
+		}
+	]
+}

@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ae2things:disk_drive_16k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2things:disk_drive_1k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2things:disk_drive_256k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2things:disk_drive_4k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2things:disk_drive_64k"
+		},
+		{
+			"weight": 1.0,
+			"key": "ae2things:disk_housing"
+		}
+	]
+}

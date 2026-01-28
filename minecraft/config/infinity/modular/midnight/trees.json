@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:giant_glob_fungus",
+			"data": {
+				"Type": "tree"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:malevolent_tree",
+			"data": {
+				"Type": "tree"
+			}
+		}
+	]
+}

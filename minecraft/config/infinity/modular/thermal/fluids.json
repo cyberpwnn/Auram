@@ -1,0 +1,95 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:creosote"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:glowstone"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:heavy_oil"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:latex"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:light_oil"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:refined_fuel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:resin"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:sap"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:syrup"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "thermal:tree_oil"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:crude_oil_fluid",
+			"data": {
+				"fluidName": "thermal:crude_oil"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:ender_fluid",
+			"data": {
+				"fluidName": "thermal:ender"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "thermal:redstone_fluid",
+			"data": {
+				"fluidName": "thermal:redstone"
+			}
+		}
+	]
+}

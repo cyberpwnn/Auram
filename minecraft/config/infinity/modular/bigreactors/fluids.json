@@ -1,0 +1,74 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bigreactors:blutonium_fluid",
+			"data": {
+				"fluidName": "bigreactors:blutonium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cryomisi_fluid",
+			"data": {
+				"fluidName": "bigreactors:cryomisi"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cyanite_fluid",
+			"data": {
+				"fluidName": "bigreactors:cyanite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:magentite_fluid",
+			"data": {
+				"fluidName": "bigreactors:magentite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:redfrigium_fluid",
+			"data": {
+				"fluidName": "bigreactors:redfrigium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:rossinite_fluid",
+			"data": {
+				"fluidName": "bigreactors:rossinite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:steam",
+			"data": {
+				"fluidName": "bigreactors:steam"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:tangerium_fluid",
+			"data": {
+				"fluidName": "bigreactors:tangerium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:verderium_fluid",
+			"data": {
+				"fluidName": "bigreactors:verderium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorium_fluid",
+			"data": {
+				"fluidName": "bigreactors:yellorium"
+			}
+		}
+	]
+}

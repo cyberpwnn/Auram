@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:ambient_spore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:furnace_flame"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shroom_spore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:sporch_bogshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:sporch_dewshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:sporch_nightshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:sporch_viridshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:spore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tendril_pollen"
+		}
+	]
+}

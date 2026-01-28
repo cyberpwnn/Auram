@@ -1,0 +1,22 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:pillagerfriend",
+			"data": {
+				"Instant": false,
+				"Color": -10066330,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:witheredhearteffect",
+			"data": {
+				"Instant": false,
+				"Color": -16777216,
+				"Category": "neutral"
+			}
+		}
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deep_aether:moa_bonus_jumps",
+			"data": {
+				"Instant": false,
+				"Color": 5031241,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:valkyrie_valor",
+			"data": {
+				"Instant": false,
+				"Color": 25525551,
+				"Category": "beneficial"
+			}
+		}
+	]
+}

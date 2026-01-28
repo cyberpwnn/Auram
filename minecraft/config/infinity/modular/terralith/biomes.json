@@ -1,0 +1,697 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "terralith:alpha_islands",
+			"data": {
+				"Color": 7929657
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:alpha_islands_winter",
+			"data": {
+				"Color": 7929657
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:alpine_grove",
+			"data": {
+				"Color": -10444421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:alpine_highlands",
+			"data": {
+				"Color": -8346794
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:amethyst_canyon",
+			"data": {
+				"Color": 13150207
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:amethyst_rainforest",
+			"data": {
+				"Color": 13150207
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:ancient_sands",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:arid_highlands",
+			"data": {
+				"Color": -6314202
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:ashen_savanna",
+			"data": {
+				"Color": 12763305
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:basalt_cliffs",
+			"data": {
+				"Color": -8739505
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:birch_taiga",
+			"data": {
+				"Color": 15971383
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:blooming_plateau",
+			"data": {
+				"Color": -10245816
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:blooming_valley",
+			"data": {
+				"Color": -10899920
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:brushland",
+			"data": {
+				"Color": -7231198
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:bryce_canyon",
+			"data": {
+				"Color": 10387789
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:caldera",
+			"data": {
+				"Color": -10049458
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/andesite_caves",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/crystal_caves",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/deep_caves",
+			"data": {
+				"Color": -8542650
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/desert_caves",
+			"data": {
+				"Color": -8934609
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/diorite_caves",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/frostfire_caves",
+			"data": {
+				"Color": -8934609
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/fungal_caves",
+			"data": {
+				"Color": 10058843
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/granite_caves",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/ice_caves",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/infested_caves",
+			"data": {
+				"Color": 12304324
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/mantle_caves",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/thermal_caves",
+			"data": {
+				"Color": -8934609
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/tuff_caves",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cave/underground_jungle",
+			"data": {
+				"Color": 8896601
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cloud_forest",
+			"data": {
+				"Color": 10863260
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:cold_shrubland",
+			"data": {
+				"Color": 12162160
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:desert_canyon",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:desert_oasis",
+			"data": {
+				"Color": 5157688
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:desert_spires",
+			"data": {
+				"Color": 5157688
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:emerald_peaks",
+			"data": {
+				"Color": 8887727
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:forested_highlands",
+			"data": {
+				"Color": 15488072
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:fractured_savanna",
+			"data": {
+				"Color": 10387789
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:frozen_cliffs",
+			"data": {
+				"Color": -10444421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:glacial_chasm",
+			"data": {
+				"Color": -10444421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:granite_cliffs",
+			"data": {
+				"Color": -8936360
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:gravel_beach",
+			"data": {
+				"Color": -8934609
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:gravel_desert",
+			"data": {
+				"Color": -9985168
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:haze_mountain",
+			"data": {
+				"Color": 10792816
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:highlands",
+			"data": {
+				"Color": -9198249
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:hot_shrubland",
+			"data": {
+				"Color": 12166272
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:ice_marsh",
+			"data": {
+				"Color": 10387789
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:jungle_mountains",
+			"data": {
+				"Color": 7451654
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:lavender_forest",
+			"data": {
+				"Color": 13154303
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:lavender_valley",
+			"data": {
+				"Color": 13154303
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:lush_desert",
+			"data": {
+				"Color": 8611905
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:lush_valley",
+			"data": {
+				"Color": 15971383
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mirage_isles",
+			"data": {
+				"Color": 6809288
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:moonlight_grove",
+			"data": {
+				"Color": 8177813
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:moonlight_valley",
+			"data": {
+				"Color": 8177813
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:mountain_steppe",
+			"data": {
+				"Color": -9263785
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:orchid_swamp",
+			"data": {
+				"Color": 6065735
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:painted_mountains",
+			"data": {
+				"Color": -8213474
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:red_oasis",
+			"data": {
+				"Color": 5157688
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rocky_jungle",
+			"data": {
+				"Color": 7451654
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rocky_mountains",
+			"data": {
+				"Color": -9264287
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:rocky_shrubland",
+			"data": {
+				"Color": 12162160
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura_grove",
+			"data": {
+				"Color": 16755660
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sakura_valley",
+			"data": {
+				"Color": 16764123
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:sandstone_valley",
+			"data": {
+				"Color": 5157688
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna_badlands",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:savanna_slopes",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:scarlet_mountains",
+			"data": {
+				"Color": -9985421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shield",
+			"data": {
+				"Color": 15971383
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shield_clearing",
+			"data": {
+				"Color": -8412326
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:shrubland",
+			"data": {
+				"Color": 12162160
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:siberian_grove",
+			"data": {
+				"Color": 15435072
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:siberian_taiga",
+			"data": {
+				"Color": 15435072
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands",
+			"data": {
+				"Color": 16099361
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands_autumn",
+			"data": {
+				"Color": 16099361
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands_spring",
+			"data": {
+				"Color": 16755660
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands_summer",
+			"data": {
+				"Color": 11856974
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:skylands_winter",
+			"data": {
+				"Color": 8887727
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy_badlands",
+			"data": {
+				"Color": -10444421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy_cherry_grove",
+			"data": {
+				"Color": 11983713
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy_maple_forest",
+			"data": {
+				"Color": 15488072
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:snowy_shield",
+			"data": {
+				"Color": 15971383
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:steppe",
+			"data": {
+				"Color": -8412326
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:stony_spires",
+			"data": {
+				"Color": -8411076
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:temperate_highlands",
+			"data": {
+				"Color": 15494711
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:tropical_jungle",
+			"data": {
+				"Color": 11856974
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:valley_clearing",
+			"data": {
+				"Color": -8412326
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:volcanic_crater",
+			"data": {
+				"Color": 12763305
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:volcanic_peaks",
+			"data": {
+				"Color": 12763305
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:warm_river",
+			"data": {
+				"Color": -9328819
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:warped_mesa",
+			"data": {
+				"Color": 4492260
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:white_cliffs",
+			"data": {
+				"Color": -8936360
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:white_mesa",
+			"data": {
+				"Color": 10387789
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:windswept_spires",
+			"data": {
+				"Color": -9591957
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:wintry_forest",
+			"data": {
+				"Color": -10444421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:wintry_lowlands",
+			"data": {
+				"Color": -10444421
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yellowstone",
+			"data": {
+				"Color": -9919388
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yosemite_cliffs",
+			"data": {
+				"Color": -9984425
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "terralith:yosemite_lowlands",
+			"data": {
+				"Color": 5276209
+			}
+		}
+	]
+}

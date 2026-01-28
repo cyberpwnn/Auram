@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ironchest:copper_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:crystal_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:diamond_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:dirt_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:gold_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:iron_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:obsidian_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_copper_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_crystal_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_diamond_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_dirt_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_gold_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_iron_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "ironchest:trapped_obsidian_chest"
+		}
+	]
+}

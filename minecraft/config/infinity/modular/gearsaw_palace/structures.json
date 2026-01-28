@@ -1,0 +1,32 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "gearsaw_palace:aurora_palace",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "none",
+				"spawn_overrides": {
+					"monster": {
+						"bounding_box": "piece",
+						"spawns": [
+							{
+								"type": "twilightforest:snow_guardian",
+								"weight": 10,
+								"minCount": 1,
+								"maxCount": 2
+							},
+							{
+								"type": "twilightforest:stable_ice_core",
+								"weight": 10,
+								"minCount": 1,
+								"maxCount": 2
+							}
+						]
+					}
+				},
+				"id": "gearsaw_palace:aurora_palace"
+			}
+		}
+	]
+}

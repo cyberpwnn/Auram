@@ -1,0 +1,796 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "malum:a_soul_shatters"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aerial_magic_swooshes"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:aesthetica"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:alchemical_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:alteration_plinth_alters"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_codex_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_codex_opened"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_entry_closed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_entry_opened"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_page_flipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_sweetener_evil"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_sweetener_normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_transition_evil"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcana_transition_normal"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_charcoal_block_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_charcoal_block_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_charcoal_block_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_charcoal_block_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_elegy"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_bricks_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_bricks_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_bricks_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_bricks_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_rock_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:arcane_whispers"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:augment_applied"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:augment_removed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:auric_flame_motif"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_block_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_block_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_block_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_block_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_ore_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blazing_quartz_ore_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blight_reacts"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:blight_reacts_faintly"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliance_block_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliance_block_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliance_block_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:brilliance_block_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:calcified_blight_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:calcified_blight_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:calcified_blight_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:calcified_blight_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:catalyst_lobber_fired"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:catalyst_lobber_locked"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:catalyst_lobber_primed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:catalyst_lobber_unlocked"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cloth_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:completed_ritual_ambience"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:concentrated_gluttony_drink"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cthonic_gold_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:cthonic_gold_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:deepslate_soulstone_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:deepslate_soulstone_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:deepslate_soulstone_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:deepslate_soulstone_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:draining_motif"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:echoing_ring_absorbs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:edge_of_deliverance_cuts"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:edge_of_deliverance_sweeps"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ether_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ether_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:flesh_ring_absorbs"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gilded_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:gruesome_ring_feeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hallowed_gold_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hallowed_gold_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hallowed_gold_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hallowed_gold_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hidden_blade_charged"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hidden_blade_disrupted"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hidden_blade_primed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hidden_blade_unleashed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:hungry_belt_feeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:impetus_takes_damage"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:malignant_metal_motif"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:metallic_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ornate_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:pedestal_item_inserted"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:pedestal_item_picked_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:pedestal_spirit_inserted"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:pedestal_spirit_picked_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:quartz_cluster_block_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:quartz_cluster_block_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:quartz_cluster_block_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:quartz_cluster_block_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rejected_by_the_unknown"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:repair_pylon_begins_repairing"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:repair_pylon_eagerly_hums"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:repair_pylon_finishes_repairing"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_absorbs_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_absorbs_spirit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_beginning_ambience"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_begins"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_completed"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_evolution_ambience"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_evolves"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:ritual_forms"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rotten_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:rune_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_button_click_off"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_button_click_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_door_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_door_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_fence_gate_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_fence_gate_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_hanging_sign_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_hanging_sign_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_hanging_sign_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_hanging_sign_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_leaves_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_leaves_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_leaves_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_leaves_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_pressure_plate_click_off"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_pressure_plate_click_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_trapdoor_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runewood_trapdoor_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:runic_workbench_crafts"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_caught"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_cuts"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_spins_happily"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_sweeps"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_thrown"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:scythe_user_ascends"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:shielding_apparatus_shields"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:song_of_the_void"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_stained_steel_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_ward_charged"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_ward_damaged"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_ward_depleted"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soul_ward_grows"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulstone_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulstone_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulstone_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulstone_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_button_click_off"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_button_click_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_door_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_door_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_fence_gate_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_fence_gate_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_hanging_sign_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_hanging_sign_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_hanging_sign_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_hanging_sign_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_leaves_break"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_leaves_hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_leaves_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_leaves_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_place"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_pressure_plate_click_off"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_pressure_plate_click_on"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_step"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_trapdoor_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:soulwood_trapdoor_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_altar_absorbs_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_altar_completes_infusion"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_altar_infuses"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_altar_speeds_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_crucible_completes_focusing"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_crucible_focuses"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_engraved"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_mote_created"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_picked_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_rite_activated"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:spirit_rite_cancelled"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_charged"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_fires"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_powers_up"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_sizzles"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:staff_strikes"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:the_deep_beckons"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:the_heavens_sing"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:the_unknown_weeps"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:the_void_heart_beats"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:totem_charges"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tuning_fork_tinkers"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:tyrving_slashes_twice"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_eats_gunk"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_transmutation"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:void_trinket_equipped"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:voracious_ring_feeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:warping_engine_reverberates"
+		},
+		{
+			"weight": 1.0,
+			"key": "malum:weight_of_worlds_cuts"
+		}
+	]
+}

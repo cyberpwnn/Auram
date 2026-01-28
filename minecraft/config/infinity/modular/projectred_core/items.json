@@ -1,0 +1,216 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projectred_core:anode"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:black_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:blue_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:boule"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:brown_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:bundled_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:cathode"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:conductive_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:copper_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:cyan_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:draw_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:electrotine_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:electrotine_generator"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:electrotine_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:electrotine_iron_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:electrotine_silicon"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:electrotine_silicon_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:energized_silicon"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:energized_silicon_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:glow_silicon_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:gold_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:gray_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:green_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:infused_silicon"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:iron_coil"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:light_blue_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:light_gray_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:lime_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:magenta_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:motor"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:multimeter"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:orange_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:peridot"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:pink_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:platformed_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:pointer"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:purple_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:red_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:red_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:red_iron_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:red_silicon_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:ruby"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:sail"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:sand_coal_comp"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:sapphire"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:screwdriver"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:silicon"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:silicon_chip"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:white_illumar"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:wired_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:woven_cloth"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_core:yellow_illumar"
+		}
+	]
+}

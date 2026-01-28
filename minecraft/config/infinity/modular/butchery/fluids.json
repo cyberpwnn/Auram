@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:blood",
+			"data": {
+				"fluidName": "butchery:blood"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:infected_blood",
+			"data": {
+				"fluidName": "butchery:infected_blood"
+			}
+		}
+	]
+}

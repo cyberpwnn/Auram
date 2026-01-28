@@ -1,0 +1,31 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "aether_redux:adrenal_fatigue",
+			"data": {
+				"Instant": false,
+				"Color": 5517373,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether_redux:adrenaline_rush",
+			"data": {
+				"Instant": false,
+				"Color": 9327186,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether_redux:blightward",
+			"data": {
+				"Instant": false,
+				"Color": 16773472,
+				"Category": "beneficial"
+			}
+		}
+	]
+}

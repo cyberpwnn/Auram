@@ -1,0 +1,72 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bobber_bait"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bobber_land_lava"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bobber_note_catch"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bottle_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_death"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_flop"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_mount_add_item"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_mount_broken"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_mount_placed"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:fish_mount_removed"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:jellyfish_collide"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:jellyfish_flop"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tackle_box_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tackle_box_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:worm_farm_empty"
+		}
+	]
+}

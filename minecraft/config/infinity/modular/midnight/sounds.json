@@ -1,0 +1,340 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:ambient.caverns.loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ambient.fungal_caverns.loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ambient.greater_caverns.loop"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ambient.surface.howling"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.crystal.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.crystal.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.crystal.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.crystal.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.crystal.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.jewel.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.jewel.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.jewel.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.jewel.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.jewel.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.miasma.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.mud.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.mud.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.mud.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.mud.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.mud.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.nest_egg.crack"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.peat.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.peat.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.peat.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.peat.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.peat.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.awake"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.fall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.pick"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.place"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.sleep"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:block.unstable_bush.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.bladeshroom_cap.hit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.bladeshroom_cap.shoot"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.crystal_bug.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.crystal_bug.flying"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.crystal_bug.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.geode.break"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.geode.throw"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.hunter.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.hunter.flying"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.hunter.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightshade.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightshade.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightshade.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightshade.scream"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightstag.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightstag.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightstag.eat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightstag.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nightstag.step"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nova.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nova.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.nova.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rift.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rift.emergence_impact"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rift.emergence_linger"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rift.unstable"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rifter.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rifter.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.rifter.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.slink.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.slink.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.slink.grab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.slink.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.slink.sniffing"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.slink.teleport"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.snapper.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.snapper.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.stinger.ambient"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.stinger.death"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.stinger.hurt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder1_high"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder1_low"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder1_mid"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder2_high"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder2_low"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder2_mid"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder3_high"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder3_low"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:entity.umbra_lightning.thunder3_mid"
+		}
+	]
+}

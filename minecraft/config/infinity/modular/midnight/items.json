@@ -1,0 +1,1648 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:archaic_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:archaic_glass_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:archaic_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:archaic_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bladeshroom_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bladeshroom_spores"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloodstem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_brick_slab_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bloomcrystal_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:blue_unstable_fruit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_sporch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_spore_bomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogshroom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:bogweed"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:chiseled_polished_nightstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:coarse_night_dirt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cooked_stag_flank"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cooked_stinger_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cooked_suavis"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:corrupted_pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cracked_nightstone_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cracked_nightstone_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:crystal_bug_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:crystal_flower"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:crystalotus"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cut_bloomcrystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cut_reed_thatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:cut_rouxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_bow"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_pearl"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_pearl_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_pearl_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_stick"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_chest_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dark_willow_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dead_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:decayed_wood_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:deceitful_algae"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:deceitful_mud"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:deceitful_peat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:deceitful_snapper_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_sporch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_spore_bomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dewshroom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:dragons_nest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_arrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ebonite_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:fingered_grass"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:flowering_dewshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:flowering_moonshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:flowering_nightshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:flowering_viridshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:geode"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ghost_plant"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ghost_plant_leaf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:ghost_plant_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_fungus"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_fungus_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_fungus_hand"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_fungus_hyphae"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_fungus_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glob_fungus_thatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:glowing_malignant_plant_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:grimlock"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:hanging_dark_willow_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:hunter_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:infested_glob_fungus_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:lime_unstable_fruit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:lumen_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:malignant_plant_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:mangledrake"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_chest_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:manglewood_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:mistshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:moonshroom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:music_disc_func_71027_c"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_bladeloop"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nagrilite_weighted_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_bedrock"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_dirt"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_grass"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_grass_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_mycelium"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:night_reed"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshade_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_sporch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_spore_bomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightshroom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstag_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_furnace"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_tile_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_tile_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_tile_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_tiles"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nightstone_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:nova_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_bloomcrystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_bloomcrystal_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_bloomcrystal_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_bloomcrystal_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_nightstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_nightstone_pillar"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_nightstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_nightstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_rouxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_rouxe_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_rouxe_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:polished_rouxe_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:raw_nagrilite"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:raw_nagrilite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:raw_stag_flank"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:raw_suavis"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:raw_tenebrum"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:raw_tenebrum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:reed_thatch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rendium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rendium_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rendium_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rendium_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rift_placer"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rifter_flesh"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rifter_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_clump"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_shears"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rockshroom_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_rock"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:rouxe_shard"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:runebush"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_bookshelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_chest_boat"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_sapling"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:shadowroot_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:slink_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stinger_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stinger_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:strange_glass"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:strange_glass_pane"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:strange_sand"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_dark_willow_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_dark_willow_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_decayed_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_decayed_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_manglewood_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_manglewood_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_shadowroot_log"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:stripped_shadowroot_wood"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:suavis"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_bogshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_dewshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_lumen_bud"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_mistshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_moonshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_night_grass"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_nightshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tall_viridshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:teal_unstable_fruit"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tendrilweed"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_smithing_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenebrum_weighted_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:tenevixen_spawn_egg"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_brick_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_brick_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_bricks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:trenchstone_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:unstable_seeds"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:violeaf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_button"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_cap"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_chest"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_crafting_table"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_door"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_hanging_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_ladder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_planks"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_powder"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_pressure_plate"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_roots"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_shelf"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_sign"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_sporch"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_spore_bomb"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_stem"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_stem_cache"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:viridshroom_trapdoor"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:virilux"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:virilux_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:virilux_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:virilux_smithing_template"
+		}
+	]
+}

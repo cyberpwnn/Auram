@@ -1,0 +1,7 @@
+#Change Compass Purification to allow use despite range
+allowCompassChange = true
+#Whether or not greater teleport should interact with you inventory
+allowTeleportSplat = false
+#Whether or not Inventory Iota II should be allowed
+allowInventoryII = true
+

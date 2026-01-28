@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "windmill:windmill",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "windmill:windmill"
+			}
+		}
+	]
+}

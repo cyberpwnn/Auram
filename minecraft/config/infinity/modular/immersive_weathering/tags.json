@@ -1,0 +1,216 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:bars"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:bubbles_ascending"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:bubbles_descending"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:charred_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:clean_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:copper"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:crack_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:crackable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:cracked"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:dirt_base_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:double_sandable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:double_snowable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:dune_grass_patch_replaceable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:exposed_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:fertile_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:fire_replaceable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:flowerable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:flowery"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:grass_growth_replaceable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:grass_spread_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:grassy_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:ice"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:icicle_replaceable_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:leaf_pile_replaceable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:leaf_piles"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:leaves_leafy"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:leaves_pine"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:magma_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:moss_source"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:mossable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:mossy"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:quartz_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:raw_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:rustable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:rusted_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:sandable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:sandy"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:small_mushrooms"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:small_plants"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:smokey_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:snowable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:snowy"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:soil_clay_crops"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:soil_loam_crops"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:soil_sand_crops"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:soil_silt_crops"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:stripped_logs"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:unscrapeable"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:vanilla_leaves"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:wart_grow_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:waxed_blocks"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:weathered_iron"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:weeds_replaceable"
+		}
+	]
+}

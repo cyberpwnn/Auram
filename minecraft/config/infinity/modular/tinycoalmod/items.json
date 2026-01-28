@@ -1,0 +1,16 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tinycoalmod:charcoal_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinycoalmod:tiny_charcoal"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinycoalmod:tiny_coal"
+		}
+	]
+}

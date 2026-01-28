@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "crystalcraft_unlimited_java:fortune"
+		},
+		{
+			"weight": 1.0,
+			"key": "crystalcraft_unlimited_java:silktouch"
+		}
+	]
+}

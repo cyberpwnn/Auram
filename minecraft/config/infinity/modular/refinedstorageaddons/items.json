@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "refinedstorageaddons:creative_wireless_crafting_grid"
+		},
+		{
+			"weight": 1.0,
+			"key": "refinedstorageaddons:wireless_crafting_grid"
+		}
+	]
+}

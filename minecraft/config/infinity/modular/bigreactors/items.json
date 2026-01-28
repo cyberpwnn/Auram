@@ -1,0 +1,504 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bigreactors:anglesite_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:anglesite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorcasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorchargingportfe"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorcontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorcontrolrod"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorfuelrod"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorpowertapfe_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorpowertapfe_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorredstoneport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_reactorsolidaccessport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinecasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinechargingportfe"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinecontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinecreativesteamgenerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinefluidport_forge_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinefluidport_forge_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbineglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinepowertapfe_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinepowertapfe_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbineredstoneport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinerotorbearing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinerotorblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:basic_turbinerotorshaft"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:benitoite_crystal"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:benitoite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:blutonium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:blutonium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:blutonium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:blutonium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:blutonium_nugget"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cryomisi_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cyanite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cyanite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cyanite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:cyanite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:deepslate_yellorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizercasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizercell"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizerchargingport_fe"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizercomputerport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizercontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizerpowerport_fe"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizerpowerport_fe_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energizerstatus"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:energycore"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizercasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizercontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizerfluidinjector"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizerglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizeroutputport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizerpowerport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:fluidizersolidinjector"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:graphite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:graphite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:graphite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:inanite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:inanite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:inanite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:insanite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:insanite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:insanite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:ludicrite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:ludicrite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:ludicrite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:magentite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:magentite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:magentite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:magentite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:raw_yellorium"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:raw_yellorium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:redfrigium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorcasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorchargingportfe"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorcomputerport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorcontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorcontrolrod"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorcreativewatergenerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorfluidaccessport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorfluidport_forge_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorfluidport_forge_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorfluidport_mekanism_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorfuelrod"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorpowertapfe_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorpowertapfe_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorredstoneport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_reactorsolidaccessport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinecasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinechargingportfe"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinecomputerport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinecontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinecreativesteamgenerator"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinefluidport_forge_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinefluidport_forge_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbineglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinepowertapfe_active"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinepowertapfe_passive"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbineredstoneport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinerotorbearing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinerotorblade"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reinforced_turbinerotorshaft"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorcasing"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorcollector"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorcontroller"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorfluidinjector"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorglass"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessoroutputport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorpowerport"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:reprocessorwasteinjector"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:ridiculite_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:ridiculite_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:ridiculite_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:rossinite_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:steam_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:tangerium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:verderium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:wrench"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorite_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorium_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorium_bucket"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorium_dust"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorium_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "bigreactors:yellorium_nugget"
+		}
+	]
+}

@@ -1,0 +1,18 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "dimdoors:eternal_fluid",
+			"data": {
+				"fluidName": "dimdoors:eternal_fluid"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "dimdoors:leak",
+			"data": {
+				"fluidName": "dimdoors:leak"
+			}
+		}
+	]
+}

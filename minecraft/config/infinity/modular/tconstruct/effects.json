@@ -1,0 +1,220 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tconstruct:antigravity",
+			"data": {
+				"Instant": false,
+				"Color": 16750349,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:bleeding",
+			"data": {
+				"Instant": false,
+				"Color": 11010048,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:bouncy",
+			"data": {
+				"Instant": false,
+				"Color": 7449699,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:calcified",
+			"data": {
+				"Instant": false,
+				"Color": -1,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:carry",
+			"data": {
+				"Instant": false,
+				"Color": 16777215,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:conductive",
+			"data": {
+				"Instant": false,
+				"Color": 15914240,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:double_jump",
+			"data": {
+				"Instant": false,
+				"Color": 11115399,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:enderference",
+			"data": {
+				"Instant": false,
+				"Color": 13860095,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:experienced",
+			"data": {
+				"Instant": false,
+				"Color": 8570995,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:fireball_cooldown",
+			"data": {
+				"Instant": false,
+				"Color": 16553472,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:insatiable_armor",
+			"data": {
+				"Instant": false,
+				"Color": 9593292,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:insatiable_melee",
+			"data": {
+				"Instant": false,
+				"Color": 9593292,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:insatiable_ranged",
+			"data": {
+				"Instant": false,
+				"Color": 9593292,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:magnetic",
+			"data": {
+				"Instant": false,
+				"Color": 7471104,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:momentum_armor",
+			"data": {
+				"Instant": false,
+				"Color": 6310251,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:momentum_harvest",
+			"data": {
+				"Instant": false,
+				"Color": 6310251,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:momentum_ranged",
+			"data": {
+				"Instant": false,
+				"Color": 6310251,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:pierce",
+			"data": {
+				"Instant": false,
+				"Color": 13751162,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:repulsive",
+			"data": {
+				"Instant": false,
+				"Color": 7500402,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:returning",
+			"data": {
+				"Instant": false,
+				"Color": 11087359,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:ricochet",
+			"data": {
+				"Instant": false,
+				"Color": 117709,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:self_destructing",
+			"data": {
+				"Instant": false,
+				"Color": 5886538,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:teleport_cooldown",
+			"data": {
+				"Instant": false,
+				"Color": 13369594,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "tconstruct:venom",
+			"data": {
+				"Instant": false,
+				"Color": 10654558,
+				"Category": "harmful"
+			}
+		}
+	]
+}

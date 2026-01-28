@@ -1,0 +1,52 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "butchery:acid"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:cha_ching"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:coin"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:crumbling"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:deflate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drawer_close"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:drawer_open"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:hacksaw"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:inflate"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:rope"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:water_freezing"
+		},
+		{
+			"weight": 1.0,
+			"key": "butchery:wishbone_break"
+		}
+	]
+}

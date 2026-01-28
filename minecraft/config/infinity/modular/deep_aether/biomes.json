@@ -1,0 +1,67 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "deep_aether:aerglow_forest",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:aerlavender_fields",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:blue_aerglow_forest",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:cloud",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:golden_grove",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:golden_heights",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:luminescent_forest",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:mystic_aerglow_forest",
+			"data": {
+				"Color": 11665355
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "deep_aether:yagroot_swamp",
+			"data": {
+				"Color": 11665355
+			}
+		}
+	]
+}

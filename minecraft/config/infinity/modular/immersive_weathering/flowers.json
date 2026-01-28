@@ -1,0 +1,12 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:azalea_flower_pile"
+		},
+		{
+			"weight": 1.0,
+			"key": "immersive_weathering:flowering_azalea_leaf_pile"
+		}
+	]
+}

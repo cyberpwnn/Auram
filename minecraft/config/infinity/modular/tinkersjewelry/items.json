@@ -1,0 +1,64 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:book"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:calcite"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:eudialyte"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:fire_opal"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:gem"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:malachite"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:merlinite"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:milky_quartz"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:plain_ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:plain_ring_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:plain_ring_red_sand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:plain_ring_sand_cast"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:prehnite"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:ring"
+		},
+		{
+			"weight": 1.0,
+			"key": "tinkersjewelry:rubellite"
+		}
+	]
+}

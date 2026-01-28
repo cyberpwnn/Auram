@@ -1,0 +1,96 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "tarotcards:death"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:judgement"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:justice"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:strength"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:tarot_deck"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:temperance"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_chariot"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_devil"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_emperor"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_empress"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_fool"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_hanged_man"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_hermit"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_hierophant"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_high_priestess"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_lovers"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_magician"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_moon"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_star"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_sun"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_tower"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:the_world"
+		},
+		{
+			"weight": 1.0,
+			"key": "tarotcards:wheel_of_fortune"
+		}
+	]
+}

@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "incendium:ash_barrens",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:infernal_dunes",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:inverted_forest",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:quartz_flats",
+			"data": {
+				"Color": 7798551
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:toxic_heap",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:volcanic_deltas",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:weeping_valley",
+			"data": {
+				"Color": -5331926
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "incendium:withered_forest",
+			"data": {
+				"Color": 8357004
+			}
+		}
+	]
+}

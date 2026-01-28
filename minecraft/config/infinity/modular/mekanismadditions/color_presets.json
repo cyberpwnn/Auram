@@ -1,0 +1,60 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_fence"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_fence_gate"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_glow"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_glow_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_glow_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_road"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_transparent"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_transparent_slab"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_plastic_transparent_stairs"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_reinforced_plastic"
+		},
+		{
+			"weight": 1.0,
+			"key": "mekanismadditions:$_slick_plastic"
+		}
+	]
+}

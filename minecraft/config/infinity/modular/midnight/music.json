@@ -1,0 +1,28 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "midnight:music.ambient.cubensis"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:music.ambient.stegano"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:music.ambient.ultraviolet"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:music.crystals"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:music.dark_willow"
+		},
+		{
+			"weight": 1.0,
+			"key": "midnight:music.func_71027_c"
+		}
+	]
+}

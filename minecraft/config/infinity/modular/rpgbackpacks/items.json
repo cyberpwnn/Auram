@@ -1,0 +1,24 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "rpgbackpacks:diamond_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "rpgbackpacks:golden_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "rpgbackpacks:iron_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "rpgbackpacks:leather_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "rpgbackpacks:netherite_backpack"
+		}
+	]
+}

@@ -1,0 +1,15 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "underground_villages:underground_village",
+			"data": {
+				"step": "underground_decoration",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "underground_villages:underground_village"
+			}
+		}
+	]
+}

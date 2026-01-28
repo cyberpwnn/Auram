@@ -1,0 +1,1 @@
+craftingTable.addShapeless("fixcypress",<item:bewitchment:cypress_sapling>, [<item:regions_unexplored:larch_sapling>, <item:bewitchment:aconite_seeds>]);

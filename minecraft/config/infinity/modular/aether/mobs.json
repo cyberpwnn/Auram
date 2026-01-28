@@ -1,0 +1,144 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "aether:aechor_plant",
+			"data": {
+				"Category": "aether_surface_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:aerbunny",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:aerwhale",
+			"data": {
+				"Category": "aether_aerwhale"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:blue_swet",
+			"data": {
+				"Category": "aether_surface_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:cockatrice",
+			"data": {
+				"Category": "aether_darkness_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:evil_whirlwind",
+			"data": {
+				"Category": "aether_surface_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:fire_minion",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:flying_cow",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:golden_swet",
+			"data": {
+				"Category": "aether_surface_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:mimic",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:moa",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:phyg",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:sentry",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:sheepuff",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:slider",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:sun_spirit",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:valkyrie",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:valkyrie_queen",
+			"data": {
+				"Category": "monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:whirlwind",
+			"data": {
+				"Category": "aether_surface_monster"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aether:zephyr",
+			"data": {
+				"Category": "aether_sky_monster"
+			}
+		}
+	]
+}

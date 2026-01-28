@@ -1,0 +1,228 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "aquaculture:arapaima",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:arrau_turtle",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_cod",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_halibut",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:atlantic_herring",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bayad",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:blackfish",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:bluegill",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:boulti",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:box_turtle",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:brown_shrooma",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:brown_trout",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:capitaine",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:carp",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:catfish",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:gar",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:jellyfish",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:minnow",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:muskellunge",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pacific_halibut",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:perch",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pink_salmon",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:piranha",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:pollock",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:rainbow_trout",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:red_grouper",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:red_shrooma",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:smallmouth_bass",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:starshell_turtle",
+			"data": {
+				"Category": "creature"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:synodontis",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tambaqui",
+			"data": {
+				"Category": "water_ambient"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "aquaculture:tuna",
+			"data": {
+				"Category": "water_ambient"
+			}
+		}
+	]
+}

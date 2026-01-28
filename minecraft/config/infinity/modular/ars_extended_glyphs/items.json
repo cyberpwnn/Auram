@@ -1,0 +1,148 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:abjuration_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:air_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:air_tablet_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:amulet_of_greater_mana_power"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:blank_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:blank_tablet_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:conjuration_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:earth_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:earth_tablet_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:fire_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:fire_tablet_fragment"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_above"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_absorption"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_atrophy"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_burrow"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_closestplayer"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_conjurelava"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_extreme"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_fertility"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_herobrine"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_repair"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_returnhome"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_saturate"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_sethome"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_shield"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_summonhostile"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_summonwildlife"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:glyph_transmute"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:magestone"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:manipulation_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:passive_caster"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:refined_magestone"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:ring_of_greatest_discount"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:ritual_difficulty_increase"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:water_tablet"
+		},
+		{
+			"weight": 1.0,
+			"key": "ars_extended_glyphs:water_tablet_fragment"
+		}
+	]
+}

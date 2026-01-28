@@ -1,0 +1,25 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "cofh_core:experience"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "cofh_core:honey"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "minecraft:air",
+			"data": {
+				"fluidName": "cofh_core:potion"
+			}
+		}
+	]
+}

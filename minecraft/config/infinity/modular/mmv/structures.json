@@ -1,0 +1,26 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "mmv:village_jungle",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "mmv:village_jungle"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "mmv:village_swamp",
+			"data": {
+				"step": "surface_structures",
+				"terrain_adaptation": "beard_thin",
+				"spawn_overrides": {
+				},
+				"id": "mmv:village_swamp"
+			}
+		}
+	]
+}

@@ -1,0 +1,384 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:athame"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:basalt"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:basalt_brick"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:basalt_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:basalt_cobble"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:basalt_cobble_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:basalt_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:black_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:blue_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:brown_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:cyan_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:deepslate_electrotine_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:deepslate_peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:deepslate_ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:deepslate_sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:deepslate_silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:deepslate_tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:diamond_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:electrotine_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:electrotine_block_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:electrotine_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:gold_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:gold_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:gray_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:green_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:iron_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:light_blue_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:light_gray_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:lime_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:magenta_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:marble"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:marble_brick"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:marble_brick_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:marble_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:orange_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_block_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:peridot_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:pink_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:purple_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:raw_silver"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:raw_silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:raw_tin"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:raw_tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:red_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_block_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:ruby_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_axe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_block_wall"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_boots"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_chestplate"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_helmet"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_hoe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_leggings"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_pickaxe"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_saw"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_shovel"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:sapphire_sword"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:silver_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:silver_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:silver_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:stone_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:tin_block"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:tin_ingot"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:tin_ore"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:white_backpack"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:wood_sickle"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:wool_gin"
+		},
+		{
+			"weight": 1.0,
+			"key": "projectred_exploration:yellow_backpack"
+		}
+	]
+}

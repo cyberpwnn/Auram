@@ -1,0 +1,40 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "infinity:afterglow",
+			"data": {
+				"Instant": false,
+				"Color": 11171805,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity:iridescence",
+			"data": {
+				"Instant": false,
+				"Color": 16738047,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity:iridescent_cooldown",
+			"data": {
+				"Instant": false,
+				"Color": 8930440,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "infinity:iridescent_setup",
+			"data": {
+				"Instant": true,
+				"Color": 16711935,
+				"Category": "neutral"
+			}
+		}
+	]
+}

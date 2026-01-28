@@ -1,0 +1,949 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_alfsteel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_alfsteel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_aluminum",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_aluminum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ambrosium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ambrosium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_amethyst",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_amethyst"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_awakened_draconium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_awakened_draconium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_awakened_supremium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_awakened_supremium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_better_gold",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_better_gold"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_black_iron",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_black_iron"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_blaze",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_blaze"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_blutonium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_blutonium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_boron",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_boron"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_brass",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_brass"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_bronze",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_bronze"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_calorite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_calorite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_certus_quartz",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_certus_quartz"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_chorium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_chorium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_clay",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_clay"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_coal",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_coal"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_cobalt",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_cobalt"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_compressed_iron",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_compressed_iron"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_conductive_alloy",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_conductive_alloy"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_constantan",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_constantan"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_copper",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_copper"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_copper_alloy",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_copper_alloy"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_crystaltine",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_crystaltine"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_cyanite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_cyanite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_dark_steel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_dark_steel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_debris",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_debris"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_desh",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_desh"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_diamond",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_diamond"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_draconium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_draconium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_electrolyte",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_electrolyte"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_electrum",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_electrum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_elementium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_elementium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_emerald",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_emerald"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_end_steel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_end_steel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ender",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ender"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ender_ingot",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ender_ingot"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_enderium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_enderium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_energetic_alloy",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_energetic_alloy"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_enhanced_ender_ingot",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_enhanced_ender_ingot"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_enhanced_redstone_ingot",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_enhanced_redstone_ingot"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_fluix",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_fluix"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_flux",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_flux"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_gaiasteel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_gaiasteel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_glass",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_glass"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_glowstone",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_glowstone"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_gold",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_gold"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_graphite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_graphite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_gravitite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_gravitite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_hellforged",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_hellforged"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_hepatizon",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_hepatizon"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_iesnium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_iesnium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_imperium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_imperium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_inferium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_inferium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_infinity",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_infinity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_infused_iron",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_infused_iron"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_insanium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_insanium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_invar",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_invar"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_iridium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_iridium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_iron",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_iron"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_juperium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_juperium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_knightslime",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_knightslime"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_lapis",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_lapis"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_lead",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_lead"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_lightium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_lightium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_lithium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_lithium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ludicrite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ludicrite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_lumium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_lumium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_magnesium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_magnesium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_manasteel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_manasteel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_manganese",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_manganese"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_manyullyn",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_manyullyn"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_melodium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_melodium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_neptunium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_neptunium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_nether_star",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_nether_star"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_netherite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_netherite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_neutronium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_neutronium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_nickel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_nickel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_obsidian",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_obsidian"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_oratchalcum",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_oratchalcum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ornium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ornium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_osmium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_osmium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ostrum",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ostrum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_ouranium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_ouranium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_pewter",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_pewter"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_pig_iron",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_pig_iron"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_pink_slime",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_pink_slime"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_plaslitherite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_plaslitherite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_platinum",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_platinum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_plutonium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_plutonium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_prismalium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_prismalium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_prosperity",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_prosperity"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_prudentium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_prudentium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_pulsating_alloy",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_pulsating_alloy"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_quartz",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_quartz"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_queens_slime",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_queens_slime"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_radium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_radium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_redstone",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_redstone"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_redstone_alloy",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_redstone_alloy"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_redstone_ingot",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_redstone_ingot"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_refined_glowstone",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_refined_glowstone"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_refined_obsidian",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_refined_obsidian"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_refined_redstone",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_refined_redstone"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_rose_gold",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_rose_gold"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_saturlyte",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_saturlyte"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_sentrite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_sentrite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_signalum",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_signalum"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_silicon_bronze",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_silicon_bronze"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_silver",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_silver"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_skyjade",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_skyjade"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_slime",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_slime"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_slimesteel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_slimesteel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_soul",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_soul"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_soularium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_soularium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_soulium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_soulium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_soulsteel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_soulsteel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_steel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_steel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_stellarium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_stellarium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_stratus",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_stratus"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_supremium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_supremium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_tainted_gold",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_tainted_gold"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_terrasteel",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_terrasteel"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_tertium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_tertium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_the_ultimate",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_the_ultimate"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_thorium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_thorium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_tin",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_tin"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_titanium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_titanium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_tornium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_tornium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_tungsten",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_tungsten"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_uranium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_uranium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_veridium",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_veridium"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_vibrant_alloy",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_vibrant_alloy"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_zanite",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_zanite"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "evolvedmekanism:molten_zinc",
+			"data": {
+				"fluidName": "evolvedmekanism:molten_zinc"
+			}
+		}
+	]
+}

@@ -1,0 +1,148 @@
+{
+	"elements": [
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:bounce",
+			"data": {
+				"Instant": false,
+				"Color": 5766958,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:firefuse",
+			"data": {
+				"Instant": false,
+				"Color": -16776961,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:flight",
+			"data": {
+				"Instant": false,
+				"Color": 2350561,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:gravity",
+			"data": {
+				"Instant": false,
+				"Color": 8388736,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:grounded",
+			"data": {
+				"Instant": false,
+				"Color": 12223835,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:hard_cloak",
+			"data": {
+				"Instant": false,
+				"Color": 3938957,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:heavy_heart",
+			"data": {
+				"Instant": false,
+				"Color": 0,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:obsidian_cloak",
+			"data": {
+				"Instant": false,
+				"Color": 3938957,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:passivity",
+			"data": {
+				"Instant": false,
+				"Color": 16777215,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:plantleech",
+			"data": {
+				"Instant": false,
+				"Color": 16711935,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:sacrificallamb",
+			"data": {
+				"Instant": false,
+				"Color": 16777215,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:soft_fall",
+			"data": {
+				"Instant": false,
+				"Color": 4910553,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:soulfray",
+			"data": {
+				"Instant": false,
+				"Color": -1,
+				"Category": "harmful"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:soulsnare",
+			"data": {
+				"Instant": false,
+				"Color": 16777215,
+				"Category": "neutral"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:spectral_sight",
+			"data": {
+				"Instant": false,
+				"Color": 3127315,
+				"Category": "beneficial"
+			}
+		},
+		{
+			"weight": 1.0,
+			"key": "bloodmagic:suspended",
+			"data": {
+				"Instant": false,
+				"Color": 2350561,
+				"Category": "neutral"
+			}
+		}
+	]
+}
