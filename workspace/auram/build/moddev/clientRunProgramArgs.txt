@@ -9,7 +9,7 @@ MOD_DEV
 --assetIndex
 5
 --assetsDir
-/Users/cyberpwn/.mcreator/gradle/caches/neoformruntime/assets
+/Users/cyberpwn/.gradle/caches/neoformruntime/assets
 --gameDir
 .
 --fml.forgeVersion
