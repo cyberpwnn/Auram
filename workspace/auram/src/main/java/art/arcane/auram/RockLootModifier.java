@@ -43,7 +43,15 @@ public class RockLootModifier extends LootModifier {
 
         Item rockItem = ForgeRegistries.ITEMS.getValue(rockId);
 
-        int finalCount =  ThreadLocalRandom.current().nextInt(1, 5);
+        int boost = 0;
+        
+        // is deepslate
+        
+        if (ForgeRegistries.ITEMS.getKey(state.getBlock().asItem()).toString().contains("deepslate")) {
+            boost = 2;
+        } 
+        
+        int finalCount =  ThreadLocalRandom.current().nextInt(1+boost, 5+boost);
         ObjectArrayList<ItemStack> newLoot = new ObjectArrayList<>();
         while (finalCount > 0) {
             int stackSize = Math.min(finalCount, 64);

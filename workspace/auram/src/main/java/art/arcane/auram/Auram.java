@@ -42,7 +42,7 @@ public class Auram {
     public static final List<ResourceLocation> GENERATED_ROCKS = new ArrayList<>();
     public static final RegistryObject<RecipeSerializer<RockRecipe>> ROCK_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("rock_compression", () -> new SimpleCraftingRecipeSerializer<>(RockRecipe::new));
     public static final RegistryObject<CreativeModeTab> AURAM_TAB = CREATIVE_TABS.register("auram_tab", () -> CreativeModeTab.builder()
-            .title(Component.translatable("itemGroup.auram"))
+            .title(Component.literal("Auram"))
             .icon(() -> new ItemStack(ROCK.get()))
             .displayItems((params, output) -> {
                 for (Item item : ForgeRegistries.ITEMS) {
