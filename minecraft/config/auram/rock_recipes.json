@@ -1,0 +1,1358 @@
+{
+  "auram:crystalcraft_unlimited_java_deepslate_ametyst_rock": {
+    "drop": "crystalcraft_unlimited_java:amethyst",
+    "count": 1
+  },
+  "auram:projectred_exploration_deepslate_electrotine_rock": {
+    "drop": "projectred_core:electrotine_dust",
+    "count": 8
+  },
+  "auram:crystalcraft_unlimited_java_saphire_rock": {
+    "drop": "crystalcraft_unlimited_java:saphire",
+    "count": 1
+  },
+  "auram:mekanism_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_iolite_rock": {
+    "drop": "crystalcraft_unlimited_java:iolite",
+    "count": 1
+  },
+  "auram:deepslate_lapis_rock": {
+    "drop": "minecraft:lapis_lazuli",
+    "count": 9
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_aquamarine_rock": {
+    "drop": "crystalcraft_unlimited_java:aquamarine",
+    "count": 1
+  },
+  "auram:bewitchment_salt_rock": {
+    "drop": "bewitchment:salt",
+    "count": 2
+  },
+  "auram:crystalcraft_unlimited_java_smoky_quartz_rock": {
+    "drop": "crystalcraft_unlimited_java:smoky_quartz",
+    "count": 1
+  },
+  "auram:iron_rock": {
+    "drop": "minecraft:raw_iron",
+    "count": 1
+  },
+  "auram:thermal_deepslate_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:twilightforest_transformation_log_crock": {
+    "drop": "twilightforest:transformation_log",
+    "count": 1
+  },
+  "auram:projectred_exploration_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:projectred_exploration_deepslate_ruby_rock": {
+    "drop": "thermal:ruby",
+    "count": 2
+  },
+  "auram:deeperdarker_sculk_stone_iron_rock": {
+    "drop": "minecraft:raw_iron",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_jade_rock": {
+    "drop": "crystalcraft_unlimited_java:jade",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_pietersite_rock": {
+    "drop": "crystalcraft_unlimited_java:pietersite",
+    "count": 1
+  },
+  "auram:draconicevolution_end_draconium_rock": {
+    "drop": "draconicevolution:draconium_dust",
+    "count": 4
+  },
+  "auram:aether_redux_veridium_rock": {
+    "drop": "aether_redux:raw_veridium",
+    "count": 1
+  },
+  "auram:tconstruct_cobalt_rock": {
+    "drop": "tconstruct:raw_cobalt",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_sapphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 1
+  },
+  "auram:thermal_apatite_rock": {
+    "drop": "thermal:apatite",
+    "count": 9
+  },
+  "auram:emerald_rock": {
+    "drop": "minecraft:emerald",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_kunzite_rock": {
+    "drop": "crystalcraft_unlimited_java:kunzite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_iris_agate_rock": {
+    "drop": "crystalcraft_unlimited_java:iris_agate",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_cyan_emerald_rock": {
+    "drop": "crystalcraft_unlimited_java:cyan_emerald",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_hercynite_rock": {
+    "drop": "crystalcraft_unlimited_java:hercynite",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_diamond_rock": {
+    "drop": "minecraft:diamond",
+    "count": 1
+  },
+  "auram:deepslate_emerald_rock": {
+    "drop": "minecraft:emerald",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_pottasium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_potassium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_tourmaline_rock": {
+    "drop": "crystalcraft_unlimited_java:tourmaline",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_turquoise_rock": {
+    "drop": "crystalcraft_unlimited_java:turquoise",
+    "count": 1
+  },
+  "auram:bewitchment_deepslate_silver_rock": {
+    "drop": "bewitchment:raw_silver",
+    "count": 1
+  },
+  "auram:evolvedmekanism_shiverstone_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_sardonyx_rock": {
+    "drop": "crystalcraft_unlimited_java:sardonyx",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_tantalum_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_tantalum",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_brickerite_rock": {
+    "drop": "crystalcraft_unlimited_java:brickerite",
+    "count": 1
+  },
+  "auram:twilightforest_mining_log_crock": {
+    "drop": "twilightforest:mining_log",
+    "count": 1
+  },
+  "auram:thermal_ruby_rock": {
+    "drop": "thermal:ruby",
+    "count": 1
+  },
+  "auram:extendedcrafting_crafting_crock": {
+    "drop": "extendedcrafting:crafting_core",
+    "count": 1
+  },
+  "auram:deepslate_coal_rock": {
+    "drop": "minecraft:coal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_malachite_rock": {
+    "drop": "crystalcraft_unlimited_java:malachite",
+    "count": 1
+  },
+  "auram:thermal_deepslate_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:evolvedmekanism_end_stone_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_sapphire_rock": {
+    "drop": "crystalcraft_unlimited_java:saphire",
+    "count": 1
+  },
+  "auram:mekanism_deepslate_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_black_opal_rock": {
+    "drop": "crystalcraft_unlimited_java:black_opal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_grand_rock": {
+    "drop": "crystalcraft_unlimited_java:grandidierite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_opal_rock": {
+    "drop": "crystalcraft_unlimited_java:opal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_pyrite_rock": {
+    "drop": "crystalcraft_unlimited_java:pyrite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_maradonyx_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_maradonyx",
+    "count": 1
+  },
+  "auram:botania_floating_rockchid": {
+    "drop": "botania:floating_orechid",
+    "count": 1
+  },
+  "auram:deepslate_iron_rock": {
+    "drop": "minecraft:raw_iron",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:immersiveengineering_deepslate_rock_aluminum": {
+    "drop": "immersiveengineering:raw_aluminum",
+    "count": 1
+  },
+  "auram:malum_natural_quartz_rock": {
+    "drop": "malum:natural_quartz",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_quicksilver_rock": {
+    "drop": "crystalcraft_unlimited_java:quicksilver_ore",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_carnotite_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_carnotite",
+    "count": 1
+  },
+  "auram:evolvedmekanism_depthrock_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:evolvedmekanism_holystone_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:deepslate_diamond_rock": {
+    "drop": "minecraft:diamond",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_redstone_rock": {
+    "drop": "minecraft:redstone",
+    "count": 5
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_malachite_rock": {
+    "drop": "crystalcraft_unlimited_java:malachite",
+    "count": 1
+  },
+  "auram:midnight_ebonite_rock": {
+    "drop": "midnight:ebonite",
+    "count": 1
+  },
+  "auram:evolvedmekanism_holystone_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:botania_potted_rockchid": {
+    "drop": "minecraft:flower_pot",
+    "count": 1
+  },
+  "auram:aether_zanite_rock": {
+    "drop": "aether:zanite_gemstone",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_thorium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_thorium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_cinnabar_rock": {
+    "drop": "thermal:cinnabar",
+    "count": 1
+  },
+  "auram:draconicevolution_reactor_crock": {
+    "drop": "draconicevolution:reactor_core",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rhodonite_rock": {
+    "drop": "crystalcraft_unlimited_java:rhodonite",
+    "count": 1
+  },
+  "auram:thermal_deepslate_nickel_rock": {
+    "drop": "thermal:raw_nickel",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_chrysolite_rock": {
+    "drop": "crystalcraft_unlimited_java:chrysolite",
+    "count": 1
+  },
+  "auram:immersiveengineering_deepslate_rock_nickel": {
+    "drop": "thermal:raw_nickel",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_platinum_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_platinum",
+    "count": 1
+  },
+  "auram:evolvedmekanism_depthrock_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:evolvedmekanism_depthrock_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:projectred_exploration_deepslate_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_yellow_onyx_rock": {
+    "drop": "crystalcraft_unlimited_java:yellow_onyx",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_bismuth_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_bismuth",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_copper_rock": {
+    "drop": "minecraft:raw_copper",
+    "count": 5
+  },
+  "auram:crystalcraft_unlimited_java_bloodstone_rock": {
+    "drop": "crystalcraft_unlimited_java:bloodstone",
+    "count": 4
+  },
+  "auram:evolvedmekanism_holystone_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_matrix_rock": {
+    "drop": "crystalcraft_unlimited_java:matrix_opal",
+    "count": 1
+  },
+  "auram:bloodmagic_dungeon_rock": {
+    "drop": "bloodmagic:rawdemonite",
+    "count": 1
+  },
+  "auram:mekanism_deepslate_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_ruby_rock": {
+    "drop": "thermal:ruby",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_aluminium_rock": {
+    "drop": "immersiveengineering:raw_aluminum",
+    "count": 1
+  },
+  "auram:botania_potted_rockchid_ignem": {
+    "drop": "minecraft:flower_pot",
+    "count": 1
+  },
+  "auram:ars_nouveau_arcane_crock": {
+    "drop": "ars_nouveau:arcane_core",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_citrine_rock": {
+    "drop": "crystalcraft_unlimited_java:citrine",
+    "count": 1
+  },
+  "auram:draconicevolution_deepslate_draconium_rock": {
+    "drop": "draconicevolution:draconium_dust",
+    "count": 4
+  },
+  "auram:evolvedmekanism_holystone_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_anti_humoranium_rock": {
+    "drop": "crystalcraft_unlimited_java:anti_humoranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_ammolite_rock": {
+    "drop": "crystalcraft_unlimited_java:ammolite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_chalcanthite_rock": {
+    "drop": "crystalcraft_unlimited_java:chalcanthite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_calcium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_calcium",
+    "count": 1
+  },
+  "auram:projectred_exploration_peridot_rock": {
+    "drop": "projectred_core:peridot",
+    "count": 2
+  },
+  "auram:crystalcraft_unlimited_java_azurite_rock": {
+    "drop": "crystalcraft_unlimited_java:azurite",
+    "count": 1
+  },
+  "auram:nether_gold_rock": {
+    "drop": "minecraft:gold_nugget",
+    "count": 6
+  },
+  "auram:lapis_rock": {
+    "drop": "minecraft:lapis_lazuli",
+    "count": 9
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_titanium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_titanium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_spinel_rock": {
+    "drop": "crystalcraft_unlimited_java:spinel",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_seaborgium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_seaborgium",
+    "count": 1
+  },
+  "auram:evolvedmekanism_shiverstone_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:mekanism_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_sunset_jasper_rock": {
+    "drop": "crystalcraft_unlimited_java:sunset_jasper",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_obsidian_rock": {
+    "drop": "crystalcraft_unlimited_java:obsidian_shard",
+    "count": 1
+  },
+  "auram:draconicevolution_energy_crock": {
+    "drop": "draconicevolution:energy_core",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_molybdenum_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_molybdenum",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_diamond_rock": {
+    "drop": "minecraft:diamond",
+    "count": 1
+  },
+  "auram:midnight_dark_pearl_rock": {
+    "drop": "midnight:dark_pearl",
+    "count": 1
+  },
+  "auram:projectred_exploration_deepslate_peridot_rock": {
+    "drop": "projectred_core:peridot",
+    "count": 2
+  },
+  "auram:redstone_rock": {
+    "drop": "minecraft:redstone",
+    "count": 5
+  },
+  "auram:projectred_exploration_deepslate_sapphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 2
+  },
+  "auram:thermal_nickel_rock": {
+    "drop": "thermal:raw_nickel",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_peridot_rock": {
+    "drop": "crystalcraft_unlimited_java:peridot",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_onyx_rock": {
+    "drop": "crystalcraft_unlimited_java:onyx",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_sunstone_rock": {
+    "drop": "crystalcraft_unlimited_java:sunstone",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_green_catseye_rock": {
+    "drop": "crystalcraft_unlimited_java:green_catseye",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_spinel_rock": {
+    "drop": "crystalcraft_unlimited_java:spinel",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_stibnite_rock": {
+    "drop": "crystalcraft_unlimited_java:stibnite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_ammolite_rock": {
+    "drop": "crystalcraft_unlimited_java:ammolite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_saphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_peridot_rock": {
+    "drop": "crystalcraft_unlimited_java:peridot",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_nickel_rock": {
+    "drop": "thermal:raw_nickel",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_white_diamond_rock": {
+    "drop": "crystalcraft_unlimited_java:white_diamond",
+    "count": 1
+  },
+  "auram:malum_deepslate_soulstone_rock": {
+    "drop": "malum:raw_soulstone",
+    "count": 1
+  },
+  "auram:iceandfire_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:projectred_exploration_deepslate_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:evolvedmekanism_shiverstone_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:iceandfire_dragonforge_lightning_crock": {
+    "drop": "iceandfire:dragonforge_lightning_core_disabled",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rare_deepslate_sapphire_rock": {
+    "drop": "crystalcraft_unlimited_java:rare_sapphire",
+    "count": 1
+  },
+  "auram:evolvedmekanism_netherrack_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rare_sapphire_rock": {
+    "drop": "crystalcraft_unlimited_java:rare_sapphire",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_platinum_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_platinum",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_pitambari_neelam_rock": {
+    "drop": "crystalcraft_unlimited_java:pitambari_neelam",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_niobium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_niobium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_americium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_americium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_labradorite_rock": {
+    "drop": "crystalcraft_unlimited_java:labradorite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_zinc_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_zinc",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_gold_rock": {
+    "drop": "minecraft:raw_gold",
+    "count": 1
+  },
+  "auram:copper_rock": {
+    "drop": "minecraft:raw_copper",
+    "count": 5
+  },
+  "auram:malum_cthonic_gold_rock": {
+    "drop": "malum:cthonic_gold_fragment",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_lithium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_lithium",
+    "count": 1
+  },
+  "auram:mekanism_deepslate_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_manganese_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_manganese",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_magnesium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_magnesium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rare_tanzanite_rock": {
+    "drop": "crystalcraft_unlimited_java:rare_tanzanite",
+    "count": 1
+  },
+  "auram:butchery_sulfur_rock": {
+    "drop": "butchery:sulfur",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_rose_quartz_rock": {
+    "drop": "crystalcraft_unlimited_java:rose_quartz",
+    "count": 1
+  },
+  "auram:deepslate_gold_rock": {
+    "drop": "minecraft:raw_gold",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_ilmenite_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_ilmenite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_magnesium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_magnesium",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_coal_rock": {
+    "drop": "minecraft:coal",
+    "count": 1
+  },
+  "auram:thermal_deepslate_ruby_rock": {
+    "drop": "thermal:ruby",
+    "count": 1
+  },
+  "auram:midnight_nagrilite_rock": {
+    "drop": "midnight:raw_nagrilite",
+    "count": 1
+  },
+  "auram:thermal_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_prism_rock": {
+    "drop": "crystalcraft_unlimited_java:prism",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rainbow_opal_rock": {
+    "drop": "crystalcraft_unlimited_java:rainbow_opal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_medusa_quartz_rock": {
+    "drop": "crystalcraft_unlimited_java:medusa_quartz",
+    "count": 1
+  },
+  "auram:immersiveengineering_deepslate_rock_lead": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_emerald_rock": {
+    "drop": "minecraft:emerald",
+    "count": 1
+  },
+  "auram:midnight_tenebrum_rock": {
+    "drop": "midnight:raw_tenebrum",
+    "count": 1
+  },
+  "auram:botania_floating_rockchid_ignem": {
+    "drop": "botania:floating_orechid_ignem",
+    "count": 1
+  },
+  "auram:malum_deepslate_quartz_rock": {
+    "drop": "malum:natural_quartz",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_tourmaline_rock": {
+    "drop": "crystalcraft_unlimited_java:tourmaline",
+    "count": 1
+  },
+  "auram:thermal_deepslate_cinnabar_rock": {
+    "drop": "thermal:cinnabar",
+    "count": 2
+  },
+  "auram:twilightforest_time_log_crock": {
+    "drop": "twilightforest:time_log",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_sugillite_rock": {
+    "drop": "crystalcraft_unlimited_java:sugillite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_alexandrite_rock": {
+    "drop": "crystalcraft_unlimited_java:alexandrite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_amethyst_rock": {
+    "drop": "crystalcraft_unlimited_java:amethyst",
+    "count": 1
+  },
+  "auram:mekanism_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:iceandfire_dragonforge_fire_crock": {
+    "drop": "iceandfire:dragonforge_fire_core_disabled",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_indium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_indium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_pink_diamond_rock": {
+    "drop": "crystalcraft_unlimited_java:pink_diamond",
+    "count": 1
+  },
+  "auram:thermal_deepslate_apatite_rock": {
+    "drop": "thermal:apatite",
+    "count": 9
+  },
+  "auram:crystalcraft_unlimited_java_opal_rock": {
+    "drop": "crystalcraft_unlimited_java:opal",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_iron_rock": {
+    "drop": "minecraft:raw_iron",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_aluminium_rock": {
+    "drop": "immersiveengineering:raw_aluminum",
+    "count": 1
+  },
+  "auram:thermal_sapphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_copper_rock": {
+    "drop": "minecraft:raw_copper",
+    "count": 5
+  },
+  "auram:thermal_deepslate_sapphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_emerald_rock": {
+    "drop": "minecraft:emerald",
+    "count": 1
+  },
+  "auram:projectred_exploration_electrotine_rock": {
+    "drop": "projectred_core:electrotine_dust",
+    "count": 8
+  },
+  "auram:crystalcraft_unlimited_java_howlite_rock": {
+    "drop": "crystalcraft_unlimited_java:howlite",
+    "count": 1
+  },
+  "auram:thermal_cinnabar_rock": {
+    "drop": "thermal:cinnabar",
+    "count": 2
+  },
+  "auram:crystalcraft_unlimited_java_flourite_rock": {
+    "drop": "crystalcraft_unlimited_java:flourite",
+    "count": 1
+  },
+  "auram:evolvedmekanism_shiverstone_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_pelenium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_pelenium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_sulfur_rock": {
+    "drop": "thermal:sulfur_dust",
+    "count": 1
+  },
+  "auram:mekanism_deepslate_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:dimdoors_amalgam_rock": {
+    "drop": "dimdoors:amalgam_ore",
+    "count": 1
+  },
+  "auram:thermal_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_purple_diamond_rock": {
+    "drop": "crystalcraft_unlimited_java:purple_diamond",
+    "count": 1
+  },
+  "auram:bigreactors_anglesite_rock": {
+    "drop": "bigreactors:anglesite_crystal",
+    "count": 1
+  },
+  "auram:aether_ambrosium_rock": {
+    "drop": "aether:ambrosium_shard",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_pink_ruby_rock": {
+    "drop": "crystalcraft_unlimited_java:pink_ruby",
+    "count": 1
+  },
+  "auram:malum_blazing_quartz_rock": {
+    "drop": "malum:blazing_quartz",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_catseye_rock": {
+    "drop": "crystalcraft_unlimited_java:catseye",
+    "count": 1
+  },
+  "auram:mekanism_deepslate_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rare_amethyst_rock": {
+    "drop": "crystalcraft_unlimited_java:rare_amethyst",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_palladium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_palladium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_jade_rock": {
+    "drop": "crystalcraft_unlimited_java:jade",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_tanzanite_rock": {
+    "drop": "crystalcraft_unlimited_java:tanzanite",
+    "count": 1
+  },
+  "auram:thermal_niter_rock": {
+    "drop": "thermal:niter",
+    "count": 5
+  },
+  "auram:crystalcraft_unlimited_java_prism_rock": {
+    "drop": "crystalcraft_unlimited_java:prism",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_ruby_rock": {
+    "drop": "thermal:ruby",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_olivine_rock": {
+    "drop": "crystalcraft_unlimited_java:olivine",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_jasper_rock": {
+    "drop": "crystalcraft_unlimited_java:jasper",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:thermal_deepslate_niter_rock": {
+    "drop": "thermal:niter",
+    "count": 5
+  },
+  "auram:evolvedmekanism_end_stone_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:evolvedmekanism_netherrack_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_chloronium_rock": {
+    "drop": "crystalcraft_unlimited_java:chloronium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_moonstone_rock": {
+    "drop": "crystalcraft_unlimited_java:moonstone",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_topaz_rock": {
+    "drop": "crystalcraft_unlimited_java:topaz",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_matizium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_matizium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_australian_sapphire_rock": {
+    "drop": "crystalcraft_unlimited_java:australian_sapphire",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_coal_rock": {
+    "drop": "minecraft:coal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_silicium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_silicon",
+    "count": 1
+  },
+  "auram:bigreactors_benitoite_rock": {
+    "drop": "bigreactors:benitoite_crystal",
+    "count": 1
+  },
+  "auram:evolvedmekanism_depthrock_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_flourite_rock": {
+    "drop": "crystalcraft_unlimited_java:flourite",
+    "count": 1
+  },
+  "auram:deepslate_redstone_rock": {
+    "drop": "minecraft:redstone",
+    "count": 5
+  },
+  "auram:bigreactors_yellorite_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_bluestone_rock": {
+    "drop": "crystalcraft_unlimited_java:bluestone_dust",
+    "count": 1
+  },
+  "auram:malum_soulstone_rock": {
+    "drop": "malum:raw_soulstone",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_rutile_rock": {
+    "drop": "crystalcraft_unlimited_java:rutile",
+    "count": 1
+  },
+  "auram:midnight_archaic_rock": {
+    "drop": "midnight:archaic_shard",
+    "count": 1
+  },
+  "auram:gold_rock": {
+    "drop": "minecraft:raw_gold",
+    "count": 1
+  },
+  "auram:immersiveengineering_deepslate_rock_uranium": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_yurium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_yurium",
+    "count": 1
+  },
+  "auram:mekanism_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:evolvedmekanism_netherrack_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_redstone_rock": {
+    "drop": "minecraft:redstone",
+    "count": 5
+  },
+  "auram:crystalcraft_unlimited_java_rare_citrine_rock": {
+    "drop": "crystalcraft_unlimited_java:rare_citrine",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_bronze_rock": {
+    "drop": "crystalcraft_unlimited_java:bronze_ore",
+    "count": 1
+  },
+  "auram:projectred_exploration_ruby_rock": {
+    "drop": "thermal:ruby",
+    "count": 2
+  },
+  "auram:thermal_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_chrome_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_chrome",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_tungsten_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_tungsten",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_black_opal_rock": {
+    "drop": "crystalcraft_unlimited_java:black_opal",
+    "count": 1
+  },
+  "auram:bigreactors_deepslate_yellorite_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_citrine_rock": {
+    "drop": "crystalcraft_unlimited_java:citrine",
+    "count": 1
+  },
+  "auram:dimdoors_clod_rock": {
+    "drop": "dimdoors:clod_ore",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_hackmantite_rock": {
+    "drop": "crystalcraft_unlimited_java:hackmantite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_titanium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_titanium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_bixbite_rock": {
+    "drop": "crystalcraft_unlimited_java:bixbite",
+    "count": 1
+  },
+  "auram:diamond_rock": {
+    "drop": "minecraft:diamond",
+    "count": 1
+  },
+  "auram:thermal_deepslate_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:midnight_virilux_rock": {
+    "drop": "midnight:virilux",
+    "count": 1
+  },
+  "auram:twilightforest_sorting_log_crock": {
+    "drop": "twilightforest:sorting_log",
+    "count": 1
+  },
+  "auram:evolvedmekanism_netherrack_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_cadmium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_cadmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_ametrine_rock": {
+    "drop": "crystalcraft_unlimited_java:ametrine",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_scandium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_scandium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_peacock_rock_block": {
+    "drop": "crystalcraft_unlimited_java:peacock_ore",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_aquamarine_rock": {
+    "drop": "crystalcraft_unlimited_java:aquamarine",
+    "count": 1
+  },
+  "auram:deepslate_copper_rock": {
+    "drop": "minecraft:raw_copper",
+    "count": 5
+  },
+  "auram:mekanism_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:deeperdarker_sculk_stone_lapis_rock": {
+    "drop": "minecraft:lapis_lazuli",
+    "count": 9
+  },
+  "auram:crystalcraft_unlimited_java_raspberry_diamond_rock": {
+    "drop": "crystalcraft_unlimited_java:raspberry_diamond",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_amazonite_rock": {
+    "drop": "crystalcraft_unlimited_java:amazonite",
+    "count": 1
+  },
+  "auram:thermal_deepslate_sulfur_rock": {
+    "drop": "thermal:sulfur",
+    "count": 5
+  },
+  "auram:crystalcraft_unlimited_java_yttrium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_yttrium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_iridium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_iridium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_zircon_rock": {
+    "drop": "crystalcraft_unlimited_java:zircon_1",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_larimar_rock": {
+    "drop": "crystalcraft_unlimited_java:larimar",
+    "count": 1
+  },
+  "auram:evolvedmekanism_depthrock_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_red_diamond_rock": {
+    "drop": "crystalcraft_unlimited_java:red_diamond",
+    "count": 1
+  },
+  "auram:draconicevolution_nether_draconium_rock": {
+    "drop": "draconicevolution:draconium_dust",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_tanzanite_rock": {
+    "drop": "crystalcraft_unlimited_java:tanzanite",
+    "count": 1
+  },
+  "auram:nether_quartz_rock": {
+    "drop": "minecraft:quartz",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_sugillite_rock": {
+    "drop": "crystalcraft_unlimited_java:sugillite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_ruthenium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_ruthenium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_sonoranite_rock": {
+    "drop": "crystalcraft_unlimited_java:sonoranite",
+    "count": 1
+  },
+  "auram:immersiveengineering_deepslate_rock_silver": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:bewitchment_deepslate_salt_rock": {
+    "drop": "bewitchment:salt",
+    "count": 2
+  },
+  "auram:projectred_exploration_sapphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 2
+  },
+  "auram:draconicevolution_overworld_draconium_rock": {
+    "drop": "draconicevolution:draconium_dust",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_sardonyx_rock": {
+    "drop": "crystalcraft_unlimited_java:sardonyx",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_humoranium_rock": {
+    "drop": "crystalcraft_unlimited_java:humoranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_garnet_rock": {
+    "drop": "crystalcraft_unlimited_java:garnet",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_cyber_crystal_rock": {
+    "drop": "crystalcraft_unlimited_java:cyber_crystal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_amber_rock": {
+    "drop": "crystalcraft_unlimited_java:amber",
+    "count": 1
+  },
+  "auram:deep_aether_skyjade_rock": {
+    "drop": "deep_aether:skyjade",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_garnet_rock": {
+    "drop": "crystalcraft_unlimited_java:garnet",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_holmium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_holmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_chrysolite_rock": {
+    "drop": "crystalcraft_unlimited_java:chrysolite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_serpentine_rock": {
+    "drop": "crystalcraft_unlimited_java:serpentine",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_indigolite_rock": {
+    "drop": "crystalcraft_unlimited_java:indigolite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_watermelon_tourmaline_rock": {
+    "drop": "crystalcraft_unlimited_java:watermelon_tourmaline",
+    "count": 1
+  },
+  "auram:evolvedmekanism_end_stone_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_cobalt_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_cobalt",
+    "count": 1
+  },
+  "auram:iceandfire_sapphire_rock": {
+    "drop": "thermal:sapphire",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:butchery_deepslate_sulfur_rock": {
+    "drop": "butchery:sulfur",
+    "count": 4
+  },
+  "auram:aether_gravitite_rock": {
+    "drop": "aether_redux:raw_gravitite",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_gold_rock": {
+    "drop": "minecraft:raw_gold",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_orichalcum_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_orichalcum",
+    "count": 1
+  },
+  "auram:iceandfire_deepslate_silver_rock": {
+    "drop": "thermal:raw_silver",
+    "count": 1
+  },
+  "auram:coal_rock": {
+    "drop": "minecraft:coal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_fire_opal_rock": {
+    "drop": "crystalcraft_unlimited_java:fire_opal",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_europium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_europium",
+    "count": 1
+  },
+  "auram:iceandfire_dragonforge_ice_crock": {
+    "drop": "iceandfire:dragonforge_ice_core_disabled",
+    "count": 1
+  },
+  "auram:projectred_exploration_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_zirconium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_zirconium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_palintinium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_palintinium",
+    "count": 1
+  },
+  "auram:evolvedmekanism_netherrack_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:draconicevolution_crafting_crock": {
+    "drop": "draconicevolution:crafting_core",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_alexandrite_rock": {
+    "drop": "crystalcraft_unlimited_java:alexandrite",
+    "count": 1
+  },
+  "auram:evolvedmekanism_holystone_tin_rock": {
+    "drop": "thermal:raw_tin",
+    "count": 1
+  },
+  "auram:bewitchment_silver_rock": {
+    "drop": "bewitchment:raw_silver",
+    "count": 1
+  },
+  "auram:integrateddynamics_variablestrock": {
+    "drop": "integrateddynamics:variablestore",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_topaz_rock": {
+    "drop": "crystalcraft_unlimited_java:topaz",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_grandidierite_rock": {
+    "drop": "crystalcraft_unlimited_java:grandidierite",
+    "count": 1
+  },
+  "auram:midnight_rendium_rock": {
+    "drop": "midnight:geode",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_technetium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_technetium",
+    "count": 1
+  },
+  "auram:evolvedmekanism_end_stone_uranium_rock": {
+    "drop": "immersiveengineering:raw_uranium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_goshenite_rock": {
+    "drop": "crystalcraft_unlimited_java:goshenite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_enderium_rock": {
+    "drop": "crystalcraft_unlimited_java:enderium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_peacock_topaz_rock": {
+    "drop": "crystalcraft_unlimited_java:peacock_topaz",
+    "count": 1
+  },
+  "auram:deeperdarker_gloomslate_lapis_rock": {
+    "drop": "minecraft:lapis_lazuli",
+    "count": 9
+  },
+  "auram:evolvedmekanism_end_stone_fluorite_rock": {
+    "drop": "mekanism:fluorite_gem",
+    "count": 4
+  },
+  "auram:crystalcraft_unlimited_java_vesuvianite_rock": {
+    "drop": "crystalcraft_unlimited_java:vesuvianite",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_vanadium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_vanadium",
+    "count": 1
+  },
+  "auram:thermal_sulfur_rock": {
+    "drop": "thermal:sulfur",
+    "count": 5
+  },
+  "auram:crystalcraft_unlimited_java_amber_rock": {
+    "drop": "crystalcraft_unlimited_java:amber",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_xernium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_xernium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_deepslate_matizium_rock": {
+    "drop": "crystalcraft_unlimited_java:raw_matizium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_ametrine_rock": {
+    "drop": "crystalcraft_unlimited_java:ametrine",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_orange_diamond_rock": {
+    "drop": "crystalcraft_unlimited_java:orange_diamond",
+    "count": 1
+  },
+  "auram:evolvedmekanism_shiverstone_lead_rock": {
+    "drop": "thermal:raw_lead",
+    "count": 1
+  }
+}
