@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": ""
+    "description": {
+      "text": "auram resources"
+    },
+    "pack_format": 15
   }
 }

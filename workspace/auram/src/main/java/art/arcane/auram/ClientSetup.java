@@ -40,7 +40,6 @@ public class ClientSetup {
             modelRegistry.put(itemModelRL, parentModel);
         }
     }
-    
     @SubscribeEvent
     public static void onRegisterItemColors(RegisterColorHandlersEvent.Item event) {
         ItemColor dynamicRockColor = (stack, tintIndex) -> {
@@ -51,21 +50,14 @@ public class ClientSetup {
                     return ROCK_COLOR_CACHE.get(item);
                 }
 
-                ResourceLocation itemKey = ForgeRegistries.ITEMS.getKey(item);
-                if (itemKey != null) {
-                    String blockPath = itemKey.getPath().replace("rock", "ore");
+                Block oreBlock = Auram.ROCK_ITEM_TO_ORE_BLOCK.get(item);
 
-                    for (Map.Entry<ResourceKey<Block>, Block> entry : ForgeRegistries.BLOCKS.getEntries()) {
-                        ResourceLocation blockId = entry.getKey().location();
-                        if (blockId.getPath().equals(blockPath)) {
-                            Block block = entry.getValue();
-                            int color = ColorHelper.getDominantColor(block); // Use your helper
-                            if (color == -1) color = block.defaultMapColor().col;
+                if (oreBlock != null) {
+                    int color = ColorHelper.getDominantColor(oreBlock);
+                    if (color == -1) color = oreBlock.defaultMapColor().col;
 
-                            ROCK_COLOR_CACHE.put(item, color);
-                            return color;
-                        }
-                    }
+                    ROCK_COLOR_CACHE.put(item, color);
+                    return color;
                 }
             }
             return -1;

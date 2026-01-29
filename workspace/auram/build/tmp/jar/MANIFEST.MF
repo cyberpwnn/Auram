@@ -1,2 +1,10 @@
 Manifest-Version: 1.0
+Specification-Title: warp
+Specification-Vendor: cyberpwn
+Specification-Version: 1
+Implementation-Title: warp
+Implementation-Version: 1.0.0
+Implementation-Vendor: cyberpwn
+Implementation-Timestamp: 2026-01-28T18:54:23-0600
+MixinConfigs: mixins.warp.json
 

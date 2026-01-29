@@ -23,39 +23,27 @@ public class RockLootModifier extends LootModifier {
             RecordCodecBuilder.create(inst -> codecStart(inst).apply(inst, RockLootModifier::new)));
 
     public RockLootModifier(LootItemCondition[] conditionsIn) {
-        super(conditionsIn);System.out.println(">>> ROCK MODIFIER CONSTRUCTED! <<<");
+        super(conditionsIn);
     }
 
     @Override
     protected ObjectArrayList<ItemStack> doApply(ObjectArrayList<ItemStack> generatedLoot, LootContext context) {
-        System.out.println("RockLootModifier doApply");
+        if (Auram.BYPASS_ROCK_GENERATION) {
+            return generatedLoot;
+        }
+        
         BlockState state = context.getParamOrNull(LootContextParams.BLOCK_STATE);
         if (state == null) return generatedLoot;
         ResourceLocation blockId = ForgeRegistries.BLOCKS.getKey(state.getBlock());
-        if (blockId == null || !blockId.getPath().contains("ore")) {
-            return generatedLoot;
-        }
+        ResourceLocation rockId = Auram.ORE_BLOCK_ID_TO_ROCK_ID.get(blockId);
 
-        String newPath = blockId.getPath().replace("ore", "rock");
-        ResourceLocation rockId = ResourceLocation.tryBuild(Auram.MODID, newPath);
-
-        if (!ForgeRegistries.ITEMS.containsKey(rockId)) {
-            return generatedLoot; // If we didn't generate a rock for this, do nothing
+        if (rockId == null || !ForgeRegistries.ITEMS.containsKey(rockId)) {
+            return generatedLoot; 
         }
 
         Item rockItem = ForgeRegistries.ITEMS.getValue(rockId);
 
-        int originalCount = 0;
-        for (ItemStack stack : generatedLoot) {
-            if (stack.getItem() == state.getBlock().asItem()) {
-                return generatedLoot; 
-            }
-            originalCount += stack.getCount();
-        }
-
-        if (originalCount == 0) originalCount = 1;
-        int multiplier = ThreadLocalRandom.current().nextInt(1, 5); // 1, 2, 3, 4
-        int finalCount = originalCount * multiplier;
+        int finalCount =  ThreadLocalRandom.current().nextInt(1, 5);
         ObjectArrayList<ItemStack> newLoot = new ObjectArrayList<>();
         while (finalCount > 0) {
             int stackSize = Math.min(finalCount, 64);
