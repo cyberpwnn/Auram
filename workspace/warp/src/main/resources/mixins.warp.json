@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "art.arcane.auram.mixins",
+  "refmap": "mixins.auram.refmap.json",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": ["NoiseChunkMixin"]
+}
