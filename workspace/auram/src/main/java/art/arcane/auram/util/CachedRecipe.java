@@ -1,4 +1,4 @@
-package art.arcane.auram;
+package art.arcane.auram.util;
 
 public class CachedRecipe {
     public String drop;

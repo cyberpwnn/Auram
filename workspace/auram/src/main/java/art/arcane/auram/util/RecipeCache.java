@@ -1,4 +1,4 @@
-package art.arcane.auram;
+package art.arcane.auram.util;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;

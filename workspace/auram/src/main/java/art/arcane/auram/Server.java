@@ -1,5 +1,8 @@
 package art.arcane.auram;
 
+import art.arcane.auram.util.CachedRecipe;
+import art.arcane.auram.util.LootHelper;
+import art.arcane.auram.util.RecipeCache;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.MinecraftServer;
 import net.minecraft.server.level.ServerLevel;
@@ -14,7 +17,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Mod.EventBusSubscriber(modid = Auram.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
-public class ServerEvents {
+public class Server {
     @SubscribeEvent
     public static void onServerStarted(ServerStartedEvent event) {
         refreshRecipeCache(event.getServer());
@@ -33,8 +36,9 @@ public class ServerEvents {
     private static void refreshRecipeCache(MinecraftServer server) {
         ServerLevel level = server.overworld();
         Map<ResourceLocation, CachedRecipe> newMappings = new HashMap<>();
-        Auram.BYPASS_ROCK_GENERATION = true;
 
+        Auram.BYPASS_ROCK_GENERATION = true;
+        
         try {
             Auram.ROCK_ITEM_TO_ORE_BLOCK.forEach((rockItem, oreBlock) -> {
                 ItemStack drop = LootHelper.getMaxedFakeDrop(oreBlock, level);
@@ -43,7 +47,7 @@ public class ServerEvents {
                     ResourceLocation rockId = ForgeRegistries.ITEMS.getKey(rockItem);
                     ResourceLocation dropId = ForgeRegistries.ITEMS.getKey(drop.getItem());
 
-                    if (!rockId.equals(dropId)) {
+                    if (rockId != null && dropId != null && !rockId.equals(dropId)) {
                         newMappings.put(rockId, new CachedRecipe(dropId.toString(), drop.getCount()));
                     }
                 }
@@ -53,5 +57,13 @@ public class ServerEvents {
         }
 
         RecipeCache.save(newMappings);
+        RecipeCache.RECIPE_MAP.clear();
+        newMappings.forEach((k, v) -> RecipeCache.RECIPE_MAP.put(k.toString(), v));
+
+        System.out.println("Auram: Calculated " + newMappings.size() + " recipes. Virtual Pack Count: " + Data.VIRTUAL_FILE_COUNT);
+
+        if (newMappings.size() > 0 && Data.VIRTUAL_FILE_COUNT == 0) {
+            System.out.println("Auram: First run detected. Please run /reload or Restart to activate recipes.");
+        }
     }
 }

@@ -1,4 +1,4 @@
-package art.arcane.auram;
+package art.arcane.auram.util;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.renderer.texture.TextureAtlasSprite;

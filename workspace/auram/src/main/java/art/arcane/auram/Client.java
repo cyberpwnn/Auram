@@ -1,9 +1,9 @@
 package art.arcane.auram;
 
+import art.arcane.auram.util.ColorHelper;
 import net.minecraft.client.color.item.ItemColor;
 import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.client.resources.model.ModelResourceLocation;
-import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -19,7 +19,7 @@ import java.util.Map;
 import java.util.Objects;
 
 @Mod.EventBusSubscriber(modid = Auram.MODID, bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
-public class ClientSetup {
+public class Client {
     private static final Map<Item, Integer> ROCK_COLOR_CACHE = new HashMap<>();
 
     @SubscribeEvent

@@ -1,5 +1,6 @@
-package art.arcane.auram;
+package art.arcane.auram.loot;
 
+import art.arcane.auram.Auram;
 import com.google.common.base.Supplier;
 import com.google.common.base.Suppliers;
 import com.mojang.serialization.Codec;
@@ -42,10 +43,7 @@ public class RockLootModifier extends LootModifier {
         }
 
         Item rockItem = ForgeRegistries.ITEMS.getValue(rockId);
-
         int boost = 0;
-        
-        // is deepslate
         
         if (ForgeRegistries.ITEMS.getKey(state.getBlock().asItem()).toString().contains("deepslate")) {
             boost = 2;

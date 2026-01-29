@@ -1,4 +1,4 @@
-package art.arcane.auram;
+package art.arcane.auram.util;
 
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.item.ItemStack;

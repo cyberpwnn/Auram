@@ -1,6 +1,8 @@
 package art.arcane.auram;
 
-import art.arcane.auram.item.RockItem;
+import art.arcane.auram.item.*;
+import art.arcane.auram.loot.RockLootModifier;
+import art.arcane.auram.util.RecipeCache;
 import com.mojang.logging.LogUtils;
 import com.mojang.serialization.Codec;
 import net.minecraft.core.registries.Registries;
@@ -10,8 +12,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.crafting.RecipeSerializer;
-import net.minecraft.world.item.crafting.SimpleCraftingRecipeSerializer;
 import net.minecraft.world.level.block.Block;
 import net.minecraftforge.common.loot.IGlobalLootModifier;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -34,17 +34,24 @@ public class Auram {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
     public static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIERS = DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, MODID);
-    public static final DeferredRegister<RecipeSerializer<?>> RECIPE_SERIALIZERS = DeferredRegister.create(ForgeRegistries.RECIPE_SERIALIZERS, MODID);
     public static final RegistryObject<Item> ROCK = ITEMS.register("rock", () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BUNDLED_STICKS = ITEMS.register("bundled_sticks", BundledSticks::new);
+    public static final RegistryObject<Item> JOURNEY_MAP = ITEMS.register("journey_map", JourneyMap::new);
+    public static final RegistryObject<Item> ENDER_JADE = ITEMS.register("ender_jade", EnderJade::new);
+    public static final RegistryObject<Item> ROCK_CRATE = ITEMS.register("rock_catalyst", RockCatalyst::new);
     public static final RegistryObject<Codec<RockLootModifier>> ROCK_MODIFIER = LOOT_MODIFIERS.register("rock_drops", RockLootModifier.CODEC);
     public static final Map<Item, Block> ROCK_ITEM_TO_ORE_BLOCK = new HashMap<>();
     public static final Map<ResourceLocation, ResourceLocation> ORE_BLOCK_ID_TO_ROCK_ID = new HashMap<>();
     public static final List<ResourceLocation> GENERATED_ROCKS = new ArrayList<>();
-    public static final RegistryObject<RecipeSerializer<RockRecipe>> ROCK_RECIPE_SERIALIZER = RECIPE_SERIALIZERS.register("rock_compression", () -> new SimpleCraftingRecipeSerializer<>(RockRecipe::new));
     public static final RegistryObject<CreativeModeTab> AURAM_TAB = CREATIVE_TABS.register("auram_tab", () -> CreativeModeTab.builder()
             .title(Component.literal("Auram"))
-            .icon(() -> new ItemStack(ROCK.get()))
+            .icon(() -> new ItemStack(ENDER_JADE.get()))
             .displayItems((params, output) -> {
+                output.accept(Auram.ENDER_JADE.get());
+                output.accept(Auram.JOURNEY_MAP.get());
+                output.accept(Auram.BUNDLED_STICKS.get());
+                output.accept(Auram.ROCK_CRATE.get());
+                
                 for (Item item : ForgeRegistries.ITEMS) {
                     ResourceLocation key = ForgeRegistries.ITEMS.getKey(item);
                     if (key != null && key.getNamespace().equals(MODID)) {
@@ -60,7 +67,6 @@ public class Auram {
         ITEMS.register(modEventBus);
         CREATIVE_TABS.register(modEventBus);
         LOOT_MODIFIERS.register(modEventBus);
-        RECIPE_SERIALIZERS.register(modEventBus);
         RecipeCache.load();
         modEventBus.register(this);
     }
