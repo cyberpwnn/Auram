@@ -1,6 +1,5 @@
 package art.arcane.auram.item;
 
-import art.arcane.auram.Auram;
 import art.arcane.auram.util.CachedRecipe;
 import art.arcane.auram.util.RecipeCache;
 import net.minecraft.nbt.CompoundTag;
@@ -13,12 +12,15 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.level.Level;
 import net.minecraftforge.registries.ForgeRegistries;
 import org.apache.commons.lang3.text.WordUtils;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class RockCatalyst extends Item {
     public RockCatalyst() {
@@ -51,7 +53,6 @@ public class RockCatalyst extends Item {
     public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
         ItemStack stack = player.getItemInHand(hand);
 
-        // 3. SHIFT-CLICK TO DUMP
         if (player.isShiftKeyDown() && !level.isClientSide) {
             dumpContents(stack, player, level);
             return InteractionResultHolder.success(stack);
@@ -94,28 +95,40 @@ public class RockCatalyst extends Item {
 
     private void dumpContents(ItemStack catalyst, Player player, Level level) {
         if (!catalyst.hasTag() || !catalyst.getTag().contains("RockBins")) return;
-
         CompoundTag bin = catalyst.getTag().getCompound("RockBins");
         boolean droppedAnything = false;
+        List<String> keys = new ArrayList<>(bin.getAllKeys());
 
-        for (String key : bin.getAllKeys()) {
-            int count = bin.getInt(key);
-            if (count > 0) {
-                ResourceLocation defaultRock = Auram.ORE_BLOCK_ID_TO_ROCK_ID.values().stream()
-                        .filter(rl -> RecipeCache.RECIPE_MAP.get(rl.toString()).drop.equals(key))
-                        .findFirst().orElse(null);
- 
-                if (defaultRock != null) {
-                    player.drop(new ItemStack(ForgeRegistries.ITEMS.getValue(defaultRock), count), false);
-                    bin.remove(key);
+        for (String outputId : keys) {
+            int count = bin.getInt(outputId);
+            if (count <= 0) continue;
+
+            String foundRockId = RecipeCache.RECIPE_MAP.entrySet().stream()
+                    .filter(entry -> entry.getValue().drop.equals(outputId))
+                    .map(Map.Entry::getKey)
+                    .findFirst()
+                    .orElse(null);
+
+            if (foundRockId != null) {
+                Item rockItem = ForgeRegistries.ITEMS.getValue(ResourceLocation.parse(foundRockId));
+                if (rockItem != null && rockItem != Items.AIR) {
+                    // Drop the rocks in stacks of 64
+                    int remainingToDrop = count;
+                    while (remainingToDrop > 0) {
+                        int amount = Math.min(remainingToDrop, 64);
+                        player.drop(new ItemStack(rockItem, amount), false);
+                        remainingToDrop -= amount;
+                    }
+
+                    bin.remove(outputId);
                     droppedAnything = true;
                 }
             }
         }
 
         if (droppedAnything) {
-            player.displayClientMessage(Component.literal("§eContents emptied."), true);
-            player.level().playSound(null, player.getX(), player.getY(), player.getZ(),
+            player.displayClientMessage(Component.literal("§eBuffer emptied."), true);
+            level.playSound(null, player.getX(), player.getY(), player.getZ(),
                     SoundEvents.BUNDLE_DROP_CONTENTS, SoundSource.PLAYERS, 1.0F, 1.0F);
         }
     }
