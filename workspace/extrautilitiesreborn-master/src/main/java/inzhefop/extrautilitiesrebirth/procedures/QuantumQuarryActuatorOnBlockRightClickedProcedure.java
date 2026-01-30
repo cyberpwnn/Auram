@@ -1,5 +1,6 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.block.state.properties.Property;
@@ -29,104 +30,104 @@ public class QuantumQuarryActuatorOnBlockRightClickedProcedure {
 		if (Direction.DOWN == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y + 1, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y + 1, z)));
 			target_x = x;
 			target_y = y + 1;
 			target_z = z;
 		} else if (Direction.UP == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y - 1, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y - 1, z)));
 			target_x = x;
 			target_y = y - 1;
 			target_z = z;
 		} else if (Direction.NORTH == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y, z + 1)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y, z + 1)));
 			target_x = x;
 			target_y = y;
 			target_z = z + 1;
 		} else if (Direction.WEST == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x + 1, y, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x + 1, y, z)));
 			target_x = x + 1;
 			target_y = y;
 			target_z = z;
 		} else if (Direction.EAST == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x - 1, y, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x - 1, y, z)));
 			target_x = x - 1;
 			target_y = y;
 			target_z = z;
 		} else if (Direction.SOUTH == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y, z - 1)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y, z - 1)));
 			target_x = x;
 			target_y = y;
-			target_z = z - 1;
+			target_z = z - 1; 
 		}
 		if (ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY.get() == targetblock.getBlock()) {
 			if (entity instanceof Player _player) {
-				BlockPos _bp = new BlockPos(target_x, target_y, target_z);
-				_player.level.getBlockState(_bp).use(_player.level, _player, InteractionHand.MAIN_HAND,
+				BlockPos _bp = BlockPos.containing(target_x, target_y, target_z);
+				_player.level().getBlockState(_bp).use(_player.level(), _player, InteractionHand.MAIN_HAND,
 						BlockHitResult.miss(new Vec3(_bp.getX(), _bp.getY(), _bp.getZ()), Direction.UP, _bp));
 			}
 		}

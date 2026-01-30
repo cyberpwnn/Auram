@@ -7,6 +7,6 @@ public class CreativeSpikeProcedureProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		entity.hurt(DamageSource.GENERIC, 1000);
+		entity.hurt(entity.damageSources().generic(), 1000);
 	}
 }

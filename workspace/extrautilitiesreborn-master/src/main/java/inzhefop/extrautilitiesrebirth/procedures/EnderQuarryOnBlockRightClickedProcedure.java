@@ -1,12 +1,13 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.core.BlockPos;
 
 import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
@@ -23,10 +24,10 @@ public class EnderQuarryOnBlockRightClickedProcedure {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "state") == 0) {
+		}.getValue(world, BlockPos.containing(x, y, z), "state") == 0) {
 			for (int index0 = 0; index0 < (int) (6); index0++) {
 				if (counter1 == 0) {
 					xblock = x;
@@ -58,13 +59,13 @@ public class EnderQuarryOnBlockRightClickedProcedure {
 					yblock = y;
 					zblock = z - 1;
 				}
-				if (ExtrautilitiesrebirthModBlocks.ENDER_MARKER.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock))).getBlock()) {
+				if (ExtrautilitiesrebirthModBlocks.ENDER_MARKER.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock))).getBlock()) {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putBoolean("attachedmarker", (true));
+							_blockEntity.getPersistentData().putBoolean("attachedmarker", (true));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -72,153 +73,153 @@ public class EnderQuarryOnBlockRightClickedProcedure {
 						public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
-								return blockEntity.getTileData().getBoolean(tag);
+								return blockEntity.getPersistentData().getBoolean(tag);
 							return false;
 						}
-					}.getValue(world, new BlockPos(xblock, yblock, zblock), "complete"))) {
+					}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "complete"))) {
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areaminx", (new Object() {
+								_blockEntity.getPersistentData().putDouble("areaminx", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "minx")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "minx")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areamaxx", (new Object() {
+								_blockEntity.getPersistentData().putDouble("areamaxx", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "maxx")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "maxx")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areaminz", (new Object() {
+								_blockEntity.getPersistentData().putDouble("areaminz", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "minz")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "minz")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areamaxz", (new Object() {
+								_blockEntity.getPersistentData().putDouble("areamaxz", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "maxz")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "maxz")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areamaxy", (y - 1));
+								_blockEntity.getPersistentData().putDouble("areamaxy", (y - 1));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("xcoord", (new Object() {
+								_blockEntity.getPersistentData().putDouble("xcoord", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "minx")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "minx")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("ycoord", (y - 1));
+								_blockEntity.getPersistentData().putDouble("ycoord", (y - 1));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("zcoord", (new Object() {
+								_blockEntity.getPersistentData().putDouble("zcoord", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "minz")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "minz")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areadirect1", (new Object() {
+								_blockEntity.getPersistentData().putDouble("areadirect1", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "direc1")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "direc1")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
 						if (!world.isClientSide()) {
-							BlockPos _bp = new BlockPos(x, y, z);
+							BlockPos _bp = BlockPos.containing(x, y, z);
 							BlockEntity _blockEntity = world.getBlockEntity(_bp);
 							BlockState _bs = world.getBlockState(_bp);
 							if (_blockEntity != null)
-								_blockEntity.getTileData().putDouble("areadirect2", (new Object() {
+								_blockEntity.getPersistentData().putDouble("areadirect2", (new Object() {
 									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 										BlockEntity blockEntity = world.getBlockEntity(pos);
 										if (blockEntity != null)
-											return blockEntity.getTileData().getDouble(tag);
+											return blockEntity.getPersistentData().getDouble(tag);
 										return -1;
 									}
-								}.getValue(world, new BlockPos(xblock, yblock, zblock), "direc2")));
+								}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "direc2")));
 							if (world instanceof Level _level)
 								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 						}
@@ -231,150 +232,150 @@ public class EnderQuarryOnBlockRightClickedProcedure {
 				public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getBoolean(tag);
+						return blockEntity.getPersistentData().getBoolean(tag);
 					return false;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "attachedmarker") && (new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "attachedmarker") && (new Object() {
 				public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getBoolean(tag);
+						return blockEntity.getPersistentData().getBoolean(tag);
 					return false;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "running")) == false) {
-				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("Anylysing Fence boundardy"), (false));
-				if (entity instanceof Player _player && !_player.level.isClientSide())
-					_player.displayClientMessage(new TextComponent("Found attached ender-marker"), (false));
+			}.getValue(world, BlockPos.containing(x, y, z), "running")) == false) {
+				if (entity instanceof Player _player && !_player.level().isClientSide()) 
+					_player.displayClientMessage(Component.literal("Anylysing Fence boundardy"), (false));
+				if (entity instanceof Player _player && !_player.level().isClientSide())
+					_player.displayClientMessage(Component.literal("Found attached ender-marker"), (false));
 				if (true == (new Object() {
 					public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getBoolean(tag);
+							return blockEntity.getPersistentData().getBoolean(tag);
 						return false;
 					}
-				}.getValue(world, new BlockPos(xblock, yblock, zblock), "complete"))) {
-					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent("Succesfully established ender-boundary"), (false));
+				}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "complete"))) {
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Succesfully established ender-boundary"), (false));
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putDouble("state", 1);
+							_blockEntity.getPersistentData().putDouble("state", 1);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 				} else {
-					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent("Quarry marker square is incomplete"), (false));
-					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent("Unable to detect Fence boundary"), (false));
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Quarry marker square is incomplete"), (false));
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Unable to detect Fence boundary"), (false));
 				}
 			} else {
 				if ((new Object() {
 					public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getBoolean(tag);
+							return blockEntity.getPersistentData().getBoolean(tag);
 						return false;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "running")) == false) {
-					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent("Anylysing Fence boundardy"), (false));
-					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent("Unable to detect Fence boundary"), (false));
+				}.getValue(world, BlockPos.containing(x, y, z), "running")) == false) {
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Anylysing Fence boundardy"), (false));
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal("Unable to detect Fence boundary"), (false));
 				} else {
-					if (entity instanceof Player _player && !_player.level.isClientSide())
-						_player.displayClientMessage(new TextComponent((("State: \u00A7aActive\u00A7f - Scanned blocks: " + Math.round(new Object() {
+					if (entity instanceof Player _player && !_player.level().isClientSide())
+						_player.displayClientMessage(Component.literal((("State: \u00A7aActive\u00A7f - Scanned blocks: " + Math.round(new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "minedblocks"))) + "" + ((" [" + (new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "minedblocks"))) + "" + ((" [" + (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "xcoord"))) + "" + ((" " + (new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "xcoord"))) + "" + ((" " + (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "ycoord"))) + "" + (" " + ((new Object() {
+						}.getValue(world, BlockPos.containing(x, y, z), "ycoord"))) + "" + (" " + ((new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "zcoord")) + "]")))))), (true));
+						}.getValue(world, BlockPos.containing(x, y, z), "zcoord")) + "]")))))), (true));
 				}
 			}
 		} else if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "state") == 2) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("\u00A7aQuarry has finished!"), (true));
+		}.getValue(world, BlockPos.containing(x, y, z), "state") == 2) {
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("\u00A7aQuarry has finished!"), (true));
 		} else if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "state") == 3) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("\u00A7cMissing item storage!"), (true));
+		}.getValue(world, BlockPos.containing(x, y, z), "state") == 3) {
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("\u00A7cMissing item storage!"), (true));
 		} else if (new Object() {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "state") == 1) {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent((("State: \u00A7aActive\u00A7f - Scanned blocks: " + Math.round(new Object() {
+		}.getValue(world, BlockPos.containing(x, y, z), "state") == 1) {
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal((("State: \u00A7aActive\u00A7f - Scanned blocks: " + Math.round(new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "minedblocks"))) + "" + ((" [" + (new Object() {
+				}.getValue(world, BlockPos.containing(x, y, z), "minedblocks"))) + "" + ((" [" + (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "xcoord"))) + "" + ((" " + (new Object() {
+				}.getValue(world, BlockPos.containing(x, y, z), "xcoord"))) + "" + ((" " + (new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "ycoord"))) + "" + (" " + ((new Object() {
+				}.getValue(world, BlockPos.containing(x, y, z), "ycoord"))) + "" + (" " + ((new Object() {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "zcoord")) + "]")))))), (true));
+				}.getValue(world, BlockPos.containing(x, y, z), "zcoord")) + "]")))))), (true));
 		}
 	}
 }

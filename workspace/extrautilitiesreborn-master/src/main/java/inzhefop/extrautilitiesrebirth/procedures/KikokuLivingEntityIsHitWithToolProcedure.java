@@ -7,6 +7,6 @@ public class KikokuLivingEntityIsHitWithToolProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		entity.hurt(DamageSource.GENERIC, 4);
+		entity.hurt(entity.damageSources().generic(), 4);
 	}
 }

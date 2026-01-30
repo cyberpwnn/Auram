@@ -1,8 +1,8 @@
 {
   "parent": "extrautilitiesrebirth:custom/trashcan-fluid",
   "textures": {
-    "all": "extrautilitiesrebirth:blocks/trash-can_fluid",
-    "particle": "extrautilitiesrebirth:blocks/trash-can_fluid",
-    "texture": "extrautilitiesrebirth:blocks/trash-can_fluid"
+    "all": "extrautilitiesrebirth:block/trash-can_fluid",
+    "particle": "extrautilitiesrebirth:block/trash-can_fluid",
+    "texture": "extrautilitiesrebirth:block/trash-can_fluid"
   }
 }

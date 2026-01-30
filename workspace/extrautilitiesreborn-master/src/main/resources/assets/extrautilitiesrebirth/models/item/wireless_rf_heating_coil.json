@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/redstone_coil"
+    "layer0": "extrautilitiesrebirth:item/redstone_coil"
   }
 }

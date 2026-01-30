@@ -7,7 +7,7 @@ import net.minecraft.world.item.ShovelItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
 
 public class ErosionShovelItem extends ShovelItem {
@@ -36,6 +36,6 @@ public class ErosionShovelItem extends ShovelItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ExtrautilitiesrebirthModItems.UNSTABLE_INGOT.get()));
 			}
-		}, 1, 1f, new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).fireResistant());
+		}, 1, 1f, new Item.Properties().fireResistant());
 	}
 }

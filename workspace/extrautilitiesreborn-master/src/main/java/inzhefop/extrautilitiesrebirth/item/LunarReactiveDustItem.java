@@ -7,16 +7,16 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class LunarReactiveDustItem extends Item {
 	public LunarReactiveDustItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -27,6 +27,6 @@ public class LunarReactiveDustItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A77Resonator: Lapis Lazuli [16000 FE]"));
+		list.add(Component.literal("\u00A77Resonator: Lapis Lazuli [16000 FE]"));
 	}
 }

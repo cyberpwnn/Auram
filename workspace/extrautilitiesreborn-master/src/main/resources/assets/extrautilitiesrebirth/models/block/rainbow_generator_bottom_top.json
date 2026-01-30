@@ -1,8 +1,8 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "extrautilitiesrebirth:blocks/rainbow_generator",
-    "top": "extrautilitiesrebirth:blocks/rainbow_half_gray",
-    "side": "extrautilitiesrebirth:blocks/rainbow_generator_bottom"
+    "bottom": "extrautilitiesrebirth:block/rainbow_generator",
+    "top": "extrautilitiesrebirth:block/rainbow_half_gray",
+    "side": "extrautilitiesrebirth:block/rainbow_generator_bottom"
   }
 }

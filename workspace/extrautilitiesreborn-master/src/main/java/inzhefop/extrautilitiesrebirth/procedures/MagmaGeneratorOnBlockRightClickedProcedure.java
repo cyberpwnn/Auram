@@ -1,8 +1,9 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.fluids.capability.IFluidHandler;
-import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
+
 import net.minecraftforge.fluids.FluidStack;
 
 import net.minecraft.world.level.material.Fluids;
@@ -18,7 +19,7 @@ import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
@@ -33,10 +34,10 @@ public class MagmaGeneratorOnBlockRightClickedProcedure {
 			return;
 		if (Items.LAVA_BUCKET == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 			{
-				BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+				BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 				int _amount = 1000;
-				if (_ent != null)
-					_ent.getCapability(CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY, null)
+				if (_ent != null) 
+					_ent.getCapability(ForgeCapabilities.FLUID_HANDLER, null)
 							.ifPresent(capability -> capability.fill(new FluidStack(Fluids.LAVA, _amount), IFluidHandler.FluidAction.EXECUTE));
 			}
 			if (entity instanceof LivingEntity _entity) {
@@ -49,11 +50,11 @@ public class MagmaGeneratorOnBlockRightClickedProcedure {
 		} else {
 			{
 				if (entity instanceof ServerPlayer _ent) {
-					BlockPos _bpos = new BlockPos(x, y, z);
-					NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
+					BlockPos _bpos = BlockPos.containing(x, y, z);
+					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
-							return new TextComponent("NormalGUI");
+							return Component.literal("NormalGUI");
 						}
 
 						@Override

@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone",
-    "up": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone",
-    "north": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone",
-    "east": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone",
-    "south": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone",
-    "west": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone",
-    "particle": "extrautilitiesrebirth:blocks/septuple_compressed_cobblestone"
+    "down": "extrautilitiesrebirth:block/septuple_compressed_cobblestone",
+    "up": "extrautilitiesrebirth:block/septuple_compressed_cobblestone",
+    "north": "extrautilitiesrebirth:block/septuple_compressed_cobblestone",
+    "east": "extrautilitiesrebirth:block/septuple_compressed_cobblestone",
+    "south": "extrautilitiesrebirth:block/septuple_compressed_cobblestone",
+    "west": "extrautilitiesrebirth:block/septuple_compressed_cobblestone",
+    "particle": "extrautilitiesrebirth:block/septuple_compressed_cobblestone"
   }
 }

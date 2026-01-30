@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/redstone_generator_top",
-    "up": "extrautilitiesrebirth:blocks/redstone_generator_top",
-    "north": "extrautilitiesrebirth:blocks/redstone_generator_front",
-    "east": "extrautilitiesrebirth:blocks/redstonegenerator_side",
-    "south": "extrautilitiesrebirth:blocks/redstonegenerator_side",
-    "west": "extrautilitiesrebirth:blocks/redstonegenerator_side",
-    "particle": "extrautilitiesrebirth:blocks/redstone_generator_top"
+    "down": "extrautilitiesrebirth:block/redstone_generator_top",
+    "up": "extrautilitiesrebirth:block/redstone_generator_top",
+    "north": "extrautilitiesrebirth:block/redstone_generator_front",
+    "east": "extrautilitiesrebirth:block/redstonegenerator_side",
+    "south": "extrautilitiesrebirth:block/redstonegenerator_side",
+    "west": "extrautilitiesrebirth:block/redstonegenerator_side",
+    "particle": "extrautilitiesrebirth:block/redstone_generator_top"
   }
 }

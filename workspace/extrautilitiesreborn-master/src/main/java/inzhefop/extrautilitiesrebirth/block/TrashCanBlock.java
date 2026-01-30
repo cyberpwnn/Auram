@@ -1,6 +1,8 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -8,8 +10,8 @@ import net.minecraftforge.api.distmarker.Dist;
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -34,7 +36,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.Direction;
@@ -60,10 +62,10 @@ public class TrashCanBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public TrashCanBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1.2f, 30f).noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1.2f, 30f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-	}
+	} 
 
 	@Override
 	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
@@ -105,7 +107,7 @@ public class TrashCanBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -119,7 +121,7 @@ public class TrashCanBlock extends Block
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();
@@ -133,10 +135,10 @@ public class TrashCanBlock extends Block
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
 		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openGui(player, new MenuProvider() {
+			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Trash Can");
+					return Component.literal("Trash Can");
 				}
 
 				@Override

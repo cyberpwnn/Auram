@@ -1,11 +1,12 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -24,10 +25,9 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class EtherealGlassBlock extends Block {
 	public EtherealGlassBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(0.1f, 15f).noCollission().noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.GLASS).strength(0.1f, 15f).noCollission().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
-	}
-
+	} 
 	@Override
 	public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
 		return adjacentBlockState.getBlock() == this ? true : super.skipRendering(state, adjacentBlockState, side);
@@ -44,7 +44,7 @@ public class EtherealGlassBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

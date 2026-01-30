@@ -10,7 +10,6 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
@@ -18,6 +17,8 @@ import net.minecraft.core.BlockPos;
 import io.netty.buffer.Unpooled;
 
 import inzhefop.extrautilitiesrebirth.world.inventory.EnderQuarryGUIMenu;
+
+import java.awt.*;
 
 public class QuantumQuarryOnBlockRightClickedProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -27,17 +28,17 @@ public class QuantumQuarryOnBlockRightClickedProcedure {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getBoolean(tag);
+					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "assembled")) {
+		}.getValue(world, BlockPos.containing((int)x, (int)y, (int)z), "assembled")) {
 			{
 				if (entity instanceof ServerPlayer _ent) {
-					BlockPos _bpos = new BlockPos(x, y, z);
-					NetworkHooks.openGui((ServerPlayer) _ent, new MenuProvider() {
+					BlockPos _bpos = BlockPos.containing((int)x, (int)y, (int)z);
+					NetworkHooks.openScreen((ServerPlayer) _ent, new MenuProvider() {
 						@Override
 						public Component getDisplayName() {
-							return new TextComponent("EnderQuarryGUI");
+							return Component.literal("EnderQuarryGUI");
 						}
 
 						@Override
@@ -48,8 +49,8 @@ public class QuantumQuarryOnBlockRightClickedProcedure {
 				}
 			}
 		} else {
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("Missing Actuators!"), (true));
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("Missing Actuators!"), (true));
 		}
 	}
 }

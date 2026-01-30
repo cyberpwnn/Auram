@@ -7,7 +7,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.HoeItem;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
 
 public class ReversingHoeItem extends HoeItem {
@@ -36,6 +36,6 @@ public class ReversingHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ExtrautilitiesrebirthModItems.UNSTABLE_INGOT.get()));
 			}
-		}, 0, 16f, new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB));
+		}, 0, 16f, new Item.Properties());
 	}
 }

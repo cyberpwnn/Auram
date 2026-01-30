@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/enderquarry_bottom",
-    "up": "extrautilitiesrebirth:blocks/enderquarry_top",
-    "north": "extrautilitiesrebirth:blocks/enderquarry",
-    "east": "extrautilitiesrebirth:blocks/enderquarry",
-    "south": "extrautilitiesrebirth:blocks/enderquarry",
-    "west": "extrautilitiesrebirth:blocks/enderquarry",
-    "particle": "extrautilitiesrebirth:blocks/enderquarry_bottom"
+    "down": "extrautilitiesrebirth:block/enderquarry_bottom",
+    "up": "extrautilitiesrebirth:block/enderquarry_top",
+    "north": "extrautilitiesrebirth:block/enderquarry",
+    "east": "extrautilitiesrebirth:block/enderquarry",
+    "south": "extrautilitiesrebirth:block/enderquarry",
+    "west": "extrautilitiesrebirth:block/enderquarry",
+    "particle": "extrautilitiesrebirth:block/enderquarry_bottom"
   }
 }

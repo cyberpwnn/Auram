@@ -1,8 +1,9 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -24,13 +25,14 @@ import java.util.Collections;
 
 import inzhefop.extrautilitiesrebirth.procedures.CreativeEnergyStorageUpdateTickProcedure;
 import inzhefop.extrautilitiesrebirth.block.entity.CreativeEnergyStorageBlockEntity;
+import net.minecraft.world.level.storage.loot.LootParams;
 
 public class CreativeEnergyStorageBlock extends Block
 		implements
 
 			EntityBlock {
 	public CreativeEnergyStorageBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(-1, 3600000));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(-1, 3600000));
 	}
 
 	@Override
@@ -39,7 +41,7 @@ public class CreativeEnergyStorageBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -53,7 +55,7 @@ public class CreativeEnergyStorageBlock extends Block
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();

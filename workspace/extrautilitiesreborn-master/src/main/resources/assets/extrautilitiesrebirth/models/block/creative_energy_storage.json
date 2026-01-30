@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/creative_base",
-    "up": "extrautilitiesrebirth:blocks/creative_base",
-    "north": "extrautilitiesrebirth:blocks/creative_base",
-    "east": "extrautilitiesrebirth:blocks/creative_base",
-    "south": "extrautilitiesrebirth:blocks/creative_base",
-    "west": "extrautilitiesrebirth:blocks/creative_base",
-    "particle": "extrautilitiesrebirth:blocks/creative_base"
+    "down": "extrautilitiesrebirth:block/creative_base",
+    "up": "extrautilitiesrebirth:block/creative_base",
+    "north": "extrautilitiesrebirth:block/creative_base",
+    "east": "extrautilitiesrebirth:block/creative_base",
+    "south": "extrautilitiesrebirth:block/creative_base",
+    "west": "extrautilitiesrebirth:block/creative_base",
+    "particle": "extrautilitiesrebirth:block/creative_base"
   }
 }

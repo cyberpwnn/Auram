@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/fire_axe"
+    "layer0": "extrautilitiesrebirth:item/fire_axe"
   }
 }

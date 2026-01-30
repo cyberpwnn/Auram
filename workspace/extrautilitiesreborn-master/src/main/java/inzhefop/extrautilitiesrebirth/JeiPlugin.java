@@ -18,7 +18,6 @@ import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.world.BiomeLoadingEvent;
 import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -35,11 +34,6 @@ public class JeiPlugin {
 
 	@Mod.EventBusSubscriber
 	private static class ForgeBusEvents {
-		// Example Forge bus event registration
-		@SubscribeEvent
-		public static void addFeatureToBiomes(BiomeLoadingEvent event) {
-		}
-
 		@SubscribeEvent
 		public static void serverLoad(ServerStartingEvent event) {
 		}

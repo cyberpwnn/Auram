@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/furnace_generator_top",
-    "up": "extrautilitiesrebirth:blocks/furnace_generator_top",
-    "north": "extrautilitiesrebirth:blocks/enchanter_front",
-    "east": "extrautilitiesrebirth:blocks/furnace_generator",
-    "south": "extrautilitiesrebirth:blocks/furnace_generator",
-    "west": "extrautilitiesrebirth:blocks/furnace_generator",
-    "particle": "extrautilitiesrebirth:blocks/furnace_generator_top"
+    "down": "extrautilitiesrebirth:block/furnace_generator_top",
+    "up": "extrautilitiesrebirth:block/furnace_generator_top",
+    "north": "extrautilitiesrebirth:block/enchanter_front",
+    "east": "extrautilitiesrebirth:block/furnace_generator",
+    "south": "extrautilitiesrebirth:block/furnace_generator",
+    "west": "extrautilitiesrebirth:block/furnace_generator",
+    "particle": "extrautilitiesrebirth:block/furnace_generator_top"
   }
 }

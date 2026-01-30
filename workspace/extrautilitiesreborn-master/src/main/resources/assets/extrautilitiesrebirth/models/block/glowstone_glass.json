@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/glowstone_glass",
-    "up": "extrautilitiesrebirth:blocks/glowstone_glass",
-    "north": "extrautilitiesrebirth:blocks/glowstone_glass",
-    "east": "extrautilitiesrebirth:blocks/glowstone_glass",
-    "south": "extrautilitiesrebirth:blocks/glowstone_glass",
-    "west": "extrautilitiesrebirth:blocks/glowstone_glass",
-    "particle": "extrautilitiesrebirth:blocks/glowstone_glass"
+    "down": "extrautilitiesrebirth:block/glowstone_glass",
+    "up": "extrautilitiesrebirth:block/glowstone_glass",
+    "north": "extrautilitiesrebirth:block/glowstone_glass",
+    "east": "extrautilitiesrebirth:block/glowstone_glass",
+    "south": "extrautilitiesrebirth:block/glowstone_glass",
+    "west": "extrautilitiesrebirth:block/glowstone_glass",
+    "particle": "extrautilitiesrebirth:block/glowstone_glass"
   }
 }

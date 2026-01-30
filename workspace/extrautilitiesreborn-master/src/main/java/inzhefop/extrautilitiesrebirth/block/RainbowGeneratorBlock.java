@@ -1,11 +1,13 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.storage.loot.LootParams;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -46,10 +48,10 @@ public class RainbowGeneratorBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public RainbowGeneratorBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 8000f).lightLevel(s -> 10)
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 8000f).lightLevel(s -> 10)
 				.hasPostProcess((bs, br, bp) -> true).emissiveRendering((bs, br, bp) -> true));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-	}
+	} 
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
@@ -75,7 +77,7 @@ public class RainbowGeneratorBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -89,7 +91,7 @@ public class RainbowGeneratorBlock extends Block
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();

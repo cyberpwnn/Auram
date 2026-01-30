@@ -24,9 +24,9 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 public class AngelBlockprocedureProcedure {
 	@SubscribeEvent
 	public static void onRightClickItem(PlayerInteractEvent.RightClickItem event) {
-		if (event.getHand() != event.getPlayer().getUsedItemHand())
-			return;
-		execute(event, event.getWorld(), event.getPlayer());
+		if (event.getHand() != event.getEntity().getUsedItemHand())
+			return; 
+		execute(event, event.getLevel(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -39,16 +39,16 @@ public class AngelBlockprocedureProcedure {
 		if (ExtrautilitiesrebirthModBlocks.ANGEL_BLOCK.get()
 				.asItem() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 			world.setBlock(
-					new BlockPos(
-							entity.level
+					BlockPos.containing(
+							entity.level()
 									.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(3)),
 											ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity))
 									.getBlockPos().getX(),
-							entity.level
+							entity.level()
 									.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(3)),
 											ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity))
 									.getBlockPos().getY(),
-							entity.level
+							entity.level()
 									.clip(new ClipContext(entity.getEyePosition(1f), entity.getEyePosition(1f).add(entity.getViewVector(1f).scale(3)),
 											ClipContext.Block.OUTLINE, ClipContext.Fluid.NONE, entity))
 									.getBlockPos().getZ()),
@@ -57,7 +57,7 @@ public class AngelBlockprocedureProcedure {
 				public boolean checkGamemode(Entity _ent) {
 					if (_ent instanceof ServerPlayer _serverPlayer) {
 						return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.CREATIVE;
-					} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
+					} else if (_ent.level().isClientSide() && _ent instanceof Player _player) {
 						return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft
 								.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.CREATIVE;
 					}

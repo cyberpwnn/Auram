@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/creeper_glass",
-    "up": "extrautilitiesrebirth:blocks/creeper_glass",
-    "north": "extrautilitiesrebirth:blocks/creeper_glass",
-    "east": "extrautilitiesrebirth:blocks/creeper_glass",
-    "south": "extrautilitiesrebirth:blocks/creeper_glass",
-    "west": "extrautilitiesrebirth:blocks/creeper_glass",
-    "particle": "extrautilitiesrebirth:blocks/creeper_glass"
+    "down": "extrautilitiesrebirth:block/creeper_glass",
+    "up": "extrautilitiesrebirth:block/creeper_glass",
+    "north": "extrautilitiesrebirth:block/creeper_glass",
+    "east": "extrautilitiesrebirth:block/creeper_glass",
+    "south": "extrautilitiesrebirth:block/creeper_glass",
+    "west": "extrautilitiesrebirth:block/creeper_glass",
+    "particle": "extrautilitiesrebirth:block/creeper_glass"
   }
 }

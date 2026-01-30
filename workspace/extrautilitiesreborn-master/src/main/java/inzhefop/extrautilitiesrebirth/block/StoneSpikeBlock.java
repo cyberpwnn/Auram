@@ -1,11 +1,12 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -26,7 +27,7 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class StoneSpikeBlock extends Block {
 	public StoneSpikeBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(8f, 30f).noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(8f, 30f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -34,14 +35,14 @@ public class StoneSpikeBlock extends Block {
 	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
 		return true;
 	}
-
+ 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

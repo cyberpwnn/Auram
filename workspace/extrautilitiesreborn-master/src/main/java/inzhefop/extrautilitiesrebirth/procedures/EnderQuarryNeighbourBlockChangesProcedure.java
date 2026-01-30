@@ -54,27 +54,27 @@ public class EnderQuarryNeighbourBlockChangesProcedure {
 				yblock = y;
 				zblock = z - 1;
 			}
-			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_3.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock)))
+			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_3.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				speed = speed * 2.72;
 				powerdrain = powerdrain * 2;
 			}
-			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_2.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock)))
+			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_2.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				speed = speed * 2.15;
 				powerdrain = powerdrain * 1.5;
 			}
-			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SPEED_UPGRADE.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock)))
+			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SPEED_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				speed = speed * 1.71;
 				powerdrain = powerdrain * 1;
 			}
-			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock)))
+			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				silk = true;
 				powerdrain = powerdrain * 1.5;
 			}
-			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_WORLD_HOLE_UPGRADE.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock)))
+			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_WORLD_HOLE_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				hole = true;
 				powerdrain = powerdrain * 1;
@@ -82,56 +82,56 @@ public class EnderQuarryNeighbourBlockChangesProcedure {
 			counter1 = counter1 + 1;
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putDouble("eqspeed", Math.round(speed));
+				_blockEntity.getPersistentData().putDouble("eqspeed", Math.round(speed));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putDouble("eqfortune", Math.round(fortune));
+				_blockEntity.getPersistentData().putDouble("eqfortune", Math.round(fortune));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putDouble("eqpowerdrain", Math.round(powerdrain * 1));
+				_blockEntity.getPersistentData().putDouble("eqpowerdrain", Math.round(powerdrain * 1));
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putBoolean("eqhole", hole);
+				_blockEntity.getPersistentData().putBoolean("eqhole", hole);
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putBoolean("eqsilk", silk);
+				_blockEntity.getPersistentData().putBoolean("eqsilk", silk);
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putBoolean("eqrainbow", rain);
+				_blockEntity.getPersistentData().putBoolean("eqrainbow", rain);
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}

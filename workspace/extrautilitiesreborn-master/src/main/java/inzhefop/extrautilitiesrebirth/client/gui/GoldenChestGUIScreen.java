@@ -1,4 +1,3 @@
-
 package inzhefop.extrautilitiesrebirth.client.gui;
 
 import net.minecraft.world.level.Level;
@@ -7,13 +6,13 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
+import net.minecraft.client.gui.GuiGraphics; // Import GuiGraphics
 import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
 
 import inzhefop.extrautilitiesrebirth.world.inventory.GoldenChestGUIMenu;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class GoldenChestGUIScreen extends AbstractContainerScreen<GoldenChestGUIMenu> {
@@ -21,6 +20,8 @@ public class GoldenChestGUIScreen extends AbstractContainerScreen<GoldenChestGUI
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+
+	private static final ResourceLocation texture = new ResourceLocation("extrautilitiesrebirth:textures/screens/golden_chest_gui.png");
 
 	public GoldenChestGUIScreen(GoldenChestGUIMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -33,22 +34,23 @@ public class GoldenChestGUIScreen extends AbstractContainerScreen<GoldenChestGUI
 		this.imageHeight = 216;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("extrautilitiesrebirth:textures/screens/golden_chest_gui.png");
-
+	// 1.20.1: Use GuiGraphics instead of PoseStack
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+
+		// 1.20.1: Pass the texture directly to blit
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight);
+
 		RenderSystem.disableBlend();
 	}
 
@@ -67,19 +69,20 @@ public class GoldenChestGUIScreen extends AbstractContainerScreen<GoldenChestGUI
 	}
 
 	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Gold Chest", 7, 6, -12829636);
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		// 1.20.1: Use guiGraphics.drawString
+		guiGraphics.drawString(this.font, Component.literal("Gold Chest"), 7, 6, -12829636, false);
 	}
 
 	@Override
 	public void onClose() {
 		super.onClose();
-		Minecraft.getInstance().keyboardHandler.setSendRepeatsToGui(false);
+		// setSendRepeatsToGui removed in 1.20
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
+		// setSendRepeatsToGui removed in 1.20
 	}
 }

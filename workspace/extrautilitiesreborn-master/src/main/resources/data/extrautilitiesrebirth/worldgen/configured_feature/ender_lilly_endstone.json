@@ -1,0 +1,18 @@
+{
+  "type": "extrautilitiesrebirth:ender_lilly_endstone",
+  "config": {
+    "targets": [
+      {
+        "target": {
+          "predicate_type": "minecraft:block_match",
+          "block": "minecraft:end_stone"
+        },
+        "state": {
+          "Name": "extrautilitiesrebirth:ender_lilly_endstone"
+        }
+      }
+    ],
+    "size": 4,
+    "discard_chance_on_air_exposure": 0.0
+  }
+}

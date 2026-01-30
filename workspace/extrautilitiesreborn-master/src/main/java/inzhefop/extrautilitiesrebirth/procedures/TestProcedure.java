@@ -11,25 +11,25 @@ public class TestProcedure {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "progresstime") == 0)) {
+		}.getValue(world, BlockPos.containing(x, y, z), "progresstime") == 0)) {
 			fdf = ((new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "progress")) / (new Object() {
+			}.getValue(world, BlockPos.containing(x, y, z), "progress")) / (new Object() {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "progresstime"))) * 22;
+			}.getValue(world, BlockPos.containing(x, y, z), "progresstime"))) * 22;
 		}
 	}
 }

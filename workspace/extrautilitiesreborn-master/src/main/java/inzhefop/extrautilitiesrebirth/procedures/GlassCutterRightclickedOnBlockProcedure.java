@@ -1,5 +1,6 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.LevelAccessor;
@@ -17,9 +18,9 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
 public class GlassCutterRightclickedOnBlockProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate, Entity entity, ItemStack itemstack) {
 		if (entity == null)
-			return;
-		if (blockstate.getMaterial() == net.minecraft.world.level.material.Material.GLASS) {
-			world.setBlock(new BlockPos(x, y, z), Blocks.AIR.defaultBlockState(), 3);
+			return; 
+		if (blockstate.is(net.minecraftforge.common.Tags.Blocks.GLASS)) {
+			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof Level _level && !_level.isClientSide()) {
 				ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, (new ItemStack(blockstate.getBlock())));
 				entityToSpawn.setPickUpDelay(10);
@@ -27,7 +28,7 @@ public class GlassCutterRightclickedOnBlockProcedure {
 			}
 			{
 				ItemStack _ist = itemstack;
-				if (_ist.hurt(1, new Random(), null)) {
+				if (_ist.hurt(1, RandomSource.create(), null)) {
 					_ist.shrink(1);
 					_ist.setDamageValue(0);
 				}

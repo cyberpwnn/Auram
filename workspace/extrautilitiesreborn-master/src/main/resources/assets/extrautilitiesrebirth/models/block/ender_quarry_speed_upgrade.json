@@ -1,8 +1,8 @@
 {
   "parent": "extrautilitiesrebirth:custom/speed",
   "textures": {
-    "all": "extrautilitiesrebirth:blocks/quarryupgrade6",
-    "particle": "extrautilitiesrebirth:blocks/quarryupgrade6",
-    "texture": "extrautilitiesrebirth:blocks/quarryupgrade6"
+    "all": "extrautilitiesrebirth:block/quarryupgrade6",
+    "particle": "extrautilitiesrebirth:block/quarryupgrade6",
+    "texture": "extrautilitiesrebirth:block/quarryupgrade6"
   }
 }

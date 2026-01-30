@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/golden_edged_glass",
-    "up": "extrautilitiesrebirth:blocks/golden_edged_glass",
-    "north": "extrautilitiesrebirth:blocks/golden_edged_glass",
-    "east": "extrautilitiesrebirth:blocks/golden_edged_glass",
-    "south": "extrautilitiesrebirth:blocks/golden_edged_glass",
-    "west": "extrautilitiesrebirth:blocks/golden_edged_glass",
-    "particle": "extrautilitiesrebirth:blocks/golden_edged_glass"
+    "down": "extrautilitiesrebirth:block/golden_edged_glass",
+    "up": "extrautilitiesrebirth:block/golden_edged_glass",
+    "north": "extrautilitiesrebirth:block/golden_edged_glass",
+    "east": "extrautilitiesrebirth:block/golden_edged_glass",
+    "south": "extrautilitiesrebirth:block/golden_edged_glass",
+    "west": "extrautilitiesrebirth:block/golden_edged_glass",
+    "particle": "extrautilitiesrebirth:block/golden_edged_glass"
   }
 }

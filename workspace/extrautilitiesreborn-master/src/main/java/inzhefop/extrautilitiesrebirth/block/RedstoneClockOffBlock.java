@@ -1,8 +1,9 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -27,15 +28,16 @@ import java.util.Collections;
 
 import inzhefop.extrautilitiesrebirth.procedures.RedstoneClockUpdateTickProcedure;
 import inzhefop.extrautilitiesrebirth.block.entity.RedstoneClockOffBlockEntity;
+import net.minecraft.world.level.storage.loot.LootParams;
 
 public class RedstoneClockOffBlock extends Block
 		implements
 
 			EntityBlock {
 	public RedstoneClockOffBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(0.7f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(0.7f, 10f).requiresCorrectToolForDrops());
 	}
-
+ 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
@@ -64,7 +66,7 @@ public class RedstoneClockOffBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -78,7 +80,7 @@ public class RedstoneClockOffBlock extends Block
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();

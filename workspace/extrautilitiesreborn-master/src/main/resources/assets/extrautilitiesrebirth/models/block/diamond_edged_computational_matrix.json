@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/diamondcore",
-    "up": "extrautilitiesrebirth:blocks/diamondcore",
-    "north": "extrautilitiesrebirth:blocks/diamondcore",
-    "east": "extrautilitiesrebirth:blocks/diamondcore",
-    "south": "extrautilitiesrebirth:blocks/diamondcore",
-    "west": "extrautilitiesrebirth:blocks/diamondcore",
-    "particle": "extrautilitiesrebirth:blocks/diamondcore"
+    "down": "extrautilitiesrebirth:block/diamondcore",
+    "up": "extrautilitiesrebirth:block/diamondcore",
+    "north": "extrautilitiesrebirth:block/diamondcore",
+    "east": "extrautilitiesrebirth:block/diamondcore",
+    "south": "extrautilitiesrebirth:block/diamondcore",
+    "west": "extrautilitiesrebirth:block/diamondcore",
+    "particle": "extrautilitiesrebirth:block/diamondcore"
   }
 }

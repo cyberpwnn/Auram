@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/magical_log",
-    "up": "extrautilitiesrebirth:blocks/magical_log",
-    "north": "extrautilitiesrebirth:blocks/magical_log",
-    "east": "extrautilitiesrebirth:blocks/magical_log",
-    "south": "extrautilitiesrebirth:blocks/magical_log",
-    "west": "extrautilitiesrebirth:blocks/magical_log",
-    "particle": "extrautilitiesrebirth:blocks/magical_log"
+    "down": "extrautilitiesrebirth:block/magical_log",
+    "up": "extrautilitiesrebirth:block/magical_log",
+    "north": "extrautilitiesrebirth:block/magical_log",
+    "east": "extrautilitiesrebirth:block/magical_log",
+    "south": "extrautilitiesrebirth:block/magical_log",
+    "west": "extrautilitiesrebirth:block/magical_log",
+    "particle": "extrautilitiesrebirth:block/magical_log"
   }
 }

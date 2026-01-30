@@ -1,8 +1,8 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -30,6 +30,7 @@ import java.util.List;
 import java.util.Collections;
 
 import inzhefop.extrautilitiesrebirth.block.entity.InventoryInterfaceBlockEntity;
+import net.minecraft.world.level.storage.loot.LootParams;
 
 public class InventoryInterfaceBlock extends Block
 		implements
@@ -38,10 +39,10 @@ public class InventoryInterfaceBlock extends Block
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public InventoryInterfaceBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(1.5f, 30f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(1.5f, 30f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
-
+ 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
@@ -73,7 +74,7 @@ public class InventoryInterfaceBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

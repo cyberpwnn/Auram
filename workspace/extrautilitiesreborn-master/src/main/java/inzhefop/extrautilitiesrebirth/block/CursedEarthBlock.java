@@ -1,8 +1,9 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
+import net.minecraft.util.RandomSource;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -17,7 +18,7 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.MenuProvider;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
 
@@ -27,19 +28,20 @@ import java.util.Collections;
 
 import inzhefop.extrautilitiesrebirth.procedures.CursedEarthUpdateTickProcedure;
 import inzhefop.extrautilitiesrebirth.block.entity.CursedEarthBlockEntity;
+import net.minecraft.world.level.storage.loot.LootParams;
 
 public class CursedEarthBlock extends Block
 		implements
 
 			EntityBlock {
 	public CursedEarthBlock() {
-		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.GRAVEL).strength(3f, 20f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(3f, 20f));
 	}
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A77Apply a drop of evil to a grass-block"));
+		list.add(Component.literal("\u00A77Apply a drop of evil to a grass-block"));
 	}
 
 	@Override
@@ -48,7 +50,7 @@ public class CursedEarthBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -62,7 +64,7 @@ public class CursedEarthBlock extends Block
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();

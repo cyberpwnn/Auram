@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/compressed_gravel",
-    "up": "extrautilitiesrebirth:blocks/compressed_gravel",
-    "north": "extrautilitiesrebirth:blocks/compressed_gravel",
-    "east": "extrautilitiesrebirth:blocks/compressed_gravel",
-    "south": "extrautilitiesrebirth:blocks/compressed_gravel",
-    "west": "extrautilitiesrebirth:blocks/compressed_gravel",
-    "particle": "extrautilitiesrebirth:blocks/compressed_gravel"
+    "down": "extrautilitiesrebirth:block/compressed_gravel",
+    "up": "extrautilitiesrebirth:block/compressed_gravel",
+    "north": "extrautilitiesrebirth:block/compressed_gravel",
+    "east": "extrautilitiesrebirth:block/compressed_gravel",
+    "south": "extrautilitiesrebirth:block/compressed_gravel",
+    "west": "extrautilitiesrebirth:block/compressed_gravel",
+    "particle": "extrautilitiesrebirth:block/compressed_gravel"
   }
 }

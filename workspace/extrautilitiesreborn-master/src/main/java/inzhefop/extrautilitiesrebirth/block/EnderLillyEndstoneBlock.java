@@ -1,8 +1,8 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -15,10 +15,11 @@ import java.util.List;
 import java.util.Collections;
 
 import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
+import net.minecraft.world.level.storage.loot.LootParams;
 
 public class EnderLillyEndstoneBlock extends Block {
 	public EnderLillyEndstoneBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(2f, 50f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.STONE).strength(2f, 50f));
 	}
 
 	@Override
@@ -27,7 +28,7 @@ public class EnderLillyEndstoneBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

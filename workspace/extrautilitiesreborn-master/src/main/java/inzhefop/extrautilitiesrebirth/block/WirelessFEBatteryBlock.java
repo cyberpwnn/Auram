@@ -1,11 +1,13 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.storage.loot.LootParams;
 import org.checkerframework.checker.units.qual.s;
 
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -29,7 +31,7 @@ import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -49,16 +51,16 @@ public class WirelessFEBatteryBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public WirelessFEBatteryBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1.5f, 45f).lightLevel(s -> 4));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1.5f, 45f).lightLevel(s -> 4));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
-
+ 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent(
+		list.add(Component.literal(
 				"\u00A77To establish a connection use a wrench to (shift)right click on an block with energy storage then (shift) right click on the wireless fe battery to establish a connection!"));
-		list.add(new TextComponent("\u00A77Range: 10 Blocks!"));
+		list.add(Component.literal("\u00A77Range: 10 Blocks!"));
 	}
 
 	@Override
@@ -85,7 +87,7 @@ public class WirelessFEBatteryBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -99,7 +101,7 @@ public class WirelessFEBatteryBlock extends Block
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();

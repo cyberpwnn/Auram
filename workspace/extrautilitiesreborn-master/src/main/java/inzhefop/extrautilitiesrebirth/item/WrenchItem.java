@@ -9,17 +9,17 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
 import inzhefop.extrautilitiesrebirth.procedures.WrenchClickedOnBlockProcedureProcedure;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class WrenchItem extends Item {
 	public WrenchItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).stacksTo(1).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -30,9 +30,9 @@ public class WrenchItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent(
+		list.add(Component.literal(
 				"\u00A77*Sneak + Rightclick on Rainbow Generator to save it's coordinates. Then click on the generators to bind them!"));
-		list.add(new TextComponent("\u00A77*Connects Wireless Battery and reciever!"));
+		list.add(Component.literal("\u00A77*Connects Wireless Battery and reciever!"));
 	}
 
 	@Override

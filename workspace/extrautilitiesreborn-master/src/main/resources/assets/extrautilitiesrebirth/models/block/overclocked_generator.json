@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/overclocked_generator_top",
-    "up": "extrautilitiesrebirth:blocks/overclocked_generator_top",
-    "north": "extrautilitiesrebirth:blocks/overclocked_generator_front",
-    "east": "extrautilitiesrebirth:blocks/overclocked_side",
-    "south": "extrautilitiesrebirth:blocks/overclocked_side",
-    "west": "extrautilitiesrebirth:blocks/overclocked_side",
-    "particle": "extrautilitiesrebirth:blocks/overclocked_generator_top"
+    "down": "extrautilitiesrebirth:block/overclocked_generator_top",
+    "up": "extrautilitiesrebirth:block/overclocked_generator_top",
+    "north": "extrautilitiesrebirth:block/overclocked_generator_front",
+    "east": "extrautilitiesrebirth:block/overclocked_side",
+    "south": "extrautilitiesrebirth:block/overclocked_side",
+    "west": "extrautilitiesrebirth:block/overclocked_side",
+    "particle": "extrautilitiesrebirth:block/overclocked_generator_top"
   }
 }

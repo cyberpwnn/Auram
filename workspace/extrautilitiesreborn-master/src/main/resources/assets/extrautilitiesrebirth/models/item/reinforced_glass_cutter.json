@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/reinforced_glass_cutter"
+    "layer0": "extrautilitiesrebirth:item/reinforced_glass_cutter"
   }
 }

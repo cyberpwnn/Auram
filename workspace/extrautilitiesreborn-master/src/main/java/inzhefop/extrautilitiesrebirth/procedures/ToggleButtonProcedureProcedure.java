@@ -12,23 +12,23 @@ public class ToggleButtonProcedureProcedure {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "machinemode") < 2) {
+		}.getValue(world, BlockPos.containing(x, y, z), "machinemode") < 2) {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("machinemode", (1 + new Object() {
+					_blockEntity.getPersistentData().putDouble("machinemode", (1 + new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
-								return blockEntity.getTileData().getDouble(tag);
+								return blockEntity.getPersistentData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos(x, y, z), "machinemode")));
+					}.getValue(world, BlockPos.containing(x, y, z), "machinemode")));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -36,16 +36,16 @@ public class ToggleButtonProcedureProcedure {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "machinemode") == 1) {
+			}.getValue(world, BlockPos.containing(x, y, z), "machinemode") == 1) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putString("mode", "Place block");
+						_blockEntity.getPersistentData().putString("mode", "Place block");
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
@@ -54,27 +54,27 @@ public class ToggleButtonProcedureProcedure {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "machinemode") == 2) {
+			}.getValue(world, BlockPos.containing(x, y, z), "machinemode") == 2) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putString("mode", "Drop item");
+						_blockEntity.getPersistentData().putString("mode", "Drop item");
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 			}
 		} else {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("machinemode", 0);
+					_blockEntity.getPersistentData().putDouble("machinemode", 0);
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
@@ -82,16 +82,16 @@ public class ToggleButtonProcedureProcedure {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "machinemode") == 0) {
+			}.getValue(world, BlockPos.containing(x, y, z), "machinemode") == 0) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putString("mode", "Attack [5x5x5]");
+						_blockEntity.getPersistentData().putString("mode", "Attack [5x5x5]");
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}

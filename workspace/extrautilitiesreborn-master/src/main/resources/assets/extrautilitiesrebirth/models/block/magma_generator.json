@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/magmatic_top",
-    "up": "extrautilitiesrebirth:blocks/magmatic_top",
-    "north": "extrautilitiesrebirth:blocks/magmatic_front",
-    "east": "extrautilitiesrebirth:blocks/magmatic_side",
-    "south": "extrautilitiesrebirth:blocks/magmatic_side",
-    "west": "extrautilitiesrebirth:blocks/magmatic_side",
-    "particle": "extrautilitiesrebirth:blocks/magmatic_top"
+    "down": "extrautilitiesrebirth:block/magmatic_top",
+    "up": "extrautilitiesrebirth:block/magmatic_top",
+    "north": "extrautilitiesrebirth:block/magmatic_front",
+    "east": "extrautilitiesrebirth:block/magmatic_side",
+    "south": "extrautilitiesrebirth:block/magmatic_side",
+    "west": "extrautilitiesrebirth:block/magmatic_side",
+    "particle": "extrautilitiesrebirth:block/magmatic_top"
   }
 }

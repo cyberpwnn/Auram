@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/slimy_generator_top",
-    "up": "extrautilitiesrebirth:blocks/slimy_generator_top",
-    "north": "extrautilitiesrebirth:blocks/slimy_generator_front",
-    "east": "extrautilitiesrebirth:blocks/slimy_generator_side",
-    "south": "extrautilitiesrebirth:blocks/slimy_generator_side",
-    "west": "extrautilitiesrebirth:blocks/slimy_generator_side",
-    "particle": "extrautilitiesrebirth:blocks/slimy_generator_top"
+    "down": "extrautilitiesrebirth:block/slimy_generator_top",
+    "up": "extrautilitiesrebirth:block/slimy_generator_top",
+    "north": "extrautilitiesrebirth:block/slimy_generator_front",
+    "east": "extrautilitiesrebirth:block/slimy_generator_side",
+    "south": "extrautilitiesrebirth:block/slimy_generator_side",
+    "west": "extrautilitiesrebirth:block/slimy_generator_side",
+    "particle": "extrautilitiesrebirth:block/slimy_generator_top"
   }
 }

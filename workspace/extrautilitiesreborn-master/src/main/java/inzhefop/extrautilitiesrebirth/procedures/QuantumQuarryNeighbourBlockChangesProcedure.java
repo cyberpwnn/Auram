@@ -10,28 +10,28 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class QuantumQuarryNeighbourBlockChangesProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		if (ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(new BlockPos(x, y + 1, z))).getBlock()
-				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(new BlockPos(x, y - 1, z))).getBlock()
-				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(new BlockPos(x - 1, y, z))).getBlock()
-				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(new BlockPos(x + 1, y, z))).getBlock()
-				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(new BlockPos(x, y, z + 1))).getBlock()
-				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(new BlockPos(x, y, z - 1))).getBlock()) {
+		if (ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(BlockPos.containing(x, y + 1, z))).getBlock()
+				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock()
+				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock()
+				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock()
+				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock()
+				&& ExtrautilitiesrebirthModBlocks.QUANTUM_QUARRY_ACTUATOR.get() == (world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock()) {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getTileData().putBoolean("assembled", (true));
+					_blockEntity.getPersistentData().putBoolean("assembled", (true));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
 		} else {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getTileData().putBoolean("assembled", (false));
+					_blockEntity.getPersistentData().putBoolean("assembled", (false));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}

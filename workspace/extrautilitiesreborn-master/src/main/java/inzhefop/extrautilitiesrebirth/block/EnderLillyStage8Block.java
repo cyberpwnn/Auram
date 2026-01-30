@@ -1,14 +1,15 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -41,10 +42,10 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class EnderLillyStage8Block extends Block {
 	public EnderLillyStage8Block() {
-		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission().noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
-
+ 
 	@Override
 	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
 		return true;
@@ -81,7 +82,7 @@ public class EnderLillyStage8Block extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

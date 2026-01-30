@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/reroll_apple"
+    "layer0": "extrautilitiesrebirth:item/reroll_apple"
   }
 }

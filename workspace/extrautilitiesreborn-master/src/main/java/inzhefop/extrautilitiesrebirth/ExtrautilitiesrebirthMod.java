@@ -13,6 +13,15 @@
  */
 package inzhefop.extrautilitiesrebirth;
 
+import inzhefop.extrautilitiesrebirth.init.*;
+import net.minecraft.core.registries.Registries;
+import net.minecraft.network.chat.Component;
+import net.minecraft.world.item.CreativeModeTab;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -30,32 +39,35 @@ import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModParticleTypes;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModFeatures;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlockEntities;
-
 @Mod("extrautilitiesrebirth")
 public class ExtrautilitiesrebirthMod {
 	public static final Logger LOGGER = LogManager.getLogger(ExtrautilitiesrebirthMod.class);
 	public static final String MODID = "extrautilitiesrebirth";
 	private static final String PROTOCOL_VERSION = "1";
-	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(new ResourceLocation(MODID, MODID), () -> PROTOCOL_VERSION,
+	public static final SimpleChannel PACKET_HANDLER = NetworkRegistry.newSimpleChannel(ResourceLocation.tryBuild(MODID, MODID), () -> PROTOCOL_VERSION,
 			PROTOCOL_VERSION::equals, PROTOCOL_VERSION::equals);
 	private static int messageID = 0;
-
-	public ExtrautilitiesrebirthMod() {
-		ExtrautilitiesrebirthModTabs.load();
-		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+	public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
+	public static final RegistryObject<CreativeModeTab> TAB = CREATIVE_TABS.register("auram_tab", () -> CreativeModeTab.builder()
+			.title(Component.literal("Extra Utilities"))
+			.icon(() -> new ItemStack(ExtrautilitiesrebirthModItems.CREATIVE_INV_SAMPLE.get()))
+			.displayItems((params, output) -> {
+				for (RegistryObject<Item> item : ExtrautilitiesrebirthModItems.REGISTRY.getEntries()) {
+					output.accept(item.get());
+				}
+			})
+			.build());
+	
+	public ExtrautilitiesrebirthMod(FMLJavaModLoadingContext context) {
+		
+		IEventBus bus = context.getModEventBus();
 		ExtrautilitiesrebirthModBlocks.REGISTRY.register(bus);
 		ExtrautilitiesrebirthModItems.REGISTRY.register(bus);
-
+		ExtrautilitiesrebirthModMenus.register(bus);
 		ExtrautilitiesrebirthModBlockEntities.REGISTRY.register(bus);
 		ExtrautilitiesrebirthModFeatures.REGISTRY.register(bus);
-
 		ExtrautilitiesrebirthModParticleTypes.REGISTRY.register(bus);
+		CREATIVE_TABS.register(bus);
 	}
 
 	public static <T> void addNetworkMessage(Class<T> messageType, BiConsumer<T, FriendlyByteBuf> encoder, Function<FriendlyByteBuf, T> decoder,

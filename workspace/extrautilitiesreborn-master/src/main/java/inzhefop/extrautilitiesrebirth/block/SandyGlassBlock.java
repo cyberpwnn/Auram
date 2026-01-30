@@ -1,11 +1,12 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -26,7 +27,7 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class SandyGlassBlock extends Block {
 	public SandyGlassBlock() {
-		super(BlockBehaviour.Properties.of(Material.GLASS).sound(SoundType.GLASS).strength(1f, 10f).noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.GLASS).strength(1f, 10f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -34,7 +35,7 @@ public class SandyGlassBlock extends Block {
 	public boolean shouldDisplayFluidOverlay(BlockState state, BlockAndTintGetter world, BlockPos pos, FluidState fluidstate) {
 		return true;
 	}
-
+ 
 	@Override
 	public boolean skipRendering(BlockState state, BlockState adjacentBlockState, Direction side) {
 		return adjacentBlockState.getBlock() == this ? true : super.skipRendering(state, adjacentBlockState, side);
@@ -46,7 +47,7 @@ public class SandyGlassBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

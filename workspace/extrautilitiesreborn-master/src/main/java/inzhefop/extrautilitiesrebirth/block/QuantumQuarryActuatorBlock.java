@@ -1,9 +1,10 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -22,7 +23,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -36,14 +37,14 @@ public class QuantumQuarryActuatorBlock extends Block {
 	public static final DirectionProperty FACING = DirectionalBlock.FACING;
 
 	public QuantumQuarryActuatorBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(2f, 800f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2f, 800f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
 	}
-
+ 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A7c\u00A7lWIP!"));
+		list.add(Component.literal("\u00A7c\u00A7lWIP!"));
 	}
 
 	@Override
@@ -77,7 +78,7 @@ public class QuantumQuarryActuatorBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

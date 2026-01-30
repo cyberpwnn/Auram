@@ -1,8 +1,8 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -10,22 +10,23 @@ import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.core.BlockPos;
+import net.minecraft.world.level.storage.loot.LootParams;
 
 import java.util.List;
 import java.util.Collections;
 
 public class MagicalPlanksBlock extends Block {
 	public MagicalPlanksBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(0.7f, 15f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(0.7f, 15f));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
 	}
-
+ 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

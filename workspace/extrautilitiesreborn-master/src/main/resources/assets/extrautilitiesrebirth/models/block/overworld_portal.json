@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/overworld_portal",
-    "up": "extrautilitiesrebirth:blocks/overworld_portal",
-    "north": "extrautilitiesrebirth:blocks/overworld_portal",
-    "east": "extrautilitiesrebirth:blocks/overworld_portal",
-    "south": "extrautilitiesrebirth:blocks/overworld_portal",
-    "west": "extrautilitiesrebirth:blocks/overworld_portal",
-    "particle": "extrautilitiesrebirth:blocks/overworld_portal"
+    "down": "extrautilitiesrebirth:block/overworld_portal",
+    "up": "extrautilitiesrebirth:block/overworld_portal",
+    "north": "extrautilitiesrebirth:block/overworld_portal",
+    "east": "extrautilitiesrebirth:block/overworld_portal",
+    "south": "extrautilitiesrebirth:block/overworld_portal",
+    "west": "extrautilitiesrebirth:block/overworld_portal",
+    "particle": "extrautilitiesrebirth:block/overworld_portal"
   }
 }

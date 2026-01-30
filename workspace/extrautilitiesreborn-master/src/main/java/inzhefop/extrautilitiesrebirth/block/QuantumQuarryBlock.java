@@ -1,9 +1,10 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
@@ -27,7 +28,7 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.Containers;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
@@ -46,14 +47,14 @@ public class QuantumQuarryBlock extends Block
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 
 	public QuantumQuarryBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(2.5f, 8000f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2.5f, 8000f).requiresCorrectToolForDrops());
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH));
-	}
+	} 
 
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A7c\u00A7lWIP!"));
+		list.add(Component.literal("\u00A7c\u00A7lWIP!"));
 	}
 
 	@Override
@@ -87,7 +88,7 @@ public class QuantumQuarryBlock extends Block
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

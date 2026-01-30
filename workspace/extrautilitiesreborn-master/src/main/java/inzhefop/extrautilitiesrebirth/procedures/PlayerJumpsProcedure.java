@@ -1,7 +1,8 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraft.util.RandomSource;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -24,7 +25,7 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
 public class PlayerJumpsProcedure {
 	@SubscribeEvent
 	public static void onEntityJump(LivingEvent.LivingJumpEvent event) {
-		execute(event, event.getEntityLiving().level, event.getEntityLiving());
+		execute(event, event.getEntity().level(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, Entity entity) {
@@ -40,7 +41,7 @@ public class PlayerJumpsProcedure {
 				: false) {
 			{
 				AtomicReference<IItemHandler> _iitemhandlerref = new AtomicReference<>();
-				entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> _iitemhandlerref.set(capability));
+				entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _iitemhandlerref.set(capability));
 				if (_iitemhandlerref.get() != null) {
 					for (int _idx = 0; _idx < _iitemhandlerref.get().getSlots(); _idx++) {
 						ItemStack itemstackiterator = _iitemhandlerref.get().getStackInSlot(_idx).copy();
@@ -50,7 +51,7 @@ public class PlayerJumpsProcedure {
 							damagedone = true;
 							{
 								ItemStack _ist = itemstackiterator;
-								if (_ist.hurt(1, new Random(), null)) {
+								if (_ist.hurt(1, RandomSource.create(), null)) {
 									_ist.shrink(1);
 									_ist.setDamageValue(0);
 								}
@@ -64,7 +65,7 @@ public class PlayerJumpsProcedure {
 				: false) {
 			{
 				AtomicReference<IItemHandler> _iitemhandlerref = new AtomicReference<>();
-				entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> _iitemhandlerref.set(capability));
+				entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> _iitemhandlerref.set(capability));
 				if (_iitemhandlerref.get() != null) {
 					for (int _idx = 0; _idx < _iitemhandlerref.get().getSlots(); _idx++) {
 						ItemStack itemstackiterator = _iitemhandlerref.get().getStackInSlot(_idx).copy();

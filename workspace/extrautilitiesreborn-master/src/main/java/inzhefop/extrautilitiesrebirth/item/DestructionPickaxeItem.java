@@ -7,7 +7,7 @@ import net.minecraft.world.item.PickaxeItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
 
 public class DestructionPickaxeItem extends PickaxeItem {
@@ -36,6 +36,6 @@ public class DestructionPickaxeItem extends PickaxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ExtrautilitiesrebirthModItems.UNSTABLE_INGOT.get()));
 			}
-		}, 1, -3f, new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).fireResistant());
+		}, 1, -3f, new Item.Properties().fireResistant());
 	}
 }

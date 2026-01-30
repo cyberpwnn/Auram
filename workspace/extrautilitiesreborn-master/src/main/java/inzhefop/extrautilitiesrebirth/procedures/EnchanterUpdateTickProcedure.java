@@ -1,8 +1,9 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.energy.CapabilityEnergy;
+
+
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -34,21 +35,21 @@ public class EnchanterUpdateTickProcedure {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
-				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+				if (_ent != null) 
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem()) {
 			output = new ItemStack(ExtrautilitiesrebirthModBlocks.MAGICAL_WOOD.get());
 			req_time = 80 * 20 * 1;
 			req_fe = 64000;
@@ -61,20 +62,20 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem()) {
 			output = new ItemStack(ExtrautilitiesrebirthModItems.ENCHANTED_INGOT.get());
 			req_time = 10 * 20 * 1;
 			req_fe = 8000;
@@ -87,20 +88,20 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem()) {
 			output = new ItemStack(ExtrautilitiesrebirthModBlocks.BLOCK_OF_ENCHANED_METAL.get());
 			req_time = 30 * 20 * 1;
 			req_fe = 24000;
@@ -113,20 +114,20 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && Items.NETHER_STAR == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && Items.NETHER_STAR == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem()) {
 			output = new ItemStack(ExtrautilitiesrebirthModBlocks.BLOCK_OF_EVIL_INFUSED_IRON.get());
 			req_time = 240 * 20 * 1;
 			req_fe = 192000;
@@ -139,20 +140,20 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && Items.LAPIS_LAZULI == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem()) {
 			output = new ItemStack(ExtrautilitiesrebirthModItems.MAGICAL_APPLE.get());
 			req_time = 20 * 20 * 1;
 			req_fe = 16000;
@@ -165,20 +166,20 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && Items.NETHER_STAR == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && Items.NETHER_STAR == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1)).getItem()) {
 			output = new ItemStack(ExtrautilitiesrebirthModItems.EVIL_INFUSED_IRON_INGOT.get());
 			req_time = 80 * 20 * 1;
 			req_fe = 24000;
@@ -191,21 +192,21 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem()
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem()
 				&& EnchantmentHelper.getItemEnchantmentLevel(Enchantments.SILK_TOUCH, (new Object() {
 					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						BlockEntity _ent = world.getBlockEntity(pos);
 						if (_ent != null)
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 						return _retval.get();
 					}
-				}.getItemStack(world, new BlockPos(x, y, z), 1))) != 0) {
+				}.getItemStack(world, BlockPos.containing(x, y, z), 1))) != 0) {
 			output = new ItemStack(ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE.get());
 			req_time = 120 * 20 * 1;
 			req_fe = 64000;
@@ -218,30 +219,30 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && ((new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && ((new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1))).isEnchanted()
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1))).isEnchanted()
 				&& EnchantmentHelper.getItemEnchantmentLevel(Enchantments.BLOCK_EFFICIENCY, (new Object() {
 					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						BlockEntity _ent = world.getBlockEntity(pos);
 						if (_ent != null)
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 						return _retval.get();
 					}
-				}.getItemStack(world, new BlockPos(x, y, z), 1))) >= 3) {
+				}.getItemStack(world, BlockPos.containing(x, y, z), 1))) >= 3) {
 			output = new ItemStack(ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_2.get());
 			req_time = 120 * 20 * 1;
 			req_fe = 64000;
@@ -254,30 +255,30 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 0)).getItem() && ((new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem() && ((new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 1))).isEnchanted()
+		}.getItemStack(world, BlockPos.containing(x, y, z), 1))).isEnchanted()
 				&& EnchantmentHelper.getItemEnchantmentLevel(Enchantments.BLOCK_EFFICIENCY, (new Object() {
 					public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						BlockEntity _ent = world.getBlockEntity(pos);
 						if (_ent != null)
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 									.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 						return _retval.get();
 					}
-				}.getItemStack(world, new BlockPos(x, y, z), 1))) >= 5) {
+				}.getItemStack(world, BlockPos.containing(x, y, z), 1))) >= 5) {
 			output = new ItemStack(ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_3.get());
 			req_time = 120 * 20 * 1;
 			req_fe = 64000;
@@ -290,58 +291,58 @@ public class EnchanterUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem() || ExtrautilitiesrebirthModItems.ENCHANTED_SPEED_UPGRADE.get() == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 3)).getItem() || ExtrautilitiesrebirthModItems.ENCHANTED_SPEED_UPGRADE.get() == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem() || ExtrautilitiesrebirthModItems.SUPER_SPEED_UPGRADE.get() == (new Object() {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 3)).getItem() || ExtrautilitiesrebirthModItems.SUPER_SPEED_UPGRADE.get() == (new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 3)).getItem()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 3)).getItem()) {
 			mulktiplierx = new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 3);
+			}.getAmount(world, BlockPos.containing(x, y, z), 3);
 			req_fe = req_fe * (new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 3) / 12);
+			}.getAmount(world, BlockPos.containing(x, y, z), 3) / 12);
 		} else {
 			mulktiplierx = 0;
 		}
 		if (!world.isClientSide()) {
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockEntity _blockEntity = world.getBlockEntity(_bp);
 			BlockState _bs = world.getBlockState(_bp);
 			if (_blockEntity != null)
-				_blockEntity.getTileData().putDouble("progresstime", req_time);
+				_blockEntity.getPersistentData().putDouble("progresstime", req_time);
 			if (world instanceof Level _level)
 				_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 		}
@@ -351,68 +352,68 @@ public class EnchanterUpdateTickProcedure {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 0) >= req_bases && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), 0) >= req_bases && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 1) >= required_resources && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), 1) >= required_resources && new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 2) < 65 - res_count && new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), 2) < 65 - res_count && new Object() {
 				public int getEnergyStored(LevelAccessor level, BlockPos pos) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 					return _retval.get();
 				}
-			}.getEnergyStored(world, new BlockPos(x, y, z)) >= req_fe && (new Object() {
+			}.getEnergyStored(world, BlockPos.containing(x, y, z)) >= req_fe && (new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 2) == 0 || output.getItem() == (new Object() {
+			}.getAmount(world, BlockPos.containing(x, y, z), 2) == 0 || output.getItem() == (new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), 2)).getItem())) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), 2)).getItem())) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("progress", (new Object() {
+						_blockEntity.getPersistentData().putDouble("progress", (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "progress") + 1 + mulktiplierx * 1.54));
+						}.getValue(world, BlockPos.containing(x, y, z), "progress") + 1 + mulktiplierx * 1.54));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
@@ -420,12 +421,12 @@ public class EnchanterUpdateTickProcedure {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "progress") >= req_time) {
+				}.getValue(world, BlockPos.containing(x, y, z), "progress") >= req_time) {
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						if (_ent != null) {
 							final int _slotid = 2;
 							final ItemStack _setstack = output;
@@ -434,23 +435,23 @@ public class EnchanterUpdateTickProcedure {
 									AtomicInteger _retval = new AtomicInteger(0);
 									BlockEntity _ent = world.getBlockEntity(pos);
 									if (_ent != null)
-										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 									return _retval.get();
 								}
-							}.getAmount(world, new BlockPos(x, y, z), 2) + res_count));
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+							}.getAmount(world, BlockPos.containing(x, y, z), 2) + res_count));
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable)
 									((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
 							});
 						}
 					}
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						if (_ent != null) {
 							final int _slotid = 0;
 							final int _amount = (int) req_bases;
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 									_stk.shrink(_amount);
@@ -460,17 +461,17 @@ public class EnchanterUpdateTickProcedure {
 						}
 					}
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						int _amount = (int) req_fe;
 						if (_ent != null)
-							_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
+							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
 					}
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						if (_ent != null) {
 							final int _slotid = 1;
 							final int _amount = (int) required_resources;
-							_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+							_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable) {
 									ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 									_stk.shrink(_amount);
@@ -480,11 +481,11 @@ public class EnchanterUpdateTickProcedure {
 						}
 					}
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putDouble("progress", 0);
+							_blockEntity.getPersistentData().putDouble("progress", 0);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -492,11 +493,11 @@ public class EnchanterUpdateTickProcedure {
 			}
 		} else {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("progress", 0);
+					_blockEntity.getPersistentData().putDouble("progress", 0);
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}

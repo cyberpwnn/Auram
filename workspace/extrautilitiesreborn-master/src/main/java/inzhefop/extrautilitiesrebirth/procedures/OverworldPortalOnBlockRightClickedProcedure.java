@@ -1,5 +1,6 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
@@ -15,7 +16,7 @@ import net.minecraft.network.protocol.game.ClientboundUpdateMobEffectPacket;
 import net.minecraft.network.protocol.game.ClientboundPlayerAbilitiesPacket;
 import net.minecraft.network.protocol.game.ClientboundLevelEventPacket;
 import net.minecraft.network.protocol.game.ClientboundGameEventPacket;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.core.BlockPos;
 
 import inzhefop.extrautilitiesrebirth.network.ExtrautilitiesrebirthModVariables;
@@ -47,13 +48,13 @@ public class OverworldPortalOnBlockRightClickedProcedure {
 					capability.syncPlayerVariables(entity);
 				});
 			}
-			if (entity instanceof Player _player && !_player.level.isClientSide())
-				_player.displayClientMessage(new TextComponent("Set overworld-return-position"), (false));
+			if (entity instanceof Player _player && !_player.level().isClientSide())
+				_player.displayClientMessage(Component.literal("Set overworld-return-position"), (false));
 		}
 		if (!((Level.OVERWORLD) == (world instanceof Level _lvl ? _lvl.dimension() : Level.OVERWORLD))) {
-			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
+			if (entity instanceof ServerPlayer _player && !_player.level().isClientSide()) {
 				ResourceKey<Level> destinationType = Level.OVERWORLD;
-				if (_player.level.dimension() == destinationType)
+				if (_player.level().dimension() == destinationType)
 					return;
 				ServerLevel nextLevel = _player.server.getLevel(destinationType);
 				if (nextLevel != null) {

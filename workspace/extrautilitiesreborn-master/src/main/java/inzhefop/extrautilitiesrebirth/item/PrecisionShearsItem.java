@@ -6,11 +6,11 @@ import net.minecraft.world.item.ShearsItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class PrecisionShearsItem extends ShearsItem {
 	public PrecisionShearsItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).durability(0));
+		super(new Item.Properties().durability(0));
 	}
 
 	@Override

@@ -7,7 +7,7 @@ import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModItems;
 
 public class EthericSwordItem extends SwordItem {
@@ -36,6 +36,6 @@ public class EthericSwordItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(ExtrautilitiesrebirthModItems.UNSTABLE_INGOT.get()));
 			}
-		}, 3, 15f, new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).fireResistant());
+		}, 3, 15f, new Item.Properties().fireResistant());
 	}
 }

@@ -16,7 +16,7 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 public class EnderLillyRightClickedProcedureProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		{
-			BlockPos _bp = new BlockPos(x, y, z);
+			BlockPos _bp = BlockPos.containing(x, y, z);
 			BlockState _bs = ExtrautilitiesrebirthModBlocks.ENDER_LILLY_STAGE_1.get().defaultBlockState();
 			BlockState _bso = world.getBlockState(_bp);
 			for (Map.Entry<Property<?>, Comparable<?>> entry : _bso.getValues().entrySet()) {

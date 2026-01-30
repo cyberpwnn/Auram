@@ -1,13 +1,15 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -34,7 +36,7 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class EnderLillyStage3Block extends Block {
 	public EnderLillyStage3Block() {
-		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission().noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission().noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -54,7 +56,7 @@ public class EnderLillyStage3Block extends Block {
 		return box(4, 0, 4, 12, 8, 12);
 	}
 
-	@Override
+	@Override 
 	public boolean canSurvive(BlockState blockstate, LevelReader worldIn, BlockPos pos) {
 		if (worldIn instanceof LevelAccessor world) {
 			int x = pos.getX();
@@ -74,7 +76,7 @@ public class EnderLillyStage3Block extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
@@ -88,7 +90,7 @@ public class EnderLillyStage3Block extends Block {
 	}
 
 	@Override
-	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, Random random) {
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();

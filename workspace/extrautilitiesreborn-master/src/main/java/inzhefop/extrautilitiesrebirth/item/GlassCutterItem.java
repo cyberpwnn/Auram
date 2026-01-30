@@ -9,11 +9,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
 import inzhefop.extrautilitiesrebirth.procedures.GlassCutterRightclickedOnBlockProcedure;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class GlassCutterItem extends Item {
 	public GlassCutterItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).durability(256).rarity(Rarity.COMMON));
+		super(new Item.Properties().durability(256).rarity(Rarity.COMMON));
 	}
 
 	@Override
@@ -27,7 +27,7 @@ public class GlassCutterItem extends Item {
 	}
 
 	@Override
-	public ItemStack getContainerItem(ItemStack itemstack) {
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
 		ItemStack retval = new ItemStack(this);
 		retval.setDamageValue(itemstack.getDamageValue() + 1);
 		if (retval.getDamageValue() >= retval.getMaxDamage()) {

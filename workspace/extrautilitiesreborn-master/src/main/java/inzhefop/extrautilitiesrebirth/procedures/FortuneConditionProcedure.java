@@ -43,15 +43,15 @@ public class FortuneConditionProcedure {
 				yblock = y;
 				zblock = z - 1;
 			}
-			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY.get() == (world.getBlockState(new BlockPos(xblock, yblock, zblock))).getBlock()
+			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock))).getBlock()
 					&& new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
-								return blockEntity.getTileData().getDouble(tag);
+								return blockEntity.getPersistentData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos(xblock, yblock, zblock), "fortune") != 0) {
+					}.getValue(world, BlockPos.containing(xblock, yblock, zblock), "fortune") != 0) {
 				return true;
 			}
 			counter1 = counter1 + 1;

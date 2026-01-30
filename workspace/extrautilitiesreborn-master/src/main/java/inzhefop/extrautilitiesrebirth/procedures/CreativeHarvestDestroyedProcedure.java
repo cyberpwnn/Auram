@@ -20,7 +20,7 @@ public class CreativeHarvestDestroyedProcedure {
 				_level.addFreshEntity(entityToSpawn);
 			}
 		} else {
-			world.setBlock(new BlockPos(x, y, z), ExtrautilitiesrebirthModBlocks.CREATIVE_HARVEST.get().defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y, z), ExtrautilitiesrebirthModBlocks.CREATIVE_HARVEST.get().defaultBlockState(), 3);
 		}
 	}
 }

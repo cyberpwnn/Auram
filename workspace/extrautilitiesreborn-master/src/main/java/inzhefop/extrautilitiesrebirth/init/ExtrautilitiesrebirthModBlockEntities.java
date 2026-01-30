@@ -60,7 +60,7 @@ import inzhefop.extrautilitiesrebirth.block.entity.BedrockDrumBlockEntity;
 import inzhefop.extrautilitiesrebirth.ExtrautilitiesrebirthMod;
 
 public class ExtrautilitiesrebirthModBlockEntities {
-	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITIES,
+	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES,
 			ExtrautilitiesrebirthMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> GOLD_CHEST = register("gold_chest", ExtrautilitiesrebirthModBlocks.GOLD_CHEST,
 			GoldChestBlockEntity::new);

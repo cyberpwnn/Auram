@@ -1,11 +1,12 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -41,7 +42,7 @@ public class ChunkLoadingWandBlock extends Block implements SimpleWaterloggedBlo
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
 	public ChunkLoadingWandBlock() {
-		super(BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(5f, 50f).noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.WOOD).strength(5f, 50f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
@@ -90,7 +91,7 @@ public class ChunkLoadingWandBlock extends Block implements SimpleWaterloggedBlo
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

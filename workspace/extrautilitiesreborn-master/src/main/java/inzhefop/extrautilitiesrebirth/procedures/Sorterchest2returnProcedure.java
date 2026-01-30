@@ -30,8 +30,8 @@ public class Sorterchest2returnProcedure {
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x - 1, y, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x - 1, y, z)));
 			target_x = x - 1;
 			target_y = y;
 			target_z = z;
@@ -46,8 +46,8 @@ public class Sorterchest2returnProcedure {
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y, z + 1)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y, z + 1)));
 			target_x = x;
 			target_y = y;
 			target_z = z + 1;
@@ -62,8 +62,8 @@ public class Sorterchest2returnProcedure {
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y, z - 1)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y, z - 1)));
 			target_x = x;
 			target_y = y;
 			target_z = z - 1;
@@ -78,8 +78,8 @@ public class Sorterchest2returnProcedure {
 					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x + 1, y, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x + 1, y, z)));
 			target_x = x + 1;
 			target_y = y;
 			target_z = z;
@@ -93,7 +93,7 @@ public class Sorterchest2returnProcedure {
 				} ;
 				return slots;
 			}
-		}.getValue(world, new BlockPos((int) target_x, (int) target_y, (int) target_z)) > 0) {
+		}.getValue(world, BlockPos.containing((int) target_x, (int) target_y, (int) target_z)) > 0) {
 			return false;
 		}
 		return true;

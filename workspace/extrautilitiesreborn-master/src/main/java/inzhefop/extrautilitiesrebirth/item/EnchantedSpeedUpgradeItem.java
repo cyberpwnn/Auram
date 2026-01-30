@@ -9,11 +9,11 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class EnchantedSpeedUpgradeItem extends Item {
 	public EnchantedSpeedUpgradeItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).stacksTo(12).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(12).rarity(Rarity.COMMON));
 	}
 
 	@Override

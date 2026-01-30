@@ -10,11 +10,11 @@ import net.minecraft.world.InteractionResultHolder;
 import net.minecraft.world.InteractionHand;
 
 import inzhefop.extrautilitiesrebirth.procedures.OverworldPortalOnBlockRightClickedProcedure;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class PortableGlobeItem extends Item {
 	public PortableGlobeItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).stacksTo(1).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override

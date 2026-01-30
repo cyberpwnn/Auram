@@ -8,7 +8,7 @@ import net.minecraft.world.item.Item;
 
 public class OpiniumCoreAmazingItem extends Item {
 	public OpiniumCoreAmazingItem() {
-		super(new Item.Properties().tab(null).stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
 	@Override

@@ -13,7 +13,7 @@ import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.core.BlockPos;
 
 import inzhefop.extrautilitiesrebirth.procedures.FireAxeBlockDestroyedWithToolProcedure;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class FireAxeItem extends AxeItem {
 	public FireAxeItem() {
@@ -41,7 +41,7 @@ public class FireAxeItem extends AxeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.NETHERITE_AXE));
 			}
-		}, 1, 1f, new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).fireResistant());
+		}, 1, 1f, new Item.Properties().fireResistant());
 	}
 
 	@Override

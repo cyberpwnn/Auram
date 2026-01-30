@@ -1,4 +1,3 @@
-
 package inzhefop.extrautilitiesrebirth.item;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -10,16 +9,14 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
-
 public class DevisionSigilItem extends Item {
 	public DevisionSigilItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).durability(256).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().durability(256).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
@@ -27,13 +24,15 @@ public class DevisionSigilItem extends Item {
 		return UseAnim.EAT;
 	}
 
+	// FIX 1: Update signature to accept ItemStack (Forge Extension)
 	@Override
-	public boolean hasCraftingRemainingItem() {
+	public boolean hasCraftingRemainingItem(ItemStack stack) {
 		return true;
 	}
 
+	// FIX 2: Rename getContainerItem to getCraftingRemainingItem
 	@Override
-	public ItemStack getContainerItem(ItemStack itemstack) {
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
 		ItemStack retval = new ItemStack(this);
 		retval.setDamageValue(itemstack.getDamageValue() + 1);
 		if (retval.getDamageValue() >= retval.getMaxDamage()) {
@@ -56,7 +55,7 @@ public class DevisionSigilItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A77ACTIVE"));
-		list.add(new TextComponent("\u00A77Can be obtained by killing a Wither or an Enderdragon"));
+		list.add(Component.literal("\u00A77ACTIVE"));
+		list.add(Component.literal("\u00A77Can be obtained by killing a Wither or an Enderdragon"));
 	}
 }

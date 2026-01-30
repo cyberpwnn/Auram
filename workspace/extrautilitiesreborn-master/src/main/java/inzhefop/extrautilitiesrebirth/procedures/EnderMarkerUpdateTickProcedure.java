@@ -12,10 +12,10 @@ public class EnderMarkerUpdateTickProcedure {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getBoolean(tag);
+					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "complete")) {
+		}.getValue(world, BlockPos.containing(x, y, z), "complete")) {
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.PORTAL, (x + 0.5), (y + 0.75), (z + 0.5), 5, 0.1, 0.1, 0.1, 0);
 		}

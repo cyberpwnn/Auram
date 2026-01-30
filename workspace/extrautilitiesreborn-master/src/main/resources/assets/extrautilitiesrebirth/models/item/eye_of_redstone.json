@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/ender_eye_red"
+    "layer0": "extrautilitiesrebirth:item/ender_eye_red"
   }
 }

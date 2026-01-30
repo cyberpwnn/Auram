@@ -1,13 +1,14 @@
 
 package inzhefop.extrautilitiesrebirth.block;
 
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -25,7 +26,7 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 
 public class EnderQuarryWorldHoleUpgradeBlock extends Block {
 	public EnderQuarryWorldHoleUpgradeBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(1.5f, 100f).noOcclusion()
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(1.5f, 100f).noOcclusion()
 				.isRedstoneConductor((bs, br, bp) -> false));
 	}
 
@@ -34,7 +35,7 @@ public class EnderQuarryWorldHoleUpgradeBlock extends Block {
 		return true;
 	}
 
-	@Override
+	@Override 
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 0;
 	}
@@ -46,7 +47,7 @@ public class EnderQuarryWorldHoleUpgradeBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

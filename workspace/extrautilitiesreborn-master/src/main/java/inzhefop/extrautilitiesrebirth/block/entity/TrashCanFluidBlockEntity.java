@@ -1,10 +1,11 @@
 package inzhefop.extrautilitiesrebirth.block.entity;
 
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
+
 import net.minecraftforge.fluids.capability.templates.FluidTank;
-import net.minecraftforge.fluids.capability.CapabilityFluidHandler;
+
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
 
@@ -17,7 +18,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.WorldlyContainer;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.NonNullList;
@@ -47,7 +48,7 @@ public class TrashCanFluidBlockEntity extends RandomizableContainerBlockEntity i
 		if (compound.get("fluidTank") instanceof CompoundTag compoundTag)
 			fluidTank.readFromNBT(compoundTag);
 	}
-
+ 
 	@Override
 	public void saveAdditional(CompoundTag compound) {
 		super.saveAdditional(compound);
@@ -82,7 +83,7 @@ public class TrashCanFluidBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("trash_can_fluid");
+		return Component.literal("trash_can_fluid");
 	}
 
 	@Override
@@ -97,7 +98,7 @@ public class TrashCanFluidBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Trash Can [Fluid]");
+		return Component.literal("Trash Can [Fluid]");
 	}
 
 	@Override
@@ -141,9 +142,9 @@ public class TrashCanFluidBlockEntity extends RandomizableContainerBlockEntity i
 
 	@Override
 	public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
-		if (!this.remove && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
+		if (!this.remove && facing != null && capability == ForgeCapabilities.ITEM_HANDLER)
 			return handlers[facing.ordinal()].cast();
-		if (!this.remove && capability == CapabilityFluidHandler.FLUID_HANDLER_CAPABILITY)
+		if (!this.remove && capability == ForgeCapabilities.FLUID_HANDLER)
 			return LazyOptional.of(() -> fluidTank).cast();
 		return super.getCapability(capability, facing);
 	}

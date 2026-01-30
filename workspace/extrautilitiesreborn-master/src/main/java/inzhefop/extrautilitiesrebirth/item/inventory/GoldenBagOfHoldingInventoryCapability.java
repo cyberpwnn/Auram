@@ -1,8 +1,9 @@
 
 package inzhefop.extrautilitiesrebirth.item.inventory;
 
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.ItemStackHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.item.ItemTossEvent;
@@ -28,7 +29,7 @@ public class GoldenBagOfHoldingInventoryCapability implements ICapabilitySeriali
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntityItem().getItem().getItem() == ExtrautilitiesrebirthModItems.GOLDEN_BAG_OF_HOLDING.get()) {
+		if (event.getEntity().getItem().getItem() == ExtrautilitiesrebirthModItems.GOLDEN_BAG_OF_HOLDING.get()) {
 			if (Minecraft.getInstance().screen instanceof GoldenBagGUIScreen) {
 				Minecraft.getInstance().player.closeContainer();
 			}
@@ -39,7 +40,7 @@ public class GoldenBagOfHoldingInventoryCapability implements ICapabilitySeriali
 
 	@Override
 	public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> capability, @Nullable Direction side) {
-		return capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY ? this.inventory.cast() : LazyOptional.empty();
+		return capability == ForgeCapabilities.ITEM_HANDLER ? this.inventory.cast() : LazyOptional.empty();
 	}
 
 	@Override

@@ -29,18 +29,18 @@ public class ExtrautilitiesrebirthModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.CREATIVE_CHEST_GUI, CreativeChestGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.NORMAL_GUI, NormalGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.MECHANICAL_MINER_GUI, MechanicalMinerGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.MECHANICAL_USER_GUI, MechanicalUserGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.RESONANTOR_GUI, ResonantorGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.FURNACE_GUI, FurnaceGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.ENCHANTER_GUI, EnchanterGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.TRASH_CAN_GUI, TrashCanGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.GOLDEN_BAG_GUI, GoldenBagGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.GOLDEN_CHEST_GUI, GoldenChestGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.ENDER_QUARRY_GUI, EnderQuarryGUIScreen::new);
-			MenuScreens.register(ExtrautilitiesrebirthModMenus.SORTER_GUI, SorterGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.CREATIVE_CHEST_GUI.get(), CreativeChestGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.NORMAL_GUI.get(), NormalGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.MECHANICAL_MINER_GUI.get(), MechanicalMinerGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.MECHANICAL_USER_GUI.get(), MechanicalUserGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.RESONANTOR_GUI.get(), ResonantorGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.FURNACE_GUI.get(), FurnaceGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.ENCHANTER_GUI.get(), EnchanterGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.TRASH_CAN_GUI.get(), TrashCanGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.GOLDEN_BAG_GUI.get(), GoldenBagGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.GOLDEN_CHEST_GUI.get(), GoldenChestGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.ENDER_QUARRY_GUI.get(), EnderQuarryGUIScreen::new);
+			MenuScreens.register(ExtrautilitiesrebirthModMenus.SORTER_GUI.get(), SorterGUIScreen::new);
 		});
 	}
 }

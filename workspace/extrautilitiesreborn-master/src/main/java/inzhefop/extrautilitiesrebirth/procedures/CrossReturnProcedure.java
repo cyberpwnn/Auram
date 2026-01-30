@@ -10,10 +10,10 @@ public class CrossReturnProcedure {
 			public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getBoolean(tag);
+					return blockEntity.getPersistentData().getBoolean(tag);
 				return false;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "valid"))) {
+		}.getValue(world, BlockPos.containing(x, y, z), "valid"))) {
 			return true;
 		}
 		return false;

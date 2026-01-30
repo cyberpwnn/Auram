@@ -21,9 +21,9 @@ import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModBlocks;
 public class DropEvilGrassProcedure {
 	@SubscribeEvent
 	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
-		if (event.getHand() != event.getPlayer().getUsedItemHand())
-			return;
-		execute(event, event.getWorld(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getPlayer());
+		if (event.getHand() != event.getEntity().getUsedItemHand())
+			return; 
+		execute(event, event.getLevel(), event.getPos().getX(), event.getPos().getY(), event.getPos().getZ(), event.getEntity());
 	}
 
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -34,9 +34,9 @@ public class DropEvilGrassProcedure {
 		if (entity == null)
 			return;
 		if (ExtrautilitiesrebirthModItems.DROPOF_EVIL.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-				.getItem() && Blocks.GRASS_BLOCK == (world.getBlockState(new BlockPos(x, y, z))).getBlock()) {
+				.getItem() && Blocks.GRASS_BLOCK == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)).shrink(1);
-			world.setBlock(new BlockPos(x, y, z), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y, z), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
 		}
 	}
 }

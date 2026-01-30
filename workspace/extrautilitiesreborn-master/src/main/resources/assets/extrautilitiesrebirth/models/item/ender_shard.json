@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/endershard_1"
+    "layer0": "extrautilitiesrebirth:item/endershard_1"
   }
 }

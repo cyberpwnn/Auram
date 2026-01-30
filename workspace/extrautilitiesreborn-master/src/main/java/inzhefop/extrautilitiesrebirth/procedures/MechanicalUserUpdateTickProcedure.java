@@ -1,8 +1,11 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
+import net.minecraft.util.RandomSource;
+import net.minecraft.world.level.block.state.properties.BlockStateProperties;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.IItemHandlerModifiable;
-import net.minecraftforge.items.CapabilityItemHandler;
-import net.minecraftforge.energy.CapabilityEnergy;
+
+
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
@@ -51,157 +54,157 @@ public class MechanicalUserUpdateTickProcedure {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-				return _retval.get();
+				return _retval.get(); 
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 8)).getItem() == ExtrautilitiesrebirthModItems.SPEED_UPGRADE.get()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 8)).getItem() == ExtrautilitiesrebirthModItems.SPEED_UPGRADE.get()) {
 			multiplier = new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 8) * 0.4;
+			}.getAmount(world, BlockPos.containing(x, y, z), 8) * 0.4;
 		}
 		if ((new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 8)).getItem() == ExtrautilitiesrebirthModItems.ENCHANTED_SPEED_UPGRADE.get()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 8)).getItem() == ExtrautilitiesrebirthModItems.ENCHANTED_SPEED_UPGRADE.get()) {
 			multiplier = new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 8) * 0.5;
+			}.getAmount(world, BlockPos.containing(x, y, z), 8) * 0.5;
 		}
 		if ((new Object() {
 			public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 				BlockEntity _ent = world.getBlockEntity(pos);
 				if (_ent != null)
-					_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+					_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 							.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 				return _retval.get();
 			}
-		}.getItemStack(world, new BlockPos(x, y, z), 8)).getItem() == ExtrautilitiesrebirthModItems.SUPER_SPEED_UPGRADE.get()) {
+		}.getItemStack(world, BlockPos.containing(x, y, z), 8)).getItem() == ExtrautilitiesrebirthModItems.SUPER_SPEED_UPGRADE.get()) {
 			multiplier = new Object() {
 				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
 					return _retval.get();
 				}
-			}.getAmount(world, new BlockPos(x, y, z), 8) * 0.6;
+			}.getAmount(world, BlockPos.containing(x, y, z), 8) * 0.6;
 		}
 		if (Direction.DOWN == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y - 1, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y - 1, z)));
 			target_x = x;
 			target_y = y - 1;
 			target_z = z;
 		} else if (Direction.UP == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y + 1, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y + 1, z)));
 			target_x = x;
 			target_y = y + 1;
 			target_z = z;
 		} else if (Direction.NORTH == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y, z - 1)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y, z - 1)));
 			target_x = x;
 			target_y = y;
 			target_z = z - 1;
 		} else if (Direction.WEST == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x - 1, y, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x - 1, y, z)));
 			target_x = x - 1;
 			target_y = y;
 			target_z = z;
 		} else if (Direction.EAST == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x + 1, y, z)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x + 1, y, z)));
 			target_x = x + 1;
 			target_y = y;
 			target_z = z;
 		} else if (Direction.SOUTH == (new Object() {
 			public Direction getDirection(BlockPos pos) {
 				BlockState _bs = world.getBlockState(pos);
-				Property<?> property = _bs.getBlock().getStateDefinition().getProperty("facing");
-				if (property != null && _bs.getValue(property) instanceof Direction _dir)
-					return _dir;
-				property = _bs.getBlock().getStateDefinition().getProperty("axis");
-				if (property != null && _bs.getValue(property) instanceof Direction.Axis _axis)
-					return Direction.fromAxisAndDirection(_axis, Direction.AxisDirection.POSITIVE);
+				if (_bs.hasProperty(BlockStateProperties.FACING))
+					return _bs.getValue(BlockStateProperties.FACING);
+				if (_bs.hasProperty(BlockStateProperties.HORIZONTAL_FACING))
+					return _bs.getValue(BlockStateProperties.HORIZONTAL_FACING);
+				if (_bs.hasProperty(BlockStateProperties.AXIS))
+					return Direction.fromAxisAndDirection(_bs.getValue(BlockStateProperties.AXIS), Direction.AxisDirection.POSITIVE);
 				return Direction.NORTH;
 			}
-		}.getDirection(new BlockPos(x, y, z)))) {
-			targetblock = (world.getBlockState(new BlockPos(x, y, z + 1)));
+		}.getDirection(BlockPos.containing(x, y, z)))) {
+			targetblock = (world.getBlockState(BlockPos.containing(x, y, z + 1)));
 			target_x = x;
 			target_y = y;
 			target_z = z + 1;
@@ -213,20 +216,20 @@ public class MechanicalUserUpdateTickProcedure {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem() || Blocks.AIR == ((new Object() {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem() || Blocks.AIR == ((new Object() {
 				public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem() instanceof BlockItem _bi
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem() instanceof BlockItem _bi
 					? _bi.getBlock().defaultBlockState()
 					: Blocks.AIR.defaultBlockState()).getBlock()) {
 				valid = false;
@@ -241,48 +244,48 @@ public class MechanicalUserUpdateTickProcedure {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "machinemode") == 1) {
+			}.getValue(world, BlockPos.containing(x, y, z), "machinemode") == 1) {
 				if (new Object() {
 					public int getEnergyStored(LevelAccessor level, BlockPos pos) {
 						AtomicInteger _retval = new AtomicInteger(0);
 						BlockEntity _ent = level.getBlockEntity(pos);
 						if (_ent != null)
-							_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 						return _retval.get();
 					}
-				}.getEnergyStored(world, new BlockPos(x, y, z)) > Math.pow(4 * multiplier, 2)) {
+				}.getEnergyStored(world, BlockPos.containing(x, y, z)) > Math.pow(4 * multiplier, 2)) {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putDouble("ticks", (new Object() {
+							_blockEntity.getPersistentData().putDouble("ticks", (new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
-										return blockEntity.getTileData().getDouble(tag);
+										return blockEntity.getPersistentData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos(x, y, z), "ticks") + 1));
+							}.getValue(world, BlockPos.containing(x, y, z), "ticks") + 1));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						int _amount = (int) Math.pow(4 * multiplier, 2);
 						if (_ent != null)
-							_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
+							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
 					}
 				} else {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putDouble("ticks", 0);
+							_blockEntity.getPersistentData().putDouble("ticks", 0);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -291,10 +294,10 @@ public class MechanicalUserUpdateTickProcedure {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "ticks") >= 100 / multiplier) {
+				}.getValue(world, BlockPos.containing(x, y, z), "ticks") >= 100 / multiplier) {
 					slotnumber = 0;
 					for (int index1 = 0; index1 < (int) (8); index1++) {
 						if (Blocks.AIR.asItem() == (new Object() {
@@ -302,20 +305,20 @@ public class MechanicalUserUpdateTickProcedure {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								BlockEntity _ent = world.getBlockEntity(pos);
 								if (_ent != null)
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 											.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem() || Blocks.AIR == ((new Object() {
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem() || Blocks.AIR == ((new Object() {
 							public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								BlockEntity _ent = world.getBlockEntity(pos);
 								if (_ent != null)
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 											.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem() instanceof BlockItem _bi
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem() instanceof BlockItem _bi
 								? _bi.getBlock().defaultBlockState()
 								: Blocks.AIR.defaultBlockState()).getBlock()) {
 							slotnumber = slotnumber + 1;
@@ -325,24 +328,24 @@ public class MechanicalUserUpdateTickProcedure {
 								break;
 							}
 						} else {
-							world.setBlock(new BlockPos(target_x, target_y, target_z), ((new Object() {
+							world.setBlock(BlockPos.containing(target_x, target_y, target_z), ((new Object() {
 								public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 									BlockEntity _ent = world.getBlockEntity(pos);
 									if (_ent != null)
-										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 									return _retval.get();
 								}
-							}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem() instanceof BlockItem _bi
+							}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem() instanceof BlockItem _bi
 									? _bi.getBlock().defaultBlockState()
 									: Blocks.AIR.defaultBlockState()), 3);
 							{
-								BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+								BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 								if (_ent != null) {
 									final int _slotid = (int) slotnumber;
 									final int _amount = 1;
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 										if (capability instanceof IItemHandlerModifiable) {
 											ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 											_stk.shrink(_amount);
@@ -352,11 +355,11 @@ public class MechanicalUserUpdateTickProcedure {
 								}
 							}
 							if (!world.isClientSide()) {
-								BlockPos _bp = new BlockPos(x, y, z);
+								BlockPos _bp = BlockPos.containing(x, y, z);
 								BlockEntity _blockEntity = world.getBlockEntity(_bp);
 								BlockState _bs = world.getBlockState(_bp);
 								if (_blockEntity != null)
-									_blockEntity.getTileData().putDouble("ticks", 0);
+									_blockEntity.getPersistentData().putDouble("ticks", 0);
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -374,11 +377,11 @@ public class MechanicalUserUpdateTickProcedure {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem()) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem()) {
 				valid = false;
 			} else {
 				valid = true;
@@ -391,48 +394,48 @@ public class MechanicalUserUpdateTickProcedure {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "machinemode") == 2) {
+			}.getValue(world, BlockPos.containing(x, y, z), "machinemode") == 2) {
 				if (new Object() {
 					public int getEnergyStored(LevelAccessor level, BlockPos pos) {
 						AtomicInteger _retval = new AtomicInteger(0);
 						BlockEntity _ent = level.getBlockEntity(pos);
 						if (_ent != null)
-							_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 						return _retval.get();
 					}
-				}.getEnergyStored(world, new BlockPos(x, y, z)) > Math.pow(4 * multiplier, 2)) {
+				}.getEnergyStored(world, BlockPos.containing(x, y, z)) > Math.pow(4 * multiplier, 2)) {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putDouble("ticks", (new Object() {
+							_blockEntity.getPersistentData().putDouble("ticks", (new Object() {
 								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 									BlockEntity blockEntity = world.getBlockEntity(pos);
 									if (blockEntity != null)
-										return blockEntity.getTileData().getDouble(tag);
+										return blockEntity.getPersistentData().getDouble(tag);
 									return -1;
 								}
-							}.getValue(world, new BlockPos(x, y, z), "ticks") + 1));
+							}.getValue(world, BlockPos.containing(x, y, z), "ticks") + 1));
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
 					{
-						BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 						int _amount = (int) Math.pow(4 * multiplier, 2);
 						if (_ent != null)
-							_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
+							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
 					}
 				} else {
 					if (!world.isClientSide()) {
-						BlockPos _bp = new BlockPos(x, y, z);
+						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
 						BlockState _bs = world.getBlockState(_bp);
 						if (_blockEntity != null)
-							_blockEntity.getTileData().putDouble("ticks", 0);
+							_blockEntity.getPersistentData().putDouble("ticks", 0);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 					}
@@ -441,10 +444,10 @@ public class MechanicalUserUpdateTickProcedure {
 					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 						BlockEntity blockEntity = world.getBlockEntity(pos);
 						if (blockEntity != null)
-							return blockEntity.getTileData().getDouble(tag);
+							return blockEntity.getPersistentData().getDouble(tag);
 						return -1;
 					}
-				}.getValue(world, new BlockPos(x, y, z), "ticks") >= 100 / multiplier) {
+				}.getValue(world, BlockPos.containing(x, y, z), "ticks") >= 100 / multiplier) {
 					slotnumber = 0;
 					for (int index3 = 0; index3 < (int) (8); index3++) {
 						if (Blocks.AIR.asItem() == (new Object() {
@@ -452,11 +455,11 @@ public class MechanicalUserUpdateTickProcedure {
 								AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 								BlockEntity _ent = world.getBlockEntity(pos);
 								if (_ent != null)
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 											.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 								return _retval.get();
 							}
-						}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber)).getItem()) {
+						}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber)).getItem()) {
 							slotnumber = slotnumber + 1;
 							if (slotnumber <= 7) {
 								continue;
@@ -469,11 +472,11 @@ public class MechanicalUserUpdateTickProcedure {
 									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 									BlockEntity _ent = world.getBlockEntity(pos);
 									if (_ent != null)
-										_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 									return _retval.get();
 								}
-							}.getItemStack(world, new BlockPos(x, y, z), (int) slotnumber));
+							}.getItemStack(world, BlockPos.containing(x, y, z), (int) slotnumber));
 							(dropitem).setCount(1);
 							if (world instanceof Level _level && !_level.isClientSide()) {
 								ItemEntity entityToSpawn = new ItemEntity(_level, target_x, target_y, target_z, dropitem);
@@ -481,11 +484,11 @@ public class MechanicalUserUpdateTickProcedure {
 								_level.addFreshEntity(entityToSpawn);
 							}
 							{
-								BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+								BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 								if (_ent != null) {
 									final int _slotid = (int) slotnumber;
 									final int _amount = 1;
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 										if (capability instanceof IItemHandlerModifiable) {
 											ItemStack _stk = capability.getStackInSlot(_slotid).copy();
 											_stk.shrink(_amount);
@@ -495,11 +498,11 @@ public class MechanicalUserUpdateTickProcedure {
 								}
 							}
 							if (!world.isClientSide()) {
-								BlockPos _bp = new BlockPos(x, y, z);
+								BlockPos _bp = BlockPos.containing(x, y, z);
 								BlockEntity _blockEntity = world.getBlockEntity(_bp);
 								BlockState _bs = world.getBlockState(_bp);
 								if (_blockEntity != null)
-									_blockEntity.getTileData().putDouble("ticks", 0);
+									_blockEntity.getPersistentData().putDouble("ticks", 0);
 								if (world instanceof Level _level)
 									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 							}
@@ -516,11 +519,11 @@ public class MechanicalUserUpdateTickProcedure {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 					BlockEntity _ent = world.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null)
+						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
 								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
 					return _retval.get();
 				}
-			}.getItemStack(world, new BlockPos(x, y, z), (int) repit)).getItem() instanceof SwordItem) {
+			}.getItemStack(world, BlockPos.containing(x, y, z), (int) repit)).getItem() instanceof SwordItem) {
 				swordinserted = true;
 				break;
 			}
@@ -530,48 +533,48 @@ public class MechanicalUserUpdateTickProcedure {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "machinemode") == 0 && swordinserted) {
+		}.getValue(world, BlockPos.containing(x, y, z), "machinemode") == 0 && swordinserted) {
 			if (new Object() {
 				public int getEnergyStored(LevelAccessor level, BlockPos pos) {
 					AtomicInteger _retval = new AtomicInteger(0);
 					BlockEntity _ent = level.getBlockEntity(pos);
 					if (_ent != null)
-						_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
+						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
 					return _retval.get();
 				}
-			}.getEnergyStored(world, new BlockPos(x, y, z)) > Math.pow(4 * multiplier, 2)) {
+			}.getEnergyStored(world, BlockPos.containing(x, y, z)) > Math.pow(4 * multiplier, 2)) {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("ticks", (new Object() {
+						_blockEntity.getPersistentData().putDouble("ticks", (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "ticks") + 1));
+						}.getValue(world, BlockPos.containing(x, y, z), "ticks") + 1));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
 				{
-					BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+					BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 					int _amount = (int) Math.pow(4 * multiplier, 2);
 					if (_ent != null)
-						_ent.getCapability(CapabilityEnergy.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
+						_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
 				}
 			} else {
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("ticks", 0);
+						_blockEntity.getPersistentData().putDouble("ticks", 0);
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
@@ -580,10 +583,10 @@ public class MechanicalUserUpdateTickProcedure {
 				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 					BlockEntity blockEntity = world.getBlockEntity(pos);
 					if (blockEntity != null)
-						return blockEntity.getTileData().getDouble(tag);
+						return blockEntity.getPersistentData().getDouble(tag);
 					return -1;
 				}
-			}.getValue(world, new BlockPos(x, y, z), "ticks") >= 100 / multiplier) {
+			}.getValue(world, BlockPos.containing(x, y, z), "ticks") >= 100 / multiplier) {
 				slotnumber = 0;
 				{
 					final Vec3 _center = new Vec3(target_x, target_y, target_z);
@@ -593,14 +596,14 @@ public class MechanicalUserUpdateTickProcedure {
 						if ((entityiterator instanceof Player _plr ? _plr.getFoodData().getFoodLevel() : 0) <= 0 && Blocks.AIR
 								.asItem() == (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY).getItem()) {
 							{
-								BlockEntity _ent = world.getBlockEntity(new BlockPos(x, y, z));
+								BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
 								if (_ent != null) {
 									final int _slotid = (int) repit;
 									final int _amount = 1;
-									_ent.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 										if (capability instanceof IItemHandlerModifiable) {
 											ItemStack _stk = capability.getStackInSlot(_slotid).copy();
-											if (_stk.hurt(_amount, new Random(), null)) {
+											if (_stk.hurt(_amount, RandomSource.create(), null)) {
 												_stk.shrink(1);
 												_stk.setDamageValue(0);
 											}
@@ -609,16 +612,16 @@ public class MechanicalUserUpdateTickProcedure {
 									});
 								}
 							}
-							entityiterator.hurt(DamageSource.GENERIC, 4);
+							entityiterator.hurt(entityiterator.damageSources().generic(), 4);
 						}
 					}
 				}
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z);
+					BlockPos _bp = BlockPos.containing(x, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("ticks", 0);
+						_blockEntity.getPersistentData().putDouble("ticks", 0);
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}

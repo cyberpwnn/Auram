@@ -1,8 +1,8 @@
 {
   "parent": "extrautilitiesrebirth:custom/cchest-1.1",
   "textures": {
-    "all": "extrautilitiesrebirth:blocks/chest_creative",
-    "particle": "extrautilitiesrebirth:blocks/chest_creative",
-    "texture": "extrautilitiesrebirth:blocks/chest_creative"
+    "all": "extrautilitiesrebirth:block/chest_creative",
+    "particle": "extrautilitiesrebirth:block/chest_creative",
+    "texture": "extrautilitiesrebirth:block/chest_creative"
   }
 }

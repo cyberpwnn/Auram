@@ -10,13 +10,13 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
 import inzhefop.extrautilitiesrebirth.procedures.KikokuLivingEntityIsHitWithToolProcedure;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class KikokuItem extends SwordItem {
 	public KikokuItem() {
@@ -44,7 +44,7 @@ public class KikokuItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(Items.NETHER_STAR));
 			}
-		}, 3, 1f, new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).fireResistant());
+		}, 3, 1f, new Item.Properties().fireResistant());
 	}
 
 	@Override
@@ -57,7 +57,7 @@ public class KikokuItem extends SwordItem {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
-		list.add(new TextComponent("\u00A72+4 Armor piercing damage"));
-		list.add(new TextComponent("\u00A77Thank you RWTema for creating this wonderful mod!"));
+		list.add(Component.literal("\u00A72+4 Armor piercing damage"));
+		list.add(Component.literal("\u00A77Thank you RWTema for creating this wonderful mod!"));
 	}
 }

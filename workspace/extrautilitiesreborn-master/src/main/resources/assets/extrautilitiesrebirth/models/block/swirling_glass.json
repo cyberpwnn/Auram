@@ -1,12 +1,12 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "extrautilitiesrebirth:blocks/swirling_glass",
-    "up": "extrautilitiesrebirth:blocks/swirling_glass",
-    "north": "extrautilitiesrebirth:blocks/swirling_glass",
-    "east": "extrautilitiesrebirth:blocks/swirling_glass",
-    "south": "extrautilitiesrebirth:blocks/swirling_glass",
-    "west": "extrautilitiesrebirth:blocks/swirling_glass",
-    "particle": "extrautilitiesrebirth:blocks/swirling_glass"
+    "down": "extrautilitiesrebirth:block/swirling_glass",
+    "up": "extrautilitiesrebirth:block/swirling_glass",
+    "north": "extrautilitiesrebirth:block/swirling_glass",
+    "east": "extrautilitiesrebirth:block/swirling_glass",
+    "south": "extrautilitiesrebirth:block/swirling_glass",
+    "west": "extrautilitiesrebirth:block/swirling_glass",
+    "particle": "extrautilitiesrebirth:block/swirling_glass"
   }
 }

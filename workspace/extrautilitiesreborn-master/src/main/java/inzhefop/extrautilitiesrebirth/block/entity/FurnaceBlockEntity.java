@@ -1,10 +1,11 @@
 package inzhefop.extrautilitiesrebirth.block.entity;
 
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
 import net.minecraftforge.items.IItemHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
+
 import net.minecraftforge.energy.EnergyStorage;
-import net.minecraftforge.energy.CapabilityEnergy;
+
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.Capability;
 
@@ -16,7 +17,7 @@ import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.WorldlyContainer;
 import net.minecraft.world.ContainerHelper;
 import net.minecraft.network.protocol.game.ClientboundBlockEntityDataPacket;
-import net.minecraft.network.chat.TextComponent;
+
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.IntTag;
@@ -40,7 +41,7 @@ public class FurnaceBlockEntity extends RandomizableContainerBlockEntity impleme
 
 	public FurnaceBlockEntity(BlockPos position, BlockState state) {
 		super(ExtrautilitiesrebirthModBlockEntities.FURNACE.get(), position, state);
-	}
+	} 
 
 	@Override
 	public void load(CompoundTag compound) {
@@ -86,7 +87,7 @@ public class FurnaceBlockEntity extends RandomizableContainerBlockEntity impleme
 
 	@Override
 	public Component getDefaultName() {
-		return new TextComponent("furnace");
+		return Component.literal("furnace");
 	}
 
 	@Override
@@ -101,7 +102,7 @@ public class FurnaceBlockEntity extends RandomizableContainerBlockEntity impleme
 
 	@Override
 	public Component getDisplayName() {
-		return new TextComponent("Furnace");
+		return Component.literal("Furnace");
 	}
 
 	@Override
@@ -164,9 +165,9 @@ public class FurnaceBlockEntity extends RandomizableContainerBlockEntity impleme
 
 	@Override
 	public <T> LazyOptional<T> getCapability(Capability<T> capability, @Nullable Direction facing) {
-		if (!this.remove && facing != null && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY)
+		if (!this.remove && facing != null && capability == ForgeCapabilities.ITEM_HANDLER)
 			return handlers[facing.ordinal()].cast();
-		if (!this.remove && capability == CapabilityEnergy.ENERGY)
+		if (!this.remove && capability == ForgeCapabilities.ENERGY)
 			return LazyOptional.of(() -> energyStorage).cast();
 		return super.getCapability(capability, facing);
 	}

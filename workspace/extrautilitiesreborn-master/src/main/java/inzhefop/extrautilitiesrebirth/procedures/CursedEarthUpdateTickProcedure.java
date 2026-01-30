@@ -63,95 +63,95 @@ public class CursedEarthUpdateTickProcedure {
 			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 				BlockEntity blockEntity = world.getBlockEntity(pos);
 				if (blockEntity != null)
-					return blockEntity.getTileData().getDouble(tag);
+					return blockEntity.getPersistentData().getDouble(tag);
 				return -1;
 			}
-		}.getValue(world, new BlockPos(x, y, z), "cycle")) {
+		}.getValue(world, BlockPos.containing(x, y, z), "cycle")) {
 			if (!world.isClientSide()) {
-				BlockPos _bp = new BlockPos(x, y, z);
+				BlockPos _bp = BlockPos.containing(x, y, z);
 				BlockEntity _blockEntity = world.getBlockEntity(_bp);
 				BlockState _bs = world.getBlockState(_bp);
 				if (_blockEntity != null)
-					_blockEntity.getTileData().putDouble("cycle", (new Object() {
+					_blockEntity.getPersistentData().putDouble("cycle", (new Object() {
 						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 							BlockEntity blockEntity = world.getBlockEntity(pos);
 							if (blockEntity != null)
-								return blockEntity.getTileData().getDouble(tag);
+								return blockEntity.getPersistentData().getDouble(tag);
 							return -1;
 						}
-					}.getValue(world, new BlockPos(x, y, z), "cycle") + 1));
+					}.getValue(world, BlockPos.containing(x, y, z), "cycle") + 1));
 				if (world instanceof Level _level)
 					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 			}
-			if ((world.getBlockState(new BlockPos(x + 1, y, z))).getBlock() == Blocks.GRASS_BLOCK) {
-				world.setBlock(new BlockPos(x + 1, y, z), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
+			if ((world.getBlockState(BlockPos.containing(x + 1, y, z))).getBlock() == Blocks.GRASS_BLOCK) {
+				world.setBlock(BlockPos.containing(x + 1, y, z), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x + 1, y, z);
+					BlockPos _bp = BlockPos.containing(x + 1, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("cycle", (new Object() {
+						_blockEntity.getPersistentData().putDouble("cycle", (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "cycle")));
+						}.getValue(world, BlockPos.containing(x, y, z), "cycle")));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if ((world.getBlockState(new BlockPos(x - 1, y, z))).getBlock() == Blocks.GRASS_BLOCK) {
-				world.setBlock(new BlockPos(x - 1, y, z), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
+			} else if ((world.getBlockState(BlockPos.containing(x - 1, y, z))).getBlock() == Blocks.GRASS_BLOCK) {
+				world.setBlock(BlockPos.containing(x - 1, y, z), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x - 1, y, z);
+					BlockPos _bp = BlockPos.containing(x - 1, y, z);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("cycle", (new Object() {
+						_blockEntity.getPersistentData().putDouble("cycle", (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "cycle")));
+						}.getValue(world, BlockPos.containing(x, y, z), "cycle")));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if ((world.getBlockState(new BlockPos(x, y, z + 1))).getBlock() == Blocks.GRASS_BLOCK) {
-				world.setBlock(new BlockPos(x, y, z + 1), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
+			} else if ((world.getBlockState(BlockPos.containing(x, y, z + 1))).getBlock() == Blocks.GRASS_BLOCK) {
+				world.setBlock(BlockPos.containing(x, y, z + 1), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z + 1);
+					BlockPos _bp = BlockPos.containing(x, y, z + 1);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("cycle", (new Object() {
+						_blockEntity.getPersistentData().putDouble("cycle", (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "cycle")));
+						}.getValue(world, BlockPos.containing(x, y, z), "cycle")));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}
-			} else if ((world.getBlockState(new BlockPos(x, y, z - 1))).getBlock() == Blocks.GRASS_BLOCK) {
-				world.setBlock(new BlockPos(x, y, z - 1), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
+			} else if ((world.getBlockState(BlockPos.containing(x, y, z - 1))).getBlock() == Blocks.GRASS_BLOCK) {
+				world.setBlock(BlockPos.containing(x, y, z - 1), ExtrautilitiesrebirthModBlocks.CURSED_EARTH.get().defaultBlockState(), 3);
 				if (!world.isClientSide()) {
-					BlockPos _bp = new BlockPos(x, y, z - 1);
+					BlockPos _bp = BlockPos.containing(x, y, z - 1);
 					BlockEntity _blockEntity = world.getBlockEntity(_bp);
 					BlockState _bs = world.getBlockState(_bp);
 					if (_blockEntity != null)
-						_blockEntity.getTileData().putDouble("cycle", (new Object() {
+						_blockEntity.getPersistentData().putDouble("cycle", (new Object() {
 							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
 								BlockEntity blockEntity = world.getBlockEntity(pos);
 								if (blockEntity != null)
-									return blockEntity.getTileData().getDouble(tag);
+									return blockEntity.getPersistentData().getDouble(tag);
 								return -1;
 							}
-						}.getValue(world, new BlockPos(x, y, z), "cycle")));
+						}.getValue(world, BlockPos.containing(x, y, z), "cycle")));
 					if (world instanceof Level _level)
 						_level.sendBlockUpdated(_bp, _bs, _bs, 3);
 				}

@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_end",
+  "features": "extrautilitiesrebirth:ender_lilly_endstone",
+  "step": "underground_ores"
+}

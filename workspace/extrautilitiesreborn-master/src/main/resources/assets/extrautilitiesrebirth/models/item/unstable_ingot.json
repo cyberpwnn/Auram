@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "extrautilitiesrebirth:items/unstable_ingot_outline"
+    "layer0": "extrautilitiesrebirth:item/unstable_ingot_outline"
   }
 }

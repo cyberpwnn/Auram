@@ -7,11 +7,11 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
 import inzhefop.extrautilitiesrebirth.procedures.GlassCutterRightclickedOnBlockProcedure;
-import inzhefop.extrautilitiesrebirth.init.ExtrautilitiesrebirthModTabs;
+
 
 public class ReinforcedGlassCutterItem extends Item {
 	public ReinforcedGlassCutterItem() {
-		super(new Item.Properties().tab(ExtrautilitiesrebirthModTabs.TAB_TAB).stacksTo(64).rarity(Rarity.UNCOMMON));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.UNCOMMON));
 	}
 
 	@Override
