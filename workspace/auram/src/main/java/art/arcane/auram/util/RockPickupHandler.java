@@ -1,7 +1,7 @@
-package art.arcane.auram;
+package art.arcane.auram.util;
 
+import art.arcane.auram.Auram;
 import art.arcane.auram.item.RockCatalyst;
-import art.arcane.auram.util.RecipeCache;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;

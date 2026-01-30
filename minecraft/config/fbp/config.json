@@ -27,8 +27,8 @@
     "randomRotation": true,
     "randomFadingSpeed": true,
     "particlesPerAxis": 4,
-    "minLifetime": 10,
-    "maxLifetime": 55,
+    "minLifetime": 7,
+    "maxLifetime": 30,
     "sizeMultiplier": 0.75,
     "rotationMultiplier": 1.0,
     "gravityMultiplier": 1.0
