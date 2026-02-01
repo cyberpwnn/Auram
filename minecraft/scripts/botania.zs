@@ -33,14 +33,6 @@ mods.extendedcrafting.TableCrafting.addShaped("8363266f-b777-4e85-9e91-3092f92f0
 	[<item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>, <item:botania:livingrock>]
 ]);
 
-// Mana Spreader
-craftingTable.remove(<item:botania:mana_spreader>);
-mods.extendedcrafting.TableCrafting.addShaped("02c71768-5f4d-45c4-933a-5abcf2f82ad1", 0, <item:botania:mana_spreader>, [
-	[<item:botania:glimmering_livingwood>, <item:botania:glimmering_livingwood>, <item:botania:livingwood>], 
-	[<item:minecraft:emerald>, <item:botania:livingwood_twig>, <item:minecraft:air>], 
-	[<item:botania:glimmering_livingwood>, <item:botania:glimmering_livingwood>, <item:botania:livingwood>]
-]);
-
 // Elven Spreader
 craftingTable.remove(<item:botania:elven_spreader>);
 mods.extendedcrafting.TableCrafting.addShaped("8156e880-2d2d-4c0b-ad01-2b27a982a925", 0, <item:botania:elven_spreader>, [

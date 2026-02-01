@@ -1,0 +1,4 @@
+craftingTable.remove(<item:extendedcrafting:black_iron_ingot>);
+smithing.addTransformRecipe("blackiron", <item:extendedcrafting:black_iron_block>, <item:crystalcraft_unlimited_java:fusion_template>, <tag:items:forge:storage_blocks/sky_steel>, <tag:items:forge:gems/blackdiamond>);
+smithing.addTransformRecipe("shadowdiamond", <item:crystalcraft_unlimited_java:shadow_diamond>, <item:crystalcraft_unlimited_java:neon_upgrade>, <tag:items:c:gems/diamond>, <tag:items:forge:gems/onyx>);
+craftingTable.addShapeless("blackiron_ingot", <item:extendedcrafting:black_iron_ingot> * 9, [<item:extendedcrafting:black_iron_block>]);
