@@ -79,36 +79,37 @@ public class Auram {
     @SubscribeEvent
     public void onRegister(RegisterEvent event) {
         if (event.getRegistryKey().equals(ForgeRegistries.Keys.ITEMS)) {
+            // Iterate over a snapshot of the block registry
             for (Map.Entry<ResourceKey<Block>, Block> entry : ForgeRegistries.BLOCKS.getEntries()) {
-                ResourceKey<Block> blockKey = entry.getKey();
-                ResourceLocation blockId = blockKey.location();
                 Block block = entry.getValue();
-
-                if (blockId.getPath().contains("_ore") || blockId.getPath().endsWith("ore")) {
-
+                ResourceLocation blockId = entry.getKey().location();
+                String path = blockId.getPath();
+                
+                if (path.contains("_ore") || path.endsWith("_ore")) {
                     String namespace = blockId.getNamespace();
-                    String path = blockId.getPath();
                     String newPath;
 
                     if (namespace.equals("minecraft")) {
                         newPath = path.replace("ore", "rock");
-                    }
-
-                    else {
+                    } else {
                         newPath = namespace + "_" + path.replace("ore", "rock");
                     }
 
-                    if (newPath.equals(path)) newPath = newPath + "_rock";
+                    if (newPath.equals(path)) {
+                        newPath += "_rock";
+                    }
 
+                    newPath = newPath.replace("__", "_");
                     ResourceLocation newId = ResourceLocation.tryBuild(MODID, newPath);
+
                     event.register(ForgeRegistries.Keys.ITEMS, helper -> {
                         Item.Properties props = new Item.Properties();
-                        Item rockItem = new RockItem(props);
+                        RockItem rockItem = new RockItem(props);
                         helper.register(newId, rockItem);
                         GENERATED_ROCKS.add(newId);
                         ROCK_ITEM_TO_ORE_BLOCK.put(rockItem, block);
                         ORE_BLOCK_ID_TO_ROCK_ID.put(blockId, newId);
-                        LOGGER.info("Generated Rock: " + newId + " from " + blockId);
+                        LOGGER.info("Generated Rock: {} from {}", newId, blockId);
                     });
                 }
             }

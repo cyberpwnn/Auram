@@ -117,3 +117,19 @@ publishing {
 tasks.withType(JavaCompile).configureEach {
     options.encoding = 'UTF-8' // Use the UTF-8 charset for Java compilation
 }
+
+task deployToModpack(type: Copy) {
+    dependsOn 'reobfJar'
+    from tasks.jar
+    into file("../../minecraft/mods")
+
+    rename { String fileName ->
+        "Auram.jar"
+    }
+
+    doLast {
+        println "SUCCESS: Copied build to ../../minecraft/mods/ExtraUtilities-1.jar"
+    }
+}
+
+build.finalizedBy deployToModpack
