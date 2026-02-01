@@ -56,28 +56,29 @@ public class EnderQuarryNeighbourBlockChangesProcedure {
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_3.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
-				speed = speed * 2.72;
-				powerdrain = powerdrain * 2;
+				speed = speed * 5;
+				powerdrain = powerdrain * 7;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_2.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
-				speed = speed * 2.15;
-				powerdrain = powerdrain * 1.5;
+				speed = speed * 3;
+				powerdrain = powerdrain * 5;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SPEED_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
-				speed = speed * 1.71;
-				powerdrain = powerdrain * 1;
+				speed = speed * 2;
+				powerdrain = powerdrain * 2;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				silk = true;
-				powerdrain = powerdrain * 1.5;
+				powerdrain = powerdrain * 5;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_WORLD_HOLE_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
 				hole = true;
-				powerdrain = powerdrain * 1;
+				speed = speed * 0.8;
+				powerdrain = powerdrain * 2;
 			}
 			counter1 = counter1 + 1;
 		}
