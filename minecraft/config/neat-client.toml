@@ -1,7 +1,7 @@
 
 [general]
 	#Maximum distance in blocks at which health bars should render
-	max_distance = 24
+	max_distance = 16
 	#Maximum distance in blocks at which health bars should render without line of sight
 	max_distance_without_line_of_sight = 8
 	#Whether health bars should render when the HUD is disabled with F1
@@ -15,7 +15,7 @@
 	#How tall the background plate should be
 	background_height = 6
 	#How tall the health bar should be
-	health_bar_height = 4
+	health_bar_height = 1
 	#How wide the health bar should be. If the entity has a long name, the bar will increase in size to match it.
 	plate_size = 25
 	#plateSize but for bosses
@@ -27,17 +27,17 @@
 	#Group 5 iron icons into 1 diamond icon
 	group_armor = true
 	#Color health bar by mob type instead of health percentage
-	color_health_bar_by_type = false
+	color_health_bar_by_type = true
 	#Text color in hex code format
 	text_color = "FFFFFF"
 	#Height of the text on the health bar
-	hp_text_height = 14
+	hp_text_height = 22
 	#Whether the maximum health of the mob should be shown
-	show_max_hp = true
+	show_max_hp = false
 	#Whether the current health of the mob should be shown
-	show_current_hp = true
+	show_current_hp = false
 	#Whether the percentage health of the mob should be shown
-	show_hp_percentage = true
+	show_hp_percentage = false
 	#Whether bars on passive mobs should be shown
 	show_on_passive = true
 	#Whether bars on hostile mobs should be shown (does not include bosses)
@@ -53,9 +53,9 @@
 	#Show extra debug info on the bar when F3 is enabled
 	show_debug_with_f3 = true
 	#Show entity name
-	show_entity_name = true
+	show_entity_name = false
 	#Disables the rendering of the vanilla name tag
-	disable_name_tag = false
+	disable_name_tag = true
 	#If this is enabled and the "disableNameTag" option is true, the vanilla nametag is only hidden if the mob has a Neat healthbar rendered
 	disable_name_tag_if_healthbar = true
 	#Offsets the healtbar icons on the x axis

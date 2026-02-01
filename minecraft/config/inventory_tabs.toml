@@ -29,7 +29,7 @@ configLogging = true
 configLoggingVanilla = false
 # Whether to show tabs on screens that aren't specified below
 # default: true
-allowScreensByDefault = true
+allowScreensByDefault = false
 # Whether to show tabs on the bottom of screens that aren't specified below
 # default: false
 invertTabsByDefault = false
@@ -46,6 +46,13 @@ blockRaycastTimeout = 0
 # 
 [screenOverrides]
 	"minecraft:smoker" = true
+	"ae2:controller" = false
+	"ae2:blue_smart_dense_cable" = false
+	"ae2:smart_cable" = false
+	"ae2:molecular_assembler" = false
+	"ae2:drive" = false
+	"ae2:smart_dense_cable" = false
+	"ae2:crafting_accelerator" = false
 
 # 
 # -------------------------------
@@ -94,6 +101,13 @@ blockRaycastTimeout = 0
 	"minecraft:crafting_table" = "inventory_tabs:block_unique"
 	"#minecraft:doors" = ""
 	"minecraft:fletching_table" = ""
+	"ae2:controller" = ""
+	"ae2:blue_smart_dense_cable" = ""
+	"ae2:smart_cable" = ""
+	"ae2:molecular_assembler" = ""
+	"ae2:drive" = ""
+	"ae2:smart_dense_cable" = ""
+	"ae2:crafting_accelerator" = ""
 
 # 
 # -------------------------------
@@ -118,6 +132,13 @@ blockRaycastTimeout = 0
 # 
 [itemProviderOverrides]
 	"minecraft:dirt" = ""
+	"ae2:controller" = ""
+	"ae2:blue_smart_dense_cable" = ""
+	"ae2:smart_cable" = ""
+	"ae2:molecular_assembler" = ""
+	"ae2:drive" = ""
+	"ae2:smart_dense_cable" = ""
+	"ae2:crafting_accelerator" = ""
 
 # 
 # -------------------------------
