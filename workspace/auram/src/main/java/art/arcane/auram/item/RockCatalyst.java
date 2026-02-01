@@ -77,7 +77,7 @@ public class RockCatalyst extends Item {
         if (sets > 0) {
             Item outputItem = ForgeRegistries.ITEMS.getValue(ResourceLocation.parse(outputId));
             if (outputItem != null) {
-                ItemStack reward = new ItemStack(outputItem, sets);
+                ItemStack reward = new ItemStack(outputItem, sets * recipe.count);
                 if (!player.getInventory().add(reward)) {
                     player.drop(reward, false);
                 }
@@ -88,7 +88,7 @@ public class RockCatalyst extends Item {
         nbt.put("RockBins", bin);
 
         player.level().playSound(null, player.getX(), player.getY(), player.getZ(),
-                SoundEvents.TUFF_BREAK, SoundSource.PLAYERS, 0.2F, 0.2F + (player.getRandom().nextFloat() * 0.5F));
+                SoundEvents.ITEM_PICKUP, SoundSource.PLAYERS, 0.5F, 1.25F + (player.getRandom().nextFloat() * 0.5F));
         
         return amountToAdd;
     }

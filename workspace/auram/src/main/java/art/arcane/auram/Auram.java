@@ -1,5 +1,6 @@
 package art.arcane.auram;
 
+import art.arcane.auram.enchantment.ChiselEnchantment;
 import art.arcane.auram.item.*;
 import art.arcane.auram.loot.RockLootModifier;
 import art.arcane.auram.util.RecipeCache;
@@ -12,6 +13,7 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
 import net.minecraftforge.common.loot.IGlobalLootModifier;
@@ -34,6 +36,7 @@ public class Auram {
     public static boolean BYPASS_ROCK_GENERATION = false;
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MODID);
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MODID);
+    public static final DeferredRegister<Enchantment> ENCHANTMENTS = DeferredRegister.create(ForgeRegistries.ENCHANTMENTS, MODID);
     public static final DeferredRegister<BlockEntityType<?>> BLOCK_ENTITIES = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, MODID);
     public static final DeferredRegister<CreativeModeTab> CREATIVE_TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, MODID);
     public static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIERS = DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, MODID);
@@ -46,6 +49,7 @@ public class Auram {
     public static final Map<Item, Block> ROCK_ITEM_TO_ORE_BLOCK = new HashMap<>();
     public static final Map<ResourceLocation, ResourceLocation> ORE_BLOCK_ID_TO_ROCK_ID = new HashMap<>();
     public static final List<ResourceLocation> GENERATED_ROCKS = new ArrayList<>();
+    public static final RegistryObject<Enchantment> CHISEL = ENCHANTMENTS.register("chisel", ChiselEnchantment::new);
     public static final RegistryObject<CreativeModeTab> AURAM_TAB = CREATIVE_TABS.register("auram_tab", () -> CreativeModeTab.builder()
             .title(Component.literal("Auram"))
             .icon(() -> new ItemStack(ENDER_JADE.get()))
@@ -69,6 +73,7 @@ public class Auram {
         IEventBus modEventBus = context.getModEventBus();
         BLOCKS.register(modEventBus);
         ITEMS.register(modEventBus);
+        ENCHANTMENTS.register(modEventBus);
         BLOCK_ENTITIES.register(modEventBus);
         CREATIVE_TABS.register(modEventBus);
         LOOT_MODIFIERS.register(modEventBus);

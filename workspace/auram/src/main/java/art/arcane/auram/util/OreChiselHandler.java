@@ -2,6 +2,7 @@ package art.arcane.auram.util;
 
 import art.arcane.auram.Auram;
 import net.minecraft.core.BlockPos;
+import net.minecraft.network.chat.Component;
 import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.tags.ItemTags;
@@ -10,8 +11,7 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
-import net.minecraft.world.item.PickaxeItem;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -21,7 +21,6 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.Map;
 import java.util.Optional;
-import java.util.Random;
 
 @Mod.EventBusSubscriber(modid = Auram.MODID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public class OreChiselHandler {
@@ -49,44 +48,36 @@ public class OreChiselHandler {
         if (!stack.isCorrectToolForDrops(state)) {
             return;
         }
+        
+        if(player.getCooldowns().isOnCooldown(stack.getItem())){
+            return;
+        }
+        
         Optional<Map.Entry<Item, Block>> o = Auram.ROCK_ITEM_TO_ORE_BLOCK.entrySet().stream().filter((e) -> e.getValue() == state.getBlock()).findFirst();
         
         if(o.isEmpty()) {
             return;
         }
 
-        if(!(stack.getItem() instanceof PickaxeItem)) {
+        int lvl = stack.getEnchantmentLevel(Auram.CHISEL.get());
+        
+        if(lvl <= 0) {
             return;
         }
         
-        PickaxeItem pickaxe = (PickaxeItem)stack.getItem();
-        float destroySpeed = pickaxe.getDestroySpeed(stack, state);
-        int bval = Math.max(Math.min(pickaxe.getTier().getEnchantmentValue() - 9, 7), 1);
-        float chance = 1f/bval;
-        float d = destroySpeed - 5;
-        
-        if(d <= 0) {
-            chance = 1;
-        }
-        else {
-            d = Math.min(10, Math.max(1, d));
-            d = 1/d;
-            chance += d/2;
-        }
-        
-        chance = Math.max(0.15f, Math.min(1f, chance));
-
-        level.playSound(null, pos, SoundEvents.UI_STONECUTTER_TAKE_RESULT, SoundSource.BLOCKS, 1.0F, 1.0F + (float)Math.random());
-        popResource(level, player.getOnPos(), new ItemStack(o.get().getKey(), (int)Math.ceil(Math.random() * 4)));
-        player.getCooldowns().addCooldown(stack.getItem(), Math.round(destroySpeed)+5);
+        int chlvl = stack.getEnchantmentLevel(Enchantments.BLOCK_FORTUNE);
+        int bonus = chlvl > 0 ? (int)Math.round(Math.random() * chlvl) : 0;
+        float chance = Math.max(0.1f, Math.min(1f, 1f/(lvl+1)));
+        level.playSound(null, pos, SoundEvents.TUFF_STEP, SoundSource.BLOCKS, 0.7F, 0.5F + (float)Math.random());
+        popResource(level, player.getOnPos(), new ItemStack(o.get().getKey(), (int)Math.ceil(Math.random() * ((o.get().getKey().toString().contains("deepslate") ? 6 : 4) + bonus))));
+        player.getCooldowns().addCooldown(stack.getItem(), lvl == 1 ? 20 : lvl == 2 ? 16 : lvl == 3 ? 12 : lvl == 4 ? 8 : lvl == 5 ? 2 : 1);
         
         if (level.random.nextFloat() < chance) {
-            level.destroyBlock(pos, false); // false = don't drop the block's normal loot
-            level.playSound(null, pos, SoundEvents.STONE_BREAK, SoundSource.BLOCKS, 1.0F, 1.0F);
-        } else {
-            stack.hurtAndBreak(1, player, (p) -> p.broadcastBreakEvent(event.getHand()));
-        }
-
+            level.destroyBlock(pos, false);
+            level.playSound(null, pos, SoundEvents.TUFF_BREAK, SoundSource.BLOCKS, 0.7F, 0.3F + (float)Math.random());
+        } 
+        
+        stack.hurtAndBreak((10-lvl)*(chlvl+1), player, (p) -> p.broadcastBreakEvent(event.getHand()));
         event.setCancellationResult(InteractionResult.SUCCESS);
         event.setCanceled(true);
     }

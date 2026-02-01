@@ -25,7 +25,6 @@ public class RockPickupHandler {
             ItemStack invStack = player.getInventory().getItem(i);
             
             if (invStack.getItem() instanceof RockCatalyst catalystItem) {
-                // 3. Process the rock
                 int consumed = catalystItem.tryAddRock(invStack, pickedUp, player);
                 
                 if (consumed > 0) {
