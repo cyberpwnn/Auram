@@ -783,12 +783,12 @@
     "drop": "malum:blazing_quartz",
     "count": 1
   },
-  "auram:crystalcraft_unlimited_java_catseye_rock": {
-    "drop": "crystalcraft_unlimited_java:catseye",
-    "count": 1
-  },
   "auram:mekanism_deepslate_osmium_rock": {
     "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:crystalcraft_unlimited_java_catseye_rock": {
+    "drop": "crystalcraft_unlimited_java:catseye",
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_rare_amethyst_rock": {
@@ -1064,7 +1064,7 @@
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_zircon_rock": {
-    "drop": "crystalcraft_unlimited_java:zircon_4",
+    "drop": "crystalcraft_unlimited_java:zircon_11",
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_larimar_rock": {

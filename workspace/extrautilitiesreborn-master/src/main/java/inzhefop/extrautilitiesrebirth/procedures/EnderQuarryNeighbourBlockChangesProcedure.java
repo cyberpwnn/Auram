@@ -56,17 +56,17 @@ public class EnderQuarryNeighbourBlockChangesProcedure {
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_3.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
-				speed = speed * 5;
-				powerdrain = powerdrain * 7;
+				speed = speed+ 8;
+				powerdrain = powerdrain * 5;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE_2.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
-				speed = speed * 3;
-				powerdrain = powerdrain * 5;
+				speed = speed + 4;
+				powerdrain = powerdrain * 3;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SPEED_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))
 					.getBlock()) {
-				speed = speed * 2;
+				speed = speed + 2;
 				powerdrain = powerdrain * 2;
 			}
 			if (ExtrautilitiesrebirthModBlocks.ENDER_QUARRY_SILK_TOUCH_UPGRADE.get() == (world.getBlockState(BlockPos.containing(xblock, yblock, zblock)))

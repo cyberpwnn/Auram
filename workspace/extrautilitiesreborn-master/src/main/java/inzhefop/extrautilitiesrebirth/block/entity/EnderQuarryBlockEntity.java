@@ -136,7 +136,7 @@ public class EnderQuarryBlockEntity extends RandomizableContainerBlockEntity imp
 		return true;
 	}
 
-	private final EnergyStorage energyStorage = new EnergyStorage(10000000, 10000000, 10000000, 0) {
+	private final EnergyStorage energyStorage = new EnergyStorage(100000000, 100000000, 100000000, 0) {
 		@Override
 		public int receiveEnergy(int maxReceive, boolean simulate) {
 			int retval = super.receiveEnergy(maxReceive, simulate);

@@ -1,9 +1,10 @@
 package inzhefop.extrautilitiesrebirth.procedures;
 
-import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.storage.loot.parameters.LootContextParams;
 import net.minecraftforge.items.IItemHandlerModifiable;
-
-
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.minecraftforge.energy.IEnergyStorage;
 
 import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.phys.AABB;
@@ -16,761 +17,231 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.Container;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.nbt.CompoundTag;
 import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.core.BlockPos;
 
 import java.util.stream.Collectors;
-import java.util.concurrent.atomic.AtomicReference;
-import java.util.concurrent.atomic.AtomicInteger;
 import java.util.List;
 import java.util.Comparator;
+import java.util.concurrent.atomic.AtomicBoolean;
+import java.util.concurrent.atomic.AtomicInteger;
 
 public class EnderQuarryUpdateTickProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		boolean STOP = false;
-		boolean fullblock = false;
-		double multiplier = 0;
-		double counter1 = 0;
-		double yblock = 0;
-		double xblock = 0;
-		double slot = 0;
-		double usedpower = 0;
-		double repetitions = 0;
-		double zblock = 0;
-		double miningz = 0;
-		double miningy = 0;
-		double miningx = 0;
-		multiplier = Math.pow(2, Math.round(new Object() {
-			public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-				BlockEntity blockEntity = world.getBlockEntity(pos);
-				if (blockEntity != null)
-					return blockEntity.getPersistentData().getDouble(tag);
-				return -1;
-			}
-		}.getValue(world, BlockPos.containing(x, y, z), "eqspeed")) * 0.15);
-		for (int index0 = 0; index0 < (int) (multiplier); index0++) {
-			if (new Object() {
-				public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-					BlockEntity blockEntity = world.getBlockEntity(pos);
-					if (blockEntity != null)
-						return blockEntity.getPersistentData().getDouble(tag);
-					return -1;
-				}
-			}.getValue(world, BlockPos.containing(x, y, z), "state") == 1) {
-				if (new Object() {
-					public int getEnergyStored(LevelAccessor level, BlockPos pos) {
-						AtomicInteger _retval = new AtomicInteger(0);
-						BlockEntity _ent = level.getBlockEntity(pos);
-						if (_ent != null)
-							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> _retval.set(capability.getEnergyStored()));
-						return _retval.get();
-					}
-				}.getEnergyStored(world, BlockPos.containing(x, y, z)) >= (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getPersistentData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, BlockPos.containing(x, y, z), "eqpowerdrain")) * multiplier) {
-					{
-						BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-						int _amount = (int) ((new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								if (blockEntity != null)
-									return blockEntity.getPersistentData().getDouble(tag);
-								return -1;
-							}
-						}.getValue(world, BlockPos.containing(x, y, z), "eqpowerdrain")) * multiplier);
-						if (_ent != null)
-							_ent.getCapability(ForgeCapabilities.ENERGY, null).ifPresent(capability -> capability.extractEnergy(_amount, false));
-					}
-					usedpower = usedpower + (new Object() {
-						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-							BlockEntity blockEntity = world.getBlockEntity(pos);
-							if (blockEntity != null)
-								return blockEntity.getPersistentData().getDouble(tag);
-							return -1;
-						}
-					}.getValue(world, BlockPos.containing(x, y, z), "eqpowerdrain")) * Math.pow(repetitions, 3);
+		BlockPos mainPos = BlockPos.containing(x, y, z);
+		BlockEntity mainBe = world.getBlockEntity(mainPos);
+
+		if (mainBe == null) return;
+		IEnergyStorage energyStorage = mainBe.getCapability(ForgeCapabilities.ENERGY, null).orElse(null);
+		IItemHandlerModifiable mainItemHandler = (IItemHandlerModifiable) mainBe.getCapability(ForgeCapabilities.ITEM_HANDLER, null).orElse(null);
+
+		if (energyStorage == null || mainItemHandler == null) return;
+		CompoundTag data = mainBe.getPersistentData();
+		double speed = data.getDouble("eqspeed");
+		double powerDrain = data.getDouble("eqpowerdrain");
+		boolean isSilk = data.getBoolean("eqsilk");
+		double fortuneMultiplier = data.getDouble("eqfortune");
+		boolean holeMode = data.getBoolean("eqhole");
+
+		double ticks = data.getDouble("ticks");
+		double minedBlocks = data.getDouble("minedblocks");
+		double miningX = data.getDouble("xcoord");
+		double miningY = data.getDouble("ycoord");
+		double miningZ = data.getDouble("zcoord");
+		double state = data.getDouble("state");
+		double areaMaxY = data.getDouble("areamaxy");
+		double areaMaxX = data.getDouble("areamaxx");
+		double areaMaxZ = data.getDouble("areamaxz");
+		double areaMinZ = data.getDouble("areaminz");
+		double areaDirect1 = data.getDouble("areadirect1");
+		double areaDirect2 = data.getDouble("areadirect2");
+		int loopIterations = (int) Math.pow(2, Math.round(speed * 0.15));
+		boolean dirty = false;
+
+		for (int i = 0; i < loopIterations; i++) {
+			if (state == 1) {
+				// Calculate total energy needed for this speed tier (mimicking original logic)
+				int energyCost = (int) (powerDrain * loopIterations);
+
+				if (energyStorage.getEnergyStored() >= energyCost) {
+					energyStorage.extractEnergy(energyCost, false);
+
 					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("ticks", (new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "ticks") + 1));
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+						ticks++;
+						dirty = true;
 					}
-				}
-				if (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getPersistentData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, BlockPos.containing(x, y, z), "ticks") >= 20 / (new Object() {
-					public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-						BlockEntity blockEntity = world.getBlockEntity(pos);
-						if (blockEntity != null)
-							return blockEntity.getPersistentData().getDouble(tag);
-						return -1;
-					}
-				}.getValue(world, BlockPos.containing(x, y, z), "eqspeed"))) {
-					multiplier = 1;
-					miningx = new Object() {
-						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-							BlockEntity blockEntity = world.getBlockEntity(pos);
-							if (blockEntity != null)
-								return blockEntity.getPersistentData().getDouble(tag);
-							return -1;
-						}
-					}.getValue(world, BlockPos.containing(x, y, z), "xcoord");
-					miningy = new Object() {
-						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-							BlockEntity blockEntity = world.getBlockEntity(pos);
-							if (blockEntity != null)
-								return blockEntity.getPersistentData().getDouble(tag);
-							return -1;
-						}
-					}.getValue(world, BlockPos.containing(x, y, z), "ycoord");
-					miningz = new Object() {
-						public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-							BlockEntity blockEntity = world.getBlockEntity(pos);
-							if (blockEntity != null)
-								return blockEntity.getPersistentData().getDouble(tag);
-							return -1;
-						}
-					}.getValue(world, BlockPos.containing(x, y, z), "zcoord");
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("minedblocks", (new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "minedblocks") + 1));
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-					if (!(new Object() {
-						public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
-							BlockEntity blockEntity = world.getBlockEntity(pos);
-							if (blockEntity != null)
-								return blockEntity.getPersistentData().getBoolean(tag);
-							return false;
-						}
-					}.getValue(world, BlockPos.containing(x, y, z), "eqsilk"))) {
-						if (!(Blocks.BEDROCK.asItem() == (new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()))
-								.getItem())) {
-							if (!(Blocks.AIR.asItem() == (new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()))
-									.getItem())) {
-								fullblock = true;
-							}
-							{
-								BlockPos _pos = BlockPos.containing(miningx, miningy, miningz);
-								Block.dropResources(world.getBlockState(_pos), world, BlockPos.containing(miningx, miningy, miningz), null);
-								world.destroyBlock(_pos, false);
-							}
-							{
-								final Vec3 _center = new Vec3(miningx, miningy, miningz);
-								List<Entity> _entfound = world.getEntitiesOfClass(Entity.class, new AABB(_center, _center).inflate(8 / 2d), e -> true)
-										.stream().sorted(Comparator.comparingDouble(_entcnd -> _entcnd.distanceToSqr(_center)))
-										.collect(Collectors.toList());
-								for (Entity entityiterator : _entfound) {
-									if (!(Blocks.AIR
-											.asItem() == (entityiterator instanceof ItemEntity _itemEnt ? _itemEnt.getItem() : ItemStack.EMPTY)
-													.getItem()
-											|| Blocks.BEDROCK.asItem() == (entityiterator instanceof ItemEntity _itemEnt
-													? _itemEnt.getItem()
-													: ItemStack.EMPTY).getItem())) {
-										if ((new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()))
-												.is(ItemTags.create(new ResourceLocation("forge:ores")))
-												&& !((new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()))
-														.getItem() == (entityiterator instanceof ItemEntity _itemEnt
-																? _itemEnt.getItem()
-																: ItemStack.EMPTY).getItem())) {
-											multiplier = new Object() {
-												public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-													BlockEntity blockEntity = world.getBlockEntity(pos);
-													if (blockEntity != null)
-														return blockEntity.getPersistentData().getDouble(tag);
-													return -1;
-												}
-											}.getValue(world, BlockPos.containing(x, y, z), "eqfortune");
-										}
-										{
-											BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-											if (_ent != null) {
-												final int _slotid = 0;
-												final ItemStack _setstack = (entityiterator instanceof ItemEntity _itemEnt
-														? _itemEnt.getItem()
-														: ItemStack.EMPTY);
-												_setstack.setCount((int) (((entityiterator instanceof ItemEntity _itemEnt
-														? _itemEnt.getItem()
-														: ItemStack.EMPTY)).getCount() * multiplier));
-												_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-													if (capability instanceof IItemHandlerModifiable)
-														((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
-												});
-											}
-										}
-										if (!entityiterator.level().isClientSide())
-											entityiterator.discard();
-									}
-								}
-							}
-						}
-					} else {
-						if (!(Blocks.AIR.asItem() == (new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()))
-								.getItem()
-								|| Blocks.BEDROCK
-										.asItem() == (new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()))
-												.getItem())) {
-							fullblock = true;
-							{
-								BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-								if (_ent != null) {
-									final int _slotid = 0;
-									final ItemStack _setstack = (new ItemStack(
-											(world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock()));
-									_setstack.setCount(
-											(int) (((new ItemStack((world.getBlockState(BlockPos.containing(miningx, miningy, miningz))).getBlock())))
-													.getCount() * multiplier));
-									_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-										if (capability instanceof IItemHandlerModifiable)
-											((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
-									});
-								}
-							}
-							world.setBlock(BlockPos.containing(miningx, miningy, miningz), Blocks.AIR.defaultBlockState(), 3);
-						}
-					}
-					if (world instanceof ServerLevel _level)
-						_level.sendParticles(ParticleTypes.PORTAL, (miningx + 0.5), (miningy + 0.5), (miningz + 0.5), 5, 0.3, 0.3, 0.3, 0);
-					if (!(new Object() {
-						public boolean getValue(LevelAccessor world, BlockPos pos, String tag) {
-							BlockEntity blockEntity = world.getBlockEntity(pos);
-							if (blockEntity != null)
-								return blockEntity.getPersistentData().getBoolean(tag);
-							return false;
-						}
-					}.getValue(world, BlockPos.containing(x, y, z), "eqhole")) && fullblock) {
-						world.setBlock(BlockPos.containing(miningx, miningy, miningz), Blocks.DIRT.defaultBlockState(), 3);
-					}
-					if (miningy >= -60) {
-						miningy = miningy - 1;
-					} else {
-						miningy = new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								if (blockEntity != null)
-									return blockEntity.getPersistentData().getDouble(tag);
-								return -1;
-							}
-						}.getValue(world, BlockPos.containing(x, y, z), "areamaxy");
-						if (new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								if (blockEntity != null)
-									return blockEntity.getPersistentData().getDouble(tag);
-								return -1;
-							}
-						}.getValue(world, BlockPos.containing(x, y, z), "areadirect1") == 1) {
-							if (miningz > new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "areamaxz")) {
-								miningz = miningz - 1;
-							} else {
-								miningz = new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "areaminz");
-								if (new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "areadirect2") == 2) {
-									if (miningx < new Object() {
-										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-											BlockEntity blockEntity = world.getBlockEntity(pos);
-											if (blockEntity != null)
-												return blockEntity.getPersistentData().getDouble(tag);
-											return -1;
-										}
-									}.getValue(world, BlockPos.containing(x, y, z), "areamaxx")) {
-										miningx = miningx + 1;
-									} else {
-										if (!world.isClientSide()) {
-											BlockPos _bp = BlockPos.containing(x, y, z);
-											BlockEntity _blockEntity = world.getBlockEntity(_bp);
-											BlockState _bs = world.getBlockState(_bp);
-											if (_blockEntity != null)
-												_blockEntity.getPersistentData().putDouble("state", 2);
-											if (world instanceof Level _level)
-												_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-										}
-									}
-								}
-								if (new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "areadirect2") == 4) {
-									if (miningx > new Object() {
-										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-											BlockEntity blockEntity = world.getBlockEntity(pos);
-											if (blockEntity != null)
-												return blockEntity.getPersistentData().getDouble(tag);
-											return -1;
-										}
-									}.getValue(world, BlockPos.containing(x, y, z), "areamaxx")) {
-										miningx = miningx - 1;
-									} else {
-										if (!world.isClientSide()) {
-											BlockPos _bp = BlockPos.containing(x, y, z);
-											BlockEntity _blockEntity = world.getBlockEntity(_bp);
-											BlockState _bs = world.getBlockState(_bp);
-											if (_blockEntity != null)
-												_blockEntity.getPersistentData().putDouble("state", 2);
-											if (world instanceof Level _level)
-												_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-										}
-									}
-								}
-							}
-						}
-						if (new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								if (blockEntity != null)
-									return blockEntity.getPersistentData().getDouble(tag);
-								return -1;
-							}
-						}.getValue(world, BlockPos.containing(x, y, z), "areadirect1") == 3) {
-							if (miningz < new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									if (blockEntity != null)
-										return blockEntity.getPersistentData().getDouble(tag);
-									return -1;
-								}
-							}.getValue(world, BlockPos.containing(x, y, z), "areamaxz")) {
-								miningz = miningz + 1;
-							} else {
-								miningz = new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "areaminz");
-								if (new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "areadirect2") == 2) {
-									if (miningx < new Object() {
-										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-											BlockEntity blockEntity = world.getBlockEntity(pos);
-											if (blockEntity != null)
-												return blockEntity.getPersistentData().getDouble(tag);
-											return -1;
-										}
-									}.getValue(world, BlockPos.containing(x, y, z), "areamaxx")) {
-										miningx = miningx + 1;
-									} else {
-										if (!world.isClientSide()) {
-											BlockPos _bp = BlockPos.containing(x, y, z);
-											BlockEntity _blockEntity = world.getBlockEntity(_bp);
-											BlockState _bs = world.getBlockState(_bp);
-											if (_blockEntity != null)
-												_blockEntity.getPersistentData().putDouble("state", 2);
-											if (world instanceof Level _level)
-												_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-										}
-									}
-								}
-								if (new Object() {
-									public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-										BlockEntity blockEntity = world.getBlockEntity(pos);
-										if (blockEntity != null)
-											return blockEntity.getPersistentData().getDouble(tag);
-										return -1;
-									}
-								}.getValue(world, BlockPos.containing(x, y, z), "areadirect2") == 4) {
-									if (miningx > new Object() {
-										public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-											BlockEntity blockEntity = world.getBlockEntity(pos);
-											if (blockEntity != null)
-												return blockEntity.getPersistentData().getDouble(tag);
-											return -1;
-										}
-									}.getValue(world, BlockPos.containing(x, y, z), "areamaxx")) {
-										miningx = miningx - 1;
-									} else {
-										if (!world.isClientSide()) {
-											BlockPos _bp = BlockPos.containing(x, y, z);
-											BlockEntity _blockEntity = world.getBlockEntity(_bp);
-											BlockState _bs = world.getBlockState(_bp);
-											if (_blockEntity != null)
-												_blockEntity.getPersistentData().putDouble("state", 2);
-											if (world instanceof Level _level)
-												_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-										}
-									}
-								}
-							}
-						}
-					}
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("xcoord", miningx);
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("ycoord", miningy);
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("zcoord", miningz);
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-					if (!world.isClientSide()) {
-						BlockPos _bp = BlockPos.containing(x, y, z);
-						BlockEntity _blockEntity = world.getBlockEntity(_bp);
-						BlockState _bs = world.getBlockState(_bp);
-						if (_blockEntity != null)
-							_blockEntity.getPersistentData().putDouble("ticks", 0);
-						if (world instanceof Level _level)
-							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-					}
-				}
-			}
-			if (new Object() {
-				public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
-					AtomicInteger _retval = new AtomicInteger(0);
-					BlockEntity _ent = world.getBlockEntity(pos);
-					if (_ent != null)
-						_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-								.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
-					return _retval.get();
-				}
-			}.getAmount(world, BlockPos.containing(x, y, z), 0) > 0) {
-				for (int index1 = 0; index1 < (int) (6); index1++) {
-					if (counter1 == 0) {
-						xblock = x;
-						yblock = y + 1;
-						zblock = z;
-					}
-					if (counter1 == 1) {
-						xblock = x;
-						yblock = y - 1;
-						zblock = z;
-					}
-					if (counter1 == 2) {
-						xblock = x + 1;
-						yblock = y;
-						zblock = z;
-					}
-					if (counter1 == 3) {
-						xblock = x - 1;
-						yblock = y;
-						zblock = z;
-					}
-					if (counter1 == 4) {
-						xblock = x;
-						yblock = y;
-						zblock = z + 1;
-					}
-					if (counter1 == 5) {
-						xblock = x;
-						yblock = y;
-						zblock = z - 1;
-					}
-					if (new Object() {
-						public boolean get_coinsidencia(ItemStack item_value, int x_value, int y_value, int z_value) {
-							int cont_value_ = 0;
-							boolean get_encr = false;
-							for (int index0 = 0; index0 < (int) (new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									double slots = 0;
-									if (blockEntity instanceof Container) {
-										slots = (double) ((Container) blockEntity).getContainerSize();
-									} ;
-									return slots;
-								}
-							}.getValue(world, BlockPos.containing((int) x_value, (int) y_value, (int) z_value))); index0++) {
-								if ((item_value).getItem() == (new Object() {
-									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-										BlockEntity _ent = world.getBlockEntity(pos);
-										if (_ent != null) {
-											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-												_retval.set(capability.getStackInSlot(sltid).copy());
-											});
-										}
-										return _retval.get();
-									}
-								}.getItemStack(world, BlockPos.containing((int) x_value, (int) y_value, (int) z_value), (int) cont_value_)).getItem()) {
-									if (!get_encr) {
-										get_encr = true;
-									}
-								}
-								cont_value_ = cont_value_ + 1;
-							}
-							return get_encr;
-						}
-					}.get_coinsidencia(new ItemStack(Blocks.AIR), (int) xblock, (int) yblock, (int) zblock) || new Object() {
-						public boolean get_coinsidencia(ItemStack item_value, int x_value, int y_value, int z_value) {
-							int cont_value_ = 0;
-							boolean get_encr = false;
-							for (int index0 = 0; index0 < (int) (new Object() {
-								public double getValue(LevelAccessor world, BlockPos pos) {
-									BlockEntity blockEntity = world.getBlockEntity(pos);
-									double slots = 0;
-									if (blockEntity instanceof Container) {
-										slots = (double) ((Container) blockEntity).getContainerSize();
-									} ;
-									return slots;
-								}
-							}.getValue(world, BlockPos.containing((int) x_value, (int) y_value, (int) z_value))); index0++) {
-								if ((item_value).getItem() == (new Object() {
-									public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int sltid) {
-										AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-										BlockEntity _ent = world.getBlockEntity(pos);
-										if (_ent != null) {
-											_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-												_retval.set(capability.getStackInSlot(sltid).copy());
-											});
-										}
-										return _retval.get();
-									}
-								}.getItemStack(world, BlockPos.containing((int) x_value, (int) y_value, (int) z_value), (int) cont_value_)).getItem()) {
-									if (!get_encr) {
-										get_encr = true;
-									}
-								}
-								cont_value_ = cont_value_ + 1;
-							}
-							return get_encr;
-						}
-					}.get_coinsidencia((new Object() {
-						public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-							AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-							BlockEntity _ent = world.getBlockEntity(pos);
-							if (_ent != null)
-								_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-										.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-							return _retval.get();
-						}
-					}.getItemStack(world, BlockPos.containing(x, y, z), 0)), (int) xblock, (int) yblock, (int) zblock)) {
-						if (new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								if (blockEntity != null)
-									return blockEntity.getPersistentData().getDouble(tag);
-								return -1;
-							}
-						}.getValue(world, BlockPos.containing(x, y, z), "state") != 2 && new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos, String tag) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								if (blockEntity != null)
-									return blockEntity.getPersistentData().getDouble(tag);
-								return -1;
-							}
-						}.getValue(world, BlockPos.containing(x, y, z), "state") != 0) {
-							if (!world.isClientSide()) {
-								BlockPos _bp = BlockPos.containing(x, y, z);
-								BlockEntity _blockEntity = world.getBlockEntity(_bp);
-								BlockState _bs = world.getBlockState(_bp);
-								if (_blockEntity != null)
-									_blockEntity.getPersistentData().putDouble("state", 1);
-								if (world instanceof Level _level)
-									_level.sendBlockUpdated(_bp, _bs, _bs, 3);
-							}
-						}
-						for (int index2 = 0; index2 < (int) (new Object() {
-							public double getValue(LevelAccessor world, BlockPos pos) {
-								BlockEntity blockEntity = world.getBlockEntity(pos);
-								double slots = 0;
-								if (blockEntity instanceof Container) {
-									slots = (double) ((Container) blockEntity).getContainerSize();
-								} ;
-								return slots;
-							}
-						}.getValue(world, BlockPos.containing((int) xblock, (int) yblock, (int) zblock))); index2++) {
-							if (new Object() {
-								public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
-									AtomicInteger _retval = new AtomicInteger(0);
-									BlockEntity _ent = world.getBlockEntity(pos);
-									if (_ent != null)
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
-									return _retval.get();
-								}
-							}.getAmount(world, BlockPos.containing(xblock, yblock, zblock), (int) slot) <= 64 - ((new Object() {
-								public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-									BlockEntity _ent = world.getBlockEntity(pos);
-									if (_ent != null)
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-									return _retval.get();
-								}
-							}.getItemStack(world, BlockPos.containing(x, y, z), 0))).getCount() && (new Object() {
-								public int getAmount(LevelAccessor world, BlockPos pos, int slotid) {
-									AtomicInteger _retval = new AtomicInteger(0);
-									BlockEntity _ent = world.getBlockEntity(pos);
-									if (_ent != null)
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).getCount()));
-									return _retval.get();
-								}
-							}.getAmount(world, BlockPos.containing(xblock, yblock, zblock), (int) slot) == 0 || (new Object() {
-								public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-									BlockEntity _ent = world.getBlockEntity(pos);
-									if (_ent != null)
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-									return _retval.get();
-								}
-							}.getItemStack(world, BlockPos.containing(xblock, yblock, zblock), (int) slot)).getItem() == (new Object() {
-								public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-									AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-									BlockEntity _ent = world.getBlockEntity(pos);
-									if (_ent != null)
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-												.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-									return _retval.get();
-								}
-							}.getItemStack(world, BlockPos.containing(x, y, z), 0)).getItem())) {
-								{
-									BlockEntity _ent = world.getBlockEntity(BlockPos.containing(xblock, yblock, zblock));
-									if (_ent != null) {
-										final int _slotid = (int) slot;
-										final ItemStack _setstack = (new Object() {
-											public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-												BlockEntity _ent = world.getBlockEntity(pos);
-												if (_ent != null)
-													_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-															.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-												return _retval.get();
-											}
-										}.getItemStack(world, BlockPos.containing(x, y, z), 0));
-										_setstack.setCount((int) (((new Object() {
-											public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-												BlockEntity _ent = world.getBlockEntity(pos);
-												if (_ent != null)
-													_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-															.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-												return _retval.get();
-											}
-										}.getItemStack(world, BlockPos.containing(xblock, yblock, zblock), (int) slot))).getCount() + ((new Object() {
-											public ItemStack getItemStack(LevelAccessor world, BlockPos pos, int slotid) {
-												AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-												BlockEntity _ent = world.getBlockEntity(pos);
-												if (_ent != null)
-													_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null)
-															.ifPresent(capability -> _retval.set(capability.getStackInSlot(slotid).copy()));
-												return _retval.get();
-											}
-										}.getItemStack(world, BlockPos.containing(x, y, z), 0))).getCount()));
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-											if (capability instanceof IItemHandlerModifiable)
-												((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
-										});
-									}
-								}
-								{
-									BlockEntity _ent = world.getBlockEntity(BlockPos.containing(x, y, z));
-									if (_ent != null) {
-										final int _slotid = 0;
-										final ItemStack _setstack = new ItemStack(Blocks.AIR);
-										_setstack.setCount(1);
-										_ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
-											if (capability instanceof IItemHandlerModifiable)
-												((IItemHandlerModifiable) capability).setStackInSlot(_slotid, _setstack);
-										});
-									}
-								}
-								STOP = true;
-								break;
-							}
-							slot = slot + 1;
-						}
-						slot = 0;
-					}
-					if (STOP) {
-						break;
-					}
-					counter1 = counter1 + 1;
-					if (counter1 == 6) {
+
+					// Check if enough ticks have passed to mine a block
+					if (ticks >= 20 / speed) {
+						BlockPos minePos = BlockPos.containing(miningX, miningY, miningZ);
+						BlockState mineState = world.getBlockState(minePos);
+
 						if (!world.isClientSide()) {
-							BlockPos _bp = BlockPos.containing(x, y, z);
-							BlockEntity _blockEntity = world.getBlockEntity(_bp);
-							BlockState _bs = world.getBlockState(_bp);
-							if (_blockEntity != null)
-								_blockEntity.getPersistentData().putDouble("state", 3);
-							if (world instanceof Level _level)
-								_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+							minedBlocks++;
+							dirty = true;
+						}
+
+						boolean fullBlock = false;
+
+						// Mining Logic
+						if (mineState.getBlock() != Blocks.BEDROCK && !mineState.isAir()) {
+							fullBlock = true;
+
+							// Optimization: Use LootTables instead of spawning entities
+							if (!world.isClientSide() && world instanceof ServerLevel serverLevel) {
+								List<ItemStack> drops;
+								if (isSilk) {
+									drops = List.of(new ItemStack(mineState.getBlock()));
+								} else {
+									LootParams.Builder builder = new LootParams.Builder(serverLevel)
+											.withParameter(LootContextParams.ORIGIN, Vec3.atCenterOf(minePos))
+											.withParameter(LootContextParams.TOOL, ItemStack.EMPTY);
+									drops = mineState.getDrops(builder);
+								}
+
+								for (ItemStack drop : drops) {
+									if (drop.isEmpty()) continue;
+
+									double currentMultiplier = 1;
+									// Apply custom fortune logic from original code
+									if (!isSilk && drop.getItem() != mineState.getBlock().asItem()) {
+										if (new ItemStack(mineState.getBlock()).is(ItemTags.create(new ResourceLocation("forge:ores")))) {
+											currentMultiplier = fortuneMultiplier;
+										}
+									}
+
+									ItemStack toInsert = drop.copy();
+									toInsert.setCount((int) (toInsert.getCount() * currentMultiplier));
+
+									// Insert into internal buffer (Slot 0)
+									mainItemHandler.setStackInSlot(0, toInsert);
+								}
+
+								world.setBlock(minePos, Blocks.AIR.defaultBlockState(), 3);
+							}
+						}
+
+						// Particle Effects
+						if (world instanceof ServerLevel serverLevel) {
+							serverLevel.sendParticles(ParticleTypes.PORTAL, miningX + 0.5, miningY + 0.5, miningZ + 0.5, 5, 0.3, 0.3, 0.3, 0);
+						}
+
+						// Hole generation logic
+						if (!holeMode && fullBlock) {
+							world.setBlock(minePos, Blocks.DIRT.defaultBlockState(), 3);
+						}
+
+						// Move the Miner Coordinates
+						if (miningY >= -60) {
+							miningY--;
+						} else {
+							miningY = areaMaxY;
+							if (areaDirect1 == 1) {
+								if (miningZ > areaMaxZ) {
+									miningZ--;
+								} else {
+									miningZ = areaMinZ;
+									if (areaDirect2 == 2) {
+										if (miningX < areaMaxX) miningX++;
+										else state = 2; // Finished
+									} else if (areaDirect2 == 4) {
+										if (miningX > areaMaxX) miningX--;
+										else state = 2; // Finished
+									}
+								}
+							} else if (areaDirect1 == 3) {
+								if (miningZ < areaMaxZ) {
+									miningZ++;
+								} else {
+									miningZ = areaMinZ;
+									if (areaDirect2 == 2) {
+										if (miningX < areaMaxX) miningX++;
+										else state = 2; // Finished
+									} else if (areaDirect2 == 4) {
+										if (miningX > areaMaxX) miningX--;
+										else state = 2; // Finished
+									}
+								}
+							}
+						}
+						ticks = 0;
+					}
+				}
+			}
+		}
+
+		// 4. Batch write changes to NBT (Done once per tick)
+		if (dirty) {
+			data.putDouble("ticks", ticks);
+			data.putDouble("minedblocks", minedBlocks);
+			data.putDouble("xcoord", miningX);
+			data.putDouble("ycoord", miningY);
+			data.putDouble("zcoord", miningZ);
+			data.putDouble("state", state);
+
+			if (!world.isClientSide() && world instanceof Level level) {
+				level.sendBlockUpdated(mainPos, world.getBlockState(mainPos), world.getBlockState(mainPos), 3);
+			}
+		}
+
+		// 5. Output items to adjacent inventories
+		if (mainItemHandler.getStackInSlot(0).getCount() > 0) {
+			BlockPos[] adjacents = {
+					mainPos.above(), mainPos.below(),
+					mainPos.east(), mainPos.west(),
+					mainPos.south(), mainPos.north()
+			};
+
+			boolean stop = false;
+			for (int i = 0; i < 6; i++) {
+				BlockEntity targetBe = world.getBlockEntity(adjacents[i]);
+				if (targetBe != null) {
+					IItemHandlerModifiable targetHandler = (IItemHandlerModifiable) targetBe.getCapability(ForgeCapabilities.ITEM_HANDLER, null).orElse(null);
+
+					if (targetHandler != null) {
+						ItemStack sourceStack = mainItemHandler.getStackInSlot(0);
+
+						// Try to insert into neighbor
+						for (int slot = 0; slot < targetHandler.getSlots(); slot++) {
+							ItemStack targetStack = targetHandler.getStackInSlot(slot);
+
+							if (targetStack.isEmpty() || (targetStack.getItem() == sourceStack.getItem() && targetStack.getCount() < targetStack.getMaxStackSize())) {
+								int space = Math.min(targetStack.getMaxStackSize(), 64) - targetStack.getCount();
+								int toAdd = Math.min(space, sourceStack.getCount());
+
+								if (toAdd > 0) {
+									if (state != 2 && state != 0 && !world.isClientSide()) {
+										data.putDouble("state", 1);
+										// Update state immediately if we resumed working
+										if (world instanceof Level level) level.sendBlockUpdated(mainPos, world.getBlockState(mainPos), world.getBlockState(mainPos), 3);
+									}
+
+									ItemStack copy = sourceStack.copy();
+									copy.setCount(targetStack.getCount() + toAdd);
+									targetHandler.setStackInSlot(slot, copy);
+
+									sourceStack.shrink(toAdd);
+									mainItemHandler.setStackInSlot(0, sourceStack.isEmpty() ? ItemStack.EMPTY : sourceStack);
+
+									if (sourceStack.isEmpty()) {
+										stop = true;
+										break;
+									}
+								}
+							}
 						}
 					}
+				}
+				if (stop) break;
+
+				// If loop finishes (index 5) without success, set state to "Full/Blocked" (3)
+				if (i == 5 && !world.isClientSide()) {
+					data.putDouble("state", 3);
+					if (world instanceof Level level) level.sendBlockUpdated(mainPos, world.getBlockState(mainPos), world.getBlockState(mainPos), 3);
 				}
 			}
 		}
