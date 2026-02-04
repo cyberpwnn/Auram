@@ -122,7 +122,7 @@ _version = 3
 		# This can be used to reduce CPU usage if the thread count 
 		# is already set to 1 for the given option, or more finely 
 		# tune CPU performance.
-		threadRunTimeRatio = "0.5"
+		threadRunTimeRatio = "0.1"
 		#
 		# What Java thread priority should DH's primary thread pools run with? 
 		# 
@@ -242,7 +242,7 @@ _version = 3
 		generationMaxChunkRadius = 0
 		#
 		# How often should the distant generator progress be displayed?
-		generationProgressDisplayIntervalInSeconds = 2
+		generationProgressDisplayIntervalInSeconds = 5
 		#
 		# When logging generation progress also include the rate at which chunks 
 		# are being generated. 

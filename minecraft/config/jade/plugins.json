@@ -51,41 +51,21 @@
     "painting": true,
     "chiseled_bookshelf": true
   },
-  "compactmachines": {
-    "machine": true,
-    "tunnel": true
-  },
-  "midnight": {
-    "traditional_age": true,
-    "nightstag": true
+  "jadeaddons.create": {
+    "filter": true,
+    "backtank_capacity": true,
+    "goggles.requires_goggles": true,
+    "goggles": false,
+    "blaze_burner": true,
+    "exact_block": true,
+    "goggles.detailed": false,
+    "placard": true
   },
   "jadeaddons.mcjtylib": {
     "jadeaddons": true
   },
-  "mana_jade": {
-    "mana_pool_storage": true,
-    "runic_altar_recipe_progress": true,
-    "mana_spreader_burst_info": true,
-    "pure_daisy_recipe_progress": true,
-    "mana_pool_catalyst": true,
-    "special_flower_storage": true,
-    "mana_spreader_storage": true,
-    "terra_plate_recipe_progress": true
-  },
-  "pneumaticcraft": {
-    "pneumatic": true,
-    "tube_module": true,
-    "entity": true,
-    "redstone": true,
-    "camo": true,
-    "semiblock": true
-  },
   "immersiveengineering": {
     "multiblock_icon": true
-  },
-  "extrastorage": {
-    "crafter": true,
-    "advanced_crafter": true
   },
   "jade": {
     "coordinates.rel": false,
@@ -94,22 +74,6 @@
     "coordinates": false,
     "registry_name": "OFF",
     "mod_name": true
-  },
-  "apotheosis": {
-    "adventure": true,
-    "ench": true,
-    "spawner": true
-  },
-  "balm": {
-    "jade": true
-  },
-  "integrateddynamicscompat": {
-    "proxy": true,
-    "mechanical_squeezer": true,
-    "mechanical_drying_basin": true,
-    "drying_basin": true,
-    "part": true,
-    "squeezer": true
   },
   "custommachinery": {
     "machine_component_provider": true
@@ -141,15 +105,12 @@
     "advanced_auto_table": true,
     "compressor": true
   },
-  "ars_nouveau": {
-    "mob_jar": true
-  },
   "tesseract": {
     "tesseract": true,
     "remove_default": true
   },
-  "jadeaddons": {
-    "equipment_requirement": ""
+  "create_mechanical_spawner": {
+    "spawner_data": true
   },
   "projecte": {
     "emc_provider": true
@@ -164,16 +125,65 @@
     "energy": true,
     "tooltip_renderer": true
   },
-  "pipez": {
-    "pipe": true
+  "waystones": {
+    "waystone": true
+  },
+  "compactmachines": {
+    "machine": true,
+    "tunnel": true
+  },
+  "midnight": {
+    "traditional_age": true,
+    "nightstag": true
+  },
+  "mana_jade": {
+    "mana_pool_storage": true,
+    "runic_altar_recipe_progress": true,
+    "mana_spreader_burst_info": true,
+    "pure_daisy_recipe_progress": true,
+    "mana_pool_catalyst": true,
+    "special_flower_storage": true,
+    "mana_spreader_storage": true,
+    "terra_plate_recipe_progress": true
+  },
+  "pneumaticcraft": {
+    "pneumatic": true,
+    "tube_module": true,
+    "entity": true,
+    "redstone": true,
+    "camo": true,
+    "semiblock": true
+  },
+  "extrastorage": {
+    "crafter": true,
+    "advanced_crafter": true
+  },
+  "apotheosis": {
+    "adventure": true,
+    "ench": true,
+    "spawner": true
+  },
+  "balm": {
+    "jade": true
+  },
+  "integrateddynamicscompat": {
+    "proxy": true,
+    "mechanical_squeezer": true,
+    "mechanical_drying_basin": true,
+    "drying_basin": true,
+    "part": true,
+    "squeezer": true
+  },
+  "ars_nouveau": {
+    "mob_jar": true
+  },
+  "jadeaddons": {
+    "equipment_requirement": ""
   },
   "aether_redux": {
     "logicator": true
   },
   "twilightforest": {
     "quest_ram_wool": true
-  },
-  "waystones": {
-    "waystone": true
   }
 }

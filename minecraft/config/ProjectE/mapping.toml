@@ -301,3 +301,67 @@
 		#ProjectE-Integration Recipe Mapper for Immersive Engineering Alloy Mapper. Required Mods: [immersiveengineering]
 		enabled = true
 
+	[CraftingMapper.FarmersDelightCuttingBoardMapper]
+		#ProjectE-Integration Recipe Mapper for Farmers Delight Cutting Board Mapper. Required Mods: [farmersdelight]
+		enabled = true
+
+	[CraftingMapper.FarmersDelightCookingPotMapper]
+		#ProjectE-Integration Recipe Mapper for Farmers Delight Cooking Pot Mapper. Required Mods: [farmersdelight]
+		enabled = true
+
+	[CraftingMapper.CreateSplashingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Splashing Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateSequencedAssemblyMapper]
+		#ProjectE-Integration Recipe Mapper for Create Sequenced Assembly Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateSandpaperPolishingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Sandpaper Polishing Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreatePressingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Pressing Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateCUTTINGMapper]
+		#ProjectE-Integration Recipe Mapper for Create CUTTINGMapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateMillingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Milling Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateMechanicalCraftingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Mechanical Crafting Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateItemApplicationMapper]
+		#ProjectE-Integration Recipe Mapper for Create Item Application Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateHauntingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Haunting Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateDeployerApplicationMapper]
+		#ProjectE-Integration Recipe Mapper for Create Deployer Application Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateCuttingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Cutting Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateCrushingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Crushing Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateCompactingMapper]
+		#ProjectE-Integration Recipe Mapper for Create Compacting Mapper. Required Mods: [create]
+		enabled = true
+
+	[CraftingMapper.CreateBASINMapper]
+		#ProjectE-Integration Recipe Mapper for Create BASINMapper. Required Mods: [create]
+		enabled = true
+

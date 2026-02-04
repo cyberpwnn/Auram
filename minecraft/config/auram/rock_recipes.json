@@ -223,6 +223,10 @@
     "drop": "crystalcraft_unlimited_java:quicksilver_ore",
     "count": 1
   },
+  "auram:natures_spirit_chert_copper_rock": {
+    "drop": "minecraft:raw_copper",
+    "count": 5
+  },
   "auram:crystalcraft_unlimited_java_carnotite_rock": {
     "drop": "crystalcraft_unlimited_java:raw_carnotite",
     "count": 1
@@ -391,6 +395,10 @@
     "drop": "minecraft:gold_nugget",
     "count": 6
   },
+  "auram:natures_spirit_chert_coal_rock": {
+    "drop": "minecraft:coal",
+    "count": 1
+  },
   "auram:lapis_rock": {
     "drop": "minecraft:lapis_lazuli",
     "count": 9
@@ -548,7 +556,7 @@
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_zinc_rock": {
-    "drop": "crystalcraft_unlimited_java:raw_zinc",
+    "drop": "create:raw_zinc",
     "count": 1
   },
   "auram:deeperdarker_sculk_stone_gold_rock": {
@@ -631,6 +639,10 @@
     "drop": "crystalcraft_unlimited_java:medusa_quartz",
     "count": 1
   },
+  "auram:natures_spirit_chert_gold_rock": {
+    "drop": "minecraft:raw_gold",
+    "count": 1
+  },
   "auram:immersiveengineering_deepslate_rock_lead": {
     "drop": "thermal:raw_lead",
     "count": 1
@@ -678,6 +690,10 @@
   "auram:crystalcraft_unlimited_java_silver_rock": {
     "drop": "thermal:raw_silver",
     "count": 1
+  },
+  "auram:natures_spirit_chert_redstone_rock": {
+    "drop": "minecraft:redstone",
+    "count": 5
   },
   "auram:crystalcraft_unlimited_java_indium_rock": {
     "drop": "crystalcraft_unlimited_java:raw_indium",
@@ -783,12 +799,16 @@
     "drop": "malum:blazing_quartz",
     "count": 1
   },
-  "auram:mekanism_deepslate_osmium_rock": {
-    "drop": "mekanism:raw_osmium",
+  "auram:natures_spirit_chert_diamond_rock": {
+    "drop": "minecraft:diamond",
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_catseye_rock": {
     "drop": "crystalcraft_unlimited_java:catseye",
+    "count": 1
+  },
+  "auram:mekanism_deepslate_osmium_rock": {
+    "drop": "mekanism:raw_osmium",
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_rare_amethyst_rock": {
@@ -979,6 +999,10 @@
     "drop": "thermal:raw_lead",
     "count": 1
   },
+  "auram:natures_spirit_chert_iron_rock": {
+    "drop": "minecraft:raw_iron",
+    "count": 1
+  },
   "auram:crystalcraft_unlimited_java_hackmantite_rock": {
     "drop": "crystalcraft_unlimited_java:hackmantite",
     "count": 1
@@ -1015,6 +1039,10 @@
     "drop": "crystalcraft_unlimited_java:ametrine",
     "count": 1
   },
+  "auram:create_deepslate_zinc_rock": {
+    "drop": "create:raw_zinc",
+    "count": 1
+  },
   "auram:crystalcraft_unlimited_java_scandium_rock": {
     "drop": "crystalcraft_unlimited_java:raw_scandium",
     "count": 1
@@ -1034,6 +1062,10 @@
   "auram:deepslate_copper_rock": {
     "drop": "minecraft:raw_copper",
     "count": 5
+  },
+  "auram:create_zinc_rock": {
+    "drop": "create:raw_zinc",
+    "count": 1
   },
   "auram:mekanism_lead_rock": {
     "drop": "thermal:raw_lead",
@@ -1064,7 +1096,7 @@
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_zircon_rock": {
-    "drop": "crystalcraft_unlimited_java:zircon_11",
+    "drop": "crystalcraft_unlimited_java:zircon_3",
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_larimar_rock": {
@@ -1073,6 +1105,10 @@
   },
   "auram:evolvedmekanism_depthrock_osmium_rock": {
     "drop": "mekanism:raw_osmium",
+    "count": 1
+  },
+  "auram:natures_spirit_chert_emerald_rock": {
+    "drop": "minecraft:emerald",
     "count": 1
   },
   "auram:crystalcraft_unlimited_java_red_diamond_rock": {
@@ -1199,6 +1235,10 @@
     "drop": "crystalcraft_unlimited_java:raw_orichalcum",
     "count": 1
   },
+  "auram:create_new_age_thorium_rock": {
+    "drop": "create_new_age:thorium",
+    "count": 1
+  },
   "auram:iceandfire_deepslate_silver_rock": {
     "drop": "thermal:raw_silver",
     "count": 1
@@ -1222,6 +1262,10 @@
   "auram:crystalcraft_unlimited_java_deepslate_zirconium_rock": {
     "drop": "crystalcraft_unlimited_java:raw_zirconium",
     "count": 1
+  },
+  "auram:natures_spirit_chert_lapis_rock": {
+    "drop": "minecraft:lapis_lazuli",
+    "count": 9
   },
   "auram:crystalcraft_unlimited_java_palintinium_rock": {
     "drop": "crystalcraft_unlimited_java:raw_palintinium",
