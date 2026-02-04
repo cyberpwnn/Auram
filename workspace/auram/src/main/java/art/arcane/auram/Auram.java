@@ -1,5 +1,6 @@
 package art.arcane.auram;
 
+import art.arcane.auram.commands.AuramCommands;
 import art.arcane.auram.enchantment.ChiselEnchantment;
 import art.arcane.auram.item.*;
 import art.arcane.auram.loot.RockLootModifier;
@@ -16,10 +17,12 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.enchantment.Enchantment;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.entity.BlockEntityType;
+import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.loot.IGlobalLootModifier;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.registries.*;
 import org.slf4j.Logger;
@@ -45,11 +48,16 @@ public class Auram {
     public static final RegistryObject<Item> JOURNEY_MAP = ITEMS.register("journey_map", JourneyMap::new);
     public static final RegistryObject<Item> ENDER_JADE = ITEMS.register("ender_jade", EnderJade::new);
     public static final RegistryObject<Item> ROCK_CRATE = ITEMS.register("rock_catalyst", RockCatalyst::new);
+    public static final RegistryObject<Item> GEAR = ITEMS.register("gear", GearItem::new);
+    public static final RegistryObject<Item> PLATE = ITEMS.register("plate", PlateItem::new);
+    @SuppressWarnings("rawtypes")
+    public static final RegistryObject[] COMPONENTS = new RegistryObject[]{GEAR, PLATE};
     public static final RegistryObject<Codec<RockLootModifier>> ROCK_MODIFIER = LOOT_MODIFIERS.register("rock_drops", RockLootModifier.CODEC);
     public static final Map<Item, Block> ROCK_ITEM_TO_ORE_BLOCK = new HashMap<>();
     public static final Map<ResourceLocation, ResourceLocation> ORE_BLOCK_ID_TO_ROCK_ID = new HashMap<>();
     public static final List<ResourceLocation> GENERATED_ROCKS = new ArrayList<>();
     public static final RegistryObject<Enchantment> CHISEL = ENCHANTMENTS.register("chisel", ChiselEnchantment::new);
+    
     public static final RegistryObject<CreativeModeTab> AURAM_TAB = CREATIVE_TABS.register("auram_tab", () -> CreativeModeTab.builder()
             .title(Component.literal("Auram"))
             .icon(() -> new ItemStack(ENDER_JADE.get()))
@@ -79,7 +87,9 @@ public class Auram {
         LOOT_MODIFIERS.register(modEventBus);
         RecipeCache.load();
         modEventBus.register(this);
-    }
+        context.registerConfig(ModConfig.Type.COMMON, AuramConfig.COMMON_SPEC);
+        MinecraftForge.EVENT_BUS.register(new AuramCommands());
+    } 
 
     @SubscribeEvent
     public void onRegister(RegisterEvent event) {

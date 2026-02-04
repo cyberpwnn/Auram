@@ -6,16 +6,60 @@ import net.minecraft.client.resources.model.BakedModel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.packs.resources.Resource;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
 import com.mojang.blaze3d.platform.NativeImage;
 
+import java.awt.*;
 import java.io.IOException; 
 import java.io.InputStream;
 import java.util.Optional;
 
 public class ColorHelper {
 
+    public static int computeColorFor(Item item) {
+        if (item == null) return -1;
+
+        try {
+            ItemStack stack = new ItemStack(item);
+            var model = Minecraft.getInstance().getItemRenderer().getModel(stack, null, null, 0);
+            TextureAtlasSprite sprite = model.getParticleIcon();
+            if (sprite == null || sprite.contents() == null) return -1;
+            int width = sprite.contents().width();
+            int height = sprite.contents().height();
+            long r = 0, g = 0, b = 0;
+            int count = 0;
+            for (int x = 0; x < width; x++) {
+                for (int y = 0; y < height; y++) {
+                    // Get pixel color (ABGR format usually)
+                    int pixel = sprite.getPixelRGBA(0, x, y);
+
+                    // Check alpha (transparency)
+                    int alpha = (pixel >> 24) & 0xFF;
+                    if (alpha < 20) continue; // Skip transparent pixels
+
+                    // Extract RGB
+                    int blue = (pixel >> 16) & 0xFF;
+                    int green = (pixel >> 8) & 0xFF;
+                    int red = (pixel) & 0xFF;
+
+                    r += red;
+                    g += green;
+                    b += blue;
+                    count++;
+                }
+            }
+
+            if (count == 0) return -1;
+
+            return new Color((int)(r/count), (int)(g/count), (int)(b/count)).getRGB();
+
+        } catch (Exception e) {
+            return -1;
+        }
+    }
     public static int getDominantColor(Block block) {
         BlockState state = block.defaultBlockState();
         BakedModel model = Minecraft.getInstance().getBlockRenderer().getBlockModel(state);
