@@ -12,4 +12,5 @@ ServerEvents.recipes((event) => {
     event.recipes.botania.mana_infusion("botania:manasteel_ingot", "thermal:steel_ingot", 10000);
     event.recipes.botania.mana_infusion("appbot:mana_cell_housing", "ae2:fluid_cell_housing", 100000);
     event.recipes.botania.mana_infusion("immersiveengineering:ingot_uranium", "botania:manasteel_ingot", 100000, "twilightforest:fiery_block");
+    event.recipes.botania.mana_infusion("mystcraft:booster", "minecraft:book", 100000, "midnight:dark_pearl_block");
 });
