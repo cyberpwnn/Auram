@@ -5,6 +5,5 @@ Specification-Version: 1
 Implementation-Title: auram
 Implementation-Version: 1.0.0
 Implementation-Vendor: cyberpwn
-Implementation-Timestamp: 2026-02-01T03:31:48-0600
-MixinConfigs: mixins.auram.json
+Implementation-Timestamp: 2026-02-04T02:17:32-0600
 
