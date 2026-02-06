@@ -40,3 +40,5 @@ workspace/auram mcreator/
 minecraft/journeymap/server/
 
 workspace/auram/extra-mods-1.20.1/thermal_foundation-1.20.1-11.0.6.70/
+
+.DS_Store
